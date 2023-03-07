@@ -1,0 +1,54 @@
+//EVIL
+@0 = ~Vaya, vaya... Capitán, esperaba una bienvenida más cálida... después de todo, te has hecho más poderoso gracias a nosotros...~
+@1 = ~~
+@2 = ~Supongo que te refieres al orbe escarlata de Sornhil.~
+@3 = ~Quizás deba agradecerles, mago. ¿Qué te parece tu corazón empalado en mi espada como símbolo de agradecimiento?~
+@4 = ~(risa) No sé si esa actitud se deba al orbe o a tu extensa compañía junto a un engendro de Bhaal.~
+@5 = ~No mereces mi paciencia, fenónemo de circo... Sin embargo, hoy me siento amable: Soy Valatar, el Conjurador.~
+@6 = ~Vayamos a asuntos más interesantes: Sé muy bien qué haces aquí, capitán. Debo decir que comparto tu amor por la venganza. Es... un sentimiento único cuando al fin logras realizarla.~
+@7 = ~Tu opinión me importa muy poco, conjurador. Dime, ¿qué es lo que quieres? Tu vida depende de la respuesta que vayas a dar.~
+@8 = ~Fui enviado por mi Orden. Tenemos planes para ti y tu... líder.~
+@9 = ~Estamos muy interesados en el resultado del combate que se avecina entre tu grupo y el de Alabarza.~
+@10 = ~¿Cómo es que saben tanto de nuestros movimientos? Creo que no eres diferente a tu compañero Sornhil. Parece que disfrutan de escuchar su propia voz, aún cuando esté más vacía que una esponja seca.~
+@11 = ~Te lo aseguro, capitán... mi voz es de temer...~
+@12 = ~¡Pero basta! Fui enviado para darte algo. Me dijeron específicamente que no debía intentar... matarte.~
+@13 = ~Sin embargo, tengo mucha curiosidad para ver cuál es el límite del orbe escarlata. Es por eso que... he preparado un... diabólico enfrentamiento.~
+@14 = ~Capitán Aldant... de seguro habremos de encontrarnos una vez más... si es que sobrevives, claro. ¡Ja, ja, ja!~
+@15 = ~YO no he de matarte... en eso, cumplo con mi Orden... Sin embargo, no dijeron nada de mis... convocaciones.~
+@16 = ~¡Lo sabía! Cuidado, <CHARNAME>. Creo que estamos ante una contingencia arcana.~
+
+//GOOD
+@17 = ~Vaya, vaya... si es el Capitán Aldant y su inseparable camarada, <CHARNAME>...~
+@18 = ~¿Qué es lo que buscas, mago? He rechazado el poder que tu amigo ha intentado ofrecerme.~
+@19 = ~Tus sucios trucos no funcionarán conmigo... y te lo advierto... si intentas algo, no dudaré en separar la cabeza de tu cuerpo con mi espada.~
+@20 = ~(risa) Aunque no me impresionas, tu actitud sí. ¿Quizás se deba a tu extensa compañía junto a un engendro de Bhaal?~
+@21 = ~Dado que no os considero una verdadera amenaza, os lo diré: Soy Valatar, el Conjurador.~
+@22 = ~¿Y qué haces aquí, Valatar? Claramente, nos estás siguiendo. ¡Vamos, habla!~
+@23 = ~Hmpf... esto ya no es divertido...~
+@24 = ~Verás, mi Orden se encuentra muy interesada en tu inminente enfrentamiento contra Alabarza y su clan.~
+@25 = ~Si logras vencerlos, aún podrías recuperar tu honor como Primera Espada en el Ejército de Cormyr, ¿no lo crees?~
+@26 = ~¿Q-qué...?~
+@27 = ~Si hubieses aceptado el poder del orbe escarlata, esa no sería una preocupación para ti.~
+@28 = ~El orbe habría despertado una fuerza descomunal en ti. Te habrías sentido tan poderoso como un dragón.~
+@29 = ~Pero... en cambio, avanzas como un lobo, dependiendo del impulso de tu manada.~
+@30 = ~Llegado el momento, capitán... verás lo poco que puede hacer una manada de animales salvajes en contra de una verdadera fuerza de poder.~
+@31 = ~Intentas intimidarme, Valatar... quizás aún en mi ignorancia sobre tu Orden, podría sentirme dubitativo.~
+@32 = ~Pero cuento con la lealtad de mis amigos; Mathyus, Michelson, <CHARNAME>.~
+@33 = ~El miedo no es un arma que puedas usar contra mí.~
+@34 = ~¡Ja! Eso está por verse, cormyreano.~
+@35 = ~Me enviaron sólo a observar... se supone que no debo matarlos.~
+@36 = ~Pero no dijeron nada de mis convocaciones.~
+@37 = ~~
+@38 = ~~
+@39 = ~~
+
+
+
+
+@210020 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Durante el viaje hacia el Túmulo de los Trolls, otro mago nos interceptó. Esta vez, se trataba de Valatar, el Conjurador. En un principio, pretendía obtener agradecimientos por parte de Dusk por aumentar su poder gracias al orbe escarlata. Dusk, sin embargo, le amenazó de muerte, por lo que el Conjurador llamó a un poderoso demonio abisal para acabar con nosotros.~
+
+@210022 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Durante el viaje hacia el Túmulo de los Trolls, otro mago nos interceptó. Esta vez, se trataba de Valatar, el Conjurador. Luego de un breve intercambio de palabras en las que Valatar declaró el poder que desperdició Dusk al rechazar el orbe escarlata, éste decidió enviar a un demonio abisal para acabar con nosotros.~

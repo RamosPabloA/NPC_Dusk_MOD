@@ -1,0 +1,40 @@
+@0    = ~Cufa: Hm, Cufa tener hambre. Ver a ti dar a Cufa más hambre.
+Tima: Cufa, recuerda que estamos a dieta. Oye, forastero, será mejor que hables con nuestra líder mientras yo convenzo a mi amigo de que no te coma, ¿sí?~ ~Cufa: Hm, Cufa tener hambre. Verte a ti dar a Cufa más hambre.
+Tima: Cufa, recuerda que estamos a dieta. Oye, forastera, será mejor que hables con nuestra líder mientras yo convenzo a mi amigo de que no te coma, ¿sí?~
+@1    = ~Cufa: Hm, Cufa tener hambre. Ver a ti dar a Cufa más hambre.
+Tima: Cufa, recuerda que estamos a dieta. Oye, forastero, será mejor que hables con nuestro líder mientras yo convenzo a mi amigo de que no te coma, ¿sí?~ ~Cufa: Hm, Cufa tener hambre. Verte a ti dar a Cufa más hambre.
+Tima: Cufa, recuerda que estamos a dieta. Oye, forastera, será mejor que hables con nuestro líder mientras yo convenzo a mi amigo de que no te coma, ¿sí?~
+@2    = ~Cufa: ¡Ah, al fin Cufa poder comer! Ser divertido, ¿verdad, Tima?~
+@3    = ~Tima: Cufa, no estoy tan seguro de ello... recuerda que nuestro deseo por la beligerancia ha dejado de existir... Combatir una vez más con estos seres conscientes... puede que signifique nuestro fin...~
+@4    = ~Tima: Pero no tenemos otra opción. Nuestra líder ha intentado negociar... pero al no llegar a buenos términos... un combate nos espera por delante. ¡Vamos, hermano! Tenemos enemigos qué pisotear.~
+@5    = ~Cufa: Pisotear humanos... ¡eso ser siempre divertido!~
+@6    = ~Cufa: Cufa pensar que Coco deber dejar de consumir hongos. Hablar cosas que no tener sentido.~
+@7    = ~Tima: Coco tiene razón. A tal punto que ha logrado convencer a mi hermano de dejar de alimentarse de humanos. Estamos tratando de vivir en paz. Tratando de encontrar un hogar.~
+@8    = ~Cufa: *suspiro* Yo extrañar comer humanos...~
+@9    = ~Tima: Al parecer, nos encontramos en una encrucijada. No tenemos forma de probar nuestra inocencia...~
+@10   = ~Tima: Pero tampoco tienes forma de probar nuestra culpabilidad, cormyreano.~
+@11   = ~Cufa: Hmmm... cormyreano. ¿Eso ser comida?~
+@12   = ~Tima: *susurro* Depende, hermano. Depende de lo que responda el humano...~
+@13   = ~Tima: Oh, Coco... no me digas que el objeto está maldito...~
+@14   = ~Cufa: ¿Escudo lila maldito? Lástima, a Cufa gustar ver escudo brillante.~
+@15   = ~Cufa: ¿Dusk? A Cufa gustar nombre. Fácil de recordar.~
+@16   = ~Tima: ¿Has escuchado eso, Cufa? Pronto tendremos un hogar. No lo puedo creer.~
+@17   = ~Cufa: Cufa escuchar bien, Tima. Cufa estar contento por nuevo hogar. Cufa llorar de la emoción.~
+@18   = ~Tima: Cufa y yo estamos muy agradecido, forastero. ¿Verdad, Cufa?~
+@19   = ~Cufa: Tima tener razón. Cufa esperar vivir a base de alimento sano a partir de ahora.~
+@20   = ~Tima: Eso, viniendo de ti, hermano, es mucho decir.~
+@21   = ~Cufa: Cufa ayudar a pisotear ogro mago. Cufa luchar al lado de humanos.~
+@22   = ~Tima: Supongo que no tengo más opción que seguirte, Cufa.~
+@23   = ~Tima: ¡Vaya, pero si nos visitan nuestros amigos! Mira, Cufa, ha venido <CHARNAME>.~
+@24   = ~Cufa: ¿Uh? Perdonar, Pequeño Dormilón estar hambriento otra vez. Cufa buscar hieno para Pequeño Dormilón.~
+@25   = ~Tima: ¡Cufa! Ya has alimentado a Pequeño Dormilón hace unas horas, déjalo descansar un momento. Puedes encargarte de Pequeño Saltarín, él sí parece hambriento.~
+@26   = ~Cufa: Pequeño Saltarín estar a dieta. ¿Ver que está gordo? Tima querer hacer engordar a todos.~
+@27   = ~Tima: Hermano, estás diciendo tonterías. Yo fui el que te puso a dieta, ¿recuerdas? Hace ya mucho tiempo que no comes más que frutas y verduras.~
+@28   = ~Tima: Erhm... Perdón, <CHARNAME>. Como verás, estamos asignados a los establos. La verdad es que es una tarea que nos agrada bastante. Especialmente a Cufa. Mi hermano mayor se ha encariñado bastante con los caballos.~
+@29   = ~Cufa: Cufa ser feliz con nuevo hogar. Estar agradecido con Dusk y <CHARNAME>. Cufa querer a sus amigos y a los caballos.~
+
+
+
+@210008 = ~Dusk Aldant: Los renegados de Sothillis
+
+Encontramos al grupo de humanoides que, aparantemente, eran responsables del ataque al destacamento de Dusk. Por alguna razón, éstos insistieron en que eran inocentes, pero encontramos que portaban un escudo roto púrpura con la insignia de los Dragones Púrpuras de Cormyr. Dusk no dudó y les atacó.~

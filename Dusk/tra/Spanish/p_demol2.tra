@@ -1,0 +1,44 @@
+
+// 
+@0 = ~(Un portal trae a Demoledor consigo y, en su pose de batalla, emite sus inusuales y acostumbrados ladridos.)~ [P_Demo01]
+
+@1 = ~(Pese a oír las palabras de Dusk, Demoledor mantiene su vista fija en los magos)~
+@2 = ~Genial, el saco de pulgas vino en nuestra ayuda. ¿Se supone que debemos confiar en que nos sea de utilidad? ¡Lo más probable es que nos estorbe!~
+@3 = ~¡Demoledor! No sabes cuánto me alegra verte aquí.~
+@4 = ~Espero que estés listo para la batalla, mi peludo amigo. Estos magos parecen ser cosa seria.~
+@5 = ~(Ves cómo su lomo se eriza sutilmente, claramente ofendido por tus comentarios)~ [P_Demo02]
+@6 = ~(Demoledor mueve la cola sutilmente ante las palabras de <CHARNAME>)~ [P_Demo02]
+@7 = ~(El can centra su mirada en Mathyus)~
+@8 = ~(Demoledor dirige su mirada hacia el grupo de <CHARNAME>)~
+@9 = ~(Demoledor se lanza al ataque de una manera sorpresiva. La batalla ha comenzado...)~
+@10 = ~Lo lamento, Demole... Mathyus está siendo controlado por uno de nuestros enemigos... No tenemos otra opción más que... derrotarlo.~
+@11 = ~(Demoledor ladra directamente a Mathyus esperando, quizás, a volverlo en sí)~
+@12 = ~(Mathyus no reacciona ante esto. Claramente, el hechizo de Sornhil ha calado en lo más profundo de su mente)~
+@13 = ~Capitán... si crees que esa... bestia hará alguna diferencia... estás a punto de descubrir lo equivocado que estás.~
+@14 = ~¡<CHARNAME>! Haces mal en subestimar a una criatura de Shilmista. Además, toda ayuda nos es bienvenida.~
+@15 = ~No le hagas caso, Demoledor, <CHARNAME> no ha tenido el mejor de sus días.~
+@16 = ~¡¿Demoledor?! ¡Finalmente has llegado!~
+
+@27 = ~No desesperes, mi querido amigo peludo. Minsc, Bubú y Dusk harán lo posible para vencer a los malos y lograr que tu dueño vuelva a tu lado. ¡A sus ojos, Bubú!~
+@28 = ~Por Baervan, ustedes nigromantes no llegarán lejos. Quayle así lo querría. ¡Estoy lista!~
+@29 = ~<CHARNAME>, Dusk... es un honor estar a su lado. Nuestra victoria aquí honrará a los caídos. ¡Por Torm, acabaré con ustedes!~
+@30 = ~Tranquilo, perrito. Pese a que tu amigo elfo caiga en batalla, estoy segura de que Michelson podrá traerlo de vuelta. Por ahora, debemos concentrarnos en ganar.~
+@31 = ~Al fin podremos destajar a estos malnacidos hechiceros. ¡Dusk, déjame a ese petulante Encantador!~
+@32 = ~¿Cuántos inocentes han caído por culpa de estos nigromantes? Es hora de ajustar cuentas. ¡La magia no debe ser inherentemente malvada, os lo demostraré!~
+@33 = ~La muerte viviente es una afrenta a la naturaleza, Anthagar... por eso es que en nombre de Silvanus, tu camino llega hasta aquí. ¡Por los caídos!~
+@34 = ~¡Vuestra abominación acaba aquí, hechicero! Rugiremos como el vendaval de primavera y nuestros actos harán eco incluso en las penumbras de este páramo antinatural. Vamos, pequeño Demoledor. ¡A la batalla!~
+@35 = ~Demoledor, Dusk, será un honor luchar a vuestro lado. ¡No permitiré que surja otro Lavok en Amn! ¡A combatir!~
+@36 = ~Estos "faern" están locos. Será un deleite derrotarlos para ti, Dusk. Y serán una hermosa ofrenda a Shar.~
+@37 = ~Finalmente, hombre del palito. ¡Mi momento de brillar ha llegado! Estos magos de pacotilla sabrán que no deben cruzar a Edwin Odesseiron (Os lo demostraré...).~
+@38 = ~¡Basta de cháchara! Es hora de partir cabezas con mi hacha. Patas largas, déjame a ese mago elfo afeminado. Su cabeza será un hermoso trofeo.~
+@39 = ~Bueno, supongo que no querrás que te cuente una historia antes de una batalla, ¿no?~
+@40 = ~Has adivinado, mi inteligente amigo. Prometo comprarte cerveza de nabos cuando esto termine.~
+@41 = ~Eso me gusta, Duskito. Eso me gusta. Ahora, manos a la obra: hay humanos que deben probar la efectividad de mi ballesta.~
+@42 = ~¡Vaya, vaya! Combates así he tenido en otros planos, mi buen canario blanco. Pero no de este calibre. ¡Esto será digno de componer una o dos canciones!~
+@43 = ~¡Muy bien, Dusk! Haré lo que pueda para ayudarte. Sólo recuerda que me debes algunas galletas de esas que sueles comprar cuando todo esto termine, ¿sí?~
+@44 = ~Ha llegado la hora, soldado... y hablando de soldados... He logrado encantar a un par de guardias de Amn y un Encapuchado... Son de la élite, como verás en tan sólo unos segundos...~
+@45 = ~Capitán, vengaré a Puki. Verás cómo aún tengo algunos fieles servidores bajo mi tutela... están... detrás... de ti... ¡Ja, ja, ja!~
+@46 = ~Finalmente... para esta ocasión acudiré a una transformación especial... será algo único...~
+@47 = ~No importa cuántos amigos tengas, Ardusk Aldant. Caerás... ¡todos caerán! Y finalmente... podrás reunirte con tu amada Celine... ¡en el Infierno que he creado para ustedes!~
+@48 = ~Esto no es venganza, Anthagar... ¡Esto es justicia! Mathyus... si me escuchas... lo lamento, amigo... ¡Prometo que haremos lo posible para revivirte!~
+@49 = ~(Mathyus, con sus ojos carentes de voluntad, tensa su arco y ves cómo los magos de la Cripta Olvidada sonríen. Saben que tendrás que acabar, también, con él.)~

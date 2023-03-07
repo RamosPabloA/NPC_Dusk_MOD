@@ -1,0 +1,9 @@
+// Script extra por el espíritu de Gorion. Ver por si las dudas más adelante
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+CreateVisualEffectObject("SPFLESHS","P_DuskG")
+ActionOverride("P_DuskG",DestroySelf())
+END

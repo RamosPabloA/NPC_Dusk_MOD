@@ -1,0 +1,3180 @@
+
+@1    = ~Dusk MOD~
+@2    = ~Dusk~
+@3    = ~Mis oídos aún retumban con esa explosión...~ [p_duski]
+@4    = ~¡No...!,¡¡¡NO!!!~ [p_dusk02]
+@5    = ~Me gusta cómo este grupo maneja las cosas.~
+@6    = ~Deberíamos reconsiderar nuestras acciones...~ 
+@7    = ~Claramente algo no funciona aquí...~ 
+@8    = ~No podemos seguir trabajando juntos...~ 
+@9    = ~Te prefiero a ti como líder, pero si insistes...~ [P_Dusk08]
+@10   = ~*bostezo* Creo que necesitamos descansar, ¿no lo crees?~ [P_Dusk09]
+@11   = ~No importa lo lento que vayas mientras no te detengas...~ [P_Dusk25]
+@12   = ~¡Veamos lo que tienes!~ [P_Dusk03]
+@13   = ~¡¡¡Por Cormyr!!!~ [P_Dusk05]
+@14   = ~¡No puedes ganar!~ [P_Dusk06]
+@15   = ~Lo lamento... necesito a alguien que se ocupe de mis heridas.~ [P_Dusk11]
+@16   = ~Debemos cuidarnos de las bestias salvajes. Por más hermoso que sea el bosque, el peligro se encuentra a la vuelta de la esquina...~
+@17   = ~Es increíble cómo la corrupción ha invadido hasta el rincón más recóndito de la ciudad...~
+@18   = ~Debes tener cuidado aquí. Presiento... peligro.~ [P_Dusk15]
+@19   = ~Hoy es un buen día para pasear. Pero recuerda, <CHARNAME>, que tenemos un deber que cumplir.~
+@20   = ~Las estrellas brillan en el firmamento, pero ¡cuidado! No todo lo que brilla es oro...~
+@21   = ~¿Qué tienes en mente?~ [P_Dusk17]
+@22   = ~¿Sí?~ [P_Dusk14]
+@23   = ~¿Qué quieres?~ [P_Dusk27]
+
+@24   = ~Estoy motivado por la carencia de dudas.~ [P_Dusk10]
+@25   = ~Sí, sí. No necesitas gritar.~ [P_Dusk16]
+@26   = ~Hmmm... sí, ¿por qué no?~ [P_Dusk21]
+@27   = ~Te seguiré.~ [P_Dusk22]
+@28   = ~Una vez más...~ [P_Dusk12]
+@29   = ~Déjamelo a mí.~ [P_Dusk04]
+@30   = ~Puedo soportarlo.~ [P_Dusk01]
+@31   = ~Hmm... ¿te conozco? ¡Ja! Sólo bromeo.~ [P_Dusk23]
+@32   = ~Recuerda esto: Es mejor luchar por algo a vivir por nada.~ [P_Dusk24]
+@33   = ~¡Vamos!~ [P_Dusk14]
+@34   = ~¿Q-qué...?~[P_Dusk30]
+@35   = ~¡No puedo hacer nada más!~ [P_Dusk13]
+@36   = ~Lo siento, pero mi mochila está llena.~ [P_Dusk18]
+@37   = ~Oh, ¡maldición!~ [P_Dusk31]
+@38   = ~Cuando preguntas por su pasado, DUSK queda un instante pensativo. Dice que sus frecuentes visitas al Paseo de Waukin se deben a un extraño deseo por convertirse en mercader. Lo cierto es que Dusk, en su vida pasada, fue Primera Espada del ejército de los Dragones Púrpuras de Cormyr. Su viaje al sur, como mensajero de la paz, se vio frustrado por una serie de sucesos que dice narrará a su debido momento. Por lo pronto, dice provenir de los Aldant, una familia noble del norte que, antaño, combatió contra liches y nigromantes de Netheril, incluyendo al peligroso Aumvor. Dusk dice no estar seguro de la veracidad de ciertas narraciones que le contaron cuando era sólo un niño, pero lo cierto es que siente una especial aversión hacia los liches.~
+
+
+@39   = ~Te protegeré.~ [P_Dusk34]
+@40   = ~Hola, extraño.~[P_Dusk35] ~Hola, extraña.~ [P_Dusk35]
+@41   = ~Shhh... ahora estoy en las sombras...~ [P_Dusk32]
+
+
+
+
+@44   = ~¡Adelante, vamos!~ [p_dusk07]
+@45   = ~¡Un camarada nuestro ha caído!~
+@46   = ~Recuerda: nadie te golpeará tan fuerte como la vida misma. ~ [P_Dusk26]
+@47   = ~¡¡¡Sí!!!~ [P_Dusk29]
+@48   = ~*suspiro* Mi objetivo es inmune...~ [P_Dusk28]
+@49   = ~Aquí vamos de nuevo...~ [P_Dusk13]
+@50   = ~*risa* La trampa... ha sido puesta.~ [P_Dusk33]
+@51   = ~Vaya... le he robado...~
+
+
+//SPINF99
+@100100  = ~Guerrero de Acero (Alteración)
+Nivel: Innato
+Esfera: Elemental
+Alcance: El guerrero
+Duración: 12 horas
+Tiempo de lanzamiento: 0
+Área de efecto: El guerrero
+Tirada de salvación: Ninguna
+Efecto: Piel pétrea
+
+DESCRIPCIÓN:
+
+El guerrero que obtiene esta habilidad queda cubierto con una piel de acero, la cual lo protege de los ataques físicos, tanto cuerpo a cuerpo como de proyectiles. 
+Dependiendo del nivel del guerrero, obtendrá una cierta cantidad de capas que lo protegerán.
+
+Nivel 1 a 9: 4 capas
+Nivel 10 a 11: 5 capas
+Nivel 12 a 13: 6 capas
+Nivel 14 a 15: 7 capas
+Nivel 16 a 17: 8 capas
+Nivel 18 a 19: 9 capas
+Nivel 20 en adelante: 10 capas
+
+Las capas permanecerán sobre el guerrero durante 12 horas hasta que estas se acaben ya sea por impactos físicos o por medio de disipación mágica.~
+@100101  = ~Guerrero de Acero~
+
+// ITEMS
+
+@200001  = ~Hacha de Batalla ~
+@200002  = ~Hacha Dorada ~
+@200003  = ~La versión más común del hacha de batalla es un palo fuerte de unos 120 cm. con una cuchilla de un filo en forma de cuña en uno de sus extremos. Las hachas de batalla también se denominan hachas anchas.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8
+Tipo de daño: Cortante
+Peso: 7 lbs
+Factor de velocidad: 7
+Talento marcial: Hacha
+Tipo de arma: A una mano
+Requisitos: 10 de fuerza ~
+@200004  = ~El brillo dorado de esta terrible hacha es hipnotizante y extraño. A tal punto en que uno puede ver el reflejo mismo de la crueldad y desesperanza. Quizás haya sido forjada con oro puro o quizás se trate de algo más. Lo cierto es que el filo es perfecto y es totalmente capaz de cercenar la cabeza de un humano con la facilidad con la que se corta una manzana con un cuchillo.
+El mango posee unas arcaicas insignias de idioma enano y es tan inefable que causa dolor a la vista. Sin embargo, la inscripción de Hachasangrienta salta a la vista, dando la impresión que solamente alguien que posea tal apellido es capaz de blandirla.
+
+CARACTERÍSTICAS:
+
+Habilidades poseídas:
+
+- Golpe Vorpalino: %10 de posibilidades de causar muerte instantánea (tirada de salvación por muerte/veneno con -4)
+
+- Miedo: Tirada de salvación contra muerte/veneno con 0 o la víctima será invadida por el miedo durante 30 segundos.
+
+Aptitudes poseídas
+
++1 Punto a la Constitución
+CA: +1
+
+THAC0: +5
+Daño: 1D8 +5
+Tipo de daño: Cortante
+Peso: 7 lbs
+Factor de velocidad: 2
+Talento marcial: Hacha
+Tipo de arma: A una mano~
+@200005  = ~Golpe vorpalino ~
+@200006  = ~Huye aterrorizado ~
+//ESPADA DE DISRUPCIÓN
+@200007  = ~Espada Bastarda~
+@200008  = ~Espada cormyreana de disrupción~
+@200009  = ~La espada bastarda, conocida también como espada de puño y medio, se llama así porque está a medio camino entre la espada de dos puños y la espada grande. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, que se puede adaptar a las dos manos si se prefiere. La longitud total de la espada bastarda oscila entre 120 y 150 centímetros.
+
+CARACTERÍSTICAS:
+
+Daño: 2D4 
+Tipo de daño: Cortante
+Peso: 10 lbs
+Factor de velocidad: 8
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano
+Requisitos: 11 de fuerza~
+
+@200010  = ~La espada cormyreana de Dusk reforjada
+
+Irradia un terrible poder, electrocutando a todo aquel que no sea de sangre Aldant. Además, se percibe un aura divina, que contrasta con la peligrosidad del filo. La espada brinda protección contra el consumo de niveles, generalmente proveniente de criaturas no-muertas. Además, cada impacto genera una posibilidad de destierro de los muertos vivientes de este plano. Sin lugar a dudas, el ritual llevado a cabo en el proceso de reforzamiento ha despertado en el arma un odio instintivo, probablemente proveniente de la misma sangre de Dusk.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+  
+- 2d6+4 puntos de daño a muertos vivientes, además de obligarles a salvarse contra muerte mágica (con un penalizador -4) para evitar ser destruidos por completo.
+  
+- Inmunidad a la consunción de niveles de experiencia.
+
+THAC0: +4
+Daño: 2D4+4, +1 por daño eléctrico y +1 por daño ácido
+Tipo de daño: Cortante
+Peso: 10 lbs
+Factor de velocidad: 4
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano
+Requisitos: 11 de fuerza~
+@200011  = ~Cinco niveles consumidos~
+@200012  = ~Cuatro niveles consumidos~
+@200013  = ~Tres niveles consumidos~
+@200014  = ~Dos niveles consumidos~
+@200015  = ~Un nivel consumido~
+
+// BRAZALES DE DEFENSA PETREA
+
+@200016  = ~Brazales~
+@200017  = ~Brazales de Defensa Pétrea~
+@200018  = ~Los brazales son gruesas bandas de metal o de cuero que van atadas con correas al antebrazo del personaje. Por lo general, la magia infundida en los brazales sólo sirve durante el combate, ya que la mayoría de ellos sirven para proteger a su portador de las lesiones y aumentar las posibilidades de golpear al contrincante. Sin embargo hay excepciones y cada día se producen más.~
+@200019  = ~Estos brazaletes de peso liviano brindan una invaluable defensa a quien los use, incluyendo (gracias al poder mágico con el que fue imbuido) la posibilidad de conjurar una expansión defensiva que surge de su centro y se expande a todo el cuerpo, brindando al portador una dureza comparable con la roca.
+Incluso sin esta particular habilidad, el brazalete de por sí emana una fuerza vital destinada meramente a la protección de quien lo use.
+
+CARACTERÍSTICAS:
+
+Habilidades poseídas:
+- Piel Pétrea: 2 veces al día.
+
+Aptitudes poseídas
+- +10 a los Puntos de Golpe
+
+CA: +2
+Peso: 2~
+
+// ARMADURA DE MAGOS
+
+@200020  = ~Armadura de Cota de Mallas~
+@200021  = ~Armadura de Magos~
+@200022  = ~La cota de malla está formada por anillos de metal entrelazados. Siempre está sobre una capa de tela acolchada o de cuero suave para evitar los roces y disminuir el impacto de los golpes.  
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 5
+Peso: 40 lbs
+Requisitos: 8 de fuerza~
+@200023  = ~El diseño mágico de esta armadura permite al lanzador el conjurar hechizos sin restricción alguna. Además, un encantamiento adicional proporciona una mayor defensa física al portador.
+
+CARACTERÍSTICAS:
+
+Bonificadores: +10 a los PG.
+
+Permite al mago que la viste el lanzar conjuros arcanos sin restricciones.
+
+Clase de Armadura: 5
+Peso: 9~
+
+// TÚNICA DE VICONIA
+
+@200024  = ~Manto~
+@200025  = ~Túnica de Viconia~
+@200026  = ~El manto puede tener cualquier forma y hacerse con cualquier tipo de tela. La forma más habitual es una pieza redonda de tela con un agujero en el centro para la cabeza, con la tela drapeada desde el cuello con una cadena, un broche, un cordón o alfileres.~
+@200027  = ~Esta túnica de artesanía drow es la vestimenta típica de la drow Viconia. Brinda una magnífica defensa física y también protege al portador del frío y fuego. Nadie más que Viconia puede utilizarla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
++25% de Resistencia contra el Frío y Fuego
+Fuerza y Constitución: Incrementados en 3 puntos
+
+Clase de Armadura: 0
+Peso: 15~
+
+// CRIMSON THUNDER
+
+@200028  = ~Martillo de Guerra~
+@200029  = ~Crimson Thunder~
+@200030  = ~Los caballeros a caballo no pueden manejar eficazmente las armas de palo largo, y como consecuencia de ello muchas de las armas disponen de un mango más corto para poder empuñarlas con una sola mano. Las mazas y los mayales son ejemplos anteriores (así como el martillo de guerra). El martillo de guerra del jinete es el descendiente del martillo de Lucerna. Se elabora por entero en acero, con arandelas que protegen y refuerzan la empuñadura. Las arandelas son pequeños discos de metal, que se diseñan a menudo con formas decorativas. El mango mide unos 46 centímetros.
+
+CARACTERÍSTICAS:
+
+Daño: 1D4 +1
+Tipo de daño: Contundente
+Peso: 6 lbs
+Factor de velocidad: 4
+Talento marcial: Martillo de Guerra
+Tipo de arma: A una mano
+Requisitos: 9 de fuerza~
+@200031  = ~Trueno Escarlata
+
+Durante la guerra contra los titanes que emergieron de las Colinas Rojas, el valiente enano herrero Dronjack forjó, con la promesa de su propia alma a Moradin, un martillo en medio de tormentas de truenos y relámpagos. Se dice que Dronjack, liderando un ejército de enanos, logró vencer en una sangrienta batalla final a los terribles, liberando a las Colinas del sombrío mal de los gigantes y cayendo en combate, perdiéndose su Martillo Escarlata en un destino recóndito e ignoto.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+Resistencia a la Electricidad: %50
+
+Parálisis: Tirada de salvación contra conjuro o la víctima quedará paralizada durante 6 segundos a causa de un golpe electrizante.
+
+Aptitud de Combate:
+
+- Clamar al Relámpago: Puede llamar a un relámpago de los cielos para que impacte en la víctima. Causa 3d8 de daño eléctrico.
+Uso: Hasta 5 veces por día.
+
+TAC0: +5
+Daño: 2d4+5, +2d6 por daño eléctrico
+Tipo de daño: Contundente
+Peso: 5
+Factor de velocidad: 0
+Talento marcial: martillo de guerra
+Tipo: una mano~
+
+// ESPÍRITU DE LA JUSTICIA
+
+@200032 = ~Poción~
+@200033 = ~Espíritu de la Justicia~
+@200034 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@200035 = ~La pesada botella metálica emana un aroma dulce y extravagante. Si te atreves a ver en su interior, verás un líquido brillante y misterioso, irradiando una energía incesante e infinita. La inscripción con el símbolo de Torm anuncia que sólo un fiel seguidor del Dios de la Justicia podrá ser capaz de regocijarse de sus beneficios.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Habilidad con Mandoble: Se establece en 5
+- Puntos de Golpe: +20
+
+Peso: 25 lbs.~
+@200036 = ~Puntos de Golpe Obtenidos: +20~
+@200037 = ~Habilidad con Mandoble: Establecida en 5~
+
+//FUEGO SALVAJE
+@200038 = ~Armadura de cuero~
+@200039 = ~Fuego Salvaje~
+@200040 = ~La armadura de cuero tachonado tiene poco en común con la armadura de cuero normal. Mientras que la armadura de cuero es una coraza endurecida, la de cuero tachonado es suave y flexible con cientos de remaches de metal incrustados. Estos remaches están tan próximos unos de otros que forman una armadura dura de metal que desvía los ataques de cuchilladas. El respaldo de cuero suave es simplemente un medio de sujetar los remaches en su lugar.  
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 7
+Peso: 25 lbs
+Requisitos: 6 de fuerza~
+@200041 = ~Se cuenta que hace muchos siglos un grupo de humanos pretendió derribar uno de los grandes bosques septentrionales en Tethyr con el objetivo de progresar en su economía monetaria vendiendo madera y pieles de animales.
+En medio de la destrucción un elfo sin nombre, solitario y sombrío, rogó al Dios de los Druidas, Mielikki, que le brindara las fuerzas necesarias para poder luchar contra los invasores. En ese instante, su torso desnudo fue cubierto con una misteriosa piel de cuero duro.
+El ardiente deseo del elfo en proteger su tierra brindó la capacidad de defenderse de sus enemigos con fuego, logrando un poderoso ataque ígneo, a su vez en que ganó protección contra dicho elemento.
+Se dice que el elfo, en ocasiones, se transformó en un fiero licántropo y con furia desgarró e incineró a algunos cazadores humanos, logrando la huída de los que pretendían atacar a la naturaleza.
+
+CARACTERÍSTICAS:
+
+Bonificadores:
+
+Resistencia al Fuego: %30
+Escudo ígneo: 3 veces al día
+
+Clase de Armadura: 2
+Peso: 5~
+
+//VENOM STRIKE
+
+@200042 = ~Mayal~
+@200043 = ~Venom Strike~
+@200044 = ~El mayal consiste en un mango grueso de madera unido a una barra de hierro, a una estaca de madera con pinchos o a una bola de hierro con pinchos. Entre el asidero y el instrumento, hay una bisagra o una junta de cadena. Originariamente, este arma se utilizaba para trillar el grano.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +1
+Tipo de daño: Contundente
+Peso: 15 lbs
+Factor de velocidad: 7
+Talento marcial: Mayal/Lucero del Alba
+Tipo de arma: A una mano
+Requisitos: 13 de fuerza~
+@200045 = ~Golpe de Veneno
+
+Se dice que la punta escorpiana de la cola de una mantícora irradia un hedor agrio a putrefacción. Y es precisamente ese hedor lo que emana la punta de este terrible mayal, haciéndote sospechar que realmente fue construído en base a ingredientes de una mantícora muerta. Sea como fuere, la magia negra con la que fue imbuída permite al portador regenerarse y brinda protección contra el miedo y los hechizos, absorbiendo también la fuerza vital de la víctima.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+ * Regeneración: 1 punto de golpe cada 5 segundos
+ * Inmunidad a Hechizar y Miedo
+ * Con cada golpe tiene un 15% de consumir 4 niveles, sanando al portador 20 pg, y acelerándolo durante 30 segs., así como incrementando su fuerza en 3 durante el mismo tiempo.
+Daño: 1D6 +5, +1d5 por daño de veneno
+THAC0: Bonificador +5
+Tipo de daño: Contundente
+Peso: 15 lbs
+Factor de velocidad: 3
+Talento marcial: Mayal/Lucero del Alba
+Tipo de arma: A una mano
+Requisitos: 13 de fuerza~
+@200046 = ~Hechizo horrendo~
+@200047 = ~Encantado~
+@200048 = ~Pánico~
+@200049 = ~Pánico~
+@200050 = ~Cuatro niveles consumidos~
+@200051 = ~Sanado~
+
+//PROTECCIÓN DEL GUERRERO
+
+@200052 = ~Gema~
+@200053 = ~Guerrero de Acero~
+@200054 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
+@200055 = ~La pesada gema destaca por la inscripción rúnica en su centro. Utilizarla significaría aprender la útil habilidad de instar una protección contra los ataques físicos, proveyendo al usuario una infalible cualidad contra sus enemigos.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Guerrero de Acero: 1 vez al día.
+
+Peso: 25 lbs.~
+@200056 = ~Habilidad Innata Obtenida: Guerrero de Acero~
+
+// EMBLEMA DE BAERVAN
+
+@200057 = ~Gema~
+@200058 = ~Emblema de Baervan~
+@200059 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
+@200060 = ~La oscurosa forma de la piedra que tienes ante ti llama la atención. No puedes evitar sentir una tranquilidad al levantarla.
+Sin lugar a dudas, el animal representa al dios de los gnomos, Baervan, y sólo un fiel creyente del dogma puede utilizarlo.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Inteligencia y Sabiduría: Aumentada en 2 puntos cada una.
+- Constitución: Aumentada en 8 puntos.
+
+Peso: 25 lbs.~
+@200061 = ~Emblema de Baervan: +2 a la Inteligencia y Sabiduría~
+@200062 = ~Emblema de Baervan: +8 a la Constitución~
+
+// VITALIDAD DE LA NOCHE
+
+@200063 = ~Gema~
+@200064 = ~Vitalidad de la Noche~
+@200065 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
+@200066 = ~La negrura del emblema que tienes ante ti es tan profunda que puede causar un ligero daño a la vista. Emana un profundo y recóndito sentimiento de nostalgia y su poder es innegable. Sólo un sirviente de Shar puede hacer uso de él.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Fuerza: Aumentada en 4 puntos.
+- Constitución: Aumentada en 8 puntos.
+
+Peso: 25 lbs.~
+@200067 = ~Vitalidad de la Noche: +4 a la Fuerza~
+@200068 = ~Vitalidad de la Noche: +8 a la Constitución~
+
+// BENDICIÓN DE ARVORIN
+
+@200069 = ~Gema~
+@200070 = ~Bendición de Arvorin~
+@200071 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
+@200072 = ~El grupo de gemas brilla incesantemente con un ardiente deseo de justicia. Sólo podrán ser comprendidos por aquel que siga la valiente senda del dios mediano Arvorin.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Fuerza: Aumentada en 4 puntos.
+- Brinda las habilidades innatas de:
+
+Disipar Magia (2 veces al día)
+Visión Verdadera (2 veces al día)
+
+Peso: 25lbs.~
+@200073 = ~Bendición de Arvorin: +4 a la Fuerza~
+@200074 = ~Habilidad Innata Obtenida: Disipar Magia~
+@200075 = ~Habilidad Innata Obtenida: Visión Verdadera~
+
+// ESTUDIOS SANTIFICADOS DE CORTHALA
+
+@200076 = ~Pergamino~
+@200077 = ~Estudios Santificados de Corthala~
+@200078 = ~Un pergamino de protección es un conjunto de runas mágicas recogidas en un manuscrito encantado. Estos pergaminos son únicos porque cualquier personaje, sea o no experto en magia, puede leerlos. Cuando estas runas se leen en voz alta, la magia protectora se dirige al objetivo elegido por el lector. Estos pergaminos pueden tener gran variedad de efectos beneficiosos, aunque hay que tener cuidado con los pergaminos provenientes de fuentes sospechosas.~
+@200079 = ~El contenido de los pergaminos data de tiempos antiguos en donde la familia Corthala regía como una de las más poderosas de Amn. Las runas e inscripciones mágicas brindan al portador un poder extraordinario. Sin embargo, sólo tendrán efecto en aquél que tenga sangre Corthala y sea lo suficientemente experimentado como para poder soportar dicha transformación.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Sabiduría: Aumentada en 4 puntos.
+- Maestría en Armas: Katana (establecida en 5 puntos).
+
+Peso: 2 lbs.
+
+Sólo lo puede usar:
+Valyghar, nivel 12.~
+@200080 = ~Habilidad en Katana establecida en 5~
+@200081 = ~Estudios de Corthala: +4 a la Sabiduría~
+
+// PERGAMINO DEL TIEFLING
+
+@200082 = ~Pergamino~
+@200083 = ~Pergamino del Tiefling~
+@200084 = ~Un pergamino de protección es un conjunto de runas mágicas recogidas en un manuscrito encantado. Estos pergaminos son únicos porque cualquier personaje, sea o no experto en magia, puede leerlos. Cuando estas runas se leen en voz alta, la magia protectora se dirige al objetivo elegido por el lector. Estos pergaminos pueden tener gran variedad de efectos beneficiosos, aunque hay que tener cuidado con los pergaminos provenientes de fuentes sospechosas.~
+@200085 = ~Las runas son incomprensibles para cualquiera que no sea un tiefling. El misterioso poder que emana probablemente pueda ser comprendido por alguien que no sea originario de este plano.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Inteligencia: Aumentada en 4 puntos.
+- Constitución: Aumentada en 4 puntos.
+- Resistencia Mágica: +10%
+
+Peso: 5 lbs.~
+@200086 = ~Pergamino del Tiefling: +4 a la Inteligencia y Constitución~
+@200087 = ~Resistencia Mágica: +%10~
+
+// POCIÓN GNÓMICA
+
+@200088 = ~Poción~
+@200089 = ~Poción Gnómica~
+@200090 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@200091 = ~Los coloridos retoques en el exterior de la pesadísima botella harían desconfiar hasta al más confianzudo. Sin embargo, logras reconocer algo en la inscripción como: "...de nabos y gnomos...", dándote la impresión de que sólo alguien que sea de tal raza pueda entender con claridad sobre qué se trata.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Inteligencia: Aumentada en 3 puntos.
+- Destreza: Aumentada en 1 punto.
+
+Peso: 25 lbs.~
+@200092 = ~Poción Gnómica: +3 de Inteligencia~
+@200093 = ~Poción Gnómica: +1 de Destreza~
+
+// FORTALEZA DE BHAAL
+
+@200094 = ~Manual~
+@200095 = ~Fortaleza de Bhaal~
+@200096 = ~A juzgar por los símbolos arcanos impresos en su cubierta, está claro que este libro está imbuido con propiedades mágicas de alguna clase. No obstante, hasta que intentéis leerlo o identificarlo, seguiréis desconociendo su naturaleza exacta.~
+@200097 = ~La inscripción evoca, sorpresivamente, al dios del asesinato: Bhaal. En su interior se hace alusión a un descendiente con capacidades latrocinias y mágicas. 
+Como el tomo parece rechazar a <CHARNAME>, lo más probable es que el susodicho hijo de Bhaal no sea el destinado a "consumirlo".
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Fuerza: Aumentada en 7 puntos.
+- Inteligencia y Destreza: Aumentada en 1 punto.
+
+Peso: 15 lbs.~
+@200098 = ~Fortaleza de Bhaal: Fuerza aumentada en 7 puntos~
+@200099 = ~Fortaleza de Bhaal: Inteligencia y Destreza aumentadas en 1 punto~
+
+// FUERZA DEL ARPISTA
+
+@200100 = ~Manual~
+@200101 = ~Fuerza del Arpista~
+@200102 = ~A juzgar por los símbolos arcanos impresos en su cubierta, está claro que este libro está imbuido con propiedades mágicas de alguna clase. No obstante, hasta que intentéis leerlo o identificarlo, seguiréis desconociendo su naturaleza exacta.~
+@200103 = ~El símbolo de Mystra indica el preludio de una obra Arpista en donde se señalan misteriosas runas que sólo alguien de tal orden podría comprender. Aparentemente, indica el exiguo ritual en el que el portador es capaz de aumentar su fuerza física y mental.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Fuerza: Aumentada en 2 puntos.
+- Sabiduría: Aumentada en 3 puntos.
+
+Peso: 15 lbs.~
+@200104 = ~Tomo del Arpista: +2 a la Fuerza~
+@200105 = ~Tomo del Arpista: +3 a la Sabiduría~
+
+// RUNAS DE UNIVERSALIDAD
+
+@200106 = ~Manual~
+@200107 = ~Runas de Universalidad~
+@200108 = ~A juzgar por los símbolos arcanos impresos en su cubierta, está claro que este libro está imbuido con propiedades mágicas de alguna clase. No obstante, hasta que intentéis leerlo o identificarlo, seguiréis desconociendo su naturaleza exacta.~
+@200109 = ~El pesado pergamino contiene runas mágicas fácilmente comprensibles. En pocas palabras, vislumbrarlas significará obtener la poderosa capacidad de utilizar prácticamente cualquier objeto. Vuelve al usuario: Universal.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Brinda al usuario la habilidad épica latrocinia: Usar cualquier objeto.
+
+
+Peso: 25 lbs.~
+@200110 = ~Habilidad Pasiva Obtenida: Usar cualquier objeto~
+
+// ORBE DE LA TORMENTA
+
+@200110 = ~Gema~
+@200111 = ~Orbe de la Tormenta~
+@200112 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
+@200113 = ~Rara vez se encuentran fragmentos estelares, resultados de grandiosas tormentas del firmamento. Ante ti se encuentra una especie de gema cristalizada, la cual emana un poder extraordinario. Hasta donde puedes ver, sólo un experimentado druida nórdico es capaz de comprender su poder.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Fuerza: Aumentada en 4 puntos.
+- Habilidades de convocación: Espíritu animal, 3 veces al día.
+
+Peso: 25 lbs.
+Sólo lo puede usar:
+Cambiaformas, nivel 13.~
+@200114 = ~Orbe de la Tormenta: +4 a la Fuerza~
+@200115 = ~Habilidad Innata Obtenida: Espíritu Animal~
+
+// TOMO DE DESTREZA THAYINA
+
+@200116 = ~Manual~
+@200117 = ~Tomo de Destreza Thayina~
+@200118 = ~A juzgar por los símbolos arcanos impresos en su cubierta, está claro que este libro está imbuido con propiedades mágicas de alguna clase. No obstante, hasta que intentéis leerlo o identificarlo, seguiréis desconociendo su naturaleza exacta.~
+@200119 = ~El tomo que se haya ante ti es una muestra excepcional de cómo un mago thayino es capaz, mediante poderosas runas, de obtener habilidades físicas totalmente envidiables hasta para el más escurridizo Ladrón de las Sombras. Como es de esperarse, sólo un mago rojo puede comprenderlo.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Destreza: Aumentada en 7 puntos.
+
+Peso: 10 lbs.
+
+Sólo lo puede usar:
+Mago Rojo, nivel 15~
+@200120 = ~Tomo Thayino: +7 a la Destreza~
+
+// POCIÓN CAÓTICO MALIGNO **VER
+
+@200121 = ~Poción~
+@200122 = ~Brebaje Mágico: Caótico Maligno~
+@200123 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@200124 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+
+CARACTERÍSTICAS:
+
+Cambio de Alineamiento (permanente):
+
+- Caótico Maligno.
+
+Peso: 25 lbs.~
+@200125 = ~Alineamiento cambiado: Caótico Maligno~
+
+// POCIÓN NEUTRAL MALIGNO
+
+@200126 = ~Poción~
+@200127 = ~Brebaje Mágico: Neutral Maligno~
+@200128 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@200129 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+
+CARACTERÍSTICAS:
+
+Cambio de Alineamiento (permanente):
+
+- Neutral Maligno.
+
+Peso: 25 lbs.~
+@200130 = ~Alineamiento cambiado: Neutral Maligno~
+
+// POCIÓN LEGAL MALIGNO **VER
+
+@200131 = ~Poción~
+@200132 = ~Brebaje Mágico: Legal Maligno~
+@200133 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@200134 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+
+CARACTERÍSTICAS:
+
+Cambio de Alineamiento (permanente):
+
+- Legal Maligno.
+
+Peso: 25 lbs.~
+@200135 = ~Alineamiento cambiado: Legal Maligno~
+
+// POCIÓN CAÓTICO NEUTRAL **VER
+
+@200136 = ~Poción~
+@200137 = ~Brebaje Mágico: Caótico Neutral~
+@200138 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@200139 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+
+CARACTERÍSTICAS:
+
+Cambio de Alineamiento (permanente):
+
+- Caótico Neutral.
+
+Peso: 25 lbs.~
+@200140 = ~Alineamiento cambiado: Caótico Neutral~
+
+// POCIÓN NEUTRAL AUTÉNTICO
+
+@200141 = ~Poción~
+@200142 = ~Brebaje Mágico: Neutral Auténtico~
+@200143 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@200144 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+
+CARACTERÍSTICAS:
+
+Cambio de Alineamiento (permanente):
+
+- Neutral Auténtico.
+
+Peso: 25 lbs.~
+@200145 = ~Alineamiento cambiado: Neutral Auténtico~
+
+// POCIÓN LEGAL NEUTRAL **VER
+
+@200146 = ~Poción~
+@200147 = ~Brebaje Mágico: Legal Neutral~
+@200148 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@200149 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+
+CARACTERÍSTICAS:
+
+Cambio de Alineamiento (permanente):
+
+- Legal Neutral.
+
+Peso: 25 lbs.~
+@200150 = ~Alineamiento cambiado: Legal Neutral~
+
+// POCIÓN CAÓTICO BUENO **VER
+
+@200151 = ~Poción~
+@200152 = ~Brebaje Mágico: Caótico Bueno~
+@200153 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@200154 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+
+CARACTERÍSTICAS:
+
+Cambio de Alineamiento (permanente):
+
+- Caótico Bueno.
+
+Peso: 25 lbs.~
+@200155 = ~Alineamiento cambiado: Caótico Bueno~
+
+// POCIÓN NEUTRAL BUENO
+
+@200156 = ~Poción~
+@200157 = ~Brebaje Mágico: Neutral Bueno~
+@200158 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@200159 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+
+CARACTERÍSTICAS:
+
+Cambio de Alineamiento (permanente):
+
+- Neutral Bueno.
+
+Peso: 25 lbs.~
+@200160 = ~Alineamiento cambiado: Neutral Bueno~
+
+// POCIÓN LEGAL BUENO **VER
+
+@200161 = ~Poción~
+@200162 = ~Brebaje Mágico: Legal Bueno~
+@200163 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@200164 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+
+CARACTERÍSTICAS:
+
+Cambio de Alineamiento (permanente):
+
+- Legal Bueno.
+
+Peso: 25 lbs.~
+@200165 = ~Alineamiento cambiado: Legal Bueno~
+
+// POCIÓN DE RASHEMEN
+
+@200166 = ~Poción~
+@200167 = ~Poción de Sabiduría Rashemen~
+@200168 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@200169 = ~Algunas historias indican que cuando un hombre realiza con éxito total el viaje llamado "dejemma", reciben la sabiduría divina que sólo los más prestigiosos miembros del Dragón de Hielo poseen. 
+La poción que ante ti se halla es un camino más corto hacia dicha gnosis. Sin embargo, sólo alguien nativo del Norte puede obtener los misteriosos poderes que ofrece.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Sabiduría: Aumentada en 11 puntos.
+
+Peso: 25 lbs.
+
+Sólo lo puede usar:
+Explorador de Rashemen, nivel 12.~
+@200170 = ~Poción Rashemen: +11 a la Sabiduría~
+
+// FUROR ÉPICO
+
+@200171 = ~Espada Bastarda~
+@200172 = ~Epicus Furor~
+@200173 = ~La espada bastarda, conocida también como espada de puño y medio, se llama así porque está a medio camino entre la espada de dos puños y la espada grande. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, que se puede adaptar a las dos manos si se prefiere. La longitud total de la espada bastarda oscila entre 120 y 150 centímetros.
+
+CARACTERÍSTICAS:
+
+Daño: 2D4 
+Tipo de daño: Cortante
+Peso: 10 lbs
+Factor de velocidad: 8
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano
+Requisitos: 11 de fuerza~
+@200174 = ~Epicus Furor: La Espada Esmeralda.
+Hace siglos, en los planos misteriosos de Argalord, existió una Abominación que amenazaba con arrasar con toda la vida existente de la tierra. Se dice que sólo un hombre se atrevió a enfrentarlo. El hombre sin nombre, conocido como El Guerrero de Hielo, buscó en los confines del continente en busca de la legendaria espada, aquella que sólo un experimentado guerrero podría blandir.
+
+Luego de superar, a duras penas, todas las pruebas impuestas, fue capaz de blandir la Espada Esmeralda, el Furor Épico, y en una batalla que rompió las barreras del tiempo y del espacio, pudo derrotar a la Abominación que azotaba las pacíficas tierras de Argalord. Lamentablemente cayó en combate y la espada se perdió para siempre, siendo, según dicen, absorbida por la noche para nunca más verse por ese Plano.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Regeneración: 1 punto de golpe cada 5 segundos.
+- Resistencia Mágica: +10%
+- Protección contra el Mal mientras se use.
+- Puntos de Golpe: +10%
+
+Aptitudes de combate:
+  
+- Horror: Tirada de Salvación contra la magia o la víctima huirá aterrorizada durante 30 segundos.
+
+THAC0: +5
+Daño: 2D4+5, +2d3 por daño mágico
+Tipo de daño: Cortante
+Peso: 13 lbs
+Factor de velocidad: 3
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano
+Requisitos: 15 de fuerza~
+@200175 = ~Huye aterrorizado~
+
+// COLMILLO DE LARLOCH
+
+@200176 = ~Hacha de Batalla~
+@200177 = ~Colmillo de Larloch~
+@200178 = ~La versión más común del hacha de batalla es un palo fuerte de unos 120 cm. con una cuchilla de un filo en forma de cuña en uno de sus extremos. Las hachas de batalla también se denominan hachas anchas.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8
+Tipo de daño: Cortante
+Peso: 7 lbs
+Factor de velocidad: 7
+Talento marcial: Hacha
+Tipo de arma: A una mano
+Requisitos: 10 de fuerza~
+@200179 = ~El maligno y gélido poder que emana el frío acero del hacha genera numerosos escalofríos en la columna vertebral del portador. El Hacha de Batalla, Colmillo de Larloch, no es más que una creación menor del Rey de las Sombras, el liche Larloch. La víctima que sea herida por el filo del hacha será lastimada con un golpe adicional de frío que absorverá la energía vital y la entregará al portador. Además, el arma brinda protección contra los hechizos de encantamiento.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Inmunidad a Hechizos.
+
+Aptitudes de combate:
+  
+- Drenaje: Cada golpe asestado Curará al portador 3 puntos de vida.
+
+THAC0: +3
+Daño: 1D8+3, +1d3 por Daño de Frío
+Tipo de daño: Cortante
+Peso: 7 lbs
+Factor de velocidad: 4
+Talento marcial: Hacha de Batalla
+Tipo de arma: A una mano
+Requisitos: 10 de fuerza~
+@200180 = ~Hechizo horrendo~
+@200181 = ~Encantado~
+@200182 = ~Sanado~
+
+// KIKUICHIMONJI
+
+@200183 = ~Katana~
+@200184 = ~Kikuichimonji~
+@200185 = ~La katana es una espada curvada con un único filo y acabada en punta. Quizá sea una de las mejores espadas que se han fabricado nunca. Los pasos de su creación, un proceso largo y secreto, son más una forma de arte que cualquier otra cosa. Su hoja es una de las facetas más importantes de la cultura de Kara-Tur. Tocar o coger la katana de un samurái es un insulto que atraerá su ira. Que un gaijin o extranjero posea una de estas espadas es algo raro. O el gaijin ha sido honrado por un importante ministro o ha asesinado a un samurái.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10
+Tipo de daño: Cortante
+Peso: 6
+Factor de velocidad: 4
+Talento marcial: Katana
+Tipo: una mano~
+@200186 = ~En las tierras de Kara-Tur, en Kozakura, existió un joven asesino llamado Tenken Soujiro. Se dice que era tan rápido en combate que nada tenían que hacer sus oponentes. En medio del combate, su cuerpo tomaba un color dorado y sus extremidades se movían tan rápido que era difícil para el oponente adivinar a dónde habría de atacar. Con el paso de los años, Soujiro abandonó la senda del asesinato y se convirtió en Nómada. Nunca más se supo de él, y su katana fue vendida a un precio excelente, siendo su destino tan incierto como su original dueño.
+
+CARACTERÍSTICAS:
+
+Aptitudes de Combate:
+
+- %20 de posibilidades de Acelerar al portador durante 15 segundos al asestar un golpe
+
+THAC0: +4
+Daño: 1D10+4
+Tipo de daño: Cortante
+Peso: 6
+Factor de velocidad: 0
+Talento marcial: Katana
+Tipo: una mano~
+
+// JISSEN-KENBU
+
+@200187 = ~Wakizashi~
+@200188 = ~Jissen-kenbu~
+@200189 = ~Wakizashi
+El wakizashi, o "espada compañera", es muy importante para un samurái. Se lleva en todo momento, incluso por dentro, y está cerca del samurái mientras duerme por la noche. El wakizashi tiene tanta calidad como la katana, aunque es más corta; mide entre 30 y 60 centímetros, resultando un arma peligrosa en manos expertas.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: cimitarra/wakizashi/ninja-to
+Tipo: una mano~
+@200190 = ~Kodachi
+
+Danza de Espadas - Flujo de Agua
+El mango de esta wakizashi emite una fría sensación, debido al daño gélido que prorrumpe la hoja.
+Jissen-kenbu es una técnica especial en donde el portador es capaz de lanzar la habilidad de crear imágenes múltiples de sí para confundir al oponente y así generar una defensa física casi perfecta.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+
+-Imagen Espejada: 6 imágenes de sí mismo. Puede ser utilizada 3 veces al día.
+
+THAC0: +3 
+Daño: 1D8 +3; +1d2 puntos de daño gélido.
+Tipo de daño: Perforador
+Peso: 4
+Factor de velocidad: 0
+Talento marcial: katana
+Tipo: una mano~
+@200191 = ~Imagen espejada~
+
+// MUGENJIN
+
+@200192 = ~Katana~
+@200193 = ~Mugenjin~
+@200194 = ~La katana es una espada curvada con un único filo y acabada en punta. Quizá sea una de las mejores espadas que se han fabricado nunca. Los pasos de su creación, un proceso largo y secreto, son más una forma de arte que cualquier otra cosa. Su hoja es una de las facetas más importantes de la cultura de Kara-Tur. Tocar o coger la katana de un samurái es un insulto que atraerá su ira. Que un gaijin o extranjero posea una de estas espadas es algo raro. O el gaijin ha sido honrado por un importante ministro o ha asesinado a un samurái.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10
+Tipo de daño: Cortante
+Peso: 6
+Factor de velocidad: 4
+Talento marcial: Katana
+Tipo: una mano~
+@200195 = ~Mugenjin
+
+Es imposible ignorar la artesanía con la que fue construida esta katana. Lo más llamativo es el filo ardiente, el cual provoca un daño mortífero a la víctima. Lo segundo es el aceite con la que está bañada constantemente, según dicen, por la carne de las incontables víctimas que fueron tajadas con Mugenjin. Se dice que alguna vez tuvo un duelo con su espada antagonista: Shin-Ushi, El Corazón de la Espada. Desconoces de la razón por la cual la espada fue imbuida así, porque por más que lo intentes, no podrás apaciguar el fuego de su acero. En la hoja yace una inscripción: "La Ira Ígnea".
+
+Los personajes legales no pueden blandirla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Carisma: +3
+- Sabiduría e Inteligencia: +2
+- Puntos de Golpe: +%15
+
+
+Aptitudes de Combate:
+
+- Daño por Fuego: +3d6 Puntos por cada golpe asestado.
+- Golpe Vorpalino: %25 de probabilidades de incinerar a la víctima. Tirada de salvación contra la Muerte de -1
+
+THAC0: +5
+Daño: 1D10+5
+Tipo de daño: Cortante
+Peso: 6
+Factor de velocidad: 0
+Fuerza necesaria: 6
+Talento marcial: Katana
+Tipo: una mano~
+
+// SHIN-USHI
+
+@200196 = ~Katana~
+@200197 = ~Shin-Ushi~
+@200198 = ~La katana es una espada curvada con un único filo y acabada en punta. Quizá sea una de las mejores espadas que se han fabricado nunca. Los pasos de su creación, un proceso largo y secreto, son más una forma de arte que cualquier otra cosa. Su hoja es una de las facetas más importantes de la cultura de Kara-Tur. Tocar o coger la katana de un samurái es un insulto que atraerá su ira. Que un gaijin o extranjero posea una de estas espadas es algo raro. O el gaijin ha sido honrado por un importante ministro o ha asesinado a un samurái.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10
+Tipo de daño: Cortante
+Peso: 6
+Factor de velocidad: 4
+Talento marcial: Katana
+Tipo: una mano~
+@200199 = ~Shin-Ushi
+
+Lo curioso de esta katana es la carencia del filo. Si bien es ligeramente más liviana de lo normal y no tiene el letal filo de muchas espadas, Shin-Ushi es una de las espadas definitivas. Se dice que alguna vez tuvo un duelo con su espada antagonista: Mugenjin, La Ira Ígnea. Desconoces de la razón por la cual la espada no tiene filo, porque por más que lo intentes, no podrás afilarla debido a sus runas mágicas. En la hoja yace una inscripción: "El Corazón de la Espada".
+
+
+Los personajes malvados no pueden blandirla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Inmunidad a la consunción de niveles.
+
+Aptitudes de Combate:
+
+- Dejar inconsciente al enemigo: Cualquier humano o semihumano, excluyendo a los elfos, golpeado por Shin-Ushi debe salvarse contra veneno con un bonificador de -1 o caer dormido durante 18 segundos.
+- Golpe de Parálisis:  Tirada de salvación contra conjuros de -1 o la víctima quedará paralizada durante 5 segundos.
+- Velocidad Divina: 15% de posibilidades de acelerar al portador al impactar durante 10 segundos.
+
+THAC0: +5, +4 contra criaturas malignas
+Daño: 1D6+5, +4 contra criaturas malignas, doble daño contra muertos vivientes
+Tipo de daño: Contundente
+Peso: 5
+Factor de velocidad: 0
+Fuerza necesaria: 6
+Sabiduría necesaria: 10
+Talento marcial: Katana
+Tipo: una mano~
+@200200 = ~Cinco niveles consumidos~
+@200201 = ~Cuatro niveles consumidos~
+@200202 = ~Tres niveles consumidos~
+@200203 = ~Dos niveles consumidos~
+@200204 = ~Un nivel consumido~
+
+// kaiten-kenbu
+
+@200205 = ~Wakizashi~
+@200206 = ~Kaiten-kenbu~
+@200207 = ~Wakizashi
+El wakizashi, o "espada compañera", es muy importante para un samurái. Se lleva en todo momento, incluso por dentro, y está cerca del samurái mientras duerme por la noche. El wakizashi tiene tanta calidad como la katana, aunque es más corta; mide entre 30 y 60 centímetros, resultando un arma peligrosa en manos expertas.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: cimitarra/wakizashi/ninja-to
+Tipo: una mano~
+@200208 = ~Kodachi
+
+Danza de Espadas - Defensa eléctrica
+El mango de esta wakizashi emite una extraña sensación, debido al daño eléctrico que prorrumpe la hoja.
+Kaiten-kenbu es una técnica especial en donde el portador, además de asestar un estable daño eléctrico, gana defensa contra el daño físico.
+
+CARACTERÍSTICAS:
+
+CA Base: +3
+THAC0: +3 
+Daño: 1D8 +3; +1d3 puntos de daño eléctrico.
+Tipo de daño: Perforador
+Peso: 4
+Factor de velocidad: 0
+Talento marcial: katana
+Tipo: una mano~
+
+// Espada de Delryn
+
+@200209 = ~Espada larga~
+@200210 = ~Espada de Delryn~
+@200211 = ~Estas espadas generalmente reciben el nombre de espadas de doble filo, de guerra o militares. En muchos casos, la espada larga tiene una hoja de un solo filo. No existe una única versión de la espada larga, ya que su diseño y longitud varían de una cultura a otra, e incluso puede cambiar dentro de una misma cultura dependiendo del período histórico. Una de las características más comunes en todas las espadas largas es su longitud, que oscila entre 90 y 120 centímetros. En el último caso, sólo la hoja llega a medir hasta 1 metro de la longitud total de la espada. La mayoría de las espadas largas son de doble filo y punta afilada. A pesar de tener punta, se diseñan para cortar, no para apuñalar.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8
+Tipo de daño: Cortante
+Peso: 4 lbs
+Factor de velocidad: 5
+Talento marcial: Espada Larga
+Tipo de arma: A una mano
+Requistos: 6 de fuerza~
+@200212 = ~Los ancestros de la familia Delryn no fueron muy reconocidos en la historia de Athkatla. Sin embargo, se cuenta que hubo un caballero de la Noble Orden del Muy Radiante Corazón que luchó contra los gigantes en la Colina de los Trolls en un ataque que flanqueó las defensas de la región de de'Arnise. Junto a un grupo de paladines, lograron defender la tierra de la invasión de humanoides; sin embargo, todos murieron en combate y nunca más se supo del cuerpo del caballero Delryn. Su espada desapareció con él.
+Sólo alguien con la sangre de su familia corriendo por sus venas puede blandirla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Resistencia a la Magia: +%20
+- Habilidad con la Espada: Establecida en 5 puntos.
+
+CA Base: +1
+THAC0: +5
+Daño: 1D8+5, +1d6 por daño eléctrico.
+Tipo de daño: Cortante
+Peso: 4 lbs
+Factor de velocidad: 0
+Talento marcial: Espada Larga
+Tipo de arma: A una mano
+Requistos: 6 de fuerza~
+@200213 = ~Habilidad en Espada Larga establecida en 5~
+
+// Ventisca del Averno
+
+@200214 = ~Espada Bastarda~
+@200215 = ~Ventisca del Averno~
+@200216 = ~La espada bastarda, conocida también como espada de puño y medio, se llama así porque está a medio camino entre la espada de dos puños y la espada grande. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, que se puede adaptar a las dos manos si se prefiere. La longitud total de la espada bastarda oscila entre 120 y 150 centímetros.
+
+CARACTERÍSTICAS:
+
+Daño: 2D4 
+Tipo de daño: Cortante
+Peso: 10 lbs
+Factor de velocidad: 8
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano
+Requisitos: 11 de fuerza~
+@200217 = ~El origen de la álgida espada es desconocido; sin embargo, se cuenta que proviene de algún plano infernal en donde el fuego no existe. Su hoja desprende un brillo frío y azulado y aquél que la mire fijamente, corre el riesgo de sufrir una conmoción cerebral, provocando que la víctima no esté consciente de sus propios actos.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+
+- Confusión: la víctima debe realizar una tirada de salvación contra conjuros con +4 o quedar confundido durante 18 segundos.
+
+THAC0: +3
+Daño: 2D4+3, +2d3 puntos por daño gélido. 
+Tipo de daño: Cortante
+Peso: 10 lbs
+Factor de velocidad: 5
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano
+Requisitos: 11 de fuerza~
+
+// SET DE WIZARDSLAYER
+// Esperanza de Benork
+
+@200218 = ~Amuleto de plata~
+@200219 = ~Esperanza de Benork~
+@200220 = ~Los amuletos suelen ser objetos mágicos que por lo común se llevan alrededor del cuello, colgados de una cadena. El tipo de cadena que acompaña al amuleto suele aumentar el valor estético del elemento, pero no las propiedades mágicas. Sólo se puede llevar un amuleto en el cuello.~
+@200221 = ~Esperanza de Benork
+
+Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
+Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
+Su mejor amigo era un poderoso clérigo de Tempus, quien llegó en su rescate. Ambos huyeron de la terrible magia nigromántica. Aznagarb, el clérigo, luego de ponerse a cubierto en un templo oculto en el Bosque de las Espinas, brindó las herramientas necesarias para la venganza de Benork, consistiendo, básicamente, en un conjunto divinamente imbuido y que sólo aquellos que odiaran la magia con todo su corazón podrían usar.
+
+Este divino amuleto representa la esperanza que el duque mantenía por conseguir su venganza.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Resistencia a la Magia: +10%
+- Tirada de Salvación contra la Muerte: +3
+
+Habilidades:
+
+- Palabra secreta: 1 vez al día.~
+
+// Defensa de Aznagarb
+
+@200222 = ~Brazales~
+@200223 = ~Defensa de Aznagarb~
+@200224 = ~Los brazales son gruesas bandas de metal o de cuero que van atadas con correas al antebrazo del personaje. Por lo general, la magia infundida en los brazales sólo sirve durante el combate, ya que la mayoría de ellos sirven para proteger a su portador de las lesiones y aumentar las posibilidades de golpear al contrincante. Sin embargo hay excepciones y cada día se producen más.~
+@200225 = ~Defensa de Aznagarb
+
+Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
+Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
+Su mejor amigo era un poderoso clérigo de Tempus, quien llegó en su rescate. Ambos huyeron de la terrible magia nigromántica. Aznagarb, el clérigo, luego de ponerse a cubierto en un templo oculto en el Bosque de las Espinas, brindó las herramientas necesarias para la venganza de Benork, consistiendo, básicamente, en un conjunto divinamente imbuido y que sólo aquellos que odiaran la magia con todo su corazón podrían usar.
+
+Los brazaletes bendecidos mediante el clérigo Aznagarb representan la defensa que el duque habría de presentar ante las fuerzas de la Muerte Mágica.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- THAC0: +1
+
+Habilidades:
+
+- Piel Pétra: 3 veces al día
+- Curar Heridas Críticas: 5 veces al día
+
+Peso: 4 lbs.~
+
+// Camino de los Ancestros
+
+@200226 = ~Botas~
+@200227 = ~Camino de los Ancestros~
+@200228 = ~Las botas las suelen hacer a mano los zapateros. Las botas normales se hacen partiendo de un molde, pero las buenas se diseñan para el pie de alguna persona en particular.
+
+CARACTERÍSTICAS:
+
+Peso: 4 lbs~
+@200229 = ~Camino de los Ancestros
+
+Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
+Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
+Su mejor amigo era un poderoso clérigo de Tempus, quien llegó en su rescate. Ambos huyeron de la terrible magia nigromántica. Aznagarb, el clérigo, luego de ponerse a cubierto en un templo oculto en el Bosque de las Espinas, brindó las herramientas necesarias para la venganza de Benork, consistiendo, básicamente, en un conjunto divinamente imbuido y que sólo aquellos que odiaran la magia con todo su corazón podrían usar.
+
+Las botas representan el nombre de la ascendencia real de Benork. En nombre de sus Ancestros habría de buscar la muerte de los Nigromantes.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Celeridad: Movimiento mejorado en un %50.
+- Libertad de Acción: El portador no puede ser ralentizado, ni paralizado bajo ningún medio mágico o divino
+- Resistencia al Frío: +25%
+- Resistencia a la Electricidad: +25%
+
+Peso: 4 lbs.~
+@200230 = ~<NO TEXT>~
+ @200231 = ~<NO TEXT>~
+ @200232 = ~<NO TEXT>~
+ @200233 = ~<NO TEXT>~
+ @200234 = ~<NO TEXT>~
+ @200235 = ~<NO TEXT>~
+ @200236 = ~<NO TEXT>~
+ @200237 = ~<NO TEXT>~
+ @200238 = ~<NO TEXT>~
+ @200239 = ~Inmóvil~
+ @200240 = ~Lentificado~
+ @200241 = ~Lento~
+
+// Protección de Aznagarb
+
+@200242 = ~Manto~
+@200243 = ~Protección de Aznagarb~
+@200244 = ~El manto puede tener cualquier forma y hacerse con cualquier tipo de tela. La forma más habitual es una pieza redonda de tela con un agujero en el centro para la cabeza, con la tela drapeada desde el cuello con una cadena, un broche, un cordón o alfileres.~
+@200245 = ~Protección de Aznagarb
+
+Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
+Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
+Su mejor amigo era un poderoso clérigo de Tempus, quien llegó en su rescate. Ambos huyeron de la terrible magia nigromántica. Aznagarb, el clérigo, luego de ponerse a cubierto en un templo oculto en el Bosque de las Espinas, brindó las herramientas necesarias para la venganza de Benork, consistiendo, básicamente, en un conjunto divinamente imbuido y que sólo aquellos que odiaran la magia con todo su corazón podrían usar.
+
+La capa no sólo fue bendecida por Tempus, sino que fue modificada artesanalmente por el clérigo Aznagarb, quien poseía grandes conocimientos sobre cómo evitar el daño de los rayos y relámpagos.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Electricidad: Además de brindar protección total contra el daño eléctrico, también refleja y devuelve los rayos que fueron lanzados contra el portador devuelta a su origen.
+- Carisma: +2 puntos.
+
+Clase de Armadura: +1
+Clase de Armadura contra armas perforadoras: +5
+Peso: 3 lbs.~
+
+// Fortaleza de Benork
+
+@200246 = ~Fajín~
+@200247 = ~Fortaleza de Benork~
+@200248 = ~Los fajines son parecidos a los cinturones. Pero los fajines no se utilizan para sujetarse los pantalones, sino para llevar bolsas, vainas y cosas similares.
+
+CARACTERÍSTICAS:
+
+Peso: 2 lbs~
+@200249 = ~Fortaleza de Benork
+
+Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
+Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
+Su mejor amigo era un poderoso clérigo de Tempus, quien llegó en su rescate. Ambos huyeron de la terrible magia nigromántica. Aznagarb, el clérigo, luego de ponerse a cubierto en un templo oculto en el Bosque de las Espinas, brindó las herramientas necesarias para la venganza de Benork, consistiendo, básicamente, en un conjunto divinamente imbuido y que sólo aquellos que odiaran la magia con todo su corazón podrían usar.
+
+El extraño fajín representa la fortaleza física del duque en llevar a cabo su venganza.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Constitución: +3 puntos
+- Destreza: +3 puntos
+- Resistencia a la Magia: +15%
+- Resistencia al Daño Mágico: +50%
+
+Peso: 4 lbs.~
+
+// Iris de Tempus
+
+@200250 = ~Casco~
+@200251 = ~Iris de Tempus~
+@200252 = ~Esta clase de casco de rostro descubierto, hecho con cuero reforzado o con metal, cubre casi toda la cabeza, salvo la cara y el cuello. Estos cascos suelen incluir una protección para la nariz.
+
+CARACTERÍSTICAS:
+
+Bonificador de clase de armadura: Ninguno
+Especial: Protege contra golpes críticos
+Peso: 2 lbs~
+@200253 = ~Iris de Tempus
+
+Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
+Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
+Su mejor amigo era un poderoso clérigo de Tempus, quien llegó en su rescate. Ambos huyeron de la terrible magia nigromántica. Aznagarb, el clérigo, luego de ponerse a cubierto en un templo oculto en el Bosque de las Espinas, brindó las herramientas necesarias para la venganza de Benork, consistiendo, básicamente, en un conjunto divinamente imbuido y que sólo aquellos que odiaran la magia con todo su corazón podrían usar.
+
+El poderoso casco fue bendecido por los ruegos del clérigo hacia su dios Tempus, guiados por las ansias de combate y venganza por el que habría de usarlo: El Duque Nathan Benork. Gracias a los ruegos, el yelmo fue imbuido de tal manera que aquel que sea capaz de usarlo, tenga la capacidad de ver gracias a la fuerza espiritual y deseos llevados por el corazón. Será capaz de desvelar engaños mágicos y ver la realidad como es.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Puntos de Golpe: +10%
+- Resistencia al Ácido: +25%
+- Inmunidad a los Hechizos de Encantamiento.
+- Inmunidad al Miedo.
+
+Habilidades:
+
+- Detectar Invisibilidad: 3 veces al día.
+- Visión Verdadera: 3 veces al día.
+
+THAC0: +1
+Clase de Armadura: +1
+Peso: 3 lbs.~
+@200254 = ~Hechizo horrendo~
+@200255 = ~Encantado~
+@200256 = ~Dominado~
+@200257 = ~Pánico~
+@200258 = ~Pánico~
+
+// Respiro del Linaje
+
+@200259 = ~Anillo~
+@200260 = ~Respiro del Linaje~
+@200261 = ~Un anillo es una pequeña banda de metal precioso que se utiliza como joya. Algunos anillos poco comunes han tenido encantamientos que confieren varias propiedades mágicas. Estos anillos son muy buscados, especialmente por aquéllos que se dedican a las aventuras.~
+@200262 = ~Respiro del Linaje
+
+Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
+Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
+Su mejor amigo era un poderoso clérigo de Tempus, quien llegó en su rescate. Ambos huyeron de la terrible magia nigromántica. Aznagarb, el clérigo, luego de ponerse a cubierto en un templo oculto en el Bosque de las Espinas, brindó las herramientas necesarias para la venganza de Benork, consistiendo, básicamente, en un conjunto divinamente imbuido y que sólo aquellos que odiaran la magia con todo su corazón podrían usar.
+
+El anillo representa la vida de los hijos del Duque que fueron arrebatadas durante el ataque al castillo. Benork le dio ese nombre para poder recordar a su descendencia, ya extinta, cuando estuviera a punto de quitarle la vida a los responsables.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Resistencia a la Magia: +5%
+- Resistencia al Fuego: +10%
+- Inmunidad al veneno
+
+Habilidades:
+
+- Perforar Magia: 1 vez al día~
+
+// Latido de Calia
+
+@200263 = ~Anillo~
+@200264 = ~Latido de Calia~
+@200265 = ~Un anillo es una pequeña banda de metal precioso que se utiliza como joya. Algunos anillos poco comunes han tenido encantamientos que confieren varias propiedades mágicas. Estos anillos son muy buscados, especialmente por aquéllos que se dedican a las aventuras.~
+@200266 = ~Latido de Calia
+
+Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
+Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
+Su mejor amigo era un poderoso clérigo de Tempus, quien llegó en su rescate. Ambos huyeron de la terrible magia nigromántica. Aznagarb, el clérigo, luego de ponerse a cubierto en un templo oculto en el Bosque de las Espinas, brindó las herramientas necesarias para la venganza de Benork, consistiendo, básicamente, en un conjunto divinamente imbuido y que sólo aquellos que odiaran la magia con todo su corazón podrían usar.
+
+El anillo representa la vida de Calia, la esposa del Duque Benork. Cuenta la leyenda que la noche en que los nigromantes atacaron su castillo, Calia no se encontraba en su lecho, puesto a que habrían adormecido al Duque mediante algún conjuro de encantamiento. Sin embargo, mediante una gran fuerza de voluntad, Benork se resistió, y fue en búsqueda de su esposa, sólo para encontrarla masacrada junto a sus cinco hijos.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Resistencia a la Magia: +5%
+- Resistencia al Fuego: +10%
+- Regeneración: 1 punto de golpe cada 4 segundos
+
+Habilidades:
+
+- Brecha: 1 vez al día~
+
+// Vengadora Real
+
+@200267 = ~Bastón~
+@200268 = ~Vengadora Real~
+@200269 = ~Es la más sencilla y humilde de las armas de palo. La barra es una madera de 180 a 275 centímetros de largo. Una buena barra está hecha de madera de roble y va rematada con metal en ambos extremos. La barra se debe empuñar con ambas manos.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6
+Tipo de daño: Contundente
+Peso: 4 lbs
+Factor de velocidad: 4
+Talento marcial: Bastón
+Tipo de arma: A dos manos
+Requisitos: 5 de fuerza~
+@200270 = ~Vengadora Real
+
+Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
+Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
+Su mejor amigo era un poderoso clérigo de Tempus, quien llegó en su rescate. Ambos huyeron de la terrible magia nigromántica. Aznagarb, el clérigo, luego de ponerse a cubierto en un templo oculto en el Bosque de las Espinas, brindó las herramientas necesarias para la venganza de Benork, consistiendo, básicamente, en un conjunto divinamente imbuido y que sólo aquellos que odiaran la magia con todo su corazón podrían usar.
+
+Vengadora Real: Finalmente el arma que completa el conjunto del Asesino de Magos se trata de un Bastón-Lanza imbuido por la fuerza divina de Tempus y las ansias de venganza del guerrero Nathan Benork.
+La Fuerza Divina de Tempus hace que el portador aumente su poderío de forma colosal, convirtiéndolo en un guerrero letal.
+Las abjuraciones imbuidas por el clérigo Aznagarb hicieron que el arma sea capaz de disipar las protecciones mágicas de la víctima, facilitando así el combate para el guerrero.
+Y la furia de Benork permitió envenenar al arma con un odio corrosivo, el cual habría de contagiarse a aquel que tuviera la desgracia de recibir su golpe.
+
+Finalmente, luego de estar completamente armado con su Conjunto Asesino, el Duque Nathan Benork encaminó su destino hacia la lucha contra los nigromantes, donde nadie más supo de él. Algunos dicen que logró derrotar a los nigromantes, dándoles una muerte inesperada y dolorosa. Sin embargo, el líder de la Orden, Socram, logró abatirlo gracias a (irónicamente) una daga envenenada que se incrustó en el corazón del Guerrero.
+Nathan Benork murió agonizando, pero con una sonrisa en su boca. Su venganza se habría completado cuando el veneno de la Vengadora invadió el alma de su mortal enemigo, Socram.
+Los artefactos del Asesino de Magos se dispersaron por todo Amn.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Fuerza: Establecida en 25
+
+Aptitudes de Combate:
+
+- Efectos de Dispersión: Cada golpe disipa las protecciones mágicas de la víctima.
+- Veneno: La víctima debe superar una tirada de salvación contra Muerte/Veneno o sufrir 4 puntos de daño por segundo durante 3 asaltos.
+
+THAC0: +6
+Daño: 1D10+6, +2d5 por daño de Veneno.
+Tipo de daño: Perforante
+Peso: 7 lbs
+Factor de velocidad: 0
+Talento marcial: Bastón
+Tipo de arma: A dos manos
+Requisitos: 14 de fuerza~
+@200271 = ~Efectos de Dispersión~
+
+// Bellfame's Ring
+
+@200272 = ~Anillo~
+@200273 = ~Anillo del Bosque de Mir~
+@200274 = ~Un anillo es una pequeña banda de metal precioso que se utiliza como joya. Algunos anillos poco comunes han tenido encantamientos que confieren varias propiedades mágicas. Estos anillos son muy buscados, especialmente por aquéllos que se dedican a las aventuras.~
+@200275 = ~Anillo del Bosque de Mir
+
+Hace algunos siglos, en las profundidades del bosque de Mir, habitaba la ninfa Bellfame junto a sus bestias. Durante muchos años protegió el bosque de Tethyr de cazadores furtivos y humanos sedientos de poder. Muchas criaturas le sirvieron de aliados y la naturaleza le estaba agradecida.
+Fue durante el Año de la Jarra que habría de encontrar su funesto final: Ajena era para su conocimiento la guerra que se gestaba entre Tethyr y el Tirano Oscuro de Mintar: Teldorn Darkhope.
+El malvado clérigo planeó la invasión a las tierras de Tethyr, resguardando a su ejército Zentharim en las profundidades. Uno de sus generales, el Caballero Imperceptor (título que describe el deseo de que otro sufra) llamado Kartlzer, notó que el Bosque de Mir presentaba, además de un lugar de encubrimiento, una oportunidad de adquirir poder, pues sus magos identificaron la presencia de una misteriosa ninfa en el corazón de un manglar.
+Kartlzer estaba consciente de las ventajas arcanas que se obtenían de una ninfa, ya sea viva o muerta, por lo que se decidió a cazarla, llevando consigo a su hechicero personal y a sus veinte mejores soldados.
+
+Bellfame, quien tenía una conexión innata con las raíces mismas del bosque, fue advertida del peligro que la acechaba, tanto ella como la arboleda, si los hombres del Tirano Oscuro permanecían en Mir. Por lo que decidió prepararse para el inminente combate, utilizando a sus mejores animales.
+Baba, el Ratón Nervioso, fue quien informó a la ninfa del acercamiento de los enemigos. Entonces, Bellfame conjuró una nube de confusión sobre los humanos, lo que permitió que sus ágiles lobos atacaran:
+Sayang, la Loba Worg, acometió contra la primera fila, mientras que Jack, el Lobo de Invierno, utilizó su aliento gélido contra la retaguardia.
+Desconcertados, los hombres intentaron contraatacar. Los arqueros fueron los primeros en reaccionar. Tensaron las flechas y apuntaron contra Jack y Sayang. Pero fue en ese instante en que, de la tierra y la oscuridad, surgió Uma, la Loba de las Sombras, quien atacó e inmovilizó a los arqueros.
+Inundado de furia, Kartlzer y su mago acometieron contra Bellfame, pues sabían que si ella caía, sus bestias quedarían desorientadas.
+Para desgracia de Bellfame, el mago de Kartlzer era muy hábil en la vocalización de hechizos, pero no contó con la irrupción de su conjuro por parte de un pequeño ratón que, extrañamente, tenía el poder de ensordecer a sus oponentes mediante un chillido infernal. El mago no se había percatado de que el ratón se le había subido encima de la túnica. Cuando estuvo a punto de deshacerse de Baba, Bellfame había terminado su conjuración y logrado paralizar al mago.
+Pero esto la había dejado expuesta al inminente ataque de Kartlzer: el Caballero acometía contra ella sosteniendo su espada. Justo antes del impacto final, la mano de Kartlzer fue devorada por la última bestia de Bellfame: Thiago, el oso pardo.
+Pese a que, en un principio, la victoria parecía estar del lado de la ninfa, los humanos se incorporaban rápidamente y contraatacaban a las bestias, las cuales no tuvieron más remedio que reagruparse con su invocadora.
+El mago de Kartlzer, quien había conjurado una protección contra el Caballero, ahora estaba preparando un terrible Conjuro de Muerte contra Bellfame.
+La ninfa, por su parte, logró identificar el hechizo nigromante, por lo que comenzó un contra-conjuro. Pero esto le costaría todas sus fuerzas, por lo que recurrió, también, a un último plan desesperado.
+
+El mago finalizó su hechizo y lo lanzó contra Bellfame y sus animales. Para su desgracia y horror, pudo identificar, a su vez, que la ninfa profirió una Palabra de Poder. La misma era: Miedo. En ese instante, todos los humanos se contagiaron de un terror infeccioso en sus corazones, y huyeron despavoridos, perdiéndose para siempre en las profundidades frondosas del bosque.
+Bellfame, al igual que sus bestias, había desaparecido. La ninfa utilizó un anillo mágico que Baba había robado al mago cuando estuvo en su túnica y utilizado ese artefacto como protección contra el Conjuro de Muerte. Si bien alcanzó para que el hechizo no los aniquilara en el instante, el anillo no sólo absorbió el conjuro, sino también a la ninfa y a sus animales.
+Fueron transportados al plano astral de las convocaciones, donde las criaturas son inmortales y sirven a los que los invocan. Bellfame podrá volver al Plano Material siempre y cuando se la requiera y ella, a su vez, podrá traer a sus bestias consigo.
+Sin embargo, la voluntad de Bellfame es tal, que sólo aquellos de buen corazón pueden llamarla al combate.
+
+Bellfame, la ninfa del Bosque de Mir:
+
+CARACTERÍSTICAS:
+
+Ataque cuerpo a cuerpo: 1d6 daño contundente
+Velocidad de ataque: 0
+Resistencia a la Magia: +50
+Alineamiento: Neutral Buena
+Duración de Bellfame en el plano material: 8 horas por día
+
+HABILIDADES:
+
+Además de poseer los conjuros de ninfa, Bellfame tiene una habilidad innata:
+- Convocar a las Fuerzas del Bosque de Mir
+(Duración de las convocaciones de Bellfame: 4 horas por día)
+
+Uso: Sólo pueden utilizarlo aquellos que sean afines a la naturaleza
+___________________________________
+
+FUERZAS DEL BOSQUE DE MIR:
+
+Jack: El Lobo de Invierno
+
+Jack, el Lobo de Invierno, convivía junto a sus compañeros lupinos en Mir. Es el único de los aliados de Bellfame que es capaz de atacar a distancia gracias a sus aullidos gélidos. 
+Durante la batalla por Mir, Jack utilizó su agilidad para rodear a los enemigos y acabar con la retaguardia, utilizando sus habilidades glaciales.
+
+CARACTERÍSTICAS:
+
+Ataque a distancia: 0d6+2 daño mágico, +3d4 daño por frío (aliento gélido)
+Ataque cuerpo a cuerpo: 0d6 daño perforante, +2d4 daño por frío
+Golpea como un arma +3
+Velocidad de ataque: 3
+Inmunidad al frío
+Puntos de vida: 51
+Velocidad de movimiento aumentada
+Alineamiento: Legal Neutral
+
+HABILIDADES: 
+
+Cono de frío (1 vez al día): Jack puede lanzar un terrible aliento gélido, que ocasionará daño mágico por frío a sus oponentes.
+
+**************************
+
+Thiago: El Oso pardo
+
+Thiago, el Oso pardo, vivió sus últimos años del plano material en Mir, junto a su amada Bellfame. Durante la batalla contra Kartlzer, Thiago le salvó la vida a su ninfa cuando pudo evitar la estocada final del Caballero.
+El oso disfruta de una buena comida, y por lo general, cuando es llamado del Plano Astral, viene bien alimentado y listo para la batalla. Posee una buena resistencia contra el frío y el fuego y cuenta con algunas habilidades especiales para el combate cuerpo a cuerpo.
+
+CARACTERÍSTICAS:
+
+Ataque: 1d12+4, daño contundente
+Golpea como un arma +4
+Velocidad de ataque: 0
+Resistencia al frío/fuego: +25
+Resistencia al daño físico: +50
+Puntos de vida: 100
+Alineamiento: Legal Bueno
+
+HABILIDADES: 
+
+Valentía del Oso (2 veces al día): Puede dar un gran aullido, el cual le da una confianza sobrenatural y lo inmuniza contra el miedo, ya sea mágico o natural.
+Poder Sagrado del Oso (2 veces al día): Thiago se prepara para el combate aunando fuerzas sagradas de la naturaleza. Su Fuerza, Destreza y Constitución se ven aumentadas.
+Oso Endurecido (1 vez al día): Es capaz de resistir los ataques físicos gracias a su grasa y pelaje. Luego de 5 impactos, volverá a ser vulnerable.
+
+**************************
+
+Baba: El Ratón Nervioso
+
+Baba es el pequeño ratón de Bellfame. Fue el responsable de robar el anillo del mago de Kartlzer, el cual es el que permite, de manera indirecta, convocarlo, ya que es Bellfame quien lo invoca. 
+Si bien Baba no posee un ataque fuerte, es escurridizo (aunque algo cobarde). Si logras comandarlo, podrá utilizar un poderoso aullido que aterrará a los enemigos malignos y protegerá a los aliados.
+Tiene la capacidad de hurtar bolsillos y entregar lo robado a cualquier miembro del grupo, siempre y cuando éste pueda convencer a Baba de hacerlo.
+
+CARACTERÍSTICAS:
+
+Ataque: 1d2, daño contundente
+Golpea como un arma normal
+Velocidad de ataque: 0
+Resistencia a los elementos: +10
+Resistencia a la magia: +50
+Puede esquivar ataques físicos, lo que le provee una resistencia de +90 a cualquier daño normal.
+Puntos de vida: 10
+Alineamiento: Caótico Neutral
+Explorador
+
+HABILIDADES: 
+
+Detección de Trampas: 120
+Desactivar Trampas: 120
+Robo: 150
+Esconderse en las sombras: 150
+Detectar Ilusiones: 150
+
+Aullido del Ratón Loco: este aullido, que puede utilizarse tres veces por convocación, inflige daño e infunde miedo en los enemigos malignos, además de disipar el miedo y ejecutar un conjuro de Protección contra el mal sobre los miembros del grupo.
+
+**************************
+
+Uma: La Loba de las Sombras
+
+Uma, la Loba de las Sombras, habitaba en los bosques de Mir junto a su ama, Bellfame, la ninfa. En sus últimos días en Mir, combatió fervientemente contra los arqueros del Caballero Imperceptor, surgiendo desde las sombras y salvando a sus compañeros del bosque de las mortíferas flechas.
+Posee muchas inmunidades, debido a su condición sombría.
+
+CARACTERÍSTICAS:
+
+Ataque: 1d8+2, daño perforador.
+Golpea como un arma +2
+Valocidad de ataque: 0
+Inmunidad a las armas normales
+Inmunidad al frío
+Puntos de vida: 45
+Alineamiento: Neutral Buena
+Exploradora
+
+HABILIDADES:
+
+Lametón Curativo: hace que se recuperen 8 pg y cura enfermedad, sordera, ceguera y los efectos del veneno.
+Invisibilidad: puede fundirse en las sombras 1 vez al día
+
+**************************
+
+Sayang: La Loba Worg
+
+Sayang, la Loba Worg, vivía en el bosque de Mir en sus últimos años de vida en el Plano Material. Su gran velocidad le permite acometer siempre primera en combate, así como lo hizo en Mir contra la vanguardia de Kartlzer.
+Su aumento de velocidad le provee una resistencia natural contra el daño eléctrico.
+
+CARACTERÍSTICAS:
+
+Ataque: 1d8+1, daño perforante
+Golpea como un arma +1
+Velocidad de ataque: 0
+Resistencia a la electricidad: +50
+Puntos de vida: 36
+Velocidad de movimiento aumentada
+Alineamiento: Caótica Buena
+
+HABILIDADES: 
+
+Ataque Torbellino Mayor (3 vez al día): Sayang puede moverse a gran velocidad, permitiendo lanzar una "ráfaga" de golpes superrápidos.~
+// CRIATURAS CONVOCADAS
+@200276 = ~Bellfame~
+@200277 = ~Baba, el Ratón Nervioso~
+@200278 = ~Jack, el Lobo de Invierno~
+@200279 = ~Sayang, la Loba Worg~
+@200280 = ~Thiago, el Oso Pardo~
+@200281 = ~Uma, la Loba de las Sombras~
+
+//Ataque de Baba
+@200282 = ~Ataque~
+@200283 = ~Ataque mocho~
+@200284 = ~Ataque~
+@200285 = ~Por lo general, los roedores suelen atacar con sus filosos dientes, pero no es el caso de Baba, el Ratón Nervioso. 
+Sus problemas neuróticos debido al estrés de ser un ratón han provocado que roa y grite todo el tiempo, provocando que sus dientes pierdan su filo.
+En otras palabras, es muy poco probable que Baba sea capaz de lastimar a alguien con sus ataques, pero al menos es su último recurso.
+
+Ataque: 1d2, daño contundente
+Velocidad de ataque: 0~
+
+//Descripción del Conjuro
+@200286 = ~Fuerzas del Bosque de Mir~
+@200287 = ~Fuerzas del Bosque de Mir
+(Conjuración/Convocación)
+Nivel: Innato
+Alcance: 15 metros
+Duración: 4 horas
+Tiempo de lanzamiento: Especial
+Area de efecto: Especial
+Tirada de salvación: Ninguna
+
+La ninfa llamada Bellfame es capaz de lanzar una poderosa invocación al mundo astral. Y es que gracias a sus arduos deseos de defender la naturaleza ha sido capaz de superar las barreras que separar el plano material de sus compañeros del bosque.
+La habilidad innata consiste en convocar a los animales del bosque que combatieron junto a ella en Mir.
+La duración de las invocaciones será de 4 hs.
+
+FUERZAS DEL BOSQUE DE MIR:
+
+Jack: El Lobo de Invierno
+
+Jack, el Lobo de Invierno, convivía junto a sus compañeros lupinos en Mir. Es el único de los aliados de Bellfame que es capaz de atacar a distancia gracias a sus aullidos gélidos. 
+Durante la batalla por Mir, Jack utilizó su agilidad para rodear a los enemigos y acabar con la retaguardia, utilizando sus habilidades glaciales.
+
+CARACTERÍSTICAS:
+
+Ataque a distancia: 0d6+2 daño mágico, +3d4 daño por frío (aliento gélido)
+Ataque cuerpo a cuerpo: 0d6 daño perforante, +2d4 daño por frío
+Velocidad de ataque: 3
+Inmunidad al frío
+Puntos de vida: 51
+Velocidad de movimiento aumentada
+Alineamiento: Legal Neutral
+
+HABILIDADES: 
+
+Cono de frío (1 vez al día): Jack puede lanzar un terrible aliento gélido, que ocasionará daño mágico por frío a sus oponentes.
+
+**************************
+
+Thiago: El Oso pardo
+
+Thiago, el Oso pardo, vivió sus últimos años del plano material en Mir, junto a su amada Bellfame. Durante la batalla contra Kartlzer, Thiago le salvó la vida a su ninfa cuando pudo evitar la estocada final del Caballero.
+El oso disfruta de una buena comida, y por lo general, cuando es llamado del Plano Astral, viene bien alimentado y listo para la batalla. Posee una buena resistencia contra el frío y el fuego y cuenta con algunas habilidades especiales para el combate cuerpo a cuerpo.
+
+CARACTERÍSTICAS:
+
+Ataque: 1d12, daño contundente
+Velocidad de ataque: 0
+Resistencia al frío/fuego: +25
+Resistencia al daño físico: +50
+Puntos de vida: 100
+Alineamiento: Legal Bueno
+
+HABILIDADES: 
+
+Valentía del Oso (2 veces al día): Puede dar un gran aullido, el cual le da una confianza sobrenatural y lo inmuniza contra el miedo, ya sea mágico o natural.
+Poder Sagrado del Oso (2 veces al día): Thiago se prepara para el combate aunando fuerzas sagradas de la naturaleza. Su Fuerza, Destreza y Constitución se ven aumentadas.
+Oso Endurecido (1 vez al día): Es capaz de resistir los ataques físicos gracias a su grasa y pelaje. Luego de 5 impactos, volverá a ser vulnerable.
+
+**************************
+
+Baba: El Ratón Nervioso
+
+Baba es el pequeño ratón de Bellfame. Fue el responsable de robar el anillo del mago de Kartlzer, el cual es el que permite, de manera indirecta, convocarlo, ya que es Bellfame quien, en realidad, lo llama. 
+Si bien Baba no posee un ataque fuerte, es escurridizo (aunque algo cobarde). Si logras comandarlo, podrá utilizar un poderoso aullido que aterrará a los enemigos malignos y protegerá a los aliados.
+Tiene la capacidad de hurtar bolsillos y entregar lo robado a cualquier miembro del grupo, siempre y cuando éste pueda convencer a Baba de hacerlo.
+
+CARACTERÍSTICAS:
+
+Ataque: 1d2, daño contundente
+Velocidad de ataque: 0
+Resistencia a los elementos: +10
+Resistencia a la magia: +50
+Puede esquivar ataques físicos, lo que le provee una resistencia de +90 a cualquier daño normal.
+Puntos de vida: 10
+Velocidad de movimiento aumentada
+Alineamiento: Caótico Neutral
+Explorador
+
+HABILIDADES: 
+
+Detección de Trampas: 120
+Desactivar Trampas: 120
+Robo: 150
+Esconderse en las sombras: 150
+Detectar Ilusiones: 150
+
+Aullido del Ratón Loco: este aullido, que puede utilizarse tres veces por convocación, inflige daño e infunde miedo en los enemigos malignos, además de disipar el miedo y ejecutar un conjuro de Protección contra el mal sobre los miembros del grupo.
+
+**************************
+
+Uma: La Loba de las Sombras
+
+Uma, la Loba de las Sombras, habitaba en los bosques de Mir junto a su ama, Bellfame, la ninfa. En sus últimos días en Mir, combatió fervientemente contra los arqueros del Caballero Imperceptor, surgiendo desde las sombras y salvando a sus compañeros del bosque de las mortíferas flechas.
+Posee muchas inmunidades, debido a su condición sombría.
+
+CARACTERÍSTICAS:
+
+Ataque: 1d8, daño perforador.
+Velocidad de ataque: 0
+Inmunidad a las armas normales
+Inmunidad al frío
+Puntos de vida: 45
+Alineamiento: Neutral Buena
+Exploradora
+
+HABILIDADES:
+
+Lametón Curativo: hace que se recuperen 8 pg y cura enfermedad, sordera, ceguera y los efectos del veneno.
+Invisibilidad: puede fundirse en las sombras 1 vez al día
+
+**************************
+
+Sayang: La Loba Worg
+
+Sayang, la Loba Worg, vivía en el bosque de Mir en sus últimos años de vida en el Plano Material. Su gran velocidad le permite acometer siempre primera en combate, así como lo hizo en Mir contra la vanguardia de Kartlzer.
+Su aumento de velocidad le provee una resistencia natural contra el daño eléctrico.
+
+CARACTERÍSTICAS:
+
+Ataque: 1d8, daño perforante
+Velocidad de ataque: 0
+Resistencia a la electricidad: +50
+Puntos de vida: 36
+Velocidad de movimiento aumentada
+Alineamiento: Caótica Buena
+
+HABILIDADES: 
+
+Ataque Torbellino Mayor (3 vez al día): Sayang puede moverse a gran velocidad, permitiendo lanzar una "ráfaga" de golpes superrápidos.~
+
+
+// Spell BABA
+
+@200288 = ~Aullido del ratón loco~
+@200289 = ~Pánico~
+@200290 = ~Pánico~
+@200291 = ~Baba emite un aullido fuerte y tenebroso, lo que provoca sorpresa tanto en aliados como en enemigos. 
+Puede utilizarse tres veces por convocación, inflige daño e infunde miedo en los enemigos malignos, además de disipar el miedo y ejecutar un conjuro de Protección contra el mal sobre los aliados de Baba.~
+
+// Spell Thiago1
+
+@200292 = ~Valentía del Oso~
+@200293 = ~Valentía del Oso (Innato)
+Nivel: Innato
+Alcance: Grupo
+Tiempo de lanzamiento: 0
+Duración: 5 turnos
+Área de efecto: 30 metros
+Tirada de salvación: Ninguna
+
+DESCRIPCIÓN:
+
+Thiago lanza un fuerte gruñido, aumentando sus aptitudes en combate. Brinda protección contra el miedo a sus amigos, ya sea mágico o natural.
+Además, si alguno de sus compañeros estuviese afectado por el terror, la Valentía del Thiago debería curar ese efecto negativo.
+THAC0: +1
+Tiradas de Salvación: +1~
+@200294 = ~Pánico~
+@200295 = ~Pánico~
+
+// Spell Thiago2
+
+@200296 = ~Poder Sagrado del Oso~
+@200297 = ~Poder Sagrado del Oso (Innato)
+Nivel: Innato
+Esfera: Combate
+Alcance: 0
+Duración: 5 turnos
+Tiempo de lanzamiento: 2 asaltos
+Area del efecto: El lanzador de conjuros
+Tirada de salvación: Ninguna
+
+DESCRIPCIÓN:
+
+Thiago se prepara para el arduo combate, invocando a las sagradas fuerzas de la naturaleza. Cuando hace esto, su fuerza, constitución y destreza aumentan 3 puntos.~
+@200298 = ~Modificación de la Fuerza~
+@200299 = ~Modificación de la Fuerza~
+@200300 = ~Modificación de la Fuerza~
+
+// Spell Thiago3
+
+@200301 = ~Oso endurecido~
+@200302 = ~Oso Endurecido (Alteración)
+Nivel: Innato
+Esfera: Elemental
+Alcance: Thiago
+Duración: Especial
+Tiempo de lanzamiento: 0
+Área de efecto: Thiago
+Tirada de salvación: Ninguna
+Efecto: Piel pétrea
+
+DESCRIPCIÓN:
+
+Thiago endurece su piel de tal manera, que crea capas impenetrables a las armas físicas. Puede recibir hasta cinco impactos y aún así, no sentir ningún dolor ni daño a su salud. Sin embargo, luego del quinto impacto, las capas desaparecerán. También pueden ser disipadas a través de medios mágicos.~
+
+// Probar UseItem en los dlg files
+
+
+
+
+// Michelson, el Leprechaun
+
+@200303 = ~Michelson, el Leprechaun~
+
+// Mathyus Davis
+@200304 = ~Mathyus Davis~
+
+// Libro de recetas leprechaun
+
+@200305 = ~Libro~
+@200306 = ~Libro de recetas leprechaun~
+@200307 = ~El libro es incomprensible a la vista. Puede que un conjuro de identificación o el conocimiento de un bardo pueda resolverlo.~
+@200308 = ~Libro de recetas leprechaun
+
+Saludos, viajeros. Les dejo este libro con las recetas necesarias para forjar poderosos artefactos, de la mano del buen Michelson. Creo que está todo bastante claro, así que espero que cuando reúnas lo necesario para algún artefacto, vengas con nosotros (habla primero conmigo, Michelson siempre está perdido en sus cosas de leprechaun).
+Aquí vamos:
+
+Espada cormyreana de disrupción
+
+Dusk, si estás leyendo esto, esta fórmula debería interesarte. Michelson ha notado algo particular en tu espada cormyreana: la misma ha sido reparada por artesanos elfos de Shilmista. De seguro se trata de la espada que se rompió cuando llegaste al Bosque de las Sombras. Si bien la espada en sí es bastante poderosa, Michelson cree que con los determinados ingredientes puedas mejorarla en demasía:
+
+Se necesita:
+- Espada de Dusk (obviamente)
+- Pergamino de protección contra los muertos vivientes (Lo suelen vender en algunas iglesias)
+- Gema de Barra Lunar (una gema bastante común) 
+- Gema de Turquesa (una gema bastante común)
+- Lágrimas del Rey (una gema valiosa, extraña)
+- Libro de Kaza (definitivamente el ingrediente más difícil de conseguir)
+- Oro: 7500 piezas
+
+Defensa de Cormyr
+
+Dusk, esta es otra nota para ti. Michelson dice que puede mejorar tu armadura Shilmista, colocándole unas placas para una mejora defensiva. Pero exige algo... particular. Dice necesitar alguna placa de origen cormyreano. Puede ser un trozo de escudo, por ejemplo. Debe ser de la Orden del Dragón Púrpura. El pequeño analizó tu equipo, Dusk, y nada de lo que tienes actualmente sirve para ello. Por ende, necesitaríamos:
+
+- Armadura de Dusk (por obvias razones)
+- Metal cormyreano (puede ser un trozo de escudo, por ejemplo)
+- Gema de Coral (una gema negra, bastante común)
+- Opalo Negro (una gema común, aunque algo valiosa)
+- Oro: 7500
+
+Brazales de Defensa Pétrea
+
+El mismo nombre indica su función, ¿no lo crees?
+
+Se necesita:
+- Brazales de Defensa C.A. 8 (brazales mágicos, puede que vendan algunos en el Mercado del Aventurero)
+- Pergamino de Protección contra la petrificación (Lo suelen vender en algunas iglesias. NOTA: ¡No confundir con el pergamino mágico!)
+- Gema de Jaspe (una gema bastante común)
+- Oro: 3000 piezas
+
+Crimson Thunder
+
+Michelson afirma que es capaz de replicar un antiguo artefacto, algo que vio en otro plano. No entiendo mucho a qué se refiere, pero se ve que es bastante exigente con los ingredientes. Creo que puede valer la pena intentar conseguirlos.
+
+Se necesita:
+- Martillo de Guerra +2: Ashideena (El martillo de guerra es dorado e inflige daño eléctrico)
+- Bastón de Truenos y Rayos (un ítem un tanto extraño, pero no creo que sea imposible de conseguir)
+- Pergamino de Rayo Relampagueante (puede que alguna tienda de pergaminos mágicos tenga uno)
+- Varita mágica de paralización (un ítem extraño, pero no creo que sea imposible de conseguir)
+- Amuleto de Hematites (un collar con gemas rojas, bastante común)
+- Anillo de Rubí (un anillo escarlata, caro, pero dentro de todo común)
+- Oro: 25000
+
+Fuego Salvaje
+
+El leprechaun afirma y asegura que los druidas cambiaformas pueden usar armaduras, aún si se convierten en licántropos. No estoy seguro de que sea así, por lo que el pequeño me ha dicho que replicará una poderosa armadura de cuero que sólo los Cambiaformas pueden usar.
+
+Se necesita:
+- Armadura de Cuero de Karajah (un ítem extraño, pero me han comentado que Ribald lo tiene en su repertorio)
+- Gema de Ágata Ardiente (una gema bastante común)
+- Pergamino de Protección contra el Fuego (Lo suelen vender en algunas iglesias)
+- Collar de Estabilidad de Forma (posiblemente el artefacto más extraño, pero si Michelson lo exige, es porque se puede conseguir)
+- Oro: 7000
+
+Venom Strike
+
+No estoy seguro de qué se trate este artefacto, pero asumo que debe ser algo como un mayal o una estrella del alba. Por sus ingredientes, el resultado debe ser de lo más satisfactorio.
+
+Se necesita:
+- Cola de Draco (Michelson dice que se trata de un Mangual hecho con la cola de un draco. Sumamente venenosa)
+- Pergamino de Protección contra el veneno (Lo suelen vender en algunas iglesias)
+- Pergamino de Toque Vampírico (pergamino mágico, que puede que sea vendido por algunas tiendas)
+- Poción de Regeneración (una poción bastante común, al menos para el aventurero)
+- Gema de Diópsido de Estrella (una gema relativamente común, aunque no digo que sea fácil de conseguir)
+- Gema de Titanita (lo mismo que la anterior)
+- Oro: 25000
+
+Colmillo de Larloch
+
+Michelson dice que puede crear un hacha que cumple las mismas funciones que el Colmillo del Liche Larloch. No quise preguntar más, pero asumo que vale la pena intentar conseguir estos ingredientes.
+
+Se necesita:
+- Hacha de batalla +1 (un hacha mágica bastante común si a mí me lo preguntas)
+- Poción de Resistencia al Frío (una poción que se puede conseguir en algunas tiendas de aventureros)
+- Gema de Yol (una gema bastante común)
+- Pergamino de Drenaje Menor de Larloch (pergamino mágico, que puede que sea vendido por algunas tiendas)
+- Yelmo de Protección contra hechizos (un yelmo protector, creo que Michelson quiere extraer parte de su magia para incrustarlo en el hacha)
+- Oro: 12500
+
+Ventisca del Averno
+
+Aparentemente, Michelson a estado en un plano infernal, en donde el fuego no existe. Dice que allí aprendió a forjar un arma poderosa, más específicamente una espada bastarda. Para poder replicarla, necesita:
+
+- Espada Bastarda +2 (posiblemente la puedas conseguir en alguna tienda)
+- Pergamino de protección contra el frío (Lo suelen vender en algunas iglesias)
+- Gema de Ojo de Lince (una gema bastante común)
+- Gema de Aguamarina (una gema particular, pero seguro no tienes problemas encontrando alguna en tus viajes)
+- Diamante (una gema valiosa, pero vale la pena invertirla en esto)
+- Oro: 12500
+
+
+
+
+
+NOTA SECRETA:
+Cuando Michelson conoció a Dusk, quedó algo obsesionado con él. Aparentemente, los Asesinos de Magos generan en él un profundo respeto, quizás porque les teme ya que (como supondrás) Michelson es un ser mágico. Descubrí que en su poder tiene un artefacto legendario, llamado La Vengadora Real. Se trata del arma original que empuñó el conde Benork cuando luchó contra una orden de Nigromantes en el Norte. ¿Cómo llegó a su poder? Ni idea... pero el objetivo de esto es decirte que si encuentras el resto del Conjunto Asesino de Benork, quizás te dé su arma definitiva. Te diré los artefactos necesarios, aunque todo lo que sé de ello, son sus nombres:
+
+- Latido de Calia
+- Respiro del Linaje
+- Iris de Tempus
+- Fortaleza de Benork
+- Protección de Aznagarb
+- Camino de los Ancestros
+- Defensa de Aznagarb
+- Esperanza de Benork
+
+PD: si consigues los ocho artefactos, trae a Dusk contigo. Algo me dice que Michelson sólo te dará el arma si él está presente. Y asegúrate de que posea su bastón cormyreano. No creo que el pequeño quiera dar un arma tan poderosa sin nada a cambio.
+
+Atentamente, 
+Mathyus Davis.-~
+
+/*   
+- Latido de Calia (anillo)
+- Respiro del Linaje (anillo) P_WSRNG1 - Demonio Abisal
+- Iris de Tempus (casco)
+- Fortaleza de Benork (fajín) P_WSASH - Misión Genios Dao
+- Protección de Aznagarb (capa)
+- Camino de los Ancestros (botas)
+- Defensa de Aznagarb (brazaletes) 
+- Esperanza de Benork (amuleto) P_WSAM - Ziben, la Gnoll
+*/
+
+
+
+
+
+@200309 = ~Armadura de Cota de Mallas~
+@200310 = ~Armadura de la familia Aldant~
+@200311 = ~La cota de malla está formada por anillos de metal entrelazados. Siempre está sobre una capa de tela acolchada o de cuero suave para evitar los roces y disminuir el impacto de los golpes.  
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 5
+Peso: 40 lbs
+Requisitos: 8 de fuerza
+No permitido a:
+ Druida 
+ Mago 
+ Ladrón~
+@200312 = ~Armadura de la familia Aldant
+
+La cota de mallas expone un gallardo color púrpura, seguramente representando a los Dragones de Cormyr. Pero también tiene unos hermosos detalles de hojas, resultado del arte místico de los elfos. La magia que irradia provee protección adicional al portador. En este caso, a alguien con la sangre de la familia Aldant.
+
+CARACTERÍSTICAS:
+
+Bonificador: +10% de resistencia mágica
+Clase de armadura: 3
+Peso: 10 lbs~
+
+// 	
+
+@200313 = ~Espada cormyreana reforjada~
+@200314 = ~Espada cormyreana reforjada
+
+Esta espada bastarda fue forjada originalmente en Cormyr. Una típica espada de soldado. Sin embargo, la artesanía de la misma es exquisita, siendo su filo peligroso para todo aquello que toque.
+Según cuenta Dusk, la misma fue rota en un combate contra un troll gigante. Posteriormente, fue reforjada por los artesanos elfos del rey Elbereth, potenciando sus encantamientos y agregando un daño ácido en la misma, para no tener que sufrir las mismas consecuencias en caso de enfrentar de nuevo a esas criaturas de las montañas.
+
+CARACTERÍSTICAS:
+
+Bonificadores: + 1 a la Fuerza
+
+Daño: 2D4 + 1, + 1 por daño ácido
+GAC0: bonificador +1
+Tipo de daño: Cortante
+Peso: 9
+Factor de velocidad: 7
+Tipo de talento: Espada bastarda~
+
+
+// Bastón reforzado shilmista
+
+@200315 = ~Bastón reforzado shilmista~
+@200316 = ~El bastón posee los colores de la Orden del Dragón Púrpura. La artesanía es especial, pues fue creado en Cormyr.
+Sin embargo, Dusk cuenta que el mismo fue reforzado en Shilmista por el rey elfo Elbereth y sólo Dusk puede usarlo.
+
+CARACTERÍSTICAS:
+
+Bonificador: +2 a la Clase de Armadura
+
+TAC0: +2
+Daño: 1D6 +2
+Tipo de daño: Contundente
+Peso: 3
+Factor de velocidad: 2
+Talento marcial: Bastón
+Tipo: dos manos~
+
+@200317 = ~Escudo roto de la Orden del Dragón Púrpura~
+@200318 = ~Los fragmentos maltrechos del escudo se encontraba en poder de un grupo de humanoides, los cuales clamaban ser desertores del ejército de Sothillis. Aún se puede admirar el purpúreo color metálico, aunque ya no sirva como escudo en sí.~
+
+// DEFENSA DE CORMYR
+
+
+
+@200321 = ~Demoledor~
+@200322 = ~Falon, la cacique orco~
+@200323 = ~Cufa-Tima, el Ettin~
+@200324 = ~Ziben, la gnoll~
+@200325 = ~Coco, la chamán trasgo~
+
+@200326 = ~Sornhil, el Encantador~
+
+@200327 = ~Orbe escarlata misterioso~
+@200328 = ~El artefacto fue entregado por un misterioso personaje llamado Sornhil, un mago especializado en encantamientos. El orbe brilla con un rojo sangriento. Emana un poder misterioso, pero no sabes qué utilidad le puedas dar. Quizás Mathyus y Michelson puedan analizarlo un poco más.~
+
+
+
+
+// ESPADA CARMESÍ
+@200334 = ~Espada carmesí~
+@200335 = ~Espada carmesí
+
+El arma fue creada a partir de un orbe maligno. Dusk ha logrado desencadenar el poder completo del mismo, aunque a un costo que no logramos comprender. La espada brilla con un color carmesí, rojo sangre, como lo era el del misterioso orbe. Pese a tener el tamaño de una espada bastarda regular, su peso es descomunal comparado a una. Como es de esperarse, sólo la puede blandir Dusk.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Regeneración: 3 puntos de golpe cada 3 segundos
+- Resistencia al Fuego: +10%
+- Puntos de golpe adicionales: +5
+
+Aptitudes de combate:
+  
+- Drenaje: Cada golpe asestado curará al portador 3 puntos de vida.
+
+THAC0: +3
+Daño: 3D6+3, +1 por daño de fuego, +1 por daño mágico
+Tipo de daño: Cortante
+Peso: 26 lbs
+Factor de velocidad: 5
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano
+Requisitos: 19 de fuerza~
+
+@200336 = ~Sabiduría aumentada en 1 punto~
+@200337 = ~Habilidad innata obtenida: Guerrero de acero~
+@200338 = ~Experiencia obtenida: 100.000 puntos~
+@200339 = ~Alineamiento cambiado: Neutral Bueno~
+@200340 = ~Arma obtenida: Espada esmeralda~
+
+// Espada Esmeralda
+@200341 = ~Espada esmeralda~
+@200342 = ~Espada esmeralda
+
+El arma fue creada a partir de un orbe maligno. Dusk ha decidido acudir al explorador shilmista Mathyus Davis para que, junto al misterioso leprechaun Michelson, lograran erradicar la maldad del mismo. Si bien el poder del orbe disminuyó tras la purificación del mismo, Dusk ha logrado desencadenar su poder interior, logrando la creación de esta espada. Como es de esperarse, sólo la puede blandir él.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Clase de armadura: +1
+- Resistencia al daño físico: +%5 (cortante, contundente, perforante y proyectil)
+
+Aptitudes de combate:
+  
+- Ataques por asalto: +1
+
+THAC0: +3
+Daño: 2D4+3,  +1 por daño mágico
+Tipo de daño: Cortante
+Peso: 13 lbs
+Factor de velocidad: 4
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano
+Requisitos: 15 de fuerza~
+
+
+@200343 = ~Orbe esmeralda purificado~
+@200344 = ~El artefacto fue entregado por un misterioso personaje llamado Sornhil, un mago especializado en encantamientos. El mismo fue purificado por el leprechaun de Shilmista, Michelson. Ahora brilla con un afable color verde musgo, y brilla de tanto en tanto, resplandeciendo como una esmeralda.~
+
+
+// EVIL ORB
+@200345 = ~Fuerza aumentada en 2 puntos~
+@200346 = ~Destreza aumentada en 6 puntos~
+@200347 = ~Sabiduría disminuida en 2 puntos~
+@200348 = ~Habilidad innata obtenida: Guerrero de acero x3~
+@200349 = ~Habilidad innata obtenida: Miedo x2~
+@200350 = ~Experiencia obtenida: 500.000 puntos~
+@200351 = ~Arma obtenida: Espada carmesí~
+@200352 = ~Alineamiento cambiado: Neutral Maligno~
+
+// GOOD ORB
+@200353 = ~Sabiduría aumentada en 1 punto~
+@200354 = ~Habilidad innata obtenida: Último Esfuerzo~
+@200355 = ~Experiencia obtenida: 100.000 puntos~
+@200356 = ~Alineamiento cambiado: Neutral Bueno~
+@200357 = ~Arma obtenida: Espada esmeralda~
+
+// Cono de frío de JACK
+
+@200358 = ~Cono de Frío (Innato)
+Nivel: 5
+Alcance: 0
+Duración: Instantánea
+Tiempo de lanzamiento: instantáneo
+Area del efecto: Especial
+Tirada de salvación: 1/2
+
+DESCRIPCIÓN:
+
+Jack emite un poderoso aliento gélido, similar al conjuro arcano. El daño emitido es de 10D4 + 10 puntos de daño, siendo el cono de 4 metros de diámetro y 20 metros de largo.~
+
+// Clan Orco
+
+@200359 = ~Alabarza, el Mutilador~
+@200360 = ~Bob~
+@200361 = ~Kocha, el bersérker~
+@200362 = ~Komar, el ogro~
+@200363 = ~Mike~
+@200364 = ~Serrano, el carnicero~
+@200365 = ~Tongas, el hechicero~
+@200366 = ~Toxsan-Chimi, el ettin~
+@200367 = ~Xeb'Tian, el torturador~
+
+// Orbe teletransportador
+
+@200368 = ~Orbe Teletransportador~
+@200371 = ~El extraño orbe color verde brilla incesante. Aparentemente, ha sido diseñado para teletransportar al lugar a aquellos que tengan otras gemas de teletransportación. El artefacto fue diseñado por Michelson, el misterioso leprechaun de Shilmista.
+
+Peso: 3 lbs.~
+@200372 = ~El extraño orbe color verde brilla incesante. Aparentemente, ha sido diseñado para teletransportar al lugar a aquellos que tengan otras gemas de teletransportación. El artefacto fue diseñado por Michelson, el misterioso leprechaun de Shilmista.
+
+Peso: 3 lbs.~
+
+
+@200373 = ~Valatar, el Conjurador~
+
+@200374 = ~Espada carmesí mejorada~
+@200375 = ~Espada carmesí mejorada
+
+El arma fue creada a partir de un orbe maligno. Dusk ha logrado desencadenar el poder completo del mismo, aunque a un costo que no logramos comprender. La espada brilla con un color carmesí, rojo sangre, como lo era el del misterioso orbe. Pese a tener el tamaño de una espada bastarda regular, su peso es descomunal comparado a una. Como es de esperarse, sólo la puede blandir Dusk.
+
+La espada ha sido mejorada cuando Dusk la ha alimentado con la sangre del corazón del demonio abisal.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Regeneración: 3 puntos de golpe cada 3 segundos
+- Resistencia al Fuego: +15%
+- Puntos de golpe adicionales: +10
+- Invoca un escudo ígneo durante 60 segundos si la vida de Dusk disminuye a menos de la mitad.
+
+Aptitudes de combate:
+  
+- Drenaje: Cada golpe asestado curará al portador 3 puntos de vida.
+
+THAC0: +3
+Daño: 3D6+3, +1d2 por daño de fuego, +1 por daño mágico
+Tipo de daño: Cortante
+Peso: 26 lbs
+Factor de velocidad: 5
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano
+Requisitos: 19 de fuerza~
+
+@200376 = ~Espada esmeralda mejorada~
+@200377 = ~Espada esmeralda mejorada
+
+El arma fue creada a partir de un orbe maligno. Dusk ha decidido acudir al explorador shilmista Mathyus Davis para que, junto al misterioso leprechaun Michelson, lograran erradicar la maldad del mismo. Si bien el poder del orbe disminuyó tras la purificación del mismo, Dusk ha logrado desencadenar su poder interior, logrando la creación de esta espada. Como es de esperarse, sólo la puede blandir él.
+
+La espada ha sido mejorada ligeramente cuando Dusk decidió destruir el corazón del demonio abisal para así desterrarlo para siempre de este plano.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Clase de armadura: +1
+- Resistencia al daño físico: +%7 (cortante, contundente, perforante y proyectil)
+
+Aptitudes de combate:
+  
+- Ataques por asalto: +1
+
+THAC0: +3
+Daño: 2D4+3,  +1d2 por daño mágico
+Tipo de daño: Cortante
+Peso: 13 lbs
+Factor de velocidad: 4
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano
+Requisitos: 15 de fuerza~
+
+// INNATES SPELLS DUSK
+// Infundir Valor
+
+@200378 = ~Infundir Valor~
+@200388 = ~Infundir Valor
+Nivel: Innato
+Esfera: Abjuración
+Alcance: 10 metros
+Duración: 10 turnos
+Tiempo de lanzamiento: Instantánea
+Area del efecto: Radio de 12 metros
+Tirada de salvación: Especial
+
+DESCRIPCIÓN:
+
+El guerrero cormyreano emite un grito de guerra "¡Por Cormyr!", el cual infunde valor a sus aliados. Durante el tiempo en que dure el efecto, se verán inmunes a los efectos del miedo. El grito, también, quita los efectos de miedo a aquellos que se vieran afectados.~
+
+
+// Defensa Heroica
+
+@200380 = ~Defensa Heroica~
+@200381 = ~Defensa Heroica
+Nivel: Innato
+Esfera: Protección
+Alcance: Objetivo
+Duración: 10 turnos
+Tiempo de lanzamiento: Instantánea
+Area de efecto: El lanzador
+Tirada de salvación: Ninguna
+
+El guerrero cormyreano que ha sido entrenado como Primera Espada, es capaz de brindar una Defensa Heroica al objetivo indicado, brindando defensa física y elemental en un %10 mientras dure el efecto.~
+
+// Miedo
+
+@200382 = ~Miedo~
+@200383 = ~Miedo
+Nivel: Innato
+Esfera: Hechizo
+Alcance: Toque
+Duración: Instantáneo
+Tiempo de lanzamiento: 1
+Area de efecto: El lanzador
+Tirada de salvación: Niega efecto
+
+El guerrero se rodea de un aura de temor de hasta 90 centímetros de radio. Todas las criaturas y personajes que entren en el área de efecto de la capa deberán superar una tirada de salvación contra conjuro o huirán presa del pánico durante 4 asaltos. Las criaturas afectadas podrían incluso dejar caer los objetos que porten. Los miembros del grupo serán inmunes a los efectos.~
+
+// Último Esfuerzo
+
+@200384 = ~Último Esfuerzo~
+@200385 = ~Último Esfuerzo
+Nivel: Innato
+Esfera: Curación
+Alcance: Alcance visual del lanzador
+Duración: Permanente
+Tiempo de lanzamiento: Instantánea
+Area de efecto: Radio de 6 metros
+Tirada de salvación: Ninguna
+
+DESCRIPCIÓN:
+
+La Primera Espada evoca un sentimiento de esfuerzo vital a sus compañeros, incitándolos a seguir luchando pese a las heridas. Último Esfuerzo curará 20 puntos de golpe a aquellos que se encuentren en un radio de 6 metros del guerrero.~
+
+
+// Juramento de Ira
+
+@200386 = ~Juramento de Ira~
+@200387 = ~Juramento de Ira
+Nivel: Innato
+Esfera: Combate
+Alcance: 0
+Duración: 25 asaltos
+Tiempo de lanzamiento: Instantánea
+Area de efecto: El lanzador
+Tirada de salvación: Ninguna
+
+DESCRIPCIÓN:
+
+Un experimentado combatiente en las artes de los Caballeros de Dragón Púrpura podrá llevar a cabo la poderosa habilidad de Juramento de Ira.
+Al ejecutar esta habilidad, el guerrero obtendrá:
+Fuerza: Aumentada en 6 puntos
+Puntos de golpe adicionales: 25
+Suerte: Máximo daño en cada ataque~
+
+
+@200389 = ~Hurón misterioso~
+
+// BELLFAME RING MEJORADO
+@200390 = ~Anillo del Bosque de Mir
+
+Hace algunos siglos, en las profundidades del bosque de Mir, habitaba la ninfa Bellfame junto a sus bestias. Durante muchos años protegió el bosque de Tethyr de cazadores furtivos y humanos sedientos de poder. Muchas criaturas le sirvieron de aliados y la naturaleza le estaba agradecida.
+Fue durante el Año de la Jarra que habría de encontrar su funesto final: Ajena era para su conocimiento la guerra que se gestaba entre Tethyr y el Tirano Oscuro de Mintar: Teldorn Darkhope.
+El malvado clérigo planeó la invasión a las tierras de Tethyr, resguardando a su ejército Zentharim en las profundidades. Uno de sus generales, el Caballero Imperceptor (título que describe el deseo de que otro sufra) llamado Kartlzer, notó que el Bosque de Mir presentaba, además de un lugar de encubrimiento, una oportunidad de adquirir poder, pues sus magos identificaron la presencia de una misteriosa ninfa en el corazón de un manglar.
+Kartlzer estaba consciente de las ventajas arcanas que se obtenían de una ninfa, ya sea viva o muerta, por lo que se decidió a cazarla, llevando consigo a su hechicero personal y a sus veinte mejores soldados.
+
+Bellfame, quien tenía una conexión innata con las raíces mismas del bosque, fue advertida del peligro que la acechaba, tanto ella como la arboleda, si los hombres del Tirano Oscuro permanecían en Mir. Por lo que decidió prepararse para el inminente combate, utilizando a sus mejores animales.
+Baba, el Ratón Nervioso, fue quien informó a la ninfa del acercamiento de los enemigos. Entonces, Bellfame conjuró una nube de confusión sobre los humanos, lo que permitió que sus ágiles lobos atacaran:
+Sayang, la Loba Worg, acometió contra la primera fila, mientras que Jack, el Lobo de Invierno, utilizó su aliento gélido contra la retaguardia.
+Desconcertados, los hombres intentaron contraatacar. Los arqueros fueron los primeros en reaccionar. Tensaron las flechas y apuntaron contra Jack y Sayang. Pero fue en ese instante en que, de la tierra y la oscuridad, surgió Uma, la Loba de las Sombras, quien atacó e inmovilizó a los arqueros.
+Inundado de furia, Kartlzer y su mago acometieron contra Bellfame, pues sabían que si ella caía, sus bestias quedarían desorientadas.
+Para desgracia de Bellfame, el mago de Kartlzer era muy hábil en la vocalización de hechizos, pero no contó con la irrupción de su conjuro por parte de un pequeño ratón que, extrañamente, tenía el poder de ensordecer a sus oponentes mediante un chillido infernal. El mago no se había percatado de que el ratón se le había subido encima de la túnica. Cuando estuvo a punto de deshacerse de Baba, Bellfame había terminado su conjuración y logrado paralizar al mago.
+Pero esto la había dejado expuesta al inminente ataque de Kartlzer: el Caballero acometía contra ella sosteniendo su espada. Justo antes del impacto final, la mano de Kartlzer fue devorada por la última bestia de Bellfame: Thiago, el oso pardo.
+Pese a que, en un principio, la victoria parecía estar del lado de la ninfa, los humanos se incorporaban rápidamente y contraatacaban a las bestias, las cuales no tuvieron más remedio que reagruparse con su invocadora.
+El mago de Kartlzer, quien había conjurado una protección contra el Caballero, ahora estaba preparando un terrible Conjuro de Muerte contra Bellfame.
+La ninfa, por su parte, logró identificar el hechizo nigromante, por lo que comenzó un contra-conjuro. Pero esto le costaría todas sus fuerzas, por lo que recurrió, también, a un último plan desesperado.
+
+El mago finalizó su hechizo y lo lanzó contra Bellfame y sus animales. Para su desgracia y horror, pudo identificar, a su vez, que la ninfa profirió una Palabra de Poder. La misma era: Miedo. En ese instante, todos los humanos se contagiaron de un terror infeccioso en sus corazones, y huyeron despavoridos, perdiéndose para siempre en las profundidades frondosas del bosque.
+Bellfame, al igual que sus bestias, había desaparecido. La ninfa utilizó un anillo mágico que Baba había robado al mago cuando estuvo en su túnica y utilizado ese artefacto como protección contra el Conjuro de Muerte. Si bien alcanzó para que el hechizo no los aniquilara en el instante, el anillo no sólo absorbió el conjuro, sino también a la ninfa y a sus animales.
+Fueron transportados al plano astral de las convocaciones, donde las criaturas son inmortales y sirven a los que los invocan. Bellfame podrá volver al Plano Material siempre y cuando se la requiera y ella, a su vez, podrá traer a sus bestias consigo.
+Sin embargo, la voluntad de Bellfame es tal, que sólo aquellos de buen corazón pueden llamarla al combate.
+
+El anillo ha sido mejorado por la misma ninfa para que Dusk pueda hacer uso de él. También ha reforzado el mismo para que el portador posea una resistencia mágica mejorada.
+
+APTITUDES POSEÍDAS:
+
+Resistencia mágica: +10%
+
+Bellfame, la ninfa del Bosque de Mir:
+
+CARACTERÍSTICAS:
+
+Ataque cuerpo a cuerpo: 1d6 daño contundente
+Velocidad de ataque: 0
+Resistencia a la Magia: +50
+Alineamiento: Neutral Buena
+Duración de Bellfame en el plano material: 8 horas por día
+
+HABILIDADES:
+
+Además de poseer los conjuros de ninfa, Bellfame tiene una habilidad innata:
+- Convocar a las Fuerzas del Bosque de Mir
+(Duración de las convocaciones de Bellfame: 4 horas por día)
+
+Uso: Sólo pueden utilizarlo aquellos que sean afines a la naturaleza
+___________________________________
+
+FUERZAS DEL BOSQUE DE MIR:
+
+Jack: El Lobo de Invierno
+
+Jack, el Lobo de Invierno, convivía junto a sus compañeros lupinos en Mir. Es el único de los aliados de Bellfame que es capaz de atacar a distancia gracias a sus aullidos gélidos. 
+Durante la batalla por Mir, Jack utilizó su agilidad para rodear a los enemigos y acabar con la retaguardia, utilizando sus habilidades glaciales.
+
+CARACTERÍSTICAS:
+
+Ataque a distancia: 0d6+2 daño mágico, +3d4 daño por frío (aliento gélido)
+Ataque cuerpo a cuerpo: 0d6 daño perforante, +2d4 daño por frío
+Golpea como un arma +3
+Velocidad de ataque: 3
+Inmunidad al frío
+Puntos de vida: 51
+Velocidad de movimiento aumentada
+Alineamiento: Legal Neutral
+
+HABILIDADES: 
+
+Cono de frío (1 vez al día): Jack puede lanzar un terrible aliento gélido, que ocasionará daño mágico por frío a sus oponentes.
+
+**************************
+
+Thiago: El Oso pardo
+
+Thiago, el Oso pardo, vivió sus últimos años del plano material en Mir, junto a su amada Bellfame. Durante la batalla contra Kartlzer, Thiago le salvó la vida a su ninfa cuando pudo evitar la estocada final del Caballero.
+El oso disfruta de una buena comida, y por lo general, cuando es llamado del Plano Astral, viene bien alimentado y listo para la batalla. Posee una buena resistencia contra el frío y el fuego y cuenta con algunas habilidades especiales para el combate cuerpo a cuerpo.
+
+CARACTERÍSTICAS:
+
+Ataque: 1d12+4, daño contundente
+Golpea como un arma +4
+Velocidad de ataque: 0
+Resistencia al frío/fuego: +25
+Resistencia al daño físico: +50
+Puntos de vida: 100
+Alineamiento: Legal Bueno
+
+HABILIDADES: 
+
+Valentía del Oso (2 veces al día): Puede dar un gran aullido, el cual le da una confianza sobrenatural y lo inmuniza contra el miedo, ya sea mágico o natural.
+Poder Sagrado del Oso (2 veces al día): Thiago se prepara para el combate aunando fuerzas sagradas de la naturaleza. Su Fuerza, Destreza y Constitución se ven aumentadas.
+Oso Endurecido (1 vez al día): Es capaz de resistir los ataques físicos gracias a su grasa y pelaje. Luego de 5 impactos, volverá a ser vulnerable.
+
+**************************
+
+Baba: El Ratón Nervioso
+
+Baba es el pequeño ratón de Bellfame. Fue el responsable de robar el anillo del mago de Kartlzer, el cual es el que permite, de manera indirecta, convocarlo, ya que es Bellfame quien lo invoca. 
+Si bien Baba no posee un ataque fuerte, es escurridizo (aunque algo cobarde). Si logras comandarlo, podrá utilizar un poderoso aullido que aterrará a los enemigos malignos y protegerá a los aliados.
+Tiene la capacidad de hurtar bolsillos y entregar lo robado a cualquier miembro del grupo, siempre y cuando éste pueda convencer a Baba de hacerlo.
+
+CARACTERÍSTICAS:
+
+Ataque: 1d2, daño contundente
+Golpea como un arma normal
+Velocidad de ataque: 0
+Resistencia a los elementos: +10
+Resistencia a la magia: +50
+Puede esquivar ataques físicos, lo que le provee una resistencia de +90 a cualquier daño normal.
+Puntos de vida: 10
+Alineamiento: Caótico Neutral
+Explorador
+
+HABILIDADES: 
+
+Detección de Trampas: 120
+Desactivar Trampas: 120
+Robo: 150
+Esconderse en las sombras: 150
+Detectar Ilusiones: 150
+
+Aullido del Ratón Loco: este aullido, que puede utilizarse tres veces por convocación, inflige daño e infunde miedo en los enemigos malignos, además de disipar el miedo y ejecutar un conjuro de Protección contra el mal sobre los miembros del grupo.
+
+**************************
+
+Uma: La Loba de las Sombras
+
+Uma, la Loba de las Sombras, habitaba en los bosques de Mir junto a su ama, Bellfame, la ninfa. En sus últimos días en Mir, combatió fervientemente contra los arqueros del Caballero Imperceptor, surgiendo desde las sombras y salvando a sus compañeros del bosque de las mortíferas flechas.
+Posee muchas inmunidades, debido a su condición sombría.
+
+CARACTERÍSTICAS:
+
+Ataque: 1d8+2, daño perforador.
+Golpea como un arma +2
+Valocidad de ataque: 0
+Inmunidad a las armas normales
+Inmunidad al frío
+Puntos de vida: 45
+Alineamiento: Neutral Buena
+Exploradora
+
+HABILIDADES:
+
+Lametón Curativo: hace que se recuperen 8 pg y cura enfermedad, sordera, ceguera y los efectos del veneno.
+Invisibilidad: puede fundirse en las sombras 1 vez al día
+
+**************************
+
+Sayang: La Loba Worg
+
+Sayang, la Loba Worg, vivía en el bosque de Mir en sus últimos años de vida en el Plano Material. Su gran velocidad le permite acometer siempre primera en combate, así como lo hizo en Mir contra la vanguardia de Kartlzer.
+Su aumento de velocidad le provee una resistencia natural contra el daño eléctrico.
+
+CARACTERÍSTICAS:
+
+Ataque: 1d8+1, daño perforante
+Golpea como un arma +1
+Velocidad de ataque: 0
+Resistencia a la electricidad: +50
+Puntos de vida: 36
+Velocidad de movimiento aumentada
+Alineamiento: Caótica Buena
+Exploradora
+
+HABILIDADES: 
+
+Ataque Torbellino Mayor (3 vez al día): Sayang puede moverse a gran velocidad, permitiendo lanzar una "ráfaga" de golpes superrápidos.~
+
+@200391 = ~Sir Ryan Espinel~
+
+@200392 = ~Puki~
+
+// Mano de Alabarza
+@200393 = ~Mano de Alabarza~
+@200394 = ~La mano parece haber sido cercenada de un limpio espadazo.~
+@200395 = ~Esta es la mano de Alabarza, el Mutilador. La misma fue cercenada por Dusk Aldant, el Asesino de Magos de Cormyr en venganza por el ataque del orco al destacamento cormyreano. Puede que Dusk la lleve consigo porque ve en ella una utilidad para un futuro o, simplemente, como trofeo de su victoria.~
+
+@200396 = ~Utilería de Cormyr~
+
+@200398 = ~Este parece ser el cargamento del destacamento de Dusk. Alabarza debe haber recogido todos estos artículos de los caballeros caídos en combate. Varían entre armas, armaduras, pergaminos y pociones. Aunque, en su mayoría, todo parece estar muy descuidado y echado a perder.~
+
+// YOSHI ITEM
+@200399 = ~Katana contundente~
+@200400 = ~Katana contundente
+
+El arma fue forjada por Michelson. Utilizando los restos metálicos inservibles del antiguo destacamento de Dusk, el leprechaun ha sido capaz de imbuir un gran poder a esta katana. La misma fue un regalo a Yoshimo, aunque cualquiera que sea capaz de utilizar katanas podrá utilizarla.
+
+CARACTERÍSTICAS:
+
+THAC0: +4
+Daño: 1D10+4,  +1d10 por daño contundente
+Tipo de daño: Contundente
+Peso: 3 lbs
+Factor de velocidad: 0
+Talento marcial: Katana
+Tipo de arma: A una mano
+Requisitos: 6 de fuerza~
+@200401 = ~Manto de'Arnise~
+@200402 = ~Manto de'Arnise
+
+El manto tiene el emblema de la familia de'Arnise. Propia de ser utilizada por un líder, las protecciones mágicas brindan al portador una gran resistencia contra conjuros de índole mágica, además de brindar protección física.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: Bonificador +3
+Tiradas de salvación: Bonificador +1
+Resistencia mágica: 25%
+Peso: 3 lbs~
+
+// MUGENJIN Espada Larga
+
+@200403 = ~Mugenjin
+
+Es imposible ignorar la artesanía con la que fue construida esta espada larga. Lo más llamativo es el filo ardiente, el cual provoca un daño mortífero a la víctima. Lo segundo es el aceite con la que está bañada constantemente, según dicen, por la carne de las incontables víctimas que fueron tajadas con Mugenjin. Se dice que alguna vez tuvo un duelo con su espada antagonista: Shin-Ushi, El Corazón de la Espada. Desconoces de la razón por la cual la espada fue imbuida así, porque por más que lo intentes, no podrás apaciguar el fuego de su acero. En la hoja yace una inscripción: "La Ira Ígnea".
+
+Los personajes legales no pueden blandirla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Carisma: +3
+- Sabiduría e Inteligencia: +2
+- Puntos de Golpe: +%15
+
+
+Aptitudes de Combate:
+
+- Daño por Fuego: +3d6 Puntos por cada golpe asestado.
+- Golpe Vorpalino: %25 de probabilidades de incinerar a la víctima. Tirada de salvación contra la Muerte de -1
+
+THAC0: +5
+Daño: 1D8+5
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 0
+Fuerza necesaria: 6
+Talento marcial: Espada larga
+Tipo: una mano~
+
+// MUGENJIN Mandoble
+
+@200404 = ~Mugenjin
+
+Es imposible ignorar la artesanía con la que fue construida este mandoble. Lo más llamativo es el filo ardiente, el cual provoca un daño mortífero a la víctima. Lo segundo es el aceite con la que está bañada constantemente, según dicen, por la carne de las incontables víctimas que fueron tajadas con Mugenjin. Se dice que alguna vez tuvo un duelo con su espada antagonista: Shin-Ushi, El Corazón de la Espada. Desconoces de la razón por la cual la espada fue imbuida así, porque por más que lo intentes, no podrás apaciguar el fuego de su acero. En la hoja yace una inscripción: "La Ira Ígnea".
+
+Los personajes legales no pueden blandirla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Carisma: +3
+- Sabiduría e Inteligencia: +2
+- Puntos de Golpe: +%15
+
+
+Aptitudes de Combate:
+
+- Daño por Fuego: +3d6 Puntos por cada golpe asestado.
+- Golpe Vorpalino: %25 de probabilidades de incinerar a la víctima. Tirada de salvación contra la Muerte de -1
+
+THAC0: +5
+Daño: 1D12+5
+Tipo de daño: Cortante
+Peso: 15
+Factor de velocidad: 5
+Fuerza necesaria: 6
+Talento marcial: Espada a dos manos
+Tipo: dos manos~
+
+// MUGENJIN Cimitarra
+
+@200405 = ~Mugenjin
+
+Es imposible ignorar la artesanía con la que fue construida esta cimitarra. Lo más llamativo es el filo ardiente, el cual provoca un daño mortífero a la víctima. Lo segundo es el aceite con la que está bañada constantemente, según dicen, por la carne de las incontables víctimas que fueron tajadas con Mugenjin. Se dice que alguna vez tuvo un duelo con su espada antagonista: Shin-Ushi, El Corazón de la Espada. Desconoces de la razón por la cual la espada fue imbuida así, porque por más que lo intentes, no podrás apaciguar el fuego de su acero. En la hoja yace una inscripción: "La Ira Ígnea".
+
+Los personajes legales no pueden blandirla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Carisma: +3
+- Sabiduría e Inteligencia: +2
+- Puntos de Golpe: +%15
+
+
+Aptitudes de Combate:
+
+- Daño por Fuego: +3d6 Puntos por cada golpe asestado.
+- Golpe Vorpalino: %25 de probabilidades de incinerar a la víctima. Tirada de salvación contra la Muerte de -1
+
+THAC0: +5
+Daño: 1D8+5
+Tipo de daño: Cortante
+Peso: 4
+Factor de velocidad: 0
+Fuerza necesaria: 6
+Talento marcial: cimitarra/wakizashi/ninja-to
+Tipo: una mano~
+
+
+
+// SHIN-USHI Espada Larga
+
+@200406 = ~Shin-Ushi
+
+Lo curioso de esta espada larga es la carencia del filo. Si bien es ligeramente más liviana de lo normal y no tiene el letal filo de muchas espadas, Shin-Ushi es una de las espadas definitivas. Se dice que alguna vez tuvo un duelo con su espada antagonista: Mugenjin, La Ira Ígnea. Desconoces de la razón por la cual la espada no tiene filo, porque por más que lo intentes, no podrás afilarla debido a sus runas mágicas. En la hoja yace una inscripción: "El Corazón de la Espada".
+
+
+Los personajes malvados no pueden blandirla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Inmunidad a la consunción de niveles.
+
+Aptitudes de Combate:
+
+- Dejar inconsciente al enemigo: Cualquier humano o semihumano, excluyendo a los elfos, golpeado por Shin-Ushi debe salvarse contra veneno con un bonificador de -1 o caer dormido durante 18 segundos.
+- Golpe de Parálisis:  Tirada de salvación contra conjuros de -1 o la víctima quedará paralizada durante 5 segundos.
+- Velocidad Divina: 15% de posibilidades de acelerar al portador al impactar durante 10 segundos.
+
+THAC0: +5, +4 contra criaturas malignas
+Daño: 1D5+5, +4 contra criaturas malignas, doble daño contra muertos vivientes
+Tipo de daño: Contundente
+Peso: 4
+Factor de velocidad: 0
+Fuerza necesaria: 6
+Sabiduría necesaria: 10
+Talento marcial: Espada larga
+Tipo: una mano~
+
+// SHIN-USHI Mandoble
+
+@200407 = ~Shin-Ushi
+
+Lo curioso de este mandoble es la carencia del filo. Si bien es ligeramente más liviana de lo normal y no tiene el letal filo de muchas espadas, Shin-Ushi es una de las espadas definitivas. Se dice que alguna vez tuvo un duelo con su espada antagonista: Mugenjin, La Ira Ígnea. Desconoces de la razón por la cual la espada no tiene filo, porque por más que lo intentes, no podrás afilarla debido a sus runas mágicas. En la hoja yace una inscripción: "El Corazón de la Espada".
+
+
+Los personajes malvados no pueden blandirla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Inmunidad a la consunción de niveles.
+
+Aptitudes de Combate:
+
+- Dejar inconsciente al enemigo: Cualquier humano o semihumano, excluyendo a los elfos, golpeado por Shin-Ushi debe salvarse contra veneno con un bonificador de -1 o caer dormido durante 18 segundos.
+- Golpe de Parálisis:  Tirada de salvación contra conjuros de -1 o la víctima quedará paralizada durante 5 segundos.
+- Velocidad Divina: 15% de posibilidades de acelerar al portador al impactar durante 10 segundos.
+
+THAC0: +5, +4 contra criaturas malignas
+Daño: 1D9+5, +4 contra criaturas malignas, doble daño contra muertos vivientes
+Tipo de daño: Contundente
+Peso: 7
+Factor de velocidad: 3
+Fuerza necesaria: 6
+Sabiduría necesaria: 10
+Talento marcial: Espada a dos manos
+Tipo: dos manos~
+
+// SHIN-USHI Cimitarra
+
+@200408 = ~Shin-Ushi
+
+Lo curioso de esta cimitarra es la carencia del filo. Si bien es ligeramente más liviana de lo normal y no tiene el letal filo de muchas espadas, Shin-Ushi es una de las espadas definitivas. Se dice que alguna vez tuvo un duelo con su espada antagonista: Mugenjin, La Ira Ígnea. Desconoces de la razón por la cual la espada no tiene filo, porque por más que lo intentes, no podrás afilarla debido a sus runas mágicas. En la hoja yace una inscripción: "El Corazón de la Espada".
+
+
+Los personajes malvados no pueden blandirla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Inmunidad a la consunción de niveles.
+
+Aptitudes de Combate:
+
+- Dejar inconsciente al enemigo: Cualquier humano o semihumano, excluyendo a los elfos, golpeado por Shin-Ushi debe salvarse contra veneno con un bonificador de -1 o caer dormido durante 18 segundos.
+- Golpe de Parálisis:  Tirada de salvación contra conjuros de -1 o la víctima quedará paralizada durante 5 segundos.
+- Velocidad Divina: 15% de posibilidades de acelerar al portador al impactar durante 10 segundos.
+
+THAC0: +5, +4 contra criaturas malignas
+Daño: 1D5+5, +4 contra criaturas malignas, doble daño contra muertos vivientes
+Tipo de daño: Contundente
+Peso: 4
+Factor de velocidad: 0
+Fuerza necesaria: 6
+Sabiduría necesaria: 10
+Talento marcial: cimitarra/wakizashi/ninja-to
+Tipo: una mano~
+
+// AMATISTA DRAGON PURPURA
+
+@200409 = ~Amatista del Dragón Púrpura~
+@200410 = ~La gema brilla con un profundo color purpúreo. Según te fue indicado, puedes utilizarla para mejorar la Espada de Disrupción o a la armadura Defensa de Cormyr. Ambos artefactos deben haber sido forjados a partir de la receta indicada en el libro del leprechaun. Como consecuencia, para que su forjador pueda utilizarla, debes haber forjado anteriormente alguno de los artefactos mencionados.~
+
+// SALUS
+
+@200411 = ~Salus~
+@200412 = ~Salus
+
+Con el poder de la Amatista del Dragón Púrpura, la armadura ha sido mejorada en sobremanera, obteniendo así a Salus. No sólo ha reforzado su resistencia a la magia, sino que brinda un notorio perfeccionamiento en la defensa contra el daño físico. Además, la armadura parece más ligera, pero no por ello menos defensiva.
+Sólo Dusk puede usarla.
+
+CARACTERÍSTICAS:
+
+Bonificadores: 
+
++2 a la Fuerza
++25% de resistencia mágica
++10% de resistencia a todo daño físico
+
+Clase de armadura: -2
+Peso: 40 lbs~
+
+// Draconem Salus
+
+// Defensionis Rex
+
+// REX 
+
+@200413 = ~Rex~
+@200414 = ~Rex
+
+Con el poder de la Amatista del Dragón Púrpura, la espada ha sido mejorada en sobremanera, obteniendo así a Rex. Además de mantener sus actuales aptitudes de combate, Rex es capaz de ralentizar a los enemigos, sin darle oportunidad alguna de salvación. Su daño elemental, también, ha mejorado.
+La espada, en esencia, sigue siendo la misma, por lo que sólo Dusk es capaz de utilizarla.
+
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+  
+- 2d6+4 puntos de daño a muertos vivientes, además de obligarles a salvarse contra muerte mágica (con un penalizador -4) para evitar ser destruidos por completo.
+  
+- Inmunidad a la consunción de niveles de experiencia.
+
+- Lentitud: 15% de probabilidades de ralentizar al objetivo durante 10 segundos, sin tirada de salvación
+
+THAC0: +5
+Daño: 2D4+5
+Daño Elemental: 1D2 por daño eléctrico + 1D2 por daño ácido
+Tipo de daño: Cortante
+Peso: 10 lbs
+Factor de velocidad: 3
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano~
+@200415 = ~Ralentizado~
+
+
+@200416 = ~Danctian~
+
+@200421 = ~Defensa de Cormyr~
+@200422 = ~La armadura de Dusk fue mejorada con las placas reforjadas de un escudo cormyreano. El encantamiento le ha añadido una mejora notable en su defensa física, así como mantenido los refuerzos arcanos de la cota de mallas sobre la cual fue hecha.
+
+CARACTERÍSTICAS:
+
+Bonificadores: 
+
++1 a la Fuerza
++20% de resistencia mágica
+
+Clase de armadura: -1
+Peso: 50 lbs~
+
+@200423 = ~Kalanda, el Transmutador~
+@200424 = ~Diablillo enfermo~
+@200425 = ~Worg débil~
+
+@200426 = ~Anthagar, el Nigromante~
+@200427 = ~Muerte~
+@200428 = ~Veneno~
+@200429 = ~Destrucción~
+
+@200430 = ~Lux~
+@200431 = ~Lux
+
+La espada esmeralda se ha convertido en un arma épica llamada Lux. La magia que irradia es casi pura y bondadosa, protegiendo al portador de daño físico y mágico, potenciando también su filo con un misterioso poder arcano. Si bien tiene el peso de una espada bastarda, aún posee la facultad veloz de ataque. 
+Sólo Dusk puede blandirla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Clase de armadura: +2
+- Resistencia al daño físico: +%10 (cortante, contundente, perforante y proyectil)
+- Escudo contra conjuros: puede lanzar esta protección como si fuera un lanzador de nivel 10. Duración: 3 turnos.
+
+Aptitudes de combate:
+  
+- Ataques por asalto: +1
+
+THAC0: +4
+Daño: 2D4+4,  +1d5 por daño mágico
+Tipo de daño: Cortante
+Peso: 13 lbs
+Factor de velocidad: 3
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano
+Requisitos: 15 de fuerza~
+
+@200432 = ~Ira~
+@200433 = ~Ira
+
+Ira es un arma épica forjada en las sombras del Pandemonium. Es la mejora definitiva de la espada carmesí y no sólo ha mantenido sus aptitudes actuales, sino que las ha perfeccionado y agregado un poderoso hechizo de Silencio a los conjuradores hostiles. El calor del filo es aún más mortífero y sus llamas parecen no afectar al portador.
+Sólo Dusk puede blandirla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Regeneración: 3 puntos de golpe cada 3 segundos
+- Resistencia al Fuego: +25%
+- Puntos de golpe adicionales: +20
+- Invoca un escudo ígneo durante 60 segundos si la vida de Dusk disminuye a menos de la mitad.
+
+Aptitudes de combate:
+  
+- Drenaje: Cada golpe asestado curará al portador 5 puntos de vida.
+- Silencio: Puede lanzar Silencio en un radio de 5 metros. El hechizo cuenta como si el lanzador fuera de nivel 10. Duración: 2 turnos.
+
+THAC0: +4
+Daño: 3D6+4, +1d6 por daño de fuego, +2 por daño mágico
+Tipo de daño: Cortante
+Peso: 26 lbs
+Factor de velocidad: 4
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano
+Requisitos: 19 de fuerza~
+
+@200434 = ~Espíritu~
+@200435 = ~Glabrezu de Valatar~
+@200436 = ~Tanar'ri de Valatar~
+
+@200437 = ~Símbolo de Velsharún~
+@200438 = ~El extraño amuleto carga con una energía tenebrosa y claramente ves el cráneo sonriente de Velsharún en él. Tus manos tiemblan ligeramente al sostenerlo. Lo has obtenido del cuerpo de Anthagar, el líder de la Cripta Olvidada.~
+
+@200439 = ~Cuerpo de Mathyus Davis~
+@200440 = ~Este es el cadáver del elfo shilmista Mathyus Davis. Cayó en combate al ser dominado por los encantamientos del hechicero de la Cripta Olvidada, Sornhil.~
+
+@200441 = ~Celine~
+
+@200442 = ~Lux Triumphans~
+@200443 = ~Lux Triumphans
+
+La luz triunfante es la espada bastarda por excelencia. Su magia irradia una energía pura y bondadosa, protegiendo al portador del daño físico y mágico. El filo arcano es capaz de activar una poderosa luz que mostrará al guerrero el camino de la verdad ante las mentiras de las ilusiones.
+Sólo Dusk puede blandirla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Clase de armadura: +3
+- Resistencia al daño físico: +%15 (cortante, contundente, perforante y proyectil)
+- Escudo contra conjuros: puede lanzar esta protección como si fuera un lanzador de nivel 10. Duración: 3 turnos.
+- Visión Verdadera: puede usar el conjuro Visión Verdadera 3 veces el día. Duración por uso: 1 turno.
+
+Aptitudes de combate:
+  
+- Ataques por asalto: +1
+
+THAC0: +5
+Daño: 2D4+5,  +2d7 por daño mágico
+Tipo de daño: Cortante
+Peso: 13 lbs
+Factor de velocidad: 2
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano
+Requisitos: 15 de fuerza~
+
+@200444 = ~Ira Tenax~
+@200445 = ~Ira Tenax
+
+Ira tenaz es la espada bastarda por excelencia. Forjada en las sombras del Pandemonium, Ira Tenax mantiene todas sus aptitudes y algunas incluso fueron mejoradas. Sumado al conjuro de Silencio, el guerrero puede ahora lanzar un poderoso Golpe de Fuego sobre sus enemigos. El calor del filo es aún mayor. Afortunadamente no parecen afectar al portador.
+Sólo Dusk puede blandirla.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+
+- Regeneración: 3 puntos de golpe cada 3 segundos
+- Resistencia al Fuego: +30%
+- Puntos de golpe adicionales: +30
+- Invoca un escudo ígneo durante 60 segundos si la vida de Dusk disminuye a menos de la mitad.
+
+Aptitudes de combate:
+  
+- Drenaje: Cada golpe asestado curará al portador 5 puntos de vida.
+- Silencio: Puede lanzar Silencio en un radio de 5 metros. El hechizo cuenta como si el lanzador fuera de nivel 10. Duración: 2 turnos.
+- Golpe de Fuego: Puede lanzar una columna de fuego sobre el objetivo que esté dentro de la visión del guerrero. El hechizo cuenta como si el lanzador fuera de nivel 15.
+
+THAC0: +5
+Daño: 3D6+5, +3d6 por daño de fuego, +3 por daño mágico
+Tipo de daño: Cortante
+Peso: 26 lbs
+Factor de velocidad: 3
+Talento marcial: Espada Bastarda
+Tipo de arma: A una mano
+Requisitos: 19 de fuerza~
+
+@200446 = ~Habilidad innata obtenida: Juramento de Ira~
+
+@200447 = ~~
+@200448 = ~~
+@200449 = ~~
+
+
+
+////////////////////////////////
+// Pruebas de DIARIO ENTRIES
+
+// MISIÓN 1
+
+@210001 = ~Dusk Aldant: La armadura Shilmista
+
+Luego de una breve conversación con Dusk, éste comentó que tiene la posibilidad de recuperar su armadura de combate, una cota de mallas que fue entregada a un amigo suyo para su reparación. Lo podremos encontrar en una casa abandonada al noroeste del Distrito Portuario.~
+
+@210003 = ~Dusk Aldant: La armadura Shilmista
+
+Encontramos a Mathyus Davis, un extraño elfo de cabello verde. Su encuentro devino en otra búsqueda: la de un Leprechaun llamado Michelson.
+Según Mathyus, el pequeño estaría vagando en las calles del puerto. Lo podremos reconocer por su cabello rojo y vestimentas verdosas.
+Por último, convencerlo de volver no será fácil. Tendremos que emplear el uso de oro, cerveza... o hacerlo reír mediante un chiste.
+Ya veremos en qué resulta la búsqueda.~
+
+@210004 = ~Dusk Aldant: La armadura Shilmista
+
+Finalmente, dimos con Michelson y pudimos convencerlo de que volviera con Mathyus. Deberíamos regresar y reclamar nuestra recompensa.~
+
+
+@210005 = ~Dusk Aldant: La armadura Shilmista
+
+Regresamos a la guarida de Mathyus Davis y encontramos a Michelson a su lado. Luego de una breve conversación en la que nos narró de su primer encuentro con Michelson y su posterior conversión de color de cabello, Mathyus hizo entrega a Dusk de la Armadura Shilmista.
+También nos entregó un libro de fórmulas para forjar poderosos artefactos, Michelson mediante. Si conseguimos los ingredientes correctos, deberemos hablar con Mathyus para que podamos forjar el artefacto descrito en el libro.~
+
+// MISIÓN 2
+
+@210006 = ~Dusk Aldant: Los renegados de Sothillis
+
+Nos encontramos con un curioso perro llamado Demoledor. Resultó ser el compañero animal de Mathyus Davis. Trajo una nota destinada a Dusk, la cual indicaba a éste de una novedad esperada sobre el destacamento de Cormyr. Probablemente tenga que ver con los antiguos compañeros de Dusk, pero para ello, deberemos dirigirnos al Distrito Portuario, hacia la guarida de Mathyus.~
+
+@210007 = ~Dusk Aldant: Los renegados de Sothillis
+
+Regresamos a la guarida de Mathyus Davis como la nota de Demoledor indicaba. Se trataba de la ubicación del grupo que atacó al destacamento de Dusk cuando éstos flanqueaban la Colina de los Trolls. Según indicó el elfo, el grupo se trata de humanoides en las Colinas Ventolanza,ubicados al sureste de la región, cerca de un gran lago. Michelson, sin embargo, advirtió que era posible que no se tratase del grupo original que atacó a Dusk. Supongo que lo veremos cuando encontremos a dicho grupo.~
+
+@210008 = ~Dusk Aldant: Los renegados de Sothillis
+
+Encontramos al grupo de humanoides que, aparantemente, eran responsables del ataque al destacamento de Dusk. Por alguna razón, éstos insistieron en que eran inocentes, pero encontramos que portaban un escudo roto púrpura con la insignia de los Dragones Púrpuras de Cormyr. Dusk no dudó y les atacó.~
+
+@210009 = ~Dusk Aldant: Los renegados de Sothillis
+
+Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pudo descifrar el misterio del escudo de Cormyr, ha recuperado el mismo y se ha puesto en campaña para dar un hogar a los renegados de Sothillis. Debemos dirigirnos a la Noble Orden del Radiante Corazón en el Distrito del Templo de Athkatla y hablar con Sir Ryan Espinel. Dusk cree que él podrá darnos una solución al asunto.~
+
+@210010 = ~Dusk Aldant: Los renegados de Sothillis
+
+Dusk y yo hemos acabado con los renegados de Sothillis. Sin embargo, parecía ser toda una trampa orquestada por un Encantador llamado Sornhil. Parecía conocer la identidad de Dusk, tanto como mi linaje divino. Dijo que Dusk había superado una prueba y le entregó un orbe, el cual deberíamos llevar a Mathyus para su análisis.~
+
+@210011 = ~Dusk Aldant: Los renegados de Sothillis
+
+Dusk ha hablado con Sir Ryan Espinel acerca del asunto de los renegados de Sothillis. Sin embargo, antes de ayudarle, pretende resolver el conflicto existente con los paladines caídos y el tráfico de esclavos en Athkatla. Una vez resuelta la cuestión, deberíamos volver con Espinel para terminar el asunto de los humanoides.~
+
+@210012 = ~Dusk Aldant: Los renegados de Sothillis
+
+Sir Ryan Espinel ha prometido interceder con el prelado acerca del asunto de los renegados de Sothillis. No queda más que dar las buenas noticias a los humanoides en las Colinas Ventolanza.~
+
+@210013 = ~Dusk Aldant: Los renegados de Sothillis
+
+Hemos dado las buenas nuevas a Falon y su tribu. Han quedado muy contentos con el resultado y creo que Dusk también. Si las cosas hubiesen salido de otra manera, posiblemente nuestro Asesino de Magos sería una persona totalmente diferente.~
+
+@210014 = ~Dusk Aldant: Los renegados de Sothillis
+
+De la nada, un misterioso encantador se nos apareció. Se trataba de Sornhil y parecía estar al tanto de la identidad de Dusk, tanto como mi linaje divino. Dijo que Dusk le había decepcionado al perdonar a los renegados de Sothillis y que ello le llevaría a un inevitable conflicto. Asimismo, le entregó un orbe, el cual deberíamos llevar a Mathyus para su análisis.~
+
+@210015 = ~Dusk Aldant: Los renegados de Sothillis
+
+Dusk ha llevado el orbe a Mathyus y Michelson. Con ayuda de ellos logró decifrar cómo desencadenar su poder interior. Pese a las advertencias de sus amigos, Dusk utilizó el orbe y como consecuencia, ha cambiado de manera drástica. Si esto es algo bueno, sólo el tiempo lo dirá.~
+
+@210016 = ~Dusk Aldant: Los renegados de Sothillis
+
+Dusk ha llevado el orbe a Mathyus y Michelson. Con ayuda de ellos logró decifrar cómo desencadenar su poder interior. Sin embargo, siguió los consejos de sus amigos y optó por purificarlo antes de utilizarlo. Si bien la versión del orbe se debilitó, los efectos que tuvo en nuestro compañero parece que lo afectaron, tanto en actitud como en juicio. Quizás sea un cambio drástico y puede que algo bueno. Sólo el tiempo lo dirá.~
+
+// MISSION 3
+
+@210017 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Demoledor hizo aparición con una nota de Mathyus Davis. Aparentemente, dió con el paradero del grupo humanoide que acabó con el destacamento de Dusk. Nuestro guerrero de Cormyr esta vez tiene la certeza de que se trata del objetivo correcto. Obtendremos más información cuando vayamos al Distrito del Puerto, hacia la guarida del elfo de cabello verde.~
+
+
+
+@210019 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Arribamos a la guarida de Mathyus y nos informó que el grupo responsable del ataque al destacamento de Dusk se encuentra en las cercanías de la Arboleda Druídica de la región. Por las características brindadas por el explorador, el responsable sería un jefe orco llamado Alabarza. Lo encontraremos en el Túmulo troll al oeste de la región. También nos informó que el orco cuenta con un repertorio variado de monstruos, listos para defenderlo.~
+
+@210020 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Durante el viaje hacia el Túmulo de los Trolls, otro mago nos interceptó. Esta vez, se trataba de Valatar, el Conjurador. En un principio, pretendía obtener agradecimientos por parte de Dusk por aumentar su poder gracias al orbe escarlata. Dusk, sin embargo, le amenazó de muerte, por lo que el Conjurador llamó a un poderoso demonio abisal para acabar con nosotros.~
+
+@210021 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Pudimos matar al demonio abisal convocado por Valatar. Dusk sintió un extraño llamado por parte de su espada carmesí. Terminó por rematar el corazón de la bestia y el arma ha mejorado, obteniendo nuevos poderes.~
+
+@210022 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Durante el viaje hacia el Túmulo de los Trolls, otro mago nos interceptó. Esta vez, se trataba de Valatar, el Conjurador. Luego de un breve intercambio de palabras en las que Valatar declaró el poder que desperdició Dusk al rechazar el orbe escarlata, éste decidió enviar a un demonio abisal para acabar con nosotros.~
+
+@210023 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Pudimos matar al demonio abisal convocado por Valatar. Dusk sintió un extraño llamado por parte de su espada esmeralda. Terminó por rematar el corazón de la bestia, desterrándola para siempre de este plano. El arma, aparentemente, ha mejorado ligeramente.~
+
+@210024 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Encontramos la guarida de Alabarza, el Mutilador. Sin embargo, caímos en una trampa, en la que hicieron aparición varios monstruos esbirros del Jefe Orco. Su yuan-ti hizo mención a un misterioso elfo hechicero, quien le brindó un hechizo de transmutación a su cacique, con el cual logró atraernos. Si sobrevivimos al combate, lo más probable es que Dusk esté interesado en este dato.~
+
+@210025 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Finalmente, hemos vencido a Alabarza el Mutilador, junto a sus poderosos esbirros. Deberíamos ir a dar las noticias a Mathyus, de vuelta al Distrito del puerto en Athkatla.~
+
+
+@210026 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Arribamos a la guarida de Mathyus y nos informó que el grupo responsable del ataque al destacamento de Dusk se encuentra en las cercanías de la Arboleda Druídica de la región. Por las características brindadas por el explorador, el responsable sería un jefe orco llamado Alabarza. Lo encontraremos en el Túmulo troll al oeste de la región. También nos informó que el orco cuenta con un repertorio variado de monstruos, listos para defenderlo. Afortunadamente, Dusk contará con la ayuda de Sir Ryan Espinel y de Falon y su tribu. Llegado el momento, una gema de activación brindada por Michelson los traerá para el enfrentamiento.~
+
+@210027 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Hemos vencido contra Alabarza y su clan con la ayuda de la Orden del muy Radiante Corazón. Michelson hizo aparición para realizar un ritual de purificación en el Túmulo de los Trolls. El ritual incluye la resucitación de los caídos en batalla que fueran convocados por el Orbe Teletransportador. Luego de que hubiésemos hablado con el leprechaun, fuimos transportados de vuelta a Athkatla.~
+
+@210028 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Hemos vencido contra Alabarza y su clan con la ayuda de la Orden del muy Radiante Corazón. Michelson hizo aparición para realizar un ritual de purificación en el Túmulo de los Trolls. El ritual incluye la resucitación de los caídos en batalla que fueran convocados por el Orbe Teletransportador. Luego de que hubiésemos hablado con el leprechaun, fuimos transportados de vuelta a Athkatla.~
+
+//RESOLUCION M3
+
+@210029 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Hemos dado la noticia sobre la victoria sobre el clan Alabarza, aunque también transmitimos la caída de Dusk en batalla. Mathyus y Michelson se mostraron tristes, aunque también aliviados. Creían que Dusk había tomado un camino oscuro del cual no sería capaz de regresar. Supongo que eso quedará ahora en el pasado, ya que al menos, la venganza de Dusk se ha cumplido, aunque eso haya significado su muerte.~
+
+@210030 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Hemos dado la noticia sobre la victoria sobre el clan Alabarza, aunque también transmitimos la caída de Dusk en batalla. Mathyus y Michelson se mostraron tristes. Intentaron convencerse de que la batalla al menos trajo justicia por los caídos de Cormyr, pero sé que eso no es más que un leve consuelo. Mathyus y compañía regresarán a Shilmista, no sin antes desearnos fortuna y salud para nuestros viajes.~
+
+@210031 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Hemos dado la noticia sobre la victoria sobre el clan Alabarza. Dusk comentó que sentía que había algo más detrás del ataque de Alabarza sobre su destacamento. Mathyus y compañía le aseguraron que de ser así, habrían de averiguarlo pronto. Entretanto, contamos con una buena cantidad de oro como recompensa, algo que nos será útil en las batallas que se avecinan...~
+
+@210032 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Hemos dado la noticia sobre la victoria sobre el clan Alabarza. Hemos cobrado una buena recompensa por parte de los aliados Shilmistas de Dusk. Éste último ha comentado que Alabarza y su clan habían sido utilizados en el ataque contra el destacamento de Cormyr por la misteriosa Orden de Magos, compuesta por Sornhil y Valatar a quien encontramos. El jefe orco también mencionó a un elfo llamado Kalanda y al líder de la Orden, un nigromante del cual desconocemos. Algo me dice que no será la última vez que sepamos de ellos.~
+
+@210033 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Regresamos a la guarida de Mathyus en el Distrito Portuario en Athkatla. Cedí la palabra a Dusk para que diese la noticia de nuestra victoria sobre el clan Alabarza, pero, para mi sorpresa, terminó matando a Mathyus, Demoledor y Michelson, utilizando un poder que asumo que provino del misterioso orbe escarlata que absorbió hace un tiempo.~
+
+@210034 = ~Dusk Aldant: La Venganza de la Primera Espada
+
+Luego del sorpresivo asesinato de los habitantes de Shilmista, un demonio sombrío hizo aparición en el recinto: Danctian Shadow. La criatura indicó que proviene del Pandemonium y su origen deriva del Orbe Escarlata que Sornhil supo entregar a Dusk. Durante un tiempo estuvo susurrando al oído del cormyreano un plan que nos develó hace poco. La liberación del demonio y el asesinato de los shilmistas. Ahora, contamos con la alianza de Danctian para un futuro enfrentamiento contra la misteriosa Orden de Magos que persigue a Dusk. Sólo el tiempo dirá si la decisión de nuestro Asesino de Magos fue la correcta.~
+
+@210035 = ~Dusk Aldant: La Orden de Magos
+
+Dusk ha narrado los hechos que lo llevaron a convertirse en Asesino de Magos. Aparentemente, un nigromante llamado Anthagar fue el responsable de lanzar una maldición que terminó por consumir la vida de su esposa, Celine. Si bien Dusk hizo lo posible por intentar salvar a su esposa, falló en su empresa. Sólo le queda la esperanza de hallar, algún día, a Anthagar y su Orden.~
+
+@210036 = ~Dusk Aldant: La Orden de Magos
+
+Nos hemos cruzado con Kalanda, el Transmutador, en Brynn Ley. Aparentemente nos estaba esperando para ponernos a prueba, por lo que conjuro a un par de criaturas débiles, para luego transmutarlas en monstruos sedientos de sangre. ¿Qué es lo que quieren estos hechieros de Dusk y de mí? Aún no lo sabemos. Pero tengo el presentimiento de que no será la última vez que sepamos de ellos.~
+
+@210037 = ~Dusk Aldant: La Orden de Magos
+
+Finalmente hemos conocido a quien estaba detrás de todos los ataques arcanos hacia Dusk y nuestro grupo: Anthagar, el Nigromante. Dice ser el líder de una Orden de Magos llamada: La Cripta Olvidada, un culto siniestro dedicado al semidiós Velsharún, el Señor de la No-Muerte. Aún desconocemos cuál sea su objetivo final con nosotros. Por ahora, deberemos superar los obstáculos que una vez más nos pone enfrente.~
+
+@210038 = ~Dusk Aldant: La Orden de Magos
+
+Finalmente hemos conocido a quien estaba detrás de todos los ataques arcanos hacia Dusk y nuestro grupo: Anthagar, el Nigromante. Dice ser el líder de una Orden de Magos llamada: La Cripta Olvidada, un culto siniestro dedicado al semidiós Velsharún, el Señor de la No-Muerte. Aún desconocemos cuál sea su objetivo final. Por ahora, deberemos sobrevivir al fatídico encuentro que nos tiene preparado, ya que nos considera una amenaza para sus futuros planes.~
+
+@210039 = ~Dusk Aldant: La Orden de Magos
+
+Danctian ha aparecido de las sombras para contactarnos. Dice que tiene algo para ofrecernos que será beneficioso para el grupo y está relacionado a la orden de los magos de la Cripta Olvidada. Sin lugar a dudas, está relacionado directamente a la aparición de Anthagar y el resto de los hechiceros. Para más información, debemos dirigirnos a la casa abandonada al noroeste del Distrito Portuario de Athkatla.~
+
+@210040 = ~Dusk Aldant: La Orden de Magos
+
+Demoledor ha aparecido para contactarnos, trayendo consigo una nota escrita por Mathyus Davis. Dusk la leyó, informándonos de la aparición de Anthagar en Athkatla. Al parecer, entregó una piedra misteriosa, posiblemente de teletransportación, a nuestros amigos shilmistas. Debemos ir hacia el Distrito del Puerto a la guarida de Mathyus y Michelson para más información.~
+
+@210041 = ~Dusk Aldant: La Orden de Magos
+
+Hemos llegado a la guarida de Mathyus y nos ha comentado la situación actual. En efecto, el orbe que Anthagar entregó a Mathyus y Michelson se encuentra en poder de los shilmistas y no es más que un puente al lugar de enfrentamiento final. Contaremos con la ayuda de Mathyus y Demoledor. No tenemos más que hablar con el elfo cuando estemos listos para partir.~
+
+@210045 = ~Dusk Aldant: La Orden de Magos
+
+El orbe aciago de Anthagar nos ha traído a un extraño paraje. No parece que estemos en ningún lugar conocido del plano material, sino más bien en una especie de bolsa arcana de la que no podremos escapar hasta enfrentarnos a la Cripta Olvidada. No tenemos señales de Mathyus o Demoledor. Espero que lleguen a tiempo para el combate.~
+
+@210043 = ~Dusk Aldant: La Orden de Magos
+
+Hemos llegado a la guarida de Danctian. Nos ha informado que Anthagar, el Nigromante, ha hecho contacto con él. Lo extraño es que Dusk parecía estar al tanto de esto. Puede que Danctian y él estén hablando en la distancia, ya que parecen estar conectados de alguna manera. De todas formas, ha informado que la Cripta Olvidada planea una masacre en Faerûn con el objeto de ganar inmortalidad. Pero para ello requieren de mí y de Dusk. Cuando estemos listos para tal encuentro, no tenemos más que hablar con Danctian y pedirle que nos "lleve".~
+
+@210044 = ~Dusk Aldant: La Orden de Magos
+
+El orbe aciago de Anthagar nos ha traído a un extraño paraje. No parece que estemos en ningún lugar conocido del plano material, sino más bien en una especie de bolsa arcana de la que no podremos escapar hasta encontrarnos con la Cripta Olvidada. Deberíamos explorar un poco, pero no sin antes prepararnos para cualquier eventualidad...~
+
+@210045 = ~Dusk Aldant: La Orden de Magos
+
+El orbe aciago de Anthagar nos ha traído a un extraño lugar. No parece que estemos en ningún lugar conocido del plano material, sino más bien en una especie de bolsa arcana de la que no podremos escapar hasta enfrentarnos a la Cripta Olvidada. No tenemos señales de Mathyus o Demoledor. Espero que lleguen a tiempo para el combate.~
+
+
+// FINAL MISSION GOOD PATH
+@210046 = ~Dusk Aldant: La Orden de Magos
+
+La Cripta Olvidada fue derrotada. En el proceso tuvimos que enfrentarnos a Mathyus, quien había sido encantado por la Orden de Magos de Anthagar. No tuvimos otra opción que matarlo, junto al resto de la Orden. Sin embargo, al finalizar el combate y recoger el Símbolo de Velsharún y el cuerpo del elfo shilmista, Michelson hizo aparición. El leprechaun revivió a su amigo y nos llevó de regreso a Athkatla. Con Mathyus revivido y el resto a salvo, fuimos teletransportados a una especie de bosque en donde Dusk pudo ver, por última vez, a su esposa Celine.
+Finalmente y ya de regreso a la guarida de Mathyus, fuimos recompensados con oro y encomendados a la misión de acabar con Irenicus y salvar a los elfos de Suldanessellar. Además, siempre podremos contar con los guardianes de Shilmista en el caso de que querramos forjar algun artefacto del listado de Michelson.~
+
+@210047 = ~Dusk Aldant: La Orden de Magos
+
+La Cripta Olvidada fue derrotada. En el proceso tuvimos que enfrentarnos a Mathyus, quien había sido encantado por la Orden de Magos de Anthagar. No tuvimos otra opción que matarlo, junto al resto de la Orden. Sin embargo, al finalizar el combate y recoger el Símbolo de Velsharún y el cuerpo del elfo shilmista, Michelson hizo aparición. El leprechaun revivió a su amo y nos llevó de regreso a Athkatla. Si bien Mathyus revivió, cayó en la cuenta de que Dusk había caído en combate. Los shilmistas se lamentaron de la pérdida pero se vieron reconfortados en el hecho de que los aliados de Velsharún cayeron en el Olvido y sus planes quedaron frustrados, algo que Dusk habría querido aún a coste de su vida. Mencionó que Celine finalmente fue vengada y fuimos recompensados con oro, además de encomendarnos la misión de acabar con Irenicus y salvar a los elfos de Suldanessellar.
+Además, siempre podremos contar con los guardianes de Shilmista en el caso de que querramos forjar algún artefacto del listado de Michelson.~
+
+@210048 = ~Dusk Aldant: La Orden de Magos
+
+La Cripta Olvidada fue derrotada. Dusk engañó a Anthagar, haciéndole creer que se aliaría con él para revivir a Velsharún, el Dios de la Muerte Viviente, también conocido como Mellifleur. La Orden de los Magos atacó fuertemente y, si bien logramos vencer, Dusk cayó en combate.
+Danctian, el demonio sombrío del Pandemonium, nos trajo de vuelta a Athkatla y nos dejó una buena cantidad de oro. Luego de eso, se despidió de nuestro plano. Asumo que habrá regresado a las sombras donde pertenece.~
+
+@210049 = ~Dusk Aldant: La Orden de Magos
+
+La Cripta Olvidada fue derrotada. Dusk engañó a Anthagar, haciéndole creer que se aliaría con él para revivir a Velsharún, el Dios de la Muerte Viviente, también conocido como Mellifleur. La Orden de los Magos atacó fuertemente y, pese a ellol, logramos vencer.
+Danctian, el demonio sombrío del Pandemonium, luego de la victoria, nos llevó a un extraño páramo en donde pudo traer al espíritu de la esposa de Dusk, Celine. Allí, ellos tuvieron una última conversación en donde la elfa se lamentó del camino que su esposo había tomado. Dusk, pese a que intenta ocultarlo, quedó bastante conmocionado por sus palabras. Tengo la certeza de que ello afectará su porvenir, aún si él no es consciente de ello.~
+
+
+// Epílogo 1 -> Neutral Dusk - Mercader
+
+@330006 = ~Luego de los eventos del Trono de Bhaal, Dusk dirigió sus pasos a Athkatla. Intentó poner una tienda de compra y venta de artefactos extraños e incluso recibió varios consejos de Ribald el Truequista. Sin embargo, su emprendimiento fracasó, ya que la mayor parte del tiempo hacía de mediador entre los Ladrones de las Sombras y la Noble Orden del Sagrado Corazón. Se puede decir que evitó varios conflictos y eso, sumado a las hazañas realizadas junto a <CHARNAME>, le valieron varias invitaciones para desempeñar trabajos de carácter militar.
+
+Finalmente acudió al llamado de Thethyr para servir como general de los ejércitos de Zaranda Estrella. Se dice que sólo pidió, a cambio, el favor de la Reina para acabar con toda fuerza nigromántica de la región.
+
+Con valentía, lideró los ejércitos de Ternan Grannox y mantuvo la paz durante muchos años, hasta su retiro cuando ya no pudo blandir más una espada y su bastón ya no tenía más propósito que el de servirle como tercer pierna.
+
+Se dice que pasó sus últimos días en paz bajo la tenue luz crepuscular de una reconstruida Darromar.~
+
+// Epílogo 2 -> Neutral Dusk - Dragon Purple Knight
+
+@330007 = ~Tras la separación con <CHARNAME>, Dusk dirigió su camino hacia Cormyr.
+
+Allí narró todo lo sucedido desde su partida, esperando recibir un merecido castigo por su larga ausencia. Lejos de ello, la Espada Superior de la Orden restituyó su cargo como Primera Espada y asignó un nuevo destacamento para recuperar los cuerpos de los soldados caídos, ahora hallados en Shilmista.
+
+No sólo logró ese cometido, sino que dio caza a los orcos responsables del ataque. Fue en un Túmulo infestado de trolls donde se libró esa batalla, obteniendo la victoria los Caballeros de la Orden del Dragón Púrpura. Derrotó en un combate singular al cacique orco Alabarza, dando muerte, también, a decenas de sus esbirros.
+Ninguno de sus soldados cayó en esa batalla y dicha hazaña le valió un ascenso a Capitán Espada.
+
+Se le conoció por ser un férreo cazador de nigromantes y liches, librando a su nación de muchas potenciales amenazas. Luego de muchos años de servicio, decidió retirarse. 
+
+Los rumores indican que se casó con una bella mujer de Suzail y restauró el castillo de la familia Aldant, en los lindes de Arabel. Durante sus años de paz, tuvo a una única hija a la que llamó: Celine.~
+
+// Epílogo 3 -> Good Dusk - Mielikki's Church
+
+@330008 = ~Tras la separación con <CHARNAME>, Dusk dirigió su camino hacia Shilmista.
+
+Allí, recuperó los cuerpos de los soldados cormyreanos caídos con el permiso del rey elfo Elbereth. Luego, con una escolta de exploradores, viajó hacia Cormyr.
+
+Al anunciarse, logró exponer todo lo sucedido a los altos mandos del ejército, ofreciéndose a cumplir el castigo que crean adecuado. El general de los Dragones Púrpura, al ver que uno de sus Primeras Espadas había forjado una buena relación con los elfos de Shilmista, decidió perdonarlo en nombre del rey.
+
+Los arreglos fúnebres a los caídos fue una bella escena, llena de solemnidad y nostalgia. Al finalizar, los elfos indicaron que una alianza comercial entre Cormyr y Shilmista sería de lo más beneficioso para todos.
+
+Esto alegró mucho a los nobles, quienes exigieron una entrega de recompensa cuantiosa a Ardusk Aldant. Pero éste se negó, contestando que estaría más que contento en levantar una iglesia a Mielikki y allí enseñar sobre su dogma.
+
+Cormyr accedió y así comenzó la alianza entre los hombres del norte y los elfos del sur. 
+
+Los rumores indican que Dusk pasó el resto de su vida en los Bosques del Rey en Cormyr, amando a la naturaleza como su esposa le hubo enseñado. Quizás, cuando el tiempo le llegue, pueda reencontrarse con ella en las Praderas del Unicornio en el Bosque de la Dama y allí, fundirse en un abrazo eterno de amor.~
+
+// Epílogo 4 -> Good Dusk - Alabarza's Death
+
+@330009 = ~Tras la separación con <CHARNAME>, Dusk dirigió sus pasos a Shilmista. Se dice que estudió con varios hechiceros elfos y que buscó durante mucho tiempo una respuesta a una inquietud interior.
+
+Años después, viajó hacia Athkatla y buscó a Falon y su tribu. Allí habló con Sir Ryan Espinel y le explicó lo que intentaba hacer. Si bien, el paladín no estaba de acuerdo con lo que Dusk planeaba, finalmente permitió que Falon y los demás le acompañasen a un 'pequeño' viaje.
+
+Juntos, viajaron por las tierras de Amn y Tethyr, portando los emblemas del Radiante Corazón de Tyr, para evitar ataques de las fuerzas locales. Su destino les llevó al Túmulo de los Trolls en los límites de la Árboleda Druídica.
+
+Dusk realizo un complejo ritual a los dioses de la naturaleza y empleó mucho del poder que había adquirido gracias al Orbe Esmeralda. Al finalizar, Alabarza y sus esbirros habían resucitado.
+
+Alabarza, sorprendido de haber vuelto a la vida (y más aún viendo que quien lo había revivido era su gran enemigo), preguntó: "¿Por qué lo has hecho, soldado?".
+Se dice que Dusk sólo sonrió y dijo que el castigo eterno de Gruumsh le parecía demasiado excesivo.
+
+Al cabo de varias horas de conversaciones entre los humanoides, Dusk logró convencer a Alabarza y su tribu de redimir sus actos, actuando como primera defensa de Amn, junto a la tribu de Falon. 
+
+Alabarza finalmente accedió y el resto de su tribu le siguió. Se dice que al cabo de unos meses se enamoró de Falon y le propuso matrimonio, bajo la luz de su nuevo dios: Tyr.
+
+En cuanto a Dusk, se dice que viajó por muchos lugares, protegiendo al débil a la primera oportunidad. Pudo obtener el perdón en Cormyr, restaurar la maldición en el Castillo de la Trinidad con la ayuda de Elbereth y Mathyus y visitar a Michelson y Demoledor en Shilmista.
+
+Los años pasaron y cuando su tiempo estaba llegando, en alguna parte del Bosque del Rey en Cormyr, una luz divina surgió de un roble hueco. De ella salió Mielikki, la Dama del Bosque, y cargó en sus brazos a un viejo y desgastado Ardusk Aldant.
+
+Se dice que atravesaron la luz del roble y viajaron por océanos de estrellas hasta llegar a la Pradera del Unicornio. Allí, una resplandeciente efigie se le presentó: Él ya no estaba viejo: sus arrugas y dolores corporales habían desaparecido; y frente a él, una bella elfa de cabellos dorados como el sol le sonreía.
+
+"Celine..." susurró. Y fue hacia ella, abrazándola mientras la armonía salvaje a su alrededor danzaba en un céfiro otoñal. Ahora sí, Dusk y Celine estarían juntos por siempre.~
+
+// Epílogo 5 -> Good Dusk - Bellfame's War
+
+@330010 = ~El año de la Jarra transcurría en el mundo cuando Kartlzer, el Caballero Imperceptor de Zentharim invadió el Bosque de Mir. Franqueó las linderas del bosque y se adentró para resguardarse de las tropas de Thethyr, con quien entrarían en guerra en poco tiempo.
+
+Su mago percibió la presencia de una poderosa ninfa, la cual podrían utilizar, viva o muerta, para sus crueles cometidos. Fue entonces que Kartlzer avanzó al corazón del bosque con un mago y veinte guerreros.
+
+Al llegar a un glauco manglar, los villanos se encontraron con una efigie particular: la ninfa, Bellfame, les esperaba rodeada de un oso, tres lobos y un pequeño ratón en su hombro.
+
+Kartlzer dio un paso al frente y exigió la rendición de la ninfa, a cambio de no matar a sus bestias. Sin embargo, la ninfa, silenciosa, sólo le observó con cierto recelo. Fue entonces que Kartlzer se percató de otra presencia.
+
+De entre las sombras, un caballero de verde y purpúrea armadura, con el símbolo del Dragón Púrpura en su pecho, hizo aparición.
+
+"Soy Ardusk Aldant, Primera Espada de Cormyr, Caballero de la Orden de los Dragones Púrpuras y Guardián de Shilmista. Si quieres salir de vida de aquí, date la media vuelta... de lo contrario, tú y todos tus hombres morirán aquí, hoy."
+
+Kartlzer había oído sobre él y de sus hazañas con <CHARNAME>. Bien podría tratarse de una artimaña, pero algo en la figura de Dusk le hizo convencerse de lo contrario.
+
+Finalmente, el Caballero Imperceptor dio media vuelta y se marchó, con rapidez, por donde había venido.
+
+Dusk miró con sorpresa su puño cerrado. Lo abrió, pero no había nada: En él estaba el Anillo del Bosque de Mir y había desaparecido.
+
+Bellfame esbozó una sonrisa por primera vez: "Lo has logrado, Ardusk. Nos has salvado... has cambiado mi destino."
+
+Ambos se fundieron en un abrazo y allí, Bellfame amó por primera a un mortal.
+
+Dusk pasó el resto de sus días en Mir junto a las bestias y plantas del bosque que tanto amó.~
+
+// Epílogo 6 -> Evil Dusk - NO tiene espada escarlata (Mata a Sothillis)
+
+@330011 = ~Tras su separación con <CHARNAME>, Dusk dirigió sus pasos a Tethyr. Allí fundó una compañía de mercenarios llamada La Guardia Escarlata. Se puso a las órdenes de Zaranda Estrella y protegió la región de potenciales enemigos. Pero los rumores indican que Dusk indujo, unos años más tarde, el inicio de la guerra contra el Imperio de Sothillis. El conflicto produjo la pérdida de miles de soldados de ambos bandos. El mismo finalizó, según se dice, en una sangrienta batalla entre los humanoides y la Guardia Escarlata. Se dice que Sothillis cayó en batalla contra un guerrero que blandía una espada roja como la sangre.
+Los rumores tomaron fuerza cuando, ya en tiempos de paz, Dusk visitó Puerta de Baldur y dejó allí un gran mandoble manchado de sangre. Dicha arma pertenecía a un humanoide de gran tamaño; años más tarde, expertos dirían que era el arma personal del ogro mago Sothillis.
+
+Los años pasaron y los actos de Dusk eran cada vez más erráticos y misteriosos. Nunca se separaba de su espada, la cual parecía fortalecerse con cada muerte que ocasionaba.
+Finalmente, el brillo escarlata de su espada fue desapareciendo, indicando el fin de la vida del guerrero cormyreano. Se dice que una gran sombra, la cual se hacía llamar Danctian, vino a buscarlo en sus últimos momentos de vida.
+
+Los últimos vestigios de Dusk no eran más que sombra y polvo, pero algunos arcanos mencionan que pueden hallar una presencia familiar y tenebrosa en el plano del Pandemonium.~
+
+
+// Epílogo 7 -> Evil Dusk - Tiene espada escarlata (Redención)
+
+@330012 = ~Tras los acontecimientos del Trono de Bhaal, Dusk regresó a Athkatla, precisamente a una casa abandonada en el Distrito del Puerto.
+
+Allí, realizó un ritual junto a Danctian y, entregando gran parte de su poder, pudo traer a la vida a tres criaturas shilmistas. Mathyus, Michelson y Demoledor estaban de vuelta, confundidos ante la decisión de Dusk (quien los había aniquilado en un principio). No obtuvieron respuesta alguna y Dusk, junto a su sombra demoníaca, desaparecieron para siempre de Amn.
+
+Se dice que una figura escarlata con el emblema de Cormyr ayudó a Tethyr a combatir la amenaza del Ogro Mago Sothillis. Luego, viajó a Shilmista a visitar la tumba de una elfa exploradora y, finalmente, visitó un lugar maldito llamado El Castillo de la Trinidad.
+
+Allí, realizó un ritual prohibido en el que abrió un portal a un plano forestal. Realizó un pacto con la mismísima Dama del Bosque. Algunos elfos guardianes fueron testigos de cómo el humano desenvainó su espada, la cual era escarlata como la sangre, pero poco a poco, la misma fue tornándose glauca como las hojas de un cedro. Un poderoso vendaval invadió el lugar y el brillo de la espada se esfumó, al igual que la vida en Dusk.
+
+Cuando los elfos retornaron a Shilmista a informar a Elbereth, éste ya estaba lidiando con un hecho sobrenatural. Y es que Celine, la elfa exploradora, había revivido.
+
+Celine, aún conmocionada por lo acontecido, partió de inmediato a Trinidad. Allí, no pudo hallar el cuerpo de Dusk. Sólo halló un bastón, con el emblema de Shilmista, y una armadura, con el emblema de Cormyr. Dichos artefactos se guardan con recelo, aún a día de hoy, en el corazón de Shilmista.~
+

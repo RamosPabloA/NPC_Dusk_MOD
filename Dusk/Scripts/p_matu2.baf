@@ -1,0 +1,15 @@
+IF
+InParty("P_Dusk")
+See("P_Dusk")
+Global("P_Dusk_Mat2_hypno","GLOBAL",0)
+THEN
+  RESPONSE #100
+  StartDialogueNoSet(Player1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),1)
+END

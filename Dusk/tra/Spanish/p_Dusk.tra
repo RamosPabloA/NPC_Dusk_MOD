@@ -1,0 +1,38 @@
+@0    = ~Mis oídos aún retumban con esa explosión. Muchas personas han perecido debido a la imprudencia de ese mago... Todo pasó demasiado rápido, no he podido reaccionar a tiempo...~ [p_duski]
+@20005	  = ~Sin embargo, veo que no he sido el único afectado por la parálisis, mi <LADYLORD>. Mi nombre es Dusk, y soy un mensajero de la paz... o al menos lo era... Veo que tú no estás en relación amistosa con ese hechicero homicida. ¿Cómo es tu nombre? Puede que tenga algo que proponerte.~
+@20006	  = ~<CHARNAME>, imagino que ahora emplearás una búsqueda por encontrar a tu amiga... o una cacería para vengarte de ese mago... 
+Por favor, permíteme acompañarte.~
+@20007	  = ~Quizás más tarde, Dusk. Ahora debo atender otros asuntos.~
+@20008	  = ~¿Y qué puedes aportar al grupo, Dusk? Esta misión es peligrosa, debo saber si puedes valerte por ti mismo.~
+@20009	  = ~Soy un guerrero, hábil con el bastón y la espada bastarda. He tenido un entrenamiento especial en la lucha contra los lanzadores de hechizos. Creo que alguien así puede serte útil en tu búsqueda, <CHARNAME>.~
+@20010	  = ~<CHARNAME>, Bubú y yo opinamos que el guerrero del bastón nos acompañe, parece ser que tiene sed de justicia, ¡justo como nosotros!~
+@20011	  = ~Pues, no sé si nos será útil o no, <CHARNAME>, dejo que eso sea a tu criterio. Lo único que me interesa es perseguir a Irenicus y vengar a Khalid.~
+@20012	  = ~Creo que nos vendría bien su ayuda, <CHARNAME>. Cualquier aliado, a estas alturas, nos vendría bien.~
+@20013	  = ~De acuerdo, me has convencido. En marcha.~
+@20014	  = ~¿Y bien? Espero que al menos consideres mi oferta.~
+
+
+@1    = ~I remember you, elg'caress. You were such an amusing statue with your mouth forever drooling. Pity someone had set you free.~
+@2    = ~Little Dusk is back! Look, Boo, isn't it a proper reunion? Minsc and Boo and Dusk and friends!~
+@3    = ~This one is useless, <CHARNAME>. Don't you remember how she got trapped in Nashkel? (Oh, fine, fine. But don't let her near my scrolls!)~
+@4    = ~Well met, Dusk. It is good to see you once more.~
+@5    = ~I've learnt about mystery murders in this district and I've come to investigate. I am glad indeed that I've met you here! 'Twould be an honor to travel with you again.~
+
+@6    = ~Un placer, Dusk. Mi nombre es <CHARNAME>. Y estás en lo cierto... ese hechicero ha secuestrado a mi amiga, Imoen.~
+@7    = ~Ahora no tengo tiempo para hablar.~
+
+@8    = ~Si bien fueron esos magos encapuchados los que se llevaron a ambos, entiendo que ese maligno hechicero es quien tiene de rehén a quien asumo es tu compañera. Nunca vi un poder tan inmenso...~
+
+@9    = ~I should probably tell you that I am going to rescue Imoen from the Cowled Wizards.~
+@10   = ~I am going to find Irenicus, the mage who kidnapped and tortured me.~
+@11   = ~All right, let's go.~
+
+@12   = ~Como quieras... estaré aquí si cambias de opinión.~
+
+@13   = ~Gracias... Será un placer viajar contigo. Creo que lo más pertinente será pedir información a los ciudadanos. Puede que en los Barrios Bajos encontremos la respuesta.~
+
+@14   = ~Then I shall join you and bring the favor of the Lord of Battles upon us. Let the wizard tremble in his lair!~
+@15   = ~(suspiro) Viajar me vendrá bien... ¡En marcha, mi <LADYLORD>, tenemos amigos que rescatar y magos que ajusticiar!~
+@16   = ~¿Has cambiado de opinión? La propuesta es unirme a ti, mi <LADYLORD>. Siento que la injusticia que ha sucedido en el Paseo de Waukin no debe quedar impune.~
+@17   = ~De hecho, sí. Bienvenido a bordo, Dusk.~
+@18   = ~Por el momento no.~

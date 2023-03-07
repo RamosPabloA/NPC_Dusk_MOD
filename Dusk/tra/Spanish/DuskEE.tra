@@ -1,0 +1,120 @@
+// DORN 1
+
+@0    = ~Eres un ser extraño, Dusk. He llegado a preguntarme acerca de tus habilidades naturales.~
+@1    = ~¿Te refieres a la resistencia mágica?~
+@2    = ~Ajá... tus habilidades en el campo de batalla no son la gran cosa. Sin embargo, me llama la atención que un humano pueda obtener dicha... característica.~
+@3    = ~Bueno... pues... es algo que se logra con mucho entrenamiento... y sobretodo: dolor.~
+@4    = ~Interesante. Quizás podamos hablar de esto más adelante.~
+@5    = ~Quizás, Dorn.... quizás...~
+
+// DORN 2
+
+@6    = ~Tus habilidades en combate son increíbles, Dorn. Tu sed por sangre, también lo es. A decir verdad, asusta un poco.~
+@7    = ~Clamar por sangre es algo natural para los Guardias Negros, Dusk.~
+@8    = ~¿No te cansas de ello?, ¿no ansías una vida de paz?~
+@9    = ~¿Paz? Eso es sólo un cuento, muchacho. La guerra es mucho más atractiva. El universo está en completo caos, todo el tiempo.~
+@10   = ~Puede que así lo sea... Es algo desesperanzador, ¿no lo crees?~
+@11   = ~La verdad suele serlo. No tiene por qué agradarte.~
+
+
+// DORN TOB
+
+@17   = ~Has avanzado mucho como guerrero, humano.~
+@18   = ~Gracias, supongo.~
+@19   = ~Tienes suerte de que estemos del mismo lado de la vereda.~
+@20   = ~No estoy seguro de que por estar en el mismo grupo, quiera decir que estamos en la "misma vereda".~
+@21   = ~¡Ja! Es verdad... Tus ideales cormyreanos ciertamente son algo a erradicar.~
+@22   = ~Vaya, la amabilidad se ha acabado rápido, ¿eh?~
+@23   = ~Estoy siendo amable, muchacho. Deberías apreciarlo.~
+@24   = ~Tienes razón... ¡Qué rudo de mi parte!~
+
+// HEXXAT
+
+@25   = ~¿Qué sucede, Dusk? Te ves incómodo... ¿Acaso... es mi presencia?~
+@26   = ~Los muertos vivientes han sido mis enemigos naturales durante mucho tiempo. Que no haga nada al respecto con tu... "presencia", es sólo debido a mi respeto por <CHARNAME>.~
+@27   = ~Una lástima... me gustaría ver de qué eres capaz...~
+@28   = ~No tientes a tu suerte, demonio...~
+
+// HEXXAT TOB
+
+@29   = ~¿Y, Dusk? Aún no te has acostumbrado a mí, ¿verdad?~
+@30   = ~Claramente no, Hexxat.~
+@31   = ~Vaya... al menos has dicho mi nombre... Claramente es un avance.~
+
+// NEERA 1
+
+@32   = ~Debo decir que me sorprendes, Neera.~
+@33   = ~*ejem* ¿Qué? No me digas... ¿qué hice ahora?~
+@34   = ~Oh, nada, es sólo una expresión, nada en concreto.~
+@35   = ~¡Dusk! Está mal andar asustando a la gente, ¿sabes?~
+@36   = ~Bueno, no era mi intención, yo--~
+@37   = ~¿Y bien? Soy sorprendente (eso ya lo sabía), pero ¿por qué lo has dicho?~
+@38   = ~Bueno, lo cierto es que soy bastante reacio a compartir el camino con un usuario mágico.~
+@39   = ~No digas, Dusk. Verte interrumpir conjuros ajenos con tu bastón no me ha hecho sospechar para nada.~
+@40   = ~Sí, bueno--~
+@41   = ~Ni tampoco he sospechado cuando has cercenado las manos de chamanes trasgos u orcos con tu espada bastarda. No, para nada.~
+@42   = ~*carraspeo* Entiendo tu punto...~
+@43   = ~Y yo te soy sorprendente porque no soy alguien que es claramente malvado o que merezca la ira de tu venganza y--~
+@44   = ~¡Ya, ya! *suspiro* Oh, hum, parece ser que <CHARNAME> me está llamando.~
+@12   = ~¿En serio? No he escuchado nada.~
+@13   = ~Sí, bueno, ya sabes cómo se pone cuando no le hacen caso. Hablaremos en otra ocasión, ¿sí?~
+@14   = ~¡De acuerdo, Dusk! Siempre es un placer hablar contigo.~
+@15   = ~Hm, sí... lo mismo... digo...~
+
+
+// NEERA TOB
+
+@62   = ~Neera, no estoy seguro de que necesite tus conjuros de protección.~ 
+@63   = ~¿Por qué lo dices, Dusk?~
+@64   = ~Hm... pues, a veces siento... efectos secundarios al cabo de un tiempo.~
+@65   = ~Oh, no me digas que has comenzado a oler como una vaca.~
+@66   = ~¿Cómo una qué? No, no es eso. A veces, mi voz suena algo... diferente. Como si de un gnomo afónico se tratase.~
+@67   = ~Ha, ya veo. ¿Por eso es que me ignorabas el otro día cuando te pedía que compartieras tus galletas?~
+@68   = ~Ehm... *carraspeo* Sí, así es.~
+@69   = ~Bueno, Dusk. Lo lamento. Pero a veces, en el fragor del combate, una se olvida que puede lanzar un conjuro de área.~
+@70   = ~Ya veo... *susurro* Entonces, seguirá sucediendo... Rayos...~
+
+// RASSAD 1
+
+@71   = ~Debo decirlo, Rasaad: admiro mucho tu valor al sólo usar tus manos y pies como armas.~
+@72   = ~Gracias, Dusk. Tantos años de entrenamiento han rendido frutos.~
+@73   = ~Así es. La voluntad, el compromiso... son valores que pocos hombres son capaces de mantener.~
+@74   = ~No podríamos ser los guerreros que somos si no fuésemos capaces de poseer dichas aptitudes. Pero sabes que eso no es todo lo que se necesita, ¿verdad?~
+@75   = ~Lo sé... también está el propósito... algo que te lleve hacia adelante.~
+@76   = ~Veo que nos entendemos, Dusk.~
+@77   = ~Así es, Rasaad. Es un placer luchar al lado de alguien como tú.~
+
+// RASSAD 2
+
+@78   = ~Tu voluntad de seguir adelante es de hierro... me refiero a tu hermano, Rasaad.~
+@79   = ~Gr-gracias, supongo. Dusk, creo que tú también sigues por alguien que ha caído, ¿no es verdad?~
+@80   = ~Pues... sí... el recuerdo de los que ya no están me hacen seguir adelante...~
+@81   = ~Yo también. Los muertos nos observan... y debemos rendir homenaje a su memoria.~
+@82   = ~Aunque... debo admitir... que a veces cuestiono el propósito de la venganza... Las cosas que uno es capaz de hacer...~
+@83   = ~A veces no te deja dormir, ¿eso ibas a decir?~
+@84   = ~Me entiendes a la perfección, amigo mío. Sigamos adelante... el futuro nos espera.~
+
+// RASSAD TOB
+
+@93   = ~¿Qué opinas de nuestras aventuras, Rasaad?~
+@94   = ~¿Te refieres a los parajes a los que nos ha llevado <CHARNAME>?~
+@95   = ~Pues, sí.~
+@96   = ~Ciertamente la senda del engendro de Bhaal va más allá de mi comprensión. Después de todo, soy un simple mortal.~
+@97   = ~Lo entiendo, pero yo me refería a lo físico. ¿No crees que es extraño el Plano de Bhaal al que nos lleva a descansar?~
+@98   = ~Ciertamente... aunque uno llega a acostumbrarse.~
+@99   = ~¡Eso mismo iba a decir! Uno llega a tomarle cariño incluso.~
+@100  = ~*Ríe* Bueno, no sé si lo diría de esa forma. *carraspeo* Dusk, <CHARNAME> nos está mirando feo. Será mejor que continuemos el viaje.~
+
+// WILSON
+
+@199  = ~(Wilson mueve sus orejas, demostrando confusión ante el chiste de <CHARNAME>)~ [BBEAR04]
+@201  = ~(Gruñido, resoplido)~ [BBEAR04]
+@202  = ~¿Qué dices, Wilson? ¿Quieres devorarte a la gnoll?~
+@203  = ~*gruñido* Será mejor que calmes a tu pulgoso amigo, soldado.~
+@204  = ~(Gruñido, lamento)~ [BBEAR09]
+@205  = ~Tranquilo, Wilson, tranquilo... aguarda un instante... en tan sólo un momento veremos cómo se resuelve esto...~
+@206  = ~(Gruñido) (Ves cómo Wilson muestra los dientes a Niber)~ [BBEAR02]
+@207  = ~Rayos, Wilson. *Mira para todos lados* Por favor, no vayas a comerte a este individuo.~
+@208  = ~(Lamento) (Ves cómo Wilson baja sus orejas, visiblemente asustado, aunque no entiendes por qué)~ [BBEAR09]
+@209  = ~(Gruñido) (Claramente, Wilson estaría más que dispuesto a devorarse a Saemon)~ [BBEAR08]
+@210  = ~(Bufido) (Al parecer, Wilson parece incrédulo al ver el frío recibimiento de los elfos)~ [BBEAR04]

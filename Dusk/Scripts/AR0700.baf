@@ -1,0 +1,80 @@
+// Script de Dusk cuando lo conocemos
+IF
+Global("P_DuskSpawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("P_Dusk",[2736.1145],6)  // To choose your own coordinates, choose a spot in the game and press CTRL-X
+SetGlobal("P_DuskSpawn","GLOBAL",1)
+Continue()
+END
+// Script de Mathyus test
+
+
+
+
+
+//Bloque de interacción. Cuando Dusk ve a CHARNAME por primera vez, irá a buscarlo para hablarle
+IF
+  IfValidForPartyDialogue("P_Dusk")
+  !StateCheck("P_Dusk",STATE_SLEEPING)
+  See(Player1)
+  !StateCheck(Player1,STATE_SLEEPING)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  Global("P_DuskImpose","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskImpose","LOCALS",1)
+    SmallWait(1)
+    Interact(Player1)
+END
+// These blocks are adding experience to Dusk - only once, when she's in party. It's also possible to add these blocks to Dusk's script P_DuskS.baf, if you prefer.
+// When Dusk joins, if PC's experience is less, than 280000, then Dusk's experience will be at 161000.
+// For PC between 280001 and 600000 points of experience, Dusk's experience is going to become 400000.
+// For PC between 600001 and 1000000 points of experience, Dusk's experience is going to become 800000.
+// For PC with more than 1000000 points of experience, Dusk's experience is going to become 1200000.
+
+IF
+InParty("P_Dusk")
+Global("P_DuskExperienceSet","GLOBAL",0)
+XPLT(Player1,280001)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskExperienceSet","GLOBAL",1)
+Continue()
+END
+
+IF
+InParty("P_Dusk")
+Global("P_DuskExperienceSet","GLOBAL",0)
+XPGT(Player1,280000)
+XPLT(Player1,600001)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskExperienceSet","GLOBAL",1)
+AddXPObject("P_Dusk",239000)
+Continue()
+END
+
+IF
+InParty("P_Dusk")
+Global("P_DuskExperienceSet","GLOBAL",0)
+XPGT(Player1,600000)
+XPLT(Player1,1000001)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskExperienceSet","GLOBAL",1)
+AddXPObject("P_Dusk",639000)
+Continue()
+END
+
+IF
+InParty("P_Dusk")
+Global("P_DuskExperienceSet","GLOBAL",0)
+XPGT(Player1,1000000)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskExperienceSet","GLOBAL",1)
+AddXPObject("P_Dusk",1039000)
+Continue()
+END

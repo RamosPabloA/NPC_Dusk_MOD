@@ -1,0 +1,33 @@
+// Bloque 1 (FTF)
+
+@1 = ~Little Baba looks at you with his big eyes when you approach. He starts wagging his tail, and you're not quite sure if that means he's happy or annoyed. He moves his tiny snout and emits something that sounds like a sort of bark, which leaves you confused since you're interacting with a rodent.~ [P_Baba01]
+@2 = ~Hail, great Baba! I know I am not worthy to address you, but with due respect, I dare to request your services. If you have any valuable item for me, would the great Baba be so magnanimous as to give them to me and thus lighten your burden?~
+@3 = ~Who is the cutest little mouse in the world? You are, yes, Baba, you are! And since you're the cutest mouse in the world, you're definitely going to give me whatever valuable thing you have with you, right? (you try to pet it, while forcing a big smile).~
+@4 = ~Hey, Baba. Do you want a piece of cake? I must have something saved in my backpack. I'll give you a slice if you give me what you've stolen, how about that?~
+@5 = ~For a few seconds, it seems like you've managed to get Baba's pride. But suddenly, he starts shaking like crazy and runs away from you, grunting and muttering.~ [P_Baba01]
+@6 = ~During the first few seconds, he looks at you suspiciously. But finally, he surrenders to your caresses while emitting some strange high-pitched sounds. Baba decides to give you everything he has in his inventory.~ [P_Baba02]
+@7 = ~When you mention food, Baba's ears stretch for a moment. But after a few seconds, he realizes that you are just trying to bribe him. His pride is hurt and he runs away like crazy, grunting in anger at you.~ [P_Baba01]
+
+// Bloque 2 (TFF)
+
+@8 = ~The little Baba looks at you with his big eyes when you approach. He starts jumping around like crazy and you don't know if that means he's happy to see you or maybe he plans to attack you. He moves his little hands and emits sounds that unmistakably resemble those of a canine puppy, which leaves you confused since you're interacting with a rodent.~ [P_Baba01]
+@9 = ~Hail, great Baba! I know I am not worthy to address you, but with due respect, I dare to request your services. If you have any valuable item for me, would the great Baba be so magnanimous as to give them to me and thus lighten your burden?~ 
+@10 = ~Who is the cutest little mouse in the world? You are, yes, Baba, you are! And since you're the cutest mouse in the world, you're definitely going to give me whatever valuable thing you have with you, right? (you try to pet it, while forcing a big smile).~
+@11 = ~Hey, Baba. Do you want a piece of cake? I must have something saved in my backpack. I'll give you a slice if you give me what you've stolen, how about that?~
+@12 = ~Baba suddenly stands up and seems to agree with you, emitting strange canine sounds. The fact that you have spoken the truth has convinced him to give you what he has in his inventory.~ [P_Baba02]
+@13 = ~For a few seconds, you almost manage to convince him, but Baba discovers that you only want what he has, so he runs away while you hear him complaining in an incomprehensible language.~ [P_Baba01]
+@14 = ~When you mention food, Baba's ears stretch for a moment. But after a few seconds, he realizes that you're just trying to bribe him. His pride is hurt and he runs away like crazy, while emitting grumbles of anger against you.~ [P_Baba01]
+
+// Bloque 3 (FFT)
+
+@15 = ~Baba, the little rodent, stares at you with his big eyes as you approach him. He starts running around you without any apparent reason and you don't know if he's doing it because he's happy to see you or because he plans to steal some valuable jewelry you might have. He climbs up your clothes, crawling up one of your legs. You try to get him off, but it's difficult. Meanwhile, he makes panting sounds similar to those of a dog, which leaves you puzzled because you know you're interacting with a rodent.~ [P_Baba01]
+@16 = ~Hail, great Baba! I know I am not worthy to address you, but with due respect, I dare to request your services. If you have any valuable item for me, would the great Baba be so magnanimous as to give them to me and thus lighten your burden?~
+@17 = ~Who is the cutest little mouse in the world? You are, yes, Baba, you are! And since you're the cutest mouse in the world, you're definitely going to give me whatever valuable thing you have with you, right? (you try to pet it, while forcing a big smile).~
+@18 = ~Hey, Baba. Do you want a piece of cake? I must have something saved in my backpack. I'll give you a slice if you give me what you've stolen, how about that?~
+@19 = ~For a few seconds, it seems like you've managed to get through to Baba's pride. But suddenly, he starts shaking like crazy and runs away from you, grunting in anger.~ [P_Baba01]
+@20 = ~For a few seconds, you almost manage to convince him, but Baba discovers that you only want what he has, so he runs away while you hear him complaining in an incomprehensible language.~ [P_Baba01]
+@21 = ~Although you can see Baba's obvious displeasure with you, the little one has realized that it has been several hours since he last ate, so he decides to give you what he has obtained in exchange for the promise of food.~ [P_Baba02]
+
+// HPLT
+@22 = ~Hey Baba, are you okay? You seem more nervous than usual. Are you hurt?~
+@23 = ~Baba seems to be indignant at such an obvious statement, so he decides to show you with his little hands where he has his combat wound. After that, he decides to run away from you since you don't seem to care about his well-being.~ [P_Baba01]

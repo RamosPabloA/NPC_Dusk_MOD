@@ -1,0 +1,12 @@
+// Lo usaremos para el espíritu de Celine/Eileen
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+CreateVisualEffect("SPFLESHS",[1454.1398])
+Wait(1)
+CreateCreature("P_DuskG",[1454.1398],14)
+Wait(1)
+ActionOverride("P_DuskG",StartDialogueNoSet(Player1))
+END

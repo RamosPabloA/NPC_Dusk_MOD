@@ -1,0 +1,23 @@
+IF
+  See([PC])
+  Dead("p_dempi2")  // Tabitha
+  !StateCheck(Myself,STATE_CHARMED)
+  Global("cry","LOCALS",0)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,2544)  // ~Tabita mía... leal hasta el final. ¡Juro que vengaré vuestra muerte!~
+    Enemy()
+    SetGlobal("cry","LOCALS",1)
+END
+
+IF
+  See([PC])
+  Dead("p_dempi3")  // Tabitha
+  !StateCheck(Myself,STATE_CHARMED)
+  Global("cry","LOCALS",0)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,2544)  // ~Tabita mía... leal hasta el final. ¡Juro que vengaré vuestra muerte!~
+    Enemy()
+    SetGlobal("cry","LOCALS",1)
+END
