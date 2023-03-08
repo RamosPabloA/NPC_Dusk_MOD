@@ -247,19 +247,19 @@ unaware of the tragedy that would befall him soon..."~
 @163  = ~The reason why Irenicus, the mage who caused the disaster at the Waukeen's Promenade, is interested in me is because of my lineage: I am one of Bhaalspawns.~
 
 //t2.r6 ******
-@164  = ~¿Bhaal? Es… el Dios del Asesinato… He percibido un aura divina en ti, amigo mío… pero nunca imaginé que se tratase de algo así… ¿Eso quiere decir que eres una especie de semidios?~ ~¿Bhaal? Es… el Dios del Asesinato… He percibido un aura divina en ti, amiga mía… pero nunca imaginé que se tratase de algo así… ¿Eso quiere decir que eres una especie de semidiosa?~
+@164  = ~Bhaal? He's... the Lord of Murder... I sensed a divine aura in you, my friend... but I never imagined it was something like this... Does that mean you're some kind of demigod?~ ~Bhaal? He's... the God of Murder... I sensed a divine aura in you, my friend... but I never imagined it was something like this... Does that mean you're some kind of demigoddess?~
 //t2.r6 ****** todas van a @168
-@165  = ~Así es, Dusk. Soy un semidios, capaz de convertirte en un lagarto si me place. ¿Ves el movimiento de dedos que hago? Ahora están a punto de salirte escamas.~ ~Así es, Dusk. Soy una semidiosa, capaz de convertirte en un lagarto si me place. ¿Ves el movimiento de dedos que hago? Ahora están a punto de salirte escamas.~
-@166  = ~No creo ser más especial que cualquier criatura que conozcas, Dusk. Pero si te digo esto: ser descendiente de Bhaal me ha traído muchos problemas. Supongo que preferiría ser pariente de algún noble pomposo como alguien me supo decir una vez.~
-@167  = ~No me siento una deidad. De hecho, ahora lo que siento es sed y sueño. ¿Podrías invitar una copa a este descendiente de Bhaal, Dusk?~ ~No me siento una deidad. De hecho, ahora lo que siento es sed y sueño. ¿Podrías invitar una copa a esta descendiente de Bhaal, Dusk?~
+@165  = ~That's right, Dusk. I'm a demigod, capable of turning you into a lizard if I please. See the finger movements I'm making? Your scales are about to start growing.~ ~That's right, Dusk. I'm a demigoddess, capable of turning you into a lizard if I please. See the finger movements I'm making? Your scales are about to start growing.~
+@166  = ~I don't believe I'm any more special than any creature you know, Dusk. But let me tell you this: being a descendant of Bhaal has brought me a lot of trouble. I suppose I would prefer to be related to some pompous nobleman as someone once told me.~
+@167  = ~I don't feel like a deity. In fact, right now what I feel is thirst and sleepiness. Could you buy a drink for this descendant of Bhaal, Dusk?~
 
 //t2r7
-@168  = ~Muy gracioso, <CHARNAME>. Aunque admito que me has sacado una sonrisa.~ ~Muy graciosa, <CHARNAME>. Aunque admito que me has sacado una sonrisa.~
-@169  = ~Pero veo que no es broma lo de tu descendencia divina. La misma presencia de un ser tan poderoso como Irenicus lo demuestra. Imagino que no debes tener idea de por qué va tras de ti... pero si de algo sirve, <CHARNAME>, prometo quedarme a tu lado hasta que averigüemos qué es lo que pretende ese pelmazo.~
-@170  = ~Vaya... hemos tenido un buen rato de charla. Mis más sinceras disculpas, mi <LADYLORD>. Será mejor que continuemos con nuestro viaje.~
+@168  = ~Very funny, <CHARNAME>. Although I admit you've made me smile.~
+@169  = ~But I see that your divine heritage is no joke. The mere presence of such a powerful being as Irenicus proves it. I imagine you have no idea why he's after you... but if it helps, <CHARNAME>, I promise to stay by your side until we find out what that fool is up to.~
+@170  = ~Well... we've had a good chat. My sincerest apologies, my <LADYLORD>. We'd better continue our journey.~
 
 // Viene de 133 porque era muy largo el texto allí. (GLOBAL 2)
-@223  = ~Los Magos Encapuchados son una de las organizaciones que gobiernan Athkatla, y para gobernar una ciudad tan importante en Amn, se necesita de una buena cuota de poder… pero ese sujeto… acabó con varios encapuchados sin siquiera esforzarse… Es increíble.~
+@223  = ~The Cowled Wizards are one of the organizations that govern Athkatla, and to rule such an important city in Amn, you need a good deal of power... but that mage... he took out several hooded mages without even breaking a sweat... It's incredible.~
 // Sigue en 134, GLOBAL 2
 
 //171 - 172 - 173
@@ -267,41 +267,43 @@ unaware of the tragedy that would befall him soon..."~
 // **********************************************
 // t3 - P_Dusk_T3  -- GLOBAL 6
 
-@174  = ~Creo que ahora puedo hablarte de la Llanura Gigante y del Bosque de las Sombras, <CHARNAME>. De mi combate contra los orcos y trolls de las montañas, ¿te parece?~
+@174  = ~I think I can talk to you about the Giant's Plain and the Shadow Forest now, <CHARNAME>. About my fight against the orcs and mountain trolls, would you like to hear?~
 
 // + t3.1 ir a @178
-@175  = ~Bueno, Dusk. Estoy ansioso por oír tu historia. ~ ~Bueno, Dusk. Estoy ansiosa por oír tu historia.~
+@175  = ~Well, Dusk. I'm eager to hear your story.~
 
 // + t3.0 ir a @177
-@176  = ~A decir verdad, preferiría que me digas la versión corta, Dusk. Tus narraciones no son para nada entretenidas.~ 
+@176  = ~To be honest, I'd prefer if you give me the short version, Dusk. Your narrations are not entertaining at all.~ 
 
 // = t3.0
-@177  = ~¿Una versión… corta? Pues, supongo que debería decirte que todo mi destacamento de Cormyr fue aniquilado por una escaramuza de orcos y trolls… y que estuve a punto de morir… de no ser por una elfa arquera llamada Celine. ¿Es lo suficientemente resumido para ti? Rayos, <CHARNAME>…~
+@177  = ~A… short version? Well, I guess I should tell you that my entire Cormyr detachment was wiped out by a skirmish with orcs and trolls… and I was nearly killed… had it not been for an elven archer named Celine. Short enough for you? Damn it, <CHARNAME>…~
 
-@178  = ~Luego de nuestro desembarco en Ilipur, dirigí mi destacamento hacia el sur. El plan era atravesar la Llanura Gigante e ir hacia las tierras de Tethyr. Durante algunas noches no hubo problemas… pero…~
-@179  = ~Fue cerca de la desembocadura del río Esmel… fuimos atacados por un ejército orco, los cuales contaban con algunos trolls entre sus filas.~
-@180  = ~Mi destacamento contaba con no más de veinte hombres, valientes guerreros de Cormyr, entrenados por los mismos Caballeros de la Orden del Dragón Púrpura… ~
-@181  = ~Pero nos superaban… quizás nos triplicaban en número. Y eso fue sólo en la primera noche de una sucesión de ataques.~
-@182  = ~Con valor combatimos y pudimos derrotar la primera oleada. Perdimos a unos cinco soldados. Fue entonces cuando la segunda oleada llegó.~
-@183  = ~Esta vez tuvimos que retroceder. Al cabo de unos días, nuestros recursos eran ya escasos, puesto a que utilizamos muchas flechas de fuego y dardos con ácido para derribar a los trolls de las montañas.~
-@184  = ~Para cuando nos quedamos sin municiones, nuestro número bajó drásticamente. Perdimos a diez compañeros más… y fue entonces que el caos nos invadió.~
-@185  = ~Los pocos que sobrevivimos huimos hacia el este, hacia un área frondosa. Exhaustos, en la entrada del bosque nos volvimos y combatimos una vez más.~
-@186  = ~Fuimos capaces de matar a los orcos, pero los trolls, al cabo de unos minutos, volvían a ponerse de pie, regenerados completamente de sus heridas.~
-@187  = ~Ordené la retirada a mis hombres… creo que los trolls acabaron con muchos de ellos…~
-@188  = ~Seguí combatiendo con mi espada bastarda, llevando la batalla en la negrura del bosque.~
-@189  = ~La rabia me invadía el pecho. Sentí que el fracaso alimentaba mi odio hacia esas horribles criaturas, porque ya no podría cumplir mi misión de llevar la paz a las naciones del sur… Y seguí combatiendo, aunque sabía que era inútil.~
-@190  = ~El troll gigante al que me enfrentaba parecía no molestarle las heridas que le provocaba con mi espada. La sangre verdosa que salía de sus brechas dejaba de manar al cabo de unos segundos… finalmente, mi espada se rompió.~
-@191  = ~Sabía que era inútil seguir peleando, pero aún así, saqué mi bastón. Logré asestar unos buenos golpes en sus extremidades, pero él también atinó un golpe mortal.~
-@192  = ~Destrozó mi cota de mallas y me desplomé en el césped, a los pies de un fausto cedro. Tenía una herida en mi cabeza y la sangre danzaba sobre mis mejillas y por la cuenca de mi ojo izquierdo.~
-@193  = ~Extenuado, miré hacia el cielo, por entre las ramas y las hojas de los árboles… las estrellas brillaban en el cosmos y creí que mi hora había llegado.~
-@194  = ~Fue entonces que un destello cruzó frente a mí. Un brillo, como si de una estrella fugaz se tratase. Lo próximo que oí fue el grito desenfrenado de la criatura y de un golpe seco en el suelo…~
-@195  = ~Una flecha de fuego se había incrustado en el corazón del monstruo… y mientras la luz del fuego se extinguía con la sangre glauca del troll… la vi…~
+@178  = ~After our landing in Ilipur, I led my detachment south. The plan was to cross the Giant Plain and head towards the lands of Tethyr. For a few nights, we had no problems… but…~
+@179  = ~It was near the Esmel River's mouth… we were attacked by an orc army, which had some trolls among their ranks.~
+@180  = ~My detachment consisted of no more than twenty men, brave warriors of Cormyr, trained by the Knights of the Order of the Purple Dragon…~
+@181  = ~But they outnumbered us… perhaps tripled our numbers. And that was only on the first night of a succession of attacks.~
+@182  = ~With courage we fought and were able to defeat the first wave. We lost about five soldiers. That was when the second wave arrived.~
+@183  = ~This time we had to retreat. After a few days, our resources were already scarce, as we used many fire arrows and acid darts to bring down the mountain trolls.~
+@184  = ~By the time we ran out of ammunition, our number had dropped drastically. We lost ten more comrades… and then chaos took over.~
+@185  = ~The few of us who survived fled eastward, towards a wooded area. Exhausted, at the entrance of the forest, we turned and fought once more.~
+@186  = ~We were able to kill the orcs, but the trolls, after a few minutes, got back on their feet, completely regenerated from their wounds.~
+@187  = ~I ordered my men to retreat… I think the trolls got many of them…~
 
-@196  = ~¿Qué viste, Dusk?~
 
-@197  = ~A ella… a mi salvadora… Una elfa de cabellos dorados, sosteniendo un arco largo y apuntándome con una flecha.~
-@198  = ~Su voz era suave como el céfiro de una mañana de otoño: “Has traído la desgracia a Shilmista, humano.” dijo. Luego… perdí el conocimiento…~
-@199  = ~(suspiro) Creo que por ahora eso es lo que puedo contarte, <CHARNAME>. Más adelante, continuaré con el relato. Si quieres, claro.~
+@188  = ~I kept fighting with my bastard sword, taking the battle into the darkness of the forest.~
+@189  = ~Rage filled my chest. I felt that my failure fueled my hatred towards those horrible creatures, because I could no longer fulfill my mission of bringing peace to the southern nations... And I kept fighting...~
+@190  = ~The giant troll I was facing seemed not to mind the wounds I was causing with my sword. The greenish blood that flowed from its cuts stopped flowing after a few seconds... finally, my sword broke.~
+@191  = ~I knew it was useless to keep fighting, but still, I drew my staff. I managed to land some good hits on its limbs, but he also landed a deadly blow.~
+@192  = ~He shattered my chainmail and I collapsed on the grass, at the foot of a lush cedar. I had a wound on my head and blood danced on my cheeks and in my left eye.~
+@193  = ~Exhausted, I looked up at the sky, through the branches and leaves of the trees... the stars shone in the cosmos and I thought my time had come.~
+@194  = ~It was then that a flash crossed in front of me. A gleam, as if it were a shooting star. The next thing I heard was the creature's wild cry and a sharp thud on the ground...~
+@195  = ~A fire arrow had embedded itself in the monster's heart... and as the light of the fire extinguished with the troll's glaucous blood... I saw her...~
+
+@196  = ~What did you see, Dusk?~
+
+@197  = ~Her... my savior... An elf with golden hair, holding a longbow and aiming an arrow at me.~
+@198  = ~Her voice was as gentle as the zephyr of an autumn morning: 'You have brought misfortune to Shilmista, human', she said. Then... I lost consciousness...~
+@199  = ~*sigh* I think that's all I can tell you for now, <CHARNAME>. Later on, I'll continue the story. If you want, of course.~
 
 // **********************************************
 // t4 - P_Dusk_T4 GOOD/EVIL - GLOBAL 8
