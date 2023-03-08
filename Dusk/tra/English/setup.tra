@@ -308,42 +308,37 @@ Weight: 5~
 
 //VENOM STRIKE
 
-@200042 = ~Flail~
+@200042 = ~Club~
 @200043 = ~Venom Strike~
-@200044 = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon was originally used as a tool for threshing grain.
+@200044 = ~Most clubs are sturdy wooden sticks, narrow at the handle and wider at the ends. This simple tool has been used since humans began using tools. Anyone can find a good sturdy piece of wood to strike with, hence the widespread use of clubs.
 
-STATISTICS:
+FEATURES:
 
-Damage: 1d6+1 (crushing)
-Speed Factor: 7
-Proficiency Type: Flail/Morning Star
-Type: One-handed
-Requires:
- 13 Strength
-
-Weight: 15~
+Damage: 1D6
+Damage Type: Crushing
+Weight: 3 lbs
+Speed Factor: 4
+Weapon Skill: Mace/Club
+Weapon Type: One-handed
+Requirements: 5 Strength~
 @200045 = ~Venom Strike
 
-It is said that the scorpion-like tip of a manticore's tail emits a sour stench of decay. And it is precisely that stench that emanates from the tip of this terrible mace, making you suspect that it was actually made from ingredients of a dead manticore. Be that as it may, the black magic with which it was imbued allows the bearer to regenerate and provides protection against fear and spells, also absorbing the life force of the victim.
+It is said that the scorpion-like tip of a Manticore's tail radiates a sour stench of decay. And it is precisely that stench that emanates from the tip of this terrible club, making you suspect that it was really built from ingredients of a dead Manticore. Be that as it may, the dark magic with which it was imbued allows the bearer to absorb the life force of the victim.
 
 STATISTICS:
 
 Abilities Possessed:
- * Regeneration: 1 hit point every 5 seconds
- * Immunity to Charm and Fear
- * With each hit, it has a 15% chance of consuming 4 levels, healing the bearer 20 hit points, and accelerating them for 30 seconds, as well as increasing their strength by 3 during the same time.
+
+- Drain: With each strike, there is a 15% chance to drain 4 levels, healing the wielder 20 hp, and hastening them for 30 secs., as well as increasing their strength by 3 for the same duration.
+
 Damage: 1D6+5, +1d5 poison damage
 THAC0: Bonus +5
 Damage Type: Blunt
 Weight: 15 lbs
 Speed Factor: 3
-Martial Talent: Flail/Morning Star
+Martial Talent: Club
 Weapon Type: One-handed
 Requirements: 13 strength~
-@200046 = ~Horrendous Spell~
-@200047 = ~Enchanted~
-@200048 = ~Panic~
-@200049 = ~Panic~
 @200050 = ~Four levels consumed~
 @200051 = ~Healed~
 
@@ -1719,7 +1714,7 @@ Needed:
 
 Venom Strike
 
-I'm not sure what this artifact is, but I assume it must be something like a mace or a morning star. Based on its ingredients, the result should be very satisfying.
+I'm not sure what this artifact is, but I assume it must be something like a mace or a club, maybe even a flail. Based on its ingredients, the result should be very satisfying.
 
 You will need:
 

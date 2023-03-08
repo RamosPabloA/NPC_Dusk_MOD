@@ -372,12 +372,8 @@ SAY NAME1 @200042 /*  */
 SAY NAME2 @200043 /*  */
 SAY UNIDENTIFIED_DESC @200044 /* */
 SAY DESC @200045 /* */
-SAY 222 @200046 /* */
-SAY 270 @200047 /* */
-SAY 558 @200048 /* */
-SAY 606 @200049 /* */
-SAY 1374 @200050 /* */
-SAY 1470 @200051 /* */
+SAY 366 @200050 /* */
+SAY 462 @200051 /* */
 
 // PROTECCIÓN DEL GUERRERO
 // Incluye el spell nuevo P_spinG.spl (de lo contrario no funciona)

@@ -308,41 +308,37 @@ Peso: 5~
 
 //VENOM STRIKE
 
-@200042 = ~Mayal~
+@200042 = ~Garrote~
 @200043 = ~Venom Strike~
-@200044 = ~El mayal consiste en un mango grueso de madera unido a una barra de hierro, a una estaca de madera con pinchos o a una bola de hierro con pinchos. Entre el asidero y el instrumento, hay una bisagra o una junta de cadena. Originariamente, este arma se utilizaba para trillar el grano.
+@200044 = ~La mayoría de los garrotes son palos recios de madera, estrechos en la empuñadura y más anchos en los extremos. Esta sencilla herramienta se ha utilizado desde que el hombre comenzó a utilizar herramientas. Todo el mundo puede encontrar una buena pieza recia de madera con la que golpear, de ahí el amplio uso de los garrotes.
 
 CARACTERÍSTICAS:
 
-Daño: 1D6 +1
+Daño: 1D6
 Tipo de daño: Contundente
-Peso: 15 lbs
-Factor de velocidad: 7
-Talento marcial: Mayal/Lucero del Alba
+Peso: 3 lbs
+Factor de velocidad: 4
+Talento marcial: Clava/Garrote
 Tipo de arma: A una mano
-Requisitos: 13 de fuerza~
+Requisitos: 5 de fuerza~
 @200045 = ~Golpe de Veneno
 
-Se dice que la punta escorpiana de la cola de una mantícora irradia un hedor agrio a putrefacción. Y es precisamente ese hedor lo que emana la punta de este terrible mayal, haciéndote sospechar que realmente fue construído en base a ingredientes de una mantícora muerta. Sea como fuere, la magia negra con la que fue imbuída permite al portador regenerarse y brinda protección contra el miedo y los hechizos, absorbiendo también la fuerza vital de la víctima.
+Se dice que la punta escorpiana de la cola de una mantícora irradia un hedor agrio a putrefacción. Y es precisamente ese hedor lo que emana la punta de esta terrible clava, haciéndote sospechar que realmente fue construído en base a ingredientes de una mantícora muerta. Sea como fuere, la magia negra con la que fue imbuída permite al portador absorber la fuerza vital de la víctima.
 
 CARACTERÍSTICAS:
 
 Aptitudes poseídas:
- * Regeneración: 1 punto de golpe cada 5 segundos
- * Inmunidad a Hechizar y Miedo
- * Con cada golpe tiene un 15% de consumir 4 niveles, sanando al portador 20 pg, y acelerándolo durante 30 segs., así como incrementando su fuerza en 3 durante el mismo tiempo.
+
+- Drenaje: Con cada golpe tiene un 15% de consumir 4 niveles, sanando al portador 20 pg, y acelerándolo durante 30 segs., así como incrementando su fuerza en 3 durante el mismo tiempo.
+
 Daño: 1D6 +5, +1d5 por daño de veneno
 THAC0: Bonificador +5
 Tipo de daño: Contundente
 Peso: 15 lbs
 Factor de velocidad: 3
-Talento marcial: Mayal/Lucero del Alba
+Talento marcial: Clava/Garrote
 Tipo de arma: A una mano
 Requisitos: 13 de fuerza~
-@200046 = ~Hechizo horrendo~
-@200047 = ~Encantado~
-@200048 = ~Pánico~
-@200049 = ~Pánico~
 @200050 = ~Cuatro niveles consumidos~
 @200051 = ~Sanado~
 
@@ -1821,7 +1817,7 @@ Se necesita:
 
 Venom Strike
 
-No estoy seguro de qué se trate este artefacto, pero asumo que debe ser algo como un mayal o una estrella del alba. Por sus ingredientes, el resultado debe ser de lo más satisfactorio.
+No estoy seguro de qué se trate este artefacto, pero asumo que debe ser algo como una maza o un garrote, puede que incluso un mayal. Por sus ingredientes, el resultado debe ser de lo más satisfactorio.
 
 Se necesita:
 - Cola de Draco (Michelson dice que se trata de un Mangual hecho con la cola de un draco. Sumamente venenosa)
