@@ -16,8 +16,7 @@ Contents
 
 - Featuring a new NPC joinable to the party: Dusk, the Wizard Slayer.
 
-Ardusk Aldant, also know as Dusk, it's a warrior from Cormyr, trained in the  Order of the Purple Dragons. After a long journey to Athkatla, Dusk is now became a notable Wizard Slayer who just wants to live in peace. But a dark figure attacks in the pacific Waukeen's Promenade.
-
+Ardusk Aldant, also know as Dusk, is a warrior from Cormyr, trained in the  Order of the Purple Dragons. After a long journey to Athkatla, Dusk is now became a notable Wizard Slayer who just wants to live in peace. But a dark figure attacks in the pacific Waukeen's Promenade.
 
 
 ----------------
