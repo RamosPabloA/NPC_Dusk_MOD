@@ -704,7 +704,7 @@ Pero, en fin…~
 @412  = ~Extrañamente, pese a estar en la llanura, el silencio se acrecentaba a medida que me acercaba a las carpas y a las fogatas, ya apagadas, del campamento.~
 @413  = ~Tenía un mal presentimiento, <CHARNAME>. Pese a ello, busqué en aquellas pertenencias andrajosas por signos del emblema Zentharim. Por más que revisé, no pude encontrar nada.~
 @414  = ~Esperé unos minutos antes de retirarme del campamento y volver con Celine, pero decidí dar una vuelta más.~
-@415  = ~En el piso, al frente de una extinguida fogata, vi cómo algo brillaba en el piso, como si de una moneda de oro se tratase.~
+@415  = ~Al frente de una extinguida fogata, vi cómo algo brillaba en el piso, como si de una moneda de oro se tratase.~
 @416  = ~Al acercarme, un estruendo me aturdió y unas chispas me dejaron ciego. Había activado una trampa mágica...~
 @417  = ~Intenté gritar para advertir a Celine que no se acercara, pero estaba mudo. La trampa incluía, al parecer, un hechizo de silencio.~
 @418  = ~Celine, al ver que había quedado paralizado por aquella artimaña, corrió hacia mí. Fue entonces cuando, de la nada, un portal se abrió.~
@@ -801,7 +801,7 @@ Pero, en fin…~
 @505  = ~No fue tu culpa, Dusk… hiciste lo que pudiste.~
 @506  = ~Perdí la noción del tiempo… no sé cuántas horas pasaron… ni podría decirlo, pues las noches en ese lugar maldito son eternas…~
 @507  = ~Finalmente… llevé su cuerpo de vuelta a Shilmista. Elbereth en persona se encargó de los oficios solemnes. La ceremonia fue… fue hermosa.~
-@508  = ~Como consecuencia de esto… fue que entregué mi vida a ser un Asesino de Magos. Anthagar está ahí fuera… y aún necesito respuestas del porqué…~
+@508  = ~Como consecuencia de esto… fue que entregué mi vida a ser un Asesino de Magos. Anthagar está ahí fuera… y aún necesito respuestas del porqué hizo lo que hizo…~
 @509  = ~Pretendo dar con su Orden… y acabar con cada uno de ellos…~
 @510  = ~Cuenta conmigo, Dusk. Llegado el momento, estaré a tu lado.~
 @511  = ~Hm… suena peligroso, Dusk. Pero, de todas formas, te deseo la mejor de las suertes.~
@@ -949,14 +949,14 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3058  = ~El bastón shilmista me ha acompañado desde un principio... pero la Vengadora Real nos servirá mejor para nuestro propósito... Así que sí... acepto el cambio.~
 @3059  = ~*suspiro* Un trato es un trato, mi pequeño amigo. Aquí tienes mi preciado bastón shilmista.~
 
-@3060  = ~¡¿Demole?! ¿Qué diantres haces aquí?~
+@3060  = ~¡¿Demoli?! ¿Qué diantres haces aquí?~
 @3061  = ~Dusk, ¿conoces a este saco de pulgas?~
 @3062  = ~¡Pero qué perrito más tierno! ¿Lo conoces, Dusk? ¿Cómo se llama?~
 @3063  = ~Genial, un perro callejero... imagino que no lo iremos a adoptar, ¿eh? Esto no es un refugio animal, muchacho.~
-@3064  = ~<CHARNAME>, éste es Demoledor. No es un perro cualquiera, como aparenta. Es el compañero animal de Mathyus.~
-@3065  = ~¿Demoledor? No me parece tan demoledor a mi parecer.~
+@3064  = ~<CHARNAME>, éste es Demolidor. No es un perro cualquiera, como aparenta. Es el compañero animal de Mathyus.~
+@3065  = ~¿Demolidor? No me parece tan demoledor a mi parecer.~
 @3066  = ~¿Es de Mathyus? No sé por qué no me sorprende.~
-@3067  = ~¿Qué es lo que traes aquí, Demole? Déjame ver esta nota...~
+@3067  = ~¿Qué es lo que traes aquí, Demoli? Déjame ver esta nota...~
 @3068  = ~"Querido Dusk, hemos encontrado una pista sobre los ataques a tu destacamento. Será mejor que vengas cuanto antes.
   Atentamente, 
   Mathyus, el poderoso elfo guardián de Shilmista."~
@@ -967,7 +967,7 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3073  = ~Hagamos lo que tengamos que hacer, <CHARNAME>, y luego, acompáñame. Necesitaré de tu ayuda, seguramente.~
 @3074  = ~No estoy seguro, amigo mío. Pero lo sabremos en cuanto vayamos.~ ~No estoy seguro, amiga mía. Pero lo sabremos en cuanto vayamos.~
 @3075  = ~Gracias, <CHARNAME>.~
-@3076  = ~Demoledor, corre y dile a tu maestro que nos espere, ¿de acuerdo?~
+@3076  = ~Demolidor, corre y dile a tu maestro que nos espere, ¿de acuerdo?~
 @3077  = ~Pero, ¿qué...?~
 
 // MISION 2
@@ -1094,7 +1094,7 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3192  = ~Asimismo, me corresponde decir... que creo que deberán brindar información sobre Sothillis a los paladines. No creo que haya precedentes de que reciban humanoides de tan buena gana en sus cuarteles.~
 @3193  = ~Dudo que los caballeros sean tiranos. No serán obligados a hacer nada que no quieran, puesto a que me han dado su palabra. Caso contrario, no duden en acudir a mí...~
 @3194  = ~Estoy seguro de que nuestros caminos volverán a cruzarse algún día, amigos. Mientras tanto, les visitaré en el Distrito del Templo cuando pueda.~
-@3195  = ~Hemos encontrado al grupo de humanoides, Mathyus. La información brindada por Demoledor era certera.~
+@3195  = ~Hemos encontrado al grupo de humanoides, Mathyus. La información brindada por Demolidor era certera.~
 @3196  = ~Sin embargo, ellos no eran los responsables del ataque a mi destacamento...~
 @3197  = ~Así es... mientras hablamos, su sangre alimenta la tierra de Colinas Ventolanza.~
 @3198  = ~Eran desertores del imperio de Sothillis. Merecían su destino final, Mathyus.~
@@ -1143,7 +1143,7 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3241  = ~Bien. Aquí está... el orbe purificado...~
 @3242  = ~Gracias... por otorgarme esa visión...~
 @3243  = ~Agradezco la atención, pero hay cosas más importantes que atender, ¿no lo creen?~
-@3244  = ~El orbe ha desaparecido, Mathyus. Creo que ha tomado la forma de esta espada esmeralda que ha señalado Michelson, la cual resplandece en mis manos. He visto tus moviemientos de alegría, Demoledor. Gracias por preocuparse.~
+@3244  = ~El orbe ha desaparecido, Mathyus. Creo que ha tomado la forma de esta espada esmeralda que ha señalado Michelson, la cual resplandece en mis manos. He visto tus moviemientos de alegría, Demolidor. Gracias por preocuparse.~
 @3245  = ~Gracias, Mathyus. Sin embargo, no se expongan al peligro. Sornhil y su Orden de Hechiceros parecen ser algo a tratar, pero si no sabemos más de ellos, puede que eso no sea una mala señal.~
 @3246  = ~La venganza no siempre es la respuesta. Ahora lo sé. <CHARNAME>, es gracias a ti que mi corazón está más sosegado.~
 @3247  = ~Los muertos no desean venganza... asumo que querrían que aquellos que son sus seres amados vivan en paz y armonía. Hablo por mis compañeros caídos en batalla.~
@@ -1163,8 +1163,8 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3259  = ~No tienes necesidad de entender todo lo que te rodea, mortal. A veces, las cosas... simplemente suceden.~
 @3261  = ~Es verdad que soy un mortal, ninfa... pero mis amigos me llaman Dusk. Tú también puedes hacerlo.~
 
-@3262  = ~Demoledor... confío en que tu interrupción sólo se deba a novedades sobre la misión que encomendé a tu maestro.~
-@3263  = ~¡Demole! Me alegra verte. Imagino que te envía Matyhus. ¿Hay novedades?~
+@3262  = ~Demolidor... confío en que tu interrupción sólo se deba a novedades sobre la misión que encomendé a tu maestro.~
+@3263  = ~¡Demoli! Me alegra verte. Imagino que te envía Matyhus. ¿Hay novedades?~
 @3264  = ~"¡Dusk! Finalmente hemos dado con ellos. O al menos, él. El jefe orco que ha organizado el ataque a tu destacamento se encuentra muy cerca de Athkatla. Es menester que regreses con <CHARNAME> a nuestra guarida para más detalles.
  Atentamente, Mathyus.
  El poderoso elfo shilmista."~
@@ -1180,7 +1180,7 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3274  = ~Logré asestar un golpe, aunque no de lleno, en su rostro. Creo que logré sacarle un ojo... aunque no estoy seguro. Algunos de sus esbirros acudieron en su ayuda en ese momento.~
 @3275  = ~Gritó con gran fuerza... y desde las sombras apareció un troll gigante, el cual nos hizo retroceder... Esa fue la última vez que supe de él.~
 @3276  = ~<CHARNAME>, estoy seguro de que Mathyus se refiere a Alabarza. Debe haber sobrevivido a sus heridas... y de seguro tiene consigo algún emblema de Cormyr.~
-@3277  = ~Demoledor, vuelve con tu maestro e indícale que iremos lo más pronto posible.~
+@3277  = ~Demolidor, vuelve con tu maestro e indícale que iremos lo más pronto posible.~
 @3278  = ~<CHARNAME>, si es el enemigo que creo que es, lo más probable es que cuente con un tesoro a tener en cuenta.~
 @3279  = ~Si eso no te conmueve, puede que el reto de enfrentarte a alguien fuerte lo haga. Alabarza es un enemigo a temer.~
 @3280  = ~¿Tesoro dices? Ahora hablas mi idioma. Cuéntame más.~
@@ -1193,7 +1193,7 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3287  = ~Tienes razón con respecto a las posibles víctimas, Dusk. Lo lamento. Cuéntame más.~
 @3288  = ~Me importan muy poco tus problemas, hombre. Quien manda aquí soy yo.~
 @3289  = ~De acuerdo, <CHARNAME>. No te presionaré por este tema. Si la fortuna está de nuestro lado, puede que Alabarza siga allí cuando decidas investigar el asunto...~
-@3290  = ~Demoledor, vuelve con tu maestro e indícale que iremos cuando nos sea posible.~
+@3290  = ~Demolidor, vuelve con tu maestro e indícale que iremos cuando nos sea posible.~
 @3291  = ~Al grano, Mathyus. Estoy seguro de que tienes algo... interesante qué contar, ¿no es así?~
 @3292  = ~Lo sabía... no debe ser otro más que Alabarza, el Mutilador.~
 @3293  = ~(De repente, explota en una risa profunda y maligna)~
@@ -1334,7 +1334,7 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3404  = ~¡¿Qué?! <CHARNAME>, ¿qué demonios estás haciendo? ¡Es una vil traición! No... ¡No lo consentiré! Espero... espero que nuestros caminos no vuelvan a cruzarse...~
 @3405  = ~Pero, ¿qué rayos-?~
 @3406  = ~Rayos... ¡percibo una poderosa fuerza arcana, <CHARNAME>!~
-@3407  = ~¡Demole! Amigo, es un gran placer verte de nuevo.~
+@3407  = ~¡Demoli! Amigo, es un gran placer verte de nuevo.~
 @3408  = ~Estupendo, Danctian. Todo va según lo planeado.~
 @3409  = ~*carraspeo* Hola, estoy aquí. ¿Te molestaría compartir con el resto del grupo lo que está pasando?~
 @3410  = ~Dusk, ¿de qué están hablando? No entiendo nada.~
@@ -1342,7 +1342,7 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 
 @3412  = ~Hm... este lugar me es familiar... ¿Hemos estado aquí antes, <CHARNAME>? No importa.~
 @3413  = ~De acuerdo. En marcha.~
-@3414  = ~No veo a Mathyus ni a Demoledor por ninguna parte...~
+@3414  = ~No veo a Mathyus ni a Demolidor por ninguna parte...~
 @3415  = ~Hmpf... lo más probable es que ni siquiera venga. Ese elfo es pura palabrería.~
 @3416  = ~P-puede que hayan tenido algún problema durante el hechizo de teletransportación, ¿no lo creen?~
 @3417  = ~No creo que tu amigo te haya abandonado, Dusk. A juzgar por su... apariencia, de seguro querrá hacer alguna entrada espectacular o algo así.~
@@ -1382,7 +1382,7 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 // JOURNAL ENTRIES
 @210007 = ~Dusk Aldant: Los renegados de Sothillis
 
-Regresamos a la guarida de Mathyus Davis como la nota de Demoledor indicaba. Se trataba de la ubicación del grupo que atacó al destacamento de Dusk cuando éstos flanqueaban la Colina de los Trolls. Según indicó el elfo, el grupo se trata de humanoides en las Colinas Ventolanza,ubicados al sureste de la región, cerca de un gran lago. Michelson, sin embargo, advirtió que era posible que no se tratase del grupo original que atacó a Dusk. Supongo que lo veremos cuando encontremos a dicho grupo.~
+Regresamos a la guarida de Mathyus Davis como la nota de Demolidor indicaba. Se trataba de la ubicación del grupo que atacó al destacamento de Dusk cuando éstos flanqueaban la Colina de los Trolls. Según indicó el elfo, el grupo se trata de humanoides en las Colinas Ventolanza,ubicados al sureste de la región, cerca de un gran lago. Michelson, sin embargo, advirtió que era posible que no se tratase del grupo original que atacó a Dusk. Supongo que lo veremos cuando encontremos a dicho grupo.~
 
 
 @210010 = ~Dusk Aldant: Los renegados de Sothillis
@@ -1436,7 +1436,7 @@ Arribamos a la guarida de Mathyus y nos informó que el grupo responsable del ata
 
 @210033 = ~Dusk Aldant: La Venganza de la Primera Espada
 
-Regresamos a la guarida de Mathyus en el Distrito Portuario en Athkatla. Cedí la palabra a Dusk para que diese la noticia de nuestra victoria sobre el clan Alabarza, pero, para mi sorpresa, terminó matando a Mathyus, Demoledor y Michelson, utilizando un poder que asumo que provino del misterioso orbe escarlata que absorbió hace un tiempo.~
+Regresamos a la guarida de Mathyus en el Distrito Portuario en Athkatla. Cedí la palabra a Dusk para que diese la noticia de nuestra victoria sobre el clan Alabarza, pero, para mi sorpresa, terminó matando a Mathyus, Demolidor y Michelson, utilizando un poder que asumo que provino del misterioso orbe escarlata que absorbió hace un tiempo.~
 
 @210035 = ~Dusk Aldant: La Orden de Magos
 

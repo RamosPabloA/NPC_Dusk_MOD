@@ -197,7 +197,7 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Dialogue/p_celgh.d~
 	//Mathyus poseido
 	~Dusk/Dialogue/p_matu2.d~
-	//Demoledor combatiente
+	//Demolidor combatiente
 	~Dusk/Dialogue/p_demol2.d~
 	//Michelson Final Mission
 	~Dusk/Dialogue/p_miche2.d~
@@ -1043,7 +1043,7 @@ COPY ~Dusk/Items/p_nalit.itm~ ~override~
 SAY NAME2 @200401 /*  */
 SAY DESC @200402 /* */
 
-// Demoledor, el perro de Mathyus
+// Demolidor, el perro de Mathyus
 
 COPY ~Dusk/Characters/p_demscr.itm~ ~override~
 SAY NAME1 @330006 /*   */ 
@@ -1053,8 +1053,8 @@ SAY DESC @330009 /* */
 
 
 COPY ~Dusk/Characters/p_demole.cre~ ~override~
-SAY NAME1 @200321 /* Demoledor */
-SAY NAME2 @200321 /* Demoledor */
+SAY NAME1 @200321 /* Demolidor */
+SAY NAME2 @200321 /* Demolidor */
 SAY BATTLE_CRY1 ~~ [P_Demo01]
 SAY BATTLE_CRY2 ~~ [P_Demo02]
 SAY BATTLE_CRY3 ~~ [P_Demo01]
@@ -1637,10 +1637,10 @@ WRITE_ASCII 0x2cc ~p_matu2~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_mats~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_matu2~ #8  // OVERRIDE SCRIPT
 
-// Demoledor combatiente
+// Demolidor combatiente
 COPY ~Dusk/Characters/p_demol2.cre~ ~override~
-SAY NAME1 @200321 /* Demoledor */
-SAY NAME2 @200321 /* Demoledor */
+SAY NAME1 @200321 /* Demolidor */
+SAY NAME2 @200321 /* Demolidor */
 SAY BATTLE_CRY1 ~~ [P_Demo01]
 SAY BATTLE_CRY2 ~~ [P_Demo02]
 SAY BATTLE_CRY3 ~~ [P_Demo01]
@@ -1959,7 +1959,7 @@ Al cabo de varias horas de conversaciones entre los humanoides, Dusk logró conve
 
 Alabarza finalmente accedió y el resto de su tribu le siguió. Se dice que al cabo de unos meses se enamoró de Falon y le propuso matrimonio, bajo la luz de su nuevo dios: Tyr.
 
-En cuanto a Dusk, se dice que viajó por muchos lugares, protegiendo al débil a la primera oportunidad. Pudo obtener el perdón en Cormyr, restaurar la maldición en el Castillo de la Trinidad con la ayuda de Elbereth y Mathyus, visitar a Michelson y Demoledor en Shilmista.
+En cuanto a Dusk, se dice que viajó por muchos lugares, protegiendo al débil a la primera oportunidad. Pudo obtener el perdón en Cormyr, restaurar la maldición en el Castillo de la Trinidad con la ayuda de Elbereth y Mathyus, visitar a Michelson y Demolidor en Shilmista.
 
 Los años pasaron y cuando su tiempo estaba llegando, en alguna parte del Bosque del Rey en Cormyr, una luz divina surgió de un roble hueco. De ella salió Mielikki, la Dama del Bosque, y cargó en sus brazos a un viejo y desgastado Ardusk Aldant.
 
@@ -2010,7 +2010,7 @@ Los últimos vestigios de Dusk no eran más que sombra y polvo, pero algunos arcan
 COPY ~Dusk/Epilogue/P_Dus7z.2da~ ~override/P_Dus07.2da~
 REPLACE ~99999~ @330012 /* Tras los acontecimientos del Trono de Bhaal, Dusk regresó a Athkatla, precisamente a una casa abandonada en el Distrito del Puerto.
 
-Allí, realizó un ritual junto a Danctian y, entregando gran parte de su poder, pudo traer a la vida a tres criaturas shilmistas. Mathyus, Michelson y Demoledor estaban de vuelta, confundidos ante la decisión de Dusk (quien los había aniquilado en un principio). No obtuvieron respuesta alguna y Dusk, junto a su sombra demoníaca, desaparecieron para siempre de Amn.
+Allí, realizó un ritual junto a Danctian y, entregando gran parte de su poder, pudo traer a la vida a tres criaturas shilmistas. Mathyus, Michelson y Demolidor estaban de vuelta, confundidos ante la decisión de Dusk (quien los había aniquilado en un principio). No obtuvieron respuesta alguna y Dusk, junto a su sombra demoníaca, desaparecieron para siempre de Amn.
 
 Se dice que una figura escarlata con el emblema de Cormyr ayudó a Tethyr a combatir la amenaza del Ogro Mago Sothillis. Luego, viajó a Shilmista a visitar la tumba de una elfa exploradora y, finalmente, visitó un lugar maldito llamado El Castillo de la Trinidad.
 

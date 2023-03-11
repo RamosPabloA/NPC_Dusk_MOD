@@ -259,23 +259,23 @@ IF ~~ THEN BEGIN 45 // from:
 END
 
 
-// Primer encuentro con Demoledor
+// Primer encuentro con Demolidor
 
 IF ~~ THEN BEGIN 46 // from:
-  SAY @3060 /* ~¡¿Demole?! ¿Qué diantes haces aquí?~ */
+  SAY @3060 /* ~¡¿Demoli?! ¿Qué diantes haces aquí?~ */
     IF ~~ THEN REPLY @3061 /* ~Dusk, ¿conoces a este saco de pulgas?~ */ GOTO 47
     IF ~~ THEN REPLY @3062 /* ~¡Pero qué perrito más tierno! ¿Lo conoces, Dusk? ¿Cómo se llama?~ */ GOTO 47
     IF ~~ THEN REPLY @3063 /* ~Genial, un perro callejero... imagino que no lo iremos a adoptar, ¿eh? Esto no es un refugio animal, muchacho.~ */ GOTO 47
 END
 
 IF ~~ THEN BEGIN 47
-  SAY @3064 /* ~<CHARNAME>, éste es Demoledor. No es un perro cualquiera, como aparenta. Es el compañero animal de Mathyus.~ */
-    IF ~~ THEN REPLY @3065 /* ~¿Demoledor? No me parece tan demoledor a mi parecer.~ */ EXTERN ~P_DEMOLE~ 3
+  SAY @3064 /* ~<CHARNAME>, éste es Demolidor. No es un perro cualquiera, como aparenta. Es el compañero animal de Mathyus.~ */
+    IF ~~ THEN REPLY @3065 /* ~¿Demolidor? No me parece tan demoledor a mi parecer.~ */ EXTERN ~P_DEMOLE~ 3
     IF ~~ THEN REPLY @3066 /* ~¿Es de Mathyus? No sé por qué no me sorprende.~ */ EXTERN ~P_DEMOLE~ 3
 END
 
 IF ~~ THEN BEGIN 48
-  SAY @3067 /* ~¿Qué es lo que traes aquí, Demole? Déjame ver esta nota...~ */
+  SAY @3067 /* ~¿Qué es lo que traes aquí, Demoli? Déjame ver esta nota...~ */
   IF ~~ THEN GOTO 49
 END
 
@@ -309,14 +309,14 @@ IF ~~ THEN BEGIN 53
 END
 
 IF ~~ THEN BEGIN 54 // from:
-  SAY @3076 /* ~Demoledor, corre y dile a tu maestro que nos espere, ¿de acuerdo?~ */
+  SAY @3076 /* ~Demolidor, corre y dile a tu maestro que nos espere, ¿de acuerdo?~ */
   IF ~~ THEN EXTERN ~P_DEMOLE~ 4
 END
 
-IF ~Global ("P_Dusk_1stTDemole","GLOBAL",2) 
+IF ~Global ("P_Dusk_1stTDemoli","GLOBAL",2) 
     ~ THEN BEGIN 55 // from:
   SAY @3077 /* ~Pero, ¿qué...?~ */
-  IF ~~ THEN DO ~SetGlobal ("P_Dusk_1stTDemole","GLOBAL",3)~ EXTERN ~P_DEMOLE~ 0
+  IF ~~ THEN DO ~SetGlobal ("P_Dusk_1stTDemoli","GLOBAL",3)~ EXTERN ~P_DEMOLE~ 0
 END
 
 // MISION 2 
@@ -871,7 +871,7 @@ END
 // MISSION 2 FINAL - EVIL PATH
 
 IF ~~ THEN BEGIN 159 // from:
-  SAY @3195 /* ~Hemos encontrado al grupo de humanoides, Mathyus. La información brindada por Demoledor era certera.~ */
+  SAY @3195 /* ~Hemos encontrado al grupo de humanoides, Mathyus. La información brindada por Demolidor era certera.~ */
   IF ~~ THEN DO ~SetGlobal("P_DuskMatMission2","GLOBAL",8)
   SetGlobal ("P_DuskEvil","GLOBAL",6) ~ EXTERN ~P_DEMOLE~ 7
 END
@@ -1019,7 +1019,7 @@ IF ~~ THEN BEGIN 186 // from:
 // MISSION 2 FINAL - GOOD PATH
 
 IF ~~ THEN BEGIN 187 // from:
-  SAY @3195 /* ~Hemos encontrado al grupo de humanoides, Mathyus. La información brindada por Demoledor era certera.~ */
+  SAY @3195 /* ~Hemos encontrado al grupo de humanoides, Mathyus. La información brindada por Demolidor era certera.~ */
   IF ~~ THEN DO ~SetGlobal("P_DuskMatMission2","GLOBAL",8) 
   SetGlobal ("P_DuskGood","GLOBAL",6) ~ EXTERN ~P_DEMOLE~ 10
 END
@@ -1147,7 +1147,7 @@ IF ~~ THEN BEGIN 211 // from:
 END
 
 IF ~~ THEN BEGIN 212 // from:
-  SAY @3244 /* ~El orbe ha desaparecido, Mathyus. Creo que ha tomado la forma de esta espada esmeralda que ha señalado Michelson, la cual resplandece en mis manos. He visto tus moviemientos de alegría, Demoledor. Gracias por precuparse.~ */
+  SAY @3244 /* ~El orbe ha desaparecido, Mathyus. Creo que ha tomado la forma de esta espada esmeralda que ha señalado Michelson, la cual resplandece en mis manos. He visto tus moviemientos de alegría, Demolidor. Gracias por precuparse.~ */
   IF ~~ THEN EXTERN ~P_MATUT~ 183
 END
 
@@ -1190,19 +1190,19 @@ END
 ////////// MISSION 3
 // DEMOLE
 // EVIL
-IF ~Global ("P_Dusk_2ndTDemole","GLOBAL",2)
+IF ~Global ("P_Dusk_2ndTDemoli","GLOBAL",2)
     Global ("P_DUSK_IS_GOOD","GLOBAL",0) 
     ~ THEN BEGIN 219 // from:
-  SAY @3262 /* ~Demoledor... confío en que tu interrupción sólo se deba a novedades sobre la misión que encomendé a tu maestro.~ */
-  IF ~~ THEN DO ~SetGlobal ("P_Dusk_2ndTDemole","GLOBAL",3)~ EXTERN ~p_demole~ 13
+  SAY @3262 /* ~Demolidor... confío en que tu interrupción sólo se deba a novedades sobre la misión que encomendé a tu maestro.~ */
+  IF ~~ THEN DO ~SetGlobal ("P_Dusk_2ndTDemoli","GLOBAL",3)~ EXTERN ~p_demole~ 13
 END
 
 // GOOD
-IF ~Global ("P_Dusk_2ndTDemole","GLOBAL",2)
+IF ~Global ("P_Dusk_2ndTDemoli","GLOBAL",2)
 	Global ("P_DUSK_IS_GOOD","GLOBAL",1) 
     ~ THEN BEGIN 220 // from:
-  SAY @3263 /* ~¡Demole! Me alegra verte. Imagino que te envía Matyhus. ¿Hay novedades?~ */
-  IF ~~ THEN DO ~SetGlobal ("P_Dusk_2ndTDemole","GLOBAL",3)~ EXTERN ~p_demole~ 13
+  SAY @3263 /* ~¡Demoli! Me alegra verte. Imagino que te envía Matyhus. ¿Hay novedades?~ */
+  IF ~~ THEN DO ~SetGlobal ("P_Dusk_2ndTDemoli","GLOBAL",3)~ EXTERN ~p_demole~ 13
 END
 
 IF ~~ THEN BEGIN 221 // from:
@@ -1261,7 +1261,7 @@ IF ~~ THEN BEGIN 230 // from:
 END
 
 IF ~~ THEN BEGIN 231 // from:
-  SAY @3277 /* ~Demoledor, vuelve con tu maestro e indícale que iremos lo más pronto posible.~ */
+  SAY @3277 /* ~Demolidor, vuelve con tu maestro e indícale que iremos lo más pronto posible.~ */
   IF ~~ THEN EXTERN ~p_demole~ 15
 END
 
@@ -1295,7 +1295,7 @@ IF ~~ THEN BEGIN 236 // from:
 END
 
 IF ~~ THEN BEGIN 237 // from:
-  SAY @3290 /* ~Demoledor, vuelve con tu maestro e indícale que iremos cuando nos sea posible.~ */
+  SAY @3290 /* ~Demolidor, vuelve con tu maestro e indícale que iremos cuando nos sea posible.~ */
   IF ~~ THEN EXTERN p_demole 15
 END
 
@@ -1746,9 +1746,9 @@ IF ~Global ("P_Dusk_Anthag_Army","GLOBAL",1) Global("P_Dusk_IS_GOOD","GLOBAL",1)
   IF ~~ THEN DO ~~ EXTERN ~P_ANTHAG~ 19
 END
 
-IF ~Global ("P_Dusk_3rdTDemole","GLOBAL",2) Global("P_Dusk_IS_GOOD","GLOBAL",1) Global ("P_Dusk_DemoleDISM","GLOBAL",0)~ THEN BEGIN 317 // from:
-  SAY @3407 /* ~¡Demole! Amigo, es un gran placer verte de nuevo.~ */
-  IF ~~ THEN DO ~SetGlobal("P_Dusk_DemoleDISM","GLOBAL",1)~ EXTERN ~P_DEMOLE~ 19
+IF ~Global ("P_Dusk_3rdTDemoli","GLOBAL",2) Global("P_Dusk_IS_GOOD","GLOBAL",1) Global ("P_Dusk_DemoliDISM","GLOBAL",0)~ THEN BEGIN 317 // from:
+  SAY @3407 /* ~¡Demoli! Amigo, es un gran placer verte de nuevo.~ */
+  IF ~~ THEN DO ~SetGlobal("P_Dusk_DemoliDISM","GLOBAL",1)~ EXTERN ~P_DEMOLE~ 19
 END
 
 IF ~~ THEN BEGIN 318 // from:
@@ -1841,7 +1841,7 @@ END
 
 // AR1506 ARRIVAL GOOD
 I_C_T P_DUSKJ 320 P_Dusk_GOOD_AR1506_1
-== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3414 /* No veo a Mathyus ni a Demoledor por ninguna parte... */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3414 /* No veo a Mathyus ni a Demolidor por ninguna parte... */
 == ANOMENJ IF ~InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @3415 /* Hmpf... lo más probable es que ni siquiera venga. Ese elfo es pura palabrería. */
 == AERIEJ IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @3416 /* P-puede que hayan tenido algún problema durante el hechizo de teletransportación, ¿no lo creen? */
 == IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @3417 /* ~No creo que tu amigo te haya abandonado, Dusk. A juzgar por su... apariencia, lo más probable es que quiera hacer alguna entrada espectacular o algo así.~ */
