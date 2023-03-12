@@ -1874,28 +1874,8 @@ ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
 COMPILE	~Dusk/Dialogue/DuskEE.d~
 END
 
-// Dusk is going to be romanceable, so she'll need a Gorion Wraith sequence. We are going to copy Anomen's sister Moira and turn her into Dusk's grandmother. Like this:
-COPY_EXISTING ~loveone4.cre~ ~override/P_DuskG.cre~
-SAY NAME1 @41 /* Dusk's Grandmother */
-SAY NAME2 @41 /* Dusk's Grandmother */
-WRITE_ASCII 0x248 ~P_DuskG~ #8	// override
-WRITE_ASCII 0x2cc ~P_DuskG~ #8  // dialogue
-WRITE_ASCII 0x280 ~P_DuskG~ #32 // death variable
-WRITE_ASCII 0x250 ~~ 	    #8  // class script
-WRITE_ASCII 0x258 ~~ 	    #8  // race script
-WRITE_ASCII 0x260 ~~ 	    #8  // general script
-WRITE_ASCII 0x268 ~~	    #8	// default script
-
-// And this is the extra script for Gorion's Wraith:
-EXTEND_TOP ~Cut218g.bcs~  ~Dusk/Scripts/Cut218g.baf~
-
-// This is the cutscene for Dusk's grandmother to appear in the scene with Gorion's wraith:
-COMPILE ~Dusk/Scripts/P_DuskG.baf~
-
 // EPILOGOS
 EXTEND_TOP ~AR6200.bcs~ ~Dusk/Scripts/AR6200.baf~
-
-// It's an epilogue file. Just copy it for your own needs. Please note that the name of the large portrait for your NPC should be in the upper left corner instead of BranweL.
 
 // NEUTRAL DUSK
 // Epílogo 1 -> Neutral Dusk - Mercader
