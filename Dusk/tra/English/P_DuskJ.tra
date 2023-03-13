@@ -174,7 +174,7 @@ unaware of the tragedy that would befall him soon..."~
 // Sigue en 223 porque el texto era muy largo. Se dividió (GLOBAL 8)
 @134  = ~However, you mentioned dryads and dungeons... I would like to know more about it, if you don't mind, of course.~
 
-@135  = ~After my travels in the north and my adventures in Baldur's Gate, I was kidnapped, I still don't know by whom. That's when we woke up in some kind of dungeon. Thanks to Imoen we managed to escape, and on the way we came across these dryads.~ //t1.11
+@135  = ~After my travels in the north and my adventures in Baldur's Gate, I was kidnapped, I still don't know by whom. That's when we woke up in some kind of dungeon. We owe our escape to Imoen's resourcefulness, and on the way we came across these dryads.~ //t1.11
 @136  = ~The bastard had us in a dungeon and we came across some magical harlots. That's the short version, Dusk. We should probably continue on our journey.~ //t.0
 
 //t1.11
@@ -324,7 +324,7 @@ unaware of the tragedy that would befall him soon..."~
 @203  = ~Fine, <CHARNAME>. Some other time then.~
 
 // viene de 204 y continúa
-@204  = ~After my fateful fight against the giant troll and my subsequent loss of consciousness, I woke up thanks to the singing of some birds.~
+@204  = ~After my fateful fight against the giant troll and my subsequent loss of consciousness, I was stirred awake by the singing of some birds.~
 @205  = ~I was without my chain mail and my weapons. Although... my wounds were bandaged.~
 @206  = ~I had a strange taste in my mouth. I realized that someone had given me a healing potion to drink and that's why my wounds were healing quickly.~
 @207  = ~"Finally, you've awakened," said a soft voice that I could recognize.~
@@ -433,7 +433,7 @@ But, anyway...~
 @262  = ~Perhaps later, Dusk. We all know the war was averted, so you could summarize it, don't you think?~
 
 // viene de 262 y termina
-@263  = ~While it's true that the war was averted, largely thanks to the alliance between elves and humans, the point here was to tell you about my relationship with Celine... but I suppose you're not interested...~
+@263  = ~While it's true that the war was averted, mainly through the alliance between elves and humans, the point here was to tell you about my relationship with Celine... but I suppose you're not interested...~
 @264  = ~In that case, all that's left to say is that she meant everything to me... and that I wouldn't be here if she hadn't saved my life... countless times... You may not want to listen to me now, but rest assured, <CHARNAME>, I'll come back to the matter.~
 
 // viene de 261 y continua
@@ -936,7 +936,7 @@ Dusk has managed to resolve the conflict without bloodshed. Although he couldn't
 
 
 
-@3038  = ~To tell the truth, Mathyus, it's all thanks to <CHARNAME>. They knew how to handle the situation, despite Michelson's demands.~
+@3038  = ~Verily, Mathyus, it is <CHARNAME> who deserves all the credit. He knew how to handle the situation, despite Michelson's demands.~ ~Verily, Mathyus, it is <CHARNAME> who deserves all the credit. She knew how to handle the situation, despite Michelson's demands.~
 @3039  = ~The little one didn't make it easy for us, Mathyus. But fortunately, we succeeded.~
 @3040  = ~Finally! My precious armor returns to me... thank you, friends. Thank you too, <CHARNAME>.~
 
@@ -1053,7 +1053,7 @@ Mathyus, the powerful guardian elf of Shilmista."~
 @3138  = ~The matter of the shield, Falon... it has me puzzled... Tell me, where do they come from?~
 @3139  = ~I see... now... about the shield...~
 @3140  = ~Negative energy? Maybe the shield... after all... was planted.~
-@3141  = ~Never mind, Falon. Thanks to <CHARNAME>, we have been able to find out quite a bit about the matter.~
+@3141  = ~Never mind, Falon. Through <CHARNAME>'s help, we have been able to find out quite a bit about the matter.~
 @3142  = ~By the way, you can stop calling me 'human'. My name is Ardusk Aldant. You can call me Dusk.~
 @3143  = ~I'd like to ask you one last favor.~
 @3144  = ~The shield of Cormyr... beyond being broken, it belongs to my people. I'd like you to give it to me.~
@@ -1102,7 +1102,7 @@ Mathyus, the powerful guardian elf of Shilmista."~
 @3184  = ~Oh... darn... <CHARNAME>... I think this wizard... is the one who planted the shield in Falon's tribe...~
 @3185  = ~Bastard... You planted that shield on innocent humanoids and you call me pathetic for doing the right thing?~
 @3186  = ~But... but at least I didn't make the mistake of attacking Falon and his tribe.~
-@3187  = ~It's thanks to you, <CHARNAME>. You saved me from making an unforgivable mistake.~
+@3187  = ~I offer my gratitude to you, <CHARNAME>. You saved me from making an unforgivable mistake.~
 @3188  = ~This may have been what they call a crossroads in life... I believe that what separates us from evil, many times, is a simple decision.~
 @3189  = ~You have my loyalty, until the end of my days, <CHARNAME>. I will follow you, knowing that there is a halo at the end of the road.~
 @3190  = ~For now, let's go back to Mathyus. Maybe my friends know something about this cursed orb...~
@@ -1149,7 +1149,7 @@ Mathyus, the powerful guardian elf of Shilmista."~
 @3227  = ~Very well, <CHARNAME>... keep that killer rage... I'm sure it will be useful to us in the not too distant future...~
 @3228  = ~That's right... The group turned out to be deserters from the Sothillis Empire. They were fleeing south when we found them.~
 
-@3230  = ~After a brief conversation, and thanks to the intervention of <CHARNAME>, I decided they would be safer in Athkatla.~
+@3230  = ~After a brief conversation, and through the intervention of <CHARNAME>, I decided they would be safer in Athkatla.~
 @3231  = ~I went to the Noble Order of the Radiant Heart and Sir Ryan Trawl gave them a home in their barracks.~
 @3232  = ~My destiny? I don't understand, what do you mean?~
 @3233  = ~Well... I thought I could finally avenge my fallen comrades, Mathyus. However, it only ended in a search that left us with more questions than answers.~
@@ -1166,14 +1166,14 @@ Mathyus, the powerful guardian elf of Shilmista."~
 @3243  = ~I appreciate the attention, but there are more important things to attend to, don't you think?~
 @3244  = ~The orb has vanished, Mathyus. I think it has taken the form of this emerald sword that Michelson has pointed out, which is now shining in my hands. I have seen your joyful movements, Demolisher. Thank you for caring.~
 @3245  = ~Thank you, Mathyus. However, don't expose yourselves to danger. Sornhil and his Order of Mages seem to be something to deal with, but if we don't know more about them, that may not be a bad sign.~
-@3246  = ~Revenge isn't always the answer. I know that now. <CHARNAME>, it's thanks to you that my heart is more at peace.~
+@3246  = ~Revenge isn't always the answer. I know that now. <CHARNAME>, your aid has brought peace to my heart.~
 @3247  = ~The dead don't desire revenge... I assume they would want their loved ones to live in peace and harmony. I speak for my fallen comrades in battle.~
 @3248  = ~A wise decision, my friend. Let's go, we have matters to attend to.~
 @3249  = ~Indeed, Dusk. You're completely changed. I think I like this version of you.~
 @3250  = ~You're not going to start singing and dancing like that leprechaun, are you?~
 @3251  = ~Very funny, <CHARNAME>. Come on, let's continue our journey.~
 @3252  = ~Thank you, <CHARNAME>. Let's continue our journey.~
-@3253  = ~Um... Thanks, Coco, but we're good. <CHARNAME> and I have some unfinished business to attend to... (Dang, it'll be hard to get rid of this tomato sauce).~
+@3253  = ~Um... I appreciate it, Coco, but we're good. <CHARNAME> and I have some unfinished business to attend to... (Dang, it'll be hard to get rid of this tomato sauce).~
 
 // Bellfame
 @3254  = ~My little friend Michelson mentioned something about a disruption in time. I didn't think such a thing was possible.~

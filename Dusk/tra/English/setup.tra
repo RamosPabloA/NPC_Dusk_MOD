@@ -168,7 +168,7 @@ Requirements: 11 Strength~
 @200016  = ~Bracers~
 @200017  = ~Stone Defense Bracers~
 @200018  = ~The bracers are thick metal or leather bands strapped to the character's forearm with straps. Typically, the magic infused in bracers only works during combat, as most of them are used to protect their wearer from injury and increase the chances of hitting the opponent. However, there are exceptions and more are being produced every day.~
-@200019  = ~These lightweight braces provide invaluable defense to the wearer, including (thanks to the magical power with which they were imbued) the ability to conjure a defensive expansion that emanates from their center and expands to the entire body, providing the wearer with a hardness comparable to that of rock. Even without this particular ability, the bracelet itself radiates life force, meant solely for the protection of the wearer.
+@200019  = ~These lightweight braces provide invaluable defense to the wearer, including (through the magical power with which they were imbued) the ability to conjure a defensive expansion that emanates from their center and expands to the entire body, providing the wearer with a hardness comparable to that of rock. Even without this particular ability, the bracelet itself radiates life force, meant solely for the protection of the wearer.
 
 STATISTICS:
 
@@ -1238,7 +1238,7 @@ Tempus' divine power increases the wielder's strength immensely, making him a de
 The abjurations imbued by cleric Aznagarb made the weapon capable of dispelling the victim's magical protections, thus facilitating the warrior's combat.
 And Benork's fury allowed him to poison the weapon with a corrosive hatred, which would infect anyone who had the misfortune of being struck by it.
 
-Finally, after being fully armed with his Wizard Slayer Set, Duke Nathan Benork headed his destiny towards the fight against the necromancers, where no one else heard from him. Some say he managed to defeat the necromancers, giving them an unexpected and painful death. However, the leader of the Order, Socram, managed to bring him down thanks to (ironically) a poisoned dagger that lodged in the Warrior's heart.
+Finally, after being fully armed with his Wizard Slayer Set, Duke Nathan Benork headed his destiny towards the fight against the necromancers, where no one else heard from him. Some say he managed to defeat the necromancers, giving them an unexpected and painful death. However, the leader of the Order, Socram, managed to bring him down through (ironically) a poisoned dagger that lodged in the Warrior's heart.
 Nathan Benork died agonizing, but with a smile on his face. His revenge would have been completed when the Avenger's poison invaded the soul of his mortal enemy, Socram.
 The Wizard Slayer artifacts scattered throughout Amn.
 
@@ -1314,7 +1314,7 @@ FORCES OF THE FOREST OF MIR:
 
 Jack: The Winter Wolf
 
-Jack, the Winter Wolf, lived with his lupine companions in Mir. He is the only one of Bellfame's allies capable of attacking at a distance thanks to his icy howls.
+Jack, the Winter Wolf, lived with his lupine companions in Mir. He is the only one of Bellfame's allies capable of attacking at a distance through his icy howls.
 During the battle for Mir, Jack used his agility to surround the enemies and finish off the rear guard, using his icy abilities.
 
 STATISTICS:
@@ -1352,7 +1352,7 @@ ABILITIES:
 
 - Bear's Bravery (2 times per day): He can give a loud roar, which gives him supernatural confidence and makes him immune to fear, whether magical or natural.
 - Sacred Power of the Bear (2 times per day): Thiago prepares for combat by combining sacred forces of nature. His Strength, Dexterity, and Constitution are increased.
-- Hardened Bear (1 time per day): He is capable of withstanding physical attacks thanks to his fat and fur. After 5 hits, he will become vulnerable again.
+- Hardened Bear (1 time per day): He is capable of withstanding physical attacks through his fat and fur. After 5 hits, he will become vulnerable again.
 
 **************************
 
@@ -1454,7 +1454,7 @@ Casting Time: Special
 Area of Effect: Special
 Saving Throw: None
 
-The nymph named Bellfame is capable of casting a powerful summoning to the astral world. Thanks to her strong desire to defend nature, she has been able to surpass the barriers that separate the material plane from her forest companions.
+The nymph named Bellfame is capable of casting a powerful summoning to the astral world. Through her strong desire to defend nature, she has been able to surpass the barriers that separate the material plane from her forest companions.
 The innate ability consists of summoning the animals of the forest that fought alongside her in Mir.
 The duration of the summons will be 4 hours.
 
@@ -1462,7 +1462,7 @@ FORCES OF THE FOREST OF MIR:
 
 Jack: The Winter Wolf
 
-Jack, the Winter Wolf, lived with his lupine companions in Mir. He is the only one of Bellfame's allies capable of attacking at a distance thanks to his icy howls.
+Jack, the Winter Wolf, lived with his lupine companions in Mir. He is the only one of Bellfame's allies capable of attacking at a distance through his icy howls.
 During the battle for Mir, Jack used his agility to surround the enemies and finish off the rear guard, using his icy abilities.
 
 STATISTICS:
@@ -1500,7 +1500,7 @@ ABILITIES:
 
 - Bear's Bravery (2 times per day): He can give a loud roar, which gives him supernatural confidence and makes him immune to fear, whether magical or natural.
 - Sacred Power of the Bear (2 times per day): Thiago prepares for combat by combining sacred forces of nature. His Strength, Dexterity, and Constitution are increased.
-- Hardened Bear (1 time per day): He is capable of withstanding physical attacks thanks to his fat and fur. After 5 hits, he will become vulnerable again.
+- Hardened Bear (1 time per day): He is capable of withstanding physical attacks through his fat and fur. After 5 hits, he will become vulnerable again.
 
 **************************
 
@@ -2156,7 +2156,7 @@ FORCES OF THE FOREST OF MIR:
 
 Jack: The Winter Wolf
 
-Jack, the Winter Wolf, lived with his lupine companions in Mir. He is the only one of Bellfame's allies capable of attacking at a distance thanks to his icy howls.
+Jack, the Winter Wolf, lived with his lupine companions in Mir. He is the only one of Bellfame's allies capable of attacking at a distance through his icy howls.
 During the battle for Mir, Jack used his agility to surround the enemies and finish off the rear guard, using his icy abilities.
 
 STATISTICS:
@@ -2194,7 +2194,7 @@ ABILITIES:
 
 - Bear's Bravery (2 times per day): He can give a loud roar, which gives him supernatural confidence and makes him immune to fear, whether magical or natural.
 - Sacred Power of the Bear (2 times per day): Thiago prepares for combat by combining sacred forces of nature. His Strength, Dexterity, and Constitution are increased.
-- Hardened Bear (1 time per day): He is capable of withstanding physical attacks thanks to his fat and fur. After 5 hits, he will become vulnerable again.
+- Hardened Bear (1 time per day): He is capable of withstanding physical attacks through his fat and fur. After 5 hits, he will become vulnerable again.
 
 **************************
 
@@ -2780,7 +2780,7 @@ We arrived at Mathyus' hideout and he informed us that the group responsible for
 
 @210020 = ~Dusk Aldant: The Revenge of the First Sword
 
-During the journey to the Troll Mound, another mage intercepted us. This time, it was Valatar, the Conjurer. At first, he pretended to seek gratitude from Dusk for increasing his power thanks to the scarlet orb. However, Dusk threatened him with death, so the Conjurer called upon a powerful abyssal demon to eliminate us.~
+During the journey to the Troll Mound, another mage intercepted us. This time, it was Valatar, the Conjurer. At first, he pretended to seek gratitude from Dusk for increasing his power through the scarlet orb. However, Dusk threatened him with death, so the Conjurer called upon a powerful abyssal demon to eliminate us.~
 
 @210021 = ~Dusk Aldant: The Revenge of the First Sword
 
@@ -2951,7 +2951,7 @@ Years later, he traveled to Athkatla and sought out Falon and his tribe. There h
 
 Together, they traveled through the lands of Amn and Tethyr, bearing the emblems of the Radiant Heart of Tyr to avoid attacks from local forces. Their destination led them to the Troll Mound on the edge of the Druidic Grove.
 
-Dusk performed a complex ritual to the gods of nature and used much of the power he had gained thanks to the Emerald Orb. At the end, Alabarza and his minions had been resurrected.
+Dusk performed a complex ritual to the gods of nature and used much of the power he had gained through the Emerald Orb. At the end, Alabarza and his minions had been resurrected.
 
 Alabarza, surprised to be alive again (and even more so seeing that his great enemy had revived him), asked, "Why did you do this, soldier?".
 
