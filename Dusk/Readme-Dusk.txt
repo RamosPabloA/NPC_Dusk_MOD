@@ -8,7 +8,8 @@ Contents
 3. Features
 4. Frequently Asked Questions
 5. Credits
-6. Legal Information
+6. Version History
+7. Legal Information
 
 ----------------
 1. Introduction
