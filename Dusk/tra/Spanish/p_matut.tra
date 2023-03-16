@@ -1,4 +1,3 @@
-
 @0 = ~Saludos, amigo. Lo lamento, pero no te conozco, así que no tengo tiempo para ti.~ ~Saludos, amiga. Lo lamento, pero no te conozco, así que no tengo tiempo para ti.~
 
 @1 = ~¡Saludos! Vaya, vaya, pero si el soldado pródigo ha regresado. ¿Cómo está, mi buen capitán Aldant?~
@@ -267,10 +266,10 @@
 @238 = ~¿Valatar? Hmm... ¿Crees que esté relacionado con el mago que plantó el escudo a la tribu de Falon?~
 @239 = ~Así es. Pertenecen a la misma Orden. De la misma manera, Alabarza mencionó a un elfo hechicero, el cual le brindó un hechizo de transmutación.~
 @240 = ~El hecho de que estén estos... magos involucrados, me dice que hay algo más. Algo que aún no puedo discernir del todo...~
-@241 = ~(Demoledor se incorpora y comienza a mover su cola con brío)~
+@241 = ~(Demoledor se incorpora y comienza a mover su cola con brío)~ [P_Demo01]
 @242 = ~*sonríe* Demoledor, ¿qué sucede? ¿A qué viene esa fiesta que traes encima?~
 @243 = ~¡Ja! Demoledor cree que hallarás esas respuestas más pronto que tarde, Dusk. Y no tiene dudas de que sabrás qué hacer al respecto.~
-@244 = ~(Michelson zapatea y emite una buena carcajada, asintiendo con su cabeza)~
+@244 = ~(Michelson zapatea y emite una buena carcajada, asintiendo con su cabeza)~ [P_Mich01]
 @245 = ~Estoy de acuerdo con nuestros amigos, Dusk. Tengo la seguridad de que este enigma se resolverá pronto. Entretanto, sabes que cuentas con nosotros.~
 @246 = ~Gracias, amigos míos. Gracias a ti también, <CHARNAME>.~
 @247 = ~*carraspeo* Bueno, basta de cháchara. Con Michelson hemos reunido esto como compensación por la difícil empresa que han realizado.~
@@ -409,14 +408,14 @@ Anthagar."~
 @371 = ~Así es... cuando nos enfrentamos a Valathar, éste convocó a un demonio abisal.~
 @372 = ~Cuando le derrotamos... sentí cómo la espada me indicaba acabar con el corazón del demonio para que no pueda volver a este plano.~
 @373 = ~Entiendo... Michelson me ha comentado que el orbe purificado ha creado un arma purificada. He oído de algunas espadas que tienen voluntad propia. Parece que es así en el caso de la Espada esmeralda.~
-@374 = ~(Michelson ríe y tira de las ropas de Mathyus para llamar la atención)~
+@374 = ~(Michelson ríe y tira de las ropas de Mathyus para llamar la atención)~ [P_Mich02]
 @375 = ~¿Qué dices, Michelson? ¿Que ya es el momento?~
 @376 = ~¿Qué sucede, Mathyus?~
 @377 = ~Michelson dice que ya es momento de revelar el poder de la espada esmeralda.~
 @378 = ~Dice que puede despertar el poder completo de la misma. Sólo debes entregársela un momento.~
 @379 = ~Está bien, amigos. Michelson, aquí tienes.~
 @380 = ~(Michelson toma el arma en sus pequeñas manos y la admira con sus ojos brillantes)~
-@381 = ~(De uno de sus bolsillos saca unos polvos, aparentemente mágicos, y los esparce a través de la espada)~
+@381 = ~(De uno de sus bolsillos saca unos polvos, aparentemente mágicos, y los esparce a través de la espada)~ [P_Mich03]
 @382 = ~(La misma comienza a tomar un brillo jade y por un momento enceguece a todos)~
 @383 = ~(Al cabo de unos segundos, la espada es entregada a Dusk)~
 @384 = ~Por Cormyr... no creí que el arma pudiera ser aún más poderosa...~
@@ -475,7 +474,7 @@ Anthagar."~
 @436 = ~*carraspeo* Bueno, como decía.~
 @437 = ~Derrotar a la Cripta Olvidada no ha sido tarea fácil, eso lo sé.~
 @438 = ~Sin embargo, su influjo ya no se percibe en este plano. O eso al menos me ha dicho Michelson.~
-@439 = ~(Michelson aplaude y ríe, asintiendo frenéticamente a las palabras de Mathyus)~
+@439 = ~(Michelson aplaude y ríe, asintiendo frenéticamente a las palabras de Mathyus)~ [P_Mich01]
 @440 = ~Lo has logrado, Dusk... has vengado a Celine.~
 @441 = ~Sí...~
 @442 = ~¿Qué sucede?~
@@ -495,7 +494,7 @@ Anthagar."~
 @456 = ~<CHARNAME> y tú han hecho más de lo que se esperaba por Amn. Han evitado una guerra derrotando a la Cripta Olvidada...~
 @457 = ~Son héroes, aún si no son reconocidos por ello en Athkatla.~
 @458 = ~Creo que es hora de la recompensa, ¿no lo crees, Michelson?~
-@459 = ~(Michelson aplaude, reafirmando las palabras de su amigo)~
+@459 = ~(Michelson aplaude, reafirmando las palabras de su amigo)~ [P_Mich02]
 @460 = ~Algo hemos podido reunir a modo de agradecimiento por lo que han hecho, amigos.~
 @461 = ~¿Hora de una recompensa? Me gusta cómo suena eso, Mathyus.~
 @462 = ~¿Qué ha pasado, Mathyus? Ha sido... ¿un sueño?~
@@ -512,7 +511,7 @@ Anthagar."~
 @473 = ~¿Qué has dicho?~
 @474 = ~Luz triunfante... es el nombre definitivo de la espada. Es más poderosa que nunca, Mathyus...~
 @475 = ~Por Mielikki... no creí que algo así fuera posible.~
-@476 = ~(Michelson aplaude ante las palabras de Dusk)~
+@476 = ~(Michelson aplaude ante las palabras de Dusk)~ [P_Mich03]
 @477 = ~Ya veo... No es casualidad que esto sucediera, amigos míos. La luz de Mielikki ha acabado con los últimos vestigios de la amenaza de la Cripta Olvidada.~
 @478 = ~Sólo queda la amenaza de Irenicus contra el pueblo de Suldanessellar.~
 @479 = ~Dusk, <CHARNAME>. Confío en que harán lo posible para detenerlo. En el nombre de la raza élfica y de la vida en todo Faerûn.~

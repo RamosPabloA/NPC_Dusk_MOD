@@ -1,155 +1,156 @@
+@0 = ~*The leprechaun sees you approaching and after opening his eyes wide, he starts running away like crazy, laughing while he goes*~ [P_Mich04]
+@1 = ~*The little one looks at you and you see him getting ready to run away. However, he stops when he sees Dusk among your party*~ [P_Mich04]
+@2 = ~*Suddenly, his eyes widen and he starts smiling as if he was about to kill you. But instead, he starts dancing and tapping in place*~ [P_Mich02]
+@3 = ~*Clearly, you see how the leprechaun ignores Dusk and keeps dancing with euphoria and recklessness while laughing cheerfully*~
+@4 = ~*The leprechaun keeps dancing as if there's no tomorrow*~
+@5 = ~To be honest, Dusk, I prefer not to dwell on the matter. Hey, shrimp! I'll give you 750 gold coins if you go back with your green-haired friend, what do you say?~
+@6 = ~Luckily, we have something that can convince him. Hey, Michelson! Do you want beer? I'll give it to you only if you promise to come back with your green-haired friend, yes?~
+@7 = ~Hmmm... I think we can improvise a joke, don't you think? Do you know any?~
+@8 = ~I don't understand why so much drama. Look at him. He's a very cute thing. Aren't you, Michelson? You're a very cute thing, don't you? *you smile at him*~
+@9 = ~*Michelson stops his frenetic dance to desperately grab the bag with the gold coins you offered him. You beg him again to go back to Mathyus and with his nose buried in the bag, smelling the gold, he nods his head and runs away at full speed*~ [P_Mich00]
 
-@0 = ~(El leprechaun te ve llegar y luego de abrir bien sus ojos, se echa a correr como un desquiciado, alejándose de ti mientras se ríe)~ [P_Mich04]
 
-@1 = ~(El pequeño te atisba con la mirada y ves cómo prepara sus piecitos para la huida. Sin embargo, se detiene al ver a Dusk entre tus filas)~ [P_Mich04]
+@10 = ~*Michelson stops his frenzied dance to desperately take the beer jug you offered him. Before he drinks it all, you insist he goes to Mathyus as soon as possible, to which the leprechaun nods while still drinking from the jug. He runs off at full speed and you don't understand how he hasn't spilled a drop of beer in the process*~ [P_Mich00]
+@11 = ~*Michelson stopped his dance upon hearing the word joke. His demeanor suddenly turned serious and he crossed his arms, tapping a foot on the ground, expectant of what you have to tell him*~
+@12 = ~A paladin tells an orc that his name is "Nobody." Then, he attacks him. The orc yells for his tribe to assist him: "Help, Nobody is attacking me!"~
+@13 = ~Why does a dwarf let his beard grow? Well, to look like his mother! *you laugh uncontrollably at your own joke*~
+@14 = ~Hey, Michelson... did you know that with a gifted horse you don't look at the... *you pause for a moment because you don't remember the rest of the saying* ... wooden knives?~
+@15 = ~I was going to tell you a joke, but seeing you so angry, it made me feel tender. Aren't you the most adorable thing in all of Amn? *you smile at him*~
+@16 = ~*After being dumbfounded for a few seconds, the leprechaun furrows his brow. It seems he didn't like your joke and as a result, he runs off like a maniac while dancing and kicking his feet in the air*~ [P_Mich01]
+@17 = ~*Michelson listens attentively to the punchline of your sentence. Suddenly, his eyes widen too much and he starts laughing uncontrollably*~ [P_Mich03]
+@18 = ~Ha! It worked. Michelson, we need you to go back to Mathyus! He's worried about you. Would you do us that favor?~
+@19 = ~*Michelson keeps laughing, but he listens to you and nods his head. He hugs your leg and runs off like a maniac, heading towards Mathyus' lair*~ [P_Mich00]
 
-@2 = ~(De repente, sus ojos se abren y empieza a sonreir como si estuviera a punto de asesinarte. Pero, en cambio, se pone a bailar y a zapatear en el lugar)~ [P_Mich02]
+@20 = ~*You come across Michelson again. The leprechaun continues to dance as if there's no tomorrow*~ [P_Mich00]
+@21 = ~*You come across Michelson again. The leprechaun continues to dance as if there's no tomorrow. Since Dusk isn't with you, he ignores you and runs away, keeping as far from you as possible*~ [P_Mich00]
+@22 = ~*Michelson, with a furrowed brow and eyes filled with anger, quickly moves his hands and a crimson flash shoots towards you. Without understanding what's going on, you see the agile leprechaun dart away a few steps*~ [P_Mich01]
 
-@3 = ~(Claramente, ves cómo el leprechaun ignora a Dusk y sigue bailando con euforia y desenfreno mientras ríe muy alegremente)~
-@4 = ~(El leprechaun sigue bailando como si no hubiera un mañana)~
-@5 = ~Para serte sincero, Dusk, prefiero no darle más vueltas al asunto. ¡Oye, renacuajo! Te daré 750 piezas de oro si regresas con tu amigo de pelo verde, ¿qué te parece?~ ~Para serte sincera, Dusk, prefiero no darle más vueltas al asunto. ¡Oye, renacuajo! Te daré 750 piezas de oro si regresas con tu amigo de pelo verde, ¿qué te parece?~
-@6 = ~Para nuestra fortuna, tenemos algo que lo puede convencer. ¡Oye, Michelson! ¿Quieres cerveza? Te la daré sólo si prometes que volverás con tu amigo el de la cabellera verde, ¿sí?~
-@7 = ~Hmmm... creo que podemos improvisar algún chiste, ¿no lo crees? ¿Te conoces alguno?~
-@8 = ~No entiendo por qué tanto drama. Mírenlo. Es una cosa muy tierna. ¿No es así, Michelson? ¿A que sí eres una cosa muy tierna? *le sonríes*~
-@9 = ~(Michelson deja su frenética danza para tomar, desesperadamente, la bolsa con las monedas de oro que le has ofrecido. Le vuelves a implorar a que vuelva con Mathyus y con su nariz metida en la bolsa, oliendo el oro, asiente con su cabeza y sale corriendo a toda velocidad)~ [P_Mich00]
-@10 = ~(Michelson deja su frenética danza para tomar, desesperadamente, la jarra de cerveza que le has ofrecido. Antes de que se la beba toda, insistes en que vaya cuanto antes con Mathyus, a lo que el leprechaun asiente mientras sigue bebiendo de la jarra. Se va corriendo a toda velocidad y no comprendes cómo es que no ha derramado ni una gota de cerveza en el proceso)~ [P_Mich00]
-@11 = ~(Michelson detuvo su danza al oír la palabra chiste. Su porte, de repente, se tornó serio y se ha cruzado de brazos, golpeando un pie contra el suelo, expectante de lo que has de contarle)~
-@12 = ~Un paladín le dice a un orco que su nombre es 'Nadie'. Entonces, le ataca. El orco grita para que su tribu le asista: "¡Ayuda, Nadie me ataca!"~
-@13 = ~¿Por qué un enano se deja crecer la barba? Pues, ¡para parecerse a su madre! *te ríes desenfrenadamante de tu propio chiste*~
-@14 = ~Oye, Michelson... ¿sabías que a caballo regalado no se le miran los... *te quedas pensativo un instante porque no recuerdas cómo era el dicho* ... cuchillos de palo?~ ~Oye, Michelson... ¿sabías que a caballo regalado no se le miran los... *te quedas pensativa un instante porque no recuerdas cómo era el dicho* ... cuchillos de palo?~
-@15 = ~Tenía pensado contarte un chiste, pero al verte así, todo enojado, me ha dado ternura. ¿Acaso no eres la cosa más tierna de todo Amn? *le sonríes*~
-@16 = ~(Luego de quedarse boquiabierto durante unos segundos, el ceño del leprechaun se frunce. Parece que no le ha gustado tu chiste y como resultado, sale corriendo como un desquiciado mientras baila y golpea sus pies en el aire)~ [P_Mich01]
-@17 = ~(Michelson escucha atento el remate de tu frase. Sus ojos, de repente, se abren demasiado y comienza a largar carcajadas a más no poder)~ [P_Mich03]
-@18 = ~¡Ja! Ha funcionado. ¡Michelson, necesitamos que regreses con Mathyus! Se encuentra preocupado por ti. ¿Nos harías ese favor?~
-@19 = ~(Michelson sigue riéndose, pero te escucha y asiente con su cabeza. Te abraza la pierna y sale corriendo como un desquiciado, en dirección a la guarida de Mathyus)~ [P_Mich00]
-@20 = ~(Te encuentras, nuevamente, con Michelson. El leprechaun sigue bailando como si no hubiera un mañana)~ [P_Mich00]
-@21 = ~(Te encuentras, nuevamente, con Michelson. El leprechaun sigue bailando como si no hubiera un mañana. Al no estar Dusk contigo, te ignora y sale corriendo, alejándose de ti lo más posible)~ [P_Mich00]
-@22 = ~(Michelson, con el ceño fruncido y los ojos llenos de ira, mueve sus manos rápidamente y un destello carmesí se dispara contra ti. Aún sin entender lo que está pasando, ves cómo el ágil leprechaun sale disparado, alejándose unos pasos)~ [P_Mich01]
+@23 = ~*Michelson listens attentively to the conversation while tapping and dancing some mystical and frenzied dance*~
+@24 = ~*Suddenly, he stops his dance, expectant and excited about what Mathyus is about to tell*~
 
-@23 = ~(Michelson escucha atentamente la conversación, mientras zapatea y danza algún baile místico y frenético)~
-@24 = ~(De repente, detiene su danza, expectante y emocionado por lo que está a punto de relatar Mathyus)~
+@25 = ~*Michelson quickly moves his hands while emitting some laughs mixed with strange sounds*~  [P_Mich02]
+@26 = ~*Michelson writhes with laughter upon hearing that phrase in the story*~ [P_Mich03]
+@27 = ~*Michelson nods rapidly with his head. Then, he waves his little hand greeting the party while dancing to a song that mortal ears are not capable of capturing*~  [P_Mich00]
 
-@25 = ~(Michelson mueve las manos rápidamente al tiempo en que emite algunas risas entremezcladas con sonidos extraños)~  [P_Mich02]
-@26 = ~(Michelson se retuerce de la risa al escuchar aquella frase del relato)~ [P_Mich03]
-@27 = ~(Michelson asiente velozmente con su cabeza. Luego, agita su manito saludando al grupo mientras baila una canción que el oído de los mortales no es capaz de captar)~  [P_Mich00]
+@28 = ~*Michelson is dancing as if there's no tomorrow. He seems to be at the same time in a kind of meditative trance. If you want something from him, you'll have to talk to Mathyus first*~ [P_Mich01]
 
-@28 = ~(Michelson se encuentra bailando como si no hubiera un mañana. Parece estar, al mismo tiempo, en una especie de trance meditativo. Si quieres algo de él, primero tendrás que hablar con Mathyus)~ [P_Mich01]
+@29 = ~*Michelson stops his dance and applauds with euphoria while laughing, you suppose, with joy*~[P_Mich03]
+@30 = ~*Michelson nods rapidly with his head while displaying his whitish teeth*~
+@31 = ~*Rarely, the leprechaun's face becomes serious. With all the ingredients in front of him, he is ready to start the construction process*~ [P_Mich01]
+@32 = ~*Apparently, the ritual has ended and the leprechaun is somewhat exhausted*~
+@33 = ~*Michelson, surprisingly recovered, dances and approaches Dusk, wielding the new sword with some difficulty*~[P_Mich00]
+@34 = ~*Michelson, with full energy, dances and greets the party while tapping his feet and laughing. You can't help but show a smile at this*~
 
-@29 = ~(Michelson detiene su danza y aplaude con euforia mientras ríe, supones, de alegría)~[P_Mich03]
-@30 = ~(Michelson asiente velozmente con su cabeza mientras exhibe sus dientes blanquecinos)~
-@31 = ~(Como pocas veces, la faz del leprechaun se torna seria. Con todos los ingredientes frente a él, se encuentra listo para iniciar el proceso de construcción)~ [P_Mich01]
-@32 = ~(Al parecer, el ritual ha terminado y el leprechaun ha quedado un tanto exhausto)~
-@33 = ~(Michelson, sorprendentemente recuperado, baila y se acerca a Dusk, blandiendo con cierta dificultad la nueva espada)~[P_Mich00]
-@34 = ~(Michelson, con energía plena, baila y saluda al grupo mientras zapatea y ríe. No puedes evitar demostrar una sonrisa ante esto.)~
+@35 = ~*Michelson, absolutely concentrated, has the ingredients in front of him. Out of nowhere, he begins a delirious movement with his hands. Thus begins the construction process*~
 
-@35 = ~(Michelson, absolutamente concentrado, tiene los ingredientes al frente suyo. De la nada, comienza un delirante movimiento con sus manos. Así comienza el proceso de construcción)~
+@36 = ~*Michelson dances and greets the group while tap dancing and laughing.*~ [P_Mich00]
 
-@36 = ~(Michelson baila y saluda al grupo mientras zapatea y ríe)~ [P_Mich00]
+@37 = ~*Michelson is dancing as if there's no tomorrow. He seems to be in a meditative trance at the same time. If you want something from him, you'll have to talk to Mathyus first*~ [P_Mich01]
+@38 = ~*Michelson, surprisingly recovered, dances and approaches Dusk, lifting the heavy plate armor with great difficulty*~ [P_Mich00]
+@39 = ~*Michelson, surprisingly recovered, dances and approaches while playing with the brand-new gauntlets he has forged*~
 
-@37 = ~(Michelson se encuentra bailando como si no hubiera un mañana. Parece estar, al mismo tiempo, en una especie de trance meditativo. Si quieres algo de él, primero tendrás que hablar con Mathyus)~ [P_Mich01]
-@38 = ~(Michelson, sorprendentemente recuperado, baila y se acerca a Dusk, alzando con gran dificultad la gran armadura de placas)~ [P_Mich00]
-@39 = ~(Michelson, sorprendentemente recuperado, baila y se acerca mientras juega con los flamantes brazales que ha forjado)~
+@40 = ~Gratitude, good Michelson. The gauntlets are beautiful.~
+@41 = ~Watch out, Michelson! Hmpf, you almost electrocuted me, little one.~
+@42 = ~*Michelson, surprisingly recovered, dances and approaches while wielding, almost recklessly, the Crimson Thunder hammer throwing sparks everywhere*~ [P_Mich00]
+@43 = ~*Michelson, surprisingly recovered, dances and approaches while carrying the light leather armor*~ [P_Mich00]
+@44 = ~Gratitude, Michelson. The armor is beautiful.~
+@45 = ~*Michelson, surprisingly recovered, dances and approaches while wielding the club and turning his head in all directions*~ [P_Mich00]
+@46 = ~Michelson, be careful! It seems like a very dangerous weapon...~
+@47 = ~*Michelson, surprisingly recovered, dances and approaches while wielding the axe in all directions*~ [P_Mich00]
 
-@40 = ~Gracias, buen Michelson. Los brazales han quedado hermosos.~
-@41 = ~¡Cuidado, Michelson! Hmpf, casi me electrocutas, pequeño.~
-@42 = ~(Michelson, sorprendentemente recuperado, baila y se acerca mientras blande, casi irresponsablemente, el martillo Trueno Escarlata por todos lados, lanzando chispas por doquier)~ [P_Mich00]
-@43 = ~(Michelson, sorprendentemente recuperado, baila y se acerca mientras carga con la ligera armadura de cuero)~ [P_Mich00]
-@44 = ~Gracias, Michelson. La armadura ha quedado hermosa.~
-@45 = ~(Michelson, sorprendentemente recuperado, baila y se acerca mientras blande el mayal y gira su cabeza hacia todas partes)~ [P_Mich00]
-@46 = ~¡Michelson, ten cuidado! Parece un arma sumamente peligrosa...~
-@47 = ~(Michelson, sorprendentemente recuperado, baila y se acerca mientras blande el hacha hacia todos lados)~ [P_Mich00]
-@48 = ~¡Michelson, ten cuidado! Vaya, el hacha resplandece de una forma hermosa.~
-@49 = ~(Michelson, sorprendentemente recuperado, baila y se acerca mientras blande la espada hacia todos lados)~ [P_Mich00]
-@50 = ~¡Michelson, ten cuidado! Vaya, la espada resplandece de una forma hermosa.~
-@51 = ~(Michelson detiene su danza y queda, como pocas veces, serio y boquiabierto ante los artefactos presentados por <CHARNAME> y Dusk)~
-@52 = ~(Michelson mira un tanto extrañado a Mathyus y luego observa a Dusk y a <CHARNAME>. Al cabo de unos segundos de silencio...)~
-@53 = ~(...estalla de risa)~ [P_Mich03]
-@54 = ~(Michelson, con una sonrisa blanquecina en su rostro, silba y chasquea los dedos. Del mismo aire parece formarse una línea recta, y un rayo violeta toma forma sólida. La Vengadora Real está frente a tus ojos)~ [P_Mich01]
-@55 = ~(Michelson recibe el arma de Dusk con gran reverencia y seriedad. Utilizando los mismos gestos con los que hizo aparecer la Vengadora Real, hace que el bastón shilmista se desvanezca en el aire)~
-@56 = ~(Michelson aplaude, ríe y baila. Podrías pensar que está haciendo lo que hace siempre, pero una parte de ti cree que lo hace para conmemorar el hecho de que hayas reunido el equipo completo del conde Benork)~ [P_Mich02]
-@57 = ~(Michelson asiente velozmente con su cabeza. Luego parece murmurar algo a Mathyus)~
-@58 = ~(Michelson baila y ríe. Pareciera ser que se está jactando de haber tenido la razón)~ [P_Mich00]
-@59 = ~(Michelson detiene su danza y queda paralizado, atónito ante las palabras de Dusk)~
-@60 = ~(Michelson queda un momento boquiabierto. Parece estremecerse al ver el color rojo sangriento que emana del orbe)~
-@61 = ~(Michelson parece susurrar, nervioso, algo a Mathyus)~
-@62 = ~(Michelson tiembla levemente al ver la espada carmesí. Tapa sus ojos con sus pequeñas manos)~
+@48 = ~Michelson, be careful! Wow, the axe shines beautifully.~
+@49 = ~*Michelson, surprisingly recovered, dances and approaches while brandishing the sword in all directions*~ [P_Mich00]
+@50 = ~Michelson, be careful! Wow, the sword shines beautifully.~
+@51 = ~*Michelson stops his dance and remains, like few times, serious and astonished at the artifacts presented by <CHARNAME> and Dusk*~
+@52 = ~*Michelson looks somewhat puzzled at Mathyus and then looks at Dusk and <CHARNAME>. After a few seconds of silence...*~
+@53 = ~*...he bursts out laughing*~ [P_Mich03]
+@54 = ~*Michelson, with a whitish smile on his face, whistles and snaps his fingers. From the same air, a straight line seems to form, and a violet ray takes solid form. The Royal Avenger is before your eyes*~ [P_Mich01]
+@55 = ~*Michelson receives Dusk's weapon with great reverence and seriousness. Using the same gestures with which he made the Royal Avenger appear, he makes the shilmist quarterstaff vanish into the air*~
+@56 = ~*Michelson applauds, laughs, and dances. You might think he's doing what he always does, but part of you believes he's doing it to commemorate the fact that you've assembled Count Benork's full set*~ [P_Mich02]
+@57 = ~*Michelson nods rapidly with his head. Then he seems to murmur something to Mathyus*~
+@58 = ~*Michelson dances and laughs. It seems that he is boasting about having been right*~ [P_Mich00]
+@59 = ~*Michelson stops his dance and is paralyzed, astonished by Dusk's words*~
+@60 = ~*Michelson remains open-mouthed for a moment. He seems to shudder at the bloody red color emanating from the orb*~
+@61 = ~*Michelson seems to whisper nervously to Mathyus*~
+@62 = ~*Michelson trembles slightly upon seeing the crimson sword. He covers his eyes with his small hands*~
 
-@63 = ~(Michelson muestra sus dientes y ríe fuertemente)~ [P_Mich04]
-@64 = ~(Michelson ríe ante las palabras de <CHARNAME>. Luego, chasquea los dedos y de la nada, un anillo hace aparición)~[P_Mich00]
-@65 = ~(Michelson asiente mientras baila y zapatea. Se acerca a <CHARNAME> muy contento y extiende su mano, entregando el anillo mágico)~
-@66 = ~(Michelson se torna serio y explica a Mathyus algunas cuestiones, mientras, por supuesto, baila y silba desenfrenadamante)~ [P_Mich01]
-@67 = ~(Michelson parece casi ofendido por la insinuación. Asiente rápidamente y ríe, tomando el sangriento orbe en sus manitos)~ [P_Mich00]
-@68 = ~(A primera vista, percibes en el orbe un gran poder maligno y, aún así, parece ceder ante las palabras, que en realidad son risas desenfrenadas, del leprechaun)~ [P_Mich03]
-@69 = ~(El pequeño saca de sus bolsillos varias gemas, las cuales parecen desintegrarse alrededor del orbe. Las partículas de las mismas, como si de estrellas en el cosmos se tratasen, se funden con el orbe)~
-@70 = ~(La energía maligna se desvanece en el aire y la furia carmesí desaparece, dando lugar a un apacible color verde hoja. Al cabo de unos segundos, el orbe parece estabilizarse, fulgurando en su nueva forma)~
-@71 = ~(Michelson baila alegremente y se acerca a Dusk, sosteniendo el orbe. Hace entrega del mismo con gran reverencia y larga a reír mientras vuelve a su lugar al lado de Mathyus)~[P_Mich00]
-@72 = ~(Michelson se exalta y señala la espada esmeralda que ha aparecido al frente de Dusk. Aplaude, ríe y comienza a bailar como festejando)~[P_Mich02]
-@73 = ~(Michelson interrumpe ante la duda de Mathyus, moviendo sus manitos a gran velocidad en negativa)~
-@74 = ~(En silencio, Michelson asiente con su cabeza, moviéndola por vez primera, con la misma lentitud de movimiento que Demoledor)~
-@75 = ~(Michelson interrumpe ante la duda de Mathyus, riendo y haciendo unos extraños pasos de baile)~
-@76 = ~(Michelson sonríe, mostrando una mueca casi resplandeciente)~
-@77 = ~(Michelson silba fuertemente y luego se larga a reír, llamando la atención de todos)~
-@78 = ~(Michelson ríe con fuerzas y comienza a mover sus manos. De repente, sientes cómo el aire a tu alrededor comienza a revolverse)~
-@79 = ~(Al parecer, el ritual ha terminado y el leprechaun baila incesante ante la presencia de los traídos por el portal)~
+@63 = ~*Michelson shows his teeth and laughs loudly*~ [P_Mich04]
+@64 = ~*Michelson laughs at <CHARNAME>'s words. Then, he snaps his fingers and out of nowhere, a ring appears*~[P_Mich00]
+@65 = ~*Michelson nods while dancing and tapping his feet. He approaches <CHARNAME> happily and extends his hand, delivering the magic ring*~
+@66 = ~*Michelson becomes serious and explains some issues to Mathyus, while of course, he dances and whistles wildly*~ [P_Mich01]
+@67 = ~*Michelson seems almost offended by the insinuation. He quickly nods and laughs, taking the bloody orb in his little hands*~ [P_Mich00]
+@68 = ~*At first glance, you perceive great evil power in the orb, and yet it seems to yield to the words, which are actually wild laughter, of the leprechaun*~ [P_Mich03]
+@69 = ~*The little one takes several gems from his pockets, which seem to disintegrate around the orb. The particles of the gems, like stars in the cosmos, merge with the orb*~
+@70 = ~*The evil energy dissipates in the air and the crimson fury disappears, giving way to a peaceful leafy green color. After a few seconds, the orb seems to stabilize, sparkling in its new form*~
+@71 = ~*Michelson dances happily and approaches Dusk, holding the orb. He delivers it with great reverence and laughs while returning to his place next to Mathyus*~[P_Mich00]
+@72 = ~*Michelson gets excited and points to the emerald sword that has appeared in front of Dusk. He applauds, laughs and begins to dance as if celebrating*~[P_Mich02]
+@73 = ~*Michelson interrupts Mathyus' doubt, moving his little hands quickly in a negative way*~
+@74 = ~*Silently, Michelson nods his head, moving it for the first time, with the same slow movement as Demolisher*~
+@75 = ~*Michelson interrupts Mathyus' doubt, laughing and doing some strange dance moves*~[P_Mich03]
+@76 = ~*Michelson smiles, showing an almost glowing grin*~
+@77 = ~*Michelson whistles loudly and then bursts out laughing, drawing everyone's attention*~ [P_Mich04]
+@78 = ~*Michelson laughs loudly and begins to move his hands. Suddenly, you feel the air around you start to swirl*~ [P_Mich01]
+@79 = ~*Apparently, the ritual is over and the leprechaun dances incessantly in the presence of those brought by the portal*~
 
 //CONVOC M3
-@80 = ~¡Por Tyr! ¿Dónde estoy? Hace unos instantes me encontraba en los Salones de la Orden...~
-@81 = ~¡Sir Ryan, Falon! Es un placer volver a veros.~
-@82 = ~¿Dusk, <CHARNAME>? ¿Qué está sucediendo?~
-@83 = ~Algo me dice que Dusk necesita nuestra ayuda, mi lord. Lo que no puedo explicar es ese extraño elfo de pelo verde. Mucho menos este gnomo pelirrojo.~
-@84 = ~*carraspeo* Ruego nos perdone, lord paladín. Quien lo ha traído a esta... guarida hemos sido nosotros. Yo soy Mathyus Davis, explorador del Bosque Shilmista. Quien ha ejecutado el sortilegio es Michelson, un leprechaun.~
-@85 = ~(Michelson saluda con mucho énfasis a los recién llegados)~ [P_Mich04]
-@86 = ~Ya veo... confío en que aún nos encontremos en Athkatla, Dusk.~
-@87 = ~Así es, Sir Ryan. Más precisamente en el Puerto.~
-@88 = ~Entiendo... y, ¿por qué nos has traído aquí?~
-@89 = ~<CHARNAME> y yo iremos a enfrentarnos a un clan orco, recientemente arribado a Amn. Se encuentran a pocas horas de la ciudad...~
-@90 = ~Se trata de un grupo liderado por un orco que orquestó el ataque a mi destacamento, Sir Ryan.~
-@91 = ~Ya veo... Se trata del orco por el cual casi atacas a mí y mi tribu, ¿no es así?~
-@92 = ~Así es, Falon. Sus fuerzas han aumentado considerablemente y puede que <CHARNAME> y yo no seamos suficientes.~
-@93 = ~Hmm... y, ¿crees que es un peligro para la ciudad, Dusk?~
-@94 = ~No estoy seguro de que sea un peligro inmediato, Sir Ryan. Pero creo que, tarde o temprano, atacará a algún que otro inocente que se cruce en su camino.~
-@95 = ~Sé a qué te refieres, Dusk. El problema es que actualmente no dispongo de caballeros para tu tarea.~
-@96 = ~Si me lo permite, mi lord, mi tribu y yo estaríamos más que dispuestos en ayudar a Dusk y sus amigos.~
-@97 = ~Creí que querían alejarse de la guerra, Falon. ¿Por qué habrías de hacerlo?~
-@98 = ~Dusk y <CHARNAME> nos dieron una segunda oportunidad. Un nuevo hogar. Estoy segura de que mi familia está más que dispuesta a brindar una ayuda por una noble causa.~
-@99 = ~Has aprendido bien, Falon. Muy bien, está decidido. Falon, su tribu y yo habremos de prestarte nuestras espadas para esta causa, Dusk.~
-@100 = ~¿Usted también, Sir Ryan?~
-@101 = ~Sí. Si los humanoides han de luchar en nombre de la Noble Orden, yo debo estar allí para guiarlos.~
-@102 = ~Sir Ryan, Falon... no tengo palabras para agradecerles...~
-@103 = ~¡Oh, vaya! Esto es muy emocionante.~
-@104 = ~¡Muy bien, señores! Lord paladín, lady cacique: Michelson les entregará unas gemas especiales para ustedes y el resto de la tribu.~
-@105 = ~Las mismas se activarán con otra gema que habremos de entregar a Dusk. Cuando el momento del combate comience, serán teletransportados al lugar en que el emisor se encuentre.~
-@106 = ~De acuerdo, elfo de... cabello verde. Estaremos preparados cuando llegue el momento.~
-@107 = ~Así es. Yo me encargaré de preparar al resto de mi tribu, Dusk.~
-@108 = ~¡Excelente! Bien, pueden usar esas mismas gemas para ser devueltos a los cuarteles de la Orden. Michelson se ha encargado de ello.~
-@109 = ~Bien. <CHARNAME>, será mejor que partamos de inmediato. Mathyus, volveremos aquí cuando tengamos novedades al respecto, ¿sí?~
-@110 = ~Los estaremos esperando, amigos míos.~
-@111 = ~~
-@112 = ~(Michelson agita con fuerza sus bracitos. Ríe y se despide, mientras baila y silba como un desquiciado)~ [P_Mich01]
-@113 = ~(De la nada, una risa se percibe hasta en los rincones más oscuros del Túmulo)~ [P_Mich00]
-@114 = ~(Finalmente, Michelson hace aparición desde las sombras, bailando y riendo, como si de una fiesta se tratase)~ [P_Mich02]
-@115 = ~¡¿Michelson?! Vaya, ¿qué haces aquí?~
-@116 = ~(Con una sonrisa en su rostro, te entrega una nota)~
-@117 = ~*La lees en voz alta* "Querido <CHARNAME>: Michelson irá al Túmulo de los Trolls una vez que la batalla haya finalizado. El motivo es para realizar un ritual para purificar el lugar y evitar que en un futuro vuelva a suceder algo de este calibre. Además, Michelson, una vez que termine su ritual, revivirá a los caídos en batalla."~ ~*La lees en voz alta* "Querida <CHARNAME>: Michelson irá al Túmulo de los Trolls una vez que la batalla haya finalizado. El motivo es para realizar un ritual para purificar el lugar y evitar que en un futuro vuelva a suceder algo de este calibre. Además, Michelson, una vez que termine su ritual, revivirá a los caídos en batalla."~
-@118 = ~*La nota continúa* "Los convocados por el orbe teletransportador poseían una protección mágica que Michelson había imbuido. Sin importar la gravedad de sus heridas, podrán ser revividos. Espero que Dusk haya sobrevivido al combate, de lo contrario, Michelson no tendrá el poder necesario para poder traerlo de vuelta a este plano. Quizás alguna iglesia o algún poderoso clérigo pueda hacerlo. De ser el caso en que no pueda ser revivido... simplemente vuelve y hablaremos al respecto.
-  Atentamente, Mathyus Davis.
-  El poderoso elfo shilmista."~
-@119 = ~(Luego de que terminas de leer la nota, ves cómo Michelson levanta la cabeza y busca a Dusk con su mirada)~
-@120 = ~(Su típica sonrisa desaparece al darse cuenta de que ha caído en batalla)~
-@121 = ~(Parece estar a punto de largarse a llorar cuando posas tu mano en su hombro sin saber qué decir)~
-@122 = ~(Sin nada más que "decir", Michelson señala la carta escrita por Mathyus, la que leiste hace tan sólo unos momentos.)~
-@123 = ~(Crees que significa que debes volver con Mathyus para informarle lo que ha sucedido)~
-@124 = ~(Inmediatamente, Michelson comienza su ritual de purificación, y sientes que no debes interrumpirlo. En cambio, ves cómo unas extrañas nubes te rodean a ti y a tu grupo. Cuando menos te lo esperas, te encuentras fuera del Túmulo y de vuelta a un lugar conocido...)~
-@125 = ~Gracias por leer la nota, <CHARNAME>. ¡Michelson! Siempre es un placer verte.~
-@126 = ~(Michelson esboza una sonrisa y baila al ver a Dusk con vida)~ [P_Mich03]
-@127 = ~Puedes llevar a cabo tu ritual, amigo. Volveremos con Mathyus y le informaremos lo que aquí ha acontecido.~
-@128 = ~Algo me dice que seguro ya estarás allá para cuando volvamos a Athkatla.~
-@129 = ~(Michelson silba y mueve sus piecitos, afirmando lo que Dusk acaba de decir)~ [P_Mich01]
+@80 = ~By Tyr! Where am I? A moment ago I was in the Halls of the Order...~
+@81 = ~Sir Ryan, Falon! It's a pleasure to see you again.~
+@82 = ~Dusk, <CHARNAME>? What's happening?~
+@83 = ~Something tells me that Dusk needs our help, my lord. What I can't explain is that strange green-haired elf. Even less so this red-haired gnome.~
+@84 = ~*clears throat* Please forgive us, lord paladin. We are the ones who brought you to this... lair. I am Mathyus Davis, an explorer from the Shilmista Forest. The one who cast the spell is Michelson, a leprechaun.~
+@85 = ~*Michelson greets the newcomers very enthusiastically*~ [P_Mich04]
+@86 = ~I see... I trust we are still in Athkatla, Dusk.~
+@87 = ~Certainly, Sir Ryan. More precisely in the Docks.~
+@88 = ~I understand... and why have you brought us here?~
+@89 = ~<CHARNAME> and I are going to face an orc clan that has recently arrived in Amn. They are only a few hours away from the city...~
+@90 = ~It's a group led by an orc who orchestrated the attack on my detachment, Sir Ryan.~
+@91 = ~I see... It's the orc for which you almost attacked me and my tribe, isn't it?~
+@92 = ~Verily, Falon. Their forces have increased considerably and <CHARNAME> and I may not be enough.~
+@93 = ~Hmm... and do you think it's a danger to the city, Dusk?~
+@94 = ~I'm not sure it's an immediate danger, Sir Ryan. But I believe that, sooner or later, it will attack some innocent who crosses its path.~
+@95 = ~I know what you mean, Dusk. The problem is that I currently don't have any knights available for your task.~
+@96 = ~If you'll allow me, my lord, my tribe and I would be more than willing to help Dusk and his friends.~
+@97 = ~I thought you wanted to stay away from war, Falon. Why would you do this?~
+@98 = ~Dusk and <CHARNAME> gave us a second chance. A new home. I'm sure my family is more than willing to provide help for a noble cause.~
 
-@130 = ~(Michelson, sorprendentemente recuperado, baila y se acerca, sorprendentemente ligero, con una armadura que en apariencia parece ser pesada y maciza)~ [P_Mich04]
-@131 = ~Gracias, Michelson. Dusk, espero que la armadura sea de tu agrado.~
-@132 = ~(Michelson, sorprendentemente recuperado, baila y se acerca, correteando peligrosamente mientras blande la flamante espada cormyreana)~ [P_Mich04]
-@133 = ~Gracias, Michelson. Dusk, espero que la espada sea de tu agrado.~
+@99 = ~You have learned well, Falon. So be it, it is decided. Falon, her tribe, and I will lend you our swords for this cause, Dusk.~
+@100 = ~You too, Sir Ryan?~
+@101 = ~Yes. If humanoids are to fight in the name of the Noble Order, I must be there to guide them.~
+@102 = ~Sir Ryan, Falon... I have no words to thank you...~
+@103 = ~Oh, wow! This is so exciting!~
+@104 = ~Very well, friends! Lord Paladin, Lady Chieftain: Michelson will give you some special gems for you and the rest of the tribe.~
+@105 = ~They will be activated with another gem that we will give to Dusk. When the moment of the fight begins, you will be teleported to the location where the emitter is.~
+@106 = ~Agreed, elf of... green hair. We will be ready when the time comes.~
+@107 = ~Very well. I will take care of preparing the rest of my tribe, Dusk.~
+@108 = ~Excellent! Well, you can use those same gems to be returned to the Order's quarters. Michelson has taken care of that.~
+@109 = ~Good. <CHARNAME>, we had better leave immediately. Mathyus, we will return here when we have news, yes?~
+@110 = ~We'll be waiting for you, my friends.~
+
+@112 = ~*Michelson vigorously shakes his arms. He laughs and waves goodbye while dancing and whistling like a maniac*~ [P_Mich01]
+@113 = ~*Out of nowhere, a laughter is heard even in the darkest corners of the Mound*~ [P_Mich00]
+@114 = ~*Finally, Michelson appears from the shadows, dancing and laughing, as if it were a festivity*~ [P_Mich02]
+@115 = ~Michelson?! Wow, what are you doing here?~
+@116 = ~*With a smile on his face, he hands you a note*~
+@117 = ~*You read it out loud* "Dear <CHARNAME>: Michelson will go to the Troll Mound once the battle is over. The reason is to perform a ritual to purify the place and prevent anything like this from happening again in the future. Additionally, Michelson will revive those who fell in battle once his ritual is complete."~
+@118 = ~*The note continues* "Those summoned by the teleportation orb possessed a magical protection that Michelson had imbued. No matter how severe their injuries, they can be revived. I hope Dusk survived the battle, otherwise, Michelson will not have the power necessary to bring him back to this plane. Perhaps some church or powerful cleric can do it. If he cannot be revived... just come back and we will talk about it.
+Sincerely, Mathyus Davis.
+The powerful shilmist elf."~
+@119 = ~*After you finish reading the note, you see Michelson raise his head and search for Dusk with his gaze*~
+@120 = ~*His typical smile disappears as he realizes that Dusk has fallen in battle*~
+@121 = ~*He seems about to burst into tears when you place your hand on his shoulder, not knowing what to say*~
+@122 = ~*With nothing more to "say", Michelson points to the letter written by Mathyus, which you read just moments ago*~
+@123 = ~*You think it means you should go back to Mathyus and inform him of what has happened*~
+@124 = ~*Immediately, Michelson begins his purification ritual, and you feel that you should not interrupt him. Instead, you see strange clouds surround you and your group. When you least expect it, you find yourself outside the Mound and back in a familiar place...*~
+@125 = ~Thank you for reading the note, <CHARNAME>. Michelson! It's always a pleasure to see you.~
+@126 = ~*Michelson smiles and dances upon seeing Dusk alive*~ [P_Mich03]
+@127 = ~You can carry out your ritual, my friend. We will come back to Mathyus and inform him of what has happened here.~
+@128 = ~Something tells me you'll already be there when we get back to Athkatla.~
+@129 = ~*Michelson whistles and moves his feet, affirming what Dusk just said*~ [P_Mich01]
+
+@130 = ~*Surprisingly recovered, Michelson dances over, remarkably light on his feet, holding an armor that appears heavy and sturdy.*~ [P_Mich04]
+@131 = ~Thank you, Michelson. Dusk, I hope the armor is to your liking.~
+@132 = ~*Surprisingly recovered, Michelson dances over, dangerously darting around while wielding the gleaming Cormyrean sword*~ [P_Mich04]
+@133 = ~Thank you, Michelson. Dusk, I hope the sword is to your liking.~
 @134 = ~~
 @135 = ~~
 @136 = ~~
@@ -160,11 +161,11 @@
 
 
 
-@210005 = ~Dusk Aldant: La armadura Shilmista
+@210005 = ~Dusk Aldant: The Shilmist Armor
 
-Regresamos a la guarida de Mathyus Davis y encontramos a Michelson a su lado. Luego de una breve conversación en la que nos narró de su primer encuentro con Michelson y su posterior conversión de color de cabello, Mathyus hizo entrega a Dusk de la Armadura Shilmista.
-También nos entregó un libro de fórmulas para forjar poderosos artefactos, Michelson mediante. Si conseguimos los ingredientes correctos, deberemos hablar con Mathyus para que podamos forjar el artefacto descrito en el libro.~
+We returned to Mathyus Davis' hideout and found Michelson by his side. After a brief conversation in which he told us about his first encounter with Michelson and his subsequent hair color change, Mathyus handed over the Shilmist Armor to Dusk.
+He also gave us a book of formulas for forging powerful artifacts, provided by Michelson. If we can get the right ingredients, we should talk to Mathyus so we can forge the artifact described in the book.~
 
-@210026 = ~Dusk Aldant: La Venganza de la Primera Espada
+@210026 = ~Dusk Aldant: The Revenge of the First Sword
 
-Arribamos a la guarida de Mathyus y nos informó que el grupo responsable del ataque al destacamento de Dusk se encuentra en las cercanías de la Arboleda Druídica de la región. Por las características brindadas por el explorador, el responsable sería un jefe orco llamado Alabarza. Lo encontraremos en el Túmulo troll al oeste de la región. También nos informó que el orco cuenta con un repertorio variado de monstruos, listos para defenderlo. Afortunadamente, Dusk contará con la ayuda de Sir Ryan Espinel y de Falon y su tribu. Llegado el momento, una gema de activación brindada por Michelson los traerá para el enfrentamiento.~
+We arrived at Mathyus' lair, and he informed us that the group responsible for the attack on Dusk's outpost is located near the Druidic Grove in the region. According to the report provided by the scout, the responsible party is an orc chieftain named Alabarza. We will find him at the Troll Mound to the west of the region. He also informed us that the orc has a varied repertoire of monsters ready to defend him. Fortunately, Dusk will have the help of Sir Ryan Trawl and Falon and his tribe. When the time comes, a activation gem provided by Michelson will bring them to the confrontation.~

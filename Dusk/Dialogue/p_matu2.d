@@ -30,9 +30,9 @@ I_C_T P_MATU2 0 P_Dusk_matu2a
 == p_valata IF ~~ THEN @10 /* ~Que el estúpido de tu amigo esté encantado es el menor de tus preocupaciones, Capitán.~ */
 == AERIEJ IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @11 /* ~V-vaya... también se encuentra ese lunático del bosque druídico, Dusk.~ */
 == p_valata IF ~InParty("Aerie")~ THEN @12 /* ~Haces bien en temerme, niña. Pero tú no eres el centro de mis atenciones... por ahora...~ */
-== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @13 /* ~Valathar... imagino que debes estar un poco... colérico por lo que hice con tu "mascota", ¿no?~ */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @13 /* ~Valatar... imagino que debes estar un poco... colérico por lo que hice con tu "mascota", ¿no?~ */
 == p_valata IF ~~ THEN @14 /* ~Bastardo... ¡Pagarás por lo que has hecho con Puki! Tendré tu corazón en una bandeja...~ */
-== P_ANTHAG IF ~~ THEN @15 /* ~Tranquilo, Valathar. En breve podrás arrojar tu ira en estos insensatos.~ */
+== P_ANTHAG IF ~~ THEN @15 /* ~Tranquilo, Valatar. En breve podrás arrojar tu ira en estos insensatos.~ */
 == p_valata IF ~~ THEN @16 /* ~Estás en lo cierto, Antaghar. Además, aún dispongo de otras invocaciones. ¡Pronto serán testigos de cómo las bestias del inframundo danzan bajo mi influjo!~ */
 == p_kaland IF ~~ THEN @17 /* ~¡Tsk! Tanta palabrería comienza a cansarme...~ */
 == HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID) Global ("P_Dusk_Kalanda_Summon","GLOBAL",2)~ THEN @18 /* ~Ah, si es el extraño pajarillo que nos sorprendió en Brynn Ley, canario. El transmutador.~ */

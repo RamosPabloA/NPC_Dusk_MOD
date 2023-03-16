@@ -1,32 +1,33 @@
 
-@0 = ~(De la nada, una risa se percibe hasta en los rincones más oscuros del paraje)~ [P_Mich04]
+@0 = ~*From nowhere, a laughter echoes even in the darkest corners of the area*~ [P_Mich04]
 
-@1 = ~(Finalmente, Michelson hace aparición desde las sombras, bailando y riendo, como si de una fiesta se tratase)~ [P_Mich01]
+@1 = ~*Finally, Michelson appears from the shadows, dancing and laughing as if it were a festival*~ [P_Mich01]
 
-@2 = ~¡¿Michelson?! Has llegado... un poco tarde me temo...~
+@2 = ~Michelson?! You arrived... a bit too late I'm afraid...~
 
-@3 = ~(Michelson detiene su danza y mira a su alrededor. Al cabo de unos segundos, con tristeza, cae en la cuenta de lo sucedido)~
-@4 = ~(Sin embargo, ve que llevas contigo el cuerpo de Mathyus y parece que sus esperanzas vuelven, ya que se pone a bailar desenfrenado como es ya algo usual de su parte)~
-@5 = ~(Con una fuerza sorprendente, toma el cuerpo de Mathyus y con delicadeza, arroja sobre él un polvo brillante que asumes debe pertenecer a sus extrañas gemas mágicas)~
-@6 = ~(Ve que, también, llevas contigo el símbolo de Velsharún de Anthagar. Con cierta duda, extiende su manito hacia ti para que se lo entregues. Como no le ves utilidad al mismo, lo das sin más)~
-@7 = ~(El leprechaun mira a su alrededor y ve que Dusk y Demoledor, lamentablemente, han caído en batalla. Sin embargo, supones que el pequeño sabía que ello era una posibilidad)~
-@8 = ~(Entrecierra sus ojos y toma el Símbolo de Velsharún de Anthagar con ambas manos, elevándolo sobre su cabeza... Entiendes que abrirá un portal para volver a Athkatla. Sólo debemos hablar de nuevo con él cuando estemos listos para volver)~
-@9 = ~¡Michelson! Has arribado... lamento... lamento lo que pasó con Mathyus y Demole... de verdad... lo lamento...~
-@10 = ~(Inesperadamente, Michelson se pone a bailar desenfrenado)~ [P_Mich03]
-@11 = ~Pero, ¿qué...?~
-@12 = ~(Con una fuerza sorprendente, toma el cuerpo de Mathyus y con delicadeza, arroja sobre él un polvo brillante que asumes debe pertenecer a sus extrañas gemas mágicas)~
-@13 = ~Ya veo... intentarás revivirlo... y también a Demole, ¿no?~
-@14 = ~(Michelson asiente velozmente con su cabeza)~
-@15 = ~(Ve que, también, llevan consigo el símbolo de Velsharún de Anthagar. Con cierta duda, extiende su manito hacia ustedes para que se lo entreguen)~
-@16 = ~El símbolo de Velsharún... si le encuentras utilidad a esto, amigo mío... entonces es todo tuyo.~
-@17 = ~(El leprechaun toma el símbolo entre sus manos. Mira a su alrededor y luego observa al grupo)~
-@18 = ~Hm... creo que está listo para llevarnos a casa, <CHARNAME>. Es decir, a nuestro plano. Será mejor que hablemos con él cuando estemos listos...~
-@19 = ~(Asiente ante la declaración de Dusk. Una vez que estemos listos, sólo debemos hablar con Michelson para que nos regrese a Athkatla)~
-@20 = ~(El leprechaun mira a su alrededor y ve que Dusk, lamentablemente, ha caído en batalla. Sin embargo, supones que el pequeño sabía que ello era una posibilidad)~
-@21 = ~(Demoledor se muestra ansioso ante Michelson, como exigiendo que ejecute sus hechizos de una vez)~ [P_Demo01]
-@22 = ~¡Michelson! Has arribado... lamento... lamento lo que pasó con Mathyus... de verdad... lo lamento...~
-@23 = ~Ya veo... intentarás revivirlo... ¿no?~
-@24 = ~(El ritual de Michelson ha terminado. Pronto ves cómo un destello aparece delante de ti, abriendo un portal hacia un lugar conocido...)~
+@3 = ~*Michelson stops his dance and looks around. After a few seconds, with sadness, he realizes what happened*~
+@4 = ~*However, he sees that you carry Mathyus' body with you and his hopes seem to return, as he starts dancing wildly, as it's something usual for him*~ [P_Mich03]
+@5 = ~*With surprising strength, he takes Mathyus' body and delicately throws a shining powder over him that you assume must belong to his strange magical gems*~
+@6 = ~*He also sees that you carry the Velsharoon symbol of Anthagar with you. With some hesitation, he extends his hand to you to hand it over. As you don't see any use for it, you give it to him without further ado*~
+@7 = ~*The leprechaun looks around and sees that Dusk and Demolisher, unfortunately, have fallen in battle. However, you suppose that the little one knew that was a possibility*~
+@8 = ~*He squints his eyes and takes the Velsharoon symbol of Anthagar with both hands, raising it above his head... You understand that he will open a portal to return to Athkatla. We just have to talk to him again when we're ready to go back*~
+@9 = ~Michelson! You've arrived... I'm sorry... I'm sorry about what happened with Mathyus and Demoli... really... I'm sorry...~
+@10 = ~*Unexpectedly, Michelson starts dancing wildly*~ [P_Mich03]
+@11 = ~But, what...?~
+@12 = ~*With surprising strength, he takes Mathyus' body and delicately throws a shining powder over him that you assume must belong to his strange magical gems*~
+
+@13 = ~I see... you will try to revive him... and also Demoli, won't you?~
+@14 = ~*Michelson nods quickly*~ [P_Mich04]
+@15 = ~*He notices that we also carry the Velsharoon symbol of Anthagar with us. With some hesitation, he extends his hand towards us to ask for it.*~
+@16 = ~The symbol of Velsharoon... if you find any use for it, my friend... then it's all yours.~
+@17 = ~*The leprechaun takes the symbol in his hands. He looks around and then observes the party*~
+@18 = ~Hm... I think he's ready to take us home, <CHARNAME>. That is, to our plane. It's better if we talk to him when we're ready...~
+@19 = ~*He nods at Dusk's statement. Once we're ready, we just need to talk to Michelson to return to Athkatla*~
+@20 = ~*The leprechaun looks around and sees that Dusk, unfortunately, has fallen in battle. However, you suppose that the little one knew that this was a possibility*~
+@21 = ~*Demolisher shows himself anxious before Michelson, as if demanding that he execute his spells right away*~ [P_Demo01]
+@22 = ~Michelson! You have arrived... I'm sorry... I'm sorry about what happened to Mathyus... really... I'm sorry...~
+@23 = ~I see... you'll try to revive him... won't you?~
+@24 = ~*Michelson's ritual has ended. Soon you see a flash appear in front of you, opening a portal to a familiar place...*~
 @25 = ~~
 @26 = ~~
 @27 = ~~

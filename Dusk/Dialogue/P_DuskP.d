@@ -49,7 +49,8 @@ END
 
 // Dlg para P_DuskKickedOut 1, cuando nos reencontramos con él
 
-IF ~Global("P_DuskKickedOut","GLOBAL",1)~ b3
+// GOOD/NEUTRAL
+IF ~Global("P_DuskKickedOut","GLOBAL",1) Global ("P_DUSK_IS_EVIL","GLOBAL",0)~ b3
 SAY @5 /* ¡<CHARNAME>! Has regresado. Espero que podamos retomar nuestro viaje. Debemos dar justicia a los caídos. */
 ++ @6 /* Tienes razón, amigo. Vamos, únete a mí. */ + b3.1
 ++ @7 /* Aún no, Dusk, debo arreglar algunos asuntos antes. */ + b3.2
@@ -64,6 +65,26 @@ IF ~~ b3.2
 SAY @9 /* Esperaré aquí, entonces. */
 IF ~~ EXIT
 END
+
+///////////////////////////////
+// EVIL
+IF ~Global("P_DuskKickedOut","GLOBAL",1) Global ("P_DUSK_IS_EVIL","GLOBAL",1)~ b3
+SAY @19 /* Has regresado, <CHARNAME>. ¿Acaso has recapacitado y necesitas de mis servicios? */
+++ @20 /* Tienes razón, Dusk. Vamos, únete a mí. */ + b3.1
+++ @7 /* Aún no, Dusk, debo arreglar algunos asuntos antes. */ + b3.2
+END 
+
+IF ~~ b3.1
+SAY @21 /* Que así sea, <CHARNAME>. Vámonos. */
+IF ~~ DO ~SetGlobal("P_DuskKickedOut","GLOBAL",0) JoinParty()~ EXIT
+END
+
+IF ~~ b3.2
+SAY @9 /* Esperaré aquí, entonces. */
+IF ~~ EXIT
+END
+
+/////////////////////////////
 
 IF ~OR (2)
 Global("P_DuskDUSKDIEDFinalMission","GLOBAL",2)
