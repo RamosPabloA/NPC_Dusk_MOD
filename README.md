@@ -83,8 +83,7 @@ A: You can write me to pablo.alejandro.ramos@gmail.com or in the Facebook page: 
 5. Credits
 -----------
 
-Pablo Ramos					Writer
-						Programmer
+Pablo Ramos Writer and Programmer
 
 "Tierras de la Intriga: Tethyr" by Steven E. Schend, 1997.
 "La venganza del Duque" by Pol Rupes, 2019.
