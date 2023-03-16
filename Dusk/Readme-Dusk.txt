@@ -97,34 +97,6 @@ Pablo Ramos					Writer
 6. Version History
 -------------------
 
-Version 7
-- Russian version by Jericho2
-
-Version 6
-- mod is now traified, by Austin.
-- removed not needed Backup folder.
-- links in Dusk.ini updated.
-- shortened mod name in .ini
-- add Dynamic Install Syntax to support Project Infinity.
-
-Version 5
--updated Dusk.ini with the GitHub address for download
-
-Version 4
-- EET compatibility (with explanations!)
-- corrected Viconia's DV in her interjection where Minsc's was checked instead
-- added small note to readme about text formats needed in the EE
-- renamed setup-Dusk.tp2 -> Dusk.tp2 to support ALIEN's "Project Infinity"
-- added Dusk.ini to support ALIEN's "Project Infinity"
-- moved readme call to the beginning 
-- Updated to WeiDU 246
-
-Version 3
-- Banters with Dorn, Hexxat, Neera and Rasaad for BG2EE
-
-Version 2
-- Full BG2:EE compatibility
-
 Version 1
 - Initial release
 
@@ -133,8 +105,8 @@ Version 1
 ---------------------
 
 =================================================================================
-BALDUR'S GATE II: SHADOWS OF AMN Developed and © 2000 BioWare Corp. All Rights
-Reserved. BALDUR'S GATE II: THRONE OF BHAAL Developed and © 2001 BioWare
+BALDUR'S GATE II: SHADOWS OF AMN Developed and ï¿½ 2000 BioWare Corp. All Rights
+Reserved. BALDUR'S GATE II: THRONE OF BHAAL Developed and ï¿½ 2001 BioWare
 Corp. All Rights Reserved. Baldur's Gate, Shadows of Amn, Tales of the Sword
 Coast, Forgotten Realms, the Forgotten Realms logo, Advanced Dungeons & Dragons,
 the AD&D logo, TSR and the TSR logo, and the Wizards of the Coast logo, are
@@ -148,7 +120,7 @@ trademarks and copyrights are property of their respective owners.
 =================================================================================
 
 =================================================================================
-Dusk NPC MOD for Baldur's Gate II © 2023. Dusk is not 
+Dusk NPC MOD for Baldur's Gate II ï¿½ 2023. Dusk is not 
 developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay
 Entertainment Corp., or the Wizards of the Coast. All other trademarks and
 copyrights are property of their respective owners.
