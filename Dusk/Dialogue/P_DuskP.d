@@ -68,18 +68,18 @@ END
 
 ///////////////////////////////
 // EVIL
-IF ~Global("P_DuskKickedOut","GLOBAL",1) Global ("P_DUSK_IS_EVIL","GLOBAL",1)~ b3
+IF ~Global("P_DuskKickedOut","GLOBAL",1) Global ("P_DUSK_IS_EVIL","GLOBAL",1)~ b13
 SAY @19 /* Has regresado, <CHARNAME>. ¿Acaso has recapacitado y necesitas de mis servicios? */
-++ @20 /* Tienes razón, Dusk. Vamos, únete a mí. */ + b3.1
-++ @7 /* Aún no, Dusk, debo arreglar algunos asuntos antes. */ + b3.2
+++ @20 /* Tienes razón, Dusk. Vamos, únete a mí. */ + b13.11
+++ @7 /* Aún no, Dusk, debo arreglar algunos asuntos antes. */ + b13.12
 END 
 
-IF ~~ b3.1
+IF ~~ b13.11
 SAY @21 /* Que así sea, <CHARNAME>. Vámonos. */
 IF ~~ DO ~SetGlobal("P_DuskKickedOut","GLOBAL",0) JoinParty()~ EXIT
 END
 
-IF ~~ b3.2
+IF ~~ b13.12
 SAY @9 /* Esperaré aquí, entonces. */
 IF ~~ EXIT
 END

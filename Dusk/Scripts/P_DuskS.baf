@@ -41,10 +41,11 @@ KALANDA: Global ("P_Dusk_Kaland_Enc","GLOBAL",1)
 IF 
 InParty(Myself) // Esto quiere decir que el NPC está vivo, es obligatoria esta línea para evitar crasheo en el juego
 Global("P_DuskTalk","GLOBAL",0)		 // Esta variable está presente, también, en el archivo d (p_DuskJ). Variable que representa la Amistad
-Global("Chapter","GLOBAL",%bg2_chapter_2%)
+AreaCheck("AR0400")
+//Global("Chapter","GLOBAL",%bg2_chapter_2%)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",180) // TTT 180 Setea el timer y la declara como ""P_DuskTimer"". 3600 (3600 seg -> 60 min) valor "por defecto". Probamos con 100 ( 1 min 40 seg) para ver si levanta
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) // TTT 180 Setea el timer y la declara como ""P_DuskTimer"". 3600 (3600 seg -> 60 min) valor "por defecto". Probamos con 100 ( 1 min 40 seg) para ver si levanta
 SetGlobal("P_DuskTalk","GLOBAL",1)       // Cada bloque debe ejecutarse 1 sola vez. Por eso seteamos la variable en 1, para que no vuelva a repetirse el diálogo y así pueda pasar al siguiente.
 END			
 
@@ -674,7 +675,8 @@ InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
 CombatCounter(0) 
 !See([ENEMY])
-Global("Chapter","GLOBAL",%bg2_chapter_6%)
+Global("P_Dusk_in_Underdark","GLOBAL",1)
+//Global("Chapter","GLOBAL",%bg2_chapter_6%)
 Global ("P_Dusk_Anthagar_Enc","GLOBAL",0)
 Global("P_Dusk_FINAL_MISION_TRIGGER","GLOBAL",1)
 OR (13)
@@ -734,7 +736,8 @@ CombatCounter(0)
 !See([ENEMY])
 !AreaType(DUNGEON)
 Global("P_DUSK_IS_GOOD","GLOBAL",1) 
-Global("Chapter","GLOBAL",%bg2_chapter_6%)
+Global("P_Dusk_in_Underdark","GLOBAL",1)
+//Global("Chapter","GLOBAL",%bg2_chapter_6%)
 Global("P_Dusk_T13","GLOBAL",3) 
 Global("P_DuskMatMission3","GLOBAL",10)
 Global ("P_Dusk_Anthagar_Enc","GLOBAL",1)
@@ -787,7 +790,8 @@ InParty(Myself)
 !StateCheck(Myself,CD_STATE_NOTVALID)
 CombatCounter(0) 
 !See([ENEMY])
-Global("Chapter","GLOBAL",%bg2_chapter_6%)
+Global("P_Dusk_in_Underdark","GLOBAL",1)
+//Global("Chapter","GLOBAL",%bg2_chapter_6%)
 Global ("P_Dusk_Dancti_Enc_MF","GLOBAL",0)
 Global("P_DuskDanctialMISSION","GLOBAL",0)
 Global("P_Dusk_FINAL_MISION_TRIGGER","GLOBAL",1)
@@ -1435,6 +1439,18 @@ EndCutSceneMode()
 Continue()
 StartDialogueNoSet(Player1)
 END
+
+// Dusk has been in the Underdark -> flag created for EET version
+IF
+InParty(Myself) 
+Global("P_Dusk_in_Underdark","GLOBAL",0)	
+AreaCheck("AR2100")
+THEN
+RESPONSE #100
+SetGlobal("P_Dusk_in_Underdark","GLOBAL",1)
+END			
+
+
 
 // ***************************************************************
 
