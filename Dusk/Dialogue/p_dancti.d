@@ -55,7 +55,7 @@ IF ~~ THEN BEGIN 9 // from:
 END
 
 IF ~~ THEN BEGIN 10 // from:
-  SAY @16 /* ~He absorbido el poder de la criatura mágica. Puedo manipular su poder de creación con una considerable mejora. ¿Aún tienen su libro de recetas? Puedo forjar esos artefactos sin necesidad de oro, aunque el resto de los ingredientes siguen siendo necesarios.~ */
+  SAY @15 /* ~He absorbido el poder de la criatura mágica. Puedo manipular su poder de creación con una considerable mejora. ¿Aún tienen su libro de recetas? Puedo forjar esos artefactos sin necesidad de oro, aunque el resto de los ingredientes siguen siendo necesarios.~ */
   IF ~~ THEN GOTO 81 // SEGUIR MAS ADELANTE
 END
 

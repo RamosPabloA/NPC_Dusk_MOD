@@ -2,7 +2,7 @@
 @2    = ~Dusk~
 @3    = ~My ears still ring with that explosion...~ [p_duski]
 @4    = ~No...!,NO!!!~ [p_dusk02]
-@5    = ~I like how this group handles things.~
+@5    = ~...~ //I like how this group handles things.
 @6    = ~We should reconsider our actions...~ 
 @7    = ~Clearly something is not working here...~ 
 @8    = ~We can't keep working together...~ 
@@ -291,7 +291,7 @@ STATISTICS:
 Armor Class: 7
 Weight: 25 lbs
 Requirements: 6 Strength~
-@200041 = ~It is said that many centuries ago, a group of humans tried to bring down one of the great northern forests in Tethyr with the aim of progressing their monetary economy by selling wood and animal skins.
+@200041 = ~It is said that many centuries ago, a band of humans tried to bring down one of the great northern forests in Tethyr with the aim of progressing their monetary economy by selling wood and animal skins.
 Amidst the destruction, an unnamed, solitary and somber elf prayed to the Druid God, Mielikki, for the strength to fight against the invaders. In that instant, his bare torso was covered with a mysterious tough leather hide.
 The elf's burning desire to protect his land granted him the ability to defend himself against fire, gaining a powerful fiery attack and protection against the element.
 It is said that the elf sometimes transformed into a fierce werewolf and with fury tore and incinerated some human hunters, achieving the exile of those who sought to attack nature.
@@ -939,7 +939,7 @@ Speed Factor: 5
 Weapon Proficiency: Longsword
 Weapon Type: One-handed
 Requirements: 6 Strength~
-@200212 = ~The ancestors of the Delryn family were not well known in the history of Athkatla. However, it is said that there was a knight of the Noble Order of the Radiant Heart who fought against the giants on the Troll Hills in an attack that flanked the defenses of the de'Arnise region. Along with a group of paladins, they managed to defend the land from the invasion of humanoids; however, they all died in combat and the body of the Delryn knight was never seen again. His sword disappeared with him.
+@200212 = ~The ancestors of the Delryn family were not well known in the history of Athkatla. However, it is said that there was a knight of the Noble Order of the Radiant Heart who fought against the giants on the Troll Hills in an attack that flanked the defenses of the de'Arnise region. Along with a company of paladins, they managed to defend the land from the invasion of humanoids; however, they all died in combat and the body of the Delryn knight was never seen again. His sword disappeared with him.
 Somehow, the longsword has reappeared, this time within your reach. Only someone with the blood of his family running through their veins can wield it.
 
 STATISTICS:
@@ -988,7 +988,7 @@ Requirements: 11 strength~
 @200220 = ~Amulets are often magical objects that are commonly worn around the neck, hung from a chain. The type of chain that accompanies the amulet often increases its aesthetic value, but not its magical properties. Only one amulet can be worn around the neck at a time.~
 @200221 = ~Benork's Hope
 
-Benork was a forgotten Duke of the North who fought to avenge the death of his family. Legend has it that a group of shadowy sorcerers coveted his castle for unknown reasons, although rumors suggest that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
+Benork was a forgotten Duke of the North who fought to avenge the death of his family. Legend has it that a dark broterhood of shadowy sorcerers coveted his castle for unknown reasons, although rumors suggest that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
 The necromancers employed their arcane arts to cruelly dispose of the nobleman's family. Only Duke Benork survived by resisting a powerful enchantment spell. Despite this, he was left blind.
 His best friend was a powerful cleric of Tempus, who came to his rescue. Both fled the terrible necromantic magic. Aznagarb, the cleric, after taking refuge in a temple hidden in the Forest of Thorns, provided the necessary tools for Benork's revenge, consisting mainly of a divinely imbued set that only those who hated magic with all their heart could use.
 
@@ -1010,7 +1010,7 @@ Abilities:
 @200223 = ~Aznagarb's Defense~
 @200225 = ~Aznagarb's Defense
 
-Benork was a forgotten Duke of the North who fought to avenge the death of his family. Legend has it that a group of shadowy sorcerers coveted his castle for unknown reasons, although rumors suggest that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
+Benork was a forgotten Duke of the North who fought to avenge the death of his family. Legend has it that a dark broterhood of shadowy sorcerers coveted his castle for unknown reasons, although rumors suggest that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
 The necromancers employed their arcane arts to cruelly dispose of the nobleman's family. Only Duke Benork survived by resisting a powerful enchantment spell. Despite this, he was left blind.
 His best friend was a powerful cleric of Tempus, who came to his rescue. Both fled the terrible necromantic magic. Aznagarb, the cleric, after taking refuge in a temple hidden in the Forest of Thorns, provided the necessary tools for Benork's revenge, consisting mainly of a divinely imbued set that only those who hated magic with all their heart could use.
 
@@ -1040,7 +1040,7 @@ STATISTICS:
 Weight: 4 lbs.~
 @200229 = ~Path of the Ancestors
 
-Benork was a forgotten duke from the North who fought to avenge his family's death. Legend has it that a group of ominous sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join Larloch's clan, the Lich King, and as part of their initiation rite, they needed royal blood.
+Benork was a forgotten duke from the North who fought to avenge his family's death. Legend has it that a dark broterhood of ominous sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join Larloch's clan, the Lich King, and as part of their initiation rite, they needed royal blood.
 The necromancers employed their arcane arts to cruelly liquidate the noble's family. Only Duke Benork survived by resisting a powerful spell of derangement. Despite this, he was left blind.
 His best friend was a powerful cleric of Tempus, who came to his rescue. Both fled from the terrible necromantic magic. Aznagarb, the cleric, after taking refuge in a hidden temple in the Thorn Forest, provided the necessary tools for Benork's revenge, consisting mainly of a divinely imbued set that only those who hated magic with all their hearts could use.
 
@@ -1076,7 +1076,7 @@ Weight: 4 lbs.~
 @200244 = ~The mantle can have any shape and be made with any type of fabric. The most common shape is a round piece of fabric with a hole in the center for the head, with the fabric draped from the neck with a chain, a brooch, a cord, or pins.~
 @200245 = ~Protection of Aznagarb
 
-Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a group of shady wizards coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
+Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a dark broterhood of shady wizards coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
 The necromancers employed their arcane arts to cruelly liquidate the noble's family. Only Duke Benork survived by resisting a powerful spell of madness. However, he was left blind.
 His best friend was a powerful cleric of Tempus, who came to his rescue. Both fled the terrible necromantic magic. Aznagarb, the cleric, after taking refuge in a hidden temple in the Forest of Thorns, provided the necessary tools for Benork's revenge, consisting mainly of a divinely imbued set that only those who hated magic with all their heart could use.
 
@@ -1105,7 +1105,7 @@ STATISTICS:
 Weight: 2 lbs.~
 @200249 = ~Benork's Fortitude
 
-Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a group of gloomy sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
+Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a dark broterhood of gloomy sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
 The necromancers employed their arcane arts to cruelly liquidate the noble's family. Only Duke Benork survived by resisting a powerful spell of madness. Nevertheless, he was left blind.
 His best friend was a powerful Tempus cleric who came to his rescue. They both fled from the terrible necromantic magic. Aznagarb, the cleric, after taking refuge in a hidden temple in the Thornwood, provided the necessary tools for Benork's revenge, consisting basically of a divinely imbued set that only those who hated magic with all their heart could use.
 
@@ -1135,7 +1135,7 @@ Special: Protects against critical hits
 Weight: 2 lbs.~
 @200253 = ~Iris of Tempus
 
-Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a group of gloomy sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
+Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a dark broterhood of gloomy sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
 The necromancers employed their arcane arts to cruelly liquidate the noble's family. Only Duke Benork survived by resisting a powerful spell of derangement. However, he was left blind.
 His best friend was a powerful cleric of Tempus, who came to his rescue. Both fled from the terrible necromantic magic. Aznagarb, the cleric, after taking refuge in a hidden temple in the Forest of Thorns, provided the necessary tools for Benork's revenge, consisting mainly of a divinely imbued set that only those who hated magic with all their heart could use.
 
@@ -1171,7 +1171,7 @@ Weight: 3 lbs.~
 @200261 = ~A ring is a small band of precious metal that is worn as a piece of jewelry. Some uncommon rings have enchantments that confer various magical properties. These rings are highly sought after, especially by those who engage in adventures.~
 @200262 = ~Breath of Lineage
 
-Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a group of sinister sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King, and as part of their initiation rite, they needed royal blood.
+Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a dark broterhood of sinister sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King, and as part of their initiation rite, they needed royal blood.
 The necromancers used their arcane arts to cruelly liquidate the noble's family. Only Duke Benork survived by resisting a powerful spell of madness. Nevertheless, he was left blind.
 His best friend was a powerful cleric of Tempus who came to his rescue. They both fled from the terrible necromantic magic. Aznagarb, the cleric, after taking refuge in a temple hidden in the Forest of Thorns, provided the necessary tools for Benork's revenge, consisting mainly of a divinely imbued set of items that only those who hated magic with all their hearts could use.
 
@@ -1194,7 +1194,7 @@ Abilities:
 @200264 = ~Calia's Heartbeat~
 @200266 = ~Calia's Heartbeat
 
-Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a group of sinister sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King, and as part of their initiation rite, they needed royal blood.
+Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a dark broterhood of sinister sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King, and as part of their initiation rite, they needed royal blood.
 The necromancers used their arcane arts to cruelly liquidate the noble's family. Only Duke Benork survived by resisting a powerful spell of madness. Nevertheless, he was left blind.
 His best friend was a powerful cleric of Tempus who came to his rescue. They both fled from the terrible necromantic magic. Aznagarb, the cleric, after taking refuge in a temple hidden in the Forest of Thorns, provided the necessary tools for Benork's revenge, consisting mainly of a divinely imbued set of items that only those who hated magic with all their hearts could use.
 
@@ -1229,7 +1229,7 @@ Weapon Type: Two-Handed
 Requirements: 5 Strength~
 @200270 = ~Royal Avenger
 
-Benork was a forgotten duke from the North who fought to avenge the death of his family. Legend has it that a group of sinister sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King, and as part of their initiation rite, they needed royal blood.
+Benork was a forgotten duke from the North who fought to avenge the death of his family. Legend has it that a dark broterhood of sinister sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King, and as part of their initiation rite, they needed royal blood.
 The necromancers employed their arcane arts to cruelly slay the noble's family. Only Duke Benork survived by resisting a powerful enchantment. Despite this, he was left blind.
 His best friend was a powerful cleric of Tempus, who came to his rescue. They both fled from the terrible necromantic magic. Aznagarb, the cleric, after taking refuge in a hidden temple in the Thornwood Forest, provided the tools necessary for Benork's revenge, consisting mainly of a divinely imbued set of weapons that only those who hated magic with all their heart could use.
 
@@ -1359,7 +1359,7 @@ ABILITIES:
 Baba: The Nervous Mouse
 
 Baba is Bellfame's little mouse. He was responsible for stealing Kartlzer's mage ring, which indirectly allows him to be summoned by Bellfame. Although Baba does not possess a strong attack, he is slippery (although somewhat cowardly). If you can command him, he can use a powerful howl that will terrify evil enemies and protect allies.
-He has the ability to pick pockets and give stolen items to any group member, provided they can convince Baba to do so.
+He has the ability to pick pockets and give stolen items to any party member, provided they can convince Baba to do so.
 
 STATISTICS:
 
@@ -1381,7 +1381,7 @@ Pickpocket: 150
 Hide in Shadows: 150
 Detect Illusions: 150
 
-- Mad Mouse Howl: This howl, which can be used three times per summoning, deals damage and instills fear in evil enemies, as well as dispelling fear and casting a Protection from Evil spell on group members.
+- Mad Mouse Howl: This howl, which can be used three times per summoning, deals damage and instills fear in evil enemies, as well as dispelling fear and casting a Protection from Evil spell on party members.
 
 **************************
 
@@ -1507,7 +1507,7 @@ ABILITIES:
 Baba: The Nervous Mouse
 
 Baba is Bellfame's little mouse. He was responsible for stealing Kartlzer's mage ring, which indirectly allows him to be summoned by Bellfame. Although Baba does not possess a strong attack, he is slippery (although somewhat cowardly). If you can command him, he can use a powerful howl that will terrify evil enemies and protect allies.
-He has the ability to pick pockets and give stolen items to any group member, provided they can convince Baba to do so.
+He has the ability to pick pockets and give stolen items to any party member, provided they can convince Baba to do so.
 
 STATISTICS:
 
@@ -1529,7 +1529,7 @@ Pickpocket: 150
 Hide in Shadows: 150
 Detect Illusions: 150
 
-- Mad Mouse Howl: This howl, which can be used three times per summoning, deals damage and instills fear in evil enemies, as well as dispelling fear and casting a Protection from Evil spell on group members.
+- Mad Mouse Howl: This howl, which can be used three times per summoning, deals damage and instills fear in evil enemies, as well as dispelling fear and casting a Protection from Evil spell on party members.
 
 **************************
 
@@ -1588,7 +1588,7 @@ It can be used three times per summoning, deals damage and instills fear in evil
 @200292 = ~Bear's Bravery~
 @200293 = ~Bear's Bravery (Innate)
 Level: Innate
-Range: Group
+Range: Party
 Casting Time: 0
 Duration: 5 rounds
 Area of Effect: 30 meters
@@ -1830,7 +1830,7 @@ Proficiency: Quarterstaff
 Type: Two-handed~
 
 @200317 = ~Broken Shield of the Order of the Purple Dragon~
-@200318 = ~The battered fragments of the shield were in the possession of a group of humanoids who claimed to be deserters from the army of Sothillis. The metallic purple color can still be admired, although it no longer serves as a shield itself.~
+@200318 = ~The battered fragments of the shield were in the possession of a tribe of humanoids who claimed to be deserters from the army of Sothillis. The metallic purple color can still be admired, although it no longer serves as a shield itself.~
 
 
 @200321 = ~Demolisher~
@@ -2064,7 +2064,7 @@ Casting Time: 1
 Area of Effect: The caster
 Saving Throw: Negates
 
-The Cormyrean warrior surrounds himself with a aura of fear with a radius of up to 90 centimeters. All creatures and characters that enter the area of effect of the cloak must make a saving throw against spell or flee in panic for 4 rounds. The affected creatures may even drop the items they carry. Members of the group are immune to the effects.~
+The Cormyrean warrior surrounds himself with a aura of fear with a radius of up to 90 centimeters. All creatures and characters that enter the area of effect of the cloak must make a saving throw against spell or flee in panic for 4 rounds. The affected creatures may even drop the items they carry. Members of the party are immune to the effects.~
 
 // Último Esfuerzo
 
@@ -2201,7 +2201,7 @@ ABILITIES:
 Baba: The Nervous Mouse
 
 Baba is Bellfame's little mouse. He was responsible for stealing Kartlzer's mage ring, which indirectly allows him to be summoned by Bellfame. Although Baba does not possess a strong attack, he is slippery (although somewhat cowardly). If you can command him, he can use a powerful howl that will terrify evil enemies and protect allies.
-He has the ability to pick pockets and give stolen items to any group member, provided they can convince Baba to do so.
+He has the ability to pick pockets and give stolen items to any party member, provided they can convince Baba to do so.
 
 STATISTICS:
 
@@ -2223,7 +2223,7 @@ Pickpocket: 150
 Hide in Shadows: 150
 Detect Illusions: 150
 
-- Mad Mouse Howl: This howl, which can be used three times per summoning, deals damage and instills fear in evil enemies, as well as dispelling fear and casting a Protection from Evil spell on group members.
+- Mad Mouse Howl: This howl, which can be used three times per summoning, deals damage and instills fear in evil enemies, as well as dispelling fear and casting a Protection from Evil spell on party members.
 
 **************************
 
@@ -2730,11 +2730,11 @@ We came across a curious dog named Demolisher. It turned out to be Mathyus Davis
 
 @210007 = ~Dusk Aldant: The Renegades of Sothillis
 
-We returned to Mathyus Davis' hideout as Demolisher's note indicated. It was the location of the group that attacked Dusk's detachment when they were flanking Troll Hill. According to the elf, the group consists of humanoids in the Windspear Hills, located southeast of the region, near a large lake. However, Michelson warned that it was possible that it was not the original group that attacked Dusk. I guess we'll see when we find that group.~
+We returned to Mathyus Davis' hideout as Demolisher's note indicated. It was the location of the tribe that attacked Dusk's detachment when they were flanking Troll Hill. According to the elf, the tribe consists of humanoids in the Windspear Hills, located southeast of the region, near a large lake. However, Michelson warned that it was possible that it was not the original party that attacked Dusk. I guess we'll see when we find that tribe.~
 
 @210008 = ~Dusk Aldant: The Renegades of Sothillis
 
-We found the group of humanoids who were apparently responsible for the attack on Dusk's detachment. For some reason, they insisted that they were innocent, but we found that they carried a purple broken shield with the emblem of the Purple Dragons of Cormyr. Dusk didn't hesitate and attacked them.~
+We found the tribe of humanoids who were apparently responsible for the attack on Dusk's detachment. For some reason, they insisted that they were innocent, but we found that they carried a purple broken shield with the emblem of the Purple Dragons of Cormyr. Dusk didn't hesitate and attacked them.~
 
 @210009 = ~Dusk Aldant: The Renegades of Sothillis
 
@@ -2772,11 +2772,11 @@ Dusk took the orb to Mathyus and Michelson. With their help, he was able to deci
 
 @210017 = ~Dusk Aldant: The Revenge of the First Sword
 
-Demolisher appeared with a note from Mathyus Davis. Apparently, he has located the group of humanoids responsible for the attack on Dusk's detachment. Our warrior from Cormyr is certain that this is the correct target. We will gather more information when we go to the Port District, towards the hideout of the green-haired elf.~
+Demolisher appeared with a note from Mathyus Davis. Apparently, he has located the tribe of humanoids responsible for the attack on Dusk's detachment. Our warrior from Cormyr is certain that this is the correct target. We will gather more information when we go to the Port District, towards the hideout of the green-haired elf.~
 
 @210019 = ~Dusk Aldant: The Revenge of the First Sword
 
-We arrived at Mathyus' hideout and he informed us that the group responsible for the attack on Dusk's detachment is located near the Druidic Grove of the region. According to the report provided by the scout, the culprit is an orc chieftain named Alabarza. We will find him in the Troll Mound to the west of the region. Mathyus also informed us that the orc has a varied repertoire of monsters ready to defend him.~
+We arrived at Mathyus' hideout and he informed us that the clan responsible for the attack on Dusk's detachment is located near the Druidic Grove of the region. According to the report provided by the scout, the culprit is an orc chieftain named Alabarza. We will find him in the Troll Mound to the west of the region. Mathyus also informed us that the orc has a varied repertoire of monsters ready to defend him.~
 
 @210020 = ~Dusk Aldant: The Revenge of the First Sword
 
@@ -2804,7 +2804,7 @@ Finally, we have defeated Alabarza the Mutilator, along with his powerful minion
 
 @210026 = ~Dusk Aldant: The Revenge of the First Sword
 
-We arrived at Mathyus' lair, and he informed us that the group responsible for the attack on Dusk's outpost is located near the Druidic Grove in the region. According to the report provided by the scout, the responsible party is an orc chieftain named Alabarza. We will find him at the Troll Mound to the west of the region. He also informed us that the orc has a varied repertoire of monsters ready to defend him. Fortunately, Dusk will have the help of Sir Ryan Trawl and Falon and his tribe. When the time comes, a activation gem provided by Michelson will bring them to the confrontation.~
+We arrived at Mathyus' lair, and he informed us that the clan responsible for the attack on Dusk's outpost is located near the Druidic Grove in the region. According to the report provided by the scout, the responsible party is an orc chieftain named Alabarza. We will find him at the Troll Mound to the west of the region. He also informed us that the orc has a varied repertoire of monsters ready to defend him. Fortunately, Dusk will have the help of Sir Ryan Trawl and Falon and his tribe. When the time comes, a activation gem provided by Michelson will bring them to the confrontation.~
 
 @210027 = ~Dusk Aldant: The Revenge of the First Sword
 
@@ -2850,15 +2850,15 @@ We crossed paths with Kalanda, the Transmuter, in BrynnLaw. Apparently, he was w
 
 @210037 = ~Dusk Aldant: The Order of Mages
 
-We have finally met the one behind all the arcane attacks on Dusk and our group: Anthagar, the Necromancer. He claims to be the leader of a group of magi called the Forgotten Crypt, a sinister cult dedicated to the demigod Velsharoon, the Lord of Undeath. We still don't know what his ultimate goal is with us. For now, we must overcome the obstacles he puts in our way once again.~
+We have finally met the one behind all the arcane attacks on Dusk and our party: Anthagar, the Necromancer. He claims to be the leader of an order of magi called the Forgotten Crypt, a sinister cult dedicated to the demigod Velsharoon, the Lord of Undeath. We still don't know what his ultimate goal is with us. For now, we must overcome the obstacles he puts in our way once again.~
 
 @210038 = ~Dusk Aldant: The Order of Mages
 
-We have finally met the one behind all the arcane attacks on Dusk and our group: Anthagar, the Necromancer. He claims to be the leader of a group of magi called the Forgotten Crypt, a sinister cult dedicated to the demigod Velsharoon, the Lord of Undeath. We still don't know what his ultimate goal is. For now, we must survive the fateful encounter he has prepared for us, as he sees us as a threat to his future plans.~
+We have finally met the one behind all the arcane attacks on Dusk and our party: Anthagar, the Necromancer. He claims to be the leader of an order of magi called the Forgotten Crypt, a sinister cult dedicated to the demigod Velsharoon, the Lord of Undeath. We still don't know what his ultimate goal is. For now, we must survive the fateful encounter he has prepared for us, as he sees us as a threat to his future plans.~
 
 @210039 = ~Dusk Aldant: The Order of Mages
 
-Danctian has appeared from the shadows to contact us. He says he has something to offer us that will benefit the group and is related to the order of the mages of the Forgotten Crypt. Without a doubt, this is directly related to the appearance of Anthagar and the other sorcerers. For more information, we must go to the abandoned house northwest of Athkatla's Docks.~
+Danctian has appeared from the shadows to contact us. He says he has something to offer us that will benefit the party and is related to the order of the mages of the Forgotten Crypt. Without a doubt, this is directly related to the appearance of Anthagar and the other sorcerers. For more information, we must go to the abandoned house northwest of Athkatla's Docks.~
 
 @210040 = ~Dusk Aldant: The Order of Mages
 
@@ -2903,7 +2903,7 @@ Danctian, the shadow demon of Pandemonium, brought us back to Athkatla and left 
 
 @210049 = ~Dusk Aldant: The Order of Mages
 
-The Forgotten Crypt was defeated. Dusk tricked Anthagar, making him believe he would ally with him to revive Velsharun, the Demigod of Necromancy, also known as Mellifleur. The Order of Mages attacked fiercely, but despite that, we managed to win.
+The Forgotten Crypt was defeated. Dusk tricked Anthagar, making him believe he would ally with him to revive Velsharoon, the Demigod of Necromancy, also known as Mellifleur. The Order of Mages attacked fiercely, but despite that, we managed to win.
 After the victory, Danctian, the shadow demon of Pandemonium, took us to a strange wasteland where he was able to bring the spirit of Dusk's wife, Celine. There, they had one last conversation where the she-elf lamented the path her husband had taken. Dusk, despite trying to hide it, was quite shaken by her words. I am certain that this will affect his future, even if he is not aware of it.~
 
 

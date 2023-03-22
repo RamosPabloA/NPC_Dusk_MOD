@@ -14,7 +14,7 @@ unaware of the tragedy that would befall him soon..."~
 @6    = ~So... do you desire company for tonight?~
 @7    = ~Damn it, stop bothering us, lady.~
 @8    = ~No, Yoshimo... no... how could you sell your soul to this wretched being? Damn you, Yoshimo... damn you...~
-@9    = ~Are you okay? You were unconscious for a while.~
+@9    = ~Are you well? You were unconscious for a while.~
 @10   = ~I'm fine, don't worry.~
 @11   = ~My body feels strange, as if I'm not in complete control...~
 
@@ -32,12 +32,12 @@ unaware of the tragedy that would befall him soon..."~
 @27   = ~We have defeated him! But... something is not right... what's happening?~
 @28   = ~A strange vision, <CHARNAME>. Have you brought me to your personal hell? If we make it out of here alive, maybe I'll let you buy me a beer.~
 @29   = ~Ever since Waukeen's Promenade, you've left a trail of corpses in your wake, Irenicus... your selfishness and malice have blinded you completely and many innocents have paid for it. But today, we will bring justice for the fallen. Let's go, comrades, to arms!~
-@30   = ~Can't sleep? Not surprising. The things that have happened lately... wait, are you okay? Your face just went pale all of a sudden.~
+@30   = ~Can't sleep? Not surprising. The things that have happened lately... wait, are you well? Your face just went pale all of a sudden.~
 @31   = ~Something is happening inside me... Run!~
 @32   = ~Dusk, I think I'm transforming again...~
 @33   = ~Get out of here, now!~
 @34   = ~I... I don't understand... are you trying to tell me something?~ [P_Dusk18]
-@35   = ~<CHARNAME>... are you okay? This time, I thought you wouldn't return to normal...~
+@35   = ~<CHARNAME>... are you well? This time, I thought you wouldn't return to normal...~
 @36   = ~Don't worry... I'm sure we'll find some solution to this... maybe... maybe you should learn to control this power... Although, I don't know if that's advisable. Something tells me you would attract... unwanted attention.~
 
 @37  = ~Stupid elves... we have lived through a torment in the Underdark... only to come across this undeserved mistrust...~
@@ -128,7 +128,7 @@ unaware of the tragedy that would befall him soon..."~
 @96   = ~I don't think they're responsible for this mystery, <CHARNAME>. Hunting them down without them having done anything wrong would be a mistake. I think it's better if we keep investigating.~
 @97   = ~It's odd... but I feel a strange nostalgia just looking at them... They're beautiful creatures. You did the right thing by setting them free, <CHARNAME>. They belong in the forest. And to freedom.~
 @98   = ~I'm more and more convinced, my friend, that your divine lineage isn't such a well-kept secret...~
-@99   = ~The girl isn't lacking in courage, <CHARNAME>. I think she'd be a good addition to the group. However, I also understand if you decide not to risk her neck on this venture.~
+@99   = ~The girl isn't lacking in courage, <CHARNAME>. I think she'd be a good addition to the party. However, I also understand if you decide not to risk her neck on this venture.~
 
 
 @103  = ~Clearly, this guy is not all there.~
@@ -385,7 +385,7 @@ But, anyway...~
 @236  = ~I tell you, <CHARNAME>, if you had met her, you would have liked her. She was almost as stubborn as you.~
 
 @237  = ~Really? No one is more obstinate than me, Dusk.~
-@238  = ~I'm sure of that, my friend. A ranger is always useful in an adventuring group.~
+@238  = ~I'm sure of that, my friend. A ranger is always useful in an adventuring party.~
 
 @239  = ~*smiling* It's true...~
 @240  = ~Continuing my story, I got to the part where I told her about my mission in Tethyr. And she decided it was time for me to meet the elven tribe of Shilmista.~
@@ -409,7 +409,7 @@ But, anyway...~
 @255  = ~They also repaired my chainmail, although they didn't restore the emblem of the Purple Dragon; instead, they left some elvish symbols on it and the color of my people's Order remained: a kind of combination of both nations.~
 @256  = ~At that moment, I felt proud. In some way, I had been accepted among the elves.~
 @257  = ~And it was then, that the next morning, Celine and I set out for Tethyr.~
-@258  = ~ I knew little of the vicissitudes that awaited us on the way... although... although not everything was bad. After all... she was with me... always...~
+@258  = ~I knew little of the vicissitudes that awaited us on the way... although... although not everything was bad. After all... she was with me... always...~
 @259  = ~I think... I think I should stop here, <CHARNAME>. It would be better if we continue.~
 
 @539  = ~Celine was the one who intervened so that I could meet that... celebrity.~
@@ -515,7 +515,7 @@ But, anyway...~
 @300  = ~I was... too honest... and I think that... sealed my fate...~
 
 @301  = ~What do you mean, Dusk? You're still with me. How can you say that your fate is already written?~
-@302  = ~Explain yourself, man... Are you hiding something that will endanger our group? I will not tolerate foolishness.~
+@302  = ~Explain yourself, man... Are you hiding something that will endanger our party? I will not tolerate foolishness.~
 
 @303  = ~You don't have to worry, <CHARNAME>. Neither I, nor you, nor any of your allies are in danger because of what I'm about to tell you... You may understand someday... but today is not the day I must explain my fate to you.~
 
@@ -781,7 +781,7 @@ But, anyway...~
 @473  = ~What one does for love... Please, Dusk, continue.~
 
 @474  = ~...~
-@475  = ~After a few days, we arrived at Trinity. Elbereth provided a group of warriors and explorers as an escort, but I demanded that they stay outside the Ruins. If I didn't come out within a few hours, they were ordered to march back to Shilmista.~
+@475  = ~After a few days, we arrived at Trinity. Elbereth provided a band of warriors and explorers as an escort, but I demanded that they stay outside the Ruins. If I didn't come out within a few hours, they were ordered to march back to Shilmista.~
 @476  = ~I entered what must have been the royal hall of the castle. Once it would have been splendid in the sunlight, and surely enjoyed happiness and harmony... But now... it was nothing more than the skeleton of a dark and malevolent structure.~
 @477  = ~Silence reigned in every corner and shadows seemed to lurk around any living presence that entered those chambers.~
 @478  = ~In that place, the moonlight ceased to exist as black clouds reigned relentlessly. The darkness there is eternal, with no respite or break in pace...~
@@ -904,7 +904,7 @@ Dusk has managed to resolve the conflict without bloodshed. Although he couldn't
 @3007  = ~So be it, Mathyus. It shouldn't be that hard to bring him back, right?~
 @3008  = ~What do you mean? Don't tell me...~
 @3009  = ~I wish, <CHARNAME>. Michelson loves pranks. Mathyus 'caught' him from the start using a joke.~
-@3010  = ~ So much so that Michelson dyed his hair to his favorite color (using magic).~
+@3010  = ~So much so that Michelson dyed his hair to his favorite color (using magic).~
 @3011  = ~You deserve it for letting him get away. You're supposed to take care of him, Mathyus.~
 @3012  = ~As soon as we can, <CHARNAME>, we should look for Michelson. He may not seem like it, but I assure you he can be an important ally for the cause.~
 @3013  = ~Excellent, <CHARNAME>. Let's get going.~
@@ -970,7 +970,7 @@ Dusk has managed to resolve the conflict without bloodshed. Although he couldn't
 @3065  = ~Demolisher? He doesn't seem that demolishing to me.~
 @3066  = ~He belongs to Mathyus? I'm not surprised.~
 @3067  = ~What brings you here, Demoli? Let me see this note...~
-@3068  = ~ "Dear Dusk, we have found a lead on the attacks on your detachment. It's best you come as soon as possible. 
+@3068  = ~"Dear Dusk, we have found a lead on the attacks on your detachment. It's best you come as soon as possible. 
 Sincerely, 
 Mathyus, the powerful guardian elf of Shilmista."~
 @3069  = ~<CHARNAME>, we should head to the Athkatla's Docks and see Mathyus right away.~
@@ -988,7 +988,7 @@ Mathyus, the powerful guardian elf of Shilmista."~
 @3078  = ~Mathyus, have you finally been able to find them?~
 @3079  = ~Excellent, Mathyus... excellent...~
 @3080  = ~Dusk, I think it's time you told us what all this is about.~
-@3081  = ~This is related to your old soldier group, isn't it?~
+@3081  = ~This is related to your old soldier brotherhood, isn't it?~
 @3082  = ~<CHARNAME>, I'm sorry I kept you in the dark about this matter.~
 @3083  = ~When we arrived in these lands from the north, my detachment and I were attacked by waves of orcs and hill trolls. I must have mentioned this to you, haven't I?~
 @3084  = ~All... all of my companions were slain in battle by these horrid creatures...~
@@ -1005,7 +1005,7 @@ Mathyus, the powerful guardian elf of Shilmista."~
 @3094  = ~I saw it clearly, a long time ago, in my mind... humanoids carrying Cormyr artifacts, as if it were a trophy.~
 @3095  = ~It hasn't been long since I entrusted this search to Mathyus... that means they are relatively close to Athkatla, <CHARNAME>.~
 @3096  = ~What we have to do is clear: we must hunt down these creatures. I will give justice to my fallen comrades.~
-@3097  = ~Mathyus, we've talked about it already. Now, as you promised me... give me the location of this group.~
+@3097  = ~Mathyus, we've talked about it already. Now, as you promised me... give me the location of this tribe.~
 
 @3099  = ~hank you, Mathyus... really.~
 @3100  = ~Don't worry, friend. <CHARNAME> travels with me... and I count on their advice in difficult times.~
@@ -1030,18 +1030,18 @@ Mathyus, the powerful guardian elf of Shilmista."~
 
 @3117  = ~<CHARNAME>, Forgive me to put the weight of the final decision on you... but my heart doesn't allow my mind to decide clearly on the matter. What do you think about it?~
 @3118  = ~Argh! Minsc gets confused in these situations. However, Boo thinks that not everything should end in combat, good Dusk.~
-@3119  = ~W-well... I think this group isn't evil, Dusk. I-think you should give them a chance... Even, help them.~
+@3119  = ~W-well... I think this tribe isn't evil, Dusk. I-think you should give them a chance... Even, help them.~
 @3120  = ~Sometimes it's wise to share the responsibility of a decision, young Dusk. I think you're doing the right thing by trusting the judgment of your companions.~
 @3121  = ~Well, if you ask me, Dusk... I would try to avoid conflict if possible. But I don't reject a brawl either.~
-@3122  = ~I've faced many humanoids, Dusk. And, certainly, none have been like this group. I find it hard to believe that they orchestrated an attack against a Cormyr detachment.~
+@3122  = ~I've faced many humanoids, Dusk. And, certainly, none have been like this tribe. I find it hard to believe that they orchestrated an attack against a Cormyr detachment.~
 @3123  = ~They don't seem like opponents worthy of our attention... However, I think they shouldn't be free. A good judge in Athkatla would have already sentenced them to the stake.~
 @3124  = ~Firsthand, I have bad experience dealing with humanoids... But, Dusk... these creatures don't seem violent.~
-@3125  = ~Dusk, I understand that you want to avenge your comrades in arms... but keep in mind, that this group may not be responsible for such attack.~
-@3126  = ~Nature indicates the innate violence in many humanoids, Dusk. But I can't see that in this group. It may be that, in the end, they were not responsible for such attack.~
-@3127  = ~I know very well what it's like to be judged by a corrupt group, Dusk. I don't want to believe that ours fits into that classification. Don't let hate cloud your judgment, my friend.~
+@3125  = ~Dusk, I understand that you want to avenge your comrades in arms... but keep in mind, that this tribe may not be responsible for such attack.~
+@3126  = ~Nature indicates the innate violence in many humanoids, Dusk. But I can't see that in this tribe. It may be that, in the end, they were not responsible for such attack.~
+@3127  = ~I know very well what it's like to be judged by a corrupt clan, Dusk. I don't want to believe that ours fits into that classification. Don't let hate cloud your judgment, my friend.~
 @3128  = ~Abbil, I know very well what it's like to be judged only by your race. Judged by the vile rivvil... And I believe, Dusk, that you're not like the rest of the rivvil.~
-@3129  = ~Well, if you ask me (something you haven't done yet, but you can't expect less from a group of primates), I'd say we fry them with magic. The humanoids of Sothillis don't deserve to live in the world of men.~
-@3130  = ~Hmpf... Did ye say something, scrawny? Just say the magic word and Korgan will take care of this pathetic group of orcs. My axe also longs for it.~
+@3129  = ~Well, if you ask me (something you haven't done yet, but you can't expect less from a party of primates), I'd say we fry them with magic. The humanoids of Sothillis don't deserve to live in the world of men.~
+@3130  = ~Hmpf... Did ye say something, scrawny? Just say the magic word and Korgan will take care of this pathetic band of orcs. My axe also longs for it.~
 
 @3131  = ~This reminds me of a situation my uncle Gerhardt experienced. The poor gnome had been accused of stealing an entire farm of pheasants. Rumors suggested that my uncle planned to build an army of pheasants and raid different turnip farms throughout Faerûn. After a few days, a detachment of guards came to my house. Fortunately, they were able to refute the vile rumors about Gerhardt. As retaliation, he planned to build an army of ferrets in the following months to make the rumors come true. I still don't know what came of that plan. But it certainly had its potential.~
 @3132  = ~Well, well, the white canary is in some kind of discrepancy with its desires. I would say: don't think too much. Dance a bit and let your feet decide your fate (and theirs too).~
@@ -1074,7 +1074,7 @@ Mathyus, the powerful guardian elf of Shilmista."~
 @3158  = ~*whisper* What...?~
 @3159  = ~...~
 @3160  = ~<CHARNAME>... I'm sorry...~
-@3161  = ~And you're right, Dusk. Your business has led a group of psychopaths to discover my identity.~
+@3161  = ~And you're right, Dusk. Your business has led a clan of psychopaths to discover my identity.~
 @3162  = ~Don't worry, Dusk. It's not like it's such a well-kept secret at this point.~
 @3163  = ~I'll try to make it up to you... with my life if possible...~
 @3164  = ~However... you can't understand the hatred that fills my heart...~
@@ -1092,7 +1092,7 @@ Mathyus, the powerful guardian elf of Shilmista."~
 @3174  = ~Sir Ryan Trawl, on behalf of Cormyr, it is a pleasure to greet you.~
 @3175  = ~With our party, we have been able to locate several renegade humanoids from the Sothillis empire. Their chieftain seeks to live in peace, away from the war that his former boss has provoked.~
 @3176  = ~Well... after talking with them, I promised to find them a home here in Amn. I know I am asking for a lot, but I believe I have helped the city in the past as much as I could. All I seek is an opportunity...~
-@3177  = ~They are not a violent group, not even numerous, my lord. If they were under the protection of the Order, I believe they would be useful in the war being waged against the Sothillis empire.~
+@3177  = ~They are not a violent tribe, not even numerous, my lord. If they were under the protection of the Order, I believe they would be useful in the war being waged against the Sothillis empire.~
 @3178  = ~I think they could provide vital information about the ogre army, my lord. They may even fight on your side if asked to do so. As long as they are promised a home here in Amn.~
 @3179  = ~Gratitude, Sir Ryan. I am sure that <CHARNAME> will be up to whatever you require of him.~ ~Gratitude, Sir Ryan. I am sure that <CHARNAME> will be up to whatever you require of her.~
 @3180  = ~Sir Ryan, now that the matter of the fallen paladins has been resolved...~
@@ -1112,7 +1112,7 @@ Mathyus, the powerful guardian elf of Shilmista."~
 
 
 @3194  = ~I'm sure our paths will cross again someday, friends. In the meantime, I'll visit you in the Temple District when I can.~
-@3195  = ~We found the group of humanoids, Mathyus. The information provided by Demolisher was accurate.~
+@3195  = ~We found the tribe of humanoids, Mathyus. The information provided by Demolisher was accurate.~
 @3196  = ~However, they weren't responsible for the attack on my detachment...~
 @3197  = ~That's right... as we speak, their blood feeds the soil of Windspear Hills.~
 @3198  = ~They were deserters from the Sothillis Empire. They deserved their final fate, Mathyus.~
@@ -1137,7 +1137,7 @@ Mathyus, the powerful guardian elf of Shilmista."~
 @3215  = ~It's over...~
 @3216  = ~What are you looking at?~
 @3217  = ~Dusk? By Candlekeep, you look vastly different.~
-@3218  = ~Dusk, are you okay? You've... changed.~
+@3218  = ~Dusk, are you well? You've... changed.~
 @3219  = ~I've never felt so alive...~
 @3220  = ~Mathyus... you still have a mission to find the true culprits behind the attack on my detachment, understood?~
 @3221  = ~And this time... I won't tolerate any failures. Do you understand me?~
@@ -1147,7 +1147,7 @@ Mathyus, the powerful guardian elf of Shilmista."~
 @3225  = ~Who do you think you are, mate? I'll do as I please when it pleases me.~
 @3226  = ~That's what I like to hear...~
 @3227  = ~Very well, <CHARNAME>... keep that killer rage... I'm sure it will be useful to us in the not too distant future...~
-@3228  = ~That's right... The group turned out to be deserters from the Sothillis Empire. They were fleeing south when we found them.~
+@3228  = ~That's right... The tribe turned out to be deserters from the Sothillis Empire. They were fleeing south when we found them.~
 
 @3230  = ~After a brief conversation, and through the intervention of <CHARNAME>, I decided they would be safer in Athkatla.~
 @3231  = ~I went to the Noble Order of the Radiant Heart and Sir Ryan Trawl gave them a home in their barracks.~
@@ -1179,7 +1179,7 @@ Mathyus, the powerful guardian elf of Shilmista."~
 @3254  = ~My little friend Michelson mentioned something about a disruption in time. I didn't think such a thing was possible.~
 @3255  = ~The world of magic has the ability to alter time and space.~
 @3256  = ~In my confrontation with Kartlzer's detachment, my druidic magic collided with the arcane magic of their sorcerer.~
-@3257  = ~The ring that your group now possesses was the conductor of that event... I don't think I can explain exactly what happened...~
+@3257  = ~The ring that your fellowship now possesses was the conductor of that event... I don't think I can explain exactly what happened...~
 @3258  = ~Well... whatever it was, your story in the Forest of Mir has not happened yet. That confuses me...~
 @3259  = ~You don't need to understand everything around you, mortal. Sometimes, things... just happen.~
 @3261  = ~It is true that I am a mortal, nymph... but my friends call me Dusk. You can call me that too.~
@@ -1236,7 +1236,7 @@ The powerful shilmist elf."~
 @3307  = ~What's going on, Mathyus? You can tell me anything. I won't lose my composure.~
 @3308  = ~I understand...~
 @3309  = ~What's going on, Dusk?~
-@3310  = ~Would you mind sharing with the rest of the group, mate?~
+@3310  = ~Would you mind sharing with the rest of the band, mate?~
 @3311  = ~Alabarza has renamed their clan because they accomplished the feat of killing several warriors from the Order of the Purple Dragon.~
 @3312  = ~Oh... I see...~
 @3313  = ~Bastard! I can imagine the hate that must be running inside you, Dusk.~
@@ -1407,7 +1407,7 @@ The powerful shilmist elf."~
 // JOURNAL ENTRIES
 @210007 = ~Dusk Aldant: The Renegades of Sothillis
 
-We returned to Mathyus Davis' hideout as Demolisher's note indicated. It was the location of the group that attacked Dusk's detachment when they were flanking Troll Hill. According to the elf, the group consists of humanoids in the Windspear Hills, located southeast of the region, near a large lake. However, Michelson warned that it was possible that it was not the original group that attacked Dusk. I guess we'll see when we find that group.~
+We returned to Mathyus Davis' hideout as Demolisher's note indicated. It was the location of the tribe that attacked Dusk's detachment when they were flanking Troll Hill. According to the elf, the tribe consists of humanoids in the Windspear Hills, located southeast of the region, near a large lake. However, Michelson warned that it was possible that it was not the original party that attacked Dusk. I guess we'll see when we find that tribe.~
 
 
 @210010 = ~Dusk Aldant: The Renegades of Sothillis
@@ -1440,7 +1440,7 @@ Dusk took the orb to Mathyus and Michelson. With their help, he was able to deci
 
 @210019 = ~Dusk Aldant: The Revenge of the First Sword
 
-We arrived at Mathyus' hideout and he informed us that the group responsible for the attack on Dusk's detachment is located near the Druidic Grove of the region. According to the report provided by the scout, the culprit is an orc chieftain named Alabarza. We will find him in the Troll Mound to the west of the region. Mathyus also informed us that the orc has a varied repertoire of monsters ready to defend him.~
+We arrived at Mathyus' hideout and he informed us that the clan responsible for the attack on Dusk's detachment is located near the Druidic Grove of the region. According to the report provided by the scout, the culprit is an orc chieftain named Alabarza. We will find him in the Troll Mound to the west of the region. Mathyus also informed us that the orc has a varied repertoire of monsters ready to defend him.~
 
 @210021 = ~Dusk Aldant: The Revenge of the First Sword
 
@@ -1456,7 +1456,7 @@ We found Alabarza's lair. However, we fell into a trap, where several minion mon
 
 @210026 = ~Dusk Aldant: The Revenge of the First Sword
 
-We arrived at Mathyus' lair, and he informed us that the group responsible for the attack on Dusk's outpost is located near the Druidic Grove in the region. According to the report provided by the scout, the responsible party is an orc chieftain named Alabarza. We will find him at the Troll Mound to the west of the region. He also informed us that the orc has a varied repertoire of monsters ready to defend him. Fortunately, Dusk will have the help of Sir Ryan Trawl and Falon and his tribe. When the time comes, a activation gem provided by Michelson will bring them to the confrontation.~
+We arrived at Mathyus' lair, and he informed us that the clan responsible for the attack on Dusk's outpost is located near the Druidic Grove in the region. According to the report provided by the scout, the responsible party is an orc chieftain named Alabarza. We will find him at the Troll Mound to the west of the region. He also informed us that the orc has a varied repertoire of monsters ready to defend him. Fortunately, Dusk will have the help of Sir Ryan Trawl and Falon and his tribe. When the time comes, a activation gem provided by Michelson will bring them to the confrontation.~
 
 
 @210033 = ~Dusk Aldant: The Revenge of the First Sword
@@ -1473,12 +1473,12 @@ We crossed paths with Kalanda, the Transmuter, in BrynnLaw. Apparently, he was w
 
 @210037 = ~Dusk Aldant: The Order of Mages
 
-We have finally met the one behind all the arcane attacks on Dusk and our group: Anthagar, the Necromancer. He claims to be the leader of a group of magi called the Forgotten Crypt, a sinister cult dedicated to the demigod Velsharoon, the Lord of Undeath. We still don't know what his ultimate goal is with us. For now, we must overcome the obstacles he puts in our way once again.~
+We have finally met the one behind all the arcane attacks on Dusk and our party: Anthagar, the Necromancer. He claims to be the leader of an order of magi called the Forgotten Crypt, a sinister cult dedicated to the demigod Velsharoon, the Lord of Undeath. We still don't know what his ultimate goal is with us. For now, we must overcome the obstacles he puts in our way once again.~
 
 @210038 = ~Dusk Aldant: The Order of Mages
 
-We have finally met the one behind all the arcane attacks on Dusk and our group: Anthagar, the Necromancer. He claims to be the leader of a group of magi called the Forgotten Crypt, a sinister cult dedicated to the demigod Velsharoon, the Lord of Undeath. We still don't know what his ultimate goal is. For now, we must survive the fateful encounter he has prepared for us, as he sees us as a threat to his future plans.~
+We have finally met the one behind all the arcane attacks on Dusk and our party: Anthagar, the Necromancer. He claims to be the leader of an order of magi called the Forgotten Crypt, a sinister cult dedicated to the demigod Velsharoon, the Lord of Undeath. We still don't know what his ultimate goal is. For now, we must survive the fateful encounter he has prepared for us, as he sees us as a threat to his future plans.~
 
 @210039 = ~Dusk Aldant: The Order of Mages
 
-Danctian has appeared from the shadows to contact us. He says he has something to offer us that will benefit the group and is related to the order of the mages of the Forgotten Crypt. Without a doubt, this is directly related to the appearance of Anthagar and the other sorcerers. For more information, we must go to the abandoned house northwest of Athkatla's Docks.~
+Danctian has appeared from the shadows to contact us. He says he has something to offer us that will benefit the party and is related to the order of the mages of the Forgotten Crypt. Without a doubt, this is directly related to the appearance of Anthagar and the other sorcerers. For more information, we must go to the abandoned house northwest of Athkatla's Docks.~

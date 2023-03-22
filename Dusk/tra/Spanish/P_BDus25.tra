@@ -43,6 +43,8 @@
 @135  = ~¿Respuesta?~
 @136  = ~Eres un hombre de pocas palabras, Sarevok. Pero sé reconocer cuándo un hombre está en busca de algo. Quizás, acompañando a <CHARNAME>, lo encuentres.~
 
+
+
 // SAREVOK - EVIL
 
 @137  = ~Tu aura... No proviene de este plano. ¿Qué eres?~
@@ -57,3 +59,4 @@
 @146  = ~*suspiro* Eso ahora quedó en el pasado. Sólo quiero atestiguar estos tiempos. <CHARNAME> será protagonista y estaré a su lado para ver cómo termina esta historia.~
 @147  = ~Un sentimiento que acompañaré, si me es posible. Nuestros enemigos no tendrán ninguna oportunidad.~
 @148  = ~Tú lo has dicho...~
+
