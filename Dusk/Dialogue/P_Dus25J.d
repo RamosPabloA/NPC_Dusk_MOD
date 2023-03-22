@@ -72,10 +72,6 @@ I_C_T BALTH 17 P_DuskBalth17
 == P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @55 /* Así que ella estaba detrás de todo... Rayos... */
 END
 
-// Watcher's Keep interjections are tricky. If we're visiting it in SoA, we should have interjections with Dusk's SoA dialogue file, and in ToB - with ToB one. Fortunately, we can do both, we just need to check if Chapter>7 for ToB.
-
-// Watcher's Keep interjections, ToB
-
 I_C_T GORODR1 11 P_DuskMetKnightsOfTheVigil1
 == P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%) Global("P_Dusk_IS_EVIL_TOB","GLOBAL",0)~ THEN @56 /* No creo que sea casualidad que suceda justo cuando arribamos, <CHARNAME>. Debemos tener cuidado. */
 END
@@ -101,9 +97,7 @@ I_C_T GORODR1 35 P_DuskOdrenFoolishness2
 == P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%) Global("P_Dusk_IS_EVIL_TOB","GLOBAL",0)~ THEN @7 /* Un engaño nada digno de Helm, clérigo... No estoy seguro de que debamos dejar pasar algo así... */
 END
 
-// Same lines, different dialogue file - P_DuskJ, if Chapter<8(SoA). We're compiling all Watcher's Keep interjection in this ToB file, so all of them are together here.
-
-// Watcher's Keep interjections, SoA
+// SoA
 
 I_C_T GORODR1 11 P_DuskMetKnightsOfTheVigil2
 == P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%) Global("P_Dusk_IS_EVIL_TOB","GLOBAL",0)~ THEN @56 /* No creo que sea casualidad que suceda justo cuando arribamos, <CHARNAME>. Debemos tener cuidado. */
