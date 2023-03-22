@@ -43,7 +43,7 @@
 
 @35 = ~*Michelson, absolutely concentrated, has the ingredients in front of him. Out of nowhere, he begins a delirious movement with his hands. Thus begins the construction process*~
 
-@36 = ~*Michelson dances and greets the group while tap dancing and laughing.*~ [P_Mich00]
+@36 = ~*Michelson dances and greets the party while tap dancing and laughing.*~ [P_Mich00]
 
 @37 = ~*Michelson is dancing as if there's no tomorrow. He seems to be in a meditative trance at the same time. If you want something from him, you'll have to talk to Mathyus first*~ [P_Mich01]
 @38 = ~*Michelson, surprisingly recovered, dances and approaches Dusk, lifting the heavy plate armor with great difficulty*~ [P_Mich00]
@@ -103,7 +103,7 @@
 @87 = ~Certainly, Sir Ryan. More precisely in the Docks.~
 @88 = ~I understand... and why have you brought us here?~
 @89 = ~<CHARNAME> and I are going to face an orc clan that has recently arrived in Amn. They are only a few hours away from the city...~
-@90 = ~It's a group led by an orc who orchestrated the attack on my detachment, Sir Ryan.~
+@90 = ~It's a clan led by an orc who orchestrated the attack on my detachment, Sir Ryan.~
 @91 = ~I see... It's the orc for which you almost attacked me and my tribe, isn't it?~
 @92 = ~Verily, Falon. Their forces have increased considerably and <CHARNAME> and I may not be enough.~
 @93 = ~Hmm... and do you think it's a danger to the city, Dusk?~
@@ -140,7 +140,7 @@ The powerful shilmist elf."~
 @121 = ~*He seems about to burst into tears when you place your hand on his shoulder, not knowing what to say*~
 @122 = ~*With nothing more to "say", Michelson points to the letter written by Mathyus, which you read just moments ago*~
 @123 = ~*You think it means you should go back to Mathyus and inform him of what has happened*~
-@124 = ~*Immediately, Michelson begins his purification ritual, and you feel that you should not interrupt him. Instead, you see strange clouds surround you and your group. When you least expect it, you find yourself outside the Mound and back in a familiar place...*~
+@124 = ~*Immediately, Michelson begins his purification ritual, and you feel that you should not interrupt him. Instead, you see strange clouds surround you and your party. When you least expect it, you find yourself outside the Mound and back in a familiar place...*~
 @125 = ~Thank you for reading the note, <CHARNAME>. Michelson! It's always a pleasure to see you.~
 @126 = ~*Michelson smiles and dances upon seeing Dusk alive*~ [P_Mich03]
 @127 = ~You can carry out your ritual, my friend. We will come back to Mathyus and inform him of what has happened here.~
@@ -168,4 +168,4 @@ He also gave us a book of formulas for forging powerful artifacts, provided by M
 
 @210026 = ~Dusk Aldant: The Revenge of the First Sword
 
-We arrived at Mathyus' lair, and he informed us that the group responsible for the attack on Dusk's outpost is located near the Druidic Grove in the region. According to the report provided by the scout, the responsible party is an orc chieftain named Alabarza. We will find him at the Troll Mound to the west of the region. He also informed us that the orc has a varied repertoire of monsters ready to defend him. Fortunately, Dusk will have the help of Sir Ryan Trawl and Falon and his tribe. When the time comes, a activation gem provided by Michelson will bring them to the confrontation.~
+We arrived at Mathyus' lair, and he informed us that the clan responsible for the attack on Dusk's outpost is located near the Druidic Grove in the region. According to the report provided by the scout, the responsible party is an orc chieftain named Alabarza. We will find him at the Troll Mound to the west of the region. He also informed us that the orc has a varied repertoire of monsters ready to defend him. Fortunately, Dusk will have the help of Sir Ryan Trawl and Falon and his tribe. When the time comes, a activation gem provided by Michelson will bring them to the confrontation.~

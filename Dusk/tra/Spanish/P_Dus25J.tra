@@ -20,9 +20,9 @@
 @55   = ~Así que ella estaba detrás de todo... Rayos...~
 @56   = ~No creo que sea casualidad que suceda justo cuando arribamos, <CHARNAME>. Debemos tener cuidado.~
 @57   = ~¿Confiaremos en las blasfemias de un demonio? Aunque... no sé si tengamos muchas más opciones...~
-@58   = ~ A mí tampoco... lo que narra esta pequeña inmundicia tiene sentido. La mayoría terminan ebrios de poder y eso los lleva a su perdición.~
+@58   = ~A mí tampoco... lo que narra esta pequeña inmundicia tiene sentido. La mayoría terminan ebrios de poder y eso los lleva a su perdición.~
 @60   = ~¡<CHARNAME>! Estad atento. Aquí existe una... fuerza sobrenatural... antigua y casi arcana. No entiendo por qué no podemos verla... pero está aquí...~
-@61   = ~You betrayed us! <CHARNAME>, if you wish to kill these craven cowards now, just say the word.~
+@61   = ~Cobarde. Deberíamos acabar con él, <CHARNAME>. La venganza lo dicta~
 @7    = ~Un engaño nada digno de Helm, clérigo... No estoy seguro de que debamos dejar pasar algo así...~
 // ToB Conversations
 
@@ -49,8 +49,8 @@
 @85   = ~No lo sé, Dusk. El plan original de ser mercader en Athkatla suena como una apuesta más segura.~
 
 @87   = ~No lo sé, <CHARNAME>. Extraño mi hogar... pero mi honor ha sido mancillado al no ser capaz de proteger a mis soldados.~
-@88   = ~Debí caer con mis hermanos de armas cuando fuimos emboscados en la Colina de los Trolls.~
-@89   = ~¿Tú lo crees así? A decir verdad, no suena nada mal, ¿verdad? Estoy... cansado de transitar en la senda de la venganza.~
+@88   = ~Debí caer con mis hermanos de armas cuando fuimos emboscados en la Llanura Gigante.~
+@89   = ~¿Tú lo crees así? A decir verdad, no suena nada mal, ¿verdad? Estoy... cansado de transitar en la senda de la batalla.~
 @90   = ~Tus palabras siempre son un aliento al corazón, <CHARNAME>. Has aclarado mi perturbada mente.~
 @91   = ~Vamos... tu destino nos aguarda.~
 @92   = ~Debí... haber caído en muchas ocasiones... Pero aquí estoy: al lado de un semidios.~ ~Debí... haber caído en muchas ocasiones... Pero aquí estoy: al lado de una semidiosa.~

@@ -6,7 +6,7 @@
 
 @3 = ~Greetings, <CHARNAME>. It's been so long.~
 
-@4 = ~I see you've brought an interesting group of... characters.~
+@4 = ~I see you've brought an interesting entourage of... characters.~
 @5 = ~Greetings, <CHARNAME>. It's a pleasure to meet you. Anyone who is a friend of Lord Aldant is a friend of mine.~
 @6 = ~It's a pleasure, Mathyus.~ 
 @7 = ~It's a little soon to call us friends, don't you think?~
@@ -292,7 +292,7 @@
 @255 = ~Wow... this is too much... But do you believe him, Dusk?~
 @256 = ~Well... strangely, yes. Alabarza had nothing to lose by revealing this information... they were... his last moments...~
 @257 = ~I see...~
-@258 = ~*Michelson, with an unusual level of excitement, points to the box the group is carrying*~ [P_Mich03]
+@258 = ~*Michelson, with an unusual level of excitement, points to the box the party is carrying*~ [P_Mich03]
 @259 = ~Ah, this? It's the cargo we brought from Cormyr, Michelson. We retrieved it after defeating Alabarza at the Mound.~
 @260 = ~*The leprechaun receives the large box with some difficulty. He then proceeds to inspect it with great enthusiasm*~
 @261 = ~This is interesting, Dusk. At first glance, nothing here seems useful. But Michelson says he can salvage much of the repertoire, using some of his personal items and, of course, his leprechaun power.~
@@ -374,7 +374,7 @@
 @328 = ~Mathyus... I think you should listen to Michelson and Demolisher. You know what's coming...~
 @329 = ~I-I don't understand, Dusk... What do you mean?~
 @330 = ~During our raid on Alabarza's lair, we encountered a Conjurer named Valatar.~
-@331 = ~The bastard seemed to be part of the Order of Mages that made us kill the humanoid group in the Windspear Hills.~
+@331 = ~The bastard seemed to be part of the Order of Mages that made us kill the humanoid tribe in the Windspear Hills.~
 @332 = ~After exchanging some... words, the wizard summoned an abyssal demon to test our strength.~
 @333 = ~When the demon was defeated, I felt a clear voice within me... something I had perceived before, when I took the power of the Scarlet Orb.~
 @334 = ~At that time, that voice seemed distant and almost incomprehensible. Almost as if it were not a voice, but a picture. A canvas wrought with crimson hues and shrouded in obsidian gloom. An artist's stroke, a masterpiece of blood and darkness, in full bloom.~
@@ -526,7 +526,7 @@ Anthagar."~
 @468 = ~Dusk, your sword... it's glowing incessantly.~
 
 @469 = ~It's... changing...~
-@470 = ~*Michelson notices the symbol of Velsharun rising from his belongings. After a few seconds, it disappears, exploding with emerald and blue lights, a dazzling display of radiant hues.*~
+@470 = ~*Michelson notices the symbol of Velsharoon rising from his belongings. After a few seconds, it disappears, exploding with emerald and blue lights, a dazzling display of radiant hues.*~
 @471 = ~Lux has absorbed the symbol of Velsharoon...~
 @472 = ~Lux Triumphans...~
 @473 = ~What did you say?~

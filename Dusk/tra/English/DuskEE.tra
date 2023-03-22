@@ -1,120 +1,120 @@
 // DORN 1
 
-@0    = ~Eres un ser extraño, Dusk. He llegado a preguntarme acerca de tus habilidades naturales.~
-@1    = ~¿Te refieres a la resistencia mágica?~
-@2    = ~Ajá... tus habilidades en el campo de batalla no son la gran cosa. Sin embargo, me llama la atención que un humano pueda obtener dicha... característica.~
-@3    = ~Bueno... pues... es algo que se logra con mucho entrenamiento... y sobretodo: dolor.~
-@4    = ~Interesante. Quizás podamos hablar de esto más adelante.~
-@5    = ~Quizás, Dorn.... quizás...~
+@0    = ~You're a strange being, Dusk. I've come to wonder about your natural abilities.~
+@1    = ~Are you referring to my magical resistance?~
+@2    = ~Hmm... your skills on the battlefield aren't anything special. However, I'm intrigued that a human can possess such a... characteristic.~
+@3    = ~Well... it's something that is achieved through a lot of training... and most importantly: pain.~
+@4    = ~Interesting. Perhaps we can discuss this further later on.~
+@5    = ~Perhaps, Dorn.... perhaps...~
 
 // DORN 2
 
-@6    = ~Tus habilidades en combate son increíbles, Dorn. Tu sed por sangre, también lo es. A decir verdad, asusta un poco.~
-@7    = ~Clamar por sangre es algo natural para los Guardias Negros, Dusk.~
-@8    = ~¿No te cansas de ello?, ¿no ansías una vida de paz?~
-@9    = ~¿Paz? Eso es sólo un cuento, muchacho. La guerra es mucho más atractiva. El universo está en completo caos, todo el tiempo.~
-@10   = ~Puede que así lo sea... Es algo desesperanzador, ¿no lo crees?~
-@11   = ~La verdad suele serlo. No tiene por qué agradarte.~
+@6    = ~Your combat skills are incredible, Dorn. Your thirst for blood is as well. Truth be told, it's a bit scary.~
+@7    = ~Yearning for blood is natural for the Blackguards, Dusk.~
+@8    = ~Don't you get tired of it? Don't you long for a life of peace?~
+@9    = ~Peace? That's just a story, boy. War is much more attractive. The universe is in complete chaos, all the time.~
+@10   = ~It may be so... It's rather hopeless, don't you think?~
+@11   = ~The truth often is. It doesn't have to please you.~
 
 
 // DORN TOB
 
-@17   = ~Has avanzado mucho como guerrero, humano.~
-@18   = ~Gracias, supongo.~
-@19   = ~Tienes suerte de que estemos del mismo lado de la vereda.~
-@20   = ~No estoy seguro de que por estar en el mismo grupo, quiera decir que estamos en la "misma vereda".~
-@21   = ~¡Ja! Es verdad... Tus ideales cormyreanos ciertamente son algo a erradicar.~
-@22   = ~Vaya, la amabilidad se ha acabado rápido, ¿eh?~
-@23   = ~Estoy siendo amable, muchacho. Deberías apreciarlo.~
-@24   = ~Tienes razón... ¡Qué rudo de mi parte!~
+@17   = ~You've come a long way as a warrior, human.~
+@18   = ~Thank you, I suppose.~
+@19   = ~You're lucky we're on the same side of the path.~
+@20   = ~I'm not sure being in the same party means we're on the 'same path'.~
+@21   = ~Ha! True... Your Cormyrean ideals are certainly something to be eradicated.~
+@22   = ~Wow, the kindness ended quickly, huh?~
+@23   = ~I am still being kind, boy. You should appreciate it.~
+@24   = ~Verily... How rude of me!~
 
 // HEXXAT
 
-@25   = ~¿Qué sucede, Dusk? Te ves incómodo... ¿Acaso... es mi presencia?~
-@26   = ~Los muertos vivientes han sido mis enemigos naturales durante mucho tiempo. Que no haga nada al respecto con tu... "presencia", es sólo debido a mi respeto por <CHARNAME>.~
-@27   = ~Una lástima... me gustaría ver de qué eres capaz...~
-@28   = ~No tientes a tu suerte, demonio...~
+@25   = ~What's wrong, Dusk? You look uncomfortable... Is it my presence?~
+@26   = ~Undead have been my natural enemies for a long time. That I don't do anything about it with your... "presence", is only due to my respect for <CHARNAME>.~
+@27   = ~A shame... I'd like to see what you're capable of...~
+@28   = ~Don't tempt your luck, demon...~
 
 // HEXXAT TOB
 
-@29   = ~¿Y, Dusk? Aún no te has acostumbrado a mí, ¿verdad?~
-@30   = ~Claramente no, Hexxat.~
-@31   = ~Vaya... al menos has dicho mi nombre... Claramente es un avance.~
+@29   = ~And, Dusk? You still haven't gotten used to me, have you?~
+@30   = ~Clearly not, Hexxat.~
+@31   = ~Wow... at least you said my name... Clearly, it's progress.~
 
 // NEERA 1
 
-@32   = ~Debo decir que me sorprendes, Neera.~
-@33   = ~*ejem* ¿Qué? No me digas... ¿qué hice ahora?~
-@34   = ~Oh, nada, es sólo una expresión, nada en concreto.~
-@35   = ~¡Dusk! Está mal andar asustando a la gente, ¿sabes?~
-@36   = ~Bueno, no era mi intención, yo--~
-@37   = ~¿Y bien? Soy sorprendente (eso ya lo sabía), pero ¿por qué lo has dicho?~
-@38   = ~Bueno, lo cierto es que soy bastante reacio a compartir el camino con un usuario mágico.~
-@39   = ~No digas, Dusk. Verte interrumpir conjuros ajenos con tu bastón no me ha hecho sospechar para nada.~
-@40   = ~Sí, bueno--~
-@41   = ~Ni tampoco he sospechado cuando has cercenado las manos de chamanes trasgos u orcos con tu espada bastarda. No, para nada.~
-@42   = ~*carraspeo* Entiendo tu punto...~
-@43   = ~Y yo te soy sorprendente porque no soy alguien que es claramente malvado o que merezca la ira de tu venganza y--~
-@44   = ~¡Ya, ya! *suspiro* Oh, hum, parece ser que <CHARNAME> me está llamando.~
-@12   = ~¿En serio? No he escuchado nada.~
-@13   = ~Sí, bueno, ya sabes cómo se pone cuando no le hacen caso. Hablaremos en otra ocasión, ¿sí?~
-@14   = ~¡De acuerdo, Dusk! Siempre es un placer hablar contigo.~
-@15   = ~Hm, sí... lo mismo... digo...~
+@32   = ~I must say, you amaze me, Neera.~
+@33   = ~*ahem* what? Don't tell me... what did I do now?~
+@34   = ~Oh, nothing, it's just an expression, nothing specific.~
+@35   = ~Dusk! It's not right to go around scaring people, you know?~
+@36   = ~Well, it wasn't my intention, I--~
+@37   = ~So, what's up? I'm amazing (I already knew that), but why did you say that?~
+@38   = ~Well, the truth is, I'm rather reluctant to travel with a magic user.~
+@39   = ~Don't say, Dusk. Seeing you interrupting other people's spells with your staff didn't make me suspect anything at all.~
+@40   = ~Yes, well--~
+@41   = ~Nor did I suspect anything when you hacked off the hands of goblin or orc shamans with your bastard sword. No, not at all.~
+@42   = ~*clears throat* I see your point...~
+@43   = ~And I'm amazing to you because I'm not someone who is clearly evil or deserving of your wrath and--~
+@44   = ~Yes, yes! *sigh* Oh, um, it seems like <CHARNAME> is calling me.~
+@12   = ~Really? I haven't heard anything.~
+@13   = ~Yeah, well, you know how he gets when he's ignored. We'll talk some other time, yes?~ ~Yeah, well, you know how she gets when she's ignored. We'll talk some other time, yes?~
+@14   = ~Alright, Dusk! It's always a pleasure talking with you.~
+@15   = ~Hm, yes... same here...~
 
 
 // NEERA TOB
 
-@62   = ~Neera, no estoy seguro de que necesite tus conjuros de protección.~ 
-@63   = ~¿Por qué lo dices, Dusk?~
-@64   = ~Hm... pues, a veces siento... efectos secundarios al cabo de un tiempo.~
-@65   = ~Oh, no me digas que has comenzado a oler como una vaca.~
-@66   = ~¿Cómo una qué? No, no es eso. A veces, mi voz suena algo... diferente. Como si de un gnomo afónico se tratase.~
-@67   = ~Ha, ya veo. ¿Por eso es que me ignorabas el otro día cuando te pedía que compartieras tus galletas?~
-@68   = ~Ehm... *carraspeo* Sí, así es.~
-@69   = ~Bueno, Dusk. Lo lamento. Pero a veces, en el fragor del combate, una se olvida que puede lanzar un conjuro de área.~
-@70   = ~Ya veo... *susurro* Entonces, seguirá sucediendo... Rayos...~
+@62   = ~Neera, I'm not sure I need your protection spells.~ 
+@63   = ~Why do you say that, Dusk?~
+@64   = ~Hm... well, sometimes I feel... side effects after a while.~
+@65   = ~Oh, don't tell me you started to smell like a cow.~
+@66   = ~Like a what? No, it's not that. Sometimes, my voice sounds... different. Like that of a hoarse gnome.~
+@67   = ~Ha, I see. Is that why you ignored me the other day when I asked you to share your cookies?~
+@68   = ~Ehm... *coughs* Yeah, that's it.~
+@69   = ~Well, Dusk. I'm sorry. But sometimes, in the heat of battle, one forgets that they can cast an area spell.~
+@70   = ~I see... (Then it will continue to happen... Damn it...)~
 
 // RASSAD 1
 
-@71   = ~Debo decirlo, Rasaad: admiro mucho tu valor al sólo usar tus manos y pies como armas.~
-@72   = ~Gracias, Dusk. Tantos años de entrenamiento han rendido frutos.~
-@73   = ~Así es. La voluntad, el compromiso... son valores que pocos hombres son capaces de mantener.~
-@74   = ~No podríamos ser los guerreros que somos si no fuésemos capaces de poseer dichas aptitudes. Pero sabes que eso no es todo lo que se necesita, ¿verdad?~
-@75   = ~Lo sé... también está el propósito... algo que te lleve hacia adelante.~
-@76   = ~Veo que nos entendemos, Dusk.~
-@77   = ~Así es, Rasaad. Es un placer luchar al lado de alguien como tú.~
+@71   = ~I must say, Rasaad, I admire your courage to only use your hands and feet as weapons.~
+@72   = ~Thank you, Dusk. Many years of training have paid off.~
+@73   = ~Verily. Willpower, commitment... these are values that few men are capable of maintaining.~
+@74   = ~We couldn't be the warriors we are if we didn't possess these abilities. But you know that's not all that's needed, right?~
+@75   = ~I know... there's also purpose... something to drive you forward.~
+@76   = ~I see that we understand each other, Dusk.~
+@77   = ~Indeed, Rasaad. It's a pleasure to fight alongside someone like you.~
 
 // RASSAD 2
 
 @78   = ~Tu voluntad de seguir adelante es de hierro... me refiero a tu hermano, Rasaad.~
-@79   = ~Gr-gracias, supongo. Dusk, creo que tú también sigues por alguien que ha caído, ¿no es verdad?~
-@80   = ~Pues... sí... el recuerdo de los que ya no están me hacen seguir adelante...~
-@81   = ~Yo también. Los muertos nos observan... y debemos rendir homenaje a su memoria.~
-@82   = ~Aunque... debo admitir... que a veces cuestiono el propósito de la venganza... Las cosas que uno es capaz de hacer...~
-@83   = ~A veces no te deja dormir, ¿eso ibas a decir?~
-@84   = ~Me entiendes a la perfección, amigo mío. Sigamos adelante... el futuro nos espera.~
+@79   = ~Th-thank you, I guess. Dusk, I think you're also continuing for someone who has fallen, right?~
+@80   = ~Well... yes... the memories of those who are no longer with us keep me going...~
+@81   = ~Me too. The dead are watching us... and we must honor their memory.~
+@82   = ~Although... I must admit... sometimes I question the purpose of revenge... The things one is capable of doing...~
+@83   = ~Sometimes it keeps you up at night, is that what you were going to say?~
+@84   = ~You understand me perfectly, my friend. Let's keep going... the future awaits us.~
 
 // RASSAD TOB
 
-@93   = ~¿Qué opinas de nuestras aventuras, Rasaad?~
-@94   = ~¿Te refieres a los parajes a los que nos ha llevado <CHARNAME>?~
-@95   = ~Pues, sí.~
-@96   = ~Ciertamente la senda del engendro de Bhaal va más allá de mi comprensión. Después de todo, soy un simple mortal.~
-@97   = ~Lo entiendo, pero yo me refería a lo físico. ¿No crees que es extraño el Plano de Bhaal al que nos lleva a descansar?~
-@98   = ~Ciertamente... aunque uno llega a acostumbrarse.~
-@99   = ~¡Eso mismo iba a decir! Uno llega a tomarle cariño incluso.~
-@100  = ~*Ríe* Bueno, no sé si lo diría de esa forma. *carraspeo* Dusk, <CHARNAME> nos está mirando feo. Será mejor que continuemos el viaje.~
+@93   = ~What do you think of our adventures, Rasaad?~
+@94   = ~Do you mean the places that <CHARNAME> has taken us to?~
+@95   = ~Well, yes.~
+@96   = ~Certainly the path of the Bhaalspawn goes beyond my understanding. After all, I am just a mortal.~
+@97   = ~I understand that, but I was referring to the physical aspect. Don't you think it's strange the Bhaal plane we're taken to for rest?~
+@98   = ~Certainly... although one gets used to it.~
+@99   = ~That's exactly what I was going to say! One even grows fond of it.~
+@100  = ~*laughs* Well, I'm not sure I'd put it that way. *coughs* Dusk, <CHARNAME> is giving us a dirty look. We better continue our journey.~
 
 // WILSON
 
-@199  = ~(Wilson mueve sus orejas, demostrando confusión ante el chiste de <CHARNAME>)~ [BBEAR04]
-@201  = ~(Gruñido, resoplido)~ [BBEAR04]
-@202  = ~¿Qué dices, Wilson? ¿Quieres devorarte a la gnoll?~
-@203  = ~*gruñido* Será mejor que calmes a tu pulgoso amigo, soldado.~
-@204  = ~(Gruñido, lamento)~ [BBEAR09]
-@205  = ~Tranquilo, Wilson, tranquilo... aguarda un instante... en tan sólo un momento veremos cómo se resuelve esto...~
-@206  = ~(Gruñido) (Ves cómo Wilson muestra los dientes a Niber)~ [BBEAR02]
-@207  = ~Rayos, Wilson. *Mira para todos lados* Por favor, no vayas a comerte a este individuo.~
-@208  = ~(Lamento) (Ves cómo Wilson baja sus orejas, visiblemente asustado, aunque no entiendes por qué)~ [BBEAR09]
-@209  = ~(Gruñido) (Claramente, Wilson estaría más que dispuesto a devorarse a Saemon)~ [BBEAR08]
-@210  = ~(Bufido) (Al parecer, Wilson parece incrédulo al ver el frío recibimiento de los elfos)~ [BBEAR04]
+@199  = ~(Wilson moves his ears, showing confusion at <CHARNAME>'s joke)~ [BBEAR04]
+@201  = ~(Growling, snorting)~ [BBEAR04]
+@202  = ~What do you say, Wilson? Do you want to devour the gnoll?~
+@203  = ~*growling* You better calm down your hairy friend, soldier.~
+@204  = ~(Growling, whining)~ [BBEAR09]
+@205  = ~Easy, Wilson, easy... wait a moment... in just a moment we will see how this resolves...~
+@206  = ~(Growling) (You see Wilson showing his teeth to Niber)~ [BBEAR02]
+@207  = ~Darn it, Wilson. *Looks around* Please don't eat this commoner.~
+@208  = ~(Whining) (You see Wilson lowering his ears, visibly scared, although you don't understand why)~ [BBEAR09]
+@209  = ~(Growling) (Clearly, Wilson would be more than willing to devour Saemon)~ [BBEAR08]
+@210  = ~(Snorting) (Apparently, Wilson seems incredulous at the cold reception from the elves)~ [BBEAR04]
