@@ -1850,8 +1850,8 @@ SAY PICKED_POCKET @51 /* Vaya... le he robado... */
 SAY HIDDEN_IN_SHADOWS @41 /* Shhh... ahora estoy en las sombras... */
 SAY SET_A_TRAP @50 /* *risa* La trampa... ha sido puesta. */
 SAY BIO @38 /* Cuando preguntas por su pasado, Dusk queda un instante pensativo. Dice provenir de una orgullosa familia real, cuya sangre guerrera siempre combatió a los malvados nigromantes de Netheril, incluyendo al peligroso Aumvor. Dusk dice no estar seguro de la veracidad de ciertas narraciones que le contaron cuando era sólo un niño, pero está seguro de su odio natural por los liches. Dice que te acompañará siempre y cuando esté la promesa de que podrá enfrentarse, algún día, contra lo que él considera sus enemigos naturales. */
-WRITE_ASCII 0x248 ~P_Dus25S~ #8  // override script where you put all the commands for lovetalks and such.
-WRITE_ASCII 0x2cc ~P_Dusk25~ #8  // dialogue file where we'll put Dusk's greeting dialogue for ToB, if you summon her via Fate Spirit.
+WRITE_ASCII 0x248 ~P_Dus25S~ #8 
+WRITE_ASCII 0x2cc ~P_Dusk25~ #8 
 WRITE_ASCII 0x280 ~P_Dusk~   #32 // death variable - con esta variable reconocemos al pj mediante scripts y dlg
 WRITE_ASCII 0X34  ~DuskS~  #8  // small portrait
 WRITE_ASCII 0x3c  ~DuskM~  #8  // medium portrait
@@ -1861,13 +1861,15 @@ COPY ~Dusk/Characters/DuskS.bmp~ ~override/DuskS.bmp~
 END
 
 
-COMPILE EVALUATE_BUFFER ~Dusk/Dialogue/P_BDus25.d~  // All Dusk's ToB banters with other party members will go here. Again, we use 25, because it's a tradution for ToB. Again, "EVALUATE_BUFFER" because of the chapter numbers
-	~Dusk/Dialogue/P_Dusk25.d~  // Dusk's ToB greeting dialogue will go here.
-	~Dusk/Dialogue/P_Dus25J.d~  // The rest of Dusk's ToB dialogue: her commentary, interjections, talks with the player, lovetalks and everything else.
-	~Dusk/Dialogue/P_Dus25P.d~  // Dusk's ToB leaving party dialogue will go here.
+COMPILE EVALUATE_BUFFER ~Dusk/Dialogue/P_BDus25.d~
 
-	~Dusk/Scripts/P_Dus25S.baf~ // Dusk's script for ToB.
-	~Dusk/Scripts/P_Dus25D.baf~ // Dusk's dream script for ToB.
+	~Dusk/Dialogue/AMTGEN01.d~
+	~Dusk/Dialogue/P_Dusk25.d~
+	~Dusk/Dialogue/P_Dus25J.d~
+	~Dusk/Dialogue/P_Dus25P.d~
+
+	~Dusk/Scripts/P_Dus25S.baf~ 
+	~Dusk/Scripts/P_Dus25D.baf~
 
 // Baldur's Gate 2: Enhanced Edition
 ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
