@@ -1,5 +1,15 @@
 BEGIN P_Dus25J
 
+IF ~~ THEN BEGIN 100 // from:
+  SAY @20000 /* ~Pero, ¿qué diantres--?~ */
+IF ~~ THEN GOTO 101
+END
+
+IF ~~ THEN BEGIN 101 // from:
+  SAY @20008 /* ~*suspiro*~ */
+IF ~~ THEN EXIT
+END
+
 // Volo
 
 EXTEND_TOP SARVOLO 9 #2
@@ -24,17 +34,25 @@ CHAIN SARVOLO P_DuskVoloBio3
 EXTERN SARVOLO 9
 
 
+
 I_C_T FINSOL01 27 P_DuskSolarFriend1
 == P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) !Global("P_DuskRomanceActive","GLOBAL",2)~ THEN @5 /* Confío en que harás lo que debas hacer con el nuevo poder que has de adquirir, <CHARNAME>. Nadie lo merece más que tú. */
 END
 
-// se eliminan líneas de romance
+I_C_T P_Dus25J 100 P_DuskTethyrEVIL1
+== P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)~ THEN @20001 /* ¿Quién te crees que eres, mequetrefe? Lo sabía, <CHARNAME>. La 'realeza' de Tethyr muestra sus hilos. */
+== P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)~ THEN @20002 /* Dime, pequeño hombre, ¿acaso Zaranda y Jédrak ya no participan en sus propias luchas? Sería interesante verlos en el campo de batalla... */
+== AMTGEN01 IF ~~ THEN @20003 /* ¡Canalla! ¿Cómo te atreves a mancillar los nombres de nuestros regentes con tu sucia boca? ¡Soldados, acaben con ellos! */
+END 
 
-// se eliminan líneas de Gorion's Wraith
+I_C_T P_Dus25J 100 P_DuskTethyrGOOD_NEUTRAL1
+== P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL_TOB","GLOBAL",0)~ THEN @20004 /* ¡Por Cormyr! <CHARNAME> no ha sido culpable de la destrucción de Saradush. ¡Ha sido obra de los Gigantes de Fuego! */
+== AMTGEN01 IF ~~ THEN @20005 /* Se sabe que los Engrendros de Bhaal trabajan juntos para la conquista de esta tierra. <CHARNAME> es descendiente de Bhaal... da igual lo que digas, cormyreano. */
+== P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)~ THEN @20006 /* Rayos... *susurro* Parece que no tenemos otra opción más que enfrentarnos a ellos, <CHARNAME>. No quería llegar a esto... los tezhyrianos son aliados de Cormyr... */
+== P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)~ THEN @20007 /* Puede... puede que cuando todo esto termine, los lazos puedan ser reforjados... */
+END
 
-// se eliminan líneas para P_DuskG APPEND
 
-// Various non-essential interjection for ToB.
 
 I_C_T AMMERC02 1 P_DuskSaemonMet11
 == P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @46 /* Otra vez este depravado... ¿no crees que es hora de darle una lección, <CHARNAME>? */
