@@ -1,5 +1,6 @@
 IF
 Global("P_DuskMatMission3","GLOBAL",6)
+
 THEN
   RESPONSE #100
   SetGlobal("P_DuskMatMission3","GLOBAL",7)
@@ -8,6 +9,7 @@ END
 
 IF
 Global("P_DuskMatMission3","GLOBAL",8)
+Global("p_OrcGroupSpawn","GLOBAL",1)
 Global("P_DuskAlabarzaBeforeAtt","GLOBAL",0)
 THEN
   RESPONSE #100

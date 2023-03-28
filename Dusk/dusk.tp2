@@ -229,7 +229,7 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Scripts/p_alabar.baf~
 	~Dusk/Scripts/p_alaba2.baf~
 	~Dusk/Scripts/p_dancti.baf~
-	//~Dusk/Scripts/p_demole.baf~
+	~Dusk/Scripts/p_demole.baf~
 	//~Dusk/Scripts/p_cutmi1.baf~
 	~Dusk/Scripts/p_kaland.baf~
 	~Dusk/Scripts/p_mephit.baf~

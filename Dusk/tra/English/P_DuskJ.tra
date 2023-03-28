@@ -333,18 +333,18 @@ unaware of the tragedy that would befall him soon..."~
 @210  = ~Immediately we exchanged names. She was Celine of Shilmista, the forest in which we found ourselves.~
 
 // cotinúa en 214
-@211  = ~Shilmista. Creo que he oído hablar de ese lugar. También es conocido como el Bosque de las Sombras.~
+@211  = ~Shilmista. I think I've heard of that place. It's also known as the Forest of Shadows.~
 // termina en 213
-@212  = ~(bostezo) ¿Esto va para largo? Las historias de romance me aburren. Mejor resúmelo, Dusk.~
+@212  = ~*yawn* Is this gonna be long? Romantic stories bore me. Just give me the summary, Dusk.~
 
 // viene de 212 y termina 
-@213  = ~¿Un… resumen? Pues… diría que, al cabo de un tiempo, Celine decidió ayudarme en mi misión de llevar la paz entre Tethyr y Amn. ¿Te gusta ese resumen, <CHARNAME>? (Rayos, a veces puede ser todo un insolente)~ ~¿Un… resumen? Pues… diría que, al cabo de un tiempo, Celine decidió ayudarme en mi misión de llevar la paz entre Tethyr y Amn. ¿Te gusta ese resumen, <CHARNAME>? (Rayos, a veces puede ser toda una insolente)~
+@213  = ~The... summary? Well... I'd say that, after a while, Celine decided to help me in my mission to bring peace between Tethyr and Amn. Do you like that summary, <CHARNAME>? (Darn, sometimes he can be such an insolent little brat)~ ~The... summary? Well... I'd say that, after a while, Celine decided to help me in my mission to bring peace between Tethyr and Amn. Do you like that summary, <CHARNAME>? (Darn, sometimes she can be such an insolent little brat)~
 // viene de 211 y continúa
-@214  = ~Así es, <CHARNAME>. Los elfos de Shilmista son bastante recelosos de los forasteros. Y no los culpo, pues hace pocos años tuvieron inconvenientes con muertos vivientes y demonios que provenían, misteriosamente, del Norte.~
-@215  = ~Habría sido comprensible que me hubieran dejado a mi propia suerte, pues, a fin de cuentas, atraje a un pequeño grupo de trolls a la entrada del bosque.~
-@216  = ~Para mi fortuna, fue Celine la que me encontró.~
-@217  = ~Ella no era como el resto de su tribu (a la que llegaría a conocer en un futuro). Ella sentía una gran curiosidad por el mundo exterior.~
-@218  = ~El emblema de mi armadura, el del Dragón Púrpura, le llamó mucho la atención. Había oído decenas de historias acerca de los Caballeros de Cormyr. Creo que, en parte, fue por ese emblema que decidió salvarme.~
+@214  = ~Indeed, <CHARNAME>. The elves of Shilmista are pretty suspicious of outsiders. And I don't blame them, because just a few years ago they had some trouble with undead and demons that mysteriously came from the North.~
+@215  = ~It would have been understandable if they had left me to my fate, since I had attracted a small group of trolls to the entrance of the forest.~
+@216  = ~Fortunately for me, it was Celine who found me.~
+@217  = ~She wasn't like the rest of her tribe (whom I would come to know in the future). She had a great curiosity about the outside world.~
+@218  = ~The emblem on my armor, that of the Purple Dragon, caught her attention. She had heard dozens of stories about the Knights of Cormyr. I think, in part, it was because of that emblem that she decided to save me.~
 
 @219  = ~You sound somewhat nostalgic when you talk about her.~
 
@@ -595,7 +595,7 @@ But, anyway...~
 // **********************************************
 // P_Dusk_T9
 
-@569  = ~Hold not your breath for it., <CHARNAME>. Era sólo una excusa para seguir con mi historia.~
+@569  = ~Hold not your breath for it., <CHARNAME>. It was just an excuse to continue with my story.~
 
 @3379  = ~*coughs* Well, Dusk. I wasn't expecting you to be so blunt.~
 @339  = ~Is that a proposition, Dusk? I didn't expect you to be so daring. *laughs*~

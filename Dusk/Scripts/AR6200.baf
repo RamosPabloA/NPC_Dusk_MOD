@@ -78,3 +78,33 @@ TextScreen("P_Dus05")
 SmallWait(1)
 Continue()
 END
+
+// Epílogo 6 -> Evil Dusk - Sothillis's Hunter
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Dusk")
+Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)
+Global("P_Dusk_EVIL_REDEMPTION","GLOBAL",0)
+Global("P_DuskBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskBio","GLOBAL",1)
+TextScreen("P_Dus06")
+SmallWait(1)
+Continue()
+END
+
+// Epílogo 7 -> Evil Dusk - Dusk Redemption
+IF
+Global("StartEndBios","AR6200",1)
+InParty("P_Dusk")
+Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)
+Global("P_Dusk_EVIL_REDEMPTION","GLOBAL",1)
+Global("P_DuskBio","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_DuskBio","GLOBAL",1)
+TextScreen("P_Dus07")
+SmallWait(1)
+Continue()
+END
