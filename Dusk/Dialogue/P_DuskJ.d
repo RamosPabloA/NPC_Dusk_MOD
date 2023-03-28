@@ -1194,7 +1194,7 @@ IF ~Global ("P_Dusk_2ndTDemole","GLOBAL",2)
     Global ("P_DUSK_IS_GOOD","GLOBAL",0) 
     ~ THEN BEGIN 219 // from:
   SAY @3262 /* ~Demoledor... confío en que tu interrupción sólo se deba a novedades sobre la misión que encomendé a tu maestro.~ */
-  IF ~~ THEN DO ~SetGlobal ("P_Dusk_2ndTDemole","GLOBAL",3)~ EXTERN ~p_demole~ 13
+  IF ~~ THEN DO ~SetGlobal ("P_Dusk_2ndTDemole","GLOBAL",3)~ EXTERN ~p_demole~ 24
 END
 
 // GOOD
@@ -1202,7 +1202,7 @@ IF ~Global ("P_Dusk_2ndTDemole","GLOBAL",2)
 	Global ("P_DUSK_IS_GOOD","GLOBAL",1) 
     ~ THEN BEGIN 220 // from:
   SAY @3263 /* ~¡Demole! Me alegra verte. Imagino que te envía Matyhus. ¿Hay novedades?~ */
-  IF ~~ THEN DO ~SetGlobal ("P_Dusk_2ndTDemole","GLOBAL",3)~ EXTERN ~p_demole~ 13
+  IF ~~ THEN DO ~SetGlobal ("P_Dusk_2ndTDemole","GLOBAL",3)~ EXTERN ~p_demole~ 24
 END
 
 IF ~~ THEN BEGIN 221 // from:
@@ -1748,7 +1748,7 @@ END
 
 IF ~Global ("P_Dusk_3rdTDemole","GLOBAL",2) Global("P_Dusk_IS_GOOD","GLOBAL",1) Global ("P_Dusk_DemoleDISM","GLOBAL",0)~ THEN BEGIN 317 // from:
   SAY @3407 /* ~¡Demole! Amigo, es un gran placer verte de nuevo.~ */
-  IF ~~ THEN DO ~SetGlobal("P_Dusk_DemoleDISM","GLOBAL",1)~ EXTERN ~P_DEMOLE~ 19
+  IF ~~ THEN DO ~SetGlobal("P_Dusk_DemoleDISM","GLOBAL",1)~ EXTERN ~P_DEMOLE~ 27
 END
 
 IF ~~ THEN BEGIN 318 // from:

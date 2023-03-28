@@ -42,10 +42,13 @@ El poderoso elfo de Shilmista."~
 @34 = ~(Demoledor se rasca las orejas al escuchar la palabra pulga, como si recordara que una le está molestando justo en este momento)~
 @35 = ~Está bien, Dusk. Simplemente recuerda de lo que es capaz Anthagar. Sus seguidores son peligrosos y pueden suponer una amenaza inminente para Amn y Tethyr.~
 @36 = ~Demoledor, ve y dile a Mathyus que iremos en el momento en que <CHARNAME> quiera. *susurro* Si es que en algún momento quire ir...~
-@37 = ~~
-@38 = ~~
-@39 = ~~
-
+@37 = ~(Sin que te des cuenta, una presencia canina aparece de la nada. Se trata de nada más y nada menos que de Demoledor)~
+// 3262 y 3263
+@38 = ~Demoledor... confío en que tu interrupción sólo se deba a novedades sobre la misión que encomendé a tu maestro.~
+@39 = ~¡Demole! Me alegra verte. Imagino que te envía Matyhus. ¿Hay novedades?~
+// 3407
+@40 = ~(De la nada, percibes una presencia conocida cerca tuyo. Cuando te das vuelta, ves a Demoledor meneando su cola a una anti-velocidad sobrenatural)~
+@41 = ~¡Demole! Amigo, es un gran placer verte de nuevo.~
 
 
 

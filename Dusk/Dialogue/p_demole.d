@@ -31,7 +31,8 @@ IF ~~ THEN BEGIN 4 // from:
   ~ UNSOLVED_JOURNAL @210006 EXIT
 END
 
-IF ~Global ("P_Dusk_Demole_Enc1","GLOBAL",3)~ THEN BEGIN 5 // from:
+IF ~Global ("P_Dusk_Demole_Enc1","GLOBAL",3)
+Global ("P_Dusk_Demole_Enc2","GLOBAL",0)~ THEN BEGIN 5 // from:
   SAY @5 /* ~(Demoledor tarda unos segundos en darse cuenta de tu presencia. Cuando finalmente te ve, comienza a mover la cola lentamente y a ladrar. Asumes que está saludándote)~ */
   IF ~~ THEN DO ~~ EXIT
 END
@@ -77,12 +78,28 @@ IF ~~ THEN BEGIN 12 // from:
 END
 
 //// MISSION 3
-
+// EVIL
 IF ~ InParty("P_Dusk")
 See("P_Dusk")
 !StateCheck("P_Dusk",STATE_SLEEPING)
 Global ("P_Dusk_Demole_Enc2","GLOBAL",1)
-~ THEN BEGIN 13 // from:
+Global ("P_DUSK_IS_GOOD","GLOBAL",0) 
+~ THEN BEGIN 25 // from:
+  SAY @37 /* ~(Sin que te des cuenta, una presencia canina aparece de la nada. Se trata de nada más y nada menos que de Demoledor)~ */
+  IF ~~ THEN EXTERN ~P_DUSKJ~ 219 //GOTO 24
+END
+// GOOD
+IF ~ InParty("P_Dusk")
+See("P_Dusk")
+!StateCheck("P_Dusk",STATE_SLEEPING)
+Global ("P_Dusk_Demole_Enc2","GLOBAL",1)
+Global ("P_DUSK_IS_GOOD","GLOBAL",1) 
+~ THEN BEGIN 26 // from:
+  SAY @37 /* ~(Sin que te des cuenta, una presencia canina aparece de la nada. Se trata de nada más y nada menos que de Demoledor)~ */
+  IF ~~ THEN EXTERN ~P_DUSKJ~ 220 //GOTO 24
+END
+
+IF ~~ THEN BEGIN 24 // from:
   SAY @12 /* ~(Demoledor ladra, como es de esperar, a su manera particular. Trae en su collar una nota)~ */
   IF ~~ THEN DO ~SetGlobal ("P_Dusk_Demole_Enc2","GLOBAL",2)
   SetGlobal("P_DuskMatMission3","GLOBAL",1)
@@ -127,6 +144,12 @@ See("P_Dusk")
 Global ("P_Dusk_3rdTDemole","GLOBAL",2)
 Global("P_DuskDemoleMISSION","GLOBAL",0)
 ~ THEN BEGIN 19 // from:
+  SAY @40 /* ~(De la nada, percibes una presencia conocida cerca tuyo. Cuando te das vuelta, ves a Demoledor meneando su cola a una anti-velocidad sobrenatural)~ */
+  IF ~~ THEN EXTERN ~P_DUSKJ~ 317
+END
+
+
+IF ~~ THEN BEGIN 27 // from:
   SAY @18 /* ~(Demoledor, a su manera habitual, ladra. Te sorprende ver cómo mueve la cola de un lado a otro con una lentitud casi antinatural)~ */
   IF ~~ THEN DO ~SetGlobal("P_DuskDemoleMISSION","GLOBAL",1)
   SetGlobal ("P_Dusk_3rdTDemole","GLOBAL",2) SetGlobal("P_Dusk_DemoleDISM","GLOBAL",1)
@@ -158,10 +181,26 @@ IF ~~ THEN BEGIN 23 // from:
   IF ~~ GOTO 22
 END
 
+IF ~Global ("P_Dusk_Demole_Enc1","GLOBAL",3)
+OR (2)
+Global ("P_Dusk_Demole_Enc2","GLOBAL",2)
+Global ("P_Dusk_Demole_Enc2","GLOBAL",3)~ THEN BEGIN 5 // from:
+  SAY @5 /* ~(Demoledor tarda unos segundos en darse cuenta de tu presencia. Cuando finalmente te ve, comienza a mover la cola lentamente y a ladrar. Asumes que está saludándote)~ */
+  IF ~~ THEN DO ~~ EXIT
+END
+
+//I_C_T P_DEMOLE 19 P_Dusk_DEMOLE_FIX2
+//== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @41 /* ¡Demole! Amigo, es un gran placer verte de nuevo. */
+//END
+
+//I_C_T P_DEMOLE 13 P_Dusk_DEMOLE_FIX1
+//== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global ("P_DUSK_IS_GOOD","GLOBAL",0)~ THEN @38 /* Demoledor... confío en que tu interrupción sólo se deba a novedades sobre la misión que encomendé a tu maestro. */
+//== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global ("P_DUSK_IS_GOOD","GLOBAL",1)~ THEN @39 /* ¡Demole! Me alegra verte. Imagino que te envía Matyhus. ¿Hay novedades? */
+//END
+
 I_C_T P_DEMOLE 23 P_Dusk_GOOD_DEMOLEMF2
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @35 /* Está bien, Dusk. Simplemente recuerda de lo que es capaz Anthagar. Sus seguidores son peligrosos y pueden suponer una amenaza inminente para Amn y Tethyr. */
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @36 /* Demoledor, ve y dile a Mathyus que iremos en el momento en que <CHARNAME> quiera. *susurro* Si es que en algún momento quire ir... */
-
 END
 
 
