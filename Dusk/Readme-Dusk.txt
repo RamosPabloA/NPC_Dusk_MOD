@@ -1,5 +1,5 @@
 			Dusk NPC MOD for Baldur's Gate II
-				   Version 0.9
+				   Version 1.0
 
 Contents
 
@@ -60,20 +60,20 @@ Dusk will give you the chance to get:
 ------------------------------
 
 Q: Where is he?
-A: Dusk is in the Waukeen's Promenade of Athkatla. He'll find you after your scape from the dungeon.
-Q: But she is not there!
+A: Dusk is in the Waukeen's Promenade of Athkatla. He'll find you after your scape from Irenicus's dungeon.
+Q: But he is not there!
 A: Make sure that you have actually installed the mod. Open your game directory
 and run Setup-Dusk.exe. If this file is not there, repeat the installation
 process as described above.
 
-Q: Dusk's select/confirm sounds are all mixed up! And her name, too!
+Q: Dusk's select/confirm sounds are all mixed up! And his name, too!
 A: Select Dusk and press K key.
 
 Q: Is there a romance between Dusk and the PC?
 A: No (atleast at the moment), although you can have a friendship with him.
 
 Q: Can I install Dusk and continue playing?
-A: Sure, just quit the game before installing mods.
+A: Sure, just quit the game before installing mods. Just keep in mind that if you do it beyond Chapter 2, you may not be able to initialize their first mission.
 
 Q: Is Dusk compatible with mod X?
 A: Dusk should work fine with other mods. Install him together with other
