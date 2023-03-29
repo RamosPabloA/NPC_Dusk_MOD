@@ -104,3 +104,24 @@ THEN
     Wait(5)
     EndCutSceneMode()
 END
+
+
+IF
+  Dead("elemep01")  // ~Méfit de cieno~
+  Dead("eleoty01")  // ~Otyugh mayor~
+  NumDeadGT("elemep02",1)
+  Global("ArbiterSpawn","AR1509",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ArbiterSpawn","AR1509",1)
+    CreateCreature("ELEARB03",[397.345],E)  // ~Aparición~
+END
+
+IF
+CombatCounter(0)
+Global("ArbiterSpawn","AR1509",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ArbiterSpawn","AR1509",1)
+    CreateCreature("ELEARB03",[397.345],E)  // ~Aparición~
+END

@@ -266,12 +266,12 @@ EXTEND_TOP ~AR1509.bcs~ ~Dusk/Scripts/AR1509.baf~
 // Por lo que podremos hacer uso de dicho String para otros usos.
 STRING_SET 26258 ~Dusk~
 STRING_SET 26257 ~Jaheira! No... NOOOOooooooo!~
-STRING_SET 26259 ~Minsc! Bubú! No... NooOOOoooo!!!~
-STRING_SET 26260 ~Aerie... No... Malditos... GRAAHH!!!~
-STRING_SET 26261 ~Imoen! Demonios... Van a pagar por esto!!!~
-STRING_SET 26262 ~Korgan! Rayos... Bastardos! Van a morir por esto!!!~
+STRING_SET 26259 ~Minsc! Boo! No... NooOOOoooo!!!~
+STRING_SET 26260 ~Aerie... No... Noooo... GRAAHH!!!~
+STRING_SET 26261 ~Imoen! IMOEN... Nooo!!!~
+STRING_SET 26262 ~Korgan! Grrr... No! Noo!!!~
 STRING_SET 48700 ~Oh, Nalia... NooOOOooooo!!!~
-STRING_SET 48705 ~Valygar, amigo... No... No puede ser... Noooo!!!~
+STRING_SET 48705 ~Valygar, no... No... Noooo!!!~
 
 // Aquí agregamos las entradas que tendrá el diario. Sólo aplica para BG2EE. Para BGT con los comandos en los d files es suficiente
 ACTION_IF GAME_IS ~BG2EE eet~ BEGIN

@@ -1770,7 +1770,7 @@ END
 
 IF ~~ THEN BEGIN 248 // from:
   SAY @323 /* ~(Mathyus, con una rapidez sobrenatural, saca una flecha de su carcaj y tensa su arco) ~ */
-  IF ~~ THEN DO ~SetGlobal("P_DanctianAppear","GLOBAL",1) Kill(Myself)~ EXTERN ~P_DUSKJ~ 294
+  IF ~~ THEN DO ~SetGlobal("P_DanctianAppear","GLOBAL",1) Kill(Myself) ReallyForceSpell(Myself,ZOMBIE_SICKNESS)~ EXTERN ~P_DUSKJ~ 294
 END
 
 IF ~~ THEN BEGIN 249 // from:
@@ -2250,8 +2250,8 @@ I_C_T P_MATUT 247 P_Dusk_EVIL_ENDOFMAT1
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @334 /* ~En ese entonces, aquella voz parecía lejana y casi incomprensible. Casi como si no se tratase de una voz, sino de una imagen. Un cuadro artístico de sangre y tinieblas.~ */
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @335 /* ~Sólo cuando el corazón de ese demonio abisal se detuvo en este plano, pude comprender lo que aquella voz me decía.~ */
 == P_MATUT IF ~~ THEN @336 /* ¿D-dusk? */
-== p_michel IF ~~ THEN @337 /* (Michelson, en un sorpresivo movimiento, intenta conjurar un hechizo contra Dusk) */ DO ~Kill(Myself)~
-== p_demole IF ~~ THEN @338 /* (Demoledor, con una sopresiva agilidad, se abalanza contra Dusk) */ DO ~Kill(Myself)~
+== p_michel IF ~~ THEN @337 /* (Michelson, en un sorpresivo movimiento, intenta conjurar un hechizo contra Dusk) */ DO ~ReallyForceSpell(Myself,ZOMBIE_SICKNESS) Kill(Myself)~
+== p_demole IF ~~ THEN @338 /* (Demoledor, con una sopresiva agilidad, se abalanza contra Dusk) */ DO ~ReallyForceSpell(Myself,ZOMBIE_SICKNESS) Kill(Myself)~
 END
 
 

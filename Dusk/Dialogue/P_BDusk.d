@@ -366,7 +366,8 @@ Global("P_DuskYoshimo1","GLOBAL",0)~ THEN P_BDusk P_DuskYoshimo1
 @105 /* Odio admitirlo, Yoshimo... pero eres todo un misterio. */
 DO ~SetGlobal("P_DuskYoshimo1","GLOBAL",1)~
 == BYOSHIM @106 /* ¿Un misterio, dices? Los misterios relumbran durante el mediodía como estrellas, aunque no seas capaz de verlas por el sol. Espero que hables del buen Yoshimo con buena intención, amigo mío. */
-== P_BDusk @107 /* Oh, no pretendía ofenderte, compañero. Es sólo que percibo que sueles actuar con dudas, pese a que tu actitud demuestre lo contrario. */
+== P_BDusk IF ~Global("P_DUSK_IS_EVIL","GLOBAL",1)~ THEN @1091 /* No me interesa si te ofendo, ladrón. Percibo que sueles actuar con dudas, pese a que tu actitud demuestre lo contrario. */
+== P_BDusk IF ~Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @107 /* Oh, no pretendía ofenderte, compañero. Es sólo que percibo que sueles actuar con dudas, pese a que tu actitud demuestre lo contrario. */
 == BYOSHIM @108 /* Las dudas son algo natural, incluso en aquellos que tienen confianza en demasía. Yo mismo he visto que tú dudas, Dusk. ¿Qué es lo que opinas al respecto? */
 == P_BDusk @109 /* Ciertamente eres inteligente... intentas desviar la atención posándola en el receptor... Pero supongo que tendrás tus secretos, así como yo tengo los míos. */
 == BYOSHIM @110 /* Pues sí... todo guerrero que ha visto demasiado en el campo de batalla los tiene... y sólo a veces se desvelan en la vigilia del sueño. */
