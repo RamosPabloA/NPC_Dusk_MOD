@@ -2419,7 +2419,7 @@ END
 I_C_T MEKRAT 11 P_DuskMEKRAT11
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN 
 @90 /* No tengo quejas en realizar esta búsqueda, sin embargo, este elfo hechicero parece algo inestable... Recomendaría ir con cuidado, tanto si tenemos éxito, cómo si no. */
-== P_DuskJ IF ~~ THEN @3324 /* Tampoco tendría quejas si decidieras, de repente, que le dé un bastonazo por la cabeza. Dilo y se hará realidad. */
+== P_DuskJ IF ~InParty("P_Dusk")~ THEN @3324 /* Tampoco tendría quejas si decidieras, de repente, que le dé un bastonazo por la cabeza. Dilo y se hará realidad. */
 END
 
 I_C_T RAELIS 17 P_DuskRAELIS17
@@ -2579,10 +2579,10 @@ END
 
 I_C_T SAHKNG01 33 P_DuskSAHKNG0133
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") InMyArea("Minsc") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @116 /* Ciertamente, este hombre-pez es muy cabeza dura. Me recuerda a alguien... */
-== MINSCJ IF ~InParty("Minsc") InMyArea("Minsc")~ THEN @20026 /* Bubú pregunta, ¿por qué has mirado a Minsc cuando has dicho cabeza dura? */
-== P_DuskJ IF ~InParty("Minsc") InMyArea("Minsc")~ THEN @20027 /* (carraspeo) Oh, no, mi querido Minsc. No estaba insinuando nada. Solamente me acordé de... ehm... un amigo, llamado... Munsc. Sí, eso es. */
-== MINSCJ IF ~InParty("Minsc") InMyArea("Minsc")~ THEN @20028 /* ¿Munsc? ¡Qué gran nombre! De seguro debe ser buen amigo tuyo, Dusk. */
-== P_DuskJ IF ~InParty("Minsc") InMyArea("Minsc")~ @20029 /* De los mejores. */
+== MINSCJ IF ~InParty("P_Dusk") InParty("Minsc") InMyArea("Minsc")~ THEN @20026 /* Bubú pregunta, ¿por qué has mirado a Minsc cuando has dicho cabeza dura? */
+== P_DuskJ IF ~InParty("P_Dusk") InParty("Minsc") InMyArea("Minsc")~ THEN @20027 /* (carraspeo) Oh, no, mi querido Minsc. No estaba insinuando nada. Solamente me acordé de... ehm... un amigo, llamado... Munsc. Sí, eso es. */
+== MINSCJ IF ~InParty("P_Dusk") InParty("Minsc") InMyArea("Minsc")~ THEN @20028 /* ¿Munsc? ¡Qué gran nombre! De seguro debe ser buen amigo tuyo, Dusk. */
+== P_DuskJ IF ~InParty("P_Dusk") InParty("Minsc") InMyArea("Minsc")~ @20029 /* De los mejores. */
 END
 
 I_C_T SAHPR1 1 P_DuskSAHPR11
@@ -2605,11 +2605,11 @@ END
 
 I_C_T UDSVIR01 3 P_DuskUDSVIR013
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @120 /* He leído sobre los svirfneblin. En general, son criaturas benévolas. Si necesitan de nuestra ayuda, no deberíamos dudarlo, <CHARNAME>. Puede que incluso en este lugar podamos hacer algo de bien. */
-== VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") Global("P_DUSK_IS_EVIL","GLOBAL",0) ~ THEN @20030 /* Incluso en la Oscuridad buscas ayudar a los demás, rivvil. Deberías saber que ese accionar tuyo, en la Infraoscuridad, te llevará a una muerte dolorosa. */
-== P_DuskJ IF ~ InMyArea("Viconia") Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @20031 /* Si fueras tú la que estuviese en apuros, Viconia, no dudaría en ayudarte. Para eso están los compañeros. */
-== VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") Global("P_DUSK_IS_EVIL","GLOBAL",0)~ @20032 /* Hmm... ¿intentas seducirme, abbil? ¡Oh, Dusk, protégeme, soy una damisela en apuros! */
-== VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @20033 /* ¡Ja! ¿Así conquistas a tus hembras? Te lo advierto, necesitarás mucho más que dulces palabras para tenerme satisfecha, mi querido abbil. */
-== P_DuskJ IF ~ InMyArea("Viconia") Global("P_DUSK_IS_EVIL","GLOBAL",0) ~ @20034 /* (suspiro) ¿Para qué habré hablado? */
+== VICONIJ IF ~InParty("P_Dusk") InParty("Viconia") InMyArea("Viconia") Global("P_DUSK_IS_EVIL","GLOBAL",0) ~ THEN @20030 /* Incluso en la Oscuridad buscas ayudar a los demás, rivvil. Deberías saber que ese accionar tuyo, en la Infraoscuridad, te llevará a una muerte dolorosa. */
+== P_DuskJ IF ~InParty("P_Dusk") InParty("Viconia") InMyArea("Viconia") Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @20031 /* Si fueras tú la que estuviese en apuros, Viconia, no dudaría en ayudarte. Para eso están los compañeros. */
+== VICONIJ IF ~InParty("P_Dusk") InParty("Viconia") InMyArea("Viconia") Global("P_DUSK_IS_EVIL","GLOBAL",0)~ @20032 /* Hmm... ¿intentas seducirme, abbil? ¡Oh, Dusk, protégeme, soy una damisela en apuros! */
+== VICONIJ IF ~InParty("P_Dusk") InParty("Viconia") InMyArea("Viconia") Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @20033 /* ¡Ja! ¿Así conquistas a tus hembras? Te lo advierto, necesitarás mucho más que dulces palabras para tenerme satisfecha, mi querido abbil. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("Viconia") Global("P_DUSK_IS_EVIL","GLOBAL",0) ~ @20034 /* (suspiro) ¿Para qué habré hablado? */
 END
 
 I_C_T UDSILVER 9 P_DuskUDSILVER12
@@ -2625,9 +2625,9 @@ I_C_T UDSILVER 35 P_DuskUDSILVER35
 == AERIEJ IF ~ InParty("P_Dusk")  InMyArea("Aerie") ~ @20035 /* N-no te ves tan mal, Dusk. No pongas esa cara. A fin de cuentas, así es como lucirías si hubieses nacido como un elfo. U-uno de piel oscura. */
 == P_DuskJ IF ~ InParty("P_Dusk")  InMyArea("Aerie") ~ @20036 /* Sí, bueno... tú no has cambiado mucho. Sólo tu tono de piel se ha oscurecido, pero con claridad aún puedo ver que eres Aerie. */
 == P_DuskJ IF ~ InParty("P_Dusk")  InMyArea("Aerie") InMyArea("Viconia") ~ @20037 /* Hasta puedo ver que tienes un parecido a Viconia, je. */
-== VICONIJ IF ~ InParty("P_Dusk")  InMyArea("Aerie") ~ @20038 /* Escuché eso, rivvil. Tus bromas pueden costarte caro. */
-== AERIEJ IF ~ InParty("P_Dusk")  InMyArea("Viconia") ~ @20039 /* En esta ocasión estoy de acuerdo con Viconia. Dusk, retráctate. */
-== P_DuskJ IF ~ InMyArea("Viconia") InMyArea("Aerie") ~ @20040 /* Bueno, bueno. Dejen de mirarme así. (suspiro) Creo que abro mucho la boca últimamente... */
+== VICONIJ IF ~ InParty("P_Dusk")  InMyArea("Aerie") InMyArea("Viconia")~ @20038 /* Escuché eso, rivvil. Tus bromas pueden costarte caro. */
+== AERIEJ IF ~ InParty("P_Dusk")  InMyArea("Viconia") InMyArea("Aerie")~ @20039 /* En esta ocasión estoy de acuerdo con Viconia. Dusk, retráctate. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("Viconia") InMyArea("Aerie") ~ @20040 /* Bueno, bueno. Dejen de mirarme así. (suspiro) Creo que abro mucho la boca últimamente... */
 END
 
 I_C_T UDSOLA01 56 P_DuskUDSOLA0156
@@ -2646,7 +2646,7 @@ END
 
 I_C_T C6ELHAN2 23 P_DuskC6ELHAN223
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @20041 /* ¿Condena? <CHARNAME>, no podemos permitir que le hagan daño a Viconia. ¡Otra vez es juzgada sólo por su raza! */
-== VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @20042 /* Tranquilízate, abbil. Sé cuidarme sola. */
+== VICONIJ IF ~InParty("P_Dusk") InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @20042 /* Tranquilízate, abbil. Sé cuidarme sola. */
 END
 
 I_C_T VICONIJ 119 P_DuskVICONIJ119

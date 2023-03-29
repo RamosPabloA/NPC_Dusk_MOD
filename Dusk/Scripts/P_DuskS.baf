@@ -45,7 +45,7 @@ AreaCheck("AR0400")
 //Global("Chapter","GLOBAL",%bg2_chapter_2%)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) // TTT 180 Setea el timer y la declara como ""P_DuskTimer"". 3600 (3600 seg -> 60 min) valor "por defecto". Probamos con 100 ( 1 min 40 seg) para ver si levanta
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) // TTT 60 Setea el timer y la declara como ""P_DuskTimer"". 3600 (3600 seg -> 60 min) valor "por defecto". Probamos con 100 ( 1 min 40 seg) para ver si levanta
 SetGlobal("P_DuskTalk","GLOBAL",1)       // Cada bloque debe ejecutarse 1 sola vez. Por eso seteamos la variable en 1, para que no vuelva a repetirse el diálogo y así pueda pasar al siguiente.
 END			
 
@@ -107,7 +107,7 @@ InParty(Myself)
 Global("P_Dusk_T3","GLOBAL",3)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL",3600) //TTT 900
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",900) //TTT 900
 SetGlobal("P_Dusk_Demole","GLOBAL",1)
 SetGlobal("P_Dusk_T3","GLOBAL",4)
 END	
@@ -245,7 +245,7 @@ Global("P_Dusk_T12","GLOBAL",3)
 Global("P_Dusk_T13","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimer","GLOBAL", 1500) //TTT 1500
+RealSetGlobalTimer("P_DuskTimer","GLOBAL",1500) //TTT 1500
 SetGlobal("P_Dusk_T13","GLOBAL",1)  
 END	
 
@@ -306,27 +306,26 @@ THEN
 RESPONSE #100
   StartCutSceneMode()
   IncrementGlobal("P_Dusk_Demole","GLOBAL",1)
-  CreateItem ("p_demscr",1,1,0)   
-  UseItem ("p_demscr", Myself)
-  DestroyItem ("p_demscr")
+  CreateCreatureObjectDoor ("p_demole","p_dusk",0,0,0)
   SetGlobal ("P_Dusk_Demole_Enc1","GLOBAL",1)
+  Wait (4)
   EndCutSceneMode()
   SetGlobal ("P_Dusk_1stTDemole","GLOBAL",1)
 END
 
-IF
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-CombatCounter(0) 
-!See([ENEMY])
-!AreaType(DUNGEON)	
-Global ("P_Dusk_1stTDemole","GLOBAL",1)
-THEN
-RESPONSE #100
-Wait(2)
-SetGlobal ("P_Dusk_1stTDemole","GLOBAL",2)
-StartDialogueNoSet(Player1)
-END
+//IF
+//InParty(Myself)
+//!StateCheck(Myself,CD_STATE_NOTVALID)
+//CombatCounter(0) 
+//!See([ENEMY])
+//!AreaType(DUNGEON)	
+//Global ("P_Dusk_1stTDemole","GLOBAL",1)
+//THEN
+//RESPONSE #100
+//Wait(2)
+//SetGlobal ("P_Dusk_1stTDemole","GLOBAL",2)
+//StartDialogueNoSet(Player1)
+//END
 
 IF
 InParty(Myself)
@@ -646,27 +645,26 @@ THEN
 RESPONSE #100
   StartCutSceneMode()
   IncrementGlobal("P_Dusk_Demole","GLOBAL",1)
-  CreateItem ("p_demscr",1,1,0)   
-  UseItem ("p_demscr", Myself)
-  DestroyItem ("p_demscr")
+  CreateCreatureObjectDoor ("p_demole","p_dusk",0,0,0)
   SetGlobal ("P_Dusk_Demole_Enc2","GLOBAL",1)
+  Wait (4)
   EndCutSceneMode()
   SetGlobal ("P_Dusk_2ndTDemole","GLOBAL",1)
 END
 
-IF
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-CombatCounter(0) 
-!See([ENEMY])
-!AreaType(DUNGEON)	
-Global ("P_Dusk_2ndTDemole","GLOBAL",1)
-THEN
-RESPONSE #100
-Wait(2)
-SetGlobal ("P_Dusk_2ndTDemole","GLOBAL",2)
-StartDialogueNoSet(Player1)
-END
+//IF
+//InParty(Myself)
+//!StateCheck(Myself,CD_STATE_NOTVALID)
+//CombatCounter(0) 
+//!See([ENEMY])
+//!AreaType(DUNGEON)	
+//Global ("P_Dusk_2ndTDemole","GLOBAL",1)
+//THEN
+//RESPONSE #100
+//Wait(2)
+//SetGlobal ("P_Dusk_2ndTDemole","GLOBAL",2)
+//StartDialogueNoSet(Player1)
+//END
 
 // Aparición del hechicero ANTHAGAR. Si no lo has visto en Underdark
 IF
@@ -759,29 +757,28 @@ AreaCheck("AR1800")
 THEN
 RESPONSE #100
   StartCutSceneMode()
-  CreateItem ("p_demscr",1,1,0)   
-  UseItem ("p_demscr", Myself)
-  DestroyItem ("p_demscr")
+  CreateCreatureObjectDoor ("p_demole","p_dusk",0,0,0)
   SetGlobal ("P_Dusk_Demole_FinalEnc","GLOBAL",1)
+  Wait (4)
   EndCutSceneMode()
   SetGlobal ("P_Dusk_3rdTDemole","GLOBAL",1)
 END
 
-IF
-InParty(Myself)
-!StateCheck(Myself,CD_STATE_NOTVALID)
-CombatCounter(0) 
-!See([ENEMY])
-!AreaType(DUNGEON)	
-Global ("P_Dusk_3rdTDemole","GLOBAL",1)
-THEN
-RESPONSE #100
-StartCutSceneMode()
-Wait(2)
-SetGlobal ("P_Dusk_3rdTDemole","GLOBAL",2)
-StartDialogueNoSet(Player1)
-EndCutSceneMode()
-END
+//IF
+//InParty(Myself)
+//!StateCheck(Myself,CD_STATE_NOTVALID)
+//CombatCounter(0) 
+//!See([ENEMY])
+//!AreaType(DUNGEON)	
+//Global ("P_Dusk_3rdTDemole","GLOBAL",1)
+//THEN
+//RESPONSE #100
+//StartCutSceneMode()
+//Wait(2)
+//SetGlobal ("P_Dusk_3rdTDemole","GLOBAL",2)
+//StartDialogueNoSet(Player1)
+//EndCutSceneMode()
+//END
 
 // DANCTIAN Final MISSION
 IF
@@ -820,7 +817,7 @@ RESPONSE #100
   Wait(5)
   EndCutSceneMode()
   SetGlobal ("P_Dusk_Dancti_Enc_MF","GLOBAL",1)
-  StartDialogueNoSet(Player1)
+  //StartDialogueNoSet(Player1)
 END
 
 
@@ -1355,9 +1352,11 @@ See(Player1)
 !StateCheck(Myself,CD_STATE_NOTVALID)
 CombatCounter(0)
 !See([ENEMY])
-Global("P_DuskDanctialMISSION","GLOBAL",4)
 Global("P_DuskArrivingAR1506","GLOBAL",0)
 AreaCheck("AR1506")
+OR (2)
+Global("P_DuskDanctialMISSION","GLOBAL",3)
+Global("P_DuskDanctialMISSION","GLOBAL",4)
 THEN
 RESPONSE #100
 SetGlobal("P_DuskArrivingAR1506","GLOBAL",1)

@@ -107,6 +107,7 @@ CombatCounter(0)
 !See([ENEMY])
 Global("P_DuskDanctialMISSION","GLOBAL",4)
 Global("P_DuskDanctialMFTalk5","GLOBAL",0)
+Dead ("p_anthag")
 THEN
 RESPONSE #100
   StartCutSceneMode()

@@ -35,7 +35,9 @@ Global("P_DanctianSpawn1","GLOBAL",0)
 Global("P_DanctianAppear","GLOBAL",3)
 THEN
 RESPONSE #100
-//StartCutSceneMode()
+ForceSpellPoint([633.427],ZOMBIE_SICKNESS)
+ForceSpellPoint([697.435],ZOMBIE_SICKNESS)
+ForceSpellPoint([694.439],ZOMBIE_SICKNESS)
 CreateCreature("p_dancti",[694.439],3)  
 SetGlobal("P_DanctianSpawn1","GLOBAL",1)
 Continue()
