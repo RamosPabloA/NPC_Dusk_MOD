@@ -23,12 +23,17 @@ Ardusk Aldant, also know as Dusk, is a warrior from Cormyr, trained in the  Orde
 2. Installation
 ----------------
 
-To install the mod, unpack the archive into your BG2 directory and run 
-Setup-Dusk.exe.
+Windows:
+Copy the content of the ZIP file into your BG2 directory and:
 
-Once you see the Readme, the installation is complete.
+    Execute setup-dusk.exe and follow the instructions
 
-To reinstall or uninstall the mod, run Setup-Dusk.exe in your game directory.
+macOS:
+Copy the content of the ZIP file into you BG2 directory and:
+
+    Open Terminal then go to game directory
+    Grant execution permission to the installation scripts chmod +x setup-dusk*
+    Execute the script and follow the instructions ./setup-dusk.command
 
 -----------------------
 3. Features
@@ -58,8 +63,8 @@ Dusk will give you the chance to get:
 ------------------------------
 
 Q: Where is he?
-A: Dusk is in the Waukeen's Promenade of Athkatla. He'll find you after your scape from the dungeon.
-Q: But she is not there!
+A: Dusk is in the Waukeen's Promenade of Athkatla. He'll find you after you escape from the dungeon.
+Q: But he is not there!
 A: Make sure that you have actually installed the mod. Open your game directory and run Setup-Dusk.exe. If this file is not there, repeat the installation
 process as described above.
 
@@ -73,11 +78,12 @@ Q: Can I install Dusk and continue playing?
 A: Sure, just quit the game before installing mods.
 
 Q: Is Dusk compatible with mod X?
-A: Dusk should work fine with other mods. Install him together with other
-NPCs.
+A: Dusk should work fine with other mods. Install him together with other NPCs.
 
 Q: Can I e-mail or PM you instead?
 A: You can write me to pablo.alejandro.ramos@gmail.com or in the Facebook page: "Baldur's Gate 2 - Dusk Mod".
+Facebook URL: https://www.facebook.com/bg2duskmod
+GitHub URL: https://github.com/RamosPabloA/NPC_Dusk_MOD
 
 
 -----------
@@ -86,6 +92,7 @@ A: You can write me to pablo.alejandro.ramos@gmail.com or in the Facebook page: 
 
 Pablo Ramos					Writer
 						Programmer
+Eduardo Van Cauteren				Collaborator
 
 "Tierras de la Intriga: Tethyr" by Steven E. Schend, 1997.
 "La venganza del Duque" by Pol Rupes, 2019.
@@ -97,7 +104,7 @@ Pablo Ramos					Writer
 
 Version 0.9
 - Spanish version complete
-- English version in development
+- English version complete
 
 
 ---------------------

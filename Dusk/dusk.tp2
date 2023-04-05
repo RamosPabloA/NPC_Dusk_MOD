@@ -2,17 +2,17 @@ BACKUP ~Dusk/Backup~
 
 AUTHOR ~Pol Rupes - pablo.alejandro.ramos@gmail.com~ 
 
-VERSION ~v1.0~  
+VERSION ~v0.9~  
 
 README ~Dusk/Readme-Dusk.txt~
 
-AUTO_TRA ~Dusk/tra/%s~ // direcciona hacia dónde irán los archivos de traducción
+AUTO_TRA ~Dusk/tra/%s~ // direcciona hacia dï¿½nde irï¿½n los archivos de traducciï¿½n
 
-// Continúa las entradas de diario en caso de ser el juego EET (Enhanced Edition Trilogy)
+// Continï¿½a las entradas de diario en caso de ser el juego EET (Enhanced Edition Trilogy)
 ALWAYS
   ACTION_IF NOT VARIABLE_IS_SET bg2_chapter BEGIN
     ACTION_IF GAME_IS ~eet~ BEGIN
-      OUTER_SET bg2_chapter = 12 // EET continuación de capítulo 12 en este caso
+      OUTER_SET bg2_chapter = 12 // EET continuaciï¿½n de capï¿½tulo 12 en este caso
     END ELSE BEGIN
       OUTER_SET bg2_chapter = 0 // El resto de los juegos resetea el diario (BGT, EE)
     END
@@ -51,7 +51,7 @@ LANGUAGE ~English~ ~English~ ~Dusk/tra/English/setup.tra~
 
 BEGIN @1 /* Dusk MOD */ 
 
-// CamDawg. Definición del CD_STATE_NOTVALID
+// CamDawg. Definiciï¿½n del CD_STATE_NOTVALID
 APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
 UNLESS ~CD_STATE_NOTVALID~
 
@@ -69,56 +69,56 @@ COPY ~Dusk/Characters/P_Dusk.cre~ ~override/P_Dusk.cre~
 
 SAY NAME1 @2 /* Dusk */
 SAY NAME2 @2 /* Dusk */
-SAY INITIAL_MEETING @3 /* Mis oídos aún retumban con esa explosión... */ 
-SAY MORALE @4 /* ¡No...!,¡¡¡NO!!! */
-SAY HAPPY @5 /* Me gusta cómo este grupo maneja las cosas. */ 
-SAY UNHAPPY_ANNOYED @6 /* Deberíamos reconsiderar nuestras acciones... */ 
-SAY UNHAPPY_SERIOUS @7 /* Claramente algo no funciona aquí... */
+SAY INITIAL_MEETING @3 /* Mis oï¿½dos aï¿½n retumban con esa explosiï¿½n... */ 
+SAY MORALE @4 /* ï¿½No...!,ï¿½ï¿½ï¿½NO!!! */
+SAY HAPPY @5 /* Me gusta cï¿½mo este grupo maneja las cosas. */ 
+SAY UNHAPPY_ANNOYED @6 /* Deberï¿½amos reconsiderar nuestras acciones... */ 
+SAY UNHAPPY_SERIOUS @7 /* Claramente algo no funciona aquï¿½... */
 SAY UNHAPPY_BREAKING @8 /* No podemos seguir trabajando juntos... */
-SAY LEADER @9 /* Te prefiero a ti como líder, pero si insistes... */
-SAY TIRED @10 /* *bostezo* Creo que necesitamos descansar, ¿no lo crees? */
+SAY LEADER @9 /* Te prefiero a ti como lï¿½der, pero si insistes... */
+SAY TIRED @10 /* *bostezo* Creo que necesitamos descansar, ï¿½no lo crees? */
 SAY BORED @11 /* No importa lo lento que vayas mientras no te detengas... */
-SAY BATTLE_CRY1 @12 /* ¡Veamos lo que tienes! */
-SAY BATTLE_CRY2 @13 /* ¡Por Cormyr! */
-SAY BATTLE_CRY3 @14 /* ¡No puedes ganar! */
-SAY BATTLE_CRY4 @44 /* ¡Adelante, vamos! */
-SAY BATTLE_CRY5 @49 /* Aquí vamos de nuevo... */
+SAY BATTLE_CRY1 @12 /* ï¿½Veamos lo que tienes! */
+SAY BATTLE_CRY2 @13 /* ï¿½Por Cormyr! */
+SAY BATTLE_CRY3 @14 /* ï¿½No puedes ganar! */
+SAY BATTLE_CRY4 @44 /* ï¿½Adelante, vamos! */
+SAY BATTLE_CRY5 @49 /* Aquï¿½ vamos de nuevo... */
 SAY DAMAGE ~~ [P_Dusk19]
 SAY DYING ~~ [P_Dusk20]
 SAY HURT @15 /* Lo lamento... necesito a alguien que se ocupe de mis heridas. */
-SAY AREA_FOREST @16 /* Debemos cuidarnos de las bestias salvajes. Por más hermoso que sea el bosque, el peligro se encuentra a la vuelta de la esquina... */  // If there's no sound file for the line, then it's going to be silent.
-SAY AREA_CITY @17 /* Es increíble cómo la corrupción ha invadido hasta el rincón más recóndito de la ciudad... */
-SAY AREA_DUNGEON @18 /* Debes tener cuidado aquí. Presiento... peligro. */
-SAY AREA_DAY @19 /* Hoy es un buen día para pasear. Pero recuerda, <CHARNAME>, que tenemos un deber que cumplir. */
-SAY AREA_NIGHT @20 /* Las estrellas brillan en el firmamento, pero ¡cuidado! No todo lo que brilla es oro... All that is gold does not glitter*/
-SAY SELECT_COMMON1 @21 /* ¿Qué tienes en mente? */
-SAY SELECT_COMMON2 @22 /* ¿Sí? */
-SAY SELECT_COMMON3 @23 /* ¿Qué quieres? */
-SAY SELECT_COMMON4 @39 /* Te protegeré. */
-SAY SELECT_COMMON5 @40 /* Hola, extraño. */
-SAY SELECT_COMMON6 @46 /* Recuerda: nadie te golpeará tan fuerte como la vida misma. */
-SAY SELECT_ACTION1 @24 /* ¡Muy bien! */
-SAY SELECT_ACTION2 @25 /* Sí, sí. No necesitas gritar. */
-SAY SELECT_ACTION3 @26 /* Hmmm... sí, ¿por qué no? */
-SAY SELECT_ACTION4 @27 /* Te seguiré. */
-SAY SELECT_ACTION5 @28 /* Una vez más... */
-SAY SELECT_ACTION6 @29 /* Déjamelo a mí. */
+SAY AREA_FOREST @16 /* Debemos cuidarnos de las bestias salvajes. Por mï¿½s hermoso que sea el bosque, el peligro se encuentra a la vuelta de la esquina... */  // If there's no sound file for the line, then it's going to be silent.
+SAY AREA_CITY @17 /* Es increï¿½ble cï¿½mo la corrupciï¿½n ha invadido hasta el rincï¿½n mï¿½s recï¿½ndito de la ciudad... */
+SAY AREA_DUNGEON @18 /* Debes tener cuidado aquï¿½. Presiento... peligro. */
+SAY AREA_DAY @19 /* Hoy es un buen dï¿½a para pasear. Pero recuerda, <CHARNAME>, que tenemos un deber que cumplir. */
+SAY AREA_NIGHT @20 /* Las estrellas brillan en el firmamento, pero ï¿½cuidado! No todo lo que brilla es oro... All that is gold does not glitter*/
+SAY SELECT_COMMON1 @21 /* ï¿½Quï¿½ tienes en mente? */
+SAY SELECT_COMMON2 @22 /* ï¿½Sï¿½? */
+SAY SELECT_COMMON3 @23 /* ï¿½Quï¿½ quieres? */
+SAY SELECT_COMMON4 @39 /* Te protegerï¿½. */
+SAY SELECT_COMMON5 @40 /* Hola, extraï¿½o. */
+SAY SELECT_COMMON6 @46 /* Recuerda: nadie te golpearï¿½ tan fuerte como la vida misma. */
+SAY SELECT_ACTION1 @24 /* ï¿½Muy bien! */
+SAY SELECT_ACTION2 @25 /* Sï¿½, sï¿½. No necesitas gritar. */
+SAY SELECT_ACTION3 @26 /* Hmmm... sï¿½, ï¿½por quï¿½ no? */
+SAY SELECT_ACTION4 @27 /* Te seguirï¿½. */
+SAY SELECT_ACTION5 @28 /* Una vez mï¿½s... */
+SAY SELECT_ACTION6 @29 /* Dï¿½jamelo a mï¿½. */
 SAY SELECT_ACTION7 @30 /* Puedo soportarlo. */
-SAY SELECT_RARE1 @31 /* Hmm... ¿te conozco? ¡Ja! Sólo bromeo. */
-SAY SELECT_RARE2 @32 /* Agradezco la atención, pero ¿no deberíamos centrarnos en el asunto que nos ocupa? */
-SAY CRITICAL_HIT @47 /* ¡¡¡Sí!!! */
-SAY CRITICAL_MISS @34 /* ¿Q-qué...? */
+SAY SELECT_RARE1 @31 /* Hmm... ï¿½te conozco? ï¿½Ja! Sï¿½lo bromeo. */
+SAY SELECT_RARE2 @32 /* Agradezco la atenciï¿½n, pero ï¿½no deberï¿½amos centrarnos en el asunto que nos ocupa? */
+SAY CRITICAL_HIT @47 /* ï¿½ï¿½ï¿½Sï¿½!!! */
+SAY CRITICAL_MISS @34 /* ï¿½Q-quï¿½...? */
 SAY TARGET_IMMUNE @48 /* *suspiro* Mi objetivo es inmune... */
-SAY INVENTORY_FULL @36 /* Lo siento, pero mi mochila está llena. */ 
-SAY SPELL_DISRUPTED @37 /* Oh, ¡maldición! */
-SAY REACT_TO_DIE_GENERAL @45 /*  */ // Reacción a la muerte de un compañero de grupo
+SAY INVENTORY_FULL @36 /* Lo siento, pero mi mochila estï¿½ llena. */ 
+SAY SPELL_DISRUPTED @37 /* Oh, ï¿½maldiciï¿½n! */
+SAY REACT_TO_DIE_GENERAL @45 /*  */ // Reacciï¿½n a la muerte de un compaï¿½ero de grupo
 SAY PICKED_POCKET @51 /* Vaya... le he robado... */
 SAY HIDDEN_IN_SHADOWS @41 /* Shhh... ahora estoy en las sombras... */
 SAY SET_A_TRAP @50 /* *risa* La trampa... ha sido puesta. */
-SAY BIO @38 /* Cuando preguntas por su pasado, DUSK queda un instante pensativo. Dice que sus frecuentes visitas al Paseo de Waukin se deben a un extraño deseo por convertirse en mercader. Lo cierto es que Dusk, en su vida pasada, fue Primera Espada del ejército de los Dragones Púrpuras de Cormyr. Su viaje al sur, como mensajero de la paz, se vio frustrado por una serie de sucesos que dice narrará a su debido momento. Por lo pronto, dice provenir de los Aldant, una familia noble del norte que, antaño, combatió contra liches y nigromantes de Netheril, incluyendo al peligroso Aumvor. Dusk dice no estar seguro de la veracidad de ciertas narraciones que le contaron cuando era sólo un niño, pero lo cierto es que siente una especial aversión hacia los liches. */
-WRITE_ASCII 0x248 ~P_DuskS~ #8  // OVERRIDE SCRIPT - Diálogos acerca de los comandos, banthers, etc (coincide con el nombre del archivo BAF)
+SAY BIO @38 /* Cuando preguntas por su pasado, DUSK queda un instante pensativo. Dice que sus frecuentes visitas al Paseo de Waukin se deben a un extraï¿½o deseo por convertirse en mercader. Lo cierto es que Dusk, en su vida pasada, fue Primera Espada del ejï¿½rcito de los Dragones Pï¿½rpuras de Cormyr. Su viaje al sur, como mensajero de la paz, se vio frustrado por una serie de sucesos que dice narrarï¿½ a su debido momento. Por lo pronto, dice provenir de los Aldant, una familia noble del norte que, antaï¿½o, combatiï¿½ contra liches y nigromantes de Netheril, incluyendo al peligroso Aumvor. Dusk dice no estar seguro de la veracidad de ciertas narraciones que le contaron cuando era sï¿½lo un niï¿½o, pero lo cierto es que siente una especial aversiï¿½n hacia los liches. */
+WRITE_ASCII 0x248 ~P_DuskS~ #8  // OVERRIDE SCRIPT - Diï¿½logos acerca de los comandos, banthers, etc (coincide con el nombre del archivo BAF)
 WRITE_ASCII 0x2cc ~P_Dusk~  #8  // DIALOGUE FILE - Archivo de saludo de Dusk
-WRITE_ASCII 0x280 ~P_Dusk~  #32 // DEATH VARIABLE - Hace referencia a cómo nos referimos a Dusk en el juego. (Ej.: In Party (P_Dusk))
+WRITE_ASCII 0x280 ~P_Dusk~  #32 // DEATH VARIABLE - Hace referencia a cï¿½mo nos referimos a Dusk en el juego. (Ej.: In Party (P_Dusk))
 WRITE_ASCII 0x34  ~DuskS~ #8  // small portrait
 WRITE_ASCII 0x3c  ~DuskM~ #8  // medium portrait
 
@@ -183,7 +183,7 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Dialogue/p_tongas.d~
 	//Serra
 	~Dusk/Dialogue/p_serra.d~
-	//Hurón
+	//Hurï¿½n
 	~Dusk/Dialogue/p_huron.d~
     //mage2
 	~Dusk/Dialogue/p_valata.d~
@@ -201,7 +201,7 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Dialogue/p_demol2.d~
 	//Michelson Final Mission
 	~Dusk/Dialogue/p_miche2.d~
-	//Celine espíritu verdadero
+	//Celine espï¿½ritu verdadero
 	~Dusk/Dialogue/p_celin.d~
 	//Danctian 2
 	~Dusk/Dialogue/p_danct2.d~
@@ -260,9 +260,9 @@ EXTEND_TOP ~AR1509.bcs~ ~Dusk/Scripts/AR1509.baf~
 //REPLACE_SAY BFISHW1 #26258 ~Dusk~ END
 
 // Reemplazo el string del juego del archivo: BFISHW1.
-// Sin embargo, puse el mismo bloque de la conversación para que no se perdiese.
+// Sin embargo, puse el mismo bloque de la conversaciï¿½n para que no se perdiese.
 // Dicho string reemplazado, tiene como condicional que Sarevok se encuentre en el grupo.
-// Como Sarevok no puede aparecer en Athkatla, es imposible que dicho diálogo se inicie.
+// Como Sarevok no puede aparecer en Athkatla, es imposible que dicho diï¿½logo se inicie.
 // Por lo que podremos hacer uso de dicho String para otros usos.
 STRING_SET 26258 ~Dusk~
 STRING_SET 26257 ~Jaheira! No... NOOOOooooooo!~
@@ -273,7 +273,7 @@ STRING_SET 26262 ~Korgan! Grrr... No! Noo!!!~
 STRING_SET 48700 ~Oh, Nalia... NooOOOooooo!!!~
 STRING_SET 48705 ~Valygar, no... No... Noooo!!!~
 
-// Aquí agregamos las entradas que tendrá el diario. Sólo aplica para BG2EE. Para BGT con los comandos en los d files es suficiente
+// Aquï¿½ agregamos las entradas que tendrï¿½ el diario. Sï¿½lo aplica para BG2EE. Para BGT con los comandos en los d files es suficiente
 ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
 ADD_JOURNAL @210001  @210003 @210004 @210005 @210006 @210007 @210008 @210009 @210010 @210011 @210012 @210013 @210014 @210015 @210016 @210017 @210019 @210020 @210021 @210022 @210023 @210024 @210025 @210026 @210027 @210028 @210029 @210030 @210031 @210032 @210033 @210034 @210035 @210036 @210037 @210038 @210039 @210040 @210041  @210043 @210044 @210045 @210046 @210047 @210048 @210049
 END
@@ -288,11 +288,11 @@ SAY 558 @200005 /*Golpe vorpalino*/
 SAY 798 @200006 /*Huye aterrorizado*/
 
 
-// Espada cormyreana de disrupción
+// Espada cormyreana de disrupciï¿½n
 
 COPY ~Dusk/Items/p_sw1hdr.itm~ ~override~         
 SAY NAME1 @200007 /* Espada Bastarda */ 
-SAY NAME2 @200008 /* Espada cormyreana de disrupción */
+SAY NAME2 @200008 /* Espada cormyreana de disrupciï¿½n */
 SAY UNIDENTIFIED_DESC @200009 /*  */
 SAY DESC @200010 /*  */
 SAY 174 @200011 /*Cinco niveles consumidos*/
@@ -312,7 +312,7 @@ SAY 798 @2 /* */
 COPY ~Dusk/Items/P_BRAC99.itm~ ~override~         
 
 SAY NAME1 @200016 /* Brazales */ 
-SAY NAME2 @200017 /* Brazales de Defensa Pétrea */
+SAY NAME2 @200017 /* Brazales de Defensa Pï¿½trea */
 SAY UNIDENTIFIED_DESC @200018 /*  */
 SAY DESC @200019 /*  */
 
@@ -330,7 +330,7 @@ SAY DESC @200023 /*  */
 COPY ~Dusk/Items/P_CHNVIC.itm~ ~override~         
 
 SAY NAME1 @200024 /* Manto */ 
-SAY NAME2 @200025 /* Túnica de Viconia */
+SAY NAME2 @200025 /* Tï¿½nica de Viconia */
 SAY UNIDENTIFIED_DESC @200026 /*  */
 SAY DESC @200027 /*  */
 
@@ -343,7 +343,7 @@ SAY NAME2 @200029 /* Crimson Thunder */
 SAY UNIDENTIFIED_DESC @200030 /*  */
 SAY DESC @200031 /*  */
 
-// TEST SÓLO ETIQUETAS
+// TEST Sï¿½LO ETIQUETAS
 // KELDORN POT
 
 COPY ~Dusk/Items/p_keld1.itm~ ~override~         
@@ -375,7 +375,7 @@ SAY DESC @200045 /* */
 SAY 366 @200050 /* */
 SAY 462 @200051 /* */
 
-// PROTECCIÓN DEL GUERRERO
+// PROTECCIï¿½N DEL GUERRERO
 // Incluye el spell nuevo P_spinG.spl (de lo contrario no funciona)
 
 COPY ~Dusk/Items/p_nbk01.itm~ ~override~         
@@ -413,7 +413,7 @@ SAY DESC @200066 /* */
 SAY 270 @200067 /* */
 SAY 318 @200068 /* */
 
-// BENDICIÓN DE ARVORIN
+// BENDICIï¿½N DE ARVORIN
 
 COPY ~Dusk/Items/p_nbk04.itm~ ~override~         
 
@@ -447,7 +447,7 @@ SAY DESC @200085 /* */
 SAY 366 @200086 /* */
 SAY 414 @200087 /* */
 
-// Poción Gnómica
+// Pociï¿½n Gnï¿½mica
 
 COPY ~Dusk/Items/p_nbk07.itm~ ~override~         
 
@@ -511,7 +511,7 @@ SAY UNIDENTIFIED_DESC @200096 /* */
 SAY DESC @200119 /* */
 SAY 366 @200120 /* */
 
-// POCIÓN CAÓTICO MALIGNO
+// POCIï¿½N CAï¿½TICO MALIGNO
 
 COPY ~Dusk/Items/p_POTN90.itm~ ~override~         
 
@@ -521,7 +521,7 @@ SAY UNIDENTIFIED_DESC @200123 /* */
 SAY DESC @200124 /* */
 SAY 222 @200125 /* */
 
-// POCIÓN NEUTRAL MALIGNO
+// POCIï¿½N NEUTRAL MALIGNO
 
 COPY ~Dusk/Items/p_POTN91.itm~ ~override~         
 
@@ -531,7 +531,7 @@ SAY UNIDENTIFIED_DESC @200128 /* */
 SAY DESC @200129 /* */
 SAY 270 @200130 /* */
 
-// POCIÓN LEGAL MALIGNO
+// POCIï¿½N LEGAL MALIGNO
 
 COPY ~Dusk/Items/p_POTN92.itm~ ~override~         
 
@@ -541,7 +541,7 @@ SAY UNIDENTIFIED_DESC @200133 /* */
 SAY DESC @200134 /* */
 SAY 318 @200135 /* */
 
-// POCIÓN CAÓTICO NEUTRAL
+// POCIï¿½N CAï¿½TICO NEUTRAL
 
 COPY ~Dusk/Items/p_POTN93.itm~ ~override~         
 
@@ -551,7 +551,7 @@ SAY UNIDENTIFIED_DESC @200138 /* */
 SAY DESC @200139 /* */
 SAY 222 @200140 /* */
 
-// POCIÓN NEUTRAL AUTÉNTICO
+// POCIï¿½N NEUTRAL AUTï¿½NTICO
 
 COPY ~Dusk/Items/p_POTN94.itm~ ~override~         
 
@@ -561,7 +561,7 @@ SAY UNIDENTIFIED_DESC @200143 /* */
 SAY DESC @200144 /* */
 SAY 270 @200145 /* */
 
-// POCIÓN LEGAL NEUTRAL
+// POCIï¿½N LEGAL NEUTRAL
 
 COPY ~Dusk/Items/p_POTN95.itm~ ~override~         
 
@@ -571,7 +571,7 @@ SAY UNIDENTIFIED_DESC @200148 /* */
 SAY DESC @200149 /* */
 SAY 318 @200150 /* */
 
-// POCIÓN CAÓTICO BUENO
+// POCIï¿½N CAï¿½TICO BUENO
 
 COPY ~Dusk/Items/p_POTN96.itm~ ~override~         
 
@@ -581,7 +581,7 @@ SAY UNIDENTIFIED_DESC @200153 /* */
 SAY DESC @200154 /* */
 SAY 222 @200155 /* */
 
-// POCIÓN NEUTRAL BUENO
+// POCIï¿½N NEUTRAL BUENO
 
 COPY ~Dusk/Items/p_POTN97.itm~ ~override~         
 
@@ -591,7 +591,7 @@ SAY UNIDENTIFIED_DESC @200158 /* */
 SAY DESC @200159 /* */
 SAY 270 @200160 /* */
 
-// POCIÓN LEGAL BUENO
+// POCIï¿½N LEGAL BUENO
 
 COPY ~Dusk/Items/p_POTN98.itm~ ~override~         
 
@@ -601,7 +601,7 @@ SAY UNIDENTIFIED_DESC @200163 /* */
 SAY DESC @200164 /* */
 SAY 318 @200165 /* */
 
-// POCIÓN DE RASHEMEN
+// POCIï¿½N DE RASHEMEN
 
 COPY ~Dusk/Items/p_POTN99.itm~ ~override~         
 
@@ -611,7 +611,7 @@ SAY UNIDENTIFIED_DESC @200090 /* */
 SAY DESC @200169 /* */
 SAY 318 @200170 /* */
 
-// FUROR ÉPICO
+// FUROR ï¿½PICO
 
 COPY ~Dusk/Items/p_shasw1.itm~ ~override~         
 
@@ -747,7 +747,7 @@ SAY 1414 @200239 /* */
 SAY 1462 @200240 /* */
 SAY 1510 @200241 /* */
 
-// Protección de Aznagarb
+// Protecciï¿½n de Aznagarb
 
 COPY ~Dusk/Items/p_wsclk.itm~ ~override~         
 
@@ -847,8 +847,8 @@ WRITE_ASCII 0X34  ~P_BELLS~ #8  // small portrait
 
 
 COPY ~Dusk/Summonings/p_baba.cre~ ~override~
-SAY NAME1 @200277 /* Baba, el Ratón Nervioso */
-SAY NAME2 @200277 /* Baba, el Ratón Nervioso */
+SAY NAME1 @200277 /* Baba, el Ratï¿½n Nervioso */
+SAY NAME2 @200277 /* Baba, el Ratï¿½n Nervioso */
 SAY BATTLE_CRY1 ~~ [P_Baba09]
 SAY BATTLE_CRY2 ~~ [P_Baba10]
 SAY BATTLE_CRY3 ~~ [P_Baba11]
@@ -962,7 +962,7 @@ SAY SELECT_RARE1 ~~ [P_Mich03]
 SAY SELECT_RARE2 ~~ [P_Mich04]
 WRITE_ASCII 0x2cc ~p_michel~ #8
 WRITE_ASCII 0x34  ~p_michs~ #8  // small portrait
-WRITE_ASCII 0x248 ~p_michel~ #8  // OVERRIDE SCRIPT - Diálogos acerca de los comandos, banthers, etc (coincide con el nombre del archivo BAF)
+WRITE_ASCII 0x248 ~p_michel~ #8  // OVERRIDE SCRIPT - Diï¿½logos acerca de los comandos, banthers, etc (coincide con el nombre del archivo BAF)
 
 
 ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
@@ -976,7 +976,7 @@ SAY NAME2 @200304 /* Mathyus Davis */
 
 WRITE_ASCII 0x2cc ~p_matut~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_mats~ #8  // small portrait
-WRITE_ASCII 0x248 ~p_matut~ #8  // OVERRIDE SCRIPT - Diálogos acerca de los comandos, banthers, etc (coincide con el nombre del archivo BAF)
+WRITE_ASCII 0x248 ~p_matut~ #8  // OVERRIDE SCRIPT - Diï¿½logos acerca de los comandos, banthers, etc (coincide con el nombre del archivo BAF)
 
 
 ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
@@ -989,7 +989,7 @@ COPY ~Dusk/Items/p_bookm.itm~ ~override~
 
 SAY NAME1 @200305 /* Libro  */ 
 SAY NAME2 @200306 /* Libro de recetas leprechaun */
-SAY UNIDENTIFIED_DESC @200307 /* El libro es incomprensible a la vista. Puede que un conjuro de identificación o el conocimiento de un bardo pueda resolverlo.*/
+SAY UNIDENTIFIED_DESC @200307 /* El libro es incomprensible a la vista. Puede que un conjuro de identificaciï¿½n o el conocimiento de un bardo pueda resolverlo.*/
 SAY DESC @200308 /* */
 
 // Armadura de la familia Aldant
@@ -1008,14 +1008,14 @@ COPY ~Dusk/Items/p_swr1.itm~ ~override~
 SAY NAME2 @200313 /*  */
 SAY DESC @200314 /* */
 
-//Bastón reforzado shilmista
+//Bastï¿½n reforzado shilmista
 
 COPY ~Dusk/Items/p_stf1.itm~ ~override~
 
 SAY NAME2 @200315 /*  */
 SAY DESC @200316 /* */
 
-// Escudo roto de la Orden del Dragón Púrpura
+// Escudo roto de la Orden del Dragï¿½n Pï¿½rpura
 
 COPY ~Dusk/Items/p_brkshl.itm~ ~override~
 
@@ -1135,19 +1135,19 @@ WRITE_ASCII 0x2cc ~p_zibe2~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_ziben~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_ziben~ #8  // OVERRIDE SCRIPT
 
-// Coco, la chamán trasgo
+// Coco, la chamï¿½n trasgo
 
 COPY ~Dusk/Characters/p_coco.cre~ ~override~
-SAY NAME1 @200325 /* Coco, la chamán trasgo */
-SAY NAME2 @200325 /* Coco, la chamán trasgo */
+SAY NAME1 @200325 /* Coco, la chamï¿½n trasgo */
+SAY NAME2 @200325 /* Coco, la chamï¿½n trasgo */
 
 WRITE_ASCII 0x2cc ~p_coco~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_coco~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_coco~ #8  // OVERRIDE SCRIPT
 
 COPY ~Dusk/Characters/m3good_allies/p_coc2.cre~ ~override~
-SAY NAME1 @200325 /* Coco, la chamán trasgo */
-SAY NAME2 @200325 /* Coco, la chamán trasgo */
+SAY NAME1 @200325 /* Coco, la chamï¿½n trasgo */
+SAY NAME2 @200325 /* Coco, la chamï¿½n trasgo */
 
 WRITE_ASCII 0x2cc ~p_coc2~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_coco~ #8  // small portrait
@@ -1192,7 +1192,7 @@ SAY 846 @200350 /*  */
 SAY 894 @200351 /*  */ 
 SAY 1134 @200352 /*  */
 
-// Espada Carmesí (EVIL PATH)
+// Espada Carmesï¿½ (EVIL PATH)
 COPY ~Dusk/Items/p_swevi1.itm~ ~override~         
 
 SAY NAME1 @200007 /*  */ 
@@ -1230,7 +1230,7 @@ SAY NAME2 @200343 /*  */
 SAY UNIDENTIFIED_DESC @200054 /* */
 SAY DESC @200344 /* */
 
-// Cono de frío de JACK
+// Cono de frï¿½o de JACK
 
 COPY ~Dusk/Summonings/p_spcono.spl~ ~override~         
 
@@ -1264,8 +1264,8 @@ WRITE_ASCII 0X34  ~p_bob~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_bob~ #8  // OVERRIDE SCRIPT
 
 COPY ~Dusk/Characters/clan_orco/p_kocha.cre~ ~override~
-SAY NAME1 @200361 /* Kocha, el bersérker */
-SAY NAME2 @200361 /* Kocha, el bersérker */
+SAY NAME1 @200361 /* Kocha, el bersï¿½rker */
+SAY NAME2 @200361 /* Kocha, el bersï¿½rker */
 
 WRITE_ASCII 0x2cc ~p_kocha~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_kocha~ #8  // small portrait
@@ -1337,10 +1337,10 @@ SAY NAME2 @200368 /*  */
 SAY UNIDENTIFIED_DESC @200371 /* */
 SAY DESC @200371 /* */
 
-// Espada Carmesí MEJORADA (EVIL PATH)
+// Espada Carmesï¿½ MEJORADA (EVIL PATH)
 COPY ~Dusk/Items/p_swevi2.itm~ ~override~         
 
-SAY NAME1 @200007 /* Espada carmesí mejorada */ 
+SAY NAME1 @200007 /* Espada carmesï¿½ mejorada */ 
 SAY NAME2 @200374 /*  */
 SAY UNIDENTIFIED_DESC @200009 /* */
 SAY DESC @200375 /* */
@@ -1379,10 +1379,10 @@ COPY ~Dusk/Spells/p_sp3d.spl~ ~override~
 SAY 8 @200382 /* Miedo */ 
 SAY 80 @200383 /*  */
 
-// Último Esfuerzo
+// ï¿½ltimo Esfuerzo
 COPY ~Dusk/Spells/p_sp4d.spl~ ~override~         
 
-SAY 8 @200384 /* Último Esfuerzo */ 
+SAY 8 @200384 /* ï¿½ltimo Esfuerzo */ 
 SAY 80 @200385 /*  */
 
 // Juramento de Ira
@@ -1393,8 +1393,8 @@ SAY 80 @200387 /*  */
 
 
 COPY ~Dusk/Characters/clan_orco/p_huron.cre~ ~override~
-SAY NAME1 @200389 /* Hurón misterioso */
-SAY NAME2 @200389 /* Hurón misterioso */
+SAY NAME1 @200389 /* Hurï¿½n misterioso */
+SAY NAME2 @200389 /* Hurï¿½n misterioso */
 
 WRITE_ASCII 0x2cc ~p_huron~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_huron~ #8  // small portrait
@@ -1432,10 +1432,10 @@ SAY NAME2 @200393 /*  */
 SAY UNIDENTIFIED_DESC @200394 /* */
 SAY DESC @200395 /* */
 
-// Utilería de Cormyr
+// Utilerï¿½a de Cormyr
 COPY ~Dusk/Items/p_restos.itm~ ~override~         
 
-SAY NAME2 @200396 /* Utilería de Cormyr */
+SAY NAME2 @200396 /* Utilerï¿½a de Cormyr */
 //SAY UNIDENTIFIED_DESC @200396 /* */
 SAY DESC @200398 /* */
 
@@ -1499,7 +1499,7 @@ SAY 606 @200203 /* */
 SAY 654 @200204 /* */
 
 
-// Amatista del Dragón Púrpura
+// Amatista del Dragï¿½n Pï¿½rpura
 
 COPY ~Dusk/Items/p_gemdr1.itm~ ~override~         
 
@@ -1565,8 +1565,8 @@ SAY NAME2 @200424 /* Diablillo enfermo */
 WRITE_ASCII 0x248 ~p_mephit~ #8  // OVERRIDE SCRIPT
 
 COPY ~Dusk/Characters/p_worg.cre~ ~override~
-SAY NAME1 @200425 /* Worg débil */
-SAY NAME2 @200425 /* Worg débil */
+SAY NAME1 @200425 /* Worg dï¿½bil */
+SAY NAME2 @200425 /* Worg dï¿½bil */
 
 WRITE_ASCII 0x248 ~p_worg~ #8  // OVERRIDE SCRIPT
 
@@ -1583,7 +1583,7 @@ WRITE_ASCII 0x2cc ~p_anthag~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_anthag~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_anthag~ #8  // OVERRIDE SCRIPT
 
-// Nombre de las convocaciones: Veneno, Muerte y Destrucción
+// Nombre de las convocaciones: Veneno, Muerte y Destrucciï¿½n
 
 COPY ~Dusk/Characters/p_muerte.cre~ ~override~
 SAY NAME1 @200427 /* Muerte */
@@ -1598,8 +1598,8 @@ SAY NAME2 @200428 /* Veneno */
 COPY ~Dusk/Items/p_veneno.itm~ ~override~
 
 COPY ~Dusk/Characters/p_destru.cre~ ~override~
-SAY NAME1 @200429 /* Destrucción */
-SAY NAME2 @200429 /* Destrucción */
+SAY NAME1 @200429 /* Destrucciï¿½n */
+SAY NAME2 @200429 /* Destrucciï¿½n */
 
 COPY ~Dusk/Items/p_destru.itm~ ~override~
 
@@ -1614,21 +1614,21 @@ SAY DESC @200431 /* */
 // IRA (EVIL PATH)
 COPY ~Dusk/Items/p_swevi3.itm~ ~override~         
 
-SAY NAME1 @200007 /* Espada carmesí mejorada */ 
+SAY NAME1 @200007 /* Espada carmesï¿½ mejorada */ 
 SAY NAME2 @200432 /*  */
 SAY UNIDENTIFIED_DESC @200009 /* */
 SAY DESC @200433 /* */
 
-// Espíritu de Celine
+// Espï¿½ritu de Celine
 COPY ~Dusk/Characters/p_celgh.cre~ ~override~
-SAY NAME1 @200434 /* Espíritu */
-SAY NAME2 @200434 /* Espíritu */
+SAY NAME1 @200434 /* Espï¿½ritu */
+SAY NAME2 @200434 /* Espï¿½ritu */
 
 WRITE_ASCII 0x2cc ~p_celgh~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_celgh~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_celgh~ #8  // OVERRIDE SCRIPT
 
-// Mathyus Poseído
+// Mathyus Poseï¿½do
 COPY ~Dusk/Characters/p_matu2.cre~ ~override~
 SAY NAME1 @200304 /* Mathyus Davis */
 SAY NAME2 @200304 /* Mathyus Davis */
@@ -1680,15 +1680,15 @@ COPY ~Dusk/Characters/p_muert2.cre~ ~override~
 SAY NAME1 @200427 /* Muerte */
 SAY NAME2 @200427 /* Muerte */
 
-// Símbolo de Velsharún
+// Sï¿½mbolo de Velsharï¿½n
 
 COPY ~Dusk/Items/p_simvel.itm~ ~override~         
 
-SAY NAME2 @200437 /* Símbolo de Velsharún */
-SAY DESC @200438 /* El extraño amuleto carga con una energía tenebrosa. Tus manos tiemblan ligeramente al sostenerlo. Lo has obtenido del cuerpo de Anthagar, el líder de la Cripta Olvidada. */
+SAY NAME2 @200437 /* Sï¿½mbolo de Velsharï¿½n */
+SAY DESC @200438 /* El extraï¿½o amuleto carga con una energï¿½a tenebrosa. Tus manos tiemblan ligeramente al sostenerlo. Lo has obtenido del cuerpo de Anthagar, el lï¿½der de la Cripta Olvidada. */
 
 
-// Michelson 2 (Versión que irá al AR1506)
+// Michelson 2 (Versiï¿½n que irï¿½ al AR1506)
 COPY ~Dusk/Characters/p_miche2.cre~ ~override~
 SAY NAME1 @200303 /* Michelson, el Leprechaun */
 SAY NAME2 @200303 /* Michelson, el Leprechaun */
@@ -1721,13 +1721,13 @@ ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
 COPY ~Dusk/Characters/p_michs.bmp~ ~override/p_michs.bmp~ 
 END
 
-// Cadáver de Mathyus
+// Cadï¿½ver de Mathyus
 COPY ~Dusk/Items/p_matcor.itm~ ~override~         
 
 SAY NAME1 @200439 /* Cuerpo de Mathyus Davis */ 
-SAY DESC @200440 /* Este es el cadáver del elfo shilmista Mathyus Davis. Cayó en combate al ser dominado por los encantamientos del hechicero de la Cripta Olvidada, Sornhil. */
+SAY DESC @200440 /* Este es el cadï¿½ver del elfo shilmista Mathyus Davis. Cayï¿½ en combate al ser dominado por los encantamientos del hechicero de la Cripta Olvidada, Sornhil. */
 
-// Celine, verdadero espíritu
+// Celine, verdadero espï¿½ritu
 COPY ~Dusk/Characters/p_celin.cre~ ~override~
 SAY NAME1 @200441 /* Celine */
 SAY NAME2 @200441 /* Celine */
@@ -1746,7 +1746,7 @@ SAY DESC @200443 /* */
 // IRA Tenax (EVIL PATH)
 COPY ~Dusk/Items/p_swevi4.itm~ ~override~         
 
-SAY NAME1 @200007 /* Espada carmesí mejorada */ 
+SAY NAME1 @200007 /* Espada carmesï¿½ mejorada */ 
 SAY NAME2 @200444 /*  */
 SAY UNIDENTIFIED_DESC @200009 /* */
 SAY DESC @200445 /* */
@@ -1803,53 +1803,53 @@ BEGIN
 COPY ~Dusk/Characters/P_Dusk25.cre~ ~override/P_Dusk25.cre~
 SAY NAME1 @2 /* Dusk */
 SAY NAME2 @2 /* Dusk */
-SAY INITIAL_MEETING @3 /* Mis oídos aún retumban con esa explosión... */ 
-SAY MORALE @4 /* ¡No...!,¡¡¡NO!!! */
-SAY HAPPY @5 /* Me gusta cómo este grupo maneja las cosas. */ 
-SAY UNHAPPY_ANNOYED @6 /* Deberíamos reconsiderar nuestras acciones... */ 
-SAY UNHAPPY_SERIOUS @7 /* Claramente algo no funciona aquí... */
+SAY INITIAL_MEETING @3 /* Mis oï¿½dos aï¿½n retumban con esa explosiï¿½n... */ 
+SAY MORALE @4 /* ï¿½No...!,ï¿½ï¿½ï¿½NO!!! */
+SAY HAPPY @5 /* Me gusta cï¿½mo este grupo maneja las cosas. */ 
+SAY UNHAPPY_ANNOYED @6 /* Deberï¿½amos reconsiderar nuestras acciones... */ 
+SAY UNHAPPY_SERIOUS @7 /* Claramente algo no funciona aquï¿½... */
 SAY UNHAPPY_BREAKING @8 /* No podemos seguir trabajando juntos... */
-SAY LEADER @9 /* Te prefiero a ti como líder, pero si insistes... */
-SAY TIRED @10 /* *bostezo* Creo que necesitamos descansar, ¿no lo crees? */
+SAY LEADER @9 /* Te prefiero a ti como lï¿½der, pero si insistes... */
+SAY TIRED @10 /* *bostezo* Creo que necesitamos descansar, ï¿½no lo crees? */
 SAY BORED @11 /* No importa lo lento que vayas mientras no te detengas... */
-SAY BATTLE_CRY1 @12 /* ¡Veamos lo que tienes! */
-SAY BATTLE_CRY2 @13 /* ¡Por Cormyr! */
-SAY BATTLE_CRY3 @14 /* ¡No puedes ganar! */
-SAY BATTLE_CRY4 @44 /* ¡Adelante, vamos! */
-SAY BATTLE_CRY5 @49 /* Aquí vamos de nuevo... */
+SAY BATTLE_CRY1 @12 /* ï¿½Veamos lo que tienes! */
+SAY BATTLE_CRY2 @13 /* ï¿½Por Cormyr! */
+SAY BATTLE_CRY3 @14 /* ï¿½No puedes ganar! */
+SAY BATTLE_CRY4 @44 /* ï¿½Adelante, vamos! */
+SAY BATTLE_CRY5 @49 /* Aquï¿½ vamos de nuevo... */
 SAY DAMAGE ~~ [P_Dusk19]
 SAY DYING ~~ [P_Dusk20]
 SAY HURT @15 /* Lo lamento... necesito a alguien que se ocupe de mis heridas. */
-SAY AREA_FOREST @16 /* Debemos cuidarnos de las bestias salvajes. Por más hermoso que sea el bosque, el peligro se encuentra a la vuelta de la esquina... */  // If there's no sound file for the line, then it's going to be silent.
-SAY AREA_CITY @17 /* Es increíble cómo la corrupción ha invadido hasta el rincón más recóndito de la ciudad... */
-SAY AREA_DUNGEON @18 /* Debes tener cuidado aquí. Presiento... peligro. */
-SAY AREA_DAY @19 /* Hoy es un buen día para pasear. Pero recuerda, <CHARNAME>, que tenemos un deber que cumplir. */
-SAY AREA_NIGHT @20 /* Las estrellas brillan en el firmamento, pero ¡cuidado! No todo lo que brilla es oro... All that is gold does not glitter*/
-SAY SELECT_COMMON1 @21 /* ¿Qué tienes en mente? */
-SAY SELECT_COMMON2 @22 /* ¿Sí? */
-SAY SELECT_COMMON3 @23 /* ¿Qué quieres? */
-SAY SELECT_COMMON4 @39 /* Te protegeré. */
-SAY SELECT_COMMON5 @40 /* Hola, extraño. */
-SAY SELECT_COMMON6 @46 /* Recuerda: nadie te golpeará tan fuerte como la vida misma. */
-SAY SELECT_ACTION1 @24 /* ¡Muy bien! */
-SAY SELECT_ACTION2 @25 /* Sí, sí. No necesitas gritar. */
-SAY SELECT_ACTION3 @26 /* Hmmm... sí, ¿por qué no? */
-SAY SELECT_ACTION4 @27 /* Te seguiré. */
-SAY SELECT_ACTION5 @28 /* Una vez más... */
-SAY SELECT_ACTION6 @29 /* Déjamelo a mí. */
-SAY SELECT_ACTION7 @30 /* ¡Seré rápido al respecto! */
-SAY SELECT_RARE1 @31 /* Hmm... ¿te conozco? ¡Ja! Sólo bromeo. */
-SAY SELECT_RARE2 @32 /* Agradezco la atención, pero ¿no deberíamos centrarnos en el asunto que nos ocupa? */
-SAY CRITICAL_HIT @47 /* ¡¡¡Sí!!! */
+SAY AREA_FOREST @16 /* Debemos cuidarnos de las bestias salvajes. Por mï¿½s hermoso que sea el bosque, el peligro se encuentra a la vuelta de la esquina... */  // If there's no sound file for the line, then it's going to be silent.
+SAY AREA_CITY @17 /* Es increï¿½ble cï¿½mo la corrupciï¿½n ha invadido hasta el rincï¿½n mï¿½s recï¿½ndito de la ciudad... */
+SAY AREA_DUNGEON @18 /* Debes tener cuidado aquï¿½. Presiento... peligro. */
+SAY AREA_DAY @19 /* Hoy es un buen dï¿½a para pasear. Pero recuerda, <CHARNAME>, que tenemos un deber que cumplir. */
+SAY AREA_NIGHT @20 /* Las estrellas brillan en el firmamento, pero ï¿½cuidado! No todo lo que brilla es oro... All that is gold does not glitter*/
+SAY SELECT_COMMON1 @21 /* ï¿½Quï¿½ tienes en mente? */
+SAY SELECT_COMMON2 @22 /* ï¿½Sï¿½? */
+SAY SELECT_COMMON3 @23 /* ï¿½Quï¿½ quieres? */
+SAY SELECT_COMMON4 @39 /* Te protegerï¿½. */
+SAY SELECT_COMMON5 @40 /* Hola, extraï¿½o. */
+SAY SELECT_COMMON6 @46 /* Recuerda: nadie te golpearï¿½ tan fuerte como la vida misma. */
+SAY SELECT_ACTION1 @24 /* ï¿½Muy bien! */
+SAY SELECT_ACTION2 @25 /* Sï¿½, sï¿½. No necesitas gritar. */
+SAY SELECT_ACTION3 @26 /* Hmmm... sï¿½, ï¿½por quï¿½ no? */
+SAY SELECT_ACTION4 @27 /* Te seguirï¿½. */
+SAY SELECT_ACTION5 @28 /* Una vez mï¿½s... */
+SAY SELECT_ACTION6 @29 /* Dï¿½jamelo a mï¿½. */
+SAY SELECT_ACTION7 @30 /* ï¿½Serï¿½ rï¿½pido al respecto! */
+SAY SELECT_RARE1 @31 /* Hmm... ï¿½te conozco? ï¿½Ja! Sï¿½lo bromeo. */
+SAY SELECT_RARE2 @32 /* Agradezco la atenciï¿½n, pero ï¿½no deberï¿½amos centrarnos en el asunto que nos ocupa? */
+SAY CRITICAL_HIT @47 /* ï¿½ï¿½ï¿½Sï¿½!!! */
 SAY CRITICAL_MISS @34 /* Argh! */
 SAY TARGET_IMMUNE @48 /* *suspiro* Mi objetivo es inmune... */
-SAY INVENTORY_FULL @36 /* Lo siento, pero mi mochila está llena. */ 
-SAY SPELL_DISRUPTED @37 /* ¡Estoy malherido! */
-SAY REACT_TO_DIE_GENERAL @45 /*  */ // Reacción a la muerte de un compañero de grupo
+SAY INVENTORY_FULL @36 /* Lo siento, pero mi mochila estï¿½ llena. */ 
+SAY SPELL_DISRUPTED @37 /* ï¿½Estoy malherido! */
+SAY REACT_TO_DIE_GENERAL @45 /*  */ // Reacciï¿½n a la muerte de un compaï¿½ero de grupo
 SAY PICKED_POCKET @51 /* Vaya... le he robado... */
 SAY HIDDEN_IN_SHADOWS @41 /* Shhh... ahora estoy en las sombras... */
 SAY SET_A_TRAP @50 /* *risa* La trampa... ha sido puesta. */
-SAY BIO @38 /* Cuando preguntas por su pasado, Dusk queda un instante pensativo. Dice provenir de una orgullosa familia real, cuya sangre guerrera siempre combatió a los malvados nigromantes de Netheril, incluyendo al peligroso Aumvor. Dusk dice no estar seguro de la veracidad de ciertas narraciones que le contaron cuando era sólo un niño, pero está seguro de su odio natural por los liches. Dice que te acompañará siempre y cuando esté la promesa de que podrá enfrentarse, algún día, contra lo que él considera sus enemigos naturales. */
+SAY BIO @38 /* Cuando preguntas por su pasado, Dusk queda un instante pensativo. Dice provenir de una orgullosa familia real, cuya sangre guerrera siempre combatiï¿½ a los malvados nigromantes de Netheril, incluyendo al peligroso Aumvor. Dusk dice no estar seguro de la veracidad de ciertas narraciones que le contaron cuando era sï¿½lo un niï¿½o, pero estï¿½ seguro de su odio natural por los liches. Dice que te acompaï¿½arï¿½ siempre y cuando estï¿½ la promesa de que podrï¿½ enfrentarse, algï¿½n dï¿½a, contra lo que ï¿½l considera sus enemigos naturales. */
 WRITE_ASCII 0x248 ~P_Dus25S~ #8 
 WRITE_ASCII 0x2cc ~P_Dusk25~ #8 
 WRITE_ASCII 0x280 ~P_Dusk~   #32 // death variable - con esta variable reconocemos al pj mediante scripts y dlg
@@ -1880,136 +1880,133 @@ END
 EXTEND_TOP ~AR6200.bcs~ ~Dusk/Scripts/AR6200.baf~
 
 // NEUTRAL DUSK
-// Epílogo 1 -> Neutral Dusk - Mercader
+// Epï¿½logo 1 -> Neutral Dusk - Mercader
 COPY ~Dusk/Epilogue/P_Duszz.2da~ ~override/P_Dus01.2da~
-REPLACE ~99999~ @330006 /* Luego de los eventos del Trono de Bhaal, Dusk dirigió sus pasos a Athkatla. Intentó poner una tienda de compra y venta de artefactos extraños e incluso recibió varios consejos de Ribald el Truequista. Sin embargo, su emprendimiento fracasó, ya que la mayor parte del tiempo hacía de mediador entre los Ladrones de las Sombras y la Noble Orden del Sagrado Corazón. Se puede decir que evitó varios conflictos y eso, sumado a las hazañas realizadas junto a <CHARNAME>, le valieron varias invitaciones para desempeñar trabajos de carácter militar.
+REPLACE ~99999~ @330006 /* Luego de los eventos del Trono de Bhaal, Dusk dirigiï¿½ sus pasos a Athkatla. Intentï¿½ poner una tienda de compra y venta de artefactos extraï¿½os e incluso recibiï¿½ varios consejos de Ribald el Truequista. Sin embargo, su emprendimiento fracasï¿½, ya que la mayor parte del tiempo hacï¿½a de mediador entre los Ladrones de las Sombras y la Noble Orden del Sagrado Corazï¿½n. Se puede decir que evitï¿½ varios conflictos y eso, sumado a las hazaï¿½as realizadas junto a <CHARNAME>, le valieron varias invitaciones para desempeï¿½ar trabajos de carï¿½cter militar.
 
-Finalmente acudió al llamado de Thethyr para servir como general de los ejércitos de Zaranda Estrella. Se dice que sólo pidió, a cambio, el favor de la Reina para acabar con toda fuerza nigromántica de la región.
+Finalmente acudiï¿½ al llamado de Thethyr para servir como general de los ejï¿½rcitos de Zaranda Estrella. Se dice que sï¿½lo pidiï¿½, a cambio, el favor de la Reina para acabar con toda fuerza nigromï¿½ntica de la regiï¿½n.
 
-Con valentía, lideró los ejércitos de Ternan Grannox y mantuvo la paz durante muchos años, hasta su retiro cuando ya no pudo blandir más una espada y su bastón ya no tenía más propósito que el de servirle como tercer pierna.
+Con valentï¿½a, liderï¿½ los ejï¿½rcitos de Ternan Grannox y mantuvo la paz durante muchos aï¿½os, hasta su retiro cuando ya no pudo blandir mï¿½s una espada y su bastï¿½n ya no tenï¿½a mï¿½s propï¿½sito que el de servirle como tercer pierna.
 
-Se dice que pasó sus últimos días en paz bajo la tenue luz crepuscular de una reconstruida Darromar. */
+Se dice que pasï¿½ sus ï¿½ltimos dï¿½as en paz bajo la tenue luz crepuscular de una reconstruida Darromar. */
 
 
 
-// Epílogo 2 -> Neutral Dusk - Dragon Purple Knight
+// Epï¿½logo 2 -> Neutral Dusk - Dragon Purple Knight
 
 COPY ~Dusk/Epilogue/P_Dus1z.2da~ ~override/P_Dus02.2da~
-REPLACE ~99999~ @330007 /* Tras la separación con <CHARNAME>, Dusk dirigió su camino hacia Cormyr.
+REPLACE ~99999~ @330007 /* Tras la separaciï¿½n con <CHARNAME>, Dusk dirigiï¿½ su camino hacia Cormyr.
 
-Allí narró todo lo sucedido desde su partida, esperando recibir un merecido castigo por su larga ausencia. Lejos de ello, la Espada Superior de la Orden restituyó su cargo como Primera Espada y asignó un nuevo destacamento para recuperar los cuerpos de los soldados caídos, ahora hallados en Shilmista.
+Allï¿½ narrï¿½ todo lo sucedido desde su partida, esperando recibir un merecido castigo por su larga ausencia. Lejos de ello, la Espada Superior de la Orden restituyï¿½ su cargo como Primera Espada y asignï¿½ un nuevo destacamento para recuperar los cuerpos de los soldados caï¿½dos, ahora hallados en Shilmista.
 
-No sólo logró ese cometido, sino que dio caza a los orcos responsables del ataque. Fue en un Túmulo infestado de trolls donde se libró esa batalla, obteniendo la victoria los Caballeros de la Orden del Dragón Púrpura. Derrotó en un combate singular al cacique orco Alabarza, dando muerte, también, a decenas de sus esbirros.
-Ninguno de sus soldados cayó en esa batalla y dicha hazaña le valió un ascenso a Capitán Espada.
+No sï¿½lo logrï¿½ ese cometido, sino que dio caza a los orcos responsables del ataque. Fue en un Tï¿½mulo infestado de trolls donde se librï¿½ esa batalla, obteniendo la victoria los Caballeros de la Orden del Dragï¿½n Pï¿½rpura. Derrotï¿½ en un combate singular al cacique orco Alabarza, dando muerte, tambiï¿½n, a decenas de sus esbirros.
+Ninguno de sus soldados cayï¿½ en esa batalla y dicha hazaï¿½a le valiï¿½ un ascenso a Capitï¿½n Espada.
 
-Se le conoció por ser un férreo cazador de nigromantes y liches, librando a su nación de muchas potenciales amenazas. Luego de muchos años de servicio, decidió retirarse. 
+Se le conociï¿½ por ser un fï¿½rreo cazador de nigromantes y liches, librando a su naciï¿½n de muchas potenciales amenazas. Luego de muchos aï¿½os de servicio, decidiï¿½ retirarse. 
 
-Los rumores indican que se casó con una bella mujer de Suzail y restauró el castillo de la familia Aldant, en los lindes de Arabel. Durante sus años de paz, tuvo a una única hija a la que llamó: Celine. */
+Los rumores indican que se casï¿½ con una bella mujer de Suzail y restaurï¿½ el castillo de la familia Aldant, en los lindes de Arabel. Durante sus aï¿½os de paz, tuvo a una ï¿½nica hija a la que llamï¿½: Celine. */
 
-// Epílogo 3 -> Good Dusk - Mielikki's Church
+// Epï¿½logo 3 -> Good Dusk - Mielikki's Church
 
 COPY ~Dusk/Epilogue/P_Dus3z.2da~ ~override/P_Dus03.2da~
-REPLACE ~99999~ @330008 /* Tras la separación con <CHARNAME>, Dusk dirigió su camino hacia Shilmista.
+REPLACE ~99999~ @330008 /* Tras la separaciï¿½n con <CHARNAME>, Dusk dirigiï¿½ su camino hacia Shilmista.
 
-Allí, recuperó los cuerpos de los soldados cormyreanos caídos con el permiso del rey elfo Elbereth. Luego, con una escolta de exploradores, viajó hacia Cormyr.
+Allï¿½, recuperï¿½ los cuerpos de los soldados cormyreanos caï¿½dos con el permiso del rey elfo Elbereth. Luego, con una escolta de exploradores, viajï¿½ hacia Cormyr.
 
-Al anunciarse, logró exponer todo lo sucedido a los altos mandos del ejército, ofreciéndose a cumplir el castigo que crean adecuado. El general de los Dragones Púrpura, al ver que uno de sus Primeras Espadas había forjado una buena relación con los elfos de Shilmista, decidió perdonarlo en nombre del rey.
+Al anunciarse, logrï¿½ exponer todo lo sucedido a los altos mandos del ejï¿½rcito, ofreciï¿½ndose a cumplir el castigo que crean adecuado. El general de los Dragones Pï¿½rpura, al ver que uno de sus Primeras Espadas habï¿½a forjado una buena relaciï¿½n con los elfos de Shilmista, decidiï¿½ perdonarlo en nombre del rey.
 
-Los arreglos fúnebres a los caídos fue una bella escena, llena de solemnidad y nostalgia. Al finalizar, los elfos indicaron que una alianza comercial entre Cormyr y Shilmista sería de lo más beneficioso para todos.
+Los arreglos fï¿½nebres a los caï¿½dos fue una bella escena, llena de solemnidad y nostalgia. Al finalizar, los elfos indicaron que una alianza comercial entre Cormyr y Shilmista serï¿½a de lo mï¿½s beneficioso para todos.
 
-Esto alegró mucho a los nobles, quienes exigieron una entrega de recompensa cuantiosa a Ardusk Aldant. Pero éste se negó, contestando que estaría más que contento en levantar una iglesia a Mielikki y allí enseñar sobre su dogma.
+Esto alegrï¿½ mucho a los nobles, quienes exigieron una entrega de recompensa cuantiosa a Ardusk Aldant. Pero ï¿½ste se negï¿½, contestando que estarï¿½a mï¿½s que contento en levantar una iglesia a Mielikki y allï¿½ enseï¿½ar sobre su dogma.
 
-Cormyr accedió y así comenzó la alianza entre los hombres del norte y los elfos del sur. 
+Cormyr accediï¿½ y asï¿½ comenzï¿½ la alianza entre los hombres del norte y los elfos del sur. 
 
-Los rumores indican que Dusk pasó el resto de su vida en los Bosques del Rey en Cormyr, amando a la naturaleza como su esposa le hubo enseñado. Quizás, cuando el tiempo le llegue, pueda reencontrarse con ella en las Praderas del Unicornio en el Bosque de la Dama y allí, fundirse en un abrazo eterno de amor. */
+Los rumores indican que Dusk pasï¿½ el resto de su vida en los Bosques del Rey en Cormyr, amando a la naturaleza como su esposa le hubo enseï¿½ado. Quizï¿½s, cuando el tiempo le llegue, pueda reencontrarse con ella en las Praderas del Unicornio en el Bosque de la Dama y allï¿½, fundirse en un abrazo eterno de amor. */
 
-// Epílogo 4 -> Good Dusk - Alabarza's Death
+// Epï¿½logo 4 -> Good Dusk - Alabarza's Death
 
 COPY ~Dusk/Epilogue/P_Dus4z.2da~ ~override/P_Dus04.2da~
-REPLACE ~99999~ @330009 /* Tras la separación con <CHARNAME>, Dusk dirigió sus pasos a Shilmista. Se dice que estudió con varios hechiceros elfos y que buscó durante mucho tiempo una respuesta a una inquietud interior.
+REPLACE ~99999~ @330009 /* Tras la separaciï¿½n con <CHARNAME>, Dusk dirigiï¿½ sus pasos a Shilmista. Se dice que estudiï¿½ con varios hechiceros elfos y que buscï¿½ durante mucho tiempo una respuesta a una inquietud interior.
 
-Años después, viajó hacia Athkatla y buscó a Falon y su tribu. Allí habló con Sir Ryan Espinel y le explicó lo que intentaba hacer. Si bien, el paladín no estaba de acuerdo con lo que Dusk planeaba, finalmente permitió que Falon y los demás le acompañasen a un 'pequeño' viaje.
+Aï¿½os despuï¿½s, viajï¿½ hacia Athkatla y buscï¿½ a Falon y su tribu. Allï¿½ hablï¿½ con Sir Ryan Espinel y le explicï¿½ lo que intentaba hacer. Si bien, el paladï¿½n no estaba de acuerdo con lo que Dusk planeaba, finalmente permitiï¿½ que Falon y los demï¿½s le acompaï¿½asen a un 'pequeï¿½o' viaje.
 
-Juntos, viajaron por las tierras de Amn y Tethyr, portando los emblemas del Radiante Corazón de Tyr, para evitar ataques de las fuerzas locales. Su destino les llevó al Túmulo de los Trolls en los límites de la Árboleda Druídica.
+Juntos, viajaron por las tierras de Amn y Tethyr, portando los emblemas del Radiante Corazï¿½n de Tyr, para evitar ataques de las fuerzas locales. Su destino les llevï¿½ al Tï¿½mulo de los Trolls en los lï¿½mites de la ï¿½rboleda Druï¿½dica.
 
-Dusk realizo un complejo ritual a los dioses de la naturaleza y empleó mucho del poder que había adquirido gracias al Orbe Esmeralda. Al finalizar, Alabarza y sus esbirros habían resucitado.
+Dusk realizo un complejo ritual a los dioses de la naturaleza y empleï¿½ mucho del poder que habï¿½a adquirido gracias al Orbe Esmeralda. Al finalizar, Alabarza y sus esbirros habï¿½an resucitado.
 
-Alabarza, sorprendido de haber vuelto a la vida (y más aún viendo que quien lo había revivido era su gran enemigo), preguntó: "¿Por qué lo has hecho, soldado?".
-Se dice que Dusk sólo sonrió y dijo que el castigo eterno de Gruumsh le parecía demasiado excesivo.
+Alabarza, sorprendido de haber vuelto a la vida (y mï¿½s aï¿½n viendo que quien lo habï¿½a revivido era su gran enemigo), preguntï¿½: "ï¿½Por quï¿½ lo has hecho, soldado?".
+Se dice que Dusk sï¿½lo sonriï¿½ y dijo que el castigo eterno de Gruumsh le parecï¿½a demasiado excesivo.
 
-Al cabo de varias horas de conversaciones entre los humanoides, Dusk logró convencer a Alabarza y su tribu de redimir sus actos, actuando como primera defensa de Amn, junto a la tribu de Falon. 
+Al cabo de varias horas de conversaciones entre los humanoides, Dusk logrï¿½ convencer a Alabarza y su tribu de redimir sus actos, actuando como primera defensa de Amn, junto a la tribu de Falon. 
 
-Alabarza finalmente accedió y el resto de su tribu le siguió. Se dice que al cabo de unos meses se enamoró de Falon y le propuso matrimonio, bajo la luz de su nuevo dios: Tyr.
+Alabarza finalmente accediï¿½ y el resto de su tribu le siguiï¿½. Se dice que al cabo de unos meses se enamorï¿½ de Falon y le propuso matrimonio, bajo la luz de su nuevo dios: Tyr.
 
-En cuanto a Dusk, se dice que viajó por muchos lugares, protegiendo al débil a la primera oportunidad. Pudo obtener el perdón en Cormyr, restaurar la maldición en el Castillo de la Trinidad con la ayuda de Elbereth y Mathyus, visitar a Michelson y Demolidor en Shilmista.
+En cuanto a Dusk, se dice que viajï¿½ por muchos lugares, protegiendo al dï¿½bil a la primera oportunidad. Pudo obtener el perdï¿½n en Cormyr, restaurar la maldiciï¿½n en el Castillo de la Trinidad con la ayuda de Elbereth y Mathyus, visitar a Michelson y Demolidor en Shilmista.
 
-Los años pasaron y cuando su tiempo estaba llegando, en alguna parte del Bosque del Rey en Cormyr, una luz divina surgió de un roble hueco. De ella salió Mielikki, la Dama del Bosque, y cargó en sus brazos a un viejo y desgastado Ardusk Aldant.
+Los aï¿½os pasaron y cuando su tiempo estaba llegando, en alguna parte del Bosque del Rey en Cormyr, una luz divina surgiï¿½ de un roble hueco. De ella saliï¿½ Mielikki, la Dama del Bosque, y cargï¿½ en sus brazos a un viejo y desgastado Ardusk Aldant.
 
-Se dice que atravesaron la luz del roble y viajaron por océanos de estrellas hasta llegar a la Pradera del Unicornio. Allí, una resplandeciente efigie se le presentó: Él ya no estaba viejo: sus arrugas y dolores corporales habían desaparecido; y frente a él, una bella elfa de cabellos dorados como el sol le sonreía.
+Se dice que atravesaron la luz del roble y viajaron por ocï¿½anos de estrellas hasta llegar a la Pradera del Unicornio. Allï¿½, una resplandeciente efigie se le presentï¿½: ï¿½l ya no estaba viejo: sus arrugas y dolores corporales habï¿½an desaparecido; y frente a ï¿½l, una bella elfa de cabellos dorados como el sol le sonreï¿½a.
 
-"Celine..." susurró. Y fue hacia ella, abrazándola mientras la armonía salvaje a su alrededor danzaba en un céfiro otoñal. Ahora sí, Dusk y Celine estarían juntos por siempre. */
+"Celine..." susurrï¿½. Y fue hacia ella, abrazï¿½ndola mientras la armonï¿½a salvaje a su alrededor danzaba en un cï¿½firo otoï¿½al. Ahora sï¿½, Dusk y Celine estarï¿½an juntos por siempre. */
 
-// Epílogo 5 -> Good Dusk - Bellfame's War
+// Epï¿½logo 5 -> Good Dusk - Bellfame's War
 
 COPY ~Dusk/Epilogue/P_Dus5z.2da~ ~override/P_Dus05.2da~
-REPLACE ~99999~ @330010 /* El año de la Jarra transcurría en el mundo cuando Kartlzer, el Caballero Imperceptor de Zentharim invadió el Bosque de Mir. Franqueó las linderas del bosque y se adentró para resguardarse de las tropas de Thethyr, con quien entrarían en guerra en poco tiempo.
+REPLACE ~99999~ @330010 /* El aï¿½o de la Jarra transcurrï¿½a en el mundo cuando Kartlzer, el Caballero Imperceptor de Zentharim invadiï¿½ el Bosque de Mir. Franqueï¿½ las linderas del bosque y se adentrï¿½ para resguardarse de las tropas de Thethyr, con quien entrarï¿½an en guerra en poco tiempo.
 
-Su mago percibió la presencia de una poderosa ninfa, la cual podrían utilizar, viva o muerta, para sus crueles cometidos. Fue entonces que Kartlzer avanzó al corazón del bosque con un mago y veinte guerreros.
+Su mago percibiï¿½ la presencia de una poderosa ninfa, la cual podrï¿½an utilizar, viva o muerta, para sus crueles cometidos. Fue entonces que Kartlzer avanzï¿½ al corazï¿½n del bosque con un mago y veinte guerreros.
 
-Al llegar a un glauco manglar, los villanos se encontraron con una efigie particular: la ninfa, Bellfame, les esperaba rodeada de un oso, tres lobos y un pequeño ratón en su hombro.
+Al llegar a un glauco manglar, los villanos se encontraron con una efigie particular: la ninfa, Bellfame, les esperaba rodeada de un oso, tres lobos y un pequeï¿½o ratï¿½n en su hombro.
 
-Kartlzer dio un paso al frente y exigió la rendición de la ninfa, a cambio de no matar a sus bestias. Sin embargo, la ninfa, silenciosa, sólo le observó con cierto recelo. Fue entonces que Kartlzer se percató de otra presencia.
+Kartlzer dio un paso al frente y exigiï¿½ la rendiciï¿½n de la ninfa, a cambio de no matar a sus bestias. Sin embargo, la ninfa, silenciosa, sï¿½lo le observï¿½ con cierto recelo. Fue entonces que Kartlzer se percatï¿½ de otra presencia.
 
-De entre las sombras, un caballero de verde y purpúrea armadura, con el símbolo del Dragón Púrpura en su pecho, hizo aparición.
+De entre las sombras, un caballero de verde y purpï¿½rea armadura, con el sï¿½mbolo del Dragï¿½n Pï¿½rpura en su pecho, hizo apariciï¿½n.
 
-"Soy Ardusk Aldant, Primera Espada de Cormyr, Caballero de la Orden de los Dragones Púrpuras y Guardián de Shilmista. Si quieres salir de vida de aquí, date la media vuelta... de lo contrario, tú y todos tus hombres morirán aquí, hoy."
+"Soy Ardusk Aldant, Primera Espada de Cormyr, Caballero de la Orden de los Dragones Pï¿½rpuras y Guardiï¿½n de Shilmista. Si quieres salir de vida de aquï¿½, date la media vuelta... de lo contrario, tï¿½ y todos tus hombres morirï¿½n aquï¿½, hoy."
 
-Kartlzer había oído sobre él y de sus hazañas con <CHARNAME>. Bien podría tratarse de una artimaña, pero algo en la figura de Dusk le hizo convencerse de lo contrario.
+Kartlzer habï¿½a oï¿½do sobre ï¿½l y de sus hazaï¿½as con <CHARNAME>. Bien podrï¿½a tratarse de una artimaï¿½a, pero algo en la figura de Dusk le hizo convencerse de lo contrario.
 
-Finalmente, el Caballero Imperceptor dio media vuelta y se marchó, con rapidez, por donde había venido.
+Finalmente, el Caballero Imperceptor dio media vuelta y se marchï¿½, con rapidez, por donde habï¿½a venido.
 
-Dusk miró con sorpresa su puño cerrado. Lo abrió, pero no había nada: En él estaba el Anillo del Bosque de Mir y había desaparecido.
+Dusk mirï¿½ con sorpresa su puï¿½o cerrado. Lo abriï¿½, pero no habï¿½a nada: En ï¿½l estaba el Anillo del Bosque de Mir y habï¿½a desaparecido.
 
-Bellfame esbozó una sonrisa por primera vez: "Lo has logrado, Ardusk. Nos has salvado... has cambiado mi destino."
+Bellfame esbozï¿½ una sonrisa por primera vez: "Lo has logrado, Ardusk. Nos has salvado... has cambiado mi destino."
 
-Ambos se fundieron en un abrazo y allí, Bellfame amó por primera a un mortal.
+Ambos se fundieron en un abrazo y allï¿½, Bellfame amï¿½ por primera a un mortal.
 
-Dusk pasó el resto de sus días en Mir junto a las bestias y plantas del bosque que tanto amó. */
+Dusk pasï¿½ el resto de sus dï¿½as en Mir junto a las bestias y plantas del bosque que tanto amï¿½. */
 
-// Epílogo 6 -> Evil Dusk - Sothillis's Hunter
+// Epï¿½logo 6 -> Evil Dusk - Sothillis's Hunter
 
 COPY ~Dusk/Epilogue/P_Dus6z.2da~ ~override/P_Dus06.2da~
-REPLACE ~99999~ @330011 /* Tras su separación con <CHARNAME>, Dusk dirigió sus pasos a Tethyr. Allí fundó una compañía de mercenarios llamada La Guardia Escarlata. Se puso a las órdenes de Zaranda Estrella y protegió la región de potenciales enemigos. Pero los rumores indican que Dusk indujo, unos años más tarde, el inicio de la guerra contra el Imperio de Sothillis. El conflicto produjo la pérdida de miles de soldados de ambos bandos. El mismo finalizó, según se dice, en una sangrienta batalla entre los humanoides y la Guardia Escarlata. Se dice que Sothillis cayó en batalla contra un guerrero que blandía una espada roja como la sangre.
-Los rumores tomaron fuerza cuando, ya en tiempos de paz, Dusk visitó Puerta de Baldur y dejó allí un gran mandoble manchado de sangre. Dicha arma pertenecía a un humanoide de gran tamaño; años más tarde, expertos dirían que era el arma personal del ogro mago Sothillis.
+REPLACE ~99999~ @330011 /* Tras su separaciï¿½n con <CHARNAME>, Dusk dirigiï¿½ sus pasos a Tethyr. Allï¿½ fundï¿½ una compaï¿½ï¿½a de mercenarios llamada La Guardia Escarlata. Se puso a las ï¿½rdenes de Zaranda Estrella y protegiï¿½ la regiï¿½n de potenciales enemigos. Pero los rumores indican que Dusk indujo, unos aï¿½os mï¿½s tarde, el inicio de la guerra contra el Imperio de Sothillis. El conflicto produjo la pï¿½rdida de miles de soldados de ambos bandos. El mismo finalizï¿½, segï¿½n se dice, en una sangrienta batalla entre los humanoides y la Guardia Escarlata. Se dice que Sothillis cayï¿½ en batalla contra un guerrero que blandï¿½a una espada roja como la sangre.
+Los rumores tomaron fuerza cuando, ya en tiempos de paz, Dusk visitï¿½ Puerta de Baldur y dejï¿½ allï¿½ un gran mandoble manchado de sangre. Dicha arma pertenecï¿½a a un humanoide de gran tamaï¿½o; aï¿½os mï¿½s tarde, expertos dirï¿½an que era el arma personal del ogro mago Sothillis.
 
-Los años pasaron y los actos de Dusk eran cada vez más erráticos y misteriosos. Nunca se separaba de su espada, la cual parecía fortalecerse con cada muerte que ocasionaba.
-Finalmente, el brillo escarlata de su espada fue desapareciendo, indicando el fin de la vida del guerrero cormyreano. Se dice que una gran sombra, la cual se hacía llamar Danctian, vino a buscarlo en sus últimos momentos de vida.
+Los aï¿½os pasaron y los actos de Dusk eran cada vez mï¿½s errï¿½ticos y misteriosos. Nunca se separaba de su espada, la cual parecï¿½a fortalecerse con cada muerte que ocasionaba.
+Finalmente, el brillo escarlata de su espada fue desapareciendo, indicando el fin de la vida del guerrero cormyreano. Se dice que una gran sombra, la cual se hacï¿½a llamar Danctian, vino a buscarlo en sus ï¿½ltimos momentos de vida.
 
-Los últimos vestigios de Dusk no eran más que sombra y polvo, pero algunos arcanos mencionan que pueden hallar una presencia familiar y tenebrosa en el plano del Pandemonium. */
+Los ï¿½ltimos vestigios de Dusk no eran mï¿½s que sombra y polvo, pero algunos arcanos mencionan que pueden hallar una presencia familiar y tenebrosa en el plano del Pandemonium. */
 
-// Epílogo 7 -> Evil Dusk - Dusk Redemption
+// Epï¿½logo 7 -> Evil Dusk - Dusk Redemption
 
 COPY ~Dusk/Epilogue/P_Dus7z.2da~ ~override/P_Dus07.2da~
-REPLACE ~99999~ @330012 /* Tras los acontecimientos del Trono de Bhaal, Dusk regresó a Athkatla, precisamente a una casa abandonada en el Distrito del Puerto.
+REPLACE ~99999~ @330012 /* Tras los acontecimientos del Trono de Bhaal, Dusk regresï¿½ a Athkatla, precisamente a una casa abandonada en el Distrito del Puerto.
 
-Allí, realizó un ritual junto a Danctian y, entregando gran parte de su poder, pudo traer a la vida a tres criaturas shilmistas. Mathyus, Michelson y Demolidor estaban de vuelta, confundidos ante la decisión de Dusk (quien los había aniquilado en un principio). No obtuvieron respuesta alguna y Dusk, junto a su sombra demoníaca, desaparecieron para siempre de Amn.
+Allï¿½, realizï¿½ un ritual junto a Danctian y, entregando gran parte de su poder, pudo traer a la vida a tres criaturas shilmistas. Mathyus, Michelson y Demolidor estaban de vuelta, confundidos ante la decisiï¿½n de Dusk (quien los habï¿½a aniquilado en un principio). No obtuvieron respuesta alguna y Dusk, junto a su sombra demonï¿½aca, desaparecieron para siempre de Amn.
 
-Se dice que una figura escarlata con el emblema de Cormyr ayudó a Tethyr a combatir la amenaza del Ogro Mago Sothillis. Luego, viajó a Shilmista a visitar la tumba de una elfa exploradora y, finalmente, visitó un lugar maldito llamado El Castillo de la Trinidad.
+Se dice que una figura escarlata con el emblema de Cormyr ayudï¿½ a Tethyr a combatir la amenaza del Ogro Mago Sothillis. Luego, viajï¿½ a Shilmista a visitar la tumba de una elfa exploradora y, finalmente, visitï¿½ un lugar maldito llamado El Castillo de la Trinidad.
 
-Allí, realizó un ritual prohibido en el que abrió un portal a un plano forestal. Realizó un pacto con la mismísima Dama del Bosque. Algunos elfos guardianes fueron testigos de cómo el humano desenvainó su espada, la cual era escarlata como la sangre, pero poco a poco, la misma fue tornándose glauca como las hojas de un cedro. Un poderoso vendaval invadió el lugar y el brillo de la espada se esfumó, al igual que la vida en Dusk.
+Allï¿½, realizï¿½ un ritual prohibido en el que abriï¿½ un portal a un plano forestal. Realizï¿½ un pacto con la mismï¿½sima Dama del Bosque. Algunos elfos guardianes fueron testigos de cï¿½mo el humano desenvainï¿½ su espada, la cual era escarlata como la sangre, pero poco a poco, la misma fue tornï¿½ndose glauca como las hojas de un cedro. Un poderoso vendaval invadiï¿½ el lugar y el brillo de la espada se esfumï¿½, al igual que la vida en Dusk.
 
-Cuando los elfos retornaron a Shilmista a informar a Elbereth, éste ya estaba lidiando con un hecho sobrenatural. Y es que Celine, la elfa exploradora, había revivido.
+Cuando los elfos retornaron a Shilmista a informar a Elbereth, ï¿½ste ya estaba lidiando con un hecho sobrenatural. Y es que Celine, la elfa exploradora, habï¿½a revivido.
 
-Celine, aún conmocionada por lo acontecido, partió de inmediato a Trinidad. Allí, no pudo hallar el cuerpo de Dusk. Sólo halló un bastón, con el emblema de Shilmista, y una armadura, con el emblema de Cormyr. Dichos artefactos se guardan con recelo, aún a día de hoy, en el corazón de Shilmista.
+Celine, aï¿½n conmocionada por lo acontecido, partiï¿½ de inmediato a Trinidad. Allï¿½, no pudo hallar el cuerpo de Dusk. Sï¿½lo hallï¿½ un bastï¿½n, con el emblema de Shilmista, y una armadura, con el emblema de Cormyr. Dichos artefactos se guardan con recelo, aï¿½n a dï¿½a de hoy, en el corazï¿½n de Shilmista.
 
  */
 
 
 END // and here ends ToB content
 
-// These files add Dusk's scripts and dialogue files to the game(except for the banter file, that's below). The first block is for SoA-only installs, the second one is for ToB.
-// Here's the order: death variable, leaving party file, main dialogue file(J for joined), dream script for SoA.
-// Or death variable, leaving party file, main dialogue file(J for joined), dream script for SoA, leaving party file for ToB, main dialogue(J) file for ToB, ToB dream script, ToB main script.
 
 APPEND ~pdialog.2da~
 ~P_Dusk        P_DuskP             P_DuskJ            P_DuskD~
@@ -2027,10 +2024,8 @@ THEN BEGIN
   PRINT ~Adding crossmod between Dusk and Wilson~
 COMPILE ~%MOD_FOLDER%/dialogue/crossmod/bwilson.d~
 END
+// END Test Crossmods
 
-
-// These files add Dusk's banter files to the game. The first block is for SoA-only installs, the second one is for ToB.
-// Here's the order: death variable, SoA banter file for SoA. Or death variable, SoA banter file, ToB banter file for ToB.
 APPEND ~interdia.2da~
 ~P_Dusk       P_BDusk~
 UNLESS ~P_Dusk~
@@ -2056,7 +2051,7 @@ ACTION_IF GAME_IS ~eet~ BEGIN
       override_ToB = "P_Dus25S" //Dusk ToB Override script
       dialog_ToB = "P_Dusk25" //Dusk ToB dialogue file
       cre_ToB = "P_Dusk25" //Dusk ToB CRE filename
-      string = "Tráeme a Dusk, el Asesino de Magos." //normally this should be reference to TRA file, but the mod is not traified
+      string = "Bring me Dusk, the Wizard Slayer." //normally this should be reference to TRA file, but the mod is not traified
       stringPosDV = "Cernd" //Dusk will be appended right above Cernd
       clean_ToB_DV = "Dusk" //death variable of BG1 Dusk (see clean_ToB comment)
   END
