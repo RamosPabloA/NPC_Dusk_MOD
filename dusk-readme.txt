@@ -103,6 +103,7 @@ Eduardo Van Cauteren				Collaborator
 -------------------
 
 Version 0.9
+- Initial release
 - Spanish version complete
 - English version complete
 
