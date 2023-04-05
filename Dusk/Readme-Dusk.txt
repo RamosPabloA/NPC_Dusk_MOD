@@ -1,5 +1,5 @@
 			Dusk NPC MOD for Baldur's Gate II
-				   Version 1.0
+				   Version 0.9
 
 Contents
 
@@ -8,8 +8,7 @@ Contents
 3. Features
 4. Frequently Asked Questions
 5. Credits
-6. Version History
-7. Legal Information
+6. Legal Information
 
 ----------------
 1. Introduction
@@ -17,20 +16,24 @@ Contents
 
 - Featuring a new NPC joinable to the party: Dusk, the Wizard Slayer.
 
-Ardusk Aldant, also know as Dusk, it's a warrior from Cormyr, trained in the  Order of the Purple Dragons. After a long journey to Athkatla, Dusk is now became a notable Wizard Slayer who just wants to live in peace. But a dark figure attacks in the pacific Waukeen's Promenade.
-
+Ardusk Aldant, also know as Dusk, is a warrior from Cormyr, trained in the  Order of the Purple Dragons. After a long journey to Athkatla, Dusk is now became a notable Wizard Slayer who just wants to live in peace. But a dark figure attacks in the pacific Waukeen's Promenade.
 
 
 ----------------
 2. Installation
 ----------------
 
-To install the mod, unpack the archive into your BG2 directory and run 
-Setup-Dusk.exe.
+Windows:
+Copy the content of the ZIP file into your BG2 directory and:
 
-Once you see the Readme, the installation is complete.
+    Execute setup-dusk.exe and follow the instructions
 
-To reinstall or uninstall the mod, run Setup-Dusk.exe in your game directory.
+macOS:
+Copy the content of the ZIP file into you BG2 directory and:
+
+    Open Terminal then go to game directory
+    Grant execution permission to the installation scripts chmod +x setup-dusk*
+    Execute the script and follow the instructions ./setup-dusk.command
 
 -----------------------
 3. Features
@@ -60,10 +63,9 @@ Dusk will give you the chance to get:
 ------------------------------
 
 Q: Where is he?
-A: Dusk is in the Waukeen's Promenade of Athkatla. He'll find you after your scape from Irenicus's dungeon.
+A: Dusk is in the Waukeen's Promenade of Athkatla. He'll find you after you escape from the dungeon.
 Q: But he is not there!
-A: Make sure that you have actually installed the mod. Open your game directory
-and run Setup-Dusk.exe. If this file is not there, repeat the installation
+A: Make sure that you have actually installed the mod. Open your game directory and run Setup-Dusk.exe. If this file is not there, repeat the installation
 process as described above.
 
 Q: Dusk's select/confirm sounds are all mixed up! And his name, too!
@@ -73,14 +75,15 @@ Q: Is there a romance between Dusk and the PC?
 A: No (atleast at the moment), although you can have a friendship with him.
 
 Q: Can I install Dusk and continue playing?
-A: Sure, just quit the game before installing mods. Just keep in mind that if you do it beyond Chapter 2, you may not be able to initialize their first mission.
+A: Sure, just quit the game before installing mods.
 
 Q: Is Dusk compatible with mod X?
-A: Dusk should work fine with other mods. Install him together with other
-NPCs.
+A: Dusk should work fine with other mods. Install him together with other NPCs.
 
 Q: Can I e-mail or PM you instead?
 A: You can write me to pablo.alejandro.ramos@gmail.com or in the Facebook page: "Baldur's Gate 2 - Dusk Mod".
+Facebook URL: https://www.facebook.com/bg2duskmod
+GitHub URL: https://github.com/RamosPabloA/NPC_Dusk_MOD
 
 
 -----------
@@ -89,6 +92,7 @@ A: You can write me to pablo.alejandro.ramos@gmail.com or in the Facebook page: 
 
 Pablo Ramos					Writer
 						Programmer
+Eduardo Van Cauteren				Collaborator
 
 "Tierras de la Intriga: Tethyr" by Steven E. Schend, 1997.
 "La venganza del Duque" by Pol Rupes, 2019.
@@ -98,16 +102,19 @@ Pablo Ramos					Writer
 6. Version History
 -------------------
 
-Version 1
+Version 0.9
 - Initial release
+- Spanish version complete
+- English version complete
+
 
 ---------------------
 7. Legal Information
 ---------------------
 
 =================================================================================
-BALDUR'S GATE II: SHADOWS OF AMN Developed and � 2000 BioWare Corp. All Rights
-Reserved. BALDUR'S GATE II: THRONE OF BHAAL Developed and � 2001 BioWare
+BALDUR'S GATE II: SHADOWS OF AMN Developed and © 2000 BioWare Corp. All Rights
+Reserved. BALDUR'S GATE II: THRONE OF BHAAL Developed and © 2001 BioWare
 Corp. All Rights Reserved. Baldur's Gate, Shadows of Amn, Tales of the Sword
 Coast, Forgotten Realms, the Forgotten Realms logo, Advanced Dungeons & Dragons,
 the AD&D logo, TSR and the TSR logo, and the Wizards of the Coast logo, are
@@ -121,7 +128,7 @@ trademarks and copyrights are property of their respective owners.
 =================================================================================
 
 =================================================================================
-Dusk NPC MOD for Baldur's Gate II � 2023. Dusk is not 
+Dusk NPC MOD for Baldur's Gate II © 2023. Dusk is not 
 developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay
 Entertainment Corp., or the Wizards of the Coast. All other trademarks and
 copyrights are property of their respective owners.
