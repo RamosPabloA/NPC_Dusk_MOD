@@ -12,7 +12,7 @@ Ardusk Aldant, also know as Dusk, is a warrior from Cormyr, trained in the Order
 **Dusk** is a warrior specialist in the melee combat, using quarterstaffs and bastard swords. He has two innate abilities that learned in his youth as a First Sword in Cormyr:
 
 - **Inspiring Surge:** The Cormyrean warrior lets out a war cry of "For Cormyr!", instilling courage in his allies. During the time the effect lasts, they will be immune to the effects of fear. The scream also removes fear effects from those who would be affected.
-- **Heroic Defense: **The Cormyrean warrior who has been trained as First Sword, is capable of providing a Heroic Defense to the indicated target, providing physical and elemental defense by %10 for the duration of the effect.
+- **Heroic Defense:** The Cormyrean warrior who has been trained as First Sword, is capable of providing a Heroic Defense to the indicated target, providing physical and elemental defense by %10 for the duration of the effect.
 
 Dusk will give you the chance to get:
 - 4 new missions (for Shadow of Amn)
