@@ -58,7 +58,7 @@ Is there a romance between Dusk and the PC?
 Can I install Dusk and continue playing?
 - Sure, just quit the game before installing mods.
 
-Is Dusk compatible with mod x?
+Is Dusk compatible with mod X?
 - Dusk should work fine with other mods. Install them together with other NPCs.
 
 ## Contacts
@@ -79,19 +79,19 @@ Is Dusk compatible with mod x?
 - Pablo Ramos: *Writer and Programmer*
 - Eduardo Van Cauteren: *Collaborator*
 
-**Literature:**
-"Tierras de la Intriga: Tethyr" by Steven E. Schend, 1997.
+**Literature:**  
+"Tierras de la Intriga: Tethyr" by Steven E. Schend, 1997.  
 "La venganza del Duque" by Pol Rupes, 2019.
 
-**Music:**
-Dusk Aldant - True Neutral: Secunda by Jeremy Soule (performed by Eileen)
-Dusk Aldant - Neutral Good: Harbinger of Spring by Adrian von Ziegler
-Dusk Aldant - Neutral Evil: Alone With My Thoughts by Esther Abrami
-Mathyus Davis's seek help: Moonfolk by Adrian von Ziegler
-Danctian Shadow Final Quest: Gnossienne No. 1 by Erik Satie (perfomed by Alena Cherny) 
-The end of the conversations: Dreamseer by Adrian von Ziegler
-Mielikki's will: Ehsellyei by Gary Stadler with Stephannie
-Pandemonium's gift: Pan's Lullaby by Javier Navarrete (perfomed by Erutan)
+**Music:**  
+Dusk Aldant - True Neutral: Secunda by Jeremy Soule (performed by Eileen)  
+Dusk Aldant - Neutral Good: Harbinger of Spring by Adrian von Ziegler  
+Dusk Aldant - Neutral Evil: Alone With My Thoughts by Esther Abrami  
+Mathyus Davis's seek help: Moonfolk by Adrian von Ziegler  
+Danctian Shadow Final Quest: Gnossienne No. 1 by Erik Satie (perfomed by Alena Cherny)  
+The end of the conversations: Dreamseer by Adrian von Ziegler  
+Mielikki's will: Ehsellyei by Gary Stadler with Stephannie  
+Pandemonium's gift: Pan's Lullaby by Javier Navarrete (perfomed by Erutan)  
 
 ## Legal Information
 
