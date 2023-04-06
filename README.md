@@ -77,7 +77,7 @@ Is Dusk compatible with mod X?
 ## Credits
 
 - Pablo Ramos: *Writer and Programmer*
-- Eduardo Van Cauteren: *Collaborator*
+- Eduardo Van Cauteren: *Contributor*
 
 **Literature:**  
 "Tierras de la Intriga: Tethyr" by Steven E. Schend, 1997.  

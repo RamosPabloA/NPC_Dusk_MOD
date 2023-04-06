@@ -89,7 +89,7 @@ GitHub: https://github.com/RamosPabloA/NPC_Dusk_MOD
 -----------
 
 Pablo Ramos: Writer and Programmer
-Eduardo Van Cauteren: Collaborator
+Eduardo Van Cauteren: Contributor
 
 Literature:
 "Tierras de la Intriga: Tethyr" by Steven E. Schend, 1997.
