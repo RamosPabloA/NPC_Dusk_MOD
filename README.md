@@ -58,7 +58,7 @@ Is there a romance between Dusk and the PC?
 Can I install Dusk and continue playing?
 - Sure, just quit the game before installing mods.
 
-Is Dusk compatible with mod X?
+Is Dusk compatible with mod x?
 - Dusk should work fine with other mods. Install them together with other NPCs.
 
 ## Contacts
