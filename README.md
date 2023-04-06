@@ -63,8 +63,8 @@ Is Dusk compatible with mod x?
 
 ## Contacts
 
-Follow us on social networks: [Facebook](https://www.facebook.com/bg2duskmod "Facebook")
-Write me an email: pablo.alejandro.ramos@gmail.com 
+- Follow us on social networks: [Facebook](https://www.facebook.com/bg2duskmod "Facebook")
+- Write me an email: pablo.alejandro.ramos@gmail.com 
 
 [![Facebook](https://img.shields.io/badge/Facebook-blue.svg)](https://www.facebook.com/bg2duskmod)
 
@@ -76,8 +76,8 @@ Write me an email: pablo.alejandro.ramos@gmail.com
 
 ## Credits
 
-Pablo Ramos: *Writer and Programmer*
-Eduardo Van Cauteren: *Collaborator*
+- Pablo Ramos: *Writer and Programmer*
+- Eduardo Van Cauteren: *Collaborator*
 
 **Literature:**
 "Tierras de la Intriga: Tethyr" by Steven E. Schend, 1997.
