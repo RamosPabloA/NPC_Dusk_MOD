@@ -1,7 +1,7 @@
 			Dusk NPC MOD for Baldur's Gate II
-				   Version 0.9
+				   Version 0.9.0
 
-Contents
+CONTENTS
 
 1. Introduction
 2. Installation
@@ -14,9 +14,8 @@ Contents
 1. Introduction
 ----------------
 
-- Featuring a new NPC joinable to the party: Dusk, the Wizard Slayer.
-
-Ardusk Aldant, also know as Dusk, is a warrior from Cormyr, trained in the  Order of the Purple Dragons. After a long journey to Athkatla, Dusk is now became a notable Wizard Slayer who just wants to live in peace. But a dark figure attacks in the pacific Waukeen's Promenade.
+Dusk NPC Mod features a new NPC joining to the party: Dusk, the Wizard Slayer.
+Ardusk Aldant, also know as Dusk, is a warrior from Cormyr, trained in the Order of the Purple Dragons. After a long journey to Athkatla, Dusk now becomes a notable Wizard Slayer who just wants to live in peace. But a dark figure attacks in the peaceful Waukeen's Promenade.
 
 
 ----------------
@@ -32,16 +31,14 @@ macOS:
 Copy the content of the ZIP file into you BG2 directory and:
 
     Open Terminal then go to game directory
-    Grant execution permission to the installation scripts chmod +x setup-dusk*
-    Execute the script and follow the instructions ./setup-dusk.command
+    Grant execution permission to the installation scripts: chmod +x setup-dusk*
+    Execute the script and follow the instructions: ./setup-dusk.command
 
 -----------------------
 3. Features
 -----------------------
 
-FEATURES:
 Dusk is a warrior specialist in the melee combat, using quarterstaffs and bastard swords. He has 2 innate abilities that learned in his youth as a First Sword in Cormyr:
-
 - Inspiring Surge: The Cormyrean warrior lets out a war cry of "For Cormyr!", instilling courage in his allies. During the time the effect lasts, they will be immune to the effects of fear. The scream also removes fear effects from those who would be affected.
 - Heroic Defense: The Cormyrean warrior who has been trained as First Sword, is capable of providing a Heroic Defense to the indicated target, providing physical and elemental defense by %10 for the duration of the effect.
 
@@ -64,6 +61,7 @@ Dusk will give you the chance to get:
 
 Q: Where is he?
 A: Dusk is in the Waukeen's Promenade of Athkatla. He'll find you after you escape from the dungeon.
+
 Q: But he is not there!
 A: Make sure that you have actually installed the mod. Open your game directory and run Setup-Dusk.exe. If this file is not there, repeat the installation
 process as described above.
@@ -81,31 +79,40 @@ Q: Is Dusk compatible with mod X?
 A: Dusk should work fine with other mods. Install him together with other NPCs.
 
 Q: Can I e-mail or PM you instead?
-A: You can write me to pablo.alejandro.ramos@gmail.com or in the Facebook page: "Baldur's Gate 2 - Dusk Mod".
+A: You can write me to pablo.alejandro.ramos@gmail.com
 Facebook URL: https://www.facebook.com/bg2duskmod
-GitHub URL: https://github.com/RamosPabloA/NPC_Dusk_MOD
+GitHub: https://github.com/RamosPabloA/NPC_Dusk_MOD
 
 
 -----------
 5. Credits
 -----------
 
-Pablo Ramos					Writer
-						Programmer
-Eduardo Van Cauteren				Collaborator
+Pablo Ramos: Writer and Programmer
+Eduardo Van Cauteren: Collaborator
 
+Literature:
 "Tierras de la Intriga: Tethyr" by Steven E. Schend, 1997.
 "La venganza del Duque" by Pol Rupes, 2019.
+
+Music:
+Dusk Aldant - True Neutral: Secunda by Jeremy Soule (performed by Eileen)
+Dusk Aldant - Neutral Good: Harbinger of Spring by Adrian von Ziegler
+Dusk Aldant - Neutral Evil: Alone With My Thoughts by Esther Abrami
+Mathyus Davis's seek help: Moonfolk by Adrian von Ziegler
+Danctian Shadow Final Quest: Gnossienne No. 1 by Erik Satie (perfomed by Alena Cherny) 
+The end of the conversations: Dreamseer by Adrian von Ziegler
+Mielikki's will: Ehsellyei by Gary Stadler with Stephannie
+Pandemonium's gift: Pan's Lullaby by Javier Navarrete (perfomed by Erutan)
 
 
 -------------------
 6. Version History
 -------------------
 
-Version 0.9
+Version 0.9.0
 - Initial release
-- Spanish version complete
-- English version complete
+- Complete translation to Spanish & English languages
 
 
 ---------------------
