@@ -110,6 +110,13 @@ Pandemonium's gift: Pan's Lullaby by Javier Navarrete (perfomed by Erutan)
 6. Version History
 -------------------
 
+Version 0.9.1
+- Edited (nerfed) SEVERAL items for a better game balance
+- Fix several translation issues
+- WS Set usability fixes
+- Removed AMTGEN01.tra files since they were not needed
+- Created a hotkey (K) for solving an issue with dialogs being mixed up
+
 Version 0.9.0
 - Initial release
 - Complete translation to Spanish & English languages
