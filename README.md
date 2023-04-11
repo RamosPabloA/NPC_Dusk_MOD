@@ -61,6 +61,12 @@ Can I install Dusk and continue playing?
 Is Dusk compatible with mod X?
 - Dusk should work fine with other mods. Install them together with other NPCs.
 
+Is Dusk compatible Enhanced Edition (Trilogy)/EET?
+- Dusk should work fine with EE (Trilogy) or EET.
+
+Is Dusk compatible Classic Edition?
+- So far, Dusk Mod is not compatible with this version.
+
 ## Contacts
 
 - Follow us on social networks: [Facebook](https://www.facebook.com/bg2duskmod "Facebook")
@@ -69,6 +75,13 @@ Is Dusk compatible with mod X?
 [![Facebook](https://img.shields.io/badge/Facebook-blue.svg)](https://www.facebook.com/bg2duskmod)
 
 ## Version History
+
+**Version 0.9.1**
+- Edited (nerfed) SEVERAL items for a better game balance
+- Fix several translation issues
+- WS Set usability fixes
+- Removed AMTGEN01.tra files since they were not needed
+- Created a hotkey (K) for solving an issue with dialogs being mixed up
 
 **Version 0.9.0**
 - Initial release
