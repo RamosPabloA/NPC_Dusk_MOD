@@ -7,6 +7,14 @@ StartCutSceneMode()
 StartCutScene("P_DuskF")
 END
 
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+Wait (6)
+SetGlobal("P_Dusk_UpdateK","GLOBAL",0)
+END
+
 // ***************************************************************
 
 /*VARIABLES FINALES DE LAS MISIONES

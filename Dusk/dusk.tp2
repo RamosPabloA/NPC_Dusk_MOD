@@ -197,7 +197,7 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Dialogue/p_celgh.d~
 	//Mathyus poseido
 	~Dusk/Dialogue/p_matu2.d~
-	//Demolidor combatiente
+	//Demoledor combatiente
 	~Dusk/Dialogue/p_demol2.d~
 	//Michelson Final Mission
 	~Dusk/Dialogue/p_miche2.d~
@@ -653,7 +653,7 @@ SAY UNIDENTIFIED_DESC @200189 /* */
 SAY DESC @200190 /* */
 SAY 518 @200191 /* */
 
-// MUGENJIN  111111111111111111
+// MUGENJIN  Katana
 
 COPY ~Dusk/Items/P_SW1H03.itm~ ~override~         
 
@@ -662,7 +662,7 @@ SAY NAME2 @200193 /*  */
 SAY UNIDENTIFIED_DESC @200185 /* */
 SAY DESC @200195 /* */
 
-// SHIN-USHI  11111111111111111111
+// SHIN-USHI  Katana
 
 COPY ~Dusk/Items/P_SW1H04.itm~ ~override~         
 
@@ -1043,7 +1043,7 @@ COPY ~Dusk/Items/p_nalit.itm~ ~override~
 SAY NAME2 @200401 /*  */
 SAY DESC @200402 /* */
 
-// Demolidor, el perro de Mathyus
+// Demoledor, el perro de Mathyus
 
 COPY ~Dusk/Characters/p_demscr.itm~ ~override~
 SAY NAME1 @330006 /*   */ 
@@ -1053,8 +1053,8 @@ SAY DESC @330009 /* */
 
 
 COPY ~Dusk/Characters/p_demole.cre~ ~override~
-SAY NAME1 @200321 /* Demolidor */
-SAY NAME2 @200321 /* Demolidor */
+SAY NAME1 @200321 /* Demoledor */
+SAY NAME2 @200321 /* Demoledor */
 SAY BATTLE_CRY1 ~~ [P_Demo01]
 SAY BATTLE_CRY2 ~~ [P_Demo02]
 SAY BATTLE_CRY3 ~~ [P_Demo01]
@@ -1637,10 +1637,10 @@ WRITE_ASCII 0x2cc ~p_matu2~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_mats~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_matu2~ #8  // OVERRIDE SCRIPT
 
-// Demolidor combatiente
+// Demoledor combatiente
 COPY ~Dusk/Characters/p_demol2.cre~ ~override~
-SAY NAME1 @200321 /* Demolidor */
-SAY NAME2 @200321 /* Demolidor */
+SAY NAME1 @200321 /* Demoledor */
+SAY NAME2 @200321 /* Demoledor */
 SAY BATTLE_CRY1 ~~ [P_Demo01]
 SAY BATTLE_CRY2 ~~ [P_Demo02]
 SAY BATTLE_CRY3 ~~ [P_Demo01]
@@ -1941,7 +1941,7 @@ Al cabo de varias horas de conversaciones entre los humanoides, Dusk logr� con
 
 Alabarza finalmente accedi� y el resto de su tribu le sigui�. Se dice que al cabo de unos meses se enamor� de Falon y le propuso matrimonio, bajo la luz de su nuevo dios: Tyr.
 
-En cuanto a Dusk, se dice que viaj� por muchos lugares, protegiendo al d�bil a la primera oportunidad. Pudo obtener el perd�n en Cormyr, restaurar la maldici�n en el Castillo de la Trinidad con la ayuda de Elbereth y Mathyus, visitar a Michelson y Demolidor en Shilmista.
+En cuanto a Dusk, se dice que viaj� por muchos lugares, protegiendo al d�bil a la primera oportunidad. Pudo obtener el perd�n en Cormyr, restaurar la maldici�n en el Castillo de la Trinidad con la ayuda de Elbereth y Mathyus, visitar a Michelson y Demoledor en Shilmista.
 
 Los a�os pasaron y cuando su tiempo estaba llegando, en alguna parte del Bosque del Rey en Cormyr, una luz divina surgi� de un roble hueco. De ella sali� Mielikki, la Dama del Bosque, y carg� en sus brazos a un viejo y desgastado Ardusk Aldant.
 
@@ -1992,7 +1992,7 @@ Los �ltimos vestigios de Dusk no eran m�s que sombra y polvo, pero algunos a
 COPY ~Dusk/Epilogue/P_Dus7z.2da~ ~override/P_Dus07.2da~
 REPLACE ~99999~ @330012 /* Tras los acontecimientos del Trono de Bhaal, Dusk regres� a Athkatla, precisamente a una casa abandonada en el Distrito del Puerto.
 
-All�, realiz� un ritual junto a Danctian y, entregando gran parte de su poder, pudo traer a la vida a tres criaturas shilmistas. Mathyus, Michelson y Demolidor estaban de vuelta, confundidos ante la decisi�n de Dusk (quien los hab�a aniquilado en un principio). No obtuvieron respuesta alguna y Dusk, junto a su sombra demon�aca, desaparecieron para siempre de Amn.
+All�, realiz� un ritual junto a Danctian y, entregando gran parte de su poder, pudo traer a la vida a tres criaturas shilmistas. Mathyus, Michelson y Demoledor estaban de vuelta, confundidos ante la decisi�n de Dusk (quien los hab�a aniquilado en un principio). No obtuvieron respuesta alguna y Dusk, junto a su sombra demon�aca, desaparecieron para siempre de Amn.
 
 Se dice que una figura escarlata con el emblema de Cormyr ayud� a Tethyr a combatir la amenaza del Ogro Mago Sothillis. Luego, viaj� a Shilmista a visitar la tumba de una elfa exploradora y, finalmente, visit� un lugar maldito llamado El Castillo de la Trinidad.
 

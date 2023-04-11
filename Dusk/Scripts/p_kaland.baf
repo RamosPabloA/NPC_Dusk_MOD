@@ -1,4 +1,11 @@
 IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200423)
+END
+
+IF
 Global ("P_Dusk_Kalanda_Summon","GLOBAL",1)
 Global ("P_Dusk_Kalanda_SummonACT","GLOBAL",1)
 Global ("P_Dusk_Kalanda_TLK","GLOBAL",0)
@@ -30,3 +37,4 @@ THEN
 	Enemy()
 	Continue()
 END
+
