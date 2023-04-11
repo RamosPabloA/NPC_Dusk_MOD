@@ -1,4 +1,11 @@
 IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200416)
+END
+
+IF
 See("P_Dusk")
 Global("P_Dusk_Danctian2_TalkBegin","GLOBAL",0)
 THEN

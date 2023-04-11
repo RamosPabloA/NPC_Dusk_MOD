@@ -61,7 +61,7 @@
 Level: Innate
 Sphere: Elemental
 Range: The warrior
-Duration: 12 hours
+Duration: 3 hours
 Casting time: 0
 Area of effect: The warrior
 Saving throw: None
@@ -79,7 +79,7 @@ Level 16 to 17: 8 layers
 Level 18 to 19: 9 layers
 Level 20 and above: 10 layers
 
-The layers will remain on the warrior for 12 hours until they are exhausted either by physical impacts or magical dissipation.~
+The layers will remain on the warrior for 3 hours until they are exhausted either by physical impacts or magical dissipation.~
 @100101  = ~Steel Warrior~
 
 // ITEMS
@@ -154,7 +154,7 @@ Damage: 2D4+4, +1 for electrical damage and +1 for acid damage
 Damage Type: Slashing
 Weight: 10 lbs
 Speed Factor: 4
-Weapon Proficiency: Two-handed Sword
+Weapon Proficiency: Bastard Sword
 Weapon Type: One-handed
 Requirements: 11 Strength~
 @200011  = ~Five levels drained~
@@ -253,10 +253,10 @@ Combat Abilities:
 - Paralysis: Saving throw against spell or victim will be paralyzed for 6 seconds due to an electrifying blow.
 
 - Call Lightning: Can call a lightning strike from the sky to hit the victim. Causes 3d8 electric damage.
-Usage: 5 times per day.
+Usage: 3 times per day.
 
 THAC0: +5
-Damage: 2d4+5, +2d6 electrical damage
+Damage: 2d4+5, +1d6 electrical damage
 Damage type: Crushing
 Weight: 5
 Speed factor: 0
@@ -837,7 +837,7 @@ Proficiency type: Katana
 Type: One-handed~
 @200191 = ~Mirror Image~
 
-// MUGENJIN
+// MUGENJIN Katana
 
 @200193 = ~Mugenjin~
 @200195 = ~Mugenjin
@@ -850,14 +850,14 @@ STATISTICS:
 
 Possessed Abilities:
 
-- Charisma: +3
-- Wisdom and Intelligence: +2
-- Hit Points: +%15
+- Charisma: +2
+- Wisdom and Intelligence: +1
+- Hit Points: +%10
 
 Combat Abilities:
 
-- Fire Damage: +3d6 points for every strike landed.
-- Vorpal Strike: %25 chance to incinerate the victim. Death Saving Throw of -1.
+- Fire Damage: +2d4 points for every strike landed.
+- Vorpal Strike: %15 chance to incinerate the victim. Death Saving Throw of -1.
 
 THAC0: +5
 Damage: 1D10+5
@@ -998,7 +998,7 @@ STATISTICS:
 
 Possessed abilities:
 
-- Magic Resistance: +10%
+- Magic Resistance: +5%
 - Saving Throw against Death: +3
 
 Abilities:
@@ -1024,8 +1024,8 @@ Possessed Aptitudes:
 
 Abilities:
 
-- Stone Skin: 3 times per day
-- Cure Critical Wounds: 5 times per day
+- Stone Skin: 1 time per day
+- Cure Critical Wounds: 2 times per day
 
 Weight: 4 lbs.~
 
@@ -1052,8 +1052,8 @@ Aptitudes possessed:
 
 - Swiftness: Movement improved by 50%.
 - Freedom of Action: The wearer cannot be slowed down or paralyzed by any magical or divine means.
-- Cold Resistance: +25%
-- Electricity Resistance: +25%
+- Cold Resistance: +15%
+- Electricity Resistance: +15%
 
 Weight: 4 lbs.~
 @200230 = ~<NO TEXT>~
@@ -1080,14 +1080,13 @@ Benork was a forgotten duke of the North who fought to avenge the death of his f
 The necromancers employed their arcane arts to cruelly liquidate the noble's family. Only Duke Benork survived by resisting a powerful spell of madness. However, he was left blind.
 His best friend was a powerful cleric of Tempus, who came to his rescue. Both fled the terrible necromantic magic. Aznagarb, the cleric, after taking refuge in a hidden temple in the Forest of Thorns, provided the necessary tools for Benork's revenge, consisting mainly of a divinely imbued set that only those who hated magic with all their heart could use.
 
-The mantle was not only blessed by Tempus but also handcrafted by the cleric Aznagarb, who possessed great knowledge of how to avoid lightning damage.
+The mantle was not only blessed by Tempus but also handcrafted by the cleric Aznagarb, who possessed great knowledge of how to avoid piercing damage.
 
 STATISTICS:
 
 Possessed Aptitudes:
 
-- Electrical Immunity: In addition to providing total protection against electrical damage, it also reflects and returns the lightning that was cast against the wearer back to its origin.
-- Charisma: +2 points.
+- Charisma: +1 point.
 
 AC: +1
 AC vs piercing weapons: +5
@@ -1115,10 +1114,10 @@ STATISTICS:
 
 Aptitudes possessed:
 
-- Constitution: +3 points
-- Dexterity: +3 points
-- Magic Resistance: +15%
-- Magic Damage Resistance: +50%
+- Constitution: +1 point
+- Dexterity: +1 point
+- Magic Resistance: +5%
+- Missile Damage Resistance: +25%
 
 Weight: 4 lbs.~
 
@@ -1145,15 +1144,15 @@ STATISTICS:
 
 Possessed abilities:
 
-- Hit Points: +10%
-- Acid Resistance: +25%
+- Hit Points: +5%
+- Acid Resistance: +15%
 - Immunity to Enchantment Spells.
 - Immunity to Fear.
 
 Abilities:
 
-- Detect Invisibility: 3 times per day.
-- True Seeing: 3 times per day.
+- Detect Invisibility: 1 time per day.
+- True Seeing: 1 time per day.
 
 THAC0: +1
 Armor Class: +1
@@ -1182,7 +1181,7 @@ STATISTICS:
 Possessed Aptitudes:
 
 - Magic Resistance: +5%
-- Fire Resistance: +10%
+- Fire Resistance: +5%
 - Poison Immunity
 
 Abilities:
@@ -1205,7 +1204,7 @@ STATISTICS:
 Possessed aptitudes:
 
 - Magic Resistance: +5%
-- Fire Resistance: +10%
+- Fire Resistance: +5%
 - Regeneration: 1 hit point every 4 seconds
 
 Abilities:
@@ -1246,7 +1245,7 @@ STATISTICS:
 
 Possessed Attributes:
 
-- Strength: Set at 25
+- Strength: +2
 
 Combat Attributes:
 
@@ -1254,7 +1253,7 @@ Combat Attributes:
 - Poison: The victim must make a Death/Poison saving throw (of 0) or suffer 4 points of damage per second for 3 rounds.
 
 THAC0: +6
-Damage: 1D10+6, +2d5 Poison damage.
+Damage: 1D10+6, +1d4 Poison damage.
 Damage Type: Piercing
 Weight: 7 lbs
 Speed Factor: 0
@@ -1857,16 +1856,16 @@ STATISTICS:
 
 Possessed abilities:
 
-- Regeneration: 3 hit points every 3 seconds
-- Fire resistance: +10%
+- Regeneration: 1 hit point every 6 seconds
+- Fire resistance: +5%
 - Additional hit points: +5
 
 Combat abilities:
 
-- Drain: Each strike will heal the wielder for 3 hit points.
+- Drain: Each strike will heal the wielder for 1 hit point.
 
 THAC0: +3
-Damage: 3D6+3, +1 fire damage, +1 magic damage
+Damage: 2D5+3, +1 fire damage, +1 magic damage
 Damage type: Slashing
 Weight: 26 lbs
 Speed factor: 5
@@ -1975,17 +1974,17 @@ STATISTICS:
 
 Possessed abilities:
 
-- Regeneration: 3 hit points every 3 seconds
-- Fire Resistance: +15%
+- Regeneration: 1 hit point every 6 seconds
+- Fire Resistance: +10%
 - Additional hit points: +10
 - Invokes a fiery shield for 60 seconds if Dusk's life drops below half.
 
 Combat abilities:
 
-- Drain: Each strike will heal the wielder for 3 hit points.
+- Drain: Each strike will heal the wielder for 1 hit point.
 
 THAC0: +3
-Damage: 3D6+3, +1d2 fire damage, +1 magical damage
+Damage: 2D5+3, +1d2 fire damage, +1 magical damage
 Damage Type: Slashing
 Weight: 26 lbs
 Speed Factor: 5
@@ -2321,14 +2320,14 @@ STATISTICS:
 
 Possessed Abilities:
 
-- Charisma: +3
-- Wisdom and Intelligence: +2
-- Hit Points: +%15
+- Charisma: +2
+- Wisdom and Intelligence: +1
+- Hit Points: +%10
 
 Combat Abilities:
 
-- Fire Damage: +3d6 points for every strike landed.
-- Vorpal Strike: %25 chance to incinerate the victim. Death Saving Throw of -1.
+- Fire Damage: +2d4 points for every strike landed.
+- Vorpal Strike: %15 chance to incinerate the victim. Death Saving Throw of -1.
 
 THAC0: +5
 Damage: 1D8+5
@@ -2351,14 +2350,14 @@ STATISTICS:
 
 Possessed Abilities:
 
-- Charisma: +3
-- Wisdom and Intelligence: +2
-- Hit Points: +%15
+- Charisma: +2
+- Wisdom and Intelligence: +1
+- Hit Points: +%10
 
 Combat Abilities:
 
-- Fire Damage: +3d6 points for every strike landed.
-- Vorpal Strike: %25 chance to incinerate the victim. Death Saving Throw of -1.
+- Fire Damage: +2d4 points for every strike landed.
+- Vorpal Strike: %15 chance to incinerate the victim. Death Saving Throw of -1.
 
 THAC0: +5
 Damage: 1D12+5
@@ -2381,14 +2380,14 @@ STATISTICS:
 
 Possessed Abilities:
 
-- Charisma: +3
-- Wisdom and Intelligence: +2
-- Hit Points: +%15
+- Charisma: +2
+- Wisdom and Intelligence: +1
+- Hit Points: +%10
 
 Combat Abilities:
 
-- Fire Damage: +3d6 points for every strike landed.
-- Vorpal Strike: %25 chance to incinerate the victim. Death Saving Throw of -1.
+- Fire Damage: +2d4 points for every strike landed.
+- Vorpal Strike: %15 chance to incinerate the victim. Death Saving Throw of -1.
 
 THAC0: +5
 Damage: 1D8+5
@@ -2582,7 +2581,7 @@ Possessed Abilities:
 
 - Armor Class: +2
 - Physical Damage Resistance: +%10 (slashing, bludgeoning, piercing, and missile)
-- Spell Shield: can cast this protection as if they were a 10th-level caster. Duration: 3 turns.
+- Spell Shield: Dusk can cast this protection as if he were a 10th-level caster. Duration: 3 turns.
 
 Combat Abilities:
 
@@ -2606,18 +2605,18 @@ STATISTICS:
 
 Owned abilities:
 
-- Regeneration: 3 hit points every 3 seconds
-- Fire Resistance: +25%
+- Regeneration: 1 hit point every 6 seconds
+- Fire Resistance: +15%
 - Additional hit points: +20
 - Invokes a fiery shield for 60 seconds if Dusk's life drops below half.
 
 Combat abilities:
 
-- Drain: Each hit will heal the wielder for 5 hit points.
+- Drain: Each hit will heal the wielder for 3 hit points.
 - Silence: Can cast Silence in a 5-meter radius. The spell counts as if the caster were 10th level. Duration: 2 rounds.
 
 THAC0: +4
-Damage: 3D6+4, +1d6 fire damage, +2 magical damage
+Damage: 2D5+4, +1d4 fire damage, +1d2 magical damage
 Damage Type: Slashing
 Weight: 26 lbs
 Speed Factor: 4
@@ -2649,15 +2648,15 @@ Posessed Aptitudes:
 
 - Armor Class: +3
 - Physical damage resistance: +%15 (slashing, bludgeoning, piercing, and missile)
-- Spell Shield: Can cast Spell Shield as if a 10th-level caster. Duration: 3 turns.
-- True Sight: Can use the True Sight spell 3 times per day. Duration per use: 1 turn.
+- Spell Shield: Dusk can cast Spell Shield as if he were a 10th-level caster. Duration: 3 turns.
+- True Sight: Can use the True Sight spell. Duration: 1 turn.
 
 Combat Aptitudes:
 
 - Attacks per round: +1
 
 THAC0: +5
-Damage: 2D4+5, +2d7 for magic damage
+Damage: 2D4+5, +2d4 for magic damage
 Damage type: Slashing
 Weight: 13 lbs
 Speed Factor: 2
@@ -2674,8 +2673,8 @@ STATISTICS:
 
 Abilities possessed:
 
-- Regeneration: 3 hit points every 3 seconds
-- Fire Resistance: +30%
+- Regeneration: 1 hit point every 3 seconds
+- Fire Resistance: +25%
 - Additional hit points: +30
 - Invokes a fiery shield for 60 seconds if Dusk's life drops below half.
 
@@ -2686,7 +2685,7 @@ Combat abilities:
 - Fire Strike: Can launch a column of fire on the target that is within the warrior's line of sight. The spell counts as if the caster were level 15.
 
 THAC0: +5
-Damage: 3D6+5, +3d6 for fire damage, +3 for magic damage
+Damage: 2D5+5, +1d8 for fire damage, +1d3 for magic damage
 Damage type: Slashing
 Weight: 26 lbs
 Speed Factor: 3

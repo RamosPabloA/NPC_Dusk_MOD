@@ -1,3 +1,10 @@
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200321)
+END
+
 // Demoledor primer encuentro con Dusk y el grupo
 //IF
 //  Global ("P_Dusk_1stTDemole","GLOBAL",1)

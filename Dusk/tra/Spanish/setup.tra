@@ -62,7 +62,7 @@
 Nivel: Innato
 Esfera: Elemental
 Alcance: El guerrero
-Duración: 12 horas
+Duración: 3 horas
 Tiempo de lanzamiento: 0
 Área de efecto: El guerrero
 Tirada de salvación: Ninguna
@@ -81,7 +81,7 @@ Nivel 16 a 17: 8 capas
 Nivel 18 a 19: 9 capas
 Nivel 20 en adelante: 10 capas
 
-Las capas permanecerán sobre el guerrero durante 12 horas hasta que estas se acaben ya sea por impactos físicos o por medio de disipación mágica.~
+Las capas permanecerán sobre el guerrero durante 3 horas hasta que estas se acaben ya sea por impactos físicos o por medio de disipación mágica.~
 @100101  = ~Guerrero de Acero~
 
 // ITEMS
@@ -253,10 +253,10 @@ Parálisis: Tirada de salvación contra conjuro o la víctima quedará paralizada du
 Aptitud de Combate:
 
 - Clamar al Relámpago: Puede llamar a un relámpago de los cielos para que impacte en la víctima. Causa 3d8 de daño eléctrico.
-Uso: Hasta 5 veces por día.
+Uso: Hasta 3 veces por día.
 
 TAC0: +5
-Daño: 2d4+5, +2d6 por daño eléctrico
+Daño: 2d4+5, +1d6 por daño eléctrico
 Tipo de daño: Contundente
 Peso: 5
 Factor de velocidad: 0
@@ -880,7 +880,7 @@ Talento marcial: katana
 Tipo: una mano~
 @200191 = ~Imagen espejada~
 
-// MUGENJIN
+// MUGENJIN Katana
 
 @200192 = ~Katana~
 @200193 = ~Mugenjin~
@@ -904,15 +904,14 @@ CARACTERÍSTICAS:
 
 Aptitudes poseídas:
 
-- Carisma: +3
-- Sabiduría e Inteligencia: +2
-- Puntos de Golpe: +%15
-
+- Carisma: +2
+- Sabiduría e Inteligencia: +1
+- Puntos de Golpe: +%10
 
 Aptitudes de Combate:
 
-- Daño por Fuego: +3d6 Puntos por cada golpe asestado.
-- Golpe Vorpalino: %25 de probabilidades de incinerar a la víctima. Tirada de salvación contra la Muerte de -1
+- Daño por Fuego: +2d4 Puntos por cada golpe asestado.
+- Golpe Vorpalino: %15 de probabilidades de incinerar a la víctima. Tirada de salvación contra la Muerte de -1
 
 THAC0: +5
 Daño: 1D10+5
@@ -1089,7 +1088,7 @@ CARACTERÍSTICAS:
 
 Aptitudes poseídas:
 
-- Resistencia a la Magia: +10%
+- Resistencia a la Magia: +5%
 - Tirada de Salvación contra la Muerte: +3
 
 Habilidades:
@@ -1117,8 +1116,8 @@ Aptitudes poseídas:
 
 Habilidades:
 
-- Piel Pétra: 3 veces al día
-- Curar Heridas Críticas: 5 veces al día
+- Piel Pétra: 1 vez al día
+- Curar Heridas Críticas: 2 veces al día
 
 Peso: 4 lbs.~
 
@@ -1145,8 +1144,8 @@ Aptitudes poseídas:
 
 - Celeridad: Movimiento mejorado en un %50.
 - Libertad de Acción: El portador no puede ser ralentizado, ni paralizado bajo ningún medio mágico o divino
-- Resistencia al Frío: +25%
-- Resistencia a la Electricidad: +25%
+- Resistencia al Frío: +15%
+- Resistencia a la Electricidad: +15%
 
 Peso: 4 lbs.~
 @200230 = ~<NO TEXT>~
@@ -1173,14 +1172,13 @@ Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su fam
 Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
 Su mejor amigo era un poderoso clérigo de Tempus, quien llegó en su rescate. Ambos huyeron de la terrible magia nigromántica. Aznagarb, el clérigo, luego de ponerse a cubierto en un templo oculto en el Bosque de las Espinas, brindó las herramientas necesarias para la venganza de Benork, consistiendo, básicamente, en un conjunto divinamente imbuido y que sólo aquellos que odiaran la magia con todo su corazón podrían usar.
 
-La capa no sólo fue bendecida por Tempus, sino que fue modificada artesanalmente por el clérigo Aznagarb, quien poseía grandes conocimientos sobre cómo evitar el daño de los rayos y relámpagos.
+La capa no sólo fue bendecida por Tempus, sino que fue modificada artesanalmente por el clérigo Aznagarb, quien poseía grandes conocimientos sobre cómo evitar el daño de armas perforadoras.
 
 CARACTERÍSTICAS:
 
 Aptitudes poseídas:
 
-- Electricidad: Además de brindar protección total contra el daño eléctrico, también refleja y devuelve los rayos que fueron lanzados contra el portador devuelta a su origen.
-- Carisma: +2 puntos.
+- Carisma: +1 punto.
 
 Clase de Armadura: +1
 Clase de Armadura contra armas perforadoras: +5
@@ -1207,10 +1205,10 @@ CARACTERÍSTICAS:
 
 Aptitudes poseídas:
 
-- Constitución: +3 puntos
-- Destreza: +3 puntos
-- Resistencia a la Magia: +15%
-- Resistencia al Daño Mágico: +50%
+- Constitución: +1 punto
+- Destreza: +1 punto
+- Resistencia a la Magia: +5%
+- Resistencia al Daño por proyectiles: +25%
 
 Peso: 4 lbs.~
 
@@ -1237,15 +1235,15 @@ CARACTERÍSTICAS:
 
 Aptitudes poseídas:
 
-- Puntos de Golpe: +10%
-- Resistencia al Ácido: +25%
+- Puntos de Golpe: +5%
+- Resistencia al Ácido: +15%
 - Inmunidad a los Hechizos de Encantamiento.
 - Inmunidad al Miedo.
 
 Habilidades:
 
-- Detectar Invisibilidad: 3 veces al día.
-- Visión Verdadera: 3 veces al día.
+- Detectar Invisibilidad: 1 vez al día.
+- Visión Verdadera: 1 vez al día.
 
 THAC0: +1
 Clase de Armadura: +1
@@ -1274,7 +1272,7 @@ CARACTERÍSTICAS:
 Aptitudes poseídas:
 
 - Resistencia a la Magia: +5%
-- Resistencia al Fuego: +10%
+- Resistencia al Fuego: +5%
 - Inmunidad al veneno
 
 Habilidades:
@@ -1299,7 +1297,7 @@ CARACTERÍSTICAS:
 Aptitudes poseídas:
 
 - Resistencia a la Magia: +5%
-- Resistencia al Fuego: +10%
+- Resistencia al Fuego: +5%
 - Regeneración: 1 punto de golpe cada 4 segundos
 
 Habilidades:
@@ -1340,7 +1338,7 @@ CARACTERÍSTICAS:
 
 Aptitudes poseídas:
 
-- Fuerza: Establecida en 25
+- Fuerza: +2
 
 Aptitudes de Combate:
 
@@ -1348,7 +1346,7 @@ Aptitudes de Combate:
 - Veneno: La víctima debe superar una tirada de salvación contra Muerte/Veneno o sufrir 4 puntos de daño por segundo durante 3 asaltos.
 
 THAC0: +6
-Daño: 1D10+6, +2d5 por daño de Veneno.
+Daño: 1D10+6, +1d4 por daño de Veneno.
 Tipo de daño: Perforante
 Peso: 7 lbs
 Factor de velocidad: 0
@@ -1979,16 +1977,16 @@ CARACTERÍSTICAS:
 
 Aptitudes poseídas:
 
-- Regeneración: 3 puntos de golpe cada 3 segundos
-- Resistencia al Fuego: +10%
+- Regeneración: 1 punto de golpe cada 6 segundos
+- Resistencia al Fuego: +5%
 - Puntos de golpe adicionales: +5
 
 Aptitudes de combate:
   
-- Drenaje: Cada golpe asestado curará al portador 3 puntos de vida.
+- Drenaje: Cada golpe asestado curará al portador 1 punto de vida.
 
 THAC0: +3
-Daño: 3D6+3, +1 por daño de fuego, +1 por daño mágico
+Daño: 2D5+3, +1 por daño de fuego, +1 por daño mágico
 Tipo de daño: Cortante
 Peso: 26 lbs
 Factor de velocidad: 5
@@ -2100,17 +2098,17 @@ CARACTERÍSTICAS:
 
 Aptitudes poseídas:
 
-- Regeneración: 3 puntos de golpe cada 3 segundos
-- Resistencia al Fuego: +15%
+- Regeneración: 1 punto de golpe cada 6 segundos
+- Resistencia al Fuego: +10%
 - Puntos de golpe adicionales: +10
 - Invoca un escudo ígneo durante 60 segundos si la vida de Dusk disminuye a menos de la mitad.
 
 Aptitudes de combate:
   
-- Drenaje: Cada golpe asestado curará al portador 3 puntos de vida.
+- Drenaje: Cada golpe asestado curará al portador 1 punto de vida.
 
 THAC0: +3
-Daño: 3D6+3, +1d2 por daño de fuego, +1 por daño mágico
+Daño: 2D5+3, +1d2 por daño de fuego, +1 por daño mágico
 Tipo de daño: Cortante
 Peso: 26 lbs
 Factor de velocidad: 5
@@ -2453,15 +2451,14 @@ CARACTERÍSTICAS:
 
 Aptitudes poseídas:
 
-- Carisma: +3
-- Sabiduría e Inteligencia: +2
-- Puntos de Golpe: +%15
-
+- Carisma: +2
+- Sabiduría e Inteligencia: +1
+- Puntos de Golpe: +%10
 
 Aptitudes de Combate:
 
-- Daño por Fuego: +3d6 Puntos por cada golpe asestado.
-- Golpe Vorpalino: %25 de probabilidades de incinerar a la víctima. Tirada de salvación contra la Muerte de -1
+- Daño por Fuego: +2d4 Puntos por cada golpe asestado.
+- Golpe Vorpalino: %15 de probabilidades de incinerar a la víctima. Tirada de salvación contra la Muerte de -1
 
 THAC0: +5
 Daño: 1D8+5
@@ -2484,15 +2481,14 @@ CARACTERÍSTICAS:
 
 Aptitudes poseídas:
 
-- Carisma: +3
-- Sabiduría e Inteligencia: +2
-- Puntos de Golpe: +%15
-
+- Carisma: +2
+- Sabiduría e Inteligencia: +1
+- Puntos de Golpe: +%10
 
 Aptitudes de Combate:
 
-- Daño por Fuego: +3d6 Puntos por cada golpe asestado.
-- Golpe Vorpalino: %25 de probabilidades de incinerar a la víctima. Tirada de salvación contra la Muerte de -1
+- Daño por Fuego: +2d4 Puntos por cada golpe asestado.
+- Golpe Vorpalino: %15 de probabilidades de incinerar a la víctima. Tirada de salvación contra la Muerte de -1
 
 THAC0: +5
 Daño: 1D12+5
@@ -2515,15 +2511,14 @@ CARACTERÍSTICAS:
 
 Aptitudes poseídas:
 
-- Carisma: +3
-- Sabiduría e Inteligencia: +2
-- Puntos de Golpe: +%15
-
+- Carisma: +2
+- Sabiduría e Inteligencia: +1
+- Puntos de Golpe: +%10
 
 Aptitudes de Combate:
 
-- Daño por Fuego: +3d6 Puntos por cada golpe asestado.
-- Golpe Vorpalino: %25 de probabilidades de incinerar a la víctima. Tirada de salvación contra la Muerte de -1
+- Daño por Fuego: +2d4 Puntos por cada golpe asestado.
+- Golpe Vorpalino: %15 de probabilidades de incinerar a la víctima. Tirada de salvación contra la Muerte de -1
 
 THAC0: +5
 Daño: 1D8+5
@@ -2723,7 +2718,7 @@ Aptitudes poseídas:
 
 - Clase de armadura: +2
 - Resistencia al daño físico: +%10 (cortante, contundente, perforante y proyectil)
-- Escudo contra conjuros: puede lanzar esta protección como si fuera un lanzador de nivel 10. Duración: 3 turnos.
+- Escudo contra conjuros: Dusk puede lanzar esta protección como si fuera un lanzador de nivel 10. Duración: 3 turnos.
 
 Aptitudes de combate:
   
@@ -2748,18 +2743,18 @@ CARACTERÍSTICAS:
 
 Aptitudes poseídas:
 
-- Regeneración: 3 puntos de golpe cada 3 segundos
-- Resistencia al Fuego: +25%
+- Regeneración: 1 punto de golpe cada 6 segundos
+- Resistencia al Fuego: +15%
 - Puntos de golpe adicionales: +20
 - Invoca un escudo ígneo durante 60 segundos si la vida de Dusk disminuye a menos de la mitad.
 
 Aptitudes de combate:
   
-- Drenaje: Cada golpe asestado curará al portador 5 puntos de vida.
+- Drenaje: Cada golpe asestado curará al portador 3 puntos de vida.
 - Silencio: Puede lanzar Silencio en un radio de 5 metros. El hechizo cuenta como si el lanzador fuera de nivel 10. Duración: 2 turnos.
 
 THAC0: +4
-Daño: 3D6+4, +1d6 por daño de fuego, +2 por daño mágico
+Daño: 2D5+4, +1d4 por daño de fuego, +1d2 por daño mágico
 Tipo de daño: Cortante
 Peso: 26 lbs
 Factor de velocidad: 4
@@ -2789,17 +2784,17 @@ CARACTERÍSTICAS:
 
 Aptitudes poseídas:
 
-- Clase de armadura: +3
+- Clase de armadura: +2
 - Resistencia al daño físico: +%15 (cortante, contundente, perforante y proyectil)
-- Escudo contra conjuros: puede lanzar esta protección como si fuera un lanzador de nivel 10. Duración: 3 turnos.
-- Visión Verdadera: puede usar el conjuro Visión Verdadera 3 veces el día. Duración por uso: 1 turno.
+- Escudo contra conjuros: Dusk puede lanzar esta protección como si fuera un lanzador de nivel 10. Duración: 3 turnos.
+- Visión Verdadera: puede usar el conjuro Visión Verdadera. Duración: 1 turno.
 
 Aptitudes de combate:
   
 - Ataques por asalto: +1
 
 THAC0: +5
-Daño: 2D4+5,  +2d7 por daño mágico
+Daño: 2D4+5,  +2d4 por daño mágico
 Tipo de daño: Cortante
 Peso: 13 lbs
 Factor de velocidad: 2
@@ -2817,8 +2812,8 @@ CARACTERÍSTICAS:
 
 Aptitudes poseídas:
 
-- Regeneración: 3 puntos de golpe cada 3 segundos
-- Resistencia al Fuego: +30%
+- Regeneración: 1 punto de golpe cada 3 segundos
+- Resistencia al Fuego: +25%
 - Puntos de golpe adicionales: +30
 - Invoca un escudo ígneo durante 60 segundos si la vida de Dusk disminuye a menos de la mitad.
 
@@ -2829,7 +2824,7 @@ Aptitudes de combate:
 - Golpe de Fuego: Puede lanzar una columna de fuego sobre el objetivo que esté dentro de la visión del guerrero. El hechizo cuenta como si el lanzador fuera de nivel 15.
 
 THAC0: +5
-Daño: 3D6+5, +3d6 por daño de fuego, +3 por daño mágico
+Daño: 2D5+5, +1d8 por daño de fuego, +1d3 por daño mágico
 Tipo de daño: Cortante
 Peso: 26 lbs
 Factor de velocidad: 3

@@ -181,6 +181,14 @@ IF ~Global("P_DuskDanctiFinalSpawn","GLOBAL",2)
   ~ EXIT
 END
 
+IF ~InParty("P_Dusk")
+See("P_Dusk")
+Global("P_Dusk_Danctian2_TalkBegin","GLOBAL",0)
+Global("P_DuskDanctiFinalSpawn","GLOBAL",0)~ THEN BEGIN 27 // from:
+  SAY @0 /* ~Ardusk, <CHARNAME>, han llegado.~ */
+  IF ~~ THEN GOTO 1
+END
+
 
 I_C_T P_DANCT2 24 P_Dusk_P_DANCT2_9
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @87 /* ~No lo podría haber logrado sin ti, ni <CHARNAME>.~ */

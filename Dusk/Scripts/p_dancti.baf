@@ -1,3 +1,10 @@
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200416)
+END
+
 // M3 EVIL VICTORY -> Conversación después de END_MAT
 IF
 !StateCheck(Myself,CD_STATE_NOTVALID)
