@@ -1393,9 +1393,6 @@ The powerful shilmist elf."~
 @3436  = ~Ce-Celine... it's impossible...~
 @3437  = ~Celine!!!~
 
-@3438  = ~~
-@3439  = ~~
-
 // Agregados v0.9
 
 @3440  = ~We must be careful, <CHARNAME>. We know how fanatical Bodhi is about deadly traps...~
@@ -1403,6 +1400,77 @@ The powerful shilmist elf."~
 
 @3442  = ~It's time for you to pay for what you've done, Jon Irenicus. For the justice of Athkatla, you will fall!~
 @3443  = ~This is as good a place as any to bring you down with our power, mage. The result will be the same: your death.~
+
+@3438  = ~So be it... Soldiers, form up! A tough battle awaits us...~
+
+// NPCs
+@3439   = ~Dusk, <CHARNAME>, Minsc and Boo are ready to kick orc and troll butts!~
+@3479   = ~Baldy! That rodent will be mine. Komar demands it! Komar will break your bones and take the little furball for his amusement!!!~
+@3480   = ~Baldy? You will be the bald one, evil ogre! And Boo will be no one's slave. The fury of the hamster is free and will make you see stars!~
+@3481   = ~Oh, I don't like this... but I'll do everything I can to protect my friends!~
+@3482   = ~This may be our last battle, my friends. But by Torm, I will fight to the bitter end!~
+@3444   = ~A paladin! Boss, let me take care of that miserable one. I'll make sure he meets his god as soon as possible.~
+@3445   = ~Try it, creature! You'll see how quickly you fall before the edge of Justice.~
+@3446   = ~Well, it's time to test my warrior skills (not that it's going to be anything impressive, but maybe it'll scare a couple of monsters).~
+@3447   = ~Arvoreen, give me the strength to win this battle!~
+@3448   = ~Chimi: So you want to devour that halfling, Bob? Go ahead, freely. Leave some bones for your brother Mike, will you?~
+@3449   = ~*The creature centers its eyes on Mazzy. It almost seems to be licking its lips*~
+@3450   = ~I hate to say this, but it's not the first time a monster has tried to devour me... Still, I'm sorry to say that you'll be disappointed, pest.~
+@3451   = ~Finally, you bring us some action, Dusk! Helm, give me strength. Today, I'll fight in your name and triumph!~
+@3452   = ~Boss, let me take that young monk. It's always a pleasure to beat up arrogant humans.~
+@3453   = ~For the memory of my father, I will not allow miserable trolls to roam these lands!~
+
+@3454   = ~I feel like you're talking to me, female.~
+@3455   = ~For de'Arnise! Today will be the last day you breathe, monster.~
+@3456   = ~*snort* I'm tired of these arrogant humans...~
+@3457   = ~Dusk, your desire for revenge is understood and welcomed. And it will be an honor to fight alongside you to fulfill it!~
+@3458   = ~It's time to put an end to this Mound. A den like this so close to the Grove is an affront to nature.~
+@3459   = ~Toxsan: What do you say, Mike? Do you want to eat the human druid? For me, so be it. Don't forget your brother Bob, yes?~
+@3460   = ~*The umber hulk focuses its four eyes on Cernd, impatient for its master to release its reins and begin the attack*~
+@3461   = ~Creature, today you will be food for worms and contribute to the cycle of life, through your death.~
+@3462   = ~Dusk, the time has come. We will do justice for your fallen comrades!~
+@3463   = ~Well, rivvil, we have come a long way to get here. I will use the divinity of Shar in your favor, do not forget it. Our enemies will fall into the Eternal Darkness.~
+@3464   = ~*hiss* A drow! Lord, let me experiment with her, please. I promise to be... meticulous.~
+@3465   = ~While I don't care about your past, stick man, I admit this is a good opportunity to test my spells. Especially against that lizard.~
+
+@3466   = ~Are you talking to me, red wizard?~
+@3467   = ~That's right, tadpole! You'll have the honor of dying at the hands of Edwin Odesseiron.~
+@3468   = ~You're crazy, wizard. Although that doesn't surprise me coming from a human user. Lord, allow me to finish off that fool.~
+@3469   = ~Well done, scrawny! Ye've brought us into a 'trap'. What these fools don't know is that ye have Korgan's axe on yer side.~
+@3470   = ~Chimi: Look, Toxsan! A dwarf. It reminds me of old times.~
+@3471   = ~Toxsan: That's right, Chimi. Crushing them was our pastime. Now we can relive it, don't you think?~
+@3472   = ~Here I am, bloody ettin. Come and try my axe! You'll see how quickly I gut ye.~
+@3473   = ~So we fell into a trap, huh? This reminds me of the time--~
+@3474   = ~I don't think it's the best time for one of your stories, Jan.~
+@3475   = ~Well, well. But I'll tell you when we've won here. What do you think, good Dusk?~
+@3476   = ~Deal.~
+@3477   = ~Ahhh, white raven. You've fallen into a trap. But who am I to judge you? I myself have been in similar situations. Come, let's defeat these fools, so I can compose one or two songs about our feats.~
+@3478  = ~Oh, Dusk... you sure know how to make friends, huh? Very well, I'll help you face these monsters.~
+
+@3479  = ~Bark while you can, dog. Soon, your howls of pain will fill this filthy Mound.~
+
+// EE related code
+@3480  = ~Do you plan to attack the Order? I cannot allow it... they are my allies! <CHARNAME>, prepare yourself!~
+
+@3481  = ~I'm not ashamed to say that I'm used to wandering through the trees. It reminds me of Shilmista.~
+@3482  = ~This is ridiculous, <CHARNAME>. All this fuss over that wretched half-orc?~
+
+// Bodhi EVIL Path M2-Intro
+@3483  = ~I don't care what you choose, <CHARNAME>. It's enough for me to finish these annoying affairs with this... this filthy creature.~
+@3484  = ~Working for this vermin is bad enough. I'd prefer something that isn't malevolent, <CHARNAME>.~
+
+@3485  = ~I suppose we are already knee-deep in the mud. I doubt this Aran is someone of good character, so you won't have any objections from me.~
+@3486  = ~A worthy opponent, <CHARNAME>. Although I feel that this...vampire is only using us as if we were the judge's hammer. (If it were up to me, I would have already staked her heart)~
+
+@3487  = ~And in that confrontation, many died because of his fault. I witnessed it. He doesn't deserve any mercy.~
+@3488  = ~Hmph. Are you really going to believe this creature, <CHARNAME>? She's trying to justify the harm done to you in a pathetic way.~
+
+@3489  = ~<CHARNAME>, beware!~
+
+@3490  = ~*sigh* It seems that the Promenade has become the epicenter of corrupted magic.~
+
+
+
 
 // JOURNAL ENTRIES
 @210007 = ~Dusk Aldant: The Renegades of Sothillis

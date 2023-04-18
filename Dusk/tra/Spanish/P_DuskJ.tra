@@ -1368,8 +1368,7 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3436  = ~Ce-Celine... es imposible...~
 @3437  = ~¡¡¡Celine!!!~
 
-@3438  = ~~
-@3439  = ~~
+@3438  = ~De acuerdo... ¡Soldados, en formación! Una ardua batalla nos espera...~
 
 // Agregados v0.9
 
@@ -1378,6 +1377,70 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 
 @3442  = ~Es hora de que pagues por lo que has hecho, Jon Irenicus. ¡Por la justicia de Athkatla, caerás!~
 @3443  = ~Este es tan buen lugar como cualquiera para hacerte caer con nuestro poder, mago. El resultado será uno sólo: tu muerte.~
+
+// NPCs
+@3439   = ~¡Dusk, <CHARNAME>, Minsc y Bubú están listos para patear traseros orcos y trolls!~
+@3479   = ~¡Calvo! Ese roedor será mío. ¡Komar así lo exige! ¡¡¡Komar romperá tus huesos y tomará al pequeño peludo para su diversión!!!~
+@3480   = ~¿Calvo? ¡Tú serás el calvo, malvado ogro! Y Bubú no será esclavo de nadie. ¡La furia del hámster es libre y te hará ver las estrellas!~
+@3481   = ~Oh, no me gusta esto... ¡Pero haré lo posible por proteger a mis amigos!~
+@3482   = ~Puede que esta sea nuestra última batalla, amigos míos. ¡Pero por Torm que daré batalla hasta las últimas consecuencias!~
+@3444   = ~¡Un paladín! Jefe, déjeme a ese infeliz a mí. Me encargaré de que se reúna con su dios lo antes posible.~
+@3445   = ~¡Inténtalo, criatura! Verás cuán rápido caes ante el filo de la Justicia.~
+@3446   = ~Pues, ya es hora de poner a prueba mis habilidades guerreras (no es que vaya a ser algo impresionante, pero quizás asuste a un par de monstruos).~
+@3447   = ~¡Arvorin, dame las fuerzas para vencer en este combate!~
+@3448   = ~Chimi: ¿Así que quieres devorarte a esa mediana, Bob? Hazlo, libremente. Deja algunos huesos para tu hermano Mike, ¿quieres?~
+@3449   = ~(La criatura centra sus ojos en Mazzy. Casi pareciera ser que está relamiéndose)~
+@3450   = ~Odio decir esto, pero no es la primera vez que un monstruo intenta devorarme... Aún así, lamento decir que te quedarás con las ganas, mole.~
+@3451   = ~¡Al fin nos traes algo de acción, Dusk! Helm, dame las fuerzas. ¡Hoy lucharé en tu nombre y triunfaré!~
+@3452   = ~Jefecito, déjeme a ese joven monje para mí. Siempre es un placer apalear humanos engreídos.~
+@3453   = ~Por el recuerdo de mi padre, ¡no permitiré que miserables trolls vaguen por estas tierras!~
+@3454   = ~Siento que me hablas a mí, niña.~
+@3455   = ~¡Por de'Arnise! Hoy será el último día en que respires monstruo.~
+@3456   = ~*resoplido* Estoy cansado de estos humanos engreídos...~
+@3457   = ~Dusk, tu deseo de venganza es comprendido y bienvenido. ¡Y será un honor luchar a tu lado para cumplirlo!~
+@3458   = ~Es hora de ponerle fin a este Túmulo. Una guarida así tan cerca de la Arboleda es una afrenta a la naturaleza.~
+@3459   = ~Toxsan: ¿Qué dices, Mike? ¿Que quieres comerte al druida humano? Por mí, bienvenido sea. No te olvides de tu hermano Bob, ¿sí?~
+@3460   = ~(La mole sombría centra sus cuatro ojos en Cernd, impaciente a que su amo suelte sus riendas y pueda comenzar el ataque)~
+@3461   = ~Criatura, hoy serás el alimento de gusanos y colaborarás con el ciclo de la vida, a través de tu muerte.~
+@3462   = ~Dusk, ha llegado la hora. ¡Haremos justicia por tus camaradas caídos!~
+@3463   = ~Bueno, rivvil, hemos recorrido un largo camino para llegar aquí. Utilizaré la divinidad de Shar en tu favor, no lo olvides. Nuestros enemigos caerán en la Oscuridad Eterna.~
+@3464   = ~*siseo* ¡Una drow! Señor, déjeme experimentar con ella, por favor. Prometo ssser... meticulossso.~
+@3465   = ~Si bien me da igual tu pasado, hombre del palito, admito que esta es una buena oportunidad para poner a prueba mis conjuros. Especialmente contra esa lagartija.~
+@3466   = ~¿Me hablas a mí, mago rojo?~
+@3467   = ~¡Así es, renacuajo! Tendrás el honor de morir a manos de Edwin Odesseiron.~
+@3468   = ~Estás loco, mago. Aunque eso no me sorprende en un usuario humano. Señor, permítame acabar con ese mentecato.~
+@3469   = ~¡Muy bien, flacucho! Nos has traído a una 'trampa'. Lo que estos infelices no saben es que cuentas con el hacha de Korgan.~
+@3470   = ~Chimi: ¡Mira, Toxsan! Un enano. Me recuerda a los viejos tiempos.~
+@3471   = ~Toxsan: Así es, Chimi. Aplastarlos era nuestro pasatiempo. Ahora podremos rememorarlos, ¿no lo crees?~
+@3472   = ~Aquí me tienes, maldito ettin. ¡Ven a probar mi hacha! Verás cuán rápido te destripo.~
+@3473   = ~Así que caímos en una trampa, ¿eh? Esto me recuerda a la vez--~
+@3474   = ~No creo que sea el mejor momento para una de tus historias, Jan.~
+@3475   = ~Bueno, bueno. Pero te lo contaré cuanto hayamos ganado aquí. ¿Qué te parece, buen Dusk?~
+@3476   = ~Trato hecho.~
+@3477   = ~Ahhhh, cuervo blanco. Has caído en una trampa. Pero, ¿quién soy yo para juzgarte? Yo mismo me he visto en situaciones similares. Vamos, venzamos a estos insensatos, así puedo componer una o dos canciones sobre nuestras proezas.~
+@3478  = ~Oh, Dusk... tú sí que sabes hacer amistades, ¿eh? Vamos, que os ayudaré a enfrentar a estos monstruos.~
+
+@3479  = ~Ladra mientras puedas, perro. Pronto, tus aullidos de dolor inundaran este inmundo Túmulo.~
+
+// EE related code
+@3480  = ~¿Planeas atacar a la Orden? No puedo consentirlo... ¡son mis aliados! <CHARNAME>, ¡prepárate!~
+
+@3481  = ~No me avergüenza decir que estoy acostumbrado a vagar por los árboles. Me recuerda a Shilmista.~
+@3482  = ~Esto es ridículo, <CHARNAME>. ¿Todo este lío por ese malnacido semiorco?~
+
+// Bodhi EVIL Path M2-Intro
+@3483  = ~Me da igual lo que elijas, <CHARNAME>. Me basta con acabar estos asuntos molestos con esta... esta inmunda criatura.~
+@3484  = ~De por sí trabajar para esta alimaña ya es malo. Preferiría algo que no sea maléfico, <CHARNAME>.~
+
+@3485  = ~Supongo que ya estamos metidos en el barro. Dudo que este Aran sea alguien de buena calaña, así que no tendrás objeciones por mi parte.~
+@3486  = ~ Un oponente digno, <CHARNAME>. Aunque siento que esta... vampiresa sólo nos está utilizando como si fuéramos el martillo de un juez. (De ser por mí, ya habría clavado una estaca en su corazón)~
+
+@3487  = ~Y en dicha confrontación, muchos murieron por su culpa. Fui testigo de ello. No merece piedad alguna.~
+@3488  = ~Hmpf. ¿De verdad vas a creerle a esta criatura, <CHARNAME>? Intenta justificar el daño que se te ha hecho de una manera casi patética.~
+
+@3489  = ~¡<CHARNAME>, cuidado!~
+
+@3490  = ~*suspiro* Parece ser que el Paseo se ha convertido en el epicentro de magia corrupta.~
 
 // JOURNAL ENTRIES
 @210007 = ~Dusk Aldant: Los renegados de Sothillis

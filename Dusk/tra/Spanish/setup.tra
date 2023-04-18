@@ -1734,11 +1734,6 @@ DESCRIPCIÓN:
 
 Thiago endurece su piel de tal manera, que crea capas impenetrables a las armas físicas. Puede recibir hasta cinco impactos y aún así, no sentir ningún dolor ni daño a su salud. Sin embargo, luego del quinto impacto, las capas desaparecerán. También pueden ser disipadas a través de medios mágicos.~
 
-// Probar UseItem en los dlg files
-
-
-
-
 // Michelson, el Leprechaun
 
 @200303 = ~Michelson, el Leprechaun~
@@ -2833,6 +2828,38 @@ Tipo de arma: A una mano
 Requisitos: 19 de fuerza~
 
 @200446 = ~Habilidad innata obtenida: Juramento de Ira~
+
+// Items personalizados EE Characters
+// Wilson
+@3490  = ~Poolster~
+@3491  = ~Poolster (Innato)
+Nivel: Innato
+Alcance: El oso
+Duración: Especial
+Tiempo de lanzamiento: 3
+Área de efecto: El oso
+Tirada de salvación: Ninguna
+
+DESCRIPCIÓN:
+
+Este conjuro crea varios orbes de hielo de pequeño tamaño, uno por nivel del oso, que reemplazan a las garras habituales. El oso puede lanzar estos orbes contra objetivos que se encuentren a una distancia de hasta 15 metros, y serán tratados como proyectiles con una bonificación +5 a las tiradas de ataque. Al chocar contra alguien, infligirán 1D4 +3 puntos de daño y otros +3 puntos de daño gélido. El oso puede lanzar hasta cinco proyectiles por asalto.~
+@3492  = ~Este brillante orbe ha sido creado por el conjuro innato: Poolster.
+
+CARACTERÍSTICAS:
+
+Daño: 1d4+3, +3 de daño gélido
+GAC0: bonificación +5
+Aptitudes de combate: Número de ataques por asalto establecido en 5
+Tipo de daño: Proyectil
+Peso: 0 lbs
+Factor de velocidad: 3~
+@3493  = ~Orbe Poolster~
+@3494  = ~~
+@3495  = ~~
+@3496  = ~~
+@3497  = ~~
+@3498  = ~~
+@3499  = ~~
 
 @200447 = ~~
 @200448 = ~~

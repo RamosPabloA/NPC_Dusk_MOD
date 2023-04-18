@@ -1,4 +1,11 @@
 IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+SetName(@200426)
+END
+
+IF
 !StateCheck(Myself,CD_STATE_NOTVALID)
 CombatCounter(0) 
 !See([ENEMY])
