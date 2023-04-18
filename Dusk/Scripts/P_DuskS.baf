@@ -1,4 +1,4 @@
-//Dejamos esto. Recordar testear para ver qué pasa
+// Hotkey configurable
 IF
 HotKey(K)
 THEN
@@ -1651,3 +1651,58 @@ THEN
 	//AddKit (ASSASIN)
     SetGlobal("P_DuskKitTest","GLOBAL",2)
 END*/
+
+
+// EE Code related
+// Dorn
+IF
+//Global("OHD_anomenkeldorninterject","GLOBAL",1)
+Global("P_DUSK_IS_EVIL","GLOBAL",0)
+InMyArea("Dorn")
+AreaCheck("AR0900")
+Global("P_Dusk_DornEnemy","GLOBAL",0)
+OR(2)
+Allegiance("Keldorn",ENEMY)
+Allegiance("Anomen",ENEMY)
+THEN
+RESPONSE #100
+SetGlobal("P_Dusk_DornEnemy","GLOBAL",1)
+ChangeAIScript("",DEFAULT)
+LeaveParty()
+Enemy()
+AttackReevaluate("Dorn",30)
+END
+
+IF
+Global("OHD_PLOT","GLOBAL",1)
+Global("P_DUSK_IS_EVIL","GLOBAL",0)
+InParty("Dorn")
+AreaCheck("AR0900")
+Global("P_Dusk_DornEnemy","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("P_Dusk_DornEnemy","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+IF
+Global("P_Dusk_DornEnemy","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("P_Dusk_DornEnemy","GLOBAL",3)
+ChangeAIScript("",DEFAULT)
+LeaveParty()
+Enemy()
+AttackReevaluate("Dorn",30)
+END
+
+
+IF
+Global("OHD_GORGE_NTRJEX","OH5100",1)
+Global("P_DUSK_OHD5100","GLOBAL",0)
+AreaCheck("OH5100")
+THEN
+RESPONSE #100
+SetGlobal("P_DUSK_OHD5100","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END

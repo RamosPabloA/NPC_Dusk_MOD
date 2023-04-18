@@ -2695,6 +2695,45 @@ Requirements: 19 Strength~
 
 @200446 = ~Innate ability obtained: Oath of Fury~
 
+
+// Items personalizados EE Characters
+// Wilson
+@3490  = ~Poolster~
+@3491  = ~Poolster (Innate)
+Level: Innate
+Range: The bear
+Duration: Special
+Casting Time: 3
+Area of Effect: The bear
+Saving Throw: None
+
+DESCRIPTION:
+
+This spell creates several small ice orbs, one per bear level, that replace the bear's usual claws. The bear can hurl these orbs at targets up to 15 meters away, and they will be treated as projectiles with a +5 bonus to attack rolls. Upon impact, they deal 1d4+3 points of damage plus an additional 3 points of cold damage. The bear can hurl up to five projectiles per round.~
+
+@3492  = ~This bright orb has been created by the innate spell Poolster.
+
+FEATURES:
+
+Damage: 1d4+3, +3 cold damage
+AC: bonus +5
+Combat abilities: Number of attacks per round set to 5
+Damage type: Projectile
+Weight: 0 lbs
+Speed factor: 3~
+@3493  = ~Poolster's orb~
+@3494  = ~~
+@3495  = ~~
+@3496  = ~~
+@3497  = ~~
+@3498  = ~~
+@3499  = ~~
+
+@200447 = ~~
+@200448 = ~~
+@200449 = ~~
+
+
 ////////////////////////////////
 // DIARIO ENTRIES
 

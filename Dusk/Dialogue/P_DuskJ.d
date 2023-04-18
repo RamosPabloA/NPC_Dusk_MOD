@@ -1827,6 +1827,166 @@ IF ~~ THEN BEGIN 331 // from:
   IF ~~ THEN DO ~ SetGlobal("P_CelineSpawn","GLOBAL",2)~ EXIT
 END
 
+// NPC Interaction QUEST 3 GOOD PATH
+IF ~~ THEN BEGIN 332 // from:
+  SAY @3438 /* ~ De acuerdo... ¡Soldados, en formación! Una ardua batalla nos espera... ~ */
+  IF ~~ THEN DO ~~ EXTERN ~P_ALABAR~ 10
+END
+
+// NPC Interaction QUEST 3 EVIL PATH
+IF ~~ THEN BEGIN 333 // from:
+  SAY @3479 /* ~Ladra mientras puedas, perro. Pronto, tus aullidos de dolor inundaran este inmundo Túmulo.~ */
+  IF ~~ THEN DO ~~ EXTERN ~P_ALABAR~ 6
+END
+
+//EE Related code
+//DORN
+IF ~Global("P_Dusk_DornEnemy","GLOBAL",1)~ THEN BEGIN 334 // from:
+  SAY @3480 /* ~¿Planeas atacar a la Orden? No puedo consentirlo... ¡son mis aliados! <CHARNAME>, ¡prepárate!~ */
+  IF ~~ THEN DO ~SetGlobal("P_Dusk_DornEnemy","GLOBAL",2)~
+ EXIT
+END
+
+IF ~Global("P_DUSK_OHD5100","GLOBAL",1) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN BEGIN 335 // from:
+  SAY @3481 /* ~No me avergüenza decir que estoy acostumbrado a vagar por los árboles. Me recuerda a Shilmista.~ */
+  IF ~~ THEN DO ~SetGlobal("P_DUSK_OHD5100","GLOBAL",2)~
+ EXIT
+END
+
+IF ~Global("P_DUSK_OHD5100","GLOBAL",1) Global("P_DUSK_IS_EVIL","GLOBAL",1)~ THEN BEGIN 336 // from:
+  SAY @3482 /* ~Esto es ridículo, <CHARNAME>. ¿Todo este lío por ese malnacido semiorco?~ */
+  IF ~~ THEN DO ~SetGlobal("P_DUSK_OHD5100","GLOBAL",2)~
+ EXIT
+END
+
+// NEERA Quest1
+IF ~~ THEN BEGIN 337 // from:
+  SAY @3489 /* ~¡<CHARNAME>, cuidado!~ */
+IF ~~ THEN DO ~~ EXTERN ~OHNQUAID~ P_QUAID1
+END
+
+
+// NEERA Quest2
+I_C_T OHNTELAN 12 P_DuskNeeraQ2_1
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3490 /* *suspiro* Parece ser que el Paseo se ha convertido en el epicentro de magia corrupta.  */
+END
+
+// Bodhi narra de enfrentamiento de Irenicus con Ladrones
+I_C_T BODHI 90 P_DuskBODHI902
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @3485 /* Y en dicha confrontación, muchos murieron por su culpa. Fui testigo de ello. No merece piedad alguna. */
+END
+
+I_C_T BODHI 90 P_DuskBODHI901
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",1)~ THEN @3486 /* Hmpf. ¿De verdad vas a creerle a esta criatura, <CHARNAME>? Intenta justificar el daño que se te ha hecho de una manera casi patética. */
+END
+
+// Bodhi pide asesinar a Aran
+I_C_T BODHI 72 P_DuskBODHI721
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @3485 /* Supongo que ya estamos metidos en el barro. Dudo que este Aran sea alguien de buena calaña, así que no tendrás objeciones por mi parte. */
+END
+
+I_C_T BODHI 72 P_DuskBODHI4722
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",1)~ THEN @3486 /* Un oponente digno, <CHARNAME>. Aunque siento que esta... vampiresa sólo nos está utilizando como si fuéramos el martillo de un juez. (De ser por mí, ya habría clavado una estaca en su corazón) */
+END
+
+// Bodhi EVIL Path
+I_C_T BODHI 45 P_Dusk_BODHI_MISSION2E
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL","GLOBAL",1)~ THEN @3483 /* Me da igual lo que elijas, <CHARNAME>. Me basta con acabar estos asuntos molestos con esta... esta inmunda criatura. */
+END
+
+I_C_T BODHI 45 P_Dusk_BODHI_MISSION2E
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL","GLOBAL",0)~ THEN @3484 /* De por sí trabajar para esta alimaña ya es malo. Preferiría algo que no sea maléfico, <CHARNAME>. */
+END
+
+// inject EE CHAR and crossmods I_C_T
+I_C_T P_DUSKJ 333 P_Dusk_EVIL_ALABAR1
+== MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3439 /* ¡Dusk, <CHARNAME>, Minsc y Bubú están listos para patear traseros orcos y trolls! */
+== P_KOMAR IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3479 /* ¡Calvo! Ese roedor será mío. ¡Komar así lo exige! ¡¡¡Komar romperá tus huesos y tomará al pequeño peludo para su diversión!!! */
+== MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3480 /* ¿Calvo? ¡Tú serás el calvo, malvado ogro! Y Bubú no será esclavo de nadie. ¡La furia del hámster es libre y te hará ver las estrellas! */
+== AERIEJ IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @3481 /* Oh, no me gusta esto... ¡Pero haré lo posible por proteger a mis amigos! */
+== KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @3482 /* Puede que esta sea nuestra última batalla, amigos míos. ¡Pero por Torm que daré batalla hasta las últimas consecuencias! */
+== P_SERRA IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @3444 /* ¡Un paladín! Jefe, déjeme a ese infeliz a mí. Me encargaré de que se reúna con su dios lo antes posible. */
+== KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @3445 /* ¡Inténtalo, criatura! Verás cuán rápido caes ante el filo de la Justicia. */
+== YOSHJ IF ~InParty("Yoshimo") InMyArea("Yoshimo") !StateCheck("Yoshimo",CD_STATE_NOTVALID)~ THEN @3446 /* Pues, ya es hora de poner a prueba mis habilidades guerreras (no es que vaya a ser algo impresionante, pero quizás asuste a un par de monstruos). */
+== MAZZYJ IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @3447 /* ¡Arvorin, dame las fuerzas para vencer en este combate! */
+== P_TOXSAN IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @3448 /* Chimi: ¿Así que quieres devorarte a esa mediana, Bob? Hazlo, libremente. Deja algunos huesos para tu hermano Mike, ¿quieres? */
+== P_BOB IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @3449 /* (La criatura centra sus ojos en Mazzy. Casi pareciera ser que está relamiéndose) */
+== MAZZYJ IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @3450 /* Odio decir esto, pero no es la primera vez que un monstruo intenta devorarme... Aún así, lamento decir que te quedarás con las ganas, mole. */
+== ANOMENJ IF ~InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @3451 /* ¡Al fin nos traes algo de acción, Dusk! Helm, dame las fuerzas. ¡Hoy lucharé en tu nombre y triunfaré! */
+== P_KOCHA IF ~InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @3452 /* Jefecito, déjeme a ese joven monje para mí. Siempre es un placer apalear humanos engreídos. */
+== NALIAJ IF ~InParty("Nalia") InMyArea("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID)~ THEN @3453 /* Por el recuerdo de mi padre, ¡no permitiré que miserables trolls vaguen por estas tierras! */
+== P_KOCHA IF ~InParty("Nalia") InMyArea("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID)~ THEN @3454 /* Siento que me hablas a mí, niña. */
+== NALIAJ IF ~InParty("Nalia") InMyArea("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID)~ THEN @3455 /* ¡Por de'Arnise! Hoy será el último día en que respires monstruo. */
+== P_KOCHA IF ~InParty("Nalia") InMyArea("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID)~ THEN @3456 /* *resoplido* Estoy cansado de estos humanos engreídos... */
+== JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @3457 /* Dusk, tu deseo de venganza es comprendido y bienvenido. ¡Y será un honor luchar a tu lado para cumplirlo! */
+== CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @3458 /* Es hora de ponerle fin a este Tumulario. Una guarida así tan cerca de la Arboleda es una afrenta a la naturaleza. */
+== P_TOXSAN IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @3459 /* Toxsan: ¿Qué dices, Mike? ¿Que quieres comerte al druida humano? Por mí, bienvenido sea. No te olvides de tu hermano Bob, ¿sí? */
+== P_MIKE IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @3460 /* (La mole sombría centra sus cuatro ojos en Cernd, impaciente a que su amo suelte sus riendas y pueda comenzar el ataque) */
+== CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @3461 /* Criatura, hoy serás el alimento de gusanos y colaborarás con el ciclo de la vida, a través de tu muerte. */
+== VALYGARJ IF ~InParty("Valygar") InMyArea("Valygar") !StateCheck("Valygar",CD_STATE_NOTVALID)~ THEN @3462 /* Dusk, ha llegado la hora. ¡Haremos justicia por tus camaradas caídos! */
+== VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @3463 /* Bueno, rivvil, hemos recorrido un largo camino para llegar aquí. Utilizaré la divinidad de Shar en tu favor, no lo olvides. Nuestros enemigos caerán en la Oscuridad Eterna. */
+== P_XEB IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @3464 /* *siseo* ¡Una drow! Señor, déjeme experimentar con ella, por favor. Prometo ssser... meticulossso. */
+== EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3465 /* Si bien me da igual tu pasado, hombre del palito, admito que esta es una buena oportunidad para poner a prueba mis conjuros. Especialmente contra esa lagartija. */
+== P_Tongas IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3466 /* ¿Me hablas a mí, mago rojo? */
+== EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3467 /* ¡Así es, renacuajo! Tendrás el honor de morir a manos de Edwin Odesseiron. */
+== P_Tongas IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3468 /* Estás loco, mago. Aunque eso no me sorprende en un usuario humano. Señor, permítame acabar con ese mentecato. */
+== KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @3469 /* ¡Muy bien, flacucho! Nos has traído a una 'trampa'. Lo que estos infelices no saben es que cuentas con el hacha de Korgan. */
+== P_TOXSAN IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @3470 /* Chimi: ¡Mira, Toxsan! Un enano. Me recuerda a los viejos tiempos. */
+== P_TOXSAN IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @3471 /* Toxsan: Así es, Chimi. Aplastarlos era nuestro pasatiempos. Ahora podremos rememorarlos, ¿no lo crees? */
+== KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @3472 /* Aquí me tienes, maldito ettin. ¡Ven a probar mi hacha! Verás cuán rápido te destripo. */
+== JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3473 /* Así que caímos en una trampa, ¿eh? Esto me recuerda a la vez-- */
+== P_DuskJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3474 /* ~No creo que sea el mejor momento para una de tus historias, Jan.~ */
+== JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3475 /* Bueno, bueno. Pero te lo contaré cuanto hayamos ganado aquí. ¿Qué te parece, buen Dusk? */
+== P_DuskJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3476 /* ~Trato hecho.~ */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @3477 /* Ahhhh, cuervo blanco. Has caído en una trampa. Pero, ¿quién soy yo para juzgarte? Yo mismo me he visto en situaciones similares. Vamos, venzamos a estos insensatos, así puedo componer una o dos canciones sobre nuestras proezas. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @3478 /* ~Oh, Dusk... tú sí que sabes hacer amistades, ¿eh? Vamos, que os ayudaré a enfrentar a estos monstruos.~ */
+END
+
+
+
+I_C_T P_DUSKJ 332 P_Dusk_GOOD_ALABAR1
+== MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3439 /* ¡Dusk, <CHARNAME>, Minsc y Bubú están listos para patear traseros orcos y trolls! */
+== P_KOMAR IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3479 /* ¡Calvo! Ese roedor será mío. ¡Komar así lo exige! ¡¡¡Komar romperá tus huesos y tomará al pequeño peludo para su diversión!!! */
+== MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3480 /* ¿Calvo? ¡Tú serás el calvo, malvado ogro! Y Bubú no será esclavo de nadie. ¡La furia del hámster es libre y te hará ver las estrellas! */
+== AERIEJ IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @3481 /* Oh, no me gusta esto... ¡Pero haré lo posible por proteger a mis amigos! */
+== KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @3482 /* Puede que esta sea nuestra última batalla, amigos míos. ¡Pero por Torm que daré batalla hasta las últimas consecuencias! */
+== P_SERRA IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @3444 /* ¡Un paladín! Jefe, déjeme a ese infeliz a mí. Me encargaré de que se reúna con su dios lo antes posible. */
+== KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @3445 /* ¡Inténtalo, criatura! Verás cuán rápido caes ante el filo de la Justicia. */
+== YOSHJ IF ~InParty("Yoshimo") InMyArea("Yoshimo") !StateCheck("Yoshimo",CD_STATE_NOTVALID)~ THEN @3446 /* Pues, ya es hora de poner a prueba mis habilidades guerreras (no es que vaya a ser algo impresionante, pero quizás asuste a un par de monstruos). */
+== MAZZYJ IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @3447 /* ¡Arvorin, dame las fuerzas para vencer en este combate! */
+== P_TOXSAN IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @3448 /* Chimi: ¿Así que quieres devorarte a esa mediana, Bob? Hazlo, libremente. Deja algunos huesos para tu hermano Mike, ¿quieres? */
+== P_BOB IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @3449 /* (La criatura centra sus ojos en Mazzy. Casi pareciera ser que está relamiéndose) */
+== MAZZYJ IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @3450 /* Odio decir esto, pero no es la primera vez que un monstruo intenta devorarme... Aún así, lamento decir que te quedarás con las ganas, mole. */
+== ANOMENJ IF ~InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @3451 /* ¡Al fin nos traes algo de acción, Dusk! Helm, dame las fuerzas. ¡Hoy lucharé en tu nombre y triunfaré! */
+== P_KOCHA IF ~InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @3452 /* Jefecito, déjeme a ese joven monje para mí. Siempre es un placer apalear humanos engreídos. */
+== NALIAJ IF ~InParty("Nalia") InMyArea("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID)~ THEN @3453 /* Por el recuerdo de mi padre, ¡no permitiré que miserables trolls vaguen por estas tierras! */
+== P_KOCHA IF ~InParty("Nalia") InMyArea("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID)~ THEN @3454 /* Siento que me hablas a mí, niña. */
+== NALIAJ IF ~InParty("Nalia") InMyArea("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID)~ THEN @3455 /* ¡Por de'Arnise! Hoy será el último día en que respires monstruo. */
+== P_KOCHA IF ~InParty("Nalia") InMyArea("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID)~ THEN @3456 /* *resoplido* Estoy cansado de estos humanos engreídos... */
+== JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @3457 /* Dusk, tu deseo de venganza es comprendido y bienvenido. ¡Y será un honor luchar a tu lado para cumplirlo! */
+== CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @3458 /* Es hora de ponerle fin a este Tumulario. Una guarida así tan cerca de la Arboleda es una afrenta a la naturaleza. */
+== P_TOXSAN IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @3459 /* Toxsan: ¿Qué dices, Mike? ¿Que quieres comerte al druida humano? Por mí, bienvenido sea. No te olvides de tu hermano Bob, ¿sí? */
+== P_MIKE IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @3460 /* (La mole sombría centra sus cuatro ojos en Cernd, impaciente a que su amo suelte sus riendas y pueda comenzar el ataque) */
+== CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @3461 /* Criatura, hoy serás el alimento de gusanos y colaborarás con el ciclo de la vida, a través de tu muerte. */
+== VALYGARJ IF ~InParty("Valygar") InMyArea("Valygar") !StateCheck("Valygar",CD_STATE_NOTVALID)~ THEN @3462 /* Dusk, ha llegado la hora. ¡Haremos justicia por tus camaradas caídos! */
+== VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @3463 /* Bueno, rivvil, hemos recorrido un largo camino para llegar aquí. Utilizaré la divinidad de Shar en tu favor, no lo olvides. Nuestros enemigos caerán en la Oscuridad Eterna. */
+== P_XEB IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @3464 /* *siseo* ¡Una drow! Señor, déjeme experimentar con ella, por favor. Prometo ssser... meticulossso. */
+== EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3465 /* Si bien me da igual tu pasado, hombre del palito, admito que esta es una buena oportunidad para poner a prueba mis conjuros. Especialmente contra esa lagartija. */
+== P_Tongas IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3466 /* ¿Me hablas a mí, mago rojo? */
+== EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3467 /* ¡Así es, renacuajo! Tendrás el honor de morir a manos de Edwin Odesseiron. */
+== P_Tongas IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3468 /* Estás loco, mago. Aunque eso no me sorprende en un usuario humano. Señor, permítame acabar con ese mentecato. */
+== KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @3469 /* ¡Muy bien, flacucho! Nos has traído a una 'trampa'. Lo que estos infelices no saben es que cuentas con el hacha de Korgan. */
+== P_TOXSAN IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @3470 /* Chimi: ¡Mira, Toxsan! Un enano. Me recuerda a los viejos tiempos. */
+== P_TOXSAN IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @3471 /* Toxsan: Así es, Chimi. Aplastarlos era nuestro pasatiempos. Ahora podremos rememorarlos, ¿no lo crees? */
+== KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @3472 /* Aquí me tienes, maldito ettin. ¡Ven a probar mi hacha! Verás cuán rápido te destripo. */
+== JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3473 /* Así que caímos en una trampa, ¿eh? Esto me recuerda a la vez-- */
+== P_DuskJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3474 /* ~No creo que sea el mejor momento para una de tus historias, Jan.~ */
+== JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3475 /* Bueno, bueno. Pero te lo contaré cuanto hayamos ganado aquí. ¿Qué te parece, buen Dusk? */
+== P_DuskJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3476 /* ~Trato hecho.~ */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @3477 /* Ahhhh, cuervo blanco. Has caído en una trampa. Pero, ¿quién soy yo para juzgarte? Yo mismo me he visto en situaciones similares. Vamos, venzamos a estos insensatos, así puedo componer una o dos canciones sobre nuestras proezas. */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @3478 /* ~Oh, Dusk... tú sí que sabes hacer amistades, ¿eh? Vamos, que os ayudaré a enfrentar a estos monstruos.~ */
+END
+
 // AR1506 ARRIVAL EVIL
 I_C_T P_DUSKJ 322 P_Dusk_GOOD_AR1506_1
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3420 /* No confío en estos magos, por lo que recomiendo proceder con cuidado. */
@@ -2234,13 +2394,7 @@ END
 
 ////////////// OK!!! \\\\\\\\\\\\\\\\\
 
-I_C_T BODHI 72 P_DuskBODHI43
-== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @63 /* <CHARNAME>, aliarnos con esta criatura supondrá inmiscuirnos directamente en una guerra abierta contra los Ladrones de las Sombras. Debemos ser cautos en nuestras próximas decisiones... puede que la vida de muchos inocentes estén en nuestras manos... Si hay una guerra, querría evitarla (aunque a estas alturas, parece casi imposible). */
-END
 
-I_C_T BODHI 72 P_DuskBODHI432
-== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",1)~ THEN @518 /* ¿Una alianza con esta... inmundicia? Aunque nos ofrezca un buen trato, no creo que valga la pena, <CHARNAME>. Si por mí fuera, la decapitaría aquí mismo. No merece otro destino... */
-END
 
 I_C_T BODHI2 4 P_DuskBODHI24
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @65 /* Mide tus palabras, criatura. Puede que <CHARNAME> sea un fastidio (sin ánimos de ofender) pero al menos tiene claridad en sus palabras, a diferencia tuya. */
@@ -2456,7 +2610,7 @@ END
 ////////////// OK!!! \\\\\\\\\\\\\\\\\
 
 I_C_T VAELASA 7 P_DuskVAELASA7
-== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @97 /* Es raro... pero siento una extraña nostalgia con sólo verlas... Son criaturas hermosas. 
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @97 /* Es raro... pero siento una extraña nostalgia con sólo verlas... Son criaturas hermosas. 
 Has hecho bien en liberarlas, <CHARNAME>.  Pertenecen al bosque. Y a la libertad. */
 END
 

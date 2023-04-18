@@ -219,3 +219,19 @@ END
 I_C_T C6ELHAN2 8 P_DuskC6ELHAN28
 == WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @210 /* (Bufido) (Al parecer, Wilson parece incrédulo al ver el frío recibimiento de los elfos) */
 END
+
+// Interjects Dusk/Dorn
+
+I_C_T OHDBRIDE 4 P_DuskEE_EVIL_Dorn1
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL","GLOBAL",1)~ THEN @211 /* Hmpf... tiempo atrás, me habría parecido sumamente insultante que algo así pasase en los Salones de la Orden... Pero he llegado a aprender que la naturaleza del citadino es... estúpida. */
+END
+
+I_C_T DORNJ 5 P_DuskEE_EVIL_Dorn2
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL","GLOBAL",1)~ THEN @212 /* ¿Matar civiles? Eso está por debajo de nosotros. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL","GLOBAL",1)~ THEN @213 /* *suspiro* Sin embargo, <CHARNAME>, si crees que es lo apropiado, lo haré. */
+END
+
+I_C_T DORNJ 6 P_DuskEE_EVIL_Dorn3
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL","GLOBAL",1)~ THEN @212 /* ¿Matar civiles? Eso está por debajo de nosotros. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL","GLOBAL",1)~ THEN @213 /* *suspiro* Sin embargo, <CHARNAME>, si crees que es lo apropiado, lo haré. */
+END

@@ -2,7 +2,7 @@ BACKUP ~Dusk/Backup~
 
 AUTHOR ~Pol Rupes - pablo.alejandro.ramos@gmail.com~ 
 
-VERSION ~v0.9~  
+VERSION ~v0.9.1~
 
 README ~Dusk/Readme-Dusk.txt~
 
@@ -216,7 +216,10 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Characters/m3good_allies/p_kayl2.d~
 	~Dusk/Characters/m3good_allies/p_zibe2.d~
 	
-
+	// EE Related
+	~Dusk/Dialogue/OHNQUAID.d~
+	
+	// Scripts
 	~Dusk/Scripts/P_DuskS.baf~ // Dusk's script.
 	~Dusk/Scripts/P_DuskD.baf~ // Dusk's dream script for events at rest. If you want your NPC to talk to you at rest, add scripting here.
 	~Dusk/Scripts/P_DuskF.baf~ // Dusk's "fixing" script. Remember how various modders advised you to "select your NPC and press K"? Well, that's how they do it.
@@ -225,6 +228,9 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Scripts/p_michel.baf~
 	~Dusk/Scripts/p_matut.baf~
 	~Dusk/Scripts/p_falon.baf~
+	~Dusk/Scripts/p_cufati.baf~
+	~Dusk/Scripts/p_coco.baf~
+	~Dusk/Scripts/p_ziben.baf~
 	~Dusk/Scripts/p_huron.baf~
 	~Dusk/Scripts/p_alabar.baf~
 	~Dusk/Scripts/p_alaba2.baf~
@@ -239,7 +245,6 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Scripts/p_matu2.baf~
 	~Dusk/Scripts/p_demol2.baf~
 	~Dusk/Scripts/p_valata.baf~
-	~Dusk/Scripts/p_demol2.baf~
 	~Dusk/Scripts/p_miche2.baf~
 	~Dusk/Scripts/p_celin.baf~
 	~Dusk/Scripts/p_danct2.baf~
@@ -264,9 +269,9 @@ EXTEND_TOP ~AR1509.bcs~ ~Dusk/Scripts/AR1509.baf~
 // Dicho string reemplazado, tiene como condicional que Sarevok se encuentre en el grupo.
 // Como Sarevok no puede aparecer en Athkatla, es imposible que dicho di�logo se inicie.
 // Por lo que podremos hacer uso de dicho String para otros usos.
-STRING_SET 26258 ~Dusk~
+STRING_SET_EVALUATE 26258 @2
 STRING_SET 26257 ~Jaheira! No... NOOOOooooooo!~
-STRING_SET 26259 ~Minsc! Boo! No... NooOOOoooo!!!~
+STRING_SET_EVALUATE 26259 @1 //Minsc
 STRING_SET 26260 ~Aerie... No... Noooo... GRAAHH!!!~
 STRING_SET 26261 ~Imoen! IMOEN... Nooo!!!~
 STRING_SET 26262 ~Korgan! Grrr... No! Noo!!!~
@@ -278,18 +283,28 @@ ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
 ADD_JOURNAL @210001  @210003 @210004 @210005 @210006 @210007 @210008 @210009 @210010 @210011 @210012 @210013 @210014 @210015 @210016 @210017 @210019 @210020 @210021 @210022 @210023 @210024 @210025 @210026 @210027 @210028 @210029 @210030 @210031 @210032 @210033 @210034 @210035 @210036 @210037 @210038 @210039 @210040 @210041  @210043 @210044 @210045 @210046 @210047 @210048 @210049
 END
 
-//ITEMS
-COPY ~Dusk/Items/P_AX1H99.itm~ ~override~         
-SAY NAME1 @200001 /* Hacha de Batalla */ 
-SAY NAME2 @200002 /* Hacha Dorada */
-SAY UNIDENTIFIED_DESC @200003 /*  */
-SAY DESC @200004 /*  */
-SAY 558 @200005 /*Golpe vorpalino*/
-SAY 798 @200006 /*Huye aterrorizado*/
+////////////////////////////////////////////
+// ITEMS
+// Personalizados de DUSK
 
+// 1 - Armadura de la familia Aldant
+COPY ~Dusk/Items/p_dchan1.itm~ ~override~
+SAY NAME1 @200309 /*   */ 
+SAY NAME2 @200310 /*  */
+SAY UNIDENTIFIED_DESC @200311 /* */
+SAY DESC @200312 /* */
 
-// Espada cormyreana de disrupci�n
+// 1 - Espada cormyreana reforjada
+COPY ~Dusk/Items/p_swr1.itm~ ~override~
+SAY NAME2 @200313 /*  */
+SAY DESC @200314 /* */
 
+// 1- Bast�n reforzado shilmista
+COPY ~Dusk/Items/p_stf1.itm~ ~override~
+SAY NAME2 @200315 /*  */
+SAY DESC @200316 /* */
+
+// 2 - Espada cormyreana de disrupci�n
 COPY ~Dusk/Items/p_sw1hdr.itm~ ~override~         
 SAY NAME1 @200007 /* Espada Bastarda */ 
 SAY NAME2 @200008 /* Espada cormyreana de disrupci�n */
@@ -309,103 +324,134 @@ SAY 798 @2 /* */
 //GET_STRREF 0x2c = (@2) END
 //0x2c = RESOLVE_STR_REF (@2 /* */) END
 
-COPY ~Dusk/Items/P_BRAC99.itm~ ~override~         
+// 2 - Espada Carmes� (EVIL PATH)
+COPY ~Dusk/Items/p_swevi1.itm~ ~override~
+SAY NAME1 @200007 /*  */ 
+SAY NAME2 @200334 /*  */
+SAY UNIDENTIFIED_DESC @200009 /* */
+SAY DESC @200335 /* */
 
-SAY NAME1 @200016 /* Brazales */ 
-SAY NAME2 @200017 /* Brazales de Defensa P�trea */
-SAY UNIDENTIFIED_DESC @200018 /*  */
-SAY DESC @200019 /*  */
+// 2 - Espada Esmeralda (GOOD PATH)
+COPY ~Dusk/Items/p_swgoo1.itm~ ~override~
+SAY NAME1 @200007 /* Espada Bastarda */ 
+SAY NAME2 @200341 /* Espada esmeralda */
+SAY UNIDENTIFIED_DESC @200009 /* */
+SAY DESC @200342 /* */
 
-// /* Armadura de Cota de Mallas */  ******
+// 2 - Defensa de Cormyr
+COPY ~Dusk/Items/p_dplat1.itm~ ~override~
+SAY NAME2 @200421 /*  */
+SAY DESC @200422 /* */
 
-COPY ~Dusk/Items/p_chan99.itm~ ~override~         
+// 3 - Espada Carmes� MEJORADA (EVIL PATH)
+COPY ~Dusk/Items/p_swevi2.itm~ ~override~
+SAY NAME1 @200007 /* Espada carmes� mejorada */ 
+SAY NAME2 @200374 /*  */
+SAY UNIDENTIFIED_DESC @200009 /* */
+SAY DESC @200375 /* */
 
-SAY NAME1 @200020 /* Armadura de Cota de Mallas */ 
-SAY NAME2 @200021 /* Armadura de Magos */
-SAY UNIDENTIFIED_DESC @200022 /*  */
-SAY DESC @200023 /*  */
+// 3 - Espada Esmeralda MEJORADA (GOOD PATH)
+COPY ~Dusk/Items/p_swgoo2.itm~ ~override~
+SAY NAME1 @200007 /*  */ 
+SAY NAME2 @200376 /*  */
+SAY UNIDENTIFIED_DESC @200009 /* */
+SAY DESC @200377 /* */
+//SAY 0x2c @2
+
+// 3 - Salus -> Armadura mejorada de Dusk
+COPY ~Dusk/Items/p_platd1.itm~ ~override~
+SAY NAME2 @200411 /*  */
+SAY DESC @200412 /* */
+
+// 3 - Rex -> Espada de Dusk mejorada
+COPY ~Dusk/Items/p_sw2hdr.itm~ ~override~
+SAY NAME1 @200007 /* Espada Bastarda */ 
+SAY NAME2 @200413 /* Rex */
+SAY UNIDENTIFIED_DESC @200009 /*  */
+SAY DESC @200414 /*  */
+SAY 174 @200011 /*Cinco niveles consumidos*/
+SAY 222 @200012 /*Cuatro niveles consumidos*/
+SAY 270 @200013 /*Tres niveles consumidos*/
+SAY 318 @200014 /*Dos niveles consumidos*/
+SAY 366 @200015 /*Un nivel consumido*/
+SAY 1086 @200415 /*Ralentizado */
+SAY 798 @2 /* */
+
+// 4 - LUX (GOOD PATH)
+COPY ~Dusk/Items/p_swgoo3.itm~ ~override~
+SAY NAME1 @200007 /*  */ 
+SAY NAME2 @200430 /* Lux */
+SAY UNIDENTIFIED_DESC @200009 /* */
+SAY DESC @200431 /* */
+
+// 4 - IRA (EVIL PATH)
+COPY ~Dusk/Items/p_swevi3.itm~ ~override~
+SAY NAME1 @200007 /* Espada carmes� mejorada */ 
+SAY NAME2 @200432 /*  */
+SAY UNIDENTIFIED_DESC @200009 /* */
+SAY DESC @200433 /* */
+
+// 5 - Lux Triumphans (GOOD PATH)
+COPY ~Dusk/Items/p_swgoo4.itm~ ~override~
+SAY NAME1 @200007 /*  */ 
+SAY NAME2 @200442 /*  */
+SAY UNIDENTIFIED_DESC @200009 /* */
+SAY DESC @200443 /* */
+
+// 5 - IRA Tenax (EVIL PATH)
+COPY ~Dusk/Items/p_swevi4.itm~ ~override~
+SAY NAME1 @200007 /* Espada carmes� mejorada */ 
+SAY NAME2 @200444 /*  */
+SAY UNIDENTIFIED_DESC @200009 /* */
+SAY DESC @200445 /* */
+
+// SPELLS DUSK INNATES
+// 1 - Infundir Valor
+COPY ~Dusk/Spells/p_sp1d.spl~ ~override~
+SAY 8 @200378 /* Infundir Valor */ 
+SAY 80 @200388 /*  */
+
+// 1 - Defensa Heroica
+COPY ~Dusk/Spells/p_sp2d.spl~ ~override~
+SAY 8 @200380 /* Defensa Heroica */ 
+SAY 80 @200381 /*  */
+
+// 2 - Miedo
+COPY ~Dusk/Spells/p_sp3d.spl~ ~override~
+SAY 8 @200382 /* Miedo */ 
+SAY 80 @200383 /*  */
+
+// 2 - �ltimo Esfuerzo
+COPY ~Dusk/Spells/p_sp4d.spl~ ~override~
+SAY 8 @200384 /* �ltimo Esfuerzo */ 
+SAY 80 @200385 /*  */
+
+// 3 - Juramento de Ira
+COPY ~Dusk/Spells/p_sp5d.spl~ ~override~
+SAY 8 @200386 /* Juramento de Ira */ 
+SAY 80 @200387 /*  */
+
+////////////////////////////////////////////
+//NPCs Items Personalizados
+
+// Hacha dorada (KORGAN)
+COPY ~Dusk/Items/P_AX1H99.itm~ ~override~         
+SAY NAME1 @200001 /* Hacha de Batalla */ 
+SAY NAME2 @200002 /* Hacha Dorada */
+SAY UNIDENTIFIED_DESC @200003 /*  */
+SAY DESC @200004 /*  */
+SAY 558 @200005 /*Golpe vorpalino*/
+SAY 798 @200006 /*Huye aterrorizado*/
 
 // TUNICA DE VICONIA
-
-COPY ~Dusk/Items/P_CHNVIC.itm~ ~override~         
-
+COPY ~Dusk/Items/P_CHNVIC.itm~ ~override~
 SAY NAME1 @200024 /* Manto */ 
 SAY NAME2 @200025 /* T�nica de Viconia */
 SAY UNIDENTIFIED_DESC @200026 /*  */
 SAY DESC @200027 /*  */
 
-// CRIMSON THUNDER
-
-COPY ~Dusk/Items/P_HAMM1.itm~ ~override~         
-
-SAY NAME1 @200028 /* Martillo de Guerra */ 
-SAY NAME2 @200029 /* Crimson Thunder */
-SAY UNIDENTIFIED_DESC @200030 /*  */
-SAY DESC @200031 /*  */
-
-// TEST S�LO ETIQUETAS
-// KELDORN POT
-
-COPY ~Dusk/Items/p_keld1.itm~ ~override~         
-
-SAY NAME1 @200032 /*  */ 
-SAY NAME2 @200033 /*  */
-SAY UNIDENTIFIED_DESC @200034 /* */
-SAY DESC @200035 /* */
-SAY 318 @200036 /* */
-SAY 270 @200037 /* */
-
-// FUEGO SALVAJE
-
-COPY ~Dusk/Items/p_leat01.itm~ ~override~         
-
-SAY NAME1 @200038 /*  */ 
-SAY NAME2 @200039 /*  */
-SAY UNIDENTIFIED_DESC @200040 /* */
-SAY DESC @200041 /* */
-
-// VENOM STRIKE
-
-COPY ~Dusk/Items/p_venom.itm~ ~override~         
-
-SAY NAME1 @200042 /*  */ 
-SAY NAME2 @200043 /*  */
-SAY UNIDENTIFIED_DESC @200044 /* */
-SAY DESC @200045 /* */
-SAY 366 @200050 /* */
-SAY 462 @200051 /* */
-
-// PROTECCI�N DEL GUERRERO
-// Incluye el spell nuevo P_spinG.spl (de lo contrario no funciona)
-
-COPY ~Dusk/Items/p_nbk01.itm~ ~override~         
-
-SAY NAME1 @200052 /*  */ 
-SAY NAME2 @200053 /*  */
-SAY UNIDENTIFIED_DESC @200054 /* */
-SAY DESC @200055 /* */
-SAY 318 @200056 /* */
-
-COPY ~Dusk/Spells/P_spinG.spl~ ~override~ 
-SAY 80 @100100 /*  */ 
-SAY 8 @100101 /*  */
-
-
-// EMBLEMA DE BAERVAN
-
-COPY ~Dusk/Items/p_nbk02.itm~ ~override~         
-
-SAY NAME1 @200052 /*  */ 
-SAY NAME2 @200058 /*  */
-SAY UNIDENTIFIED_DESC @200054 /* */
-SAY DESC @200060 /* */
-SAY 414 @200061 /* */
-SAY 462 @200062 /* */
-
-// VITALIDAD DE LA NOCHE
-
-COPY ~Dusk/Items/p_nbk03.itm~ ~override~         
-
+// VITALIDAD DE LA NOCHE (VICONIA)
+COPY ~Dusk/Items/p_nbk03.itm~ ~override~
 SAY NAME1 @200052 /*  */ 
 SAY NAME2 @200064 /*  */
 SAY UNIDENTIFIED_DESC @200054 /* */
@@ -413,10 +459,26 @@ SAY DESC @200066 /* */
 SAY 270 @200067 /* */
 SAY 318 @200068 /* */
 
-// BENDICI�N DE ARVORIN
+// Espíritu de la Justicia (KELDORN POT)
+COPY ~Dusk/Items/p_keld1.itm~ ~override~
+SAY NAME1 @200032 /*  */ 
+SAY NAME2 @200033 /*  */
+SAY UNIDENTIFIED_DESC @200034 /* */
+SAY DESC @200035 /* */
+SAY 318 @200036 /* */
+SAY 270 @200037 /* */
 
-COPY ~Dusk/Items/p_nbk04.itm~ ~override~         
+// EMBLEMA DE BAERVAN (AERIE)
+COPY ~Dusk/Items/p_nbk02.itm~ ~override~
+SAY NAME1 @200052 /*  */ 
+SAY NAME2 @200058 /*  */
+SAY UNIDENTIFIED_DESC @200054 /* */
+SAY DESC @200060 /* */
+SAY 414 @200061 /* */
+SAY 462 @200062 /* */
 
+// BENDICI�N DE ARVORIN (MAZZY)
+COPY ~Dusk/Items/p_nbk04.itm~ ~override~
 SAY NAME1 @200052 /*  */ 
 SAY NAME2 @200070 /*  */
 SAY UNIDENTIFIED_DESC @200054 /* */
@@ -425,10 +487,8 @@ SAY 318 @200073 /* */
 SAY 366 @200074 /* */
 SAY 414 @200075 /* */
 
-// ESTUDIOS SANTIFICADOS DE CORTHALA
-
-COPY ~Dusk/Items/p_nbk05.itm~ ~override~         
-
+// ESTUDIOS SANTIFICADOS DE CORTHALA (VALYGAR)
+COPY ~Dusk/Items/p_nbk05.itm~ ~override~
 SAY NAME1 @200076 /*  */ 
 SAY NAME2 @200077 /*  */
 SAY UNIDENTIFIED_DESC @200078 /* */
@@ -436,10 +496,8 @@ SAY DESC @200079 /* */
 SAY 270 @200080 /* */
 SAY 318 @200081 /* */
 
-// PERGAMINO DEL TIEFLING
-
-COPY ~Dusk/Items/p_nbk06.itm~ ~override~         
-
+// PERGAMINO DEL TIEFLING (HAER-DALIS)
+COPY ~Dusk/Items/p_nbk06.itm~ ~override~
 SAY NAME1 @200076 /*  */ 
 SAY NAME2 @200083 /*  */
 SAY UNIDENTIFIED_DESC @200078 /* */
@@ -447,10 +505,8 @@ SAY DESC @200085 /* */
 SAY 366 @200086 /* */
 SAY 414 @200087 /* */
 
-// Poci�n Gn�mica
-
-COPY ~Dusk/Items/p_nbk07.itm~ ~override~         
-
+// Poci�n Gn�mica (JAN JANSEN)
+COPY ~Dusk/Items/p_nbk07.itm~ ~override~
 SAY NAME1 @200088 /*  */ 
 SAY NAME2 @200089 /*  */
 SAY UNIDENTIFIED_DESC @200090 /* */
@@ -458,10 +514,8 @@ SAY DESC @200091 /* */
 SAY 270 @200092 /* */
 SAY 318 @200093 /* */
 
-// FORTALEZA DE BHAAL
-
-COPY ~Dusk/Items/p_nbk08.itm~ ~override~         
-
+// FORTALEZA DE BHAAL (IMOEN)
+COPY ~Dusk/Items/p_nbk08.itm~ ~override~
 SAY NAME1 @200094 /*  */ 
 SAY NAME2 @200095 /*  */
 SAY UNIDENTIFIED_DESC @200096 /* */
@@ -469,10 +523,8 @@ SAY DESC @200097 /* */
 SAY 462 @200098 /* */
 SAY 510 @200099 /* */
 
-// FUERZA DEL ARPISTA
-
-COPY ~Dusk/Items/p_nbk09.itm~ ~override~         
-
+// FUERZA DEL ARPISTA (JAHEIRA)
+COPY ~Dusk/Items/p_nbk09.itm~ ~override~
 SAY NAME1 @200094 /*  */ 
 SAY NAME2 @200101 /*  */
 SAY UNIDENTIFIED_DESC @200096 /* */
@@ -480,20 +532,8 @@ SAY DESC @200103 /* */
 SAY 270 @200104 /* */
 SAY 318 @200105 /* */
 
-// RUNAS DE LA UNIVERSALIDAD
-
-COPY ~Dusk/Items/p_nbk10.itm~ ~override~         
-
-SAY NAME1 @200094 /*  */ 
-SAY NAME2 @200107 /*  */
-SAY UNIDENTIFIED_DESC @200096 /* */
-SAY DESC @200109 /* */
-SAY 366 @200110 /* */
-
-// ORBE DE LA TORMENTA
-
-COPY ~Dusk/Items/p_nbk11.itm~ ~override~         
-
+// ORBE DE LA TORMENTA (CERND)
+COPY ~Dusk/Items/p_nbk11.itm~ ~override~
 SAY NAME1 @200052 /*  */ 
 SAY NAME2 @200111 /*  */
 SAY UNIDENTIFIED_DESC @200054 /* */
@@ -501,235 +541,62 @@ SAY DESC @200113 /* */
 SAY 270 @200114 /* */
 SAY 318 @200115 /* */
 
-// TOMO DE DESTREZA THAYINA
-
-COPY ~Dusk/Items/p_nbk12.itm~ ~override~         
-
+// TOMO DE DESTREZA THAYINA (EDWIN)
+COPY ~Dusk/Items/p_nbk12.itm~ ~override~
 SAY NAME1 @200094 /*  */ 
 SAY NAME2 @200117 /*  */
 SAY UNIDENTIFIED_DESC @200096 /* */
 SAY DESC @200119 /* */
 SAY 366 @200120 /* */
 
-// POCI�N CA�TICO MALIGNO
-
-COPY ~Dusk/Items/p_POTN90.itm~ ~override~         
-
-SAY NAME1 @200121 /*  */ 
-SAY NAME2 @200122 /*  */
-SAY UNIDENTIFIED_DESC @200123 /* */
-SAY DESC @200124 /* */
-SAY 222 @200125 /* */
-
-// POCI�N NEUTRAL MALIGNO
-
-COPY ~Dusk/Items/p_POTN91.itm~ ~override~         
-
-SAY NAME1 @200126 /*  */ 
-SAY NAME2 @200127 /*  */
-SAY UNIDENTIFIED_DESC @200128 /* */
-SAY DESC @200129 /* */
-SAY 270 @200130 /* */
-
-// POCI�N LEGAL MALIGNO
-
-COPY ~Dusk/Items/p_POTN92.itm~ ~override~         
-
-SAY NAME1 @200131 /*  */ 
-SAY NAME2 @200132 /*  */
-SAY UNIDENTIFIED_DESC @200133 /* */
-SAY DESC @200134 /* */
-SAY 318 @200135 /* */
-
-// POCI�N CA�TICO NEUTRAL
-
-COPY ~Dusk/Items/p_POTN93.itm~ ~override~         
-
-SAY NAME1 @200136 /*  */ 
-SAY NAME2 @200137 /*  */
-SAY UNIDENTIFIED_DESC @200138 /* */
-SAY DESC @200139 /* */
-SAY 222 @200140 /* */
-
-// POCI�N NEUTRAL AUT�NTICO
-
-COPY ~Dusk/Items/p_POTN94.itm~ ~override~         
-
-SAY NAME1 @200141 /*  */ 
-SAY NAME2 @200142 /*  */
-SAY UNIDENTIFIED_DESC @200143 /* */
-SAY DESC @200144 /* */
-SAY 270 @200145 /* */
-
-// POCI�N LEGAL NEUTRAL
-
-COPY ~Dusk/Items/p_POTN95.itm~ ~override~         
-
-SAY NAME1 @200146 /*  */ 
-SAY NAME2 @200147 /*  */
-SAY UNIDENTIFIED_DESC @200148 /* */
-SAY DESC @200149 /* */
-SAY 318 @200150 /* */
-
-// POCI�N CA�TICO BUENO
-
-COPY ~Dusk/Items/p_POTN96.itm~ ~override~         
-
-SAY NAME1 @200151 /*  */ 
-SAY NAME2 @200152 /*  */
-SAY UNIDENTIFIED_DESC @200153 /* */
-SAY DESC @200154 /* */
-SAY 222 @200155 /* */
-
-// POCI�N NEUTRAL BUENO
-
-COPY ~Dusk/Items/p_POTN97.itm~ ~override~         
-
-SAY NAME1 @200156 /*  */ 
-SAY NAME2 @200157 /*  */
-SAY UNIDENTIFIED_DESC @200158 /* */
-SAY DESC @200159 /* */
-SAY 270 @200160 /* */
-
-// POCI�N LEGAL BUENO
-
-COPY ~Dusk/Items/p_POTN98.itm~ ~override~         
-
-SAY NAME1 @200161 /*  */ 
-SAY NAME2 @200162 /*  */
-SAY UNIDENTIFIED_DESC @200163 /* */
-SAY DESC @200164 /* */
-SAY 318 @200165 /* */
-
-// POCI�N DE RASHEMEN
-
-COPY ~Dusk/Items/p_POTN99.itm~ ~override~         
-
+// POCI�N DE RASHEMEN (MINSC)
+COPY ~Dusk/Items/p_POTN99.itm~ ~override~ 
 SAY NAME1 @200088 /*  */ 
 SAY NAME2 @200167 /*  */
 SAY UNIDENTIFIED_DESC @200090 /* */
 SAY DESC @200169 /* */
 SAY 318 @200170 /* */
 
-// FUROR �PICO
-
-COPY ~Dusk/Items/p_shasw1.itm~ ~override~         
-
-SAY NAME1 @200007 /*  */ 
-SAY NAME2 @200172 /*  */
-SAY UNIDENTIFIED_DESC @200009 /* */
-SAY DESC @200174 /* */
-SAY 1086 @200175 /* */
-
-// COLMILLO DE LARLOCH
-
-COPY ~Dusk/Items/P_SW1H00.itm~ ~override~         
-
-SAY NAME1 @200001 /*  */ 
-SAY NAME2 @200177 /*  */
-SAY UNIDENTIFIED_DESC @200003 /* */
-SAY DESC @200179 /* */
-SAY 222 @200180 /* */
-SAY 270 @200181 /* */
-SAY 894 @200182 /* */
-
-
-// KIKUICHIMONJI ****************
-
-COPY ~Dusk/Items/P_SW1H01.itm~ ~override~         
-
-SAY NAME1 @200183 /*  */ 
-SAY NAME2 @200184 /*  */
-SAY UNIDENTIFIED_DESC @200185 /* */
-SAY DESC @200186 /* */
-
-// jissen-kenbu *******************
-
-COPY ~Dusk/Items/P_SW1H02.itm~ ~override~         
-
-SAY NAME1 @200187 /*  */ 
-SAY NAME2 @200188 /*  */
-SAY UNIDENTIFIED_DESC @200189 /* */
-SAY DESC @200190 /* */
-SAY 518 @200191 /* */
-
-// MUGENJIN  Katana
-
-COPY ~Dusk/Items/P_SW1H03.itm~ ~override~         
-
-SAY NAME1 @200183 /*  */ 
-SAY NAME2 @200193 /*  */
-SAY UNIDENTIFIED_DESC @200185 /* */
-SAY DESC @200195 /* */
-
-// SHIN-USHI  Katana
-
-COPY ~Dusk/Items/P_SW1H04.itm~ ~override~         
-
-SAY NAME1 @200183 /*  */ 
-SAY NAME2 @200197 /*  */
-SAY UNIDENTIFIED_DESC @200185 /* */
-SAY DESC @200199 /* */
-SAY 462 @200200 /* */
-SAY 510 @200201 /* */
-SAY 558 @200202 /* */
-SAY 606 @200203 /* */
-SAY 654 @200204 /* */
-
-// kaiten-kenbu *******************
-
-COPY ~Dusk/Items/P_SW1H05.itm~ ~override~         
-
-SAY NAME1 @200187 /*  */ 
-SAY NAME2 @200206 /*  */
-SAY UNIDENTIFIED_DESC @200189 /* */
-SAY DESC @200208 /* */
-
-// Espada de Delryn
-
-COPY ~Dusk/Items/p_swanom.itm~ ~override~         
-
+// Espada de Delryn (ANOMEN)
+COPY ~Dusk/Items/p_swanom.itm~ ~override~    
 SAY NAME1 @200209 /*  */ 
 SAY NAME2 @200210 /*  */
 SAY UNIDENTIFIED_DESC @200211 /* */
 SAY DESC @200212 /* */
 SAY 558 @200213 /* */
 
-// Ventisca del Averno
+// Katana contundente (YOSHIMO)
+COPY ~Dusk/Items/p_yoshit.itm~ ~override~
+SAY NAME2 @200399 /*  */
+SAY DESC @200400 /* */
 
-COPY ~Dusk/Items/p_sw1h06.itm~ ~override~         
+// Manto de'Arnise (NALIA)
+COPY ~Dusk/Items/p_nalit.itm~ ~override~
+SAY NAME2 @200401 /*  */
+SAY DESC @200402 /* */
 
-SAY NAME1 @200007 /*  */ 
-SAY NAME2 @200215 /*  */
-SAY UNIDENTIFIED_DESC @200009 /* */
-SAY DESC @200217 /* */
+////////////////////////////////////////////
 
+// Items for Kits:
+// Wizard Slayer
 // SET de WIZARDSLAYER
+
 // ESPERANZA DE BENORK
-
-COPY ~Dusk/Items/p_wsam.itm~ ~override~         
-
-
+COPY ~Dusk/Items/p_wsam.itm~ ~override~
 SAY NAME1 @200218 /*  */ 
 SAY NAME2 @200219 /*  */
 SAY UNIDENTIFIED_DESC @200220 /* */
 SAY DESC @200221 /* */
 
 // Defensa de Aznagarb
-
-COPY ~Dusk/Items/p_wsbrac.itm~ ~override~         
-
-
+COPY ~Dusk/Items/p_wsbrac.itm~ ~override~
 SAY NAME1 @200016 /*  */ 
 SAY NAME2 @200223 /*  */
 SAY UNIDENTIFIED_DESC @200018 /* */
 SAY DESC @200225 /* */
 
 // Camino de los Ancestros
-
-COPY ~Dusk/Items/p_wsboot.itm~ ~override~         
-
-
+COPY ~Dusk/Items/p_wsboot.itm~ ~override~
 SAY NAME1 @200226 /*  */ 
 SAY NAME2 @200227 /*  */
 SAY UNIDENTIFIED_DESC @200228 /* */
@@ -748,29 +615,21 @@ SAY 1462 @200240 /* */
 SAY 1510 @200241 /* */
 
 // Protecci�n de Aznagarb
-
-COPY ~Dusk/Items/p_wsclk.itm~ ~override~         
-
-
+COPY ~Dusk/Items/p_wsclk.itm~ ~override~
 SAY NAME1 @200242 /*  */ 
 SAY NAME2 @200243 /*  */
 SAY UNIDENTIFIED_DESC @200244 /* */
 SAY DESC @200245 /* */
 
 // Fortaleza de Benork
-
-COPY ~Dusk/Items/p_wsash.itm~ ~override~         
-
-
+COPY ~Dusk/Items/p_wsash.itm~ ~override~
 SAY NAME1 @200246 /*  */ 
 SAY NAME2 @200247 /*  */
 SAY UNIDENTIFIED_DESC @200248 /* */
 SAY DESC @200249 /* */
 
 // Iris de Tempus
-
-COPY ~Dusk/Items/p_wshelm.itm~ ~override~         
-
+COPY ~Dusk/Items/p_wshelm.itm~ ~override~
 SAY NAME1 @200250 /*  */ 
 SAY NAME2 @200251 /*  */
 SAY UNIDENTIFIED_DESC @200252 /* */
@@ -782,70 +641,267 @@ SAY 1142 @200257 /* */
 SAY 1190 @200258 /* */
 
 // Respiro del Linaje
-
-COPY ~Dusk/Items/p_wsrng1.itm~ ~override~         
-
+COPY ~Dusk/Items/p_wsrng1.itm~ ~override~
 SAY NAME1 @200259 /*  */ 
 SAY NAME2 @200260 /*  */
 SAY UNIDENTIFIED_DESC @200261 /* */
 SAY DESC @200262 /* */
 
 // Latido de Calia
-
-COPY ~Dusk/Items/p_wsrng2.itm~ ~override~         
-
+COPY ~Dusk/Items/p_wsrng2.itm~ ~override~
 SAY NAME1 @200259 /*  */ 
 SAY NAME2 @200264 /*  */
 SAY UNIDENTIFIED_DESC @200261 /* */
 SAY DESC @200266 /* */
 
 // Vengadora Real
-
-COPY ~Dusk/Items/P_WSSTP.itm~ ~override~         
-
+COPY ~Dusk/Items/P_WSSTP.itm~ ~override~
 SAY NAME1 @200267 /*  */ 
 SAY NAME2 @200268 /*  */
 SAY UNIDENTIFIED_DESC @200269 /* */
 SAY DESC @200270 /* */
 SAY 846 @200271 /* */
 
+// FUEGO SALVAJE (Shapeshifter)
+COPY ~Dusk/Items/p_leat01.itm~ ~override~
+SAY NAME1 @200038 /*  */ 
+SAY NAME2 @200039 /*  */
+SAY UNIDENTIFIED_DESC @200040 /* */
+SAY DESC @200041 /* */
+
+////////////////////////////////////////////
+// MICHELSON/DANCTIAN forge items
+// Brazales de Defensa P�trea
+COPY ~Dusk/Items/P_BRAC99.itm~ ~override~
+SAY NAME1 @200016 /* Brazales */ 
+SAY NAME2 @200017 /* Brazales de Defensa P�trea */
+SAY UNIDENTIFIED_DESC @200018 /*  */
+SAY DESC @200019 /*  */
+
+// /* Armadura de Magos */  ******
+COPY ~Dusk/Items/p_chan99.itm~ ~override~
+SAY NAME1 @200020 /* Armadura de Cota de Mallas */ 
+SAY NAME2 @200021 /* Armadura de Magos */
+SAY UNIDENTIFIED_DESC @200022 /*  */
+SAY DESC @200023 /*  */
+
+// CRIMSON THUNDER
+COPY ~Dusk/Items/P_HAMM1.itm~ ~override~ 
+SAY NAME1 @200028 /* Martillo de Guerra */ 
+SAY NAME2 @200029 /* Crimson Thunder */
+SAY UNIDENTIFIED_DESC @200030 /*  */
+SAY DESC @200031 /*  */
+
+// VENOM STRIKE
+COPY ~Dusk/Items/p_venom.itm~ ~override~
+SAY NAME1 @200042 /*  */ 
+SAY NAME2 @200043 /*  */
+SAY UNIDENTIFIED_DESC @200044 /* */
+SAY DESC @200045 /* */
+SAY 366 @200050 /* */
+SAY 462 @200051 /* */
+
+// MUGENJIN  Espada Larga
+COPY ~Dusk/Items/P_SW1H13.itm~ ~override~
+SAY NAME2 @200193 /*  */
+SAY DESC @200403 /* */
+
+// MUGENJIN  Mandoble
+COPY ~Dusk/Items/P_SW1H23.itm~ ~override~
+SAY NAME2 @200193 /*  */
+SAY DESC @200404 /* */
+
+// MUGENJIN  Cimitarra
+COPY ~Dusk/Items/P_SW1H33.itm~ ~override~
+SAY NAME2 @200193 /*  */
+SAY DESC @200405 /* */
+
+// SHIN-USHI  Espada Larga
+COPY ~Dusk/Items/P_SW1H14.itm~ ~override~
+SAY NAME2 @200197 /*  */
+SAY DESC @200406 /* */
+SAY 462 @200200 /* */
+SAY 510 @200201 /* */
+SAY 558 @200202 /* */
+SAY 606 @200203 /* */
+SAY 654 @200204 /* */
+
+// SHIN-USHI  Mandoble
+COPY ~Dusk/Items/P_SW1H24.itm~ ~override~
+SAY NAME2 @200197 /*  */
+SAY DESC @200407 /* */
+SAY 462 @200200 /* */
+SAY 510 @200201 /* */
+SAY 558 @200202 /* */
+SAY 606 @200203 /* */
+SAY 654 @200204 /* */
+
+// SHIN-USHI  Cimitarra
+COPY ~Dusk/Items/P_SW1H34.itm~ ~override~
+SAY NAME2 @200197 /*  */
+SAY DESC @200408 /* */
+SAY 462 @200200 /* */
+SAY 510 @200201 /* */
+SAY 558 @200202 /* */
+SAY 606 @200203 /* */
+SAY 654 @200204 /* */
+
+// SPELLS and INNATE ABILITIES
+
+// Guerrero de Acero (item y spell)
+COPY ~Dusk/Items/p_nbk01.itm~ ~override~
+SAY NAME1 @200052 /*  */ 
+SAY NAME2 @200053 /*  */
+SAY UNIDENTIFIED_DESC @200054 /* */
+SAY DESC @200055 /* */
+SAY 318 @200056 /* */
+// Spell Guerrero de Acero
+COPY ~Dusk/Spells/P_spinG.spl~ ~override~ 
+SAY 80 @100100 /*  */ 
+SAY 8 @100101 /*  */
+
+// Estrella Polar (Arma/Innate ability diseñada para WILSON)
+COPY ~Dusk/Spells/p_bearb1.bam~ ~override~ 
+COPY ~Dusk/Spells/p_bearb2.bam~ ~override~ 
+COPY ~Dusk/Spells/p_bearb3.bam~ ~override~ 
+COPY ~Dusk/Spells/p_bearp1.spl~ ~override~ 
+SAY NAME1 @3490 /* Poolster */ 
+SAY NAME2 @3490 /* Poolster */
+SAY UNIDENTIFIED_DESC @3491 /* */
+SAY DESC @3491 /* Poolster (Innato)
+Nivel: Innato
+Alcance: El oso
+Duración: Especial
+Tiempo de lanzamiento: 3
+Área de efecto: El oso
+Tirada de salvación: Ninguna
+
+DESCRIPCIÓN:
+
+Este conjuro crea varios orbes de hielo de pequeño tamaño, uno por nivel del oso, que reemplazan a las garras habituales. El oso puede lanzar estos orbes contra objetivos que se encuentren a una distancia de hasta 15 metros, y serán tratados como proyectiles con una bonificación +5 a las tiradas de ataque. Al chocar contra alguien, infligirán 1D4 +3 puntos de daño y otros +3 puntos de daño gélido. El oso puede lanzar hasta cinco proyectiles por asalto. */
+
+COPY ~Dusk/Items/p_bearp1.itm~ ~override~  
+SAY NAME1 @3493 /* Orbe Poolster */ 
+SAY NAME2 @3493 /* Orbe Poolster  */
+SAY UNIDENTIFIED_DESC @3492 /* */
+SAY DESC @3492 /* Este brillante orbe ha sido creado por el conjuro innato: Poolster.
+
+CARACTERÍSTICAS:
+
+Daño: 1d4+3, +3 de daño gélido
+GAC0: bonificación +5
+Aptitudes de combate: Número de ataques por asalto establecido en 5
+Tipo de daño: Proyectil
+Peso: 0 lbs
+Factor de velocidad: 3 */
+
+
+
+
+// COLMILLO DE LARLOCH
+COPY ~Dusk/Items/P_SW1H00.itm~ ~override~ 
+SAY NAME1 @200001 /*  */ 
+SAY NAME2 @200177 /*  */
+SAY UNIDENTIFIED_DESC @200003 /* */
+SAY DESC @200179 /* */
+SAY 222 @200180 /* */
+SAY 270 @200181 /* */
+SAY 894 @200182 /* */
+
+
+// KIKUICHIMONJI ****************
+COPY ~Dusk/Items/P_SW1H01.itm~ ~override~ 
+SAY NAME1 @200183 /*  */ 
+SAY NAME2 @200184 /*  */
+SAY UNIDENTIFIED_DESC @200185 /* */
+SAY DESC @200186 /* */
+
+// jissen-kenbu *******************
+COPY ~Dusk/Items/P_SW1H02.itm~ ~override~  
+SAY NAME1 @200187 /*  */ 
+SAY NAME2 @200188 /*  */
+SAY UNIDENTIFIED_DESC @200189 /* */
+SAY DESC @200190 /* */
+SAY 518 @200191 /* */
+
+// MUGENJIN  Katana
+COPY ~Dusk/Items/P_SW1H03.itm~ ~override~   
+SAY NAME1 @200183 /*  */ 
+SAY NAME2 @200193 /*  */
+SAY UNIDENTIFIED_DESC @200185 /* */
+SAY DESC @200195 /* */
+
+// SHIN-USHI  Katana
+COPY ~Dusk/Items/P_SW1H04.itm~ ~override~  
+SAY NAME1 @200183 /*  */ 
+SAY NAME2 @200197 /*  */
+SAY UNIDENTIFIED_DESC @200185 /* */
+SAY DESC @200199 /* */
+SAY 462 @200200 /* */
+SAY 510 @200201 /* */
+SAY 558 @200202 /* */
+SAY 606 @200203 /* */
+SAY 654 @200204 /* */
+
+// kaiten-kenbu *******************
+COPY ~Dusk/Items/P_SW1H05.itm~ ~override~  
+SAY NAME1 @200187 /*  */ 
+SAY NAME2 @200206 /*  */
+SAY UNIDENTIFIED_DESC @200189 /* */
+SAY DESC @200208 /* */
+
+
+
+// Ventisca del Averno
+COPY ~Dusk/Items/p_sw1h06.itm~ ~override~
+SAY NAME1 @200007 /*  */ 
+SAY NAME2 @200215 /*  */
+SAY UNIDENTIFIED_DESC @200009 /* */
+SAY DESC @200217 /* */
+
+
+///////////////////////////////////////////////
+// BELLFAME
+
 COPY ~Dusk/Summonings~ ~override~
-
 // Bellfame's Ring
-
-COPY ~Dusk/Summonings/p_belrng.itm~ ~override~         
-
+COPY ~Dusk/Summonings/p_belrng.itm~ ~override~
 SAY NAME1 @200259 /*  */ 
 SAY NAME2 @200273 /*  */
 SAY UNIDENTIFIED_DESC @200261 /* */
 SAY DESC @200275 /* */
 //SAY 846 @ /* */
 
+// Bellfame's Ring (2nd version)
+COPY ~Dusk/Summonings/p_belrn2.itm~ ~override~ 
+SAY NAME1 @200259 /*  */ 
+SAY NAME2 @200273 /*  */
+SAY UNIDENTIFIED_DESC @200261 /* */
+SAY DESC @200390 /* */
 
-
+// Portrait Bellfame
 COPY ~Dusk/Characters/p_bells.bmp~ ~override~
-
 COPY ~Dusk/Summonings/p_bellf.cre~ ~override~
 SAY NAME1 @200276 /* Bellfame */
 SAY NAME2 @200276 /* Bellfame */
-
-
 WRITE_ASCII 0x248 ~NYMPH~  #8  // override script
 WRITE_ASCII 0x2cc ~P_BELLD~  #8  // dialogue file
 WRITE_ASCII 0x280 ~NYMPHSU~  #32 // death variable
 WRITE_ASCII 0X34  ~P_BELLS~ #8  // small portrait
-
+//cre for quest 3
 COPY ~Dusk/Summonings/p_bell2.cre~ ~override~
 SAY NAME1 @200276 /* Bellfame */
 SAY NAME2 @200276 /* Bellfame */
-
-
 WRITE_ASCII 0x248 ~NYMPH~  #8  // override script
 WRITE_ASCII 0x2cc ~P_BELL2~  #8  // dialogue file
 WRITE_ASCII 0x280 ~NYMPHSU~  #32 // death variable
 WRITE_ASCII 0X34  ~P_BELLS~ #8  // small portrait
+// Bellfame Spell
+COPY ~Dusk/Summonings/p_forest.spl~ ~override~         
+SAY 8 @200286 /*  */ 
+SAY 80 @200287 /*  */
 
-
+// Baba el ratón nervioso
 COPY ~Dusk/Summonings/p_baba.cre~ ~override~
 SAY NAME1 @200277 /* Baba, el Rat�n Nervioso */
 SAY NAME2 @200277 /* Baba, el Rat�n Nervioso */
@@ -870,69 +926,66 @@ SAY SELECT_ACTION6 ~~ [P_Baba04]
 SAY SELECT_ACTION7 ~~ [P_Baba05]
 SAY SELECT_RARE1 ~~ [P_Baba01]
 SAY SELECT_RARE2 ~~ [P_Baba02]
-
-
 WRITE_ASCII 0X34  ~P_BABAS~ #8  // small portrait
-
-ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
-COPY ~Dusk/Characters/P_BABAS.bmp~ ~override/P_BABAS.bmp~ 
-END
-
-COPY ~Dusk/Summonings/p_jack.cre~ ~override~
-SAY NAME1 @200278 /* Jack, el Lobo de Invierno */
-SAY NAME2 @200278 /* Jack, el Lobo de Invierno */
-
-COPY ~Dusk/Summonings/p_sayang.cre~ ~override~
-SAY NAME1 @200279 /* Sayang, la Loba Worg */
-SAY NAME2 @200279 /* Sayang, la Loba Worg */
-
-COPY ~Dusk/Summonings/p_thiago.cre~ ~override~
-SAY NAME1 @200280 /* Thiago, el Oso Pardo */
-SAY NAME2 @200280 /* Thiago, el Oso Pardo */
-
-COPY ~Dusk/Summonings/p_uma.cre~ ~override~
-SAY NAME1 @200281 /* Uma, la Loba de las Sombras */
-SAY NAME2 @200281 /* Uma, la Loba de las Sombras */
-
-COPY ~Dusk/Summonings/p_babatt.itm~ ~override~         
-
+//ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
+//COPY ~Dusk/Characters/P_BABAS.bmp~ ~override/P_BABAS.bmp~ 
+//END
+// Baba melee weapon
+COPY ~Dusk/Summonings/p_babatt.itm~ ~override~
 SAY NAME1 @200282 /*  */ 
 SAY NAME2 @200283 /*  */
 SAY UNIDENTIFIED_DESC @200284 /* */
 SAY DESC @200285 /* */
-
-COPY ~Dusk/Summonings/p_forest.spl~ ~override~         
-
-SAY 8 @200286 /*  */ 
-SAY 80 @200287 /*  */
-
+// Baba Innate ability
 COPY ~Dusk/Summonings/p_babsp1.spl~ ~override~         
-
 SAY 8 @200288 /*  */ 
 SAY 782 @200289 /*  */
 SAY 830 @200290 /*  */
 SAY 80 @200291 /*  */ 
 
-COPY ~Dusk/Summonings/p_thisp1.spl~ ~override~         
+// Jack, el lobo del invierno
+COPY ~Dusk/Summonings/p_jack.cre~ ~override~
+SAY NAME1 @200278 /* Jack, el Lobo de Invierno */
+SAY NAME2 @200278 /* Jack, el Lobo de Invierno */
+// Cono de fr�o de JACK
+COPY ~Dusk/Summonings/p_spcono.spl~ ~override~  
 
+// Sayang, la loba worg
+COPY ~Dusk/Summonings/p_sayang.cre~ ~override~
+SAY NAME1 @200279 /* Sayang, la Loba Worg */
+SAY NAME2 @200279 /* Sayang, la Loba Worg */
+
+// Uma la loba de las sombras
+COPY ~Dusk/Summonings/p_uma.cre~ ~override~
+SAY NAME1 @200281 /* Uma, la Loba de las Sombras */
+SAY NAME2 @200281 /* Uma, la Loba de las Sombras */
+
+// Thiago el oso
+COPY ~Dusk/Summonings/p_thiago.cre~ ~override~
+SAY NAME1 @200280 /* Thiago, el Oso Pardo */
+SAY NAME2 @200280 /* Thiago, el Oso Pardo */
+
+// BEAR: Innate Spell: Valentía del oso
+COPY ~Dusk/Summonings/p_thisp1.spl~ ~override~         
 SAY 8 @200292 /*  */ 
 SAY 80 @200293 /*  */
 SAY 542 @200294 /*  */
 SAY 590 @200295 /*  */ 
 
+// BEAR: Innate Spell: Poder Sagrado del Oso
 COPY ~Dusk/Summonings/p_thisp2.spl~ ~override~         
-
 SAY 8 @200296 /*  */ 
 SAY 80 @200297 /*  */
 SAY 286 @200298 /*  */
 SAY 862 @200299 /*  */ 
 SAY 1438 @200300 /*  */
 
-COPY ~Dusk/Summonings/p_thisp3.spl~ ~override~         
-
+// BEAR: Innate Spell: Oso Endurecido
+COPY ~Dusk/Summonings/p_thisp3.spl~ ~override~
 SAY 8 @200301 /*  */ 
 SAY 80 @200302 /*  */
 
+//////////////////////////////////////////////////////
 // Nuevos NPC not joinables
 // Michelson
 COPY ~Dusk/Characters/p_michx.itm~ ~override~
@@ -963,95 +1016,29 @@ SAY SELECT_RARE2 ~~ [P_Mich04]
 WRITE_ASCII 0x2cc ~p_michel~ #8
 WRITE_ASCII 0x34  ~p_michs~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_michel~ #8  // OVERRIDE SCRIPT - Di�logos acerca de los comandos, banthers, etc (coincide con el nombre del archivo BAF)
-
-
-ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
-COPY ~Dusk/Characters/p_michs.bmp~ ~override/p_michs.bmp~ 
-END
+//ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
+//COPY ~Dusk/Characters/p_michs.bmp~ ~override/p_michs.bmp~ 
+//END
 
 // Mathyus Davis
 COPY ~Dusk/Characters/p_matut.cre~ ~override~
 SAY NAME1 @200304 /* Mathyus Davis */
 SAY NAME2 @200304 /* Mathyus Davis */
-
 WRITE_ASCII 0x2cc ~p_matut~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_mats~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_matut~ #8  // OVERRIDE SCRIPT - Di�logos acerca de los comandos, banthers, etc (coincide con el nombre del archivo BAF)
-
-
-ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
-COPY ~Dusk/Characters/p_mats.bmp~ ~override/p_mats.bmp~ 
-END
-
-// Libro de recetas Leprechaun
-
-COPY ~Dusk/Items/p_bookm.itm~ ~override~         
-
-SAY NAME1 @200305 /* Libro  */ 
-SAY NAME2 @200306 /* Libro de recetas leprechaun */
-SAY UNIDENTIFIED_DESC @200307 /* El libro es incomprensible a la vista. Puede que un conjuro de identificaci�n o el conocimiento de un bardo pueda resolverlo.*/
-SAY DESC @200308 /* */
-
-// Armadura de la familia Aldant
-
-COPY ~Dusk/Items/p_dchan1.itm~ ~override~
-
-SAY NAME1 @200309 /*   */ 
-SAY NAME2 @200310 /*  */
-SAY UNIDENTIFIED_DESC @200311 /* */
-SAY DESC @200312 /* */
-
-// Espada cormyreana reforjada
-
-COPY ~Dusk/Items/p_swr1.itm~ ~override~
-
-SAY NAME2 @200313 /*  */
-SAY DESC @200314 /* */
-
-//Bast�n reforzado shilmista
-
-COPY ~Dusk/Items/p_stf1.itm~ ~override~
-
-SAY NAME2 @200315 /*  */
-SAY DESC @200316 /* */
-
-// Escudo roto de la Orden del Drag�n P�rpura
-
-COPY ~Dusk/Items/p_brkshl.itm~ ~override~
-
-SAY NAME2 @200317 /*  */
-SAY DESC @200318 /* */
-
-// Defensa de Cormyr
-
-COPY ~Dusk/Items/p_dplat1.itm~ ~override~
-
-SAY NAME2 @200421 /*  */
-SAY DESC @200422 /* */
-
-// Katana contundente
-
-COPY ~Dusk/Items/p_yoshit.itm~ ~override~
-
-SAY NAME2 @200399 /*  */
-SAY DESC @200400 /* */
-
-// Manto de'Arnise
-
-COPY ~Dusk/Items/p_nalit.itm~ ~override~
-
-SAY NAME2 @200401 /*  */
-SAY DESC @200402 /* */
+//ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
+//COPY ~Dusk/Characters/p_mats.bmp~ ~override/p_mats.bmp~ 
+//END
 
 // Demoledor, el perro de Mathyus
-
+//Item convocacion (es necesario?)
 COPY ~Dusk/Characters/p_demscr.itm~ ~override~
 SAY NAME1 @330006 /*   */ 
 SAY NAME2 @330007 /*  */
 SAY UNIDENTIFIED_DESC @330008 /* */
 SAY DESC @330009 /* */
-
-
+// DEMOLEDOR - CREATURE file
 COPY ~Dusk/Characters/p_demole.cre~ ~override~
 SAY NAME1 @200321 /* Demoledor */
 SAY NAME2 @200321 /* Demoledor */
@@ -1080,169 +1067,80 @@ WRITE_ASCII 0x2cc ~p_demole~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_demole~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_demole~ #8  // OVERRIDE SCRIPT
 
-
 // Falon, la Cacique Orco
-
 COPY ~Dusk/Characters/p_falon.cre~ ~override~
 SAY NAME1 @200322 /* Falon, la cacique orco */
 SAY NAME2 @200322 /* Falon, la cacique orco */
-
 WRITE_ASCII 0x2cc ~p_falon~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_falon~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_falon~ #8  // OVERRIDE SCRIPT
-
+// Falon, cre file for quest 3
 COPY ~Dusk/Characters/m3good_allies/p_falo2.cre~ ~override~
 SAY NAME1 @200322 /* Falon, la cacique orco */
 SAY NAME2 @200322 /* Falon, la cacique orco */
-
 WRITE_ASCII 0x2cc ~p_falo2~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_falon~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_falon~ #8  // OVERRIDE SCRIPT
 
 // Cufa-Tima, el Ettin
-
 COPY ~Dusk/Characters/p_cufati.cre~ ~override~
 SAY NAME1 @200323 /* Cufa-Tima, el Ettin */
 SAY NAME2 @200323 /* Cufa-Tima, el Ettin */
-
 WRITE_ASCII 0x2cc ~p_cufati~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_cufati~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_cufati~ #8  // OVERRIDE SCRIPT
-
+// cre file for quest 3
 COPY ~Dusk/Characters/m3good_allies/p_cufat2.cre~ ~override~
 SAY NAME1 @200323 /* Cufa-Tima, el Ettin */
 SAY NAME2 @200323 /* Cufa-Tima, el Ettin */
-
 WRITE_ASCII 0x2cc ~p_cufat2~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_cufati~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_cufati~ #8  // OVERRIDE SCRIPT
 
 // Ziben, la gnoll
-
 COPY ~Dusk/Characters/p_ziben.cre~ ~override~
 SAY NAME1 @200324 /* Ziben, la gnoll */
 SAY NAME2 @200324 /* Ziben, la gnoll */
-
 WRITE_ASCII 0x2cc ~p_ziben~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_ziben~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_ziben~ #8  // OVERRIDE SCRIPT
-
+// cre file for quest 3
 COPY ~Dusk/Characters/m3good_allies/p_zibe2.cre~ ~override~
 SAY NAME1 @200324 /* Ziben, la gnoll */
 SAY NAME2 @200324 /* Ziben, la gnoll */
-
 WRITE_ASCII 0x2cc ~p_zibe2~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_ziben~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_ziben~ #8  // OVERRIDE SCRIPT
 
 // Coco, la cham�n trasgo
-
 COPY ~Dusk/Characters/p_coco.cre~ ~override~
 SAY NAME1 @200325 /* Coco, la cham�n trasgo */
 SAY NAME2 @200325 /* Coco, la cham�n trasgo */
-
 WRITE_ASCII 0x2cc ~p_coco~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_coco~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_coco~ #8  // OVERRIDE SCRIPT
-
+// cre file for quest 3
 COPY ~Dusk/Characters/m3good_allies/p_coc2.cre~ ~override~
 SAY NAME1 @200325 /* Coco, la cham�n trasgo */
 SAY NAME2 @200325 /* Coco, la cham�n trasgo */
-
 WRITE_ASCII 0x2cc ~p_coc2~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_coco~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_coco~ #8  // OVERRIDE SCRIPT
 
 // Sornhil, el Encantador
-
 COPY ~Dusk/Characters/p_sornhi.cre~ ~override~
 SAY NAME1 @200326 /* Sornhil, el Encantador */
 SAY NAME2 @200326 /* Sornhil, el Encantador */
-
 WRITE_ASCII 0x2cc ~p_sornhi~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_sornhi~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_sornhi~ #8  // OVERRIDE SCRIPT
 
-
-
-// Orbe rojo de Sornhil
-
-COPY ~Dusk/Items/p_orbe1.itm~ ~override~
-
-SAY NAME1 @200052 /*  */
-SAY NAME2 @200327 /*  */
-SAY UNIDENTIFIED_DESC @200054 /* */
-SAY DESC @200328 /* */
-
-
-
-// EVIL ORB
-COPY ~Dusk/Items/p_orbe2e.itm~ ~override~         
-
-SAY NAME1 @200052 /*  */
-SAY NAME2 @200327 /*  */
-SAY UNIDENTIFIED_DESC @200054 /* */
-SAY DESC @200328 /* */
-SAY 606 @200345 /*  */ 
-SAY 654 @200346 /*  */
-SAY 702 @200347 /*  */
-SAY 750 @200348 /*  */ 
-SAY 798 @200349 /*  */
-SAY 846 @200350 /*  */ 
-SAY 894 @200351 /*  */ 
-SAY 1134 @200352 /*  */
-
-// Espada Carmes� (EVIL PATH)
-COPY ~Dusk/Items/p_swevi1.itm~ ~override~         
-
-SAY NAME1 @200007 /*  */ 
-SAY NAME2 @200334 /*  */
-SAY UNIDENTIFIED_DESC @200009 /* */
-SAY DESC @200335 /* */
-
-// GOOD ORB
-COPY ~Dusk/Items/p_orbe2g.itm~ ~override~         
-
-SAY NAME1 @200052 /*  */
-SAY NAME2 @200327 /*  */
-SAY UNIDENTIFIED_DESC @200054 /* */
-SAY DESC @200328 /* */
-SAY 318 @200353 /*  */ 
-SAY 366 @200354 /*  */
-SAY 414 @200355 /*  */
-SAY 462 @200356 /*  */ 
-SAY 510 @200357 /*  */
-
-// Espada Esmeralda (GOOD PATH)
-COPY ~Dusk/Items/p_swgoo1.itm~ ~override~         
-
-SAY NAME1 @200007 /* Espada Bastarda */ 
-SAY NAME2 @200341 /* Espada esmeralda */
-SAY UNIDENTIFIED_DESC @200009 /* */
-SAY DESC @200342 /* */
-
-// Orbe verde de Sornhil, purificado
-
-COPY ~Dusk/Items/p_orbev.itm~ ~override~
-
-SAY NAME1 @200052 /*  */
-SAY NAME2 @200343 /*  */
-SAY UNIDENTIFIED_DESC @200054 /* */
-SAY DESC @200344 /* */
-
-// Cono de fr�o de JACK
-
-COPY ~Dusk/Summonings/p_spcono.spl~ ~override~         
-
-SAY 80 @200358 /*  */
-
-/////////////// CLAN_ORCO
+/////////////// CLAN_ORCO ////////////////////////
 // Alabarza, el Mutilador
 
 COPY ~Dusk/Characters/clan_orco/p_alabar.cre~ ~override~
 SAY NAME1 @200359 /* Alabarza, el Mutilador */
 SAY NAME2 @200359 /* Alabarza, el Mutilador */
-
 WRITE_ASCII 0x2cc ~p_alabar~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_alabar~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_alabar~ #8  // OVERRIDE SCRIPT
@@ -1250,7 +1148,6 @@ WRITE_ASCII 0x248 ~p_alabar~ #8  // OVERRIDE SCRIPT
 COPY ~Dusk/Characters/clan_orco/p_alaba2.cre~ ~override~
 SAY NAME1 @200359 /* Alabarza, el Mutilador */
 SAY NAME2 @200359 /* Alabarza, el Mutilador */
-
 WRITE_ASCII 0x2cc ~p_alaba2~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_alabar~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_alaba2~ #8  // OVERRIDE SCRIPT
@@ -1258,7 +1155,6 @@ WRITE_ASCII 0x248 ~p_alaba2~ #8  // OVERRIDE SCRIPT
 COPY ~Dusk/Characters/clan_orco/p_bob.cre~ ~override~
 SAY NAME1 @200360 /* Bob */
 SAY NAME2 @200360 /* Bob */
-
 WRITE_ASCII 0x2cc ~p_bob~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_bob~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_bob~ #8  // OVERRIDE SCRIPT
@@ -1266,7 +1162,6 @@ WRITE_ASCII 0x248 ~p_bob~ #8  // OVERRIDE SCRIPT
 COPY ~Dusk/Characters/clan_orco/p_kocha.cre~ ~override~
 SAY NAME1 @200361 /* Kocha, el bers�rker */
 SAY NAME2 @200361 /* Kocha, el bers�rker */
-
 WRITE_ASCII 0x2cc ~p_kocha~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_kocha~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_kocha~ #8  // OVERRIDE SCRIPT
@@ -1274,7 +1169,6 @@ WRITE_ASCII 0x248 ~p_kocha~ #8  // OVERRIDE SCRIPT
 COPY ~Dusk/Characters/clan_orco/p_komar.cre~ ~override~
 SAY NAME1 @200362 /* Komar, el ogro */
 SAY NAME2 @200362 /* Komar, el ogro */
-
 WRITE_ASCII 0x2cc ~p_komar~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_komar~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_komar~ #8  // OVERRIDE SCRIPT
@@ -1282,7 +1176,6 @@ WRITE_ASCII 0x248 ~p_komar~ #8  // OVERRIDE SCRIPT
 COPY ~Dusk/Characters/clan_orco/p_mike.cre~ ~override~
 SAY NAME1 @200363 /* Mike */
 SAY NAME2 @200363 /* Mike */
-
 WRITE_ASCII 0x2cc ~p_mike~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_mike~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_mike~ #8  // OVERRIDE SCRIPT
@@ -1290,7 +1183,6 @@ WRITE_ASCII 0x248 ~p_mike~ #8  // OVERRIDE SCRIPT
 COPY ~Dusk/Characters/clan_orco/p_serra.cre~ ~override~
 SAY NAME1 @200364 /* Serrano, el carnicero */
 SAY NAME2 @200364 /* Serrano, el carnicero */
-
 WRITE_ASCII 0x2cc ~p_serra~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_serra~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_serra~ #8  // OVERRIDE SCRIPT
@@ -1298,7 +1190,6 @@ WRITE_ASCII 0x248 ~p_serra~ #8  // OVERRIDE SCRIPT
 COPY ~Dusk/Characters/clan_orco/p_tongas.cre~ ~override~
 SAY NAME1 @200365 /* Tongas, el hechicero */
 SAY NAME2 @200365 /* Tongas, el hechicero */
-
 WRITE_ASCII 0x2cc ~p_tongas~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_tongas~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_tongas~ #8  // OVERRIDE SCRIPT
@@ -1306,7 +1197,6 @@ WRITE_ASCII 0x248 ~p_tongas~ #8  // OVERRIDE SCRIPT
 COPY ~Dusk/Characters/clan_orco/p_toxsan.cre~ ~override~
 SAY NAME1 @200366 /* Toxsan-Chimi, el ettin */
 SAY NAME2 @200366 /* Toxsan-Chimi, el ettin */
-
 WRITE_ASCII 0x2cc ~p_toxsan~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_toxsan~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_toxsan~ #8  // OVERRIDE SCRIPT
@@ -1314,316 +1204,97 @@ WRITE_ASCII 0x248 ~p_toxsan~ #8  // OVERRIDE SCRIPT
 COPY ~Dusk/Characters/clan_orco/p_xeb.cre~ ~override~
 SAY NAME1 @200367 /* Xeb'Tian, el torturador */
 SAY NAME2 @200367 /* Xeb'Tian, el torturador */
-
 WRITE_ASCII 0x2cc ~p_xeb~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_xeb~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_xeb~ #8  // OVERRIDE SCRIPT
 
-// Valatar, el Conjurador
+//////////////////////////////////////////////////////
 
+// Valatar, el Conjurador
 COPY ~Dusk/Characters/p_valata.cre~ ~override~
 SAY NAME1 @200373 /* Valatar, el Conjurador */
 SAY NAME2 @200373 /* Valatar, el Conjurador */
-
 WRITE_ASCII 0x2cc ~p_valata~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_valata~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_valata~ #8  // OVERRIDE SCRIPT
 
-// ORBE TELETRANSPORTADOR1
-COPY ~Dusk/Items/p_orbet1.itm~ ~override~
-
-SAY NAME1 @200368 /*  */
-SAY NAME2 @200368 /*  */
-SAY UNIDENTIFIED_DESC @200371 /* */
-SAY DESC @200371 /* */
-
-// Espada Carmes� MEJORADA (EVIL PATH)
-COPY ~Dusk/Items/p_swevi2.itm~ ~override~         
-
-SAY NAME1 @200007 /* Espada carmes� mejorada */ 
-SAY NAME2 @200374 /*  */
-SAY UNIDENTIFIED_DESC @200009 /* */
-SAY DESC @200375 /* */
-
-// Espada Esmeralda MEJORADA (GOOD PATH)
-COPY ~Dusk/Items/p_swgoo2.itm~ ~override~         
-
-SAY NAME1 @200007 /*  */ 
-SAY NAME2 @200376 /*  */
-SAY UNIDENTIFIED_DESC @200009 /* */
-SAY DESC @200377 /* */
-
-// Aumento de Wisdom de la espada esmeralda
-COPY ~Dusk/Items/p_wis1.itm~ ~override~         
-
-SAY 8 @200341 /*  */ 
-SAY 80 @200341 /*  */ 
-SAY 366 @200336 /*  */ 
-
-// SPELLS DUSK INNATES
-// Infundir Valor
-COPY ~Dusk/Spells/p_sp1d.spl~ ~override~         
-
-SAY 8 @200378 /* Infundir Valor */ 
-SAY 80 @200388 /*  */
-
-// Defensa Heroica
-COPY ~Dusk/Spells/p_sp2d.spl~ ~override~         
-
-SAY 8 @200380 /* Defensa Heroica */ 
-SAY 80 @200381 /*  */
-
-// Miedo
-COPY ~Dusk/Spells/p_sp3d.spl~ ~override~         
-
-SAY 8 @200382 /* Miedo */ 
-SAY 80 @200383 /*  */
-
-// �ltimo Esfuerzo
-COPY ~Dusk/Spells/p_sp4d.spl~ ~override~         
-
-SAY 8 @200384 /* �ltimo Esfuerzo */ 
-SAY 80 @200385 /*  */
-
-// Juramento de Ira
-COPY ~Dusk/Spells/p_sp5d.spl~ ~override~         
-
-SAY 8 @200386 /* Juramento de Ira */ 
-SAY 80 @200387 /*  */
-
-
+// Hurón Misterioso
 COPY ~Dusk/Characters/clan_orco/p_huron.cre~ ~override~
 SAY NAME1 @200389 /* Hur�n misterioso */
 SAY NAME2 @200389 /* Hur�n misterioso */
-
 WRITE_ASCII 0x2cc ~p_huron~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_huron~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_huron~ #8  // OVERRIDE SCRIPT
 
-// Bellfame's Ring
-
-COPY ~Dusk/Summonings/p_belrn2.itm~ ~override~         
-
-SAY NAME1 @200259 /*  */ 
-SAY NAME2 @200273 /*  */
-SAY UNIDENTIFIED_DESC @200261 /* */
-SAY DESC @200390 /* */
-
 // Sir Ryan Espinel
-
 COPY ~Dusk/Characters/m3good_allies/p_kayl2.cre~ ~override~
 SAY NAME1 @200391 /* Sir Ryan Espinel */
 SAY NAME2 @200391 /* Sir Ryan Espinel */
-
 WRITE_ASCII 0x2cc ~p_kayl2~ #8 // dialog file
 
-
 // Puki, el demonio abisal de Valatar
-
 COPY ~Dusk/Characters/p_dempit.cre~ ~override~
 SAY NAME1 @200392 /* Puki */
 SAY NAME2 @200392 /* Puki */
 
-
-// Mano de Alabarza
-COPY ~Dusk/Items/p_mano.itm~ ~override~         
-
-SAY NAME2 @200393 /*  */
-SAY UNIDENTIFIED_DESC @200394 /* */
-SAY DESC @200395 /* */
-
-// Utiler�a de Cormyr
-COPY ~Dusk/Items/p_restos.itm~ ~override~         
-
-SAY NAME2 @200396 /* Utiler�a de Cormyr */
-//SAY UNIDENTIFIED_DESC @200396 /* */
-SAY DESC @200398 /* */
-
-// MUGENJIN  Espada Larga
-
-COPY ~Dusk/Items/P_SW1H13.itm~ ~override~         
-
-SAY NAME2 @200193 /*  */
-SAY DESC @200403 /* */
-
-// MUGENJIN  Mandoble
-
-COPY ~Dusk/Items/P_SW1H23.itm~ ~override~         
-
-SAY NAME2 @200193 /*  */
-SAY DESC @200404 /* */
-
-
-// MUGENJIN  Cimitarra
-
-COPY ~Dusk/Items/P_SW1H33.itm~ ~override~         
-
-SAY NAME2 @200193 /*  */
-SAY DESC @200405 /* */
-
-
-// SHIN-USHI  Espada Larga
-
-COPY ~Dusk/Items/P_SW1H14.itm~ ~override~         
-
-SAY NAME2 @200197 /*  */
-SAY DESC @200406 /* */
-SAY 462 @200200 /* */
-SAY 510 @200201 /* */
-SAY 558 @200202 /* */
-SAY 606 @200203 /* */
-SAY 654 @200204 /* */
-
-// SHIN-USHI  Mandoble
-
-COPY ~Dusk/Items/P_SW1H24.itm~ ~override~         
-
-SAY NAME2 @200197 /*  */
-SAY DESC @200407 /* */
-SAY 462 @200200 /* */
-SAY 510 @200201 /* */
-SAY 558 @200202 /* */
-SAY 606 @200203 /* */
-SAY 654 @200204 /* */
-
-// SHIN-USHI  Cimitarra
-
-COPY ~Dusk/Items/P_SW1H34.itm~ ~override~         
-
-SAY NAME2 @200197 /*  */
-SAY DESC @200408 /* */
-SAY 462 @200200 /* */
-SAY 510 @200201 /* */
-SAY 558 @200202 /* */
-SAY 606 @200203 /* */
-SAY 654 @200204 /* */
-
-
-// Amatista del Drag�n P�rpura
-
-COPY ~Dusk/Items/p_gemdr1.itm~ ~override~         
-
-SAY NAME2 @200409 /*  */
-SAY DESC @200410 /* */
-
-// Salus -> Armadura mejorada de Dusk
-
-COPY ~Dusk/Items/p_platd1.itm~ ~override~         
-
-SAY NAME2 @200411 /*  */
-SAY DESC @200412 /* */
-
-// Rex -> Espada de Dusk mejorada
-
-COPY ~Dusk/Items/p_sw2hdr.itm~ ~override~         
-
-SAY NAME1 @200007 /* Espada Bastarda */ 
-SAY NAME2 @200413 /* Rex */
-SAY UNIDENTIFIED_DESC @200009 /*  */
-SAY DESC @200414 /*  */
-SAY 174 @200011 /*Cinco niveles consumidos*/
-SAY 222 @200012 /*Cuatro niveles consumidos*/
-SAY 270 @200013 /*Tres niveles consumidos*/
-SAY 318 @200014 /*Dos niveles consumidos*/
-SAY 366 @200015 /*Un nivel consumido*/
-SAY 1086 @200415 /*Ralentizado */
-SAY 798 @2 /* */
-
-
 // DANCTIAN
-
 COPY ~Dusk/Characters/p_dancti.cre~ ~override~
 SAY NAME1 @200416 /* Danctian */
 SAY NAME2 @200416 /* Danctian */
-
-
 WRITE_ASCII 0x2cc ~p_dancti~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_dancti~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_dancti~ #8  // OVERRIDE SCRIPT
 
-
 // Kalanda, el Transmutador
-
 COPY ~Dusk/Characters/p_kaland.cre~ ~override~
 SAY NAME1 @200423 /* Kalanda, el Transmutador */
 SAY NAME2 @200423 /* Kalanda, el Transmutador */
-
 WRITE_ASCII 0x2cc ~p_kaland~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_kaland~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_kaland~ #8  // OVERRIDE SCRIPT
-
-
 COPY ~Dusk/Items/p_kasum1.itm~ ~override~
 COPY ~Dusk/Items/p_kasum2.itm~ ~override~
 
 // Convocaciones de Kalanda
-
 COPY ~Dusk/Characters/p_mephit.cre~ ~override~
 SAY NAME1 @200424 /* Diablillo enfermo */
 SAY NAME2 @200424 /* Diablillo enfermo */
-
 WRITE_ASCII 0x248 ~p_mephit~ #8  // OVERRIDE SCRIPT
-
 COPY ~Dusk/Characters/p_worg.cre~ ~override~
 SAY NAME1 @200425 /* Worg d�bil */
 SAY NAME2 @200425 /* Worg d�bil */
-
 WRITE_ASCII 0x248 ~p_worg~ #8  // OVERRIDE SCRIPT
-
 COPY ~Dusk/Items/p_kasum1.itm~ ~override~
 COPY ~Dusk/Items/p_kasum2.itm~ ~override~
 
 // Anthagar, el Nigromante
-
 COPY ~Dusk/Characters/p_anthag.cre~ ~override~
 SAY NAME1 @200426 /* Anthagar, el Nigromante */
 SAY NAME2 @200426 /* Anthagar, el Nigromante */
-
 WRITE_ASCII 0x2cc ~p_anthag~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_anthag~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_anthag~ #8  // OVERRIDE SCRIPT
 
 // Nombre de las convocaciones: Veneno, Muerte y Destrucci�n
-
 COPY ~Dusk/Characters/p_muerte.cre~ ~override~
 SAY NAME1 @200427 /* Muerte */
 SAY NAME2 @200427 /* Muerte */
-
 COPY ~Dusk/Items/p_muerte.itm~ ~override~
 
 COPY ~Dusk/Characters/p_veneno.cre~ ~override~
 SAY NAME1 @200428 /* Veneno */
 SAY NAME2 @200428 /* Veneno */
-
 COPY ~Dusk/Items/p_veneno.itm~ ~override~
 
 COPY ~Dusk/Characters/p_destru.cre~ ~override~
 SAY NAME1 @200429 /* Destrucci�n */
 SAY NAME2 @200429 /* Destrucci�n */
-
 COPY ~Dusk/Items/p_destru.itm~ ~override~
-
-// LUX (GOOD PATH)
-COPY ~Dusk/Items/p_swgoo3.itm~ ~override~         
-
-SAY NAME1 @200007 /*  */ 
-SAY NAME2 @200430 /* Lux */
-SAY UNIDENTIFIED_DESC @200009 /* */
-SAY DESC @200431 /* */
-
-// IRA (EVIL PATH)
-COPY ~Dusk/Items/p_swevi3.itm~ ~override~         
-
-SAY NAME1 @200007 /* Espada carmes� mejorada */ 
-SAY NAME2 @200432 /*  */
-SAY UNIDENTIFIED_DESC @200009 /* */
-SAY DESC @200433 /* */
 
 // Esp�ritu de Celine
 COPY ~Dusk/Characters/p_celgh.cre~ ~override~
 SAY NAME1 @200434 /* Esp�ritu */
 SAY NAME2 @200434 /* Esp�ritu */
-
 WRITE_ASCII 0x2cc ~p_celgh~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_celgh~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_celgh~ #8  // OVERRIDE SCRIPT
@@ -1632,7 +1303,6 @@ WRITE_ASCII 0x248 ~p_celgh~ #8  // OVERRIDE SCRIPT
 COPY ~Dusk/Characters/p_matu2.cre~ ~override~
 SAY NAME1 @200304 /* Mathyus Davis */
 SAY NAME2 @200304 /* Mathyus Davis */
-
 WRITE_ASCII 0x2cc ~p_matu2~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_mats~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_matu2~ #8  // OVERRIDE SCRIPT
@@ -1667,7 +1337,6 @@ WRITE_ASCII 0X34  ~p_demole~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_demol2~ #8  // OVERRIDE SCRIPT
 
 // Convocaciones de Valatar
-
 COPY ~Dusk/Characters/p_dempi2.cre~ ~override~
 SAY NAME1 @200435 /* Glabrezu de Valatar */
 SAY NAME2 @200435 /* Glabrezu de Valatar */
@@ -1679,14 +1348,6 @@ SAY NAME2 @200436 /* Tanar'ri de Valatar */
 COPY ~Dusk/Characters/p_muert2.cre~ ~override~
 SAY NAME1 @200427 /* Muerte */
 SAY NAME2 @200427 /* Muerte */
-
-// S�mbolo de Velshar�n
-
-COPY ~Dusk/Items/p_simvel.itm~ ~override~         
-
-SAY NAME2 @200437 /* S�mbolo de Velshar�n */
-SAY DESC @200438 /* El extra�o amuleto carga con una energ�a tenebrosa. Tus manos tiemblan ligeramente al sostenerlo. Lo has obtenido del cuerpo de Anthagar, el l�der de la Cripta Olvidada. */
-
 
 // Michelson 2 (Versi�n que ir� al AR1506)
 COPY ~Dusk/Characters/p_miche2.cre~ ~override~
@@ -1716,16 +1377,9 @@ SAY SELECT_RARE2 ~~ [P_Mich04]
 WRITE_ASCII 0x2cc ~p_miche2~ #8 // d
 WRITE_ASCII 0x34  ~p_michs~ #8  // s portrait
 WRITE_ASCII 0x248 ~p_miche2~ #8  // baf
-
-ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
-COPY ~Dusk/Characters/p_michs.bmp~ ~override/p_michs.bmp~ 
-END
-
-// Cad�ver de Mathyus
-COPY ~Dusk/Items/p_matcor.itm~ ~override~         
-
-SAY NAME1 @200439 /* Cuerpo de Mathyus Davis */ 
-SAY DESC @200440 /* Este es el cad�ver del elfo shilmista Mathyus Davis. Cay� en combate al ser dominado por los encantamientos del hechicero de la Cripta Olvidada, Sornhil. */
+//ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
+//COPY ~Dusk/Characters/p_michs.bmp~ ~override/p_michs.bmp~ 
+//END
 
 // Celine, verdadero esp�ritu
 COPY ~Dusk/Characters/p_celin.cre~ ~override~
@@ -1735,66 +1389,226 @@ WRITE_ASCII 0x2cc ~p_celin~ #8 // d
 WRITE_ASCII 0x34  ~p_celin~ #8  // s portrait
 WRITE_ASCII 0x248 ~p_celin~ #8  // baf
 
-// Lux Triumphans (GOOD PATH)
-COPY ~Dusk/Items/p_swgoo4.itm~ ~override~         
-
-SAY NAME1 @200007 /*  */ 
-SAY NAME2 @200442 /*  */
-SAY UNIDENTIFIED_DESC @200009 /* */
-SAY DESC @200443 /* */
-
-// IRA Tenax (EVIL PATH)
-COPY ~Dusk/Items/p_swevi4.itm~ ~override~         
-
-SAY NAME1 @200007 /* Espada carmes� mejorada */ 
-SAY NAME2 @200444 /*  */
-SAY UNIDENTIFIED_DESC @200009 /* */
-SAY DESC @200445 /* */
-
-// Ataque Danctian2
-COPY ~Dusk/Items/p_b1-6.itm~ ~override~
-
 // Danctian 2 Final Mission
-
+COPY ~Dusk/Items/p_b1-6.itm~ ~override~
 COPY ~Dusk/Characters/p_danct2.cre~ ~override~
 SAY NAME1 @200416 /* Danctian */
 SAY NAME2 @200416 /* Danctian */
-
 WRITE_ASCII 0x2cc ~p_danct2~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_dancti~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_danct2~ #8  // OVERRIDE SCRIPT
 
 // Danctian Replicas Guerreras
-
 COPY ~Dusk/Characters/p_danct3.cre~ ~override~
 SAY NAME1 @200416 /* Danctian */
 SAY NAME2 @200416 /* Danctian */
-
 WRITE_ASCII 0x248 ~p_danct3~ #8  // OVERRIDE SCRIPT
 
 
 // Puki, el demonio abisal de Valatar
-
 COPY ~Dusk/Characters/p_dempid.cre~ ~override~
 SAY NAME1 @200392 /* Puki */
 SAY NAME2 @200392 /* Puki */
-
 WRITE_ASCII 0x2cc ~p_dempid~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_dempid~ #8  // small portrait
 
-// Orbe -> Juramento de Ira
-COPY ~Dusk/Items/p_orbef.itm~ ~override~         
+/////////////////////////////////////////////////
+// KEY ITEMS
 
+// Libro de recetas Leprechaun
+COPY ~Dusk/Items/p_bookm.itm~ ~override~
+SAY NAME1 @200305 /* Libro  */ 
+SAY NAME2 @200306 /* Libro de recetas leprechaun */
+SAY UNIDENTIFIED_DESC @200307 /* El libro es incomprensible a la vista. Puede que un conjuro de identificaci�n o el conocimiento de un bardo pueda resolverlo.*/
+SAY DESC @200308 /* */
+
+// Escudo roto de la Orden del Drag�n P�rpura
+COPY ~Dusk/Items/p_brkshl.itm~ ~override~
+SAY NAME2 @200317 /*  */
+SAY DESC @200318 /* */
+
+// Orbe rojo de Sornhil
+COPY ~Dusk/Items/p_orbe1.itm~ ~override~
+SAY NAME1 @200052 /*  */
+SAY NAME2 @200327 /*  */
+SAY UNIDENTIFIED_DESC @200054 /* */
+SAY DESC @200328 /* */
+
+// EVIL ORB
+COPY ~Dusk/Items/p_orbe2e.itm~ ~override~
+SAY NAME1 @200052 /*  */
+SAY NAME2 @200327 /*  */
+SAY UNIDENTIFIED_DESC @200054 /* */
+SAY DESC @200328 /* */
+SAY 606 @200345 /*  */ 
+SAY 654 @200346 /*  */
+SAY 702 @200347 /*  */
+SAY 750 @200348 /*  */ 
+SAY 798 @200349 /*  */
+SAY 846 @200350 /*  */ 
+SAY 894 @200351 /*  */ 
+SAY 1134 @200352 /*  */
+
+// GOOD ORB
+COPY ~Dusk/Items/p_orbe2g.itm~ ~override~
+SAY NAME1 @200052 /*  */
+SAY NAME2 @200327 /*  */
+SAY UNIDENTIFIED_DESC @200054 /* */
+SAY DESC @200328 /* */
+SAY 318 @200353 /*  */ 
+SAY 366 @200354 /*  */
+SAY 414 @200355 /*  */
+SAY 462 @200356 /*  */ 
+SAY 510 @200357 /*  */
+
+// Orbe verde de Sornhil, purificado
+COPY ~Dusk/Items/p_orbev.itm~ ~override~
+SAY NAME1 @200052 /*  */
+SAY NAME2 @200343 /*  */
+SAY UNIDENTIFIED_DESC @200054 /* */
+SAY DESC @200344 /* */
+SAY 80 @200358 /*  */
+
+// ORBE TELETRANSPORTADOR1
+COPY ~Dusk/Items/p_orbet1.itm~ ~override~
+SAY NAME1 @200368 /*  */
+SAY NAME2 @200368 /*  */
+SAY UNIDENTIFIED_DESC @200371 /* */
+SAY DESC @200371 /* */
+
+// Aumento de Wisdom de la espada esmeralda
+COPY ~Dusk/Items/p_wis1.itm~ ~override~
+SAY 8 @200341 /*  */ 
+SAY 80 @200341 /*  */ 
+SAY 366 @200336 /*  */ 
+
+// Mano de Alabarza
+COPY ~Dusk/Items/p_mano.itm~ ~override~
+SAY NAME2 @200393 /*  */
+SAY UNIDENTIFIED_DESC @200394 /* */
+SAY DESC @200395 /* */
+
+// Utiler�a de Cormyr
+COPY ~Dusk/Items/p_restos.itm~ ~override~
+SAY NAME2 @200396 /* Utiler�a de Cormyr */
+//SAY UNIDENTIFIED_DESC @200396 /* */
+SAY DESC @200398 /* */
+
+// Amatista del Drag�n P�rpura
+COPY ~Dusk/Items/p_gemdr1.itm~ ~override~
+SAY NAME2 @200409 /*  */
+SAY DESC @200410 /* */
+
+// S�mbolo de Velshar�n
+COPY ~Dusk/Items/p_simvel.itm~ ~override~ 
+SAY NAME2 @200437 /* S�mbolo de Velshar�n */
+SAY DESC @200438 /* El extra�o amuleto carga con una energ�a tenebrosa. Tus manos tiemblan ligeramente al sostenerlo. Lo has obtenido del cuerpo de Anthagar, el l�der de la Cripta Olvidada. */
+
+// Cad�ver de Mathyus
+COPY ~Dusk/Items/p_matcor.itm~ ~override~
+SAY NAME1 @200439 /* Cuerpo de Mathyus Davis */ 
+SAY DESC @200440 /* Este es el cad�ver del elfo shilmista Mathyus Davis. Cay� en combate al ser dominado por los encantamientos del hechicero de la Cripta Olvidada, Sornhil. */
+
+// Orbe -> Juramento de Ira
+COPY ~Dusk/Items/p_orbef.itm~ ~override~
 SAY NAME1 @200386 /* Juramento de Ira */ 
 SAY NAME2 @200387 /*  */
 SAY 222 @200446 /* Habilidad innata obtenida: Juramento de Ira */
 
+//////////////////////////////////////////////////////
+// NO APLICA
+// RUNAS DE LA UNIVERSALIDAD (N/A)
+COPY ~Dusk/Items/p_nbk10.itm~ ~override~ 
+SAY NAME1 @200094 /*  */ 
+SAY NAME2 @200107 /*  */
+SAY UNIDENTIFIED_DESC @200096 /* */
+SAY DESC @200109 /* */
+SAY 366 @200110 /* */
+
+// POCI�N CA�TICO MALIGNO(N/A)
+COPY ~Dusk/Items/p_POTN90.itm~ ~override~ 
+SAY NAME1 @200121 /*  */ 
+SAY NAME2 @200122 /*  */
+SAY UNIDENTIFIED_DESC @200123 /* */
+SAY DESC @200124 /* */
+SAY 222 @200125 /* */
+
+// POCI�N NEUTRAL MALIGNO(N/A)
+COPY ~Dusk/Items/p_POTN91.itm~ ~override~ 
+SAY NAME1 @200126 /*  */ 
+SAY NAME2 @200127 /*  */
+SAY UNIDENTIFIED_DESC @200128 /* */
+SAY DESC @200129 /* */
+SAY 270 @200130 /* */
+
+// POCI�N LEGAL MALIGNO(N/A)
+COPY ~Dusk/Items/p_POTN92.itm~ ~override~ 
+SAY NAME1 @200131 /*  */ 
+SAY NAME2 @200132 /*  */
+SAY UNIDENTIFIED_DESC @200133 /* */
+SAY DESC @200134 /* */
+SAY 318 @200135 /* */
+
+// POCI�N CA�TICO NEUTRAL(N/A)
+COPY ~Dusk/Items/p_POTN93.itm~ ~override~ 
+SAY NAME1 @200136 /*  */ 
+SAY NAME2 @200137 /*  */
+SAY UNIDENTIFIED_DESC @200138 /* */
+SAY DESC @200139 /* */
+SAY 222 @200140 /* */
+
+// POCI�N NEUTRAL AUT�NTICO(N/A)
+COPY ~Dusk/Items/p_POTN94.itm~ ~override~ 
+SAY NAME1 @200141 /*  */ 
+SAY NAME2 @200142 /*  */
+SAY UNIDENTIFIED_DESC @200143 /* */
+SAY DESC @200144 /* */
+SAY 270 @200145 /* */
+
+// POCI�N LEGAL NEUTRAL(N/A)
+COPY ~Dusk/Items/p_POTN95.itm~ ~override~ 
+SAY NAME1 @200146 /*  */ 
+SAY NAME2 @200147 /*  */
+SAY UNIDENTIFIED_DESC @200148 /* */
+SAY DESC @200149 /* */
+SAY 318 @200150 /* */
+
+// POCI�N CA�TICO BUENO(N/A)
+COPY ~Dusk/Items/p_POTN96.itm~ ~override~ 
+SAY NAME1 @200151 /*  */ 
+SAY NAME2 @200152 /*  */
+SAY UNIDENTIFIED_DESC @200153 /* */
+SAY DESC @200154 /* */
+SAY 222 @200155 /* */
+
+// POCI�N NEUTRAL BUENO(N/A)
+COPY ~Dusk/Items/p_POTN97.itm~ ~override~ 
+SAY NAME1 @200156 /*  */ 
+SAY NAME2 @200157 /*  */
+SAY UNIDENTIFIED_DESC @200158 /* */
+SAY DESC @200159 /* */
+SAY 270 @200160 /* */
+
+// POCI�N LEGAL BUENO (N/A)
+COPY ~Dusk/Items/p_POTN98.itm~ ~override~  
+SAY NAME1 @200161 /*  */ 
+SAY NAME2 @200162 /*  */
+SAY UNIDENTIFIED_DESC @200163 /* */
+SAY DESC @200164 /* */
+SAY 318 @200165 /* */
+
+// FUROR �PICO(N/A)
+COPY ~Dusk/Items/p_shasw1.itm~ ~override~
+SAY NAME1 @200007 /*  */ 
+SAY NAME2 @200172 /*  */
+SAY UNIDENTIFIED_DESC @200009 /* */
+SAY DESC @200174 /* */
+SAY 1086 @200175 /* */
 
 //TERMINA LISTADO DE ITEMS, SPELLS, CREATURES
 
 COPY_EXISTING ~songlist.2da~ ~override~
   SET_2DA_ENTRY 0 0 3 ~Blank.mus~ //fue modificado. Originalmente era 0 2 3
-
 
 
 ACTION_IF FILE_EXISTS_IN_GAME ~mel01.cre~ THEN
