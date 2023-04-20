@@ -500,3 +500,6 @@ THEN
     Wait(5)
     EndCutSceneMode()
 END
+
+
+

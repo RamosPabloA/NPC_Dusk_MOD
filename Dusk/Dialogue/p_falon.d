@@ -29,7 +29,7 @@ END
 
 IF ~ ~ THEN BEGIN 3 // from:
   SAY @5 /* ~*suspiro* No quería llegar a esto... pero no nos dejan otra opción... ¡Moriremos con tal de ser libres!~ */
-  IF ~~ THEN DO ~Enemy()~ EXTERN ~P_COCO~ 2
+  IF ~~ THEN DO ~SetGlobal ("P_DuskMatMission2","GLOBAL",7) Enemy()~ EXTERN ~P_COCO~ 2
 END
 
 

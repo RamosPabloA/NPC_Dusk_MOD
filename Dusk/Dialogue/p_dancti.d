@@ -1047,6 +1047,7 @@ I_C_T P_DANCTI 72 P_Dusk_EVIL3_BENORK
 END
 
 I_C_T P_DANCTI 12 P_Dusk_EVIL2
+== p_dancti IF ~~ THEN @262 /* ~*Danctian escudriña el grupo durante unos momentos*~ */
 == p_dancti IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @30 /* ~Para ti, hombre del Norte... he preparado esta pócima especial. Aumentará tus capacidades mentales en sobremanera. Incluso puede que seas capaz de ser un canal divino para la deidad a la que sirvas.~ */  DO ~ CreateItem ("p_POTN99",1,1,0)  GiveItem("p_POTN99", "Minsc") ~ 
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @31 /* ~Hmm... Bubú tiene sus dudas respecto a ti, criatura. Pero si <CHARNAME> y Dusk confían en ti, entonces Minsc también lo hará.~ */
 == p_dancti IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @32 /* ~No temas, niña. Ardusk te tiene en gran estima, por lo que he hecho esto especialmente para ti.~ */  DO ~ CreateItem ("p_nbk02",1,1,0)  GiveItem("p_nbk02", "Aerie") ~ 

@@ -112,7 +112,8 @@ END
 
 IF ~~ THEN BEGIN 18 // from:
   SAY @3020 /* ~Bueno, eso ha ido mejor de lo que he esperado. Lamento el gasto del oro, <CHARNAME>. Prometo compensártelo en un futuro.~ */
-  IF ~~ THEN GOTO 19
+  IF ~!IsValidForPartyDialog("Yoshimo")~ THEN GOTO 19
+  IF ~IsValidForPartyDialog("Yoshimo")~ THEN EXTERN ~YOSHJ~ P_1
 END
 
 IF ~~ THEN BEGIN 19 // from:
@@ -123,7 +124,8 @@ END
 
 IF ~~ THEN BEGIN 20 // from:
   SAY @3024 /* ~Bueno, eso ha ido mejor de lo que he esperado. Al menos no gastamos una suma descarada de dinero en convencerlo.~ */
-  IF ~~ THEN GOTO 19
+  IF ~!IsValidForPartyDialog("Korgan")~ THEN GOTO 19
+  IF ~IsValidForPartyDialog("Korgan")~ THEN EXTERN ~KORGANJ~ P_2
 END
 
 IF ~~ THEN BEGIN 21 // from:
@@ -133,7 +135,11 @@ END
 
 IF ~~ THEN BEGIN 22 // from:
   SAY @3028 /* ~Debo admitir que ha estado bien, <CHARNAME>. Veremos si eso convence a Michelson.~ */
-  IF ~~ THEN EXTERN ~P_MICHEL~ 8
+  IF ~!IsValidForPartyDialog("Minsc")
+!IsValidForPartyDialog("Aerie")~
+THEN DO ~~ EXTERN ~P_MICHEL~ 8
+IF ~IsValidForPartyDialog("Minsc")~ THEN EXTERN ~MINSCJ~ P_1
+IF ~!IsValidForPartyDialog("Minsc") IsValidForPartyDialog("Aerie")~ THEN EXTERN ~AERIEJ~ P_1
 END
 
 IF ~~ THEN BEGIN 23 // from:
@@ -430,7 +436,11 @@ END
 
 IF ~~ THEN BEGIN 77 // from:
   SAY @3103/* ~Tienes razón, <CHARNAME>. Escúchame bien, criatura... Tu maldad llega hasta aquí. ¡Por Cormyr, los condeno a muerte!~ */
-  IF ~~ THEN DO ~SetGlobal ("P_DuskMatMission2","GLOBAL",7)~ EXTERN ~P_FALON~ 3
+  IF ~!IsValidForPartyDialog("Korgan")
+!IsValidForPartyDialog("Mazzy")~
+THEN DO ~SetGlobal ("P_DuskMatMission2","GLOBAL",7)~ EXTERN ~P_FALON~ 3
+IF ~IsValidForPartyDialog("Korgan")~ THEN EXTERN ~KORGANJ~ P_1
+IF ~!IsValidForPartyDialog("Korgan") IsValidForPartyDialog("Mazzy")~ THEN EXTERN ~MAZZYJ~ P_1
 END
 
 IF ~~ THEN BEGIN 78 // from:
@@ -465,7 +475,7 @@ IF ~~ THEN BEGIN 83 // from:
 END
 
 IF ~~ THEN BEGIN 84 // from:
-  SAY @3116/* ~*suspiro* Odio admitirlo... pero el ettin tiene razón... Necesito consejos...~ */
+  SAY @3116/* ~*suspiro* Odio admitirlo... pero el ettin tiene razón...~ */
   IF ~~ THEN GOTO 85
 END
 
@@ -1835,7 +1845,7 @@ END
 
 // NPC Interaction QUEST 3 EVIL PATH
 IF ~~ THEN BEGIN 333 // from:
-  SAY @3479 /* ~Ladra mientras puedas, perro. Pronto, tus aullidos de dolor inundaran este inmundo Túmulo.~ */
+  SAY @3492 /* ~Ladra mientras puedas, perro.~ */
   IF ~~ THEN DO ~~ EXTERN ~P_ALABAR~ 6
 END
 
@@ -1864,7 +1874,6 @@ IF ~~ THEN BEGIN 337 // from:
   SAY @3489 /* ~¡<CHARNAME>, cuidado!~ */
 IF ~~ THEN DO ~~ EXTERN ~OHNQUAID~ P_QUAID1
 END
-
 
 // NEERA Quest2
 I_C_T OHNTELAN 12 P_DuskNeeraQ2_1
@@ -1900,6 +1909,7 @@ END
 
 // inject EE CHAR and crossmods I_C_T
 I_C_T P_DUSKJ 333 P_Dusk_EVIL_ALABAR1
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3491 /* ~Pronto, tus aullidos de dolor inundaran este inmundo Túmulo.~ */
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3439 /* ¡Dusk, <CHARNAME>, Minsc y Bubú están listos para patear traseros orcos y trolls! */
 == P_KOMAR IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3479 /* ¡Calvo! Ese roedor será mío. ¡Komar así lo exige! ¡¡¡Komar romperá tus huesos y tomará al pequeño peludo para su diversión!!! */
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3480 /* ¿Calvo? ¡Tú serás el calvo, malvado ogro! Y Bubú no será esclavo de nadie. ¡La furia del hámster es libre y te hará ver las estrellas! */
@@ -1943,8 +1953,8 @@ I_C_T P_DUSKJ 333 P_Dusk_EVIL_ALABAR1
 END
 
 
-
 I_C_T P_DUSKJ 332 P_Dusk_GOOD_ALABAR1
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3493 /* ~Una ardua batalla nos espera...~ */
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3439 /* ¡Dusk, <CHARNAME>, Minsc y Bubú están listos para patear traseros orcos y trolls! */
 == P_KOMAR IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3479 /* ¡Calvo! Ese roedor será mío. ¡Komar así lo exige! ¡¡¡Komar romperá tus huesos y tomará al pequeño peludo para su diversión!!! */
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3480 /* ¿Calvo? ¡Tú serás el calvo, malvado ogro! Y Bubú no será esclavo de nadie. ¡La furia del hámster es libre y te hará ver las estrellas! */
@@ -2064,6 +2074,7 @@ END
 ////////////// OK!!! \\\\\\\\\\\\\\\\\ 
 
 I_C_T P_DUSKJ 84 P_Dusk_Mission2_Decision
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3494 /* Necesito consejos... */ 
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3118 /* ¡Argh! Minsc se confunde mucho en estas situaciones. Sin embargo, Bubú piensa que no todo debe terminar en combate, buen Dusk. */
 == AERIEJ IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @3119 /* P-pues... yo opino que este grupo no es malvado, Dusk. C-creo que deberías darle una oportunidad... Incluso, ayudarles. */
 == KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @3120 /* A veces es sabio compartir la responsabilidad de una decisión, joven Dusk. Creo que haces lo correcto en confiar en el juicio de tus compañeros. */
@@ -2090,44 +2101,17 @@ I_C_T P_FALON 4 P_Dusk_Mission2_Falon_Sothil2
 == KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @3111 /* Los caballeros de la Noble Orden han combatido durante meses contra criaturas como esta, <CHARNAME>. Sin embargo, estos no parecen tener la sed de sangre que tienen los esbirros del ogro. */
 END
 
-I_C_T P_DUSKJ 77 P_Dusk_Mission2_Attack1
-== KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @3104 /* Muy bien, flacucho. Me gusta tu determinación. Déjame ese gigante a mí, ¿quieres?  ¡Ja! */
-END
-
-I_C_T P_DUSKJ 77 P_Dusk_Mission2_Attack12
-== MAZZYJ IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @3105 /* No estoy de acuerdo con esto, Dusk... pero supongo que si no los aniquilamos ahora, estos humanoides bien podrían hacer daño a inocentes. */
-END
-
-I_C_T P_DUSKJ 18 P_Dusk_NPC_Michelson_GOLD
-== YOSHJ IF ~InParty("Yoshimo") InMyArea("Yoshimo") !StateCheck("Yoshimo",CD_STATE_NOTVALID)~ THEN @3021 /* Bueno, eso ha sido un gasto excesivo de oro si me lo preguntas a mí. No te preocupes, <CHARNAME>. Siempre podemos 'reabastecernos' en el Distrito Gubernamental. */
-END
-
 I_C_T P_DUSKJ 18 P_Dusk_NPC_Michelson_GOLD2
 == EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3022 /* Con un demonio, <CHARNAME>. ¿Cómo se te ocurre darle dinero a esa pulga verdosa? (¡Mejor me lo hubieras dado a mí!) */
-END
-
-I_C_T P_DUSKJ 20 P_Dusk_NPC_Michelson_BEER
-== KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @3025 /* ¡Con un carajo, <CHARNAME>! Desperdicias una cerveza de buena calidad en ese enclenque del bosque. Mejor se la hubieras dado al buen Korgan. */
 END
 
 I_C_T P_DUSKJ 20 P_Dusk_NPC_Michelson_BEER2
 == NALIAJ IF ~InParty("Nalia") InMyArea("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID)~ THEN @3026 /* Nunca creí que algo tan pequeño pudiese beber tanto. Ese Michelson es algo de otro mundo. */
 END
 
-I_C_T P_DUSKJ 22 P_Dusk_NPC_Michelson_JOKES1b
-== MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3029 /* ¡Vaya, <CHARNAME>! Has hecho despanzar de la risa a Bubú. */
-END
-
-I_C_T P_DUSKJ 22 P_Dusk_NPC_Michelson_JOKES1c
-== AERIEJ IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @3030 /* Cielos, <CHARNAME>. *risita* Eso ha sido muy gracioso. */
-END
-
 I_C_T P_DUSKJ 22 P_Dusk_NPC_Michelson_JOKES1d
 == ANOMENJ IF ~InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @3031 /* Esto es una pérdida de tiempo, <CHARNAME>. Espero que tu pequeña treta funcione. */
 END
-
-
-
 
 I_C_T P_DUSKJ 24 P_Dusk_NPC_Michelson_JOKES2
 == KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @3034 /* ¡Ja! ¿De qué te preocupas, flacucho? El chiste de <CHARNAME> ha estado muy bueno. De hecho yo lo conté en el funeral de mi tía. Fue todo un éxito. */

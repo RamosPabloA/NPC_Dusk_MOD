@@ -1,5 +1,5 @@
 			Dusk NPC MOD for Baldur's Gate II
-				   Version 0.9.1
+				   Version 0.9.3
 
 CONTENTS
 
@@ -109,6 +109,25 @@ Pandemonium's gift: Pan's Lullaby by Javier Navarrete (perfomed by Erutan)
 -------------------
 6. Version History
 -------------------
+
+Version 0.9.2
+**Bugs Fixed:**
+
+- Fixed custom item (_De'Arnise Mantle_) description for Nadia
+- Fixed several quest dialogs in order to reward player with custom items for Classic NPCs.
+- Fixed a bug that prevents the player to properly finish the final quest.
+
+**Enhancements:**
+
+- Recompressed all music files using **wavc** to save some space and to make the mod compatible with BG EET.
+- The strings for Dusk’s passive ability (Dusk Fury) are now correctly shown.
+
+**New Features:**
+
+- Added EE Characters dialogs.
+- Added a script for Dusk to behave towards Dorn depending on the alignment (True Neutral or Neutral Good).
+
+v0.9.3
 
 Version 0.9.1
 - Edited (nerfed) SEVERAL items for a better game balance

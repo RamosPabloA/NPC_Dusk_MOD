@@ -2713,7 +2713,7 @@ This spell creates several small ice orbs, one per bear level, that replace the 
 
 @3492  = ~This bright orb has been created by the innate spell Poolster.
 
-FEATURES:
+STATISTICS:
 
 Damage: 1d4+3, +3 cold damage
 AC: bonus +5
@@ -2722,16 +2722,70 @@ Damage type: Projectile
 Weight: 0 lbs
 Speed factor: 3~
 @3493  = ~Poolster's orb~
-@3494  = ~~
-@3495  = ~~
-@3496  = ~~
-@3497  = ~~
-@3498  = ~~
-@3499  = ~~
 
-@200447 = ~~
-@200448 = ~~
-@200449 = ~~
+// Dorn
+@3494  = ~Night Knives Gloves~
+@3495  = ~Night Knives Gloves
+
+These heavy gauntlets emit an unspeakable aura of evil. They even seem to be impregnated with ancient stains of dry blood, possibly due to spikes that occasionally protrude from them. Apparently, only a BlackGuard can wear them.
+
+STATISTICS:
+
+Possessed abilities:
+
+- Blade Barrier: Once per day.
+Duration: 1 turn.
+
+Weight: 6 lbs.~
+
+@3496  = ~Wild Magic Potion~
+@3497  = ~The contents of this large bottle are a mystery. However, you were assured that whoever is capable of drinking it will gain advantages in both their constitution and mind. It seems to be only acceptable for those who know wild magic.
+
+STATISTICS:
+
+Permanent bonuses:
+
+- Hit Points: +20
+- Intelligence: Increased by 1 point.
+- Constitution: Increased by 1 point.
+
+Weight: 10 lbs.~
+@3498  = ~Hit Points: +20~
+@3499  = ~Intelligence: Increased by 1 point~
+@3500  = ~Constitution: Increased by 1 point~
+
+@3501  = ~White Light Potion~
+@3502  = ~White Light Potion
+
+The potion emits a bright light, as if the rays of the sun were contained within it. Only a Sun Soul Monk can use its benefits.
+
+STATISTICS:
+
+Permanent bonuses:
+
+- Hit Points: +20
+- Constitution: Increased by 2 points.
+- Resistance to Magic Damage: +%25
+
+Weight: 10 lbs.~
+@3503  = ~Constitution: Increased by 2 points~
+@3504  = ~Resistance to Magic Damage: +%25~
+@3505  = ~~
+@3506  = ~~
+@3507  = ~~
+@3508  = ~~
+@3509  = ~~
+
+
+
+
+@200447 = ~Jaheira! No... NOOOOooooooo!~
+@200448 = ~Minsc... Boo... No... You'll regret this!~
+@200449 = ~¡Aerie! Bastardos... ¡Mueran!~
+@200450 = ~Imoen! IMOEN! No... NoooOOoo!!!~
+@200451 = ~Korgan... Darn it... I'll avenge you, dwarf.~
+@200452 = ~Nalia... no... In the name of your family, I'll avenge your fall!~
+@200453 = ~Valygar, no... no... NOooOOOoooo!!!~
 
 
 ////////////////////////////////

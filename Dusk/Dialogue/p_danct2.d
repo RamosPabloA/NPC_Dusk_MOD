@@ -201,8 +201,10 @@ I_C_T P_DANCT2 24 P_Dusk_P_DANCT2_9
 END
 
 
+// CORREGIR!!!!!!
 // Combate inicia
 I_C_T P_DANCT2 18 P_Dusk_P_DANCT2_7
+== p_anthag IF ~~ THEN @94 /* ~Que así sea...~ */
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @56 /* ~¡Estos malvados magos deben ser derrotados! Bubú no quiere ser el peón de nadie y mucho menos de estos viles nigromantes... ¡Es hora de patear traseros mágicos! ¡A sus ojos, Bubú, a sus ojos!~ */
 == AERIEJ IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @57 /* ~Por Baervan, ustedes nigromantes no llegarán lejos. Quayle así lo querría. ¡Estoy lista!~ */
 == KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @58 /* ~Dusk, si bien no estoy de acuerdo con tus motivos, sí que creo que debemos acabar con esta corrupción arcana. ¡Velsharún no debe levantarse! En el nombre de Torm, mi espada prestará servicio a tu causa.~ */
