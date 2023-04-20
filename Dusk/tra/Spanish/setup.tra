@@ -2854,17 +2854,67 @@ Tipo de daño: Proyectil
 Peso: 0 lbs
 Factor de velocidad: 3~
 @3493  = ~Orbe Poolster~
-@3494  = ~~
-@3495  = ~~
-@3496  = ~~
-@3497  = ~~
-@3498  = ~~
-@3499  = ~~
 
-@200447 = ~~
-@200448 = ~~
-@200449 = ~~
+@3494  = ~Guantes de Cuchillos Nocturnos~
+@3495  = ~Guantes de Cuchillos Nocturnos
 
+Estos guanteletes pesados emanan una indecible aura de maldad. Incluso pareciera ser que los mismos están impregnados con antiguas manchas de sangre seca, posiblemente debido a unos pinches que parecen salir de los mismos de tanto en tanto. Al parecer, sólo un Guardia Negro pueden usarlos.
+
+CARACTERÍSTICAS:
+
+Habilidades poseídas:
+- Barrera de Cuchillas: 1 vez al día.
+Duración: 1 turno.
+
+Peso: 6~
+
+@3496  = ~Poción de Magia Salvaje~
+@3497  = ~El contenido de esta gran botella es un misterio. Sin embargo, te aseguraron que quien sea apto para beberla, obtendrá ventajas en su constitución tanto como para su mente. Parece ser sólo aceptable para aquel que conozca la magia salvaje.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Puntos de vida: +20
+- Inteligencia: Aumentada en 1 punto.
+- Constitución: Aumentada en 1 punto.
+
+Peso: 10 lbs.~
+@3498  = ~Puntos de vida: +20~
+@3499  = ~Inteligencia: Aumentada en 1 punto~
+@3500  = ~Constitución: Aumentada en 1 punto~
+
+
+@3501  = ~Poción de Luz Blanca~
+@3502  = ~Poción de Luz Blanca
+
+La poción emana una luz brillante, como si los mismos rayos del sol estuviesen contenidos dentro de ella. Sólo un monje del Alma Solar podrá utilizar sus beneficios.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Puntos de vida: +20
+- Constitución: Aumentada en 2 puntos.
+- Resistencia al Daño Mágico: +%25
+
+Peso: 10 lbs.~
+@3503  = ~Constitución: Aumentada en 2 puntos~
+@3504  = ~Resistencia al Daño Mágico: +%25~
+
+@3505  = ~~
+@3506  = ~~
+@3507  = ~~
+@3508  = ~~
+@3509  = ~~
+
+@200447 = ~¡Jaheira! No... ¡¡¡Noooo!!!~
+@200448 = ~Minsc... Bubú... No... ¡Pagarán por esto!~
+@200449 = ~¡Aerie! Bastardos... ¡Mueran!~
+@200450 = ~¡Imoen! ¡IMOEN! No... ¡¡¡NoooOOoo!!!~
+@200451 = ~Korgan... Maldición... yo te vengaré, enano.~
+@200452 = ~Nalia... ¡En nombre de tu familia, vengaré tu caída!~
+@200453 = ~Valygar, no... no... ¡¡¡NOooOOOoooo!!!~
 
 
 ////////////////////////////////

@@ -30,10 +30,10 @@ END
 
 IF ~~ THEN BEGIN 4 // from:
   SAY @7 /* ~(El can centra su mirada en Mathyus)~ */
-  IF ~~ THEN GOTO 5
+  IF ~~ THEN GOTO 15
 END
 
-IF ~~ THEN BEGIN 5 // from:
+IF ~~ THEN BEGIN 15 // from:
   SAY @8 /* ~(Demoledor dirige su mirada hacia el grupo de <CHARNAME>)~ */
   IF ~~ THEN GOTO 6
 END
@@ -44,34 +44,33 @@ IF ~~ THEN BEGIN 6 // from:
   ~ UNSOLVED_JOURNAL @210020 EXIT
 END
 
-
-// DUSK GOOD 4
-I_C_T P_DEMOL2 5 P_Dusk_demol2d
-== MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @27 /* ~No desesperes, mi querido amigo peludo. Minsc, Bubú y Dusk harán lo posible para vencer a los malos y lograr que tu dueño vuelva a tu lado. ¡A sus ojos, Bubú!~ */
-== AERIEJ IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @28 /* ~Por Baervan, ustedes nigromantes no llegarán lejos. Quayle así lo querría. ¡Estoy lista!~ */
-== KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @29 /* ~<CHARNAME>, Dusk... es un honor estar a su lado. Nuestra victoria aquí honrará a los caídos. ¡Por Torm, acabaré con ustedes!~ */
-== MAZZYJ IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @30 /* ~Tranquilo, perrito. Pese a que tu amigo elfo caiga en batalla, estoy segura de que Michelson podrá traerlo de vuelta. Por ahora, debemos concentrarnos en ganar.~ */
-== ANOMENJ IF ~InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @31 /* ~Al fin podremos destajar a estos malnacidos hechiceros. ¡Dusk, déjame a ese petulante Encantador!~ */
-== NALIAJ IF ~InParty("Nalia") InMyArea("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID)~ THEN @32 /* ~¿Cuántos inocentes han caído por culpa de estos nigromantes? Es hora de ajustar cuentas. ¡La magia no debe ser inherentemente malvada, os lo demostraré! ~ */
-== JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @33 /* ~La muerte viviente es una afrenta a la naturaleza, Anthagar... por eso es que en nombre de Silvanus, tu camino llegará hasta aquí. ¡Por los caídos!~ */
-== CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @34 /* ~¡Vuestra abominación acaba aquí, hechicero! Rugiremos como el vendaval de primavera y nuestros actos harán eco incluso en las penumbras de este páramo antinatural. Vamos, pequeño Demoledor. ¡A la batalla!~ */
-== VALYGARJ IF ~InParty("Valygar") InMyArea("Valygar") !StateCheck("Valygar",CD_STATE_NOTVALID)~ THEN @35 /* ~Demoledor, Dusk, será un honor luchar a vuestro lado. ¡No permitiré que surja otro Lavok en Amn! ¡A combatir!~ */
-== VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @36 /* ~Estos "faern" están locos. Será un deleite derrotarlos para ti, Dusk. Y serán una hermosa ofrenda a Shar.~ */
-== EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @37 /* ~Finalmente, hombre del palito. ¡Mi momento de brillar ha llegado! Estos magos de pacotilla sabrán que no deben cruzar a Edwin Odesseiron (Os lo demostraré...).~ */
-== KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @38 /* ~¡Basta de cháchara! Es hora de partir cabezas con mi hacha. Patas largas, déjame a ese mago elfo afeminado. Su cabeza será un hermoso trofeo.~ */
-== JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @39 /* ~Bueno, supongo que no querrás que te cuente una historia antes de una batalla, ¿no?~ */
-== P_DuskJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @40 /* ~Has adivinado, mi inteligente amigo. Prometo comprarte cerveza de nabos cuando esto termine.~ */
-== JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @41 /* ~Eso me gusta, Duskito. Eso me gusta. Ahora, manos a la obra: hay humanos que deben probar la efectividad de mi ballesta.~ */
-== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @42 /* ~¡Vaya, vaya! Combates así he tenido en otros planos, mi buen canario blanco. Pero no de este calibre. ¡Esto será digno de componer una o dos canciones!~ */
-== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @43 /* ~¡Muy bien, Dusk! Haré lo que pueda para ayudarte. Sólo recuerda que me debes algunas galletas de esas que sueles comprar cuando todo esto termine, ¿sí?~ */
-== p_sornhi IF ~~ THEN @44 /* ~Ha llegado la hora, soldado... y hablando de soldados... He logrado encantar a un par de guardias de Amn y un Encapuchado... Son de la élite, como verás en tan sólo unos segundos...~ */ DO~Enemy()~
-== p_valata IF ~~ THEN @45 /* ~Capitán, vengaré a Puki. Verás cómo aún tengo algunos fieles servidores bajo mi tutela... están... detrás... de ti... ¡Ja, ja, ja!~ */ DO~Enemy()~
-== p_kaland IF ~~ THEN @46 /* ~Finalmente... para esta ocasión acudiré a una transformación especial... será algo único...~ */  DO ~DestroyItem("LICHEL01") CreateItem ("p_kasums",1,1,0)~
-== p_anthag IF ~~ THEN @47 /* ~No importa cuántos amigos tengas, Ardusk Aldant. Caerás... ¡todos caerán! Y finalmente... podrás reunirte con tu amada Celine... ¡en el Infierno que he creado para ustedes!~ */ DO~Enemy()~
-== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @48 /* ~Esto no es venganza, Anthagar... ¡Esto es justicia! Mathyus... si me escuchas... lo lamento, amigo... ¡Prometo que haremos lo posible para revivirte!~ */
-== p_matu2 IF ~~ THEN @49 /* ~(Mathyus, con sus ojos carentes de voluntad, tensa su arco y ves cómo los magos de la Cripta Olvidada sonríen. Saben que tendrás que acabar, también, con él.)~ */ DO~Enemy()~
+// GOOD 4
+I_C_T P_DEMOL2 15 P_Dusk_demol2d
+== p_demol2 IF ~~ THEN @3515 /* ~(Sus ojos brillantes esperan un apoyo incondicional)~ */
+== MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3491 /* ~No desesperes, mi querido amigo peludo. Minsc, Bubú y Dusk harán lo posible para vencer a los malos y lograr que tu dueño vuelva a tu lado. ¡A sus ojos, Bubú!~ */
+== AERIEJ IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @3492 /* ~Por Baervan, ustedes nigromantes no llegarán lejos. Quayle así lo querría. ¡Estoy lista!~ */
+== KELDORJ IF ~InParty("Keldorn") InMyArea("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @3493 /* ~<CHARNAME>, Dusk... es un honor estar a su lado. Nuestra victoria aquí honrará a los caídos. ¡Por Torm, acabaré con ustedes!~ */
+== MAZZYJ IF ~InParty("Mazzy") InMyArea("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID)~ THEN @3494 /* ~Tranquilo, perrito. Pese a que tu amigo elfo caiga en batalla, estoy segura de que Michelson podrá traerlo de vuelta. Por ahora, debemos concentrarnos en ganar.~ */
+== ANOMENJ IF ~InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @3495 /* ~Al fin podremos destajar a estos malnacidos hechiceros. ¡Dusk, déjame a ese petulante Encantador!~ */
+== NALIAJ IF ~InParty("Nalia") InMyArea("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID)~ THEN @3496 /* ~¿Cuántos inocentes han caído por culpa de estos nigromantes? Es hora de ajustar cuentas. ¡La magia no debe ser inherentemente malvada, os lo demostraré! ~ */
+== JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @3497 /* ~La muerte viviente es una afrenta a la naturaleza, Anthagar... por eso es que en nombre de Silvanus, tu camino llegará hasta aquí. ¡Por los caídos!~ */
+== CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @3498 /* ~¡Vuestra abominación acaba aquí, hechicero! Rugiremos como el vendaval de primavera y nuestros actos harán eco incluso en las penumbras de este páramo antinatural. Vamos, pequeño Demoledor. ¡A la batalla!~ */
+== VALYGARJ IF ~InParty("Valygar") InMyArea("Valygar") !StateCheck("Valygar",CD_STATE_NOTVALID)~ THEN @3499 /* ~Demoledor, Dusk, será un honor luchar a vuestro lado. ¡No permitiré que surja otro Lavok en Amn! ¡A combatir!~ */
+== VICONIJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @3500 /* ~Estos "faern" están locos. Será un deleite derrotarlos para ti, Dusk. Y serán una hermosa ofrenda a Shar.~ */
+== EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3501 /* ~Finalmente, hombre del palito. ¡Mi momento de brillar ha llegado! Estos magos de pacotilla sabrán que no deben cruzar a Edwin Odesseiron (Os lo demostraré...).~ */
+== KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @3502 /* ~¡Basta de cháchara! Es hora de partir cabezas con mi hacha. Patas largas, déjame a ese mago elfo afeminado. Su cabeza será un hermoso trofeo.~ */
+== JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3503 /* ~Bueno, supongo que no querrás que te cuente una historia antes de una batalla, ¿no?~ */
+== P_DuskJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3504 /* ~Has adivinado, mi inteligente amigo. Prometo comprarte cerveza de nabos cuando esto termine.~ */
+== JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3505 /* ~Eso me gusta, Duskito. Eso me gusta. Ahora, manos a la obra: hay humanos que deben probar la efectividad de mi ballesta.~ */
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @3506 /* ~¡Vaya, vaya! Combates así he tenido en otros planos, mi buen canario blanco. Pero no de este calibre. ¡Esto será digno de componer una o dos canciones!~ */
+== IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @3507 /* ~¡Muy bien, Dusk! Haré lo que pueda para ayudarte. Sólo recuerda que me debes algunas galletas de esas que sueles comprar cuando todo esto termine, ¿sí?~ */
+== p_sornhi IF ~~ THEN @3508 /* ~Ha llegado la hora, soldado... y hablando de soldados... He logrado encantar a un par de guardias de Amn y un Encapuchado... Son de la élite, como verás en tan sólo unos segundos...~ */ DO~Enemy()~
+== p_valata IF ~~ THEN @3509 /* ~Capitán, vengaré a Puki. Verás cómo aún tengo algunos fieles servidores bajo mi tutela... están... detrás... de ti... ¡Ja, ja, ja!~ */ DO~Enemy()~
+== p_kaland IF ~~ THEN @3510 /* ~Finalmente... para esta ocasión acudiré a una transformación especial... será algo único...~ */  DO ~DestroyItem("LICHEL01") CreateItem ("p_kasums",1,1,0)~
+== p_anthag IF ~~ THEN @3511 /* ~No importa cuántos amigos tengas, Ardusk Aldant. Caerás... ¡todos caerán! Y finalmente... podrás reunirte con tu amada Celine... ¡en el Infierno que he creado para ustedes!~ */ DO~Enemy()~
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3512 /* ~Esto no es venganza, Anthagar... ¡Esto es justicia! Mathyus... si me escuchas... lo lamento, amigo... ¡Prometo que haremos lo posible para revivirte!~ */
+== p_matu2 IF ~~ THEN @3513 /* ~(Mathyus, con sus ojos carentes de voluntad, tensa su arco y ves cómo los magos de la Cripta Olvidada sonríen. Saben que tendrás que acabar, también, con él.)~ */ DO~Enemy()~
 END
-
 
 // DUSK GOOD 3
 I_C_T P_DEMOL2 4 P_Dusk_demol2c

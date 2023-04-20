@@ -2263,7 +2263,9 @@ I_C_T P_MATUT 240 P_Dusk_GOOD_SALUS
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @318 /* ~¡Vaya! Es más ligera que antes... Gracias, amigos. Espero ser digno de ella.~ */
 END 
 
+// Corregir
 I_C_T P_MATUT 223 P_Dusk_GOOD_CON_P_RESTOS22
+== p_michel IF ~~ THEN @483 /* ~(El leprechaun escudriña el grupo de <CHARNAME> durante unos momentos)~ */
 == p_michel IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @265 /* ~(Michelson agita una pequeña botella azul. Mientras sonríe, se acerca corriendo y bailando hacia Minsc)~ */  DO ~ CreateItem ("p_POTN99",1,1,0)  GiveItem("p_POTN99", "Minsc") ~ 
 == MINSCJ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @266 /* ~¡Vaya! Gracias, pequeñuelo. La botella parece ser más pesada de lo que aparenta. ¡Minsc y Bubú te lo agradecen!~ */
 == p_michel IF ~InParty("Aerie") InMyArea("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @267 /* ~(Del cajón emanan algunas diminutas partículas brillantes, resultantes del conjuro que Michelson ha lanzado. Al cabo de unos segundos, extrae un extraño talismán, el cual entrega, ceremoniosamente, a Aerie)~ */  DO ~ CreateItem ("p_nbk02",1,1,0)  GiveItem("p_nbk02", "Aerie") ~ 

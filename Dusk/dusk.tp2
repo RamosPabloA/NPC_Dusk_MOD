@@ -2,7 +2,7 @@ BACKUP ~Dusk/Backup~
 
 AUTHOR ~Pol Rupes - pablo.alejandro.ramos@gmail.com~ 
 
-VERSION ~v0.9.1~
+VERSION ~v0.9.2~
 
 README ~Dusk/Readme-Dusk.txt~
 
@@ -136,6 +136,7 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Dialogue/P_DuskP.d~ 
     ~Dusk/Dialogue/KAYL2.d~
 	~Dusk/Dialogue/RIBALD.d~
+
     //Khan Zahra
 	~Dusk/Dialogue/TRGENI01.d~ // TESTING
 	//Testing BOY1
@@ -245,9 +246,22 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Scripts/p_matu2.baf~
 	~Dusk/Scripts/p_demol2.baf~
 	~Dusk/Scripts/p_valata.baf~
+	~Dusk/Scripts/p_sornhi.baf~
 	~Dusk/Scripts/p_miche2.baf~
 	~Dusk/Scripts/p_celin.baf~
 	~Dusk/Scripts/p_danct2.baf~
+
+	~Dusk/Dialogue/MAZZYJ.d~
+	~Dusk/Dialogue/KORGANJ.d~
+	~Dusk/Dialogue/YOSHJ.d~
+	~Dusk/Dialogue/MINSCJ.d~
+	~Dusk/Dialogue/AERIEJ.d~
+
+//EXTEND_TOP ~MAZZYJ.dlg~ ~Dusk/Dialogue/MAZZYJ.d~
+//EXTEND_TOP ~KORGANJ.dlg~ ~Dusk/Dialogue/KORGANJ.d~
+//EXTEND_TOP ~YOSHJ.dlg~ ~Dusk/Dialogue/YOSHJ.d~
+//EXTEND_TOP ~MINSCJ.dlg~ ~Dusk/Dialogue/MINSCJ.d~
+//EXTEND_TOP ~AERIEJ.d~ ~Dusk/Dialogue/AERIEJ.d~
 
 EXTEND_TOP ~AR0700.bcs~ ~Dusk/Scripts/AR0700.baf~
 EXTEND_TOP ~AR0300.bcs~ ~Dusk/Scripts/AR0300.baf~
@@ -269,14 +283,14 @@ EXTEND_TOP ~AR1509.bcs~ ~Dusk/Scripts/AR1509.baf~
 // Dicho string reemplazado, tiene como condicional que Sarevok se encuentre en el grupo.
 // Como Sarevok no puede aparecer en Athkatla, es imposible que dicho di�logo se inicie.
 // Por lo que podremos hacer uso de dicho String para otros usos.
-STRING_SET_EVALUATE 26258 @2
-STRING_SET 26257 ~Jaheira! No... NOOOOooooooo!~
-STRING_SET_EVALUATE 26259 @1 //Minsc
-STRING_SET 26260 ~Aerie... No... Noooo... GRAAHH!!!~
-STRING_SET 26261 ~Imoen! IMOEN... Nooo!!!~
-STRING_SET 26262 ~Korgan! Grrr... No! Noo!!!~
-STRING_SET 48700 ~Oh, Nalia... NooOOOooooo!!!~
-STRING_SET 48705 ~Valygar, no... No... Noooo!!!~
+STRING_SET_EVALUATE 26258 @2 // Dusk Name
+STRING_SET_EVALUATE 26257 @200447 //~Jaheira! No... NOOOOooooooo!~
+STRING_SET_EVALUATE 26259 @200448 //Minsc
+STRING_SET_EVALUATE 26260 @200449 // ~Aerie... No... Noooo... GRAAHH!!!~
+STRING_SET_EVALUATE 26261 @200450 //~Imoen! IMOEN... Nooo!!!~
+STRING_SET_EVALUATE 26262 @200451 //~Korgan! Grrr... No! Noo!!!~
+STRING_SET_EVALUATE 48700 @200452 //~Oh, Nalia... NooOOOooooo!!!~
+STRING_SET_EVALUATE 48705 @200453 //~Valygar, no... No... Noooo!!!~
 
 // Aqu� agregamos las entradas que tendr� el diario. S�lo aplica para BG2EE. Para BGT con los comandos en los d files es suficiente
 ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
@@ -574,6 +588,29 @@ SAY DESC @200400 /* */
 COPY ~Dusk/Items/p_nalit.itm~ ~override~
 SAY NAME2 @200401 /*  */
 SAY DESC @200402 /* */
+
+// Guantes de Cuchillos Nocturnos (DORN)
+COPY ~Dusk/Items/p_dornbr.bam~ ~override~
+COPY ~Dusk/Items/p_dornbr.itm~ ~override~
+SAY NAME2 @3494 /* Guantes de Cuchillos Nocturnos */
+SAY DESC @3495 /* */
+
+// Poción de Magia Salvaje (NEERA)
+COPY ~Dusk/Items/p_neeptn.bam~ ~override~
+COPY ~Dusk/Items/p_neeptn.itm~ ~override~
+SAY NAME2 @3496 /* Poción de Magia Salvaje */
+SAY DESC @3497 /*  */
+SAY 318 @3498 /* Puntos de vida: +20 */
+SAY 366 @3499 /* Inteligencia: Aumentada en 1 punto */
+SAY 414 @3500 /* Constitución: Aumentada en 1 punto */
+
+// Poción de Luz Blanca (RASAAD)
+COPY ~Dusk/Items/p_rasptn.itm~ ~override~
+SAY NAME2 @3501 /* Poción de Luz Blanca */
+SAY DESC @3502 /*  */
+SAY 318 @3498 /* Puntos de vida: +20 */
+SAY 366 @3503 /* Constitution: Increased by 2 points */
+SAY 414 @3504 /* Resistance to Magic Damage: +%25 */
 
 ////////////////////////////////////////////
 

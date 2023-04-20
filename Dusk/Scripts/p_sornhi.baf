@@ -1,19 +1,19 @@
 IF
   Global ("P_Dusk_Mat2_hypno","GLOBAL",2)
-  Global ("P_Dusk_Valata_enem","GLOBAL",0)
+  Global ("P_Dusk_Sornhi_enem","GLOBAL",0)
 THEN
   RESPONSE #100
-	SetGlobal ("P_Dusk_Valata_enem","GLOBAL",1)
+	SetGlobal ("P_Dusk_Sornhi_enem","GLOBAL",1)
 	Enemy()
 	Continue()
 END
 
 IF
   Global ("P_Dusk_Danc_Multi","GLOBAL",2)
-  Global ("P_Dusk_Valata_enem","GLOBAL",0)
+  Global ("P_Dusk_Sornhi_enem","GLOBAL",0)
 THEN
   RESPONSE #100
-	SetGlobal ("P_Dusk_Valata_enem","GLOBAL",1)
+	SetGlobal ("P_Dusk_Sornhi_enem","GLOBAL",1)
 	Enemy()
 	Continue()
 END

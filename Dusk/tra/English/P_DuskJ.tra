@@ -1401,7 +1401,7 @@ The powerful shilmist elf."~
 @3442  = ~It's time for you to pay for what you've done, Jon Irenicus. For the justice of Athkatla, you will fall!~
 @3443  = ~This is as good a place as any to bring you down with our power, mage. The result will be the same: your death.~
 
-@3438  = ~So be it... Soldiers, form up! A tough battle awaits us...~
+@3438  = ~So be it... Soldiers, form up!~
 
 // NPCs
 @3439   = ~Dusk, <CHARNAME>, Minsc and Boo are ready to kick orc and troll butts!~
@@ -1447,7 +1447,6 @@ The powerful shilmist elf."~
 @3477   = ~Ahhh, white raven. You've fallen into a trap. But who am I to judge you? I myself have been in similar situations. Come, let's defeat these fools, so I can compose one or two songs about our feats.~
 @3478  = ~Oh, Dusk... you sure know how to make friends, huh? Very well, I'll help you face these monsters.~
 
-@3479  = ~Bark while you can, dog. Soon, your howls of pain will fill this filthy Mound.~
 
 // EE related code
 @3480  = ~Do you plan to attack the Order? I cannot allow it... they are my allies! <CHARNAME>, prepare yourself!~
@@ -1469,8 +1468,12 @@ The powerful shilmist elf."~
 
 @3490  = ~*sigh* It seems that the Promenade has become the epicenter of corrupted magic.~
 
+@3491  = ~Soon, your howls of pain will fill this filthy Mound.~
+@3492  = ~Bark while you can, dog.~
 
+@3493  = ~A tough battle awaits us...~
 
+@3494  = ~I need advice...~
 
 // JOURNAL ENTRIES
 @210007 = ~Dusk Aldant: The Renegades of Sothillis

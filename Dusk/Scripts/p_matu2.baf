@@ -13,3 +13,23 @@ THEN
   RESPONSE #100
     AttackReevaluate(LastSeenBy(Myself),1)
 END
+
+IF
+  Global ("P_Dusk_Mat2_hypno","GLOBAL",2)
+  Global ("P_Dusk_Mat2_enem","GLOBAL",0)
+THEN
+  RESPONSE #100
+	SetGlobal ("P_Dusk_Mat2_enem","GLOBAL",1)
+	Enemy()
+	Continue()
+END
+
+IF
+  Global ("P_Dusk_Danc_Multi","GLOBAL",2)
+  Global ("P_Dusk_Mat2_enem","GLOBAL",0)
+THEN
+  RESPONSE #100
+	SetGlobal ("P_Dusk_Mat2_enem","GLOBAL",1)
+	Enemy()
+	Continue()
+END

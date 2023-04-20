@@ -1420,7 +1420,6 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3477   = ~Ahhhh, cuervo blanco. Has caído en una trampa. Pero, ¿quién soy yo para juzgarte? Yo mismo me he visto en situaciones similares. Vamos, venzamos a estos insensatos, así puedo componer una o dos canciones sobre nuestras proezas.~
 @3478  = ~Oh, Dusk... tú sí que sabes hacer amistades, ¿eh? Vamos, que os ayudaré a enfrentar a estos monstruos.~
 
-@3479  = ~Ladra mientras puedas, perro. Pronto, tus aullidos de dolor inundaran este inmundo Túmulo.~
 
 // EE related code
 @3480  = ~¿Planeas atacar a la Orden? No puedo consentirlo... ¡son mis aliados! <CHARNAME>, ¡prepárate!~
@@ -1441,6 +1440,13 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3489  = ~¡<CHARNAME>, cuidado!~
 
 @3490  = ~*suspiro* Parece ser que el Paseo se ha convertido en el epicentro de magia corrupta.~
+
+@3491  = ~Pronto, tus aullidos de dolor inundaran este inmundo Túmulo.~
+@3492  = ~Ladra mientras puedas, perro.~
+
+@3493  = ~Una ardua batalla nos espera...~
+
+@3494  = ~Necesito consejos...~
 
 // JOURNAL ENTRIES
 @210007 = ~Dusk Aldant: Los renegados de Sothillis
