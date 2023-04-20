@@ -113,7 +113,7 @@ Pandemonium's gift: Pan's Lullaby by Javier Navarrete (perfomed by Erutan)
 Version 0.9.2
 **Bugs Fixed:**
 
-- Fixed custom item (_De'Arnise Mantle_) description for Nadia
+- Fixed custom item (_De'Arnise Mantle_) description for Nalia
 - Fixed several quest dialogs in order to reward player with custom items for Classic NPCs.
 - Fixed a bug that prevents the player to properly finish the final quest.
 
