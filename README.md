@@ -74,18 +74,24 @@ Is Dusk compatible Classic Edition?
 
 [![Facebook](https://img.shields.io/badge/Facebook-blue.svg)](https://www.facebook.com/bg2duskmod)
 
-## Version History
+## Current Release
 
-**Version 0.9.1**
-- Edited (nerfed) [several items for a better game balance](https://github.com/RamosPabloA/NPC_Dusk_MOD/issues/28 "several items for a better game balance")
-- Fixed several translation issues
-- WS Set usability fixes
-- Removed AMTGEN01.tra files since they were not needed
-- Created a hotkey (K) for solving an issue with dialogs being mixed up
+**Version 0.9.2**
 
-**Version 0.9.0**
-- Initial release
-- Complete translation to Spanish & English languages
+**Bugs Fixed:**
+- Fixed custom item (_De'Arnise Mantle_) description for Nadia
+- Fixed several quest dialogs in order to reward player with custom items for Classic NPCs.
+- Fixed a bug that prevents the player to properly finish the final quest.
+
+**Enhancements:**
+- Recompressed all music files using **wavc** to save lots of space and to make the mod compatible with BG EET.
+- The strings for Dusk’s passive ability (_Dusk Fury_) are now correctly shown.
+
+**New Features:**
+- Added EE Characters dialogs.
+- Added a script for Dusk to behave towards [Dorn](https://github.com/RamosPabloA/NPC_Dusk_MOD/blob/main/docs/images/screenshots/screenshot_07.jpg "Dorn") depending on the alignment (True Neutral or Neutral Good).
+
+For older releases and release notes, check the *Releases* page, [here](https://github.com/RamosPabloA/NPC_Dusk_MOD/releases/ "here")
 
 ## Credits
 
