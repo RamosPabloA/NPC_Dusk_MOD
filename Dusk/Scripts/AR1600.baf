@@ -5,7 +5,7 @@ Global("P_DUSK_IS_EVIL","GLOBAL",1)
 Global("P_DUSK_IS_GOOD","GLOBAL",1)
 THEN
 RESPONSE #100
-CreateCreature("p_kaland",[1797.455],4)  
+CreateCreature("p_kalan2",[1797.455],4)  
 SetGlobal("P_KalandaSpawn","GLOBAL",1)
 Continue()
 END

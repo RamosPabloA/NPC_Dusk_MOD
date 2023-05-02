@@ -1100,6 +1100,31 @@ I_C_T P_DANCTI 12 P_Dusk_EVIL2
 == IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @162 /* ~Hm... no sé si pueda decir que eso me hace sentir segura, señor sombra.~ */
 == p_dancti IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @163 /* ~Descuida, no albergo malas intenciones contigo. De hecho, este tomo divino es para ti.~ */ DO ~ CreateItem ("p_nbk08",1,1,0)  GiveItem("p_nbk08", "Imoen2") ~
 == IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @164 /* ~¿Un tomo divino? Pues... gracias, supongo.~ */
+
+
+
+== p_dancti IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @484 /* ~Ah, Guardia Negro. Tu camino de violencia y venganza es bienvenido a los principios del Pandemonium. Estimo que las Botas de la Cuchilla Nocturna te serán de utilidad.~ */ DO ~ CreateItem ("p_dornbr",1,1,0)  GiveItem("p_dornbr", "Dorn") ~
+== DORNJ IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @485 /* ~Tenlo por seguro, demonio.~ */
+
+== p_dancti IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @486 /* ~El monje del Alma Solar... Sólo puedo imaginar el desagrado en tu mente al hacerte la idea de recibir ayuda de las Sombras. Pero Shar no es mi señor... No, sólo el Caos. Toma esta poción de luz. Será un placer deshacerme de ella.~ */ DO ~ CreateItem ("p_rasptn",1,1,0)  GiveItem("p_rasptn", "Rasaad") ~
+== RASAADJ IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @487 /* ~No confío en ti, demonio. Pero si <CHARNAME> y Dusk lo hacen... Entonces aceptaré. Ya veremos después si decido usarla o no...~ */
+
+
+== p_dancti IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @488 /* ~¡Qué maravilla es observar tus conjuros salvajes, semielfa! Esta poción te servirá a tus propósitos. Sigue el camino del Caos.~ */ DO ~ CreateItem ("p_neeptn",1,1,0)  GiveItem("p_neeptn", "Neera") ~
+== NEERAJ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @489 /* ~¿Que siga qué? Ehm... bueno, gracias supongo. Tiene un aroma muy... particular.~ */
+
+
+== p_dancti IF ~InParty("Hexxat") InMyArea("Hexxat") !StateCheck("Hexxat",CD_STATE_NOTVALID)~ THEN @490 /* ~Alguien como tú no requiere de mucha ayuda, ¿verdad, vampiresa? Sin embargo, puede que esto pueda ser apreciado por alguien como tú. Seguiré tu camino desde las Sombras.~ */ DO ~ CreateItem ("p_hexx",1,1,0)  GiveItem("p_hexx", "Hexxat") ~
+== HEXXATJ IF ~InParty("Hexxat") InMyArea("Hexxat") !StateCheck("Hexxat",CD_STATE_NOTVALID)~ THEN @491 /* ~Haz lo que quieras, Danctian. Tomaré lo que me ofreces, ya que percibo un dulce aroma y promesa de poder en ello.~ */
+
+
+== p_dancti IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @492 /* ~Wilson, criatura de la naturaleza salvaje. Tengo algo para ti que puede ser de tu agrado. Aliméntate y sé más poderoso que nunca.~ */ DO ~ CreateItem ("p_wils",1,1,0)  GiveItem("p_wils", "Wilson") ~
+== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @493 /* ~(Gruñido)~ */
+== p_dancti IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @494 /* ~¿Que si tengo más? Esas... son todas las que tengo, pero te aseguro que saciarán tu hambre.~ */
+== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @263 /* ~(Lamento)~ */
+
+
+
 == p_dancti IF ~~ THEN @78 /* ~Ardusk, para ti tengo ésto: la gema del Dragón Púrpura. Con ella podemos mejorar la Espada de Disrupción o la Armadura de Cormyr, depende de lo que elijas. Está claro que debes tener alguno de los dos artefactos, ¿sí?~ */ DO ~ CreateItem ("p_gemdr1",1,1,0)  GiveItem("p_gemdr1", "P_Dusk") ~
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @79 /* ~Bien, Danctian. Llegado el momento, de seguro que <CHARNAME> me ayudará a elegir la opción correcta.~ */
 == p_dancti IF ~PartyHasItem("p_mano")~ THEN @80 /* ~Ah, ya veo, Ardusk... has traído la mano de Alabarza contigo... Has hecho como te he indicado. Bien, bien...~ */

@@ -1421,11 +1421,6 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3478  = ~Oh, Dusk... tú sí que sabes hacer amistades, ¿eh? Vamos, que os ayudaré a enfrentar a estos monstruos.~
 
 
-// EE related code
-@3480  = ~¿Planeas atacar a la Orden? No puedo consentirlo... ¡son mis aliados! <CHARNAME>, ¡prepárate!~
-
-@3481  = ~No me avergüenza decir que estoy acostumbrado a vagar por los árboles. Me recuerda a Shilmista.~
-@3482  = ~Esto es ridículo, <CHARNAME>. ¿Todo este lío por ese malnacido semiorco?~
 
 // Bodhi EVIL Path M2-Intro
 @3483  = ~Me da igual lo que elijas, <CHARNAME>. Me basta con acabar estos asuntos molestos con esta... esta inmunda criatura.~
@@ -1447,6 +1442,45 @@ Dusk ha logrado resolver el conflicto sin derramamiento de sangre. Si bien no pu
 @3493  = ~Una ardua batalla nos espera...~
 
 @3494  = ~Necesito consejos...~
+
+@3495  = ~(Wilson mueve sus orejas, demostrando confusión ante el chiste de <CHARNAME>)~ [BBEAR04]
+@3496  = ~(Gruñido, resoplido)~[BBEAR04]
+@3497  = ~¿Qué dices, Wilson? ¿Quieres devorarte a la gnoll?~
+@3498  = ~*gruñido* Será mejor que calmes a tu pulgoso amigo, soldado.~
+@3499  = ~(Gruñido, lamento)~[BBEAR09]
+@3500  = ~Tranquilo, Wilson, tranquilo... aguarda un instante... en tan sólo un momento veremos cómo se resuelve esto...~
+
+
+// EE related code
+@3501  = ~¿Planeas atacar a la Orden? No puedo consentirlo... ¡son mis aliados! <CHARNAME>, ¡prepárate!~
+
+@3502  = ~No me avergüenza decir que estoy acostumbrado a vagar por los árboles. Me recuerda a Shilmista.~
+@3503  = ~Esto es ridículo, <CHARNAME>. ¿Todo este lío por ese malnacido semiorco?~
+
+
+@3504  = ~Y en dicha confrontación, muchos murieron por su culpa. Fui testigo de ello. No merece piedad alguna.~
+@3505  = ~Hmpf. ¿De verdad vas a creerle a esta criatura, <CHARNAME>? Intenta justificar el daño que se te ha hecho de una manera casi patética.~
+
+//@3506  = ~¡Muere, demonio! ¡Paga por la muerte de nuestra compañera!~
+//@3507  = ~Tendré tu cabeza, demonio. ¡Nadie nos engaña y sale impune en el acto!~
+
+@3508  = ~¿Tiene sentido confiar en una vampiro? ¡Acaba de asesinar a una de nuestras compañeras! Esto no me gusta nada, <CHARNAME>.~
+
+// ALABARZA EE Characters
+@3509  = ~Esto será un buen entrenamiento para mis facultades. ¡Venga! Alimentad a mi espada...~
+@3510  = ~Muy bien, Dusk. Ha llegado la hora de tu venganza. ¡Haré lo que pueda para ayudarte a completarla!~
+@3514  = ~Ehrm... bueno, no es que quiera presumir, pero en este tipo de batallas realmente puedo ser decisiva. ¡A por ellos!~
+@3512  = ~Bien, bien... no me llama la atención beber sangre humanoide... pero puede que esta vez haga una excepción.~
+@3513  = ~(GRUÑIDO)~ [BBEAR09]
+@3515  = ~~
+@3516  = ~~
+@3517  = ~~
+@3518  = ~~
+@3519  = ~~
+
+
+
+
 
 // JOURNAL ENTRIES
 @210007 = ~Dusk Aldant: Los renegados de Sothillis

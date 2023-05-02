@@ -30,6 +30,20 @@ SetGlobal("P_DemoleSpawn2","GLOBAL",1)
 Continue()
 END
 
+// parche para destruir Orbe Teleportador
+IF
+PartyHasItem("p_orbet1")
+Global("P_DuskMatMission3","GLOBAL",9)
+Global("P_DuskOrbeT1_DestroyPatch","GLOBAL",0)
+THEN
+RESPONSE #100
+TakePartyItem ("p_orbet1")
+DestroyItem ("p_orbet1")
+SetGlobal("P_DuskOrbeT1_DestroyPatch","GLOBAL",1)
+END
+
+
+
 IF
 Global("P_DanctianSpawn1","GLOBAL",0)
 Global("P_DanctianAppear","GLOBAL",3)

@@ -7,16 +7,16 @@ END
 
 IF
 !StateCheck(Myself,CD_STATE_NOTVALID)
-CombatCounter(0) 
-!See([ENEMY])
+//CombatCounter(0) 
+//!See([ENEMY])
 See("P_Dusk")
 Global("P_Dusk_AnthagarMet","GLOBAL",0)
 THEN
 RESPONSE #100
-  StartCutSceneMode()
-  Wait(3) 
+  //StartCutSceneMode()
+  //Wait(3) 
   SetGlobal("P_Dusk_AnthagarMet","GLOBAL",1)
-  EndCutSceneMode()
+  //EndCutSceneMode()
   StartDialogueNoSet(Player1)
 END
 

@@ -1658,9 +1658,11 @@ END*/
 IF
 //Global("OHD_anomenkeldorninterject","GLOBAL",1)
 Global("P_DUSK_IS_EVIL","GLOBAL",0)
+//Global("P_Dusk_DornEnemyByPass","GLOBAL",0)
 InMyArea("Dorn")
 AreaCheck("AR0900")
 Global("P_Dusk_DornEnemy","GLOBAL",0)
+GlobalLT("OHD_WEDDING_START","GLOBAL",1)
 OR(2)
 Allegiance("Keldorn",ENEMY)
 Allegiance("Anomen",ENEMY)
@@ -1674,11 +1676,13 @@ AttackReevaluate("Dorn",30)
 END
 
 IF
+//Global("P_Dusk_DornEnemyByPass","GLOBAL",0)
 Global("OHD_PLOT","GLOBAL",1)
 Global("P_DUSK_IS_EVIL","GLOBAL",0)
 InParty("Dorn")
 AreaCheck("AR0900")
 Global("P_Dusk_DornEnemy","GLOBAL",0)
+GlobalLT("OHD_WEDDING_START","GLOBAL",1)
 THEN
 RESPONSE #100
 SetGlobal("P_Dusk_DornEnemy","GLOBAL",1)
@@ -1686,7 +1690,10 @@ StartDialogueNoSet(Player1)
 END
 
 IF
+GlobalLT("OHD_WEDDING_START","GLOBAL",1)
 Global("P_Dusk_DornEnemy","GLOBAL",2)
+InParty(Myself)
+AreaCheck("AR0900")
 THEN
 RESPONSE #100
 SetGlobal("P_Dusk_DornEnemy","GLOBAL",3)
@@ -1696,6 +1703,31 @@ Enemy()
 AttackReevaluate("Dorn",30)
 END
 
+IF
+//Global("P_Dusk_DornEnemyByPass","GLOBAL",0)
+Global("P_Dusk_DornEnemy","GLOBAL",2)
+!InParty(Myself)
+AreaCheck("AR0900")
+THEN
+RESPONSE #100
+SetGlobal("P_Dusk_DornEnemy","GLOBAL",3)
+ChangeAIScript("",DEFAULT)
+Enemy()
+AttackReevaluate("Dorn",30)
+END
+
+/*IF
+Global("P_Dusk_DornEnemy","GLOBAL",1)
+Global("P_Dusk_DornEnemyByPass","GLOBAL",0)
+!InParty(Myself)
+GlobalGT("OHD_WEDDING_START","GLOBAL",0)
+//AreaCheck("AR0900")
+THEN
+RESPONSE #100
+SetGlobal("P_Dusk_DornEnemy","GLOBAL",0)
+SetGlobal("P_Dusk_DornEnemyByPass","GLOBAL",1)
+END*/
+
 
 IF
 Global("OHD_GORGE_NTRJEX","OH5100",1)
@@ -1704,5 +1736,20 @@ AreaCheck("OH5100")
 THEN
 RESPONSE #100
 SetGlobal("P_DUSK_OHD5100","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+
+IF
+Global("P_DUSK_OHD7000","GLOBAL",0)
+Global("P_DUSK_IS_EVIL","GLOBAL",0)
+Global("OHH_hexmove","OH7000",1)
+!See([ENEMY])
+See("Hexxat")
+Dead("OHHFAK")
+AreaCheck("OH7000")
+THEN
+RESPONSE #100
+SetGlobal("P_DUSK_OHD7000","GLOBAL",1)
 StartDialogueNoSet(Player1)
 END

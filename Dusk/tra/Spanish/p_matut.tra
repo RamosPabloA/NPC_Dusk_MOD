@@ -519,14 +519,24 @@ Anthagar."~
 @481 = ~Y recuerden: Pueden volver a nosotros a forjar artefactos, también, cuando quieran. Mientras tanto... ¡os deseo salud y libertad!~
 @482 = ~Está más que bien, Mathyus.~
 @483 = ~(El leprechaun escudriña el grupo de <CHARNAME> durante unos momentos)~
-@484 = ~~
-@485 = ~~
-@486 = ~~
-@487 = ~~
-@488 = ~~
-@489 = ~~
+
+@484 = ~(El leprechaun se detiene y su faz se torna seria. Observa con cierta timidez a Dorn. Al cabo de unos segundos, extrae del cargamento unos oscuros guanteletes y se las lleva al semiorco)~
+@485 = ~¿Hm? ¿Unos guanteletes? Supongo que servirán...~
+
+@486 = ~(Michelson junta sus manos y las sacude, saliendo de ellas unos brillantes polvillos que caen sobre una botella vacía. Sorprendentemente, la misma parece llenarse de un líquido tan brillante que debes escudriñar para no lastimar tus ojos)~
+@487 = ~El brillo es enceguecedor, Michelson. Gracias, estoy seguro de que nos será muy útil.~
+
+@488 = ~(El pequeño observa a Neera. Del cargamento saca una botella gigantesca y pulveriza varias gemas como si de caramelos se tratasen. La poción parece llenarse al cabo de unos segundos y se la lleva a la semielfa con gran ceremonia)~
+@489 = ~¡Vaya, Michelson! Gracias por... ehrm... esta... poción. Espero no terminar con una indigestión.~
 
 
+@491 = ~Te ha costado soltar esto, ¿verdad, pequeño? No te preocupes. Hexxat le dará buen uso.~
+
+@492 = ~(Michelson observa durante unos segundos a Wilson y se estremece cuando este último se relame al verlo. Rápidamente, de su chaleco, extrae una brillante rama con frutos morados en ella. Con rapidez se dirige al oso pardo y le acerca los frutos silvestres)~
+@493 = ~(Bufido).~ [BBEAR09]
+@494 = ~Erhm... supongo que es su forma de agradecerte, Michelson.~
+
+@495 = ~(Michelson mira con recelo a Hexxat. Luego a <CHARNAME>. Entiende que su presencia, es requerida por el Engendro de Bhaal, por lo que, de mala gana, saca una poción carmesí del cargamento cormyreano)~ ~(Michelson mira con recelo a Hexxat. Luego a <CHARNAME>. Entiende que su presencia, es requerida por la Engendro de Bhaal, por lo que, de mala gana, saca una poción carmesí del cargamento cormyreano)~
 
 
 @210029 = ~Dusk Aldant: La Venganza de la Primera Espada
