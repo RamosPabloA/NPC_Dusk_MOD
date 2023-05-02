@@ -2902,11 +2902,38 @@ Peso: 10 lbs.~
 @3503  = ~Constitución: Aumentada en 2 puntos~
 @3504  = ~Resistencia al Daño Mágico: +%25~
 
-@3505  = ~~
-@3506  = ~~
-@3507  = ~~
-@3508  = ~~
-@3509  = ~~
+@3505  = ~Poción de Líquido Rubí~
+@3506  = ~Poción de Líquido Rubí
+
+El contenido de la botella te suena misteriosamente a algo conocido. ¿Puede que sea sangre? De todas formas, parece estar destinada solamente a Hexxat.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Puntos de vida: +35
+
+
+Peso: 10 lbs.~
+@3507  = ~Puntos de vida: +35~
+
+
+@3508  = ~Flores y frutos invernales~
+@3509  = ~Flores y frutos invernales
+
+Las ramas y hojas tienen un color gélido y sientes escalofríos al tan solo tocarlas. Sus frutos son morados y emiten un aroma dulzón. Claramente es un alimento para osos, porque la mirada de Wilson hacia ti cuando las sostienes, sugieren que se los des para que pueda comerlas de una vez por todas.
+
+CARACTERÍSTICAS:
+
+Bonificadores permanentes:
+
+- Habilidad innata: Poolster.
+
+Peso: 1 lbs.~
+@3510  = ~Habilidad innata obtenida: Poolster~
+
+
+
 
 @200447 = ~¡Jaheira! No... ¡¡¡Noooo!!!~
 @200448 = ~Minsc... Bubú... No... ¡Pagarán por esto!~

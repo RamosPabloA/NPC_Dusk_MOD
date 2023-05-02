@@ -18,7 +18,7 @@
 @18   = ~You should be careful here. I sense... danger.~ [P_Dusk15]
 @19   = ~Today is a good day for a stroll. But remember, <CHARNAME>, we have a duty to fulfill.~
 @20   = ~The stars shine in the firmament, but beware! Not everything that glitters is gold...~
-@21   = ~What do you have in mind?~ [P_Dusk17]
+@21   = ~What's on your mind? ~ [P_Dusk17]
 @22   = ~Yes?~ [P_Dusk14]
 @23   = ~What do you want?~ [P_Dusk27]
 
@@ -2770,12 +2770,37 @@ Permanent bonuses:
 Weight: 10 lbs.~
 @3503  = ~Constitution: Increased by 2 points~
 @3504  = ~Resistance to Magic Damage: +%25~
-@3505  = ~~
-@3506  = ~~
-@3507  = ~~
-@3508  = ~~
-@3509  = ~~
 
+
+@3505 = ~Ruby Liquid Potion~
+@3506 = ~Ruby Liquid Potion
+
+The contents of the bottle mysteriously remind you of something familiar. Could it be blood? In any case, it seems to be intended only for Hexxat.
+
+FEATURES:
+
+Permanent bonuses:
+
+- Hit points: +35
+
+Weight: 10 lbs.~
+@3507 = ~Hit points: +35~
+
+
+@3508 = ~Winter flowers and fruits~
+@3509 = ~Winter flowers and fruits
+
+The branches and leaves have a frosty color, and you feel a chill just by touching them. Their fruits are purple and emit a sweet scent. Clearly, it's food for bears, because Wilson's gaze towards you when you hold them suggests that you should give them to him so he can eat them all at once.
+
+STATISTICS:
+
+Permanent bonuses:
+
+- Innate ability: Poolster.
+
+Weight: 1 lbs.~
+
+@3510 = ~Innate ability obtained: Poolster~
 
 
 

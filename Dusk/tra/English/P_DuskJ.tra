@@ -1007,7 +1007,7 @@ Mathyus, the powerful guardian elf of Shilmista."~
 @3096  = ~What we have to do is clear: we must hunt down these creatures. I will give justice to my fallen comrades.~
 @3097  = ~Mathyus, we've talked about it already. Now, as you promised me... give me the location of this tribe.~
 
-@3099  = ~hank you, Mathyus... really.~
+@3099  = ~Thank you, Mathyus... really.~
 @3100  = ~Don't worry, friend. <CHARNAME> travels with me... and I count on their advice in difficult times.~
 @3101  = ~So be it, Mathyus. Rest assured we'll come back... victorious.~
 
@@ -1448,12 +1448,6 @@ The powerful shilmist elf."~
 @3478  = ~Oh, Dusk... you sure know how to make friends, huh? Very well, I'll help you face these monsters.~
 
 
-// EE related code
-@3480  = ~Do you plan to attack the Order? I cannot allow it... they are my allies! <CHARNAME>, prepare yourself!~
-
-@3481  = ~I'm not ashamed to say that I'm used to wandering through the trees. It reminds me of Shilmista.~
-@3482  = ~This is ridiculous, <CHARNAME>. All this fuss over that wretched half-orc?~
-
 // Bodhi EVIL Path M2-Intro
 @3483  = ~I don't care what you choose, <CHARNAME>. It's enough for me to finish these annoying affairs with this... this filthy creature.~
 @3484  = ~Working for this vermin is bad enough. I'd prefer something that isn't malevolent, <CHARNAME>.~
@@ -1474,6 +1468,42 @@ The powerful shilmist elf."~
 @3493  = ~A tough battle awaits us...~
 
 @3494  = ~I need advice...~
+
+@3495  = ~(Wilson moves his ears, showing confusion at <CHARNAME>'s joke)~ [BBEAR04]
+@3496  = ~(Growling, snorting)~ [BBEAR04]
+@3497  = ~What do you say, Wilson? Do you want to devour the gnoll?~
+@3498  = ~*growling* You better calm down your hairy friend, soldier.~
+@3499  = ~(Growling, whining)~ [BBEAR09]
+@3500  = ~Easy, Wilson, easy... wait a moment... in just a moment we will see how this resolves...~
+
+// EE related code
+@3501  = ~Do you plan to attack the Order? I cannot allow it... they are my allies! <CHARNAME>, prepare yourself!~
+
+@3502  = ~I'm not ashamed to say that I'm used to wandering through the trees. It reminds me of Shilmista.~
+@3503  = ~This is ridiculous, <CHARNAME>. All this fuss over that wretched half-orc?~
+
+
+
+
+@3504 = ~And in that confrontation, many died because of his fault. I witnessed it. He deserves no mercy.~
+@3505 = ~Hmpf. Are you really going to believe this creature, <CHARNAME>? He's trying to justify the damage that has been done to you in an almost pathetic way.~
+
+//@3506 = ~Die, demon! Pay for the death of our comrade!~
+//@3507 = ~I'll have your head, demon. Nobody deceives us and gets away with it!~
+@3508 = ~Does it make sense to trust a vampire? She just murdered one of our comrades! I don't like this at all, <CHARNAME>.~
+
+// ALABARZA EE Characters
+@3509 = ~This will be a good training for my skills. Come on! Feed my sword...~
+@3510 = ~Very well, Dusk. The time has come for your revenge. I'll do what I can to help you achieve it!~
+@3514 = ~Erhm... well, I don't mean to brag, but in this type of battles, I can really make a difference. Let's go get them!~
+@3512 = ~Alright, alright... I'm not particularly fond of drinking humanoid blood... but I might make an exception this time.~
+@3513 = ~(GROWL)~ [BBEAR09]
+
+@3515  = ~~
+@3516  = ~~
+@3517  = ~~
+@3518  = ~~
+@3519  = ~~
 
 // JOURNAL ENTRIES
 @210007 = ~Dusk Aldant: The Renegades of Sothillis

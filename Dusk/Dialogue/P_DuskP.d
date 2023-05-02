@@ -68,6 +68,14 @@ SAY @9 /* Esperaré aquí, entonces. */
 IF ~~ EXIT
 END
 
+// GOOD/NEUTRAL
+IF ~Global("P_Dusk_DornEnemy","GLOBAL",1)~ THEN BEGIN 334 // from:
+  SAY @3501 /* ~¿Planeas atacar a la Orden? No puedo consentirlo... ¡son mis aliados! <CHARNAME>, ¡prepárate!~ */
+  IF ~~ THEN DO ~SetGlobal("P_Dusk_DornEnemy","GLOBAL",2)~
+ EXIT
+END
+
+
 ///////////////////////////////
 // EVIL
 IF ~Global("P_DuskKickedOut","GLOBAL",1) Global ("P_DUSK_IS_EVIL","GLOBAL",1)~ b13

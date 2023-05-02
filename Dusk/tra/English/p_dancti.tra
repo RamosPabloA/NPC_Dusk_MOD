@@ -318,6 +318,33 @@
 @261  = ~If you value this plane, you must use all of your strength to stop him.~
 @262  = ~*Danctian scrutinizes the group for a few moments*~
 
+
+@484 = ~Ah, Blackguard. Your path of violence and vengeance is welcomed by the principles of Pandemonium. I estimate that the Night Knives Gloves will be useful to you.~
+@485 = ~Rest assured, demon.~
+
+@486 = ~The monk of the Sun Soul... I can only imagine the disgust in your mind at the thought of receiving aid from the Shadows. But Shar is not my lord... No, only Chaos. Take this potion of light. It will be a pleasure to be rid of it.~
+@487 = ~I don't trust you, demon. But if <CHARNAME> and Dusk do... Then I'll accept it. We'll see later if I decide to use it or not...~
+
+@488 = ~What a marvel it is to witness your wild spells, half-elf! This potion will serve your purposes. Follow the path of Chaos.~
+@489 = ~Follow what? Um... well, thanks I guess. It has a very... distinctive aroma.~
+
+@490 = ~Someone like you doesn't require much help, is that so, vampire? However, this may be appreciated by someone like you. I will observe your path from the Shadows.~
+@491 = ~Do as you please, Danctian. I'll take what you offer, since I sense a sweet aroma and promise of power in it.~
+
+@492 = ~Wilson, creature of the wild nature. I have something for you that may be to your liking. Feed and be more powerful than ever.~
+@493 = ~(Growl)~ [BBEAR09]
+@494 = ~What do you mean by "If I have more"? Those... are all that I have, but I assure you they will satisfy your hunger.~
+@263 = ~(Moan)~ [BBEAR04]
+
+@495 = ~~
+@496 = ~~
+@497 = ~~
+@498 = ~~
+@499 = ~~
+
+
+
+
 @210034 = ~Dusk Aldant: The Revenge of the First Sword
 
 After the surprising murder of the inhabitants of Shilmista, a shadowy demon appeared in the compound: Danctian Shadow. The creature indicated that it comes from Pandemonium and its origin derives from the Scarlet Orb that Sornhil knew how to deliver to Dusk. For some time, it had been whispering a plan into the Cormyrean's ear, which it revealed to us recently. The liberation of the demon and the murder of the Shilmistas. Now, we have the alliance of Danctian for a future confrontation against the mysterious Order of Mages that is pursuing Dusk. Only time will tell if our Wizard Slayer's decision was the right one.~

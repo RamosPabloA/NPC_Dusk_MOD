@@ -265,7 +265,7 @@
 @230 = ~At least... at least now he is at peace...~
 
 
-@232 = ~Dusk! You have survived... The defeat of Alabaster will mean one less problem for Amn and Tethyr, don't you think? You and <CHARNAME> have done well in eradicating their evil from this land.~
+@232 = ~Dusk! You have survived... The defeat of Alabarza will mean one less problem for Amn and Tethyr, don't you think? You and <CHARNAME> have done well in eradicating their evil from this land.~
 @233 = ~Well... yes, Mathyus...~
 @234 = ~*Michelson, who was smiling and dancing, seems confused by Dusk's deflated words*~
 @235 = ~What's wrong, Dusk? You seem hesitant.~
@@ -540,12 +540,27 @@ Anthagar."~
 @481 = ~And remember: you can come back to us to forge artifacts whenever you want. In the meantime... I wish you health and freedom!~
 @482 = ~It's more than good, Mathyus.~
 @483 = ~*The leprechaun scrutinizes <CHARNAME>'s group for a few moments.*~
-@484 = ~~
-@485 = ~~
-@486 = ~~
-@487 = ~~
-@488 = ~~
-@489 = ~~
+
+
+
+@484 = ~(The leprechaun stops and his face becomes serious. He looks somewhat timidly at Dorn. After a few seconds, he takes out some dark gloves from the cargo and hands them to the half-orc)~
+@485 = ~Hm? Gloves? I suppose they'll do...~
+
+@486 = ~(Michelson clasps his hands together and shakes them, producing some sparkling dust that falls onto an empty bottle. Surprisingly, the bottle seems to fill up with a liquid so bright that you have to squint to avoid hurting your eyes)~
+@487 = ~The glow is blinding, Michelson. Thank you, I'm sure it will be very useful to us.~
+
+@488 = ~(The little one looks at Neera. From the cargo, he takes out a giant bottle and pulverizes several gems as if they were candy. The potion seems to fill up after a few seconds and he ceremoniously hands it to the half-elf)~
+@489 = ~Wow, Michelson! Thank you for... uh... this... potion. I hope I don't end up with indigestion.~
+
+
+
+@491 = ~It was hard for you to let go of this, wasn't it, little one? Don't worry. Hexxat will put it to good use.~
+
+@492 = ~(Michelson looks at Wilson for a few seconds and shudders when the latter licks his lips at him. Quickly, from his vest, he takes out a shiny branch with purple fruits on it. He hurriedly approaches the brown bear and offers him the wild fruits)~
+@493 = ~(Growl)~ [BBEAR09]
+@494 = ~Erhm... I suppose that's his way of thanking you, Michelson.~
+
+@495 = ~(Michelson looks suspiciously at Hexxat. Then at <CHARNAME>. He understands that her presence is required by the Bhaalspawn, so reluctantly, he takes out a crimson potion from the Cormyrean cargo)~
 
 
 

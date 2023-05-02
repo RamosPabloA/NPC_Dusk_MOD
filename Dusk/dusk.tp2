@@ -2,7 +2,7 @@ BACKUP ~Dusk/Backup~
 
 AUTHOR ~Pol Rupes - pablo.alejandro.ramos@gmail.com~ 
 
-VERSION ~v0.9.2~
+VERSION ~v0.9.3~
 
 README ~Dusk/Readme-Dusk.txt~
 
@@ -222,7 +222,7 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	
 	// Scripts
 	~Dusk/Scripts/P_DuskS.baf~ // Dusk's script.
-	~Dusk/Scripts/P_DuskD.baf~ // Dusk's dream script for events at rest. If you want your NPC to talk to you at rest, add scripting here.
+	//~Dusk/Scripts/P_DuskD.baf~ // Dusk's dream script for events at rest. If you want your NPC to talk to you at rest, add scripting here.
 	~Dusk/Scripts/P_DuskF.baf~ // Dusk's "fixing" script. Remember how various modders advised you to "select your NPC and press K"? Well, that's how they do it.
 	
 	//~Dusk/Scripts/p_cutmic.baf~
@@ -250,18 +250,6 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Scripts/p_miche2.baf~
 	~Dusk/Scripts/p_celin.baf~
 	~Dusk/Scripts/p_danct2.baf~
-
-	~Dusk/Dialogue/MAZZYJ.d~
-	~Dusk/Dialogue/KORGANJ.d~
-	~Dusk/Dialogue/YOSHJ.d~
-	~Dusk/Dialogue/MINSCJ.d~
-	~Dusk/Dialogue/AERIEJ.d~
-
-//EXTEND_TOP ~MAZZYJ.dlg~ ~Dusk/Dialogue/MAZZYJ.d~
-//EXTEND_TOP ~KORGANJ.dlg~ ~Dusk/Dialogue/KORGANJ.d~
-//EXTEND_TOP ~YOSHJ.dlg~ ~Dusk/Dialogue/YOSHJ.d~
-//EXTEND_TOP ~MINSCJ.dlg~ ~Dusk/Dialogue/MINSCJ.d~
-//EXTEND_TOP ~AERIEJ.d~ ~Dusk/Dialogue/AERIEJ.d~
 
 EXTEND_TOP ~AR0700.bcs~ ~Dusk/Scripts/AR0700.baf~
 EXTEND_TOP ~AR0300.bcs~ ~Dusk/Scripts/AR0300.baf~
@@ -330,13 +318,7 @@ SAY 270 @200013 /*Tres niveles consumidos*/
 SAY 318 @200014 /*Dos niveles consumidos*/
 SAY 366 @200015 /*Un nivel consumido*/
 SAY 798 @2 /* */
-//test effect
-//LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 319 
-//special = RESOLVE_STR_REF (798) END
-//0x2c= GET_STRREF(@2 /* */) 0x2c END
-//GET_STRREF (@2) = 0x2c END
-//GET_STRREF 0x2c = (@2) END
-//0x2c = RESOLVE_STR_REF (@2 /* */) END
+
 
 // 2 - Espada Carmes� (EVIL PATH)
 COPY ~Dusk/Items/p_swevi1.itm~ ~override~
@@ -390,6 +372,8 @@ SAY 318 @200014 /*Dos niveles consumidos*/
 SAY 366 @200015 /*Un nivel consumido*/
 SAY 1086 @200415 /*Ralentizado */
 SAY 798 @2 /* */
+
+
 
 // 4 - LUX (GOOD PATH)
 COPY ~Dusk/Items/p_swgoo3.itm~ ~override~
@@ -612,6 +596,17 @@ SAY 318 @3498 /* Puntos de vida: +20 */
 SAY 366 @3503 /* Constitution: Increased by 2 points */
 SAY 414 @3504 /* Resistance to Magic Damage: +%25 */
 
+// Poción de Líquido Rubí (HEXXAT)
+COPY ~Dusk/Items/p_hexx.itm~ ~override~
+SAY NAME2 @3505 /* Poción de Líquido Rubí */
+SAY DESC @3506 /*  */
+SAY 222 @3507 /* Puntos de vida: +35 */
+
+// Flores y frutos invernales (WILSON)
+COPY ~Dusk/Items/p_wils.itm~ ~override~
+SAY NAME2 @3508 /* Flores y frutos invernales */
+SAY DESC @3509 /*  */
+SAY 222 @3510 /* Habilidad innata obtenida: Poolster */
 ////////////////////////////////////////////
 
 // Items for Kits:
@@ -1292,6 +1287,14 @@ WRITE_ASCII 0x248 ~p_kaland~ #8  // OVERRIDE SCRIPT
 COPY ~Dusk/Items/p_kasum1.itm~ ~override~
 COPY ~Dusk/Items/p_kasum2.itm~ ~override~
 
+// Kalanda, el Transmutador2
+COPY ~Dusk/Characters/p_kalan2.cre~ ~override~
+SAY NAME1 @200423 /* Kalanda, el Transmutador */
+SAY NAME2 @200423 /* Kalanda, el Transmutador */
+WRITE_ASCII 0x2cc ~p_kaland~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_kaland~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_kaland~ #8  // OVERRIDE SCRIPT
+
 // Convocaciones de Kalanda
 COPY ~Dusk/Characters/p_mephit.cre~ ~override~
 SAY NAME1 @200424 /* Diablillo enfermo */
@@ -1311,6 +1314,15 @@ SAY NAME2 @200426 /* Anthagar, el Nigromante */
 WRITE_ASCII 0x2cc ~p_anthag~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_anthag~ #8  // small portrait
 WRITE_ASCII 0x248 ~p_anthag~ #8  // OVERRIDE SCRIPT
+
+// Anthagar, el Nigromante
+COPY ~Dusk/Characters/p_antha2.cre~ ~override~
+SAY NAME1 @200426 /* Anthagar, el Nigromante */
+SAY NAME2 @200426 /* Anthagar, el Nigromante */
+WRITE_ASCII 0x2cc ~p_anthag~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_anthag~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_anthag~ #8  // OVERRIDE SCRIPT
+
 
 // Nombre de las convocaciones: Veneno, Muerte y Destrucci�n
 COPY ~Dusk/Characters/p_muerte.cre~ ~override~
@@ -1720,7 +1732,7 @@ COMPILE EVALUATE_BUFFER ~Dusk/Dialogue/P_BDus25.d~
 	~Dusk/Dialogue/P_Dus25P.d~
 
 	~Dusk/Scripts/P_Dus25S.baf~ 
-	~Dusk/Scripts/P_Dus25D.baf~
+
 
 // Baldur's Gate 2: Enhanced Edition
 ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
@@ -1860,12 +1872,12 @@ END // and here ends ToB content
 
 
 APPEND ~pdialog.2da~
-~P_Dusk        P_DuskP             P_DuskJ            P_DuskD~
+~P_Dusk        P_DuskP             P_DuskJ~
 UNLESS ~P_Dusk~
 UNLESS ~25POST~
 
 APPEND ~pdialog.2da~
-~P_Dusk        P_DuskP             P_DuskJ            P_DuskD             P_Dus25P             P_Dus25J             P_Dus25D       P_Dus25S~
+~P_Dusk        P_DuskP             P_DuskJ             P_Dus25P             P_Dus25J       P_Dus25S~
 UNLESS ~P_Dusk~
 IF ~25POST~
 
@@ -1875,6 +1887,7 @@ THEN BEGIN
   PRINT ~Adding crossmod between Dusk and Wilson~
 COMPILE ~%MOD_FOLDER%/dialogue/crossmod/bwilson.d~
 END
+
 // END Test Crossmods
 
 APPEND ~interdia.2da~

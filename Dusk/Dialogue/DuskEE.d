@@ -191,17 +191,17 @@ EXIT
 
 // WILSON J
 
-I_C_T P_DUSKJ 22 P_Dusk_NPC_Michelson_JOKES3_WIL
-== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @199 /* (Wilson mueve sus orejas, demostrando confusión ante el chiste de <CHARNAME>) */
-END
+//I_C_T P_DUSKJ 22 P_Dusk_NPC_Michelson_JOKES3_WIL
+//== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @199 /* (Wilson mueve sus orejas, demostrando confusión ante el chiste de <CHARNAME>) */
+//END
 
-I_C_T P_DUSKJ 84 P_Dusk_Mission2_Decision_WIL
-== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @201 /* (Gruñido, resoplido) */
-== P_DuskJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @202 /* ¿Qué dices, Wilson? ¿Quieres devorarte a la gnoll? */
-== p_ziben IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @203 /* *gruñido* Será mejor que calmes a tu pulgoso amigo, soldado. */
-== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @204 /* (Gruñido, lamento) */
-== P_DuskJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @205 /* Tranquilo, Wilson, tranquilo... aguarda un instante... en tan sólo un momento veremos cómo se resuelve esto... */
-END
+//I_C_T P_DUSKJ 84 P_Dusk_Mission2_Decision_WIL
+//== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @201 /* (Gruñido, resoplido) */
+//== P_DuskJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @202 /* ¿Qué dices, Wilson? ¿Quieres devorarte a la gnoll? */
+//== p_ziben IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @203 /* *gruñido* Será mejor que calmes a tu pulgoso amigo, soldado. */
+//== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @204 /* (Gruñido, lamento) */
+//== P_DuskJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @205 /* Tranquilo, Wilson, tranquilo... aguarda un instante... en tan sólo un momento veremos cómo se resuelve esto... */
+//END
 
 I_C_T NEEBER 10 P_DuskNEEBER8
 == WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @206 /* (Gruñido) (Ves cómo Wilson muestra los dientes a Niber) */
