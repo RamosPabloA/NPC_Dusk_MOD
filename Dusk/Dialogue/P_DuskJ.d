@@ -2190,7 +2190,7 @@ IF ~!InPartySlot(LastTalkedToBy,0) Name("P_Dusk",LastTalkedToBy)~ EXTERN TRGYP02
 END
 
 CHAIN TRGYP02 g1
-@0 /* Aún cuando ya no eres un mensajero de la paz, puedes lograr mucho si tu <LADYLORD> <CHARNAME> encamina su destino hacia la luz. Pero ten en cuenta, aún en la oscuridad puedes encontrar el camino que tanto buscas.. */
+@0 /* Aún cuando ya no eres un mensajero de la paz, puedes lograr mucho si tu <LADYLORD> <CHARNAME> encamina su destino hacia la luz. Pero ten en cuenta, aún en la oscuridad puedes encontrar el camino que tanto buscas... */
 == P_DuskJ @1 /* Un poco ambiguo, mi dama. Sin embargo, no haré oídos sordos a lo que me ha dicho. */ 
 EXIT
 

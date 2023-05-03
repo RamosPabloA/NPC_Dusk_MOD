@@ -1,4 +1,4 @@
-@0    = ~The Underdark... What a perfect place for our reunion, Dusk!~
+@0    = ~Even though you are no longer a messenger of peace, you can achieve much if your <LADYLORD> <CHARNAME> guides his destiny towards the light. But remember, even in darkness, you can find the path you have been searching for...~ ~Even though you are no longer a messenger of peace, you can achieve much if your <LADYLORD> <CHARNAME> guides her destiny towards the light. But remember, even in darkness, you can find the path you have been searching for...~
 @1    = ~A bit ambiguous, my lady. However, I won't turn a deaf ear to what you've said.~
 @2    = ~"Once there was a brave knight,
 though he dreamed of peace, his demeanor was severe.
@@ -1330,10 +1330,10 @@ The powerful shilmist elf."~
 
 //@3384  = ~Allí... en la oscuridad... ¿puedes verlo, <CHARNAME>?~
 
-@3385  = ~It seems he is aware of our movements, <CHARNAME>. He even knows how much gold we have. Err... an uncomfortable fact if you ask me...~
+@3385  = ~It seems she is aware of our movements, <CHARNAME>. She even knows how much gold we have. Err... an uncomfortable fact if you ask me...~
 @3386  = ~How does this woman know how much money we have? Damn it, <CHARNAME>. While supposedly offering the same as the Thieves for less money... This creature seems very... repugnant to me.~
 
-@3387  = ~Listen to me, runt! <CHARNAME> has decided to return the artifact because he believed it was the right thing to do. The least you should do is thank him on your knees. Would that cost you anything? I could help you. You'll see that my sword is a good incentive...~
+@3387  = ~Listen to me, runt! <CHARNAME> has decided to return the artifact because he believed it was the right thing to do. The least you should do is thank him on your knees. Would that cost you anything? I could help you. You'll see that my sword is a good incentive...~ ~Listen to me, runt! <CHARNAME> has decided to return the artifact because she believed it was the right thing to do. The least you should do is thank her on your knees. Would that cost you anything? I could help you. You'll see that my sword is a good incentive...~
 
 @3388  = ~You can't trust a djinn, <CHARNAME>. If you choose to pursue his prey, I suppose I can get behind that. But if it were up to me, I would exterminate them right here.~
 @3389  = ~Ha! Who would have thought? The djinn is willing to keep his word. I hope you do the same with what you promised me, huh?~
