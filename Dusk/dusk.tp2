@@ -1734,7 +1734,7 @@ COMPILE EVALUATE_BUFFER ~Dusk/Dialogue/P_BDus25.d~
 	~Dusk/Scripts/P_Dus25S.baf~ 
 
 
-// Baldur's Gate 2: Enhanced Edition
+// Baldur's Gate Trilogy: Enhanced Edition
 ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
 COMPILE	~Dusk/Dialogue/DuskEE.d~
 END
@@ -1877,7 +1877,7 @@ UNLESS ~P_Dusk~
 UNLESS ~25POST~
 
 APPEND ~pdialog.2da~
-~P_Dusk        P_DuskP             P_DuskJ             P_Dus25P             P_Dus25J       P_Dus25S~
+~P_Dusk P_DuskP P_DuskJ P_FallD P_Dus25P P_Dus25J P_Dus25D P_Dus25S~
 UNLESS ~P_Dusk~
 IF ~25POST~
 

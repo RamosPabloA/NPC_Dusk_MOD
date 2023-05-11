@@ -1483,7 +1483,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskFuryJaheira","GLOBAL",1)
-    DisplayStringHead(Myself,26257)
+    DisplayStringHead(Myself,@200447)
 	CreateItem ("p_fury",1,1,0)
 	UseItem ("p_fury", Myself)
 	Attack(LastAttackerOf("Jaheira"))
@@ -1509,7 +1509,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskFuryMinsc","GLOBAL",1)
-    DisplayStringHead(Myself,26259)
+    DisplayStringHead(Myself,@200448)
 	CreateItem ("p_fury",1,1,0)
 	UseItem ("p_fury", Myself)
 	Attack(LastAttackerOf("Minsc"))
@@ -1535,7 +1535,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskFuryAerie","GLOBAL",1)
-    DisplayStringHead(Myself,26260)
+    DisplayStringHead(Myself,@200449)
 	CreateItem ("p_fury",1,1,0)
 	UseItem ("p_fury", Myself)
 	Attack(LastAttackerOf("Aerie"))
@@ -1562,7 +1562,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskFuryImoen","GLOBAL",1)
-    DisplayStringHead(Myself,26261)
+    DisplayStringHead(Myself,@200450)
 	CreateItem ("p_fury",1,1,0)
 	UseItem ("p_fury", Myself)
 	Attack(LastAttackerOf("Imoen2"))
@@ -1586,7 +1586,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskFuryKorgan","GLOBAL",1)
-    DisplayStringHead(Myself,26262)
+    DisplayStringHead(Myself,@200451)
 	CreateItem ("p_fury",1,1,0)
 	UseItem ("p_fury", Myself)
 	Attack(LastAttackerOf("Korgan"))
@@ -1610,20 +1610,20 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskFuryNalia","GLOBAL",1)
-    DisplayStringHead(Myself,48700)
+    DisplayStringHead(Myself,@200452)
 	CreateItem ("p_fury",1,1,0)
 	UseItem ("p_fury", Myself)
 	Attack(LastAttackerOf("Nalia"))
 END
 
-// FURIA por muerte de Valygar "P_DuskImoen1"
+// FURIA por muerte de Valygar "P_DuskFuryValygar"
 IF
   InParty("Valygar") 
   !Dead("Valygar")
   Global("P_DuskFuryValygar","GLOBAL",1)
 THEN
   RESPONSE #100
-    SetGlobal("P_DuskFuryImoen","GLOBAL",0)
+    SetGlobal("P_DuskFuryValygar","GLOBAL",0)
 END
 
 IF
@@ -1637,7 +1637,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskFuryValygar","GLOBAL",1)
-    DisplayStringHead(Myself,48705)
+    DisplayStringHead(Myself,@200453)
 	CreateItem ("p_fury",1,1,0)
 	UseItem ("p_fury", Myself)
 	Attack(LastAttackerOf("Valygar"))

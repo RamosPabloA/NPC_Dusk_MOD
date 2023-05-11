@@ -8,6 +8,15 @@ StartCutSceneMode()
 StartCutScene("P_DuskF")
 END
 
+IF
+Global("P_Dusk_UpdateK","GLOBAL",1)
+THEN
+RESPONSE #100
+Wait (6)
+SetGlobal("P_Dusk_UpdateK","GLOBAL",0)
+END
+
+
 // Dusk talks immediately when summoned.
 IF
 Global("P_DuskSummoned","GLOBAL",1)
@@ -16,6 +25,15 @@ RESPONSE #100
 StartDialogueNoSet([PC])
 Wait(1)
 END
+
+IF
+  InParty(Myself)
+  Global("P_DuskEstablishingPartyIN","GLOBAL",0)
+THEN
+  RESPONSE #100
+	SetGlobal("P_DuskEstablishingPartyIN","GLOBAL",1)
+END
+
 
 // Alineamientos variables
 IF
@@ -52,7 +70,7 @@ InParty(Myself)
 Global("P_DuskTalkToB","GLOBAL",0)
 THEN
 RESPONSE #100
-RealSetGlobalTimer("P_DuskTimerToB","GLOBAL",1800)
+RealSetGlobalTimer("P_DuskTimerToB","GLOBAL",1800) //1800
 SetGlobal("P_DuskTalkToB","GLOBAL",1)
 END
 
@@ -129,3 +147,30 @@ PlaySong(0)
 PlaySound("P_DuskE")
 StartDialogueNoSet(Player1)
 END
+
+
+IF
+  InParty(Myself)
+  Global("P_DuskEstablishingDLGJ","GLOBAL",0)
+THEN
+  RESPONSE #100
+    //Dialogue(Player1)
+    //ChangeAIScript("",DEFAULT)
+    SetDialog("P_DUS25J")
+	SetGlobal("P_DuskEstablishingDLGJ","GLOBAL",1)
+	SetGlobal("P_DuskEstablishingDLGP","GLOBAL",0)
+END
+
+IF
+  !InParty(Myself)
+  Global("P_DuskEstablishingPartyIN","GLOBAL",1)
+  Global("P_DuskEstablishingDLGP","GLOBAL",0)
+THEN
+  RESPONSE #100
+    //Dialogue(Player1)
+    //ChangeAIScript("",DEFAULT)
+    SetDialog("P_DUSK25")
+	SetGlobal("P_DuskEstablishingDLGP","GLOBAL",1)
+	SetGlobal("P_DuskEstablishingDLGJ","GLOBAL",0)
+END
+

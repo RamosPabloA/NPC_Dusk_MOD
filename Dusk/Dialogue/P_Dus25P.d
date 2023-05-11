@@ -1,6 +1,3 @@
-// Read this after all SoA dialogue. Start reading with P_Dusk.d
-// This is a dialogue file for Dusk's kickout in ToB.
-
 BEGIN P_Dus25P
 
 IF ~Global("P_DuskToBKickedOut","GLOBAL",0)~ b1
