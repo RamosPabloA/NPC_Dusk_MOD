@@ -1,12 +1,6 @@
 BEGIN P_DuskJ
 
 
-// NIÑO AFUERA DE LA CARPA
-// Si quiero que se sume la charla tal cual estaba antes de Dusk, entonces se debe copiar el código TAL CUAL
-// está de su archivo original, inmediatamente después del diálogo y antes del END. Así, llamará a sus correspondientes
-// archivos externos d.
-// El archivo BOY1 nos servirá de ejemplo siguiendo el paradigma de este dialog armado, sin perder el interject idóneo del juego
-// Por supuesto, esto implica modificar también el archivo d origen (ej, en este caso: BOY1)
 IF ~~ THEN BEGIN 0 // from:
   SAY @20000 /* ~Rayos, <CHARNAME>. Que tengas tu propia búsqueda no implica que no puedas ayudar a los demás, en especial a un niño que ha perdido a su madre...~ */
 IF ~!IsValidForPartyDialog("Jaheira")
@@ -2004,8 +1998,8 @@ I_C_T P_DUSKJ 332 P_Dusk_GOOD_ALABAR1
 == WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @3513 /* ~(GRUÑIDO)~ */
 END
 
-// AR1506 ARRIVAL GOOD
-I_C_T P_DUSKJ 322 P_Dusk_GOOD_AR1506_1
+// AR1506 ARRIVAL EVIL
+I_C_T P_DUSKJ 322 P_Dusk_EVIL_AR1506_1
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @3420 /* No confío en estos magos, por lo que recomiendo proceder con cuidado. */
 == KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @3421 /* ¿Quién habría de hacerlo, patas flacas? No te preocupes, yo habré de cuidarte las espaldas si tanto te preocupa. Mi hacha siempre está sedienta de sangre arcana. */
 == CERNDJ IF ~InParty("Cernd") InMyArea("Cernd") !StateCheck("Cernd",CD_STATE_NOTVALID)~ THEN @3422 /* ~El ambiente es tétrico, Dusk. La energía de la naturaleza no es percibida en ningún lado. Actuar con cautela y lentitud, como si fuéramos un caracol, no sería una mala elección.~ */
@@ -2135,7 +2129,6 @@ END
 I_C_T P_DUSKJ 18 P_Dusk_NPC_Michelson_GOLD2_1
 == YOSHJ IF ~InParty("Yoshimo") InMyArea("Yoshimo") !StateCheck("Yoshimo",CD_STATE_NOTVALID)~ THEN @3021/* ~Bueno, eso ha sido un gasto excesivo de oro si me lo preguntas a mí. No te preocupes, <CHARNAME>. Siempre podemos 'reabastecernos' en el Distrito Gubernamental.~ */
 == EDWINJ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3022 /* Con un demonio, <CHARNAME>. ¿Cómo se te ocurre darle dinero a esa pulga verdosa? (¡Mejor me lo hubieras dado a mí!) */
-
 END
 
 I_C_T P_DUSKJ 20 P_Dusk_NPC_Michelson_BEER2
@@ -2195,8 +2188,6 @@ CHAIN TRGYP02 g1
 EXIT
 
 // Celvan el Loco
-////////////// OK!!! \\\\\\\\\\\\\\\\\
-
 CHAIN IF WEIGHT #-1 
 ~InParty("P_Dusk")
 See("P_Dusk")
@@ -2215,7 +2206,6 @@ DO ~SetGlobal("P_DuskReactionCelvan","AR0300",1)~
 END CELVAN 1
 
 // Madame Nin
-
 CHAIN IF WEIGHT #-1
 ~NumTimesTalkedTo(0) 
 Name("P_Dusk",LastTalkedToBy)
@@ -2305,19 +2295,16 @@ COPY_TRANS PLAYER1 33
 
 
 // Árbol de la vida. Irenicus es derrotado.
-
 I_C_T PLAYER1 16 P_DuskIrenicusIsDead1
 == P_DuskJ IF ~InParty("P_Dusk") Range("P_Dusk",15) !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @27 /* ¡Le hemos vencido! Pero... algo no está bien... ¿qué sucede? */
 END
 
 // Infierno
-
 I_C_T PLAYER1 25 P_DuskEnteringHell1
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @28 /* Una visión extraña, <CHARNAME>. ¿Me has traído a tu infierno personal? Si salimos de aquí con vida, puede que acepte que me compres una cerveza. */
 END
 
 // Combatiendo contra Irenicus
-
 I_C_T HELLJON 7 P_DuskThirdBattleWithIrenicus1
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @29 /* Desde el Paseo de Waukin no has hecho más que dejar un regadero de cadáveres en tu camino, Irenicus... tu egoísmo y maldad te han cegado por completo y muchos inocentes han pagado por ello. Pero hoy, los caídos tendrán su venganza. ¡Vamos, camaradas, a las armas! */
 END
@@ -2350,41 +2337,12 @@ I_C_T HELLJON 10 P_DuskThirdBattleWithIrenicus42
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",1)~ THEN @515 /* ¡Jon Irenicus, hoy será el último día de tu miserable existencia! Tu intento de acumular poder ha fracasado. ¡Caerás y nosotros obtendremos la gloria! Vamos, <CHARNAME>, acabemos con esta abominación... */
 END
 
-// Segunda transformación en El Asesino
-
-//INTERJECT Player1 7 P_DuskSecondSlayerChange0
-//== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) OR(2) Global("P_DuskRomanceActive","GLOBAL",1) Global("P_DuskRomanceActive","GLOBAL",2)~ THEN @30 /* ¿No puedes dormir? No es de sorprenderse. Las cosas que han pasado últimamente... espera, ¿te encuentras bien? De repente, tu rostro se ha empalidecido. */
-//END
-//++ @31 /* Algo está pasando en mi interior... ¡Huye! */ EXTERN P_DuskJ P_DuskSecondSlayerChange1
-//++ @32 /* Dusk, creo que me estoy transformando de nuevo... */ EXTERN P_DuskJ P_DuskSecondSlayerChange1
-//++ @33 /* ¡Sal de aquí, ahora! */ EXTERN P_DuskJ P_DuskSecondSlayerChange1
-
-//CHAIN P_DuskJ P_DuskSecondSlayerChange1
-//@34 /* N-no... no entiendo... ¿estás intentando decirme algo? */ 
-//DO ~SetGlobal("P_DuskSecondSlayerChange","GLOBAL",1)
-//ActionOverride(Player1,ReallyForceSpell(Myself,SLAYER_CHANGE))~
-//EXIT
-
-//INTERJECT Player1 10 P_DuskSlayerSurvived1
-//== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") //!StateCheck("P_Dusk",CD_STATE_NOTVALID) OR(2) //Global("P_DuskRomanceActive","GLOBAL",1) //Global("P_DuskRomanceActive","GLOBAL",2) //Global("P_DuskSecondSlayerChange","GLOBAL",1)~ THEN @35 /* <CHARNAME>... ¿te encuentras bien? Esta vez creí que no volverías a la normalidad... */
-//== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") //!StateCheck("P_Dusk",CD_STATE_NOTVALID) OR(2) //Global("P_DuskRomanceActive","GLOBAL",1) //Global("P_DuskRomanceActive","GLOBAL",2) //Global("P_DuskSecondSlayerChange","GLOBAL",1)~ THEN @36 /* No te preocupes... tengo la certeza de que encontraremos alguna solución a esto... quizás... quizás debas aprender a controlar este poder... Aunque, no sé si eso sea lo recomendable. Algo me dice que llamarías atención... indeseada. */
-//END
-//IF ~~ EXIT
-
-//EXTEND_BOTTOM Player1 10
-//IF ~Dead("P_Dusk") Global("P_DuskSecondSlayerChange","GLOBAL",1)~ EXTERN Player1 12
-//END
-
-
-
-////////////// OK!!! \\\\\\\\\\\\\\\\\
-
 // GAELAN BAYLE
-I_C_T GAELAN 12 P_DuskGAELAN
+I_C_T GAELAN 12 P_DuskGAELAN1
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @20001 /* Debemos ser cuidadosos. Estos son los Barrios Bajos, por lo que confiar en un extraño es algo potencialmente peligroso. Aún así, confío en mi fuerza. Si este pelmazo intenta algo raro, mi bastón le hará ver las estrellas. */
 END
 
-I_C_T GAELAN 87 P_DuskGAELAN
+I_C_T GAELAN 87 P_DuskGAELAN2
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @20002 /* Finalmente... conoceremos al líder de los Ladrones de las Sombras. Más vale que haga valer nuestros esfuerzos... */
 END
 
@@ -2399,8 +2357,6 @@ I_C_T vicg1 2 P_DuskVICONI132
 END
 
 // Xzar
-////////////// OK!!! \\\\\\\\\\\\\\\\\
-
 I_C_T LYROS 5 P_DuskLYROS5
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @61 /* (susurro) <CHARNAME>, claramente fuimos nosotros los que irrumpimos en su casa y matamos a esas viles criaturas. No es que me esté quejando, pero creo que aquí hay gato encerrado... Debemos estar atentos. */
 END
@@ -2410,8 +2366,6 @@ I_C_T LYROS 5 P_DuskLYROS52
 END
 
 // Faldorn
-////////////// OK!!! \\\\\\\\\\\\\\\\\
-
 I_C_T CERNDJ 69 P_DuskCEFALDOR9
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @62 /* Incluso yo puedo entender que esta Faldorn es una afrenta para la naturaleza. Usar a los animales para el asesinato por venganza es una maniobra soez y cobarde. Cernd, espero que puedas patearle el trasero. */
 END
@@ -2421,21 +2375,19 @@ I_C_T JAHEIRAJ 94 P_DuskCEFALDOR10
 END
 
 // Bodhi
-////////////// OK!!! \\\\\\\\\\\\\\\\\
-
 I_C_T BODHI 6 P_DuskBODHI10
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",1)~ THEN @3386 /* ¿Cómo sabe esta fulana de cuánto dinero disponemos? Rayos, <CHARNAME>. Si bien, supuestamente, ofrece lo mismo que los Ladrones por menos dinero... Esta criatura se me hace muy... repugnante. */
 END
 
-I_C_T BODHI 6 P_DuskBODHI10
+I_C_T BODHI 6 P_DuskBODHI101
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @3385 /* Al parecer está al tanto de nuestros movimientos, <CHARNAME>. Sabe hasta de cuánto oro disponemos. Err... un dato incómodo si a mí me lo preguntas... */
 END
 
-I_C_T BODHI 10 P_DuskBODHI10
+I_C_T BODHI 10 P_DuskBODHI102
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @63 /* <CHARNAME>, aliarnos con esta criatura supondrá inmiscuirnos directamente en una guerra abierta contra los Ladrones de las Sombras. Debemos ser cautos en nuestras próximas decisiones... puede que la vida de muchos inocentes estén en nuestras manos... Si hay una guerra, querría evitarla (aunque a estas alturas, parece casi imposible). */
 END
 
-I_C_T BODHI 10 P_DuskBODHI102
+I_C_T BODHI 10 P_DuskBODHI103
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",1)~ THEN @518 /* ¿Una alianza con esta... inmundicia? Aunque nos ofrezca un buen trato, no creo que valga la pena, <CHARNAME>. Si por mí fuera, la decapitaría aquí mismo. No merece otro destino... */
 END
 
@@ -2460,7 +2412,6 @@ I_C_T C6BODHI 15 P_DuskC6BODHI15
 END
 
 // El Ojo Ciego
-
 I_C_T GAAL 1 P_DuskGAAL1
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @68 /* Fanáticos... presiento que algo malo está por ocurrir aquí, <CHARNAME>... */
 END
@@ -2562,9 +2513,6 @@ END
 
 // Hendak y Lehtinian
 
-
-////////////// OK!!! \\\\\\\\\\\\\\\\\
-
 I_C_T LEHTIN 17 P_DuskLEHTIN17
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @83 /* Qué desagradable es este tipejo, <CHARNAME>. Sin embargo, será mejor que le sigas preguntando al respecto. Presiento que aquí pasa algo más de lo que vemos. */
 END
@@ -2658,7 +2606,7 @@ END
 
 I_C_T VAELASA 7 P_DuskVAELASA7
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @97 /* Es raro... pero siento una extraña nostalgia con sólo verlas... Son criaturas hermosas. 
-Has hecho bien en liberarlas, <CHARNAME>.  Pertenecen al bosque. Y a la libertad. */
+Has hecho bien en liberarlas, <CHARNAME>. Pertenecen al bosque. Y a la libertad. */
 END
 
 I_C_T FIRKRA02 7 P_DuskFIRKRA02
@@ -2794,7 +2742,7 @@ I_C_T SAHPR1 1 P_DuskSAHPR112
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",1)~ THEN @530 /* Este lugar es asqueroso. El hedor a pescado abunda. Las baldosas están pegajosas... Rayos, <CHARNAME>, estos lugares a los que nos traes... */
 END
 
-I_C_T SAHPR2 12 P_DuskSAHPR112
+I_C_T SAHPR2 12 P_DuskSAHPR1123
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @118 /* No me sorprende. <CHARNAME>, tu linaje de Bhaal seguro que tiene algo que ver. */
 END
 

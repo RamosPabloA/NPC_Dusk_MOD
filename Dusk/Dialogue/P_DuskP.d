@@ -2,12 +2,6 @@
 
 BEGIN P_DuskP
 
-// Dusk, por ahora, no abandonará el grupo si se encuentra disconforme con lo que sucede.
-//IF ~Global("P_DuskKickedOut","GLOBAL",0) HappinessLT(Myself,-299)~ b1
-//SAY @0 /*  */
-//IF ~~ DO ~EscapeArea()~ EXIT
-//END
-
 IF ~Global("P_DuskDUSKDIEDFinalMission","GLOBAL",0)
 Global("P_DuskKickedOut","GLOBAL",0)
 Global("P_Dusk_DornEnemy","GLOBAL",0)~ b2
