@@ -110,26 +110,43 @@ Pandemonium's gift: Pan's Lullaby by Javier Navarrete (perfomed by Erutan)
 6. Version History
 -------------------
 
-Version 0.9.2
-**Bugs Fixed:**
+Version 0.9.3
 
+Bugs Fixed:
+- Fixed several typos in some dialogs
+- Cleanup various .dlg files to avoid potential issues with cross-mods
+- Fixed Kalanda summoning
+- Fixed Anthagar and Kalanda encounters in which the player could attack them affecting the final quest
+- Fixed Dusk / Dorn interactions
+- Fixed functionality of Teleportation Orb
+- Fixed a bug when starting a new game in ToB
+- Fixed several variables that affected some Dusk’s dialogs
+
+Enhancements:
+- Improved custom items general properties and attributes
+- Resized several portraits for a better picture framing
+
+New Features:
+- Added an introductory reaction from Dusk towards Hexxat
+- Added new custom items for EE characters: Neera (Wild Magic Potion), Rasaad (White Light Potion), Dorn (Night Knives Gloves), Hexxat (Ruby Liquid Potion), Wilson (Winter flowers and fruits)
+
+Version 0.9.2
+
+Bugs Fixed:
 - Fixed custom item (_De'Arnise Mantle_) description for Nalia
 - Fixed several quest dialogs in order to reward player with custom items for Classic NPCs.
 - Fixed a bug that prevents the player to properly finish the final quest.
 
-**Enhancements:**
-
+Enhancements:
 - Recompressed all music files using **wavc** to save some space and to make the mod compatible with BG EET.
 - The strings for Dusk’s passive ability (Dusk Fury) are now correctly shown.
 
-**New Features:**
-
+New Features:
 - Added EE Characters dialogs.
 - Added a script for Dusk to behave towards Dorn depending on the alignment (True Neutral or Neutral Good).
 
-v0.9.3
-
 Version 0.9.1
+
 - Edited (nerfed) SEVERAL items for a better game balance
 - Fix several translation issues
 - WS Set usability fixes
