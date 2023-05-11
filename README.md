@@ -76,20 +76,25 @@ Is Dusk compatible Classic Edition?
 
 ## Current Release
 
-**Version 0.9.2**
+**Version 0.9.3**
 
 **Bugs Fixed:**
-- Fixed custom item (_De'Arnise Mantle_) description for Nalia
-- Fixed several quest dialogs in order to reward player with custom items for Classic NPCs.
-- Fixed a bug that prevents the player to properly finish the final quest.
+- Fixed several typos in some dialogs
+- Cleanup various .dlg files to avoid potential issues with cross-mods
+- Fixed Kalanda summoning
+- Fixed Anthagar and Kalanda encounters in which the player could attack them affecting the final quest
+- Fixed Dusk / Dorn interactions
+- Fixed functionality of Teleportation Orb
+- Fixed a bug when starting a new game in ToB
+- Fixed several variables that affected some Dusk’s dialogs
 
 **Enhancements:**
-- Recompressed all music files using **wavc** to save lots of space and to make the mod compatible with BG EET.
-- The strings for Dusk’s passive ability (_Dusk Fury_) are now correctly shown.
+- Improved custom items general properties and attributes
+- Resized several portraits for a better picture framing
 
 **New Features:**
-- Added EE Characters dialogs.
-- Added a script for Dusk to behave towards [Dorn](https://github.com/RamosPabloA/NPC_Dusk_MOD/blob/main/docs/images/screenshots/screenshot_07.jpg "Dorn") depending on the alignment (True Neutral or Neutral Good).
+- Added an introductory reaction from Dusk towards Hexxat
+- Added new custom items for EE characters: Neera (Wild Magic Potion), Rasaad (White Light Potion), Dorn (Night Knives Gloves), Hexxat (Ruby Liquid Potion), Wilson (Winter flowers and fruits)
 
 For older releases and release notes, check the *Releases* page, [here](https://github.com/RamosPabloA/NPC_Dusk_MOD/releases/ "here")
 
