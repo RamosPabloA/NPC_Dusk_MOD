@@ -76,25 +76,33 @@ Is Dusk compatible Classic Edition?
 
 ## Current Release
 
-**Version 0.9.3**
+**v0.9.4**
 
 **Bugs Fixed:**
-- Fixed several typos in some dialogs
-- Cleanup various .dlg files to avoid potential issues with cross-mods
-- Fixed Kalanda summoning
-- Fixed Anthagar and Kalanda encounters in which the player could attack them affecting the final quest
-- Fixed Dusk / Dorn interactions
-- Fixed functionality of Teleportation Orb
-- Fixed a bug when starting a new game in ToB
-- Fixed several variables that affected some Dusk’s dialogs
+
+- Fixed a bug in final battle: Tree of Life
+- Fixed a banther between Imoen, Minsc and Dusk
+- Fixed some issues with Valygar and Haer’Dalis custom items
+- Fixed several issues with NPCs vanilla items
+- Fixed a wrong Journal Entry in the final mission
+- Fixed a bug in which Demoli could trigger the final mission twice
+- Fixed a bug in Wilson’s innate abilities from Bellfame: now it’s not necessary that Dusk is in the party
 
 **Enhancements:**
-- Improved custom items general properties and attributes
-- Resized several portraits for a better picture framing
+
+- Rex, Royal Avenger, Lux Triumphans and Ira Tenax items received custom icons and custom animation when wielded
+- Larloch fang can be also forged with Korgan’s Axe +1
+- Dialogs for all the summonings from Bellfame (including herself) with:
+  - Dusk, Cernd, Anomen, Haer-Dalis, Wilson
+  - Baba, the Nervous Mouse: Minsc, Yoshimo, Mazzy
+  - Jack, the Winter Wolf: Dusk, Edwin, Keldorn, Valygar
+  - Sayang, the Worg Wolf: Rasaad, Dorn, Jaheira, Nalia
+  - Thiago, the Brown Bear: Neera, Jan, Viconia, Wilson, Dusk
+  - Uma, the Shadow Wolf: Hexxat, Imoen, Aerie
 
 **New Features:**
-- Added an introductory reaction from Dusk towards Hexxat
-- Added new custom items for EE characters: Neera (Wild Magic Potion), Rasaad (White Light Potion), Dorn (Night Knives Gloves), Hexxat (Ruby Liquid Potion), Wilson (Winter flowers and fruits)
+
+- When Bellfame and Wilson are in the same area, there is a chance that if they speak each other he will obtain: Sacred Power of the Bear, Hardened Bear and Bear's Bravery innate abilities
 
 For older releases and release notes, check the *Releases* page, [here](https://github.com/RamosPabloA/NPC_Dusk_MOD/releases/ "here")
 
