@@ -349,7 +349,10 @@ Global("P_Michel_Forge","GLOBAL",0)~ THEN BEGIN 51 // from:
   // Venom Strike
   IF ~Global ("p_venom_strike", "GLOBAL", 0) PartyGoldGT(24999) PartyHasItem("BLUN17") PartyHasItem("SCRL08") PartyHasItem("SCRL1Q") PartyHasItem("POTN42") PartyHasItem("MISC31") PartyHasItem("MISC37")  ~ THEN REPLY @96 /* ~Mathyus, hemos conseguido lo necesario para crear el mayal Golpe de Veneno.~ */ GOTO 85
   // Colmillo de Larloch
-  IF ~Global ("p_sw1h00_colmillo_larloch", "GLOBAL", 0) PartyGoldGT(12499) PartyHasItem("AX1H02") PartyHasItem("POTN22") PartyHasItem("MISC26") PartyHasItem("SCRL84") PartyHasItem("HELM06") ~ THEN REPLY @97 /* ~Mathyus, hemos conseguido lo necesario para forjar el Colmillo de Larloch.~ */ GOTO 90
+  IF ~Global ("p_sw1h00_colmillo_larloch", "GLOBAL", 0) PartyGoldGT(12499)  PartyHasItem("POTN22") PartyHasItem("MISC26") PartyHasItem("SCRL84") PartyHasItem("HELM06") 
+  OR(2) 
+  PartyHasItem("AX1H02")
+  PartyHasItem("KORAX01")~ THEN REPLY @97 /* ~Mathyus, hemos conseguido lo necesario para forjar el Colmillo de Larloch.~ */ GOTO 90
   // Ventisca del Averno
   IF ~Global ("p_sw1h06_ventisca_averno", "GLOBAL", 0) PartyGoldGT(12499) PartyHasItem("SW1H42") PartyHasItem("SCRL04") PartyHasItem("MISC17") PartyHasItem("MISC33") PartyHasItem("MISC42") ~ THEN REPLY @98 /* ~Mathyus, hemos conseguido lo necesario para forjar la Ventisca del Averno.~ */ GOTO 95
   // Vengadora Real
@@ -672,12 +675,14 @@ END
 IF ~~ THEN BEGIN 92 // from:
   SAY @91 /* ~Excelente, <CHARNAME>. Tomaré los ingredientes y Michelson hará el resto.~ */
   IF ~~ THEN DO ~TakePartyGold(12500) 
-  TakePartyItem("AX1H02") 
+  TakePartyItem("AX1H02")
+  TakePartyItem("KORAX01") 
   TakePartyItem("POTN22")
   TakePartyItem("MISC26")
   TakePartyItem("SCRL84") 
   TakePartyItem("HELM06")
   DestroyGold(12500)
+  DestroyItem("KORAX01") 
   DestroyItem("AX1H02") 
   DestroyItem("POTN22")
   DestroyItem("MISC26")
@@ -745,7 +750,7 @@ END
 
 IF ~~ THEN BEGIN 101 // from:
   SAY @100 /* ~Si había gente capaz de hacerlo, sabía que ustedes, <CHARNAME>, Dusk, serían dignos de tal hazaña.~ */
-  IF ~~ THEN DO ~SetGlobal ("P_WSSTP_vengadora_real", "GLOBAL", 1)~ 
+  IF ~~ THEN DO ~~ 
         REPLY @101 /* ~Como dijo Dusk, no ha sido nada fácil... según lo que has anotado en tu diario, Mathyus... creo que nos debes algo...~ */ GOTO 102
 END
 
@@ -873,7 +878,11 @@ IF ~~ THEN BEGIN 119 // from:
   // Venom Strike
   IF ~Global ("p_venom_strike", "GLOBAL", 0) PartyGoldGT(24999) PartyHasItem("BLUN17") PartyHasItem("SCRL08") PartyHasItem("SCRL1Q") PartyHasItem("POTN42") PartyHasItem("MISC31") PartyHasItem("MISC37")  ~ THEN REPLY @96 /* ~Mathyus, hemos conseguido lo necesario para crear el mayal Golpe de Veneno.~ */ GOTO 85
   // Colmillo de Larloch
-  IF ~Global ("p_sw1h00_colmillo_larloch", "GLOBAL", 0) PartyGoldGT(12499) PartyHasItem("AX1H02") PartyHasItem("POTN22") PartyHasItem("MISC26") PartyHasItem("SCRL84") PartyHasItem("HELM06") ~ THEN REPLY @97 /* ~Mathyus, hemos conseguido lo necesario para forjar el Colmillo de Larloch.~ */ GOTO 90
+  IF ~Global ("p_sw1h00_colmillo_larloch", "GLOBAL", 0) PartyGoldGT(12499)  PartyHasItem("POTN22") PartyHasItem("MISC26") PartyHasItem("SCRL84") PartyHasItem("HELM06") 
+  OR(2)
+  PartyHasItem("AX1H02")
+  PartyHasItem("KORAX01")
+  ~ THEN REPLY @97 /* ~Mathyus, hemos conseguido lo necesario para forjar el Colmillo de Larloch.~ */ GOTO 90
   // Ventisca del Averno
   IF ~Global ("p_sw1h06_ventisca_averno", "GLOBAL", 0) PartyGoldGT(12499) PartyHasItem("SW1H42") PartyHasItem("SCRL04") PartyHasItem("MISC17") PartyHasItem("MISC33") PartyHasItem("MISC42") ~ THEN REPLY @98 /* ~Mathyus, hemos conseguido lo necesario para forjar la Ventisca del Averno.~ */ GOTO 95
   // Vengadora Real
@@ -1286,7 +1295,10 @@ Global("P_Michel_Forge","GLOBAL",0)~ THEN BEGIN 184 // from:
   // Venom Strike
   IF ~Global ("p_venom_strike", "GLOBAL", 0) PartyGoldGT(24999) PartyHasItem("BLUN17") PartyHasItem("SCRL08") PartyHasItem("SCRL1Q") PartyHasItem("POTN42") PartyHasItem("MISC31") PartyHasItem("MISC37")  ~ THEN REPLY @96 /* ~Mathyus, hemos conseguido lo necesario para crear el mayal Golpe de Veneno.~ */ GOTO 85
   // Colmillo de Larloch
-  IF ~Global ("p_sw1h00_colmillo_larloch", "GLOBAL", 0) PartyGoldGT(12499) PartyHasItem("AX1H02") PartyHasItem("POTN22") PartyHasItem("MISC26") PartyHasItem("SCRL84") PartyHasItem("HELM06") ~ THEN REPLY @97 /* ~Mathyus, hemos conseguido lo necesario para forjar el Colmillo de Larloch.~ */ GOTO 90
+  IF ~Global ("p_sw1h00_colmillo_larloch", "GLOBAL", 0) PartyGoldGT(12499)  PartyHasItem("POTN22") PartyHasItem("MISC26") PartyHasItem("SCRL84") PartyHasItem("HELM06") 
+  OR (2)
+  PartyHasItem("AX1H02")
+  PartyHasItem("KORAX01")~ THEN REPLY @97 /* ~Mathyus, hemos conseguido lo necesario para forjar el Colmillo de Larloch.~ */ GOTO 90
   // Ventisca del Averno
   IF ~Global ("p_sw1h06_ventisca_averno", "GLOBAL", 0) PartyGoldGT(12499) PartyHasItem("SW1H42") PartyHasItem("SCRL04") PartyHasItem("MISC17") PartyHasItem("MISC33") PartyHasItem("MISC42") ~ THEN REPLY @98 /* ~Mathyus, hemos conseguido lo necesario para forjar la Ventisca del Averno.~ */ GOTO 95
   // Vengadora Real
@@ -1315,7 +1327,10 @@ Global("P_Michel_Forge","GLOBAL",0)~ THEN BEGIN 209 // from:
   // Venom Strike
   IF ~Global ("p_venom_strike", "GLOBAL", 0) PartyGoldGT(24999) PartyHasItem("BLUN17") PartyHasItem("SCRL08") PartyHasItem("SCRL1Q") PartyHasItem("POTN42") PartyHasItem("MISC31") PartyHasItem("MISC37")  ~ THEN REPLY @96 /* ~Mathyus, hemos conseguido lo necesario para crear el mayal Golpe de Veneno.~ */ GOTO 85
   // Colmillo de Larloch
-  IF ~Global ("p_sw1h00_colmillo_larloch", "GLOBAL", 0) PartyGoldGT(12499) PartyHasItem("AX1H02") PartyHasItem("POTN22") PartyHasItem("MISC26") PartyHasItem("SCRL84") PartyHasItem("HELM06") ~ THEN REPLY @97 /* ~Mathyus, hemos conseguido lo necesario para forjar el Colmillo de Larloch.~ */ GOTO 90
+  IF ~Global ("p_sw1h00_colmillo_larloch", "GLOBAL", 0) PartyGoldGT(12499)  PartyHasItem("POTN22") PartyHasItem("MISC26") PartyHasItem("SCRL84") PartyHasItem("HELM06")
+OR (2)
+PartyHasItem("AX1H02")
+PartyHasItem("KORAX01")  ~ THEN REPLY @97 /* ~Mathyus, hemos conseguido lo necesario para forjar el Colmillo de Larloch.~ */ GOTO 90
   // Ventisca del Averno
   IF ~Global ("p_sw1h06_ventisca_averno", "GLOBAL", 0) PartyGoldGT(12499) PartyHasItem("SW1H42") PartyHasItem("SCRL04") PartyHasItem("MISC17") PartyHasItem("MISC33") PartyHasItem("MISC42") ~ THEN REPLY @98 /* ~Mathyus, hemos conseguido lo necesario para forjar la Ventisca del Averno.~ */ GOTO 95
   // Vengadora Real
@@ -1681,7 +1696,10 @@ Global("P_Michel_Forge","GLOBAL",0)~ THEN BEGIN 235 // from:
   // Venom Strike
   IF ~Global ("p_venom_strike", "GLOBAL", 0) PartyGoldGT(24999) PartyHasItem("BLUN17") PartyHasItem("SCRL08") PartyHasItem("SCRL1Q") PartyHasItem("POTN42") PartyHasItem("MISC31") PartyHasItem("MISC37")  ~ THEN REPLY @96 /* ~Mathyus, hemos conseguido lo necesario para crear el mayal Golpe de Veneno.~ */ GOTO 85
   // Colmillo de Larloch
-  IF ~Global ("p_sw1h00_colmillo_larloch", "GLOBAL", 0) PartyGoldGT(12499) PartyHasItem("AX1H02") PartyHasItem("POTN22") PartyHasItem("MISC26") PartyHasItem("SCRL84") PartyHasItem("HELM06") ~ THEN REPLY @97 /* ~Mathyus, hemos conseguido lo necesario para forjar el Colmillo de Larloch.~ */ GOTO 90
+  IF ~Global ("p_sw1h00_colmillo_larloch", "GLOBAL", 0) PartyGoldGT(12499)  PartyHasItem("POTN22") PartyHasItem("MISC26") PartyHasItem("SCRL84") PartyHasItem("HELM06") 
+  OR (2)
+  PartyHasItem("AX1H02")
+  PartyHasItem("KORAX01")~ THEN REPLY @97 /* ~Mathyus, hemos conseguido lo necesario para forjar el Colmillo de Larloch.~ */ GOTO 90
   // Ventisca del Averno
   IF ~Global ("p_sw1h06_ventisca_averno", "GLOBAL", 0) PartyGoldGT(12499) PartyHasItem("SW1H42") PartyHasItem("SCRL04") PartyHasItem("MISC17") PartyHasItem("MISC33") PartyHasItem("MISC42") ~ THEN REPLY @98 /* ~Mathyus, hemos conseguido lo necesario para forjar la Ventisca del Averno.~ */ GOTO 95
   // Vengadora Real
@@ -1993,7 +2011,7 @@ IF ~~ THEN BEGIN 276 // from:
   SAY @481 /* ~Y recuerden: Pueden volver a nosotros a forjar artefactos, también, cuando quieran. Mientras tanto... ¡os deseo salud y libertad!~ */
   IF ~~ THEN DO ~ SetGlobal("P_DuskDemoleMISSION","GLOBAL",0)
   SetGlobal("P_DuskDemoleMISSIONCOMPLETE","GLOBAL",1)
-  EraseJournalEntry (@210035) EraseJournalEntry (@210036) EraseJournalEntry (@210037) EraseJournalEntry (@210038) EraseJournalEntry (@210039) EraseJournalEntry (@210040) EraseJournalEntry (@210041) EraseJournalEntry (@210043) EraseJournalEntry (@210044)EraseJournalEntry (@210045)
+  EraseJournalEntry (@210035) EraseJournalEntry (@210036) EraseJournalEntry (@210037) EraseJournalEntry (@210038) EraseJournalEntry (@210039) EraseJournalEntry (@210040) EraseJournalEntry (@210041) EraseJournalEntry (@210043) EraseJournalEntry (@210044)EraseJournalEntry (@210045) EraseJournalEntry (@210020)
   AddexperienceParty(175000)
   GiveGoldForce(50000)
   ~ SOLVED_JOURNAL @210046 EXIT

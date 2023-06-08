@@ -143,6 +143,7 @@ See("P_Dusk")
 !StateCheck("P_Dusk",STATE_SLEEPING)
 Global ("P_Dusk_3rdTDemole","GLOBAL",2)
 Global("P_DuskDemoleMISSION","GLOBAL",0)
+Global("P_Dusk_DemoleDISM","GLOBAL",0)
 ~ THEN BEGIN 19 // from:
   SAY @40 /* ~(De la nada, percibes una presencia conocida cerca tuyo. Cuando te das vuelta, ves a Demoledor meneando su cola a una anti-velocidad sobrenatural)~ */
   IF ~~ THEN EXTERN ~P_DUSKJ~ 317
@@ -199,7 +200,7 @@ END
 //END
 
 I_C_T P_DEMOLE 23 P_Dusk_GOOD_DEMOLEMF2
-== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @35 /* Está bien, Dusk. Simplemente recuerda de lo que es capaz Anthagar. Sus seguidores son peligrosos y pueden suponer una amenaza inminente para Amn y Tethyr. */
+== P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @35 /* Está bien, <CHARNAME>. Simplemente recuerda de lo que es capaz Anthagar. Sus seguidores son peligrosos y pueden suponer una amenaza inminente para Amn y Tethyr. */
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @36 /* Demoledor, ve y dile a Mathyus que iremos en el momento en que <CHARNAME> quiera. *susurro* Si es que en algún momento quire ir... */
 END
 

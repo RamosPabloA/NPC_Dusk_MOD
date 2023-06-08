@@ -41,7 +41,7 @@ END
 IF ~~ THEN BEGIN 6 // from:
   SAY @9 /* ~(Demoledor se lanza al ataque de una manera sorpresiva. La batalla ha comenzado...)~ */
   IF ~~ THEN DO ~  SetGlobal ("P_Dusk_Mat2_hypno","GLOBAL",2)
-  ~ UNSOLVED_JOURNAL @210020 EXIT
+  ~ EXIT
 END
 
 // GOOD 4

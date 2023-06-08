@@ -188,7 +188,10 @@ IF ~Global("P_DuskDanctialMISSION","GLOBAL",0) Global("P_Danctian_Forge","GLOBAL
   
   
   // Colmillo de Larloch
-  IF ~Global ("p_sw1h00_colmillo_larloch", "GLOBAL", 0) PartyHasItem("AX1H02") PartyHasItem("POTN22") PartyHasItem("MISC26") PartyHasItem("SCRL84") PartyHasItem("HELM06") ~ THEN REPLY @125 /* ~Danctian, hemos conseguido lo necesario para forjar el Colmillo de Larloch.~ */ GOTO 60
+  IF ~Global ("p_sw1h00_colmillo_larloch", "GLOBAL", 0)  PartyHasItem("POTN22") PartyHasItem("MISC26") PartyHasItem("SCRL84") PartyHasItem("HELM06") 
+  OR (2)
+  PartyHasItem("AX1H02")
+  PartyHasItem("KORAX01")~ THEN REPLY @125 /* ~Danctian, hemos conseguido lo necesario para forjar el Colmillo de Larloch.~ */ GOTO 60
    
   
   // Ventisca del Averno
@@ -495,12 +498,14 @@ END
 IF ~~ THEN BEGIN 62 // from:
   SAY @117 /* ~Os lo aseguro, mortal... estarás complacido con los resultados. Ahora... ¡A un lado!~ */
   IF ~~ THEN DO ~
-  TakePartyItem("AX1H02") 
+  TakePartyItem("AX1H02")
+  TakePartyItem("KORAX01")
   TakePartyItem("POTN22")
   TakePartyItem("MISC26")
   TakePartyItem("SCRL84") 
   TakePartyItem("HELM06")
   DestroyItem("AX1H02") 
+  DestroyItem("KORAX01") 
   DestroyItem("POTN22")
   DestroyItem("MISC26")
   DestroyItem("SCRL84") 
@@ -709,7 +714,10 @@ IF ~~ THEN BEGIN 89 // from:
   
   
   // Colmillo de Larloch
-  IF ~Global ("p_sw1h00_colmillo_larloch", "GLOBAL", 0) PartyHasItem("AX1H02") PartyHasItem("POTN22") PartyHasItem("MISC26") PartyHasItem("SCRL84") PartyHasItem("HELM06") ~ THEN REPLY @125 /* ~Danctian, hemos conseguido lo necesario para forjar el Colmillo de Larloch.~ */ GOTO 60   
+  IF ~Global ("p_sw1h00_colmillo_larloch", "GLOBAL", 0)  PartyHasItem("POTN22") PartyHasItem("MISC26") PartyHasItem("SCRL84") PartyHasItem("HELM06") 
+  OR (2)
+  PartyHasItem("AX1H02")
+  PartyHasItem("KORAX01")~ THEN REPLY @125 /* ~Danctian, hemos conseguido lo necesario para forjar el Colmillo de Larloch.~ */ GOTO 60   
   
   // Ventisca del Averno
   IF ~Global ("p_sw1h06_ventisca_averno", "GLOBAL", 0) PartyGoldGT(12499) PartyHasItem("SW1H42") PartyHasItem("SCRL04") PartyHasItem("MISC17") PartyHasItem("MISC33") PartyHasItem("MISC42") ~ THEN REPLY @127 /* ~Danctian, hemos conseguido lo necesario para forjar la Ventisca del Averno.~ */ GOTO 65

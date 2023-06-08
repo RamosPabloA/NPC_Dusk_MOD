@@ -1,3 +1,4 @@
+@0    = ~Fall~
 @1    = ~Dusk MOD~
 @2    = ~Dusk~
 @3    = ~My ears still ring with that explosion...~ [p_duski]
@@ -428,7 +429,7 @@ Permanent bonuses:
 Weight: 2 lbs.
 
 Can only be used by:
-Valyghar, level 12.~
+Valygar, level 12.~
 @200080 = ~Studies of Corthala: Katana Proficiency set at 5~
 @200081 = ~Studies of Corthala: +4 to Wisdom~
 
@@ -1662,7 +1663,7 @@ Dusk, if you're reading this, this formula should interest you. Michelson has no
 You'll need:
 - Dusk's sword (obviously)
 - Scroll of protection from undead (usually sold in some churches)
-- Moonstone gem (a fairly common gem)
+- Moonbar gem (a fairly common gem)
 - Turquoise gem (a fairly common gem)
 - King's Tears (a valuable, rare gem)
 - The Book of Kaza (definitely the most difficult ingredient to obtain)
@@ -2802,7 +2803,9 @@ Weight: 1 lbs.~
 
 @3510 = ~Innate ability obtained: Poolster~
 
-
+@3511 = ~Innate ability obtained: Bear's Bravery~
+@3512 = ~Innate ability obtained: Sacred Power of the Bear~
+@3513 = ~Innate ability obtained: Hardened Bear~
 
 @200447 = ~Jaheira! No... NOOOOooooooo!~
 @200448 = ~Minsc... Boo... No... You'll regret this!~
