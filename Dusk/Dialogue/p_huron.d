@@ -1,4 +1,4 @@
-BEGIN p_huron
+BEGIN ~p_huron~
 
 IF ~!InParty("P_Dusk")
 !See("P_Dusk")

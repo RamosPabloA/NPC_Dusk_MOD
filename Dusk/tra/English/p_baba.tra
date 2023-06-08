@@ -1,6 +1,6 @@
 // Bloque 1 (FTF)
 
-@1 = ~Little Baba looks at you with his big eyes when you approach. He starts wagging his tail, and you're not quite sure if that means he's happy or annoyed. He moves his tiny snout and emits something that sounds like a sort of bark, which leaves you confused since you're interacting with a rodent.~ [P_Baba01]
+@1 = ~Little Baba looks at you with his big eyes when you approach. He starts WAGGING his tail, and you're not quite sure if that means he's happy or annoyed. He moves his tiny snout and emits something that sounds like a sort of bark, which leaves you confused since you're interacting with a rodent.~ [P_Baba01]
 @2 = ~Hail, great Baba! I know I am not worthy to address you, but with due respect, I dare to request your services. If you have any valuable item for me, would the great Baba be so magnanimous as to give them to me and thus lighten your burden?~
 @3 = ~Who is the cutest little mouse in the world? You are, yes, Baba, you are! And since you're the cutest mouse in the world, you're definitely going to give me whatever valuable thing you have with you, right? (you try to pet it, while forcing a big smile).~
 @4 = ~Hey, Baba. Do you want a piece of cake? I must have something saved in my backpack. I'll give you a slice if you give me what you've stolen, how about that?~
@@ -10,7 +10,7 @@
 
 // Bloque 2 (TFF)
 
-@8 = ~The little Baba looks at you with his big eyes when you approach. He starts jumping around like crazy and you don't know if that means he's happy to see you or maybe he plans to attack you. He moves his little hands and emits sounds that unmistakably resemble those of a canine puppy, which leaves you confused since you're interacting with a rodent.~ [P_Baba01]
+@8 = ~The little Baba looks at you with his big eyes when you approach. He starts JUMPING around like crazy and you don't know if that means he's happy to see you or maybe he plans to attack you. He moves his little hands and emits sounds that unmistakably resemble those of a canine puppy, which leaves you confused since you're interacting with a rodent.~ [P_Baba01]
 @9 = ~Hail, great Baba! I know I am not worthy to address you, but with due respect, I dare to request your services. If you have any valuable item for me, would the great Baba be so magnanimous as to give them to me and thus lighten your burden?~ 
 @10 = ~Who is the cutest little mouse in the world? You are, yes, Baba, you are! And since you're the cutest mouse in the world, you're definitely going to give me whatever valuable thing you have with you, right? (you try to pet it, while forcing a big smile).~
 @11 = ~Hey, Baba. Do you want a piece of cake? I must have something saved in my backpack. I'll give you a slice if you give me what you've stolen, how about that?~
@@ -20,7 +20,7 @@
 
 // Bloque 3 (FFT)
 
-@15 = ~Baba, the little rodent, stares at you with his big eyes as you approach him. He starts running around you without any apparent reason and you don't know if he's doing it because he's happy to see you or because he plans to steal some valuable jewelry you might have. He climbs up your clothes, crawling up one of your legs. You try to get him off, but it's difficult. Meanwhile, he makes panting sounds similar to those of a dog, which leaves you puzzled because you know you're interacting with a rodent.~ [P_Baba01]
+@15 = ~Baba, the little rodent, stares at you with his big eyes as you approach him. He starts RUNNING around you without any apparent reason and you don't know if he's doing it because he's happy to see you or because he plans to steal some valuable jewelry you might have. He climbs up your clothes, crawling up one of your legs. You try to get him off, but it's difficult. Meanwhile, he makes panting sounds similar to those of a dog, which leaves you puzzled because you know you're interacting with a rodent.~ [P_Baba01]
 @16 = ~Hail, great Baba! I know I am not worthy to address you, but with due respect, I dare to request your services. If you have any valuable item for me, would the great Baba be so magnanimous as to give them to me and thus lighten your burden?~
 @17 = ~Who is the cutest little mouse in the world? You are, yes, Baba, you are! And since you're the cutest mouse in the world, you're definitely going to give me whatever valuable thing you have with you, right? (you try to pet it, while forcing a big smile).~
 @18 = ~Hey, Baba. Do you want a piece of cake? I must have something saved in my backpack. I'll give you a slice if you give me what you've stolen, how about that?~
@@ -31,3 +31,60 @@
 // HPLT
 @22 = ~Hey Baba, are you well? You seem more nervous than usual. Are you hurt?~
 @23 = ~Baba seems to be indignant at such an obvious statement, so he decides to show you with his little hands where he has his combat wound. After that, he decides to run away from you since you don't seem to care about his well-being.~ [P_Baba01]
+
+
+@24 = ~*Baba appears to watch Minsc with great suspicion. In reality, it is Boo whom Baba distrusts.*~
+@25 = ~What's the matter with little Baba? Huh? Boo says he doesn't trust you either.~
+@26 = ~*Baba starts moving his little hands rapidly and makes strange sounds. If you understood his language, you would almost be certain it's insulting Boo.* ~[P_Baba01]
+@27 = ~That is very rude! What? You too, Boo?~
+@28 = ~*squeak*~ [P_Squeak]
+@29 = ~Oh, Boo, that is unspeakable! I have never heard such insults before... I am utterly embarrassed by both of you!~
+@30 = ~*Baba continues his tantrum and berates the hamster.*~ [P_Baba02]
+//@31 = ~~
+@32 = ~Oh no, that won't happen. The last thing we need is a death match between rodents. <CHARNAME> would be very disappointed in both of you.~
+@33 = ~Let's go, Boo! It's better if you stay away from that ill-mannered one.~
+@34 = ~*You could swear that Baba smiles victoriously as Minsc walks away with Boo.*~
+
+@35 = ~*Baba seems to be closely observing Yoshimo.*~
+@36 = ~What's this? If it isn't good old Baba. You could be a great Shadow Thief, you know?~
+@37 = ~*Baba starts making his typical strange sounds.*~ [P_Baba01]
+@38 = ~Aye, well. Honestly, I have no idea what you're saying.~
+@39 = ~*Baba keeps speaking his language and almost seems to be explaining what it's 'saying' with his little paws.*~ [P_Baba02]
+@40 = ~By the way you express it, I wouldn't dare to contradict you, my little friend.~
+@41 = ~*Baba seems to nod his little head. It's completely convinced that it has explained itself correctly.*~
+
+
+@42 = ~*Baba approaches Mazzy and stops to stare at her intently. For the first time, you observe uncertainty in his gaze.*~
+@43 = ~Oh, hello Baba. How are you--?~
+@44 = ~*Baba starts making his typical strange sounds, interrupting Mazzy. There seems to be a hint of pain in his eyes.*~ [P_Baba01]
+@45 = ~Ah, that's beautiful, Baba.~
+@46 = ~*whisper* I don't understand, what's happening, Bellfame?~
+@47 = ~Isn't it obvious, mortal? Baba is declaring his love for you.~
+@48 = ~*Baba continues his 'speech' while Mazzy and Bellfame speak quietly to each other.*~ [P_Baba02]
+@49 = ~What? The rodent is in love with me?~
+@50 = ~Yes. Right now, it is reciting what you humans call poetry.~
+@51 = ~Oh, I see. And what is it saying?~
+@52 = ~*Baba keeps emitting exotic sounds.*~ [P_Baba01]
+
+@53 = ~He says something like this:
+'In the depths of my little burrow,
+I sigh with love for a halfling so fair.
+In her eyes, I find the true light,
+and my heart fills with stars.'~
+@54 = ~'Though I am small, I fear not to fight,
+for the love I feel in my rodent soul.
+Under the moon, I whisper verses with delight,
+painting in the night a sweet desire.'~
+@55 = ~'Oh, Mazzy, listen to my voice,
+I am a mouse who loves you with ardor.
+In my tiny being, there's a love that's swift,
+a mouse in love, an eternal lover.'~
+@56 = ~*Baba finally concludes his 'declaration'.*~
+
+@57 = ~Oh, it's... incredibly beautiful. I never thought a... rodent could compose something so exquisite.~
+@58 = ~Baba may be tough with the rest of mortals. But it's the first time I see him express genuine love.~
+@59 = ~I understand.~
+@60 = ~Baba, gratitude for your poetry. Come here.~
+@61 = ~*Baba's eyes shimmer relentlessly as he swiftly approaches Mazzy.*~
+@62 = ~*Mazzy takes him in her hands and lifts him up, placing a kiss on his little head. Then, she gently places him back on the ground.*~
+@63 = ~*Baba seems ecstatic... and after a few seconds, he realizes he's being observed by everyone. To avoid embarrassment, he flees with great speed.*~

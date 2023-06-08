@@ -127,7 +127,7 @@ Global("P_DuskImoen1","GLOBAL",0)~ THEN P_BDusk P_DuskImoen1
 @32 /* Hmmm... ¡qué extraño! Creí que había dejado aquí mi bolso con galletas. */
 DO ~SetGlobal("P_DuskImoen1","GLOBAL",1)~
 == IMOEN2J @33 /* ¿Estás seguro? Hay muchos roedores por aquí, puede que algún hámster lo haya tomado prestado. */
-== BMINSC @1043 /* ¡Oigan, Bubú pregunta por qué lo miran fijamente! */
+== BMINSC IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @1043 /* ¡Oigan, Bubú pregunta por qué lo miran fijamente! */
 == P_BDusk @34 /* ¿Tomado prestado? Pues no cre-... Oye... un momento. ¡Tienes migajas en tus mejillas! */
 == IMOEN2J @35 /* ¡¿Qué?! Dusk, es de mala educación mirar fijamente las mejillas de una dama. */
 == P_BDusk @36 /* ¿Mala educación? Pues lo siento, es que yo... */

@@ -31,7 +31,7 @@ IF WEIGHT #6
 END
 
 // Interacción con NPCs
-IF WEIGHT #0 ~See("P_Dusk")
+IF~See("P_Dusk")
 InParty("P_Dusk")
 !StateCheck("P_Dusk",STATE_SLEEPING)
 RandomNum(3,1)
@@ -47,7 +47,7 @@ IF
   IF ~~ THEN EXIT
 END
 
-IF WEIGHT #1 ~See("Cernd")
+IF~See("Cernd")
 InParty("Cernd")
 !StateCheck("Cernd",STATE_SLEEPING)
 RandomNum(3,2)
@@ -63,11 +63,10 @@ IF
   IF ~~ THEN EXIT
 END
 
-IF WEIGHT #2~See("P_Dusk")
+IF~See("P_Dusk")
 InParty("P_Dusk")
 !StateCheck("P_Dusk",STATE_SLEEPING)
 RandomNum(3,3)
-Global("P_DuskMatMission3","GLOBAL",3)
 Global("P_Bellfame_Dusk1","GLOBAL",1)
 ~ THEN BEGIN 16 // from:
   SAY @17 /* ~Percibo una fuerza de Shilmista en ti, Dusk...~ */
@@ -118,8 +117,79 @@ IF WEIGHT #13 ~RandomNum(12,12)~ THEN BEGIN 15 // from:
   IF ~~ THEN EXIT
 END
 
+
+IF~See("Wilson")
+InParty("Wilson")
+!StateCheck("Wilson",STATE_SLEEPING)
+RandomNum(5,5)
+Global("P_Bellfame_Wilson1","GLOBAL",0)
+~ THEN BEGIN 18 // from:
+  SAY @39 /* ~Wilson, ¿qué es lo que te aflige?~ */
+  IF ~~ THEN DO ~SetGlobal("P_Bellfame_Wilson1","GLOBAL",1)~ GOTO 19
+END
+
+IF 
+~~ THEN BEGIN 19 // from:
+  SAY @40 /* ~Bien hecho, mi amigo. Espero que esto alivie tus dolores.~ */
+  IF ~~ THEN EXIT
+END
+
+IF~See("HaerDalis")
+InParty("HaerDalis")
+!StateCheck("HaerDalis",STATE_SLEEPING)
+RandomNum(1,1)
+Global("P_Bellfame_HaerDalis1","GLOBAL",0)
+~ THEN BEGIN 20 // from:
+  SAY @50 /* ~Forastero, he notado que vienes de otro plano. El Plano Material no es tu lugar natal, ¿no es así?~ */
+  IF ~~ THEN DO ~SetGlobal("P_Bellfame_HaerDalis1","GLOBAL",1)~ GOTO 21
+END
+
+IF 
+~~ THEN BEGIN 21 // from:
+  SAY @52 /* ~Comprendo tus sentimientos. Mi caso es el opuesto, pese a que ahora me encuentre aquí, temporalmente, en este plano. Quizás, algún día pueda regresar por completo.~ */
+  IF ~~ THEN EXIT
+END
+
+IF~See("Anomen")
+InParty("Anomen")
+!StateCheck("Anomen",STATE_SLEEPING)
+RandomNum(1,1)
+Global("P_Bellfame_Anomen1","GLOBAL",0)
+~ THEN BEGIN 22 // from:
+  SAY @53 /* ~Mortal, demuestras gran desconfianza en los nuestros.~ */
+  IF ~~ THEN DO ~SetGlobal("P_Bellfame_Anomen1","GLOBAL",1)~ GOTO 23
+END
+
+IF 
+~~ THEN BEGIN 23 // from:
+  SAY @57 /* ~Puede que no tenga una completa libertad y que mi esencia se encuentre atada al Plano Astral... pero ten en cuenta algo, mortal. Nada es eterno... ni siquiera tus dioses.~ */
+  IF ~~ THEN EXIT
+END
+
 // INTERACCION NPC pt2
 // DUSK Necesario para Mission3
+
+I_C_T P_BELLD 22 P_Dusk_Bellf_Anomen1
+== AnomenJ IF ~InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @54 /* Es lo normal, criatura. Los vuestros no hablan como cotorras con aquellos que son sus amos. */
+== P_BELLD IF ~InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @55 /* ¿Amos? Puede que esté atada a la voluntad de quien usa el Anillo del Bosque de Mir, pero están lejos de ser nuestros amos.  */
+== AnomenJ IF ~InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @56 /* Puede ser. Eso no quiere decir que seas libre de hacer lo que te plazca. */
+END
+
+I_C_T P_BELLD 20 P_Dusk_Bellf_HaerDalis1
+== HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @51 /* Ah, pequeña jilguero. Este no es mi hogar, pero pretendo formar uno aquí. Este gorrión dispone de muchos recursos verás. */
+END
+
+I_C_T P_BELLD 18 P_Dusk_Bellf_Wilson1
+== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @41 /* (Lamento, bufido) */
+== P_BELLD IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @42 /* Oh, pobre criatura. Sí, sé a lo que te refieres. Por eso es que le he enseñado a Thiago algunas maneras de mejorar su defensa.  */
+== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @43 /* (Gruñido) */
+== P_BELLD IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @44 /* No es nada muy complicado. He pensado en tus problemas y he llegado a una solución simple: Debes aprender las mismas habilidades que mi Thiago. */
+== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @45 /* (Bufido) */
+== P_BELLD IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @46 /* ¿Qué debes hacer? Sólo debes comer este fruto astral. */
+== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @47 /* (Lamento) */
+== P_BELLD IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @48 /* No es muy sabroso, lo sé, pero te aseguro que valdrá la pena, Wilson. */
+== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @49 /* (Bufido, gruñido) */ DO ~CreateItem ("P_WILS1",1,1,0) UseItem ("P_WILS1", Myself) DestroyItem ("P_WILS1")~
+END
 
 
 I_C_T P_BELLD 7 P_Dusk_Bellf_Cernd1
@@ -129,7 +199,7 @@ END
 
 
 
-I_C_T P_BELLD 16 P_Dusk_M3_Decision
+I_C_T P_BELLD 16 P_Dusk_M3_DecisionBF
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @18 /* Pese a que no he pasado mucho tiempo en el Bosque de las Sombras... debo admitir que ha calado muy en lo hondo de mi corazón. */
 == P_BELLD IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @19 /* No se necesitan de años para apreciar a la creación de nuestra Señora del Bosque, Dusk.  */
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @20 /* Asumo que hablas de Mielikki, ¿no es así, Bellfame? */

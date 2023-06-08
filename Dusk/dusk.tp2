@@ -2,7 +2,7 @@ BACKUP ~Dusk/Backup~
 
 AUTHOR ~Pol Rupes - pablo.alejandro.ramos@gmail.com~ 
 
-VERSION ~v0.9.3~
+VERSION ~v0.9.4~
 
 README ~Dusk/Readme-Dusk.txt~
 
@@ -122,11 +122,11 @@ WRITE_ASCII 0x280 ~P_Dusk~  #32 // DEATH VARIABLE - Hace referencia a c�mo nos
 WRITE_ASCII 0x34  ~DuskS~ #8  // small portrait
 WRITE_ASCII 0x3c  ~DuskM~ #8  // medium portrait
 
-ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
-COPY ~Dusk/Characters/DuskS.bmp~ ~override/DuskS.bmp~ 
-COPY ~Dusk/Characters/DuskM.bmp~ ~override/DuskM.bmp~ 
-COPY ~Dusk/Characters/DuskL.bmp~ ~override/DuskL.bmp~ 
-END
+//ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
+//COPY ~Dusk/Characters/DuskS.bmp~ ~override/DuskS.bmp~ 
+//COPY ~Dusk/Characters/DuskM.bmp~ ~override/DuskM.bmp~ 
+//COPY ~Dusk/Characters/DuskL.bmp~ ~override/DuskL.bmp~ 
+//END
 
 COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Scripts/are/ar1509.are~
@@ -143,6 +143,14 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Dialogue/BOY1.d~ // TESTING
 	//Testing BFISHW1
 	~Dusk/Dialogue/BFISHW1.d~
+	//jack the winter wolf
+	~Dusk/Dialogue/p_jack.d~
+	//thiago the bear
+	~Dusk/Dialogue/p_thiago.d~
+	//sayang
+	~Dusk/Dialogue/p_sayang.d~
+	//uma
+	~Dusk/Dialogue/p_uma.d~
 	//p_baba dialog thief
 	~Dusk/Dialogue/p_baba.d~
 	//p_matut dialog
@@ -164,6 +172,7 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	//Bellfame
 	~Dusk/Dialogue/p_belld.d~
 	~Dusk/Dialogue/p_bell2.d~
+	
 	//Clan Orco
 	//Alabarza
 	~Dusk/Dialogue/p_alabar.d~
@@ -227,6 +236,7 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	
 	//~Dusk/Scripts/p_cutmic.baf~
 	~Dusk/Scripts/p_michel.baf~
+	~Dusk/Summonings/p_bellf.baf~
 	~Dusk/Scripts/p_matut.baf~
 	~Dusk/Scripts/p_falon.baf~
 	~Dusk/Scripts/p_cufati.baf~
@@ -272,7 +282,7 @@ EXTEND_TOP ~AR1509.bcs~ ~Dusk/Scripts/AR1509.baf~
 // Como Sarevok no puede aparecer en Athkatla, es imposible que dicho di�logo se inicie.
 // Por lo que podremos hacer uso de dicho String para otros usos.
 STRING_SET_EVALUATE 26258 @2 // Dusk Name
-STRING_SET_EVALUATE 26257 @200447 //~Jaheira! No... NOOOOooooooo!~
+STRING_SET_EVALUATE 26257 @0 // Fall Name
 STRING_SET_EVALUATE 26259 @200448 //Minsc
 STRING_SET_EVALUATE 26260 @200449 // ~Aerie... No... Noooo... GRAAHH!!!~
 STRING_SET_EVALUATE 26261 @200450 //~Imoen! IMOEN... Nooo!!!~
@@ -607,6 +617,15 @@ COPY ~Dusk/Items/p_wils.itm~ ~override~
 SAY NAME2 @3508 /* Flores y frutos invernales */
 SAY DESC @3509 /*  */
 SAY 222 @3510 /* Habilidad innata obtenida: Poolster */
+
+// Frutos astrales de Bellfame (WILSON)
+COPY ~Dusk/Items/p_wils1.itm~ ~override~
+SAY NAME2 @3508 /* Frutos astrales de Bellfame */
+SAY DESC @3509 /*  */
+SAY 222 @3511 /* Habilidad innata obtenida: Valentía del Oso */
+SAY 270 @3512 /* Habilidad innata obtenida: Poder Sagrado del Oso */
+SAY 318 @3513 /* Habilidad innata obtenida: Oso Endurecido */
+
 ////////////////////////////////////////////
 
 // Items for Kits:
@@ -912,13 +931,14 @@ SAY UNIDENTIFIED_DESC @200261 /* */
 SAY DESC @200390 /* */
 
 // Portrait Bellfame
+COPY ~Dusk/Summonings/p_bellf.baf~ ~override~
 COPY ~Dusk/Characters/p_bells.bmp~ ~override~
 COPY ~Dusk/Summonings/p_bellf.cre~ ~override~
 SAY NAME1 @200276 /* Bellfame */
 SAY NAME2 @200276 /* Bellfame */
-WRITE_ASCII 0x248 ~NYMPH~  #8  // override script
+WRITE_ASCII 0x248 ~P_BELLF~  #8  // override script
 WRITE_ASCII 0x2cc ~P_BELLD~  #8  // dialogue file
-WRITE_ASCII 0x280 ~NYMPHSU~  #32 // death variable
+WRITE_ASCII 0x280 ~P_BELLF~  #32 // death variable
 WRITE_ASCII 0X34  ~P_BELLS~ #8  // small portrait
 //cre for quest 3
 COPY ~Dusk/Summonings/p_bell2.cre~ ~override~
@@ -979,6 +999,10 @@ SAY 80 @200291 /*  */
 COPY ~Dusk/Summonings/p_jack.cre~ ~override~
 SAY NAME1 @200278 /* Jack, el Lobo de Invierno */
 SAY NAME2 @200278 /* Jack, el Lobo de Invierno */
+WRITE_ASCII 0x2cc ~p_jack~  #8  // dialogue file
+WRITE_ASCII 0X34  ~p_jack~ #8  // small portrait
+
+
 // Cono de fr�o de JACK
 COPY ~Dusk/Summonings/p_spcono.spl~ ~override~  
 
@@ -986,16 +1010,24 @@ COPY ~Dusk/Summonings/p_spcono.spl~ ~override~
 COPY ~Dusk/Summonings/p_sayang.cre~ ~override~
 SAY NAME1 @200279 /* Sayang, la Loba Worg */
 SAY NAME2 @200279 /* Sayang, la Loba Worg */
+WRITE_ASCII 0x2cc ~p_sayang~  #8  // dialogue file
+WRITE_ASCII 0X34  ~p_sayang~ #8  // small portrait
+
 
 // Uma la loba de las sombras
 COPY ~Dusk/Summonings/p_uma.cre~ ~override~
 SAY NAME1 @200281 /* Uma, la Loba de las Sombras */
 SAY NAME2 @200281 /* Uma, la Loba de las Sombras */
+WRITE_ASCII 0x2cc ~p_uma~  #8  // dialogue file
+WRITE_ASCII 0X34  ~p_uma~ #8  // small portrait
+
 
 // Thiago el oso
 COPY ~Dusk/Summonings/p_thiago.cre~ ~override~
 SAY NAME1 @200280 /* Thiago, el Oso Pardo */
 SAY NAME2 @200280 /* Thiago, el Oso Pardo */
+WRITE_ASCII 0x2cc ~p_thiago~  #8  // dialogue file
+WRITE_ASCII 0X34  ~p_thiago~ #8  // small portrait
 
 // BEAR: Innate Spell: Valentía del oso
 COPY ~Dusk/Summonings/p_thisp1.spl~ ~override~         

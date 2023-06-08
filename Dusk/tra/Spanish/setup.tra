@@ -1,4 +1,4 @@
-
+@0    = ~Fall~
 @1    = ~Dusk MOD~
 @2    = ~Dusk~
 @3    = ~Mis oídos aún retumban con esa explosión...~ [p_duski]
@@ -434,7 +434,7 @@ Bonificadores permanentes:
 Peso: 2 lbs.
 
 Sólo lo puede usar:
-Valyghar, nivel 12.~
+Valygar, nivel 12.~
 @200080 = ~Habilidad en Katana establecida en 5~
 @200081 = ~Estudios de Corthala: +4 a la Sabiduría~
 
@@ -2932,6 +2932,9 @@ Bonificadores permanentes:
 Peso: 1 lbs.~
 @3510  = ~Habilidad innata obtenida: Poolster~
 
+@3511 = ~Habilidad innata obtenida: Valentía del Oso~
+@3512 = ~Habilidad innata obtenida: Poder Sagrado del Oso~
+@3513 = ~Habilidad innata obtenida: Oso Endurecido~
 
 
 

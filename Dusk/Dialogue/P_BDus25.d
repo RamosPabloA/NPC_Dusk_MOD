@@ -42,19 +42,6 @@ DO ~SetGlobal("P_DuskAnomenToB1","GLOBAL",1)~
 == P_BDus25 IF ~ReputationGT([PC],12)~ THEN @21 /* ¿De verdad? Gracias, Anomen. Ha sido un placer hablar contigo. */
 EXIT
 
-//CHAIN 
-//IF ~InParty("P_Dusk")
-//See("P_Dusk")
-//!StateCheck("Cernd",CD_STATE_NOTVALID)
-//!StateCheck("P_Dusk",CD_STATE_NOTVALID)
-//Global("P_DuskCerndToB1","GLOBAL",0)~ THEN BCERND25 P_DuskCerndToB1
-//@1700 /*  */
-//DO ~SetGlobal("P_DuskCerndToB1","GLOBAL",1)~
-//== P_BDus25 @1800 /*  */
-//EXIT 
-
-
-
 CHAIN 
 IF ~InParty("P_Dusk")
 See("P_Dusk")
@@ -84,7 +71,7 @@ See("P_Dusk")
 !StateCheck("Sarevok",CD_STATE_NOTVALID)
 !StateCheck("P_Dusk",CD_STATE_NOTVALID)
 Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)
-Global("P_DuskSarevokToB2","GLOBAL",0)~ THEN BSAREV25 P_DuskSarevokToB3
+Global("P_DuskSarevokToB3","GLOBAL",0)~ THEN BSAREV25 P_DuskSarevokToB3
 @137 /* Tu aura... No proviene de este plano. ¿Qué eres? */
 DO ~SetGlobal("P_DuskSarevokToB3","GLOBAL",1)~
 == P_BDus25 @138 /* He obtenido poder a través del Pandemonium, Sarevok. ¿Conoces tal lugar? */

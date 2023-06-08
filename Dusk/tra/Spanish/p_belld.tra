@@ -36,4 +36,24 @@
 @36    = ~No entiendo tus bromas, joven Dusk. Quizás, cuando el tiempo sea más propicio, puedas explicármelo mejor.~
 @37    = ~Ehrm... sí, claro que sí. Hasta ese entonces, gracias por esta conversación.~
 @38    = ~Es siempre un placer hablar contigo, Dusk. Y recuerda. La Dama del Bosque te oye. Ella te asistirá si tu intención es la de proteger a los demás.~
-@39    = ~~
+@39  = ~Wilson, ¿qué es lo que te aflige?~
+@40  = ~Bien hecho, mi amigo. Espero que esto alivie tus dolores.~
+@41  = ~(Lamento, bufido)~ [BBEAR02]
+@42  = ~Oh, pobre criatura. Sí, sé a lo que te refieres. Por eso es que le he enseñado a Thiago algunas maneras de mejorar su defensa.~
+@43  = ~(Gruñido)~ [BBEAR01]
+@44  = ~No es nada muy complicado. He pensado en tus problemas y he llegado a una solución simple: Debes aprender las mismas habilidades que mi Thiago.~
+@45  = ~(Bufido)~ [BBEAR02]
+@46  = ~¿Qué debes hacer? Sólo debes comer este fruto astral.~
+@47  = ~(Lamento)~ [BBEAR03]
+@48  = ~No es muy sabroso, lo sé, pero te aseguro que valdrá la pena, Wilson.~
+@49  = ~(Budifo, gruñido)~ [BBEAR02]
+
+@50  = ~Forastero, he notado que vienes de otro plano. El Plano Material no es tu lugar natal, ¿no es así?~
+@51  = ~Ah, pequeña jilguero. Este no es mi hogar, pero pretendo formar uno aquí. Este gorrión dispone de muchos recursos verás.~
+@52  = ~Comprendo tus sentimientos. Mi caso es el opuesto, pese a que ahora me encuentre aquí, temporalmente, en este plano. Quizás, algún día pueda regresar por completo.~
+
+@53  = ~Mortal, demuestras gran desconfianza en los nuestros.~
+@54  = ~Es lo normal, criatura. Los vuestros no hablan como cotorras con aquellos que son sus amos.~
+@55  = ~¿Amos? Puede que esté atada a la voluntad de quien usa el Anillo del Bosque de Mir, pero están lejos de ser nuestros amos.~
+@56  = ~Puede ser. Eso no quiere decir que seas libre de hacer lo que te plazca.~
+@57  = ~Puede que no tenga una completa libertad y que mi esencia se encuentre atada al Plano Astral... pero ten en cuenta algo, mortal. Nada es eterno... ni siquiera tus dioses.~

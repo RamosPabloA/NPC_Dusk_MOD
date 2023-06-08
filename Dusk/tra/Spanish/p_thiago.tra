@@ -1,0 +1,47 @@
+@0    = ~*Thiago se acerca a Dusk disimuladamente. Olfatea su mochila en busca de comida.*~
+@1    = ~Lo lamento, Thiago. Los caramelos se han... acabado.~
+@2    = ~*Thiago deja escapar un exagerado aullido de lamento*~
+@3    = ~Hm... puede que tenga algunas... galletas.~
+@4    = ~*Al oír la palabra 'galleta', las orejas del oso se paran.*~
+@5    = ~Sí, aquí ten--- ¡Oye! Casi me arrancas la mano, oso. Sabes, no te vendría mal bajar un poco de peso. Deberías comer menos.~
+@6    = ~*Thiago ignora las palabras de Dusk mientras engulle sus galletas.*~
+
+@7    = ~*Thiago se encuentra rascándose una de sus orejas cerca de Neera.*~
+@8    = ~¡Oh, hola, Thiago! ¿Cómo te encuen--? ¡Ugh! Thiago, ¿ese olor viene de ti?~
+@9    = ~*Thiago observa a Neera sin saber a qué se refiere.*~
+@10   = ~¡Uff! ¡Bellfame! ¿Dónde estás? ¡Debes hacer algo con el hedor que emana tu oso!~
+@11   = ~Ah, pequeña mortal. ¿Te molesta Thiago? Lo lamento, a él no le gusta bañarse.~
+@12   = ~¡Argh! Creí que a todos los osos les gustaba el agua.~
+@13   = ~*Thiago se estremece al oír la palabra 'agua'.*~
+@14   = ~Bueno... no es como si no hubiese estado antes en una cloaca... ¡Pero no por ello soportaré tu 'aroma', oso! Espero que te bañes o puede que me ingenie algún conjuro para enviarte a una cascada de agua helada.~
+@15   = ~*Thiago observa confundido a Neera. Al cabo de unos segundos, continúa su labor de rascarse la oreja.*~
+
+@16   = ~*Thiago se acerca tímidamente a Viconia.*~
+@17   = ~Será mejor que te alejes de mí, peludo. No me encuentro de humor.~
+@18   = ~*Thiago se sienta al lado de Viconia y se queda observándola, casi admirándola.*~
+@19   = ~No importan cuán grandes hagas tus ojos. No te daré mi merienda.~
+@20   = ~*Thiago deja escapar un leve lamento y luego se relame.*~
+@21   = ~Ugh, de acuerdo. Pero que sea la última vez.~
+@22   = ~*Thiago toma con su hocico el pan de esporas que le ofrece Viconia. No pasan dos segundos que ya ha sido engullido. Luego, se echa a los pies de la drow esperando algunas caricias. Viconia lo ignora, pero permite que se quede echado a su lado.*~
+
+@23   = ~*Thiago está sentado al lado de Jan mientras devora, lo que parece ser, un pastel de nabos.*~
+@24   = ~Así es, peludo. La receta de Ma Jansen es infalible. No hay nada tan delicioso como los pasteles hechos con nabos de la huerta Jansen. Verás, mi tía Petunia elaboró esa complicada receta inspirada en una de sus aventuras en los bosques rondantes de Tethyr. Para mezclar la harina con los nabos molidos utilizó leche de una vaca, la cual robó a una bruja y se la trajo aquí a Athkatla.~
+@25   = ~*El oso parece escuchar con atención a las palabras del gnomo. La palabra 'vaca' parece llamarle la atención.*~
+@26   = ~Ah, ya veo que te ha interesado Rosita. Sí, así se llama la vaca lechera. Puedo presentártela si vamos a los Barrios Bajos algún día. Aunque... ahora que te veo relamerte, puede que esa no sea una buena idea, mi gordo amigo.~
+@27   = ~*Thiago emite un leve lamento, pero al cabo de unos segundos, sigue devorando el pastel de nabos.*~
+
+@28   = ~*Thiago te mira un poco asustado. Está convencido de que vas a regañarlo porque está comiendo algo que encontró del suelo. Al ver que no le dices nada, sigue masticando como si no hubiera un mañana.*~
+@29   = ~*Thiago se sienta a tu lado. Te mira con sus grandes ojos y espera que le des algo de comida. Emite un bufido de aburrimiento mientras espera que actúes en su bienestar.*~
+@30  = ~*Thiago se alegra cuando ve que te le acercas. Comienza a girar sobre su propio eje y te sorprende su agilidad pese a su gran tamaño.*~
+@31  = ~*Thiago emite varios lamentos, esperando llamar tu atención. No estás seguro de si quiere comida o caricias. Puede que ambas.*~
+@32  = ~*Acaricias el lomo de Thiago y este parece más contento que nunca. Tanto que se le escapa un gas y no tienes otra opción más que alejarte de él.*~
+
+@33  = ~*Thiago se acerca a Wilson y ambos se ponen a lamentarse.*~
+@34  = ~Lamento, lamento.~ [BBEAR02]
+@35  = ~*Thiago señala la mochila de <CHARNAME> y Wilson parece coincidir.*~
+@36  = ~No estoy muy segura de que a <CHARNAME> le haga gracia que coman sus provisiones, más allá del hambre que ambos puedan tener.~
+@37  = ~Lamento exagerado.~ [BBEAR02]
+@38  = ~*Thiago imita a Wilson y se lamenta, también, de forma exagerada.*~
+@39  = ~Puedo crear una bayas mágicas que pueden comer, mis niños. Espero que esto les haga desistir de comerse las provisiones de su compañero.~
+@40  = ~Bufido.~ [BBEAR01]
+@41  = ~*Thiago emite, también, un bufido, demostrando acuerdo con la ninfa y recibiendo de muy buena gana las bayas que ha creado. Se mira cómplice con Wilson quien también está engullendo las suyas.*~

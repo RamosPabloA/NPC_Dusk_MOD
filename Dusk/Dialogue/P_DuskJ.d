@@ -249,7 +249,7 @@ END
 
 IF ~~ THEN BEGIN 45 // from:
   SAY @3058 /* ~El bastón shilmista me ha acompañado desde un principio... pero la Vengadora Real nos servirá mejor para nuestro propósito... Así que sí... acepto el cambio.~ */
-  IF ~~ THEN DO ~SetGlobal ("p_staff_lost", "GLOBAL", 2)~ EXTERN ~P_MATUT~ 106
+  IF ~~ THEN DO ~SetGlobal ("p_staff_lost", "GLOBAL", 2) SetGlobal ("P_WSSTP_vengadora_real", "GLOBAL", 1)~ EXTERN ~P_MATUT~ 106
 END
 
 
@@ -2847,13 +2847,13 @@ I_C_T C6BODHI 0 P_DuskC6BODHI15_EVIL
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",1)~ THEN @3441 /* Hasta en las últimas consecuencias la criatura demuestra confianza... Acabemos con ella de una buena vez. */
 END
 
-I_C_T SUJON 14 P_DuskSUJON14_GOOD_NEUTRAL
+/*I_C_T SUJON 14 P_DuskSUJON14_GOOD_NEUTRAL
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @3442 /* Es hora de que pagues por lo que has hecho, Jon Irenicus. ¡Por la justicia de Athkatla, caerás! */
-END
+END*/
 
-I_C_T SUJON 14 P_DuskSUJON14_EVIL
+/*I_C_T SUJON 14 P_DuskSUJON14_EVIL
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",1)~ THEN @3443 /* Este es tan buen lugar como cualquiera para hacerte caer con nuestro poder, mago. El resultado será uno sólo: tu muerte. */
-END
+END*/
 
 
 

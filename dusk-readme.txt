@@ -1,5 +1,5 @@
 			Dusk NPC MOD for Baldur's Gate II
-				   Version 0.9.3
+				   Version 0.9.4
 
 CONTENTS
 
@@ -109,6 +109,33 @@ Pandemonium's gift: Pan's Lullaby by Javier Navarrete (perfomed by Erutan)
 -------------------
 6. Version History
 -------------------
+
+Version 0.9.4
+
+Bugs Fixed:
+
+- Fixed a banther between Imoen, Minsc and Dusk
+- Fixed some issues with Valygar and Haer’Dalis custom items
+- Fixed several issues with NPCs vanilla items
+- Fixed a wrong Journal Entry in the final mission
+- Fixed a bug in which Demoli could trigger the final mission twice
+- Fixed a bug in Wilson’s innate abilities from Bellfame: now it’s not necessary that Dusk is in the party
+
+Enhancements:
+
+- Rex, Royal Avenger, Lux Triumphans and Ira Tenax items received custom icons and custom animation when wielded
+- Larloch fang can be also forged with Korgan’s Axe +1
+- Dialogs for all the summonings from Bellfame (including herself) with:
+  - Dusk, Cernd, Anomen, Haer-Dalis, Wilson
+  - Baba, the Nervous Mouse: Minsc, Yoshimo, Mazzy
+  - Jack, the Winter Wolf: Dusk, Edwin, Keldorn, Valygar
+  - Sayang, the Worg Wolf: Rasaad, Dorn, Jaheira, Nalia
+  - Thiago, the Brown Bear: Neera, Jan, Viconia, Wilson, Dusk
+  - Uma, the Shadow Wolf: Hexxat, Imoen, Aerie
+
+New Features:
+
+- When Bellfame and Wilson are in the same area, there is a chance that if they speak each other he will obtain: Sacred Power of the Bear, Hardened Bear and Bear's Bravery innate abilities
 
 Version 0.9.3
 
