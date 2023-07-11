@@ -82,13 +82,13 @@ Is Dusk compatible Classic Edition?
 
 - Fixed remaining game's DLG files of the mod, avoiding potential conflicts with other mods
 
-Enhancements:
+**Enhancements:**
 
 - New talk after the battle in The Oasis (ToB)
 - If player attacks Dusk’s allies (Eg. Mathyus or Michelson) he turns into a enemy
 - Added remaining Dusk’s voiceovers
 
-New Features:
+**New Features:**
 
 - Added new language: Italian
 
