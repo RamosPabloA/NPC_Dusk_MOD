@@ -1,0 +1,92 @@
+// Bloque 1 (FTF)
+
+@1 = ~Il piccolo Baba ti guarda con i suoi grandi occhi quando ti avvicini. Inizia a MUOVERE la coda, non sai bene se significa che è felice o infastidito. Muove il suo minuscolo muso e emette qualcosa che sembra essere una sorta di latrato, il che ti lascia confuso poiché stai interagendo con un roditore.~ [P_Baba01]
+@2 = ~Salve, grande Baba! So di non essere degno di rivolgermi a te, ma con tutto il dovuto rispetto, oserei chiedere i tuoi servizi. Se hai degli oggetti di valore per me, sarebbe così magnanimo da consegnarmeli e alleggerire così il suo carico?~ ~Salve, grande Baba! So di non essere degna di rivolgermi a te, ma con tutto il dovuto rispetto, oserei chiedere i tuoi servizi. Se hai degli oggetti di valore per me, sarebbe così magnanimo da consegnarmeli e alleggerire così il suo carico?~
+@3 = ~Chi è il topolino più carino del mondo? Sei tu, sì, Baba, sei tu! E poiché sei il topolino più carino del mondo, sicuramente mi darai tutto ciò che hai di valore, giusto? (cerchi di accarezzarlo, mentre fai un sorriso forzato)~
+@4 = ~Ehi, Baba. Vuoi un pezzo di torta? Devo averne qualcuno nella mia zaino. Ti darò una porzione se mi dai ciò che hai rubato, cosa ne dici?~
+@5 = ~Per alcuni secondi, sembra che tu abbia colpito l'orgoglio di Baba. Ma improvvisamente inizia a contorcersi come un pazzo e scappa da te, ringhiando incoerentemente.~ [P_Baba01]
+@6 = ~Per i primi secondi ti guarda con diffidenza. Ma alla fine si arrende alle tue carezze mentre emette strani suoni acuti. Baba decide di darti tutto ciò che ha nel suo inventario.~ [P_Baba02]
+@7 = ~Quando menzioni il cibo, le orecchie di Baba si allungano per un attimo. Ma dopo qualche secondo si accorge che stai solo cercando di corromperlo. Il suo orgoglio viene ferito e scappa via come un pazzo, barbotando di rabbia contro di te.~ [P_Baba01]
+
+// Bloque 2 (TFF)
+
+@8 = ~Il piccolo Baba ti guarda con i suoi grandi occhi quando ti avvicini. Inizia a SALTARE come un pazzo e non sai se significa che è felice di vederti o forse sta cercando di attaccarti. Muove le sue piccole mani e emette suoni che inconfondibilmente sembrano quelli di un cucciolo di cane, il che ti lascia confuso poiché stai interagendo con un roditore.~[P_Baba01] ~Il piccolo Baba ti guarda con i suoi grandi occhi quando ti avvicini. Inizia a SALTARE come un pazzo e non sai se significa che è felice di vederti o forse sta cercando di attaccarti. Muove le sue piccole mani e emette suoni che inconfondibilmente sembrano quelli di un cucciolo di cane, il che ti lascia confusa poiché stai interagendo con un roditore.~ [P_Baba01]
+@9 = ~Salve, grande Baba! So di non essere degno di rivolgermi a te, ma con tutto il dovuto rispetto, oserei chiedere i tuoi servizi. Se hai degli oggetti di valore per me, sarebbe così magnanimo da consegnarmeli e alleggerire così il suo carico?~ ~Salve, grande Baba! So di non essere degna di rivolgermi a te, ma con tutto il dovuto rispetto, oserei chiedere i tuoi servizi. Se hai degli oggetti di valore per me, sarebbe così magnanimo da consegnarmeli e alleggerire così il suo carico?~
+@10 = ~Chi è il topolino più carino del mondo? Sei tu, sì, Baba, sei tu! E poiché sei il topolino più carino del mondo, sicuramente mi darai tutto ciò che hai di valore, giusto? (cerchi di accarezzarlo, mentre fai un sorriso forzato)~
+@11 = ~Ehi, Baba. Vuoi un pezzo di torta? Devo averne qualcuno nella mia zaino. Ti darò una porzione se mi dai ciò che hai rubato, cosa ne dici?~
+@12 = ~Baba, improvvisamente in piedi, sembra essere d'accordo con te, emettendo strani suoni da cane. Il fatto che tu abbia parlato sinceramente lo ha convinto a darti ciò che ha nel suo inventario.~ [P_Baba02]
+@13 = ~Per qualche secondo sembra che tu stia per convincerlo, ma Baba capisce che vuoi solo ciò che ha, quindi scappa via mentre lo senti lamentarsi in una lingua incomprensibile.~ [P_Baba01]
+@14 = ~Quando menzioni il cibo, le orecchie di Baba si allungano per un attimo. Ma dopo qualche secondo si accorge che stai solo cercando di corromperlo. Il suo orgoglio viene ferito e scappa via come un pazzo, barbotando di rabbia contro di te.~ [P_Baba01]
+
+
+// Bloque 3 (FFT)
+
+@15 = ~Il piccolo Baba ti guarda con i suoi grandi occhi quando ti avvicini. Inizia a CORRERE intorno a te senza motivo apparente e non sai se lo fa perché è felice di vederti o perché sta cercando di rubarti qualche gioiello di valore che potresti possedere. Si arrampica sul tuo vestito, scalando una delle tue gambe. Cerchi di liberartene ma è difficile. Nel frattempo emette suoni ansimanti simili a quelli di un cane, il che ti lascia perplesso, poiché sai di interagire con un roditore.~ [P_Baba01] ~Il piccolo Baba ti guarda con i suoi grandi occhi quando ti avvicini. Inizia a CORRERE intorno a te senza motivo apparente e non sai se lo fa perché è felice di vederti o perché sta cercando di rubarti qualche gioiello di valore che potresti possedere. Si arrampica sul tuo vestito, scalando una delle tue gambe. Cerchi di liberartene ma è difficile. Nel frattempo emette suoni ansimanti simili a quelli di un cane, il che ti lascia perplessa, poiché sai di interagire con un roditore.~ [P_Baba01]
+@16 = ~Salve, grande Baba! So di non essere degno di rivolgermi a te, ma con tutto il dovuto rispetto, oserei chiedere i tuoi servizi. Se hai degli oggetti di valore per me, sarebbe così magnanimo da consegnarmeli e alleggerire così il suo carico?~ ~Salve, grande Baba! So di non essere degna di rivolgermi a te, ma con tutto il dovuto rispetto, oserei chiedere i tuoi servizi. Se hai degli oggetti di valore per me, sarebbe così magnanimo da consegnarmeli e alleggerire così il suo carico?~
+@17 = ~Chi è il topolino più carino del mondo? Sei tu, sì, Baba, sei tu! E poiché sei il topolino più carino del mondo, sicuramente mi darai tutto ciò che hai di valore, giusto? (cerchi di accarezzarlo, mentre fai un sorriso forzato)~
+@18 = ~Ehi, Baba. Vuoi un pezzo di torta? Devo averne qualcuno nella mia zaino. Ti darò una porzione se mi dai ciò che hai rubato, cosa ne dici?~
+@19 = ~Per qualche secondo sembra che tu stia per convincerlo, ma Baba capisce che vuoi solo ciò che ha, quindi scappa via mentre lo senti lamentarsi in una lingua incomprensibile.~ [P_Baba01]
+@20 = ~Per qualche secondo, sembra che tu abbia quasi convinto Baba, ma scopre che vuoi solo ciò che ha, quindi scappa via mentre lo senti lamentarsi in una lingua incomprensibile.~ [P_Baba01]
+@21 = ~Nonostante tu possa vedere il palese disprezzo che Baba nutre nei tuoi confronti, il piccolino si rende conto che è da diverse ore che non mangia, quindi decide di darti ciò che ha ottenuto in cambio della promessa di cibo.~ [P_Baba02]
+
+// HPLT
+@22 = ~Ehi, Baba, ti senti bene? Sembri più nervoso del solito. Sei ferito?~
+@23 = ~Baba sembra indignarsi per una così ovvia affermazione, quindi decide di mostrarti con le sue piccole manine dove ha la ferita da combattimento. Poi decide di scappare da te, poiché sembri non preoccuparti per il suo benessere.~ [P_Baba01]
+
+@24 = ~*Baba sembra guardare Minsc con grande diffidenza. In realtà, diffida di Boo.*~
+@25 = ~Cosa succede con il piccolo Baba? Eh? Boo dice di non fidarsi neanche di te.~
+@26 = ~*Baba inizia a muovere freneticamente le sue manine e emette strani suoni. Se parlassi la sua lingua, saresti quasi sicuro che stia insultando Boo.*~ [P_Baba01]
+@27 = ~Questo è molto maleducato! Cosa? Anche tu, Boo?~
+@28 = ~*strillo*~ [P_Squeak]
+@29 = ~Oh, Boo, è inconcepibile! Non avevo mai sentito tali insulti... Sono completamente imbarazzato per voi!~
+@30 = ~*Baba continua la sua rabbia e sembra incitare negativamente il criceto.*~ [P_Baba02]
+//@31 = ~~
+@32 = ~Oh, no, questo non accadrà. L'ultima cosa di cui abbiamo bisogno è uno scontro mortale tra roditori. <CHARNAME> sarebbe molto deluso/a di voi.~
+@33 = ~Andiamocene, Boo! È meglio che ti allontani da quel maleducato.~
+@34 = ~*Potresti giurare che Baba sorride vittorioso quando vedi Minsc allontanarsi con Boo.*~
+
+
+
+@35 = ~*Baba sembra osservare attentamente Yoshimo.*~
+@36 = ~Che cos'è questo? Sei il buon Baba. Potresti essere un grande Ladro delle Ombre, lo sai?~
+@37 = ~*Baba inizia a emettere i suoi tipici suoni strani.*~ [P_Baba01]
+@38 = ~Sì, bene. La verità è che non ho idea di cosa mi stai dicendo.~
+@39 = ~*Baba continua a parlare nella sua lingua e sembra quasi spiegare ciò che sta 'dicendo' con le sue piccole zampette.*~ [P_Baba02]
+@40 = ~Dato come lo esprimi, non oserei contraddirti, piccolo amico.~
+@41 = ~*Baba sembra annuire con la sua piccola testa. È totalmente convinto di essersi spiegato correttamente.*~
+
+@42 = ~*Baba si avvicina a Mazzy e si ferma a guardarla intensamente. Per la prima volta, noti incertezza nel suo sguardo.*~
+@43 = ~Oh, ciao Baba. Come stai--?~
+@44 = ~*Baba inizia a emettere i suoi tipici suoni strani, interrompendo Mazzy. Sembra esserci un certo dolore nei suoi occhi.*~ [P_Baba01]
+@45 = ~Ah, è bellissimo, Baba.~
+@46 = ~*sussurro* Non capisco, cosa succede, Bellfame?~
+@47 = ~Non è ovvio, mortale? Baba sta dichiarando il suo amore per te.~
+@48 = ~*Baba continua il suo 'discorso' mentre Mazzy e Bellfame parlano sottovoce.*~ [P_Baba02]
+@49 = ~Cosa? Il roditore è innamorato di me?~
+@50 = ~Sì. Al momento sta recitando quello che voi chiamate poesia.~
+@51 = ~Oh, capisco. E cosa sta dicendo?~
+@52 = ~*Baba continua a emettere suoni esotici.*~ [P_Baba01]
+
+
+@53 = ~Dice qualcosa del genere:
+"Nel profondo della mia piccola tana,
+sospiro d'amore per una donna così bella.
+Nei suoi occhi trovo la vera luce,
+e il mio cuore si riempie di stelle."~
+@54 = ~"Anche se sono piccolo, non temo di lottare,
+per l'amore che sento nel mio essere di topo.
+Sotto la luna, sussurro versi senza sosta,
+dipingendo nella notte un dolce desiderio."~
+@55 = ~"Oh, Mazzy, ascolta la mia voce,
+sono un topo che ti ama con fervore.
+Nel mio piccolo essere c'è un amore veloce,
+un topo innamorato, eterno innamoratore."~
+@56 = ~*Baba finalmente termina la sua 'dichiarazione'.*~
+
+@57 = ~Oh, è... estremamente bello. Non avrei mai pensato che un... roditore potesse comporre qualcosa di così bello.~
+@58 = ~Baba può essere duro con gli altri mortali. Ma è la prima volta che lo vedo esprimere un amore sincero.~
+@59 = ~Capisco.~
+@60 = ~Baba, grazie per la tua poesia. Vieni qui.~
+@61 = ~*Gli occhi di Baba brillano incessantemente e si avvicina rapidamente a Mazzy.*~
+@62 = ~*Mazzy lo prende tra le sue mani e lo solleva, piantando un bacio sulla sua piccola testolina. Poi lo rimette a terra.*~
+@63 = ~*Baba sembra estasiato... e dopo qualche secondo si rende conto di essere osservato da tutti. Per evitare l'imbarazzo, scappa via velocemente.*~

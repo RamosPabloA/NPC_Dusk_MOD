@@ -1,0 +1,24 @@
+//@0    = ~~
+@1 = ~Suppongo che le nostre strade prendano direzioni diverse, vero? Se cambi idea, potrai trovarmi dove ci siamo conosciuti: al Paseo de Waukin, vicino alle rovine che il nostro nemico ha provocato.~
+@2 = ~Aspetta, Dusk. Non andartene, il nostro viaggio deve continuare.~
+@3 = ~Certamente, ci vedremo lì, al Paseo de Waukin.~
+@4 = ~Meglio se mi aspetti qui, Dusk.~
+@5 = ~¡<CHARNAME>! Sei tornato. Spero che possiamo riprendere il nostro viaggio. Dobbiamo dare giustizia ai caduti.~
+@6 = ~Hai ragione, amico. Andiamo, unisciti a me.~
+@7 = ~Ancora no, Dusk, devo sistemare alcune faccende prima.~
+@8 = ~¡Fantastico! <CHARNAME>, andiamo.~
+@9 = ~Ti aspetterò qui, allora.~
+
+
+@10 = ~Beh... almeno hai riflettuto... Va bene... ti seguirò... per ora...~
+@11 = ~Ma... Cosa diavolo?! Per un momento... ho perso conoscenza?~
+@12 = ~In effetti, eri morto, Dusk. Michelson ti ha riportato indietro usando il Simbolo di Velsharún di Anthagar.~
+@13 = ~In effetti, eri morto, Dusk. Danctian ti ha riportato indietro usando il Simbolo di Velsharún di Anthagar.~
+@14 = ~Già... capisco...~
+@15 = ~(Michelson, con un sorriso da orecchio a orecchio, saluta Dusk)~ [P_Mich01]
+@16 = ~Michelson... non ho parole per ringraziarti per quello che hai fatto...~
+@17 = ~Vedo... vedo che Mathyus è caduto... accidenti... è stato un combattimento duro, <CHARNAME>...~
+@18 = ~Credo che Michelson sarà in grado di riportarci a casa quando saremo pronti... quando lo riterrai opportuno, <CHARNAME>, parla con lui per farci uscire da questo maledetto luogo.~
+@19 = ~Sei tornato, <CHARNAME>. Hai forse riflettuto e hai bisogno dei miei servizi?~
+@20 = ~Hai ragione, Dusk. Andiamo, unisciti a me.~
+@3501 = ~Hai intenzione di attaccare l'Ordine? Non posso permetterlo... sono miei alleati! <CHARNAME>, preparati!~

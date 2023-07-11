@@ -3,22 +3,22 @@
 @2    = ~Dusk~
 @3    = ~My ears still ring with that explosion...~ [p_duski]
 @4    = ~No...!,NO!!!~ [p_dusk02]
-@5    = ~...~ //I like how this group handles things.
-@6    = ~We should reconsider our actions...~ 
-@7    = ~Clearly something is not working here...~ 
-@8    = ~We can't keep working together...~ 
-@9    = ~I prefer you as the leader, but if you insist...~ [P_Dusk08]
+@5    = ~This party's methods for dealing with situations have an ethereal quality to them.~ [p_dusk36] //  /// I like how this group handles things.
+@6    = ~We should reconsider our actions...~ // N/A
+@7    = ~Clearly something is not working here...~ // N/A
+@8    = ~We can't keep working together...~ // N/A
+@9    = ~I prefer you as the leader, but if you insist...~ [P_Dusk08] //08
 @10   = ~*yawn* I think we need some rest, don't you?~ [P_Dusk09]
 @11   = ~It doesn't matter how slow you go as long as you don't stop...~ [P_Dusk25]
 @12   = ~Let's see what you've got!~ [P_Dusk03]
 @13   = ~For Cormyr!!!~ [P_Dusk05]
 @14   = ~You can't win!~ [P_Dusk06]
 @15   = ~I'm sorry... I need someone to tend to my wounds.~ [P_Dusk11]
-@16   = ~We must beware of wild beasts. As beautiful as the forest may be, danger lurks around every corner...~
-@17   = ~It's incredible how corruption has invaded even the most remote corner of the city...~
+@16   = ~We must beware of wild beasts. As beautiful as the forest may be, danger lurks around every corner...~ [p_dusk37]
+@17   = ~It's astonishing how corruption has permeated even the most secluded corners of the city.~ [p_dusk38]
 @18   = ~You should be careful here. I sense... danger.~ [P_Dusk15]
-@19   = ~Today is a good day for a stroll. But remember, <CHARNAME>, we have a duty to fulfill.~
-@20   = ~The stars shine in the firmament, but beware! Not everything that glitters is gold...~
+@19   = ~Today is a good day for a stroll. But remember, <CHARNAME>, we have a duty to fulfill.~ [p_dusk39]
+@20   = ~The stars shine in the firmament, but beware! Not everything that glitters is gold...~ [p_dusk40]
 @21   = ~What's on your mind? ~ [P_Dusk17]
 @22   = ~Yes?~ [P_Dusk14]
 @23   = ~What do you want?~ [P_Dusk27]
@@ -54,7 +54,7 @@
 @48   = ~*sigh* My target is immune...~ [P_Dusk28]
 @49   = ~Here we go again...~ [P_Dusk13]
 @50   = ~*laugh* The trapt... it's set.~ [P_Dusk33]
-@51   = ~Wow... The stealing has been successful.~
+@51   = ~Stealing successful.~ [p_dusk41]
 
 
 //SPINF99
@@ -1596,8 +1596,8 @@ Saving Throw: None
 
 DESCRIPTION:
 
-Thiago lets out a fierce growl, enhancing his combat abilities. He provides protection against fear to his allies, whether it be magical or natural.
-Moreover, if any of his companions were affected by terror, Thiago's Bravery should cure that negative effect.
+The bear lets out a fierce growl, enhancing his combat abilities. He provides protection against fear to his allies, whether it be magical or natural.
+Moreover, if any of his companions were affected by terror, Bear's Bravery should cure that negative effect.
 THAC0: +1
 Saving Throws: +1~
 @200294 = ~Panic~
@@ -1617,7 +1617,7 @@ Saving Throw: None
 
 DESCRIPTION:
 
-Thiago prepares for arduous combat, invoking the sacred forces of nature. When he does this, his strength, constitution, and dexterity increase by 3 points.~
+The bear prepares for arduous combat, invoking the sacred forces of nature. When he does this, his strength, constitution, and dexterity increase by 3 points.~
 @200298 = ~Strength, Constitution and Dexterity Modification~
 @200299 = ~Strength, Constitution and Dexterity Modification~
 @200300 = ~Strength, Constitution and Dexterity Modification~
@@ -1637,7 +1637,7 @@ Effect: Stone Skin
 
 DESCRIPTION:
 
-Thiago hardens his skin to create impenetrable layers against physical weapons. He can withstand up to five hits without feeling any pain or damage to his health. However, after the fifth hit, the layers will disappear. They can also be dispelled through magical means.~
+The bear hardens his skin to create impenetrable layers against physical weapons. He can withstand up to five hits without feeling any pain or damage to his health. However, after the fifth hit, the layers will disappear. They can also be dispelled through magical means.~
 
 // Michelson, el Leprechaun
 
@@ -1739,7 +1739,7 @@ You will need:
 - Helm of Charm Protection  (a protective helmet, I think Michelson wants to extract part of its magic to embed it in the axe)
 - Gold: 12500
 
-Inferno's Blizzard
+Hellfrost
 
 Apparently, Michelson has been to an infernal plane where fire does not exist. He says he learned how to forge a powerful weapon there, specifically a bastard sword. To replicate it, he needs:
 
@@ -2814,6 +2814,7 @@ Weight: 1 lbs.~
 @200451 = ~Korgan... Darn it... I'll avenge you, dwarf.~
 @200452 = ~Nalia... no... In the name of your family, I'll avenge your fall!~
 @200453 = ~Valygar, no... no... NOooOOOoooo!!!~
+@200454 = ~Have you gone mad? I can't allow you to do this!~
 
 
 ////////////////////////////////

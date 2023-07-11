@@ -1,5 +1,5 @@
 			Dusk NPC MOD for Baldur's Gate II
-				   Version 0.9.4
+				   Version 1.0.0
 
 CONTENTS
 
@@ -109,6 +109,24 @@ Pandemonium's gift: Pan's Lullaby by Javier Navarrete (perfomed by Erutan)
 -------------------
 6. Version History
 -------------------
+
+Version 1.0.0
+
+Bugs Fixed:
+
+- Fixed remaining game's DLG files of the mod, avoiding potential conflicts with other mods
+
+Enhancements:
+
+- New talk after the battle in The Oasis (ToB)
+
+- If player attacks Dusk’s allies (Eg. Mathyus or Michelson) he turns into a enemy
+
+- Added remaining Dusk’s voiceovers
+
+New Features:
+
+- Added new language: Italian
 
 Version 0.9.4
 

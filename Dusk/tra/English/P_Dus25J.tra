@@ -145,6 +145,48 @@
 @176  = ~What you were... since we left Athkatla... you've changed, too much.~
 @177  = ~*clears throat* I'm not trying to give you a sermon or anything. I just needed to make these abstractions real. We should continue.~
 
+@178 = ~I didn't want... to bring this up, <CHARNAME>. But... the battle against the Tethyrian soldiers still has me shaken.~
+@179 = ~I find that hard to believe. It wasn't a skirmish that placed us in a difficult predicament. It seems strange coming from you.~
+@180 = ~Why do you say that, Dusk? Does it have to do with your past as a peacemaker, yes?~
+@181 = ~It's not the time for whining, Dusk. We have more important matters to attend to.~
+@182 = ~*sigh* Very well, <CHARNAME>. Let's continue.~
+@183 = ~It's not related to the combat itself. Many of those soldiers... were trying to do the same thing I did years ago. Maintain peace.~
+@184 = ~I don't know what will be said about us in detail... The Tethyrian commander didn't want to listen to us... I guess he never would.~
+@185 = ~It's unfair that this had to happen.~
+
+@186 = ~Many things are unfair, Dusk. That's how the world is. It's better to get used to that idea.~
+@187 = ~It may be unfair. But I believe it's our duty to make things right. We did everything we could to avoid the skirmish, Dusk.~
+@188 = ~A rather cold reasoning, my comrade. Perhaps time has made us... tougher.~
+@189 = ~You're correct. You bear a heavy legacy, my friend. Not many understand what you're trying to do.~
+@190 = ~Those who don't understand it, fear you. The previous skirmish is proof of that, now I realize.~
+@191 = ~Not many are capable of seeing the value you possess, <CHARNAME>. But I do. I trust you.~
+@192 = ~*clears throat* Well, I think we've talked enough. It's better if we continue.~
+@193 = ~That's right. Tethyr welcomed me with open arms. Zaranda is the epitome of honor and wisdom...~
+@194 = ~What happened in Saradush... it was terrible. We tried to prevent it, didn't we?~
+
+@195 = ~Stupid Tethyrians... fouls. What were they thinking? They deserved... they deserved to die.~
+@196 = ~What are you muttering, Dusk? Are you talking about the skirmish at the Oasis?~
+@197 = ~Ah, have you gone mad, huh? It's something I feared. It often happens to those who talk to themselves.~
+@198 = ~I don't want to hear any complaints about anything, Dusk. If you're about to whine about something, it's better to keep it to yourself.~
+@199 = ~Insolent. I'm not crying. I'm not complaining. And I don't need your ear for this. We better continue with our affairs.~
+@200 = ~If you can call that a skirmish, <CHARNAME>. It was more of a massacre. Those fouls... never stood a chance.~
+@201 = ~Never stood a chance...~
+@202 = ~I'm surprised you feel pity for them, Dusk. Tethyr brought it upon themselves. Those who stand in our way will pay.~
+@203 = ~Do you feel bad for having killed them, Dusk? If it makes you feel better, I believe the skirmish was inevitable.~
+
+@204 = ~Long is the list of corpses that can confirm that, Bhaalspawn. Long is the list...~
+@205 = ~Saradush. Tethyr... cemeteries grow as we advance.~
+@206 = ~Sometimes I wonder... if I will ever witness the end of this.~
+@207 = ~I feel bothered. Cleaning the blood of a young soldier off the edge of my sword? It wasn't worth the effort.~
+@208 = ~I understand we had no other choice. The stupid Zaranda doesn't listen to reason.~
+@209 = ~Sending warriors, veterans, and squires to the slaughter over mere rumors?~
+@210 = ~I tell you, <CHARNAME>... Queens and kings no longer fight their own battles. They let the young ones do it for them.~
+@211 = ~Power is an enticing sword. But if you want to decapitate others, at least the one wielding it should be able to fend for themselves.~
+@212 = ~Bah! We better continue. The dead are dead.~
+@213 = ~Very funny, <CHARNAME>.~
+@214 = ~And no, I haven't gone mad. I've been thinking about our skirmish at the Oasis.~
+@215 = ~If you can call that a skirmish. It was more of a massacre. Those fouls... never stood a chance.~
+
 
 
 @20000  = ~But, what the he--?~
@@ -156,3 +198,6 @@
 @20006  = ~Damn it... *whisper* It seems we have no choice but to face them, <CHARNAME>. I didn't want it to come to this... the Tethyrians are allies of Cormyr...~
 @20007  = ~It... it might be possible that when all this is over, the ties can be re-forged...~
 @20008  = ~*sigh*~
+
+@20009  = ~You bastard, you will die for your perversion. Prepare to die!~
+@20010  = ~Do you think I'll let you continue with your perversion, you wretch?! Creatures, even those that come from the Ethereal Plane, should not be subject to anyone's training. You will die here and now!~

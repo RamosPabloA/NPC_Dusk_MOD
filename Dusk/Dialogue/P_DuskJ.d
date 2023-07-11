@@ -1,15 +1,5 @@
 BEGIN P_DuskJ
 
-
-IF ~~ THEN BEGIN 0 // from:
-  SAY @20000 /* ~Rayos, <CHARNAME>. Que tengas tu propia búsqueda no implica que no puedas ayudar a los demás, en especial a un niño que ha perdido a su madre...~ */
-IF ~!IsValidForPartyDialog("Jaheira")
-!IsValidForPartyDialog("Yoshimo")~ THEN EXIT
-  IF ~IsValidForPartyDialog("Jaheira") ~ THEN EXTERN ~JAHEIRAJ~ 311
-  IF ~!IsValidForPartyDialog("Jaheira")
-IsValidForPartyDialog("Yoshimo")~ THEN EXTERN ~YOSHJ~ 22 
-END
-
 // Bloques con las misiones de Dusk
 // NOTA: BLOQUE Arranca desde el 100
 // NOTA: enlace TRA Arranca desde el 3000
@@ -531,10 +521,6 @@ IF ~~ THEN BEGIN 97 // from:
   IF ~~ THEN DO ~SetGlobal ("P_DuskGood","GLOBAL",1)~ UNSOLVED_JOURNAL @210009 EXIT 
 END
 
-// PARA CAMINO GOOD_DUSK
-//Global("Kayl1Done","GLOBAL",1) KAYL2.d
-// Sigue en 198
-
 IF ~Global ("P_DuskEvil","GLOBAL",2)~ THEN BEGIN 98 // from:
   SAY @3149 /* ~Por Cormyr, ¿quién rayos eres tú?~ */
   IF ~~ THEN DO ~SetGlobal ("P_DuskEvil","GLOBAL",3)~ EXTERN ~p_sornhi~ 0
@@ -654,35 +640,13 @@ END
 
 /////////////////////////////////////////////////////////////
 
-// Global("Kayl1Done","GLOBAL",1)
-// Global ("P_DuskGood","GLOBAL",1)
-
 IF ~Global("Kayl1Done","GLOBAL",0) Global ("P_DuskGood","GLOBAL",1) 
 Global ("P_DuskEvil","GLOBAL",0) 
 Global ("P_Dusk_KAYL1NOTDONE","GLOBAL",0)~ THEN BEGIN 121 // from:
   SAY @3174 /* ~Sir Ryan Espinel, en nombre de Cormyr, es un placer saludarte.~ */
-  IF ~~ THEN DO ~SetGlobal ("P_Dusk_KAYL1NOTDONE","GLOBAL",1)~ EXTERN  ~KAYL2~ p_1
+  IF ~~ THEN DO ~SetGlobal ("P_Dusk_KAYL1NOTDONE","GLOBAL",1)~ GOTO 126
 END
 
-IF ~~ THEN BEGIN 122 // from:
-  SAY @3175 /* ~Con nuestro grupo hemos podido localizar a un grupo de humanoides renegados del imperio Sothillis. Su cacique busca vivir en paz, lejos de la guerra que su antiguo jefe ha provocado.~ */
-  IF ~~ THEN EXTERN ~KAYL2~ p_2
-END
-
-IF ~~ THEN BEGIN 123 // from:
-  SAY @3176 /* ~Pues... luego de dialogar con ellos, he prometido buscarles un hogar, aquí en Amn. Sé que pido demasiado, pero creo que he ayudado en el pasado a la ciudad como me ha sido posible. Lo único que busco, es una oportunidad...~ */
-  IF ~~ THEN EXTERN ~KAYL2~ p_3
-END
-
-IF ~~ THEN BEGIN 124 // from:
-  SAY @3177 /* ~No se trata de un grupo violento, ni siquiera numeroso, mi señor. Si estuvieran bajo la protección de la Orden, creo que serían útiles en la guerra que se está llevando a cabo contra el imperio de Sothillis.~ */
-  IF ~~ THEN GOTO 125
-END
-
-IF ~~ THEN BEGIN 125 // from:
-  SAY @3178 /* ~Creo que podrían brindar información vital acerca del ejército del ogro, mi señor. Incluso, puede que luchen a su lado si así se lo piden. Siempre y cuando se les prometa un hogar aquí, en Amn.~ */
-  IF ~~ THEN EXTERN ~KAYL2~ p_4
-END
 
 IF ~~ THEN BEGIN 126 // from:
   SAY @3179 /* ~Gracias, Sir Ryan. Estoy seguro de que <CHARNAME> estará a la altura de lo que requieras de él.~ ~Gracias, Sir Ryan. Estoy seguro de que <CHARNAME> estará a la altura de lo que requieras de ella.~ */
@@ -693,40 +657,24 @@ IF ~Global("Kayl1Done","GLOBAL",1) Global ("P_DuskGood","GLOBAL",1)
 Global ("P_Dusk_KAYL1NOTDONE","GLOBAL",1)~ THEN BEGIN 127 // from:
   SAY @3180 /* ~Sir Ryan, ahora que se ha resuelto el asunto de los paladines caídos...~ */
   IF ~~ THEN DO ~SetGlobal ("P_Dusk_KAYL1NOTDONE","GLOBAL",2) 
-  SetGlobal ("P_DuskMatMission2","GLOBAL",6)~ EXTERN  ~KAYL2~ p_8
+  SetGlobal ("P_DuskMatMission2","GLOBAL",6)~ GOTO 128
 END
+
+
 
 IF ~~ THEN BEGIN 128 // from:
   SAY @3181 /* ~¡Formidables noticias! <CHARNAME>, volvamos a las Colinas Ventolanza y demos las buenas noticias a Falon y su tribu.~ */
   IF ~~ THEN DO ~~  UNSOLVED_JOURNAL @210012 EXIT 
 END
 
+
+
 // Kayl1Done 1
 IF ~Global("Kayl1Done","GLOBAL",1) Global ("P_DuskGood","GLOBAL",1) 
 Global ("P_DuskEvil","GLOBAL",0) Global ("P_Dusk_KAYL1NOTDONE","GLOBAL",0)~ THEN BEGIN 129 // from:
   SAY @3174 /* ~Sir Ryan Espinel, en nombre de Cormyr, es un placer saludarte.~ */
   IF ~~ THEN DO ~SetGlobal ("P_Dusk_KAYL1NOTDONE","GLOBAL",2) 
-  SetGlobal ("P_DuskMatMission2","GLOBAL",6)~ EXTERN  ~KAYL2~ p_10
-END
-
-IF ~~ THEN BEGIN 130 // from:
-  SAY @3175 /* ~Con nuestro grupo hemos podido localizar a un grupo de humanoides renegados del imperio Sothillis. Su cacique busca vivir en paz, lejos de la guerra que su antiguo jefe ha provocado.~ */
-  IF ~~ THEN EXTERN ~KAYL2~ p_11
-END
-
-IF ~~ THEN BEGIN 131 // from:
-  SAY @3176 /* ~Pues... luego de dialogar con ellos, he prometido buscarles un hogar, aquí en Amn. Sé que pido demasiado, pero creo que he ayudado en el pasado a la ciudad como me ha sido posible. Lo único que busco, es una oportunidad...~ */
-  IF ~~ THEN EXTERN ~KAYL2~ p_12
-END
-
-IF ~~ THEN BEGIN 132 // from:
-  SAY @3177 /* ~No se trata de un grupo violento, ni siquiera numeroso, mi señor. Si estuvieran bajo la protección de la Orden, creo que serían útiles en la guerra que se está llevando a cabo contra el imperio de Sothillis.~ */
-  IF ~~ THEN GOTO 133
-END
-
-IF ~~ THEN BEGIN 133 // from:
-  SAY @3178 /* ~Creo que podrían brindar información vital acerca del ejército del ogro, mi señor. Incluso, puede que luchen a su lado si así se lo piden. Siempre y cuando se les prometa un hogar aquí, en Amn.~ */
-  IF ~~ THEN EXTERN ~KAYL2~ p_13
+  SetGlobal ("P_DuskMatMission2","GLOBAL",6)~ GOTO 128
 END
 
 IF ~~ THEN BEGIN 134 // from:
@@ -1690,24 +1638,6 @@ IF ~~ THEN BEGIN 308 // from:
   IF ~~ THEN EXTERN ~P_DANCTI~ 39
 END
 
-// RIBALD
-
-IF ~~ THEN BEGIN 309 // from:
-  SAY @3375 /* ~"Tan solo buenas mercancías, simple y..." (deja de escribir cuando todos posan su atención en él)~ */
-  IF ~~ THEN GOTO 310
-END
-
-IF ~~ THEN BEGIN 310 // from:
-  SAY @3376 /* ~Ehm... Perdón, señor Ribald, es sólo que usted tiene buena labia para estas cosas. Y he pensado que podría aprender una o dos cosas de su discurso.~ */
-  IF ~~ THEN EXTERN ~RIBALD~ P_DUSK2
-END
-
-//IF ~Global("P_DanctianAppear","GLOBAL",2)~ THEN BEGIN 311 // from:
-//  SAY @3384 /* ~Allí... en la oscuridad... ¿puedes verlo, <CHARNAME>?~ */
-//  IF ~~ THEN DO ~SetGlobal("P_DanctianAppear","GLOBAL",3)~ GOTO 296
-//END
-
-// etiquetado siguiente 3374
 
 IF ~~ THEN BEGIN 311 // from:
   SAY @3394 /* ~E-eres tú...~ */
@@ -1853,18 +1783,44 @@ IF ~Global("P_DUSK_OHD5100","GLOBAL",1) Global("P_DUSK_IS_EVIL","GLOBAL",1)~ THE
  EXIT
 END
 
-// NEERA Quest1
-IF ~~ THEN BEGIN 337 // from:
-  SAY @3489 /* ~¡<CHARNAME>, cuidado!~ */
-IF ~~ THEN DO ~~ EXTERN ~OHNQUAID~ P_QUAID1
-END
-
 IF ~Global("P_DUSK_OHD7000","GLOBAL",1) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN BEGIN 338 // from:
   SAY @3508 /* ~¿Tiene sentido confiar en una vampiro? ¡Acaba de asesinar a una de nuestras compañeras! Esto no me gusta nada, <CHARNAME>.~ */
   IF ~~ THEN DO ~SetGlobal("P_DUSK_OHD7000","GLOBAL",2)~
  EXIT
 END
 
+// KAYL2 1a
+I_C_T P_DUSKJ 121 P_Dusk_Kayl2_1a
+== KAYL2 IF ~~ THEN @30000 /* Ah, si es el capitán del norte. Dime, Dusk, ¿hay algo en lo que pueda ayudarte? */
+== P_DuskJ IF ~~ THEN @3175 /* Con nuestro grupo hemos podido localizar a un grupo de humanoides renegados del imperio Sothillis. Su cacique busca vivir en paz, lejos de la guerra que su antiguo jefe ha provocado. */
+== KAYL2 IF ~~ THEN @30001 /* ¿Un grupo de renegados, dices? Ya veo. ¿Y qué es lo que buscas de la Noble Orden del Radiante Corazón? */
+== P_DuskJ IF ~~ THEN @3176 /* Pues... luego de dialogar con ellos, he prometido buscarles un hogar, aquí en Amn. Sé que pido demasiado, pero creo que he ayudado en el pasado a la ciudad como me ha sido posible. Lo único que busco, es una oportunidad... */
+== KAYL2 IF ~~ THEN @30002 /* Hm... Supongo que podría interceder con el prelado por ti y tu grupo de humanoides. Pero dime, ¿por qué habría de hacerlo? */
+== P_DuskJ IF ~~ THEN @3177 /* No se trata de un grupo violento, ni siquiera numeroso, mi señor. Si estuvieran bajo la protección de la Orden, creo que serían útiles en la guerra que se está llevando a cabo contra el imperio de Sothillis. */
+== P_DuskJ IF ~~ THEN @3178 /* Creo que podrían brindar información vital acerca del ejército del ogro, mi señor. Incluso, puede que luchen a su lado si así se lo piden. Siempre y cuando se les prometa un hogar aquí, en Amn. */
+== KAYL2 IF ~~ THEN @30003 /* Tiene sentido... Está bien, hablaré con el prelado, seguro que no habrá problemas. Hay mucho lugar aquí en el cuartel, incluso para humanoides de gran tamaño. Pueden ayudar con los quehaceres diarios, además de servir para un bien mayor para la nación. */
+== KAYL2 IF ~~ THEN @30004 /* Pero primero necesito que me hagan un favor... Siempre y cuando la reputación de ustedes sea pertinente, claro está. */
+== KAYL2 IF ~~ THEN @30005 /* Además, necesitaría hablar con tu líder <CHARNAME>. Tenemos un asunto tedioso relacionado al tráfico de esclavos, con hombres que solían llamarse Paladines. */
+== KAYL2 IF ~~ THEN @30006 /* Haz esto, Dusk... y yo convenceré al prelado sobre los humanoides que intentas proteger. */
+END
+
+// KAYL2 2a
+I_C_T P_DUSKJ 127 P_Dusk_Kayl2_2a
+== KAYL2 IF ~~ THEN @30007 /* Sí, Dusk. El asunto de tus humanoides... */
+== KAYL2 IF ~~ THEN @30008 /* Con gusto intercederé con el prelado por ti. Puedes volver con los desertores de Sothillis y decirles que vengan al cuartel de la Orden. */
+END
+
+// KAYL2 1b
+I_C_T P_DUSKJ 129 P_Dusk_Kayl2_1b
+== KAYL2 IF ~~ THEN @30000 /* Ah, si es el capitán del norte. Dime, Dusk, ¿hay algo en lo que pueda ayudarte? */
+== P_DuskJ IF ~~ THEN @3175 /* Con nuestro grupo hemos podido localizar a un grupo de humanoides renegados del imperio Sothillis. Su cacique busca vivir en paz, lejos de la guerra que su antiguo jefe ha provocado. */
+== KAYL2 IF ~~ THEN @30001 /* ¿Un grupo de renegados, dices? Ya veo. ¿Y qué es lo que buscas de la Noble Orden del Radiante Corazón? */
+== P_DuskJ IF ~~ THEN @3176 /* Pues... luego de dialogar con ellos, he prometido buscarles un hogar, aquí en Amn. Sé que pido demasiado, pero creo que he ayudado en el pasado a la ciudad como me ha sido posible. Lo único que busco, es una oportunidad... */
+== KAYL2 IF ~~ THEN @30002 /* Hm... Supongo que podría interceder con el prelado por ti y tu grupo de humanoides. Pero dime, ¿por qué habría de hacerlo? */
+== P_DuskJ IF ~~ THEN @3177 /* No se trata de un grupo violento, ni siquiera numeroso, mi señor. Si estuvieran bajo la protección de la Orden, creo que serían útiles en la guerra que se está llevando a cabo contra el imperio de Sothillis. */
+== P_DuskJ IF ~~ THEN @3178 /* Creo que podrían brindar información vital acerca del ejército del ogro, mi señor. Incluso, puede que luchen a su lado si así se lo piden. Siempre y cuando se les prometa un hogar aquí, en Amn. */
+== KAYL2 IF ~~ THEN @30003 /* Tiene sentido... Está bien, hablaré con el prelado, seguro que no habrá problemas. Hay mucho lugar aquí en el cuartel, incluso para humanoides de gran tamaño. Pueden ayudar con los quehaceres diarios, además de servir para un bien mayor para la nación. */
+END
 
 // NEERA Quest2
 I_C_T OHNTELAN 12 P_DuskNeeraQ2_1
@@ -2178,6 +2134,7 @@ I_C_T P_MATUT 44 P_Dusk_NPC_Minsc_Mathyus_Mission_Complete
 END
 ///////////////////////////////////
 
+// Gitana
 EXTEND_BOTTOM TRGYP02 2
 IF ~!InPartySlot(LastTalkedToBy,0) Name("P_Dusk",LastTalkedToBy)~ EXTERN TRGYP02 g1
 END
@@ -2185,6 +2142,23 @@ END
 CHAIN TRGYP02 g1
 @0 /* Aún cuando ya no eres un mensajero de la paz, puedes lograr mucho si tu <LADYLORD> <CHARNAME> encamina su destino hacia la luz. Pero ten en cuenta, aún en la oscuridad puedes encontrar el camino que tanto buscas... */
 == P_DuskJ @1 /* Un poco ambiguo, mi dama. Sin embargo, no haré oídos sordos a lo que me ha dicho. */ 
+EXIT
+
+// Boy1
+EXTEND_BOTTOM BOY1 1
+IF ~~ EXTERN P_DUSKJ p_g1
+END
+
+CHAIN P_DUSKJ p_g1
+@20000 /* Rayos, <CHARNAME>. Que tengas tu propia búsqueda no implica que no puedas ayudar a los demás, en especial a un niño que ha perdido a su madre... */
+EXIT
+
+EXTEND_BOTTOM OHNQUAID 10
+IF ~~ EXTERN P_DUSKJ p_g2
+END
+
+CHAIN P_DUSKJ p_g2
+@3489 /* ¡<CHARNAME>, cuidado! */
 EXIT
 
 // Celvan el Loco
@@ -2205,6 +2179,18 @@ DO ~SetGlobal("P_DuskReactionCelvan","AR0300",1)~
 == P_DuskJ @3 /* ¿Me hablas a mí? ¡¿Cómo sabes eso?! ¡Explícate! */
 END CELVAN 1
 
+CHAIN IF WEIGHT #-1 
+~InParty("P_Dusk")
+See("P_Dusk")
+!StateCheck("P_Dusk",CD_STATE_NOTVALID)
+Global("P_DuskReactionRibald","AR0702",0)~ THEN RIBALD P_DuskRibald1
+@3515 /* Ribald el Truequista a vuestro servicio. El Mercado del Aventurero es la mejor tienda del ramo en toda Faerûn. La mejor selección, los precios asequibles y no son cantos de sirena. Tan solo buenas mercancías, simple y llanamente... Hmmm... ¿Por qué anotas a medida que voy hablando, muchacho? */
+DO ~SetGlobal("P_DuskReactionRibald","AR0702",1)~
+== P_DuskJ @3375 /* "Tan solo buenas mercancías, simple y..." (deja de escribir cuando todos posan su atención en él) */
+== P_DuskJ @3376 /* Ehm... Perdón, señor Ribald, es sólo que usted tiene buena labia para estas cosas. Y he pensado que podría aprender una o dos cosas de su discurso. */
+== RIBALD @3516 /* Ah, ya veo. Un futuro competidor, ¿eh? Ah, no hay necesidad de esa cara, mi estimado humano. Puedes aprender todo lo que quieras. Y, de paso, harías bien en comprarme una o dos baratijas, ¿no lo crees? Ahora, déjame comenzar de nuevo: */
+END RIBALD 0
+
 // Madame Nin
 CHAIN IF WEIGHT #-1
 ~NumTimesTalkedTo(0) 
@@ -2221,6 +2207,9 @@ Name("P_Dusk",LastTalkedToBy)
 @6 /* Entonces... ¿deseas compañía para esta noche? */
 == P_DuskJ @7 /* Rayos, deje de molestar, señora. */
 EXIT
+
+
+
 
 // Traición de Yoshimo
 
@@ -2668,25 +2657,25 @@ END
 
 I_C_T TRGENI01 35 P_DuskTRGENI0135 //LastTalkedToBy
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @20023 /* Supongo que te debo una disculpa, genio. Después de todo, has cumplido con tu palabra. */
-== TRGENI01  @20024 /* Ah, pero si es el mortal desconfiado. Así es, caminante, no creas que me he olvidado de ti. Este fajín es muy extraño y presiento que puedes encontrarle más utilidad que yo. */
+== TRGENI01  @20024 /* Ah, pero si es el mortal desconfiado. Así es, caminante, no creas que me he olvidado de ti. Este fajín es muy extraño y presiento que puedes encontrarle más utilidad que yo. */ DO ~CreateItem ("p_wsash",1,1,1) GiveItem("p_wsash", "P_Dusk")~
 END
 
 ///
 
 I_C_T TRGENI01 40 P_DuskTRGENI0140 //LastTalkedToBy
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",0)~ THEN @20023 /* Supongo que te debo una disculpa, genio. Después de todo, has cumplido con tu palabra. */
-== TRGENI01  @20024 /* Ah, pero si es el mortal desconfiado. Así es, caminante, no creas que me he olvidado de ti. Este fajín es muy extraño y presiento que puedes encontrarle más utilidad que yo. */
+== TRGENI01  @20024 /* Ah, pero si es el mortal desconfiado. Así es, caminante, no creas que me he olvidado de ti. Este fajín es muy extraño y presiento que puedes encontrarle más utilidad que yo. */ DO ~CreateItem ("p_wsash",1,1,1) GiveItem("p_wsash", "P_Dusk")~
 END
 
 
 I_C_T TRGENI01 35 P_DuskTRGENI01352 //LastTalkedToBy
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",1)~ THEN @3389 /* ¡Ja! ¿Quién lo diría? El djinn está dispuesto a cumplir con su palabra. Espero que también lo hagas con lo que me has prometido, ¿eh? */
-== TRGENI01  @20024 /* Ah, pero si es el mortal desconfiado. Así es, caminante, no creas que me he olvidado de ti. Este fajín es muy extraño y presiento que puedes encontrarle más utilidad que yo. */
+== TRGENI01  @20024 /* Ah, pero si es el mortal desconfiado. Así es, caminante, no creas que me he olvidado de ti. Este fajín es muy extraño y presiento que puedes encontrarle más utilidad que yo. */ DO ~CreateItem ("p_wsash",1,1,1) GiveItem("p_wsash", "P_Dusk")~
 END
 
 I_C_T TRGENI01 40 P_DuskTRGENI01402 //LastTalkedToBy
 == P_DuskJ IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_DUSK_IS_EVIL","GLOBAL",1)~ THEN @3389 /* ¡Ja! ¿Quién lo diría? El djinn está dispuesto a cumplir con su palabra. Espero que también lo hagas con lo que me has prometido, ¿eh? */
-== TRGENI01  @20024 /* Ah, pero si es el mortal desconfiado. Así es, caminante, no creas que me he olvidado de ti. Este fajín es muy extraño y presiento que puedes encontrarle más utilidad que yo. */
+== TRGENI01  @20024 /* Ah, pero si es el mortal desconfiado. Así es, caminante, no creas que me he olvidado de ti. Este fajín es muy extraño y presiento que puedes encontrarle más utilidad que yo. */ DO ~CreateItem ("p_wsash",1,1,1) GiveItem("p_wsash", "P_Dusk")~
 END
 
 // Prisión del Hechicero

@@ -1,0 +1,60 @@
+// AERIE - EVIL
+
+@0    = ~...~
+@1 = ~Ancora non ti sei abituata alla mia presenza, vero, Aerie?~
+@2 = ~I-io, io...~
+@3 = ~Non preoccuparti. Non mi importa se ti abitui o meno. Sono quello che sono.~
+@4 = ~Ma, Dusk... tu non eri così prima... sei cambiato.~
+@5 = ~Tutti cambiamo. Anche tu, piccola.~
+@6 = ~Sì, ma... tu hai cambiato a causa di un fattore esterno.~
+@7 = ~Sì... l'orbe scarlatto. Forse l'orbe ha semplicemente portato alla luce la mia vera personalità. Il mio vero io.~
+@8 = ~No, non credo sia così, Dusk. Penso che tu possa tornare ad essere come prima. Non è troppo tardi.~
+@9 = ~Per alcune cose... è già troppo tardi, cara amica... troppo tardi...~
+
+// ANOMEN - NEUTRAL/GOOD
+
+@10 = ~Se c'è qualcosa che vuoi dire, fallo, caro Dusk. Ho notato che stai cercando di avviare una conversazione su qualcosa da un bel po' di tempo.~
+@11 = ~*tosse* Mi dispiace, Anomen. È vero, volevo chiederti qualcosa riguardo all'esercito, se non ti dispiace.~
+@12 = ~Capisco. Chiedi pure, amico mio.~
+@13 = ~Cosa fa l'esercito di Amn con... i disertori?~
+@14 = ~Hm... quando ero scudiero, non ho visto molte situazioni del genere. Ma da quello che ho visto, i disertori vengono immediatamente espulsi dall'esercito. In alcuni casi, finiscono in prigione.~
+@15 = ~Perché lo chiedi?~
+@16 = ~Oh, niente... in pratica... non sono mai tornato a Cormyr dopo l'incontro con gli orchi.~
+@17 = ~Suppongo che questo conti come... diserzione.~
+@18 = ~Oh, capisco ora...~
+@19 = ~Sì... beh, grazie per il tuo tempo, Anomen.~
+@20 = ~Ma, insieme a <CHARNAME>, hai forgiato una reputazione impeccabile. Senza dubbio, è qualcosa che un superiore terrebbe in considerazione.~
+@21 = ~Davvero? Grazie, Anomen. È stato un piacere parlare con te.~
+
+
+// SAREVOK - NEUTRAL/GOOD
+
+@124 = ~Perché mi osservi così intensamente, ometto?~
+@125 = ~Ometto? Stai attento, idiota. Il mio nome è Ardusk Aldant, Prima Spada di--~
+@126 = ~Sì, sì. Non mi interessa.~
+@127 = ~*tosse* Comunque... c'è qualcosa in te che non riesco a capire.~
+@128 = ~Probabilmente ci sono cose che non capisci, ragazzo.~
+@129 = ~La tua alleanza con <CHARNAME>, per cominciare. Lui è tuo fratello.~ ~La tua alleanza con <CHARNAME>, per cominciare. Lei è tua sorella.~
+@130 = ~Come hai potuto cercare di ucciderlo? Io non ho fratelli... ma se ne avessi, l'omicidio sarebbe l'ultimo dei miei pensieri.~ ~Come hai potuto cercare di ucciderla? Io non ho fratelli... ma se ne avessi, l'omicidio sarebbe l'ultimo dei miei pensieri.~
+@131 = ~Non pretendo che un semplice cormyreano comprenda lo scopo di un prole di Bhaal.~
+@132 = ~Potrò essere un semplice soldato, Sarevok. Ma so cos'è la lealtà. E qui tu stai dimostrando lealtà verso <CHARNAME>. Perché?~
+@133 = ~Guardati intorno, ragazzo. Stiamo vivendo tempi miracolosi. Il potere è lì, pronto ad essere preso. Io... voglio semplicemente essere testimone di ciò che farà mio fratello.~ ~Guardati intorno, ragazzo. Stiamo vivendo tempi miracolosi. Il potere è lì, pronto ad essere preso. Io... voglio semplicemente essere testimone di ciò che farà mia sorella.~
+@134 = ~Forse... Forse riuscirai anche a trovare una risposta.~
+@135 = ~Risposta?~
+@136 = ~Sei un uomo di poche parole, Sarevok. Ma so riconoscere quando un uomo cerca qualcosa. Forse, accompagnando <CHARNAME>, lo troverai.~
+
+
+// SAREVOK - EVIL
+
+@137 = ~La tua aura... Non proviene da questo piano. Che cosa sei?~
+@138 = ~Ho ottenuto potere attraverso il Pandemonio, Sarevok. Conosci quel luogo?~
+@139 = ~Sì, lo conosco, ma non ho avuto il piacere di esserci stato. Come hai ottenuto questo potere?~
+@140 = ~Ho tradito i miei alleati. Ho usato la loro forza vitale per liberare un Demone Oscuro. Attualmente, la mia anima è legata a lui.~
+@141 = ~Capisco. Una strada comprensibile. Coloro che non sono nati con il destino del potere dentro di loro sono costretti a prenderlo.~
+@142 = ~Non so se è stata una costrizione ciò che ho sentito... ma sì, capisco a cosa ti riferisci.~
+@143 = ~Lo so. Ho visto cosa puoi fare sul campo di battaglia. Senza dubbio, <CHARNAME> si è assicurato potenti alleati.~
+@144 = ~E tu che mi dici di te? Nonostante tu non sia più una prole di Bhaal, il potere dentro di te è notevole. Il caos fuoriesce praticamente dalle tue dita.~
+@145 = ~Ho dedicato tutta la mia vita a conquistare il Trono di Bhaal. L'arte della guerra e dell'inganno erano il pane quotidiano.~
+@146 = ~*sospira* Ora tutto ciò è nel passato. Voglio solo essere testimone di questi tempi. <CHARNAME> sarà il protagonista e io starò al suo fianco per vedere come termina questa storia.~
+@147 = ~Un sentimento che accompagnerò, se mi sarà possibile. I nostri nemici non avranno alcuna possibilità.~
+@148 = ~Hai ragione...~

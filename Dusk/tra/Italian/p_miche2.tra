@@ -1,0 +1,37 @@
+@0 = ~(Da un nulla, una risata si percepisce fino negli angoli più bui del luogo)~ [P_Mich04]
+
+@1 = ~(Finalmente, Michelson fa la sua apparizione dalle ombre, danzando e ridendo, come se fosse una festa)~ [P_Mich01]
+
+@2 = ~Michelson?! Sei arrivato... un po' tardi temo...~
+
+@3 = ~(Michelson ferma la sua danza e guarda intorno. Dopo alcuni secondi, con tristezza, si rende conto di ciò che è successo)~
+@4 = ~(Tuttavia, vede che hai con te il corpo di Mathyus e sembra che le sue speranze ritornino, inizia a ballare freneticamente, come è solito fare)~
+@5 = ~(Con una forza sorprendente, prende il corpo di Mathyus e con delicatezza, sparge su di lui una polvere brillante che presumi appartenga alle sue strane gemme magiche)~
+@6 = ~(Vede anche che hai con te il simbolo di Velsharún di Anthagar. Con una certa esitazione, ti tende la sua mano perché glielo consegni. Poiché non gli vedi alcuna utilità, glielo dai senza pensarci troppo)~
+@7 = ~(Il folletto guarda intorno e vede che Dusk e Demoledor, sfortunatamente, sono caduti in battaglia. Tuttavia, supponi che il piccolo sapesse che ciò era una possibilità)~
+@8 = ~(Squintando gli occhi, Michelson prende il Simbolo di Velsharún di Anthagar con entrambe le mani, sollevandolo sopra la sua testa... Capisci che aprirà un portale per tornare ad Athkatla. Dobbiamo solo parlargli nuovamente quando siamo pronti a tornare)~
+@9 = ~Michelson! Sei arrivato... mi dispiace... mi dispiace per quello che è successo a Mathyus e a Demoledor... davvero... mi dispiace...~
+
+
+@10 = ~(Inaspettatamente, Michelson inizia a ballare freneticamente)~ [P_Mich03]
+@11 = ~Ma, cosa sta succedendo...?~
+@12 = ~(Con una forza sorprendente, prende il corpo di Mathyus e con delicatezza, sparge su di lui una polvere brillante che presumi appartenga alle sue strane gemme magiche)~
+@13 = ~Capisco... cercherai di riportarlo in vita... e anche Demoledor, giusto?~
+@14 = ~(Michelson annuisce rapidamente con la testa)~
+@15 = ~(Vede anche che avete con voi il simbolo di Velsharún di Anthagar. Con una certa esitazione, tende la sua mano verso di voi per prendere il simbolo)~
+@16 = ~Il simbolo di Velsharún... se ritieni di potergli dare un utilizzo, amico mio... allora è tutto tuo.~
+@17 = ~(Il folletto prende il simbolo tra le sue mani. Guarda intorno e poi osserva il gruppo)~
+@18 = ~Hm... penso che sia pronto per portarci a casa, <CHARNAME>. Voglio dire, al nostro piano. Sarà meglio che parliamo con lui quando saremo pronti...~
+@19 = ~(Annui al discorso di Dusk. Una volta pronti, basterà parlare con Michelson per farci tornare ad Athkatla)~
+@20 = ~(Il folletto guarda intorno e vede che Dusk, sfortunatamente, è caduto in battaglia. Tuttavia, supponi che il piccolo sapesse che ciò era una possibilità)~
+@21 = ~(Demoledor sembra ansioso davanti a Michelson, quasi come se gli stesse chiedendo di eseguire i suoi incantesimi)~ [P_Demo01]
+
+
+@22 = ~Michelson! Sei arrivato... mi dispiace... mi dispiace per quello che è successo a Mathyus... davvero... mi dispiace...~
+@23 = ~Capisco... proverai a riportarlo in vita... giusto?~
+@24 = ~(Il rituale di Michelson è terminato. Presto vedi come una luce appare davanti a te, aprendo un portale verso un luogo familiare...)~
+@25 = ~~
+@26 = ~~
+@27 = ~~
+@28 = ~~
+@29 = ~~

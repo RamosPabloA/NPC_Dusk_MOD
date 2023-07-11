@@ -1,0 +1,107 @@
+@0 = ~Ardusk, <CHARNAME>, sono arrivati.~
+@1 = ~Manca poco tempo... stanno arrivando...~
+@2 = ~Io sarò qui ad aspettare... nell'ombra...~
+@3 = ~Loro, Danctian? Ti riferisci ai maghi della Cripta Dimenticata...~
+@4 = ~Esatto... è meglio che vi prepariate.~
+@5 = ~Saluti.~
+@6 = ~La compagnia di <CHARNAME> e la Cripta Dimenticata si sono finalmente riunite...~
+@7 = ~Cosa significa questo?~
+@8 = ~Non volevi forse incontrare il rappresentante del Pandemonio, negromante? Ti presento Danctian Shadow.~
+@9 = ~Sono pronto quando tu lo ordini, Ardusk.~
+@10 = ~Osate tradire la Cripta Dimenticata, ragazzo?!~
+@11 = ~Lo sapevo, Antaghar. Confiare in questi stupidi è stato un errore.~
+@12 = ~<CHARNAME>, sembri un po' confuso.~
+@13 = ~In effetti, demone. Speravo che potessimo formare un'alleanza con questi maghi. Mi è stato promesso un grande potere!~
+@14 = ~Forse, Danctian. Tuttavia, preferisco tradire questi maledetti maghi piuttosto che avere un'alleanza con loro. Anche se preferirei avere una visione completa di ciò che sta accadendo.~
+@15 = ~Esigo una spiegazione! Non capisco cosa sta succedendo...~
+@16 = ~Forse è meglio che Ardusk te lo spieghi...~
+@17 = ~L'unica promessa che avremmo da parte di questo verme, <CHARNAME>, è una morte certa per mano sua.~
+@18 = ~Non siamo altro che pedine nel suo gioco. Dovresti saperlo... quanto è facile sacrificare le pedine...~
+
+
+@19 = ~Non permetterò che ciò accada!~
+@20 = ~Negromante! Davvero pensavi che ci saremmo alleati con te?~
+@21 = ~Tutte le tue prove... tutti i tuoi scagnozzi... tutti i tuoi incantesimi... Ci hanno portato qui.~
+@22 = ~Qui: verso il tuo destino finale. Verso la distruzione di tutto ciò che ami.~
+@23 = ~Ragazzo stupido... davvero pensi di essere un avversario per noi? Nemmeno il semidio che ti accompagna farà la differenza!~
+@24 = ~Neanche questo... servo dell'oscurità riuscirà a fermarci.~
+@25 = ~Siamo venuti preparati! Noi--~
+@26 = ~Non temere, <CHARNAME>. Anthagar aveva pianificato di ucciderci al fine di riportare Velsharún in questo piano.~
+@27 = ~Lo so, Anthagar, servitore di Mellifleur. Ecco perché... anche noi... siamo venuti preparati...~
+@28 = ~Le repliche sono pronte per il combattimento, Ardusk.~
+@29 = ~Assisteranno al potere delle ombre del Pandemonio...~
+@30 = ~Oh, oh... alla fine dovremo sistemare i conti, vero?~
+@31 = ~Esatto, <CHARNAME>. Non c'è altra scelta...~
+@32 = ~Ottimo lavoro, Danctian. Strappiamo i cuori a questi sventurati.~
+@33 = ~Non così in fretta, capitano. C'è qualcosa che penso che il vostro leader dovrebbe sapere.~
+@34 = ~*risata maligna* Cosa succede? Sembri sorpreso.~
+@35 = ~Non ascoltarlo, <CHARNAME>. Cercherà di dividerci prima del combattimento.~
+@36 = ~Ah, davvero?~
+@37 = ~Un'forza abissale sta per apparire, dobbiamo stare attenti!~
+@38 = ~*Il demone abissale mostra le sue terribili fauci, lanciandosi all'attacco del gruppo*~
+@39 = ~Gli umani non sono affidabili, Anthagar... e questo cormyriano non fa eccezione.~
+
+
+// Aparece dempit
+@40 = ~Ah... la creatura dell'Abisso...~
+@41 = ~Il suo sangue ha reso possibile l'evoluzione della Spada Scarlatta... e di conseguenza, la forgiatura dell'Ira.~
+@42 = ~Cosa diavolo?! Dusk, avevi detto che il demone era stato completamente distrutto...~
+@43 = ~Dusk! Mi hai mentito... Cosa significa questo tradimento?~
+@44 = ~*Gli occhi di Danctian brillano in modo insolito e vedi che le sue artigli e quelle delle sue repliche crescono pericolosamente di fronte al tuo tono minaccioso*~
+@45 = ~Ferma, Danctian!~
+@46 = ~<CHARNAME>! Sì... è vero... ti ho tradito... Ma l'ho fatto per un obiettivo più grande.~
+@47 = ~Volevi potere? Ho impugnato la Spada Scarlatta per te... ho ucciso e sventrato i nostri nemici, per te.~
+@48 = ~Sì... il demone è riapparso (devo ammettere che non me lo aspettavo).~
+@49 = ~Ma... lo abbiamo già sconfitto in passato... E questa volta non sarà diverso!~
+@50 = ~Questo è ciò che tu credi, capitano...~
+@51 = ~Ma ora il mio Puki non è più solo. Non è l'unico demone che controllo, come vedrai presto...~
+@52 = ~Silenzio, cretino! <CHARNAME>, la mia spada è ancora tua. Combatti al mio fianco... aiutami a vendicare mia moglie... e sarò sempre fedele a te, fino all'ultimo respiro.~
+@53 = ~Per l'oscurità del Pandemonio, così giuro!~
+@54 = ~*Danctian torna alla normalità, ma rimane vigile, il suo sguardo ora rivolto verso gli stregoni della Cripta Dimenticata*~
+@55 = ~*Attorno al demone oscuro, un'aura minacciosa si intensifica. Sai che la battaglia sta per iniziare...*~
+
+
+// Antes del combate
+@56 = ~Questi malvagi maghi devono essere sconfitti! Bubú non vuole essere il pedone di nessuno, soprattutto di questi vili necromanti... È ora di prendere a calci i loro sedere magici! Nei loro occhi, Bubú, nei loro occhi!~
+@57 = ~Per Baervan, voi necromanti non arriverete lontano. Quayle lo vorrebbe così. Sono pronta!~
+@58 = ~Dusk, anche se non sono d'accordo con le tue motivazioni, credo che dobbiamo porre fine a questa corruzione arcana. Velsharún non deve risorgere! Nel nome di Torm, la mia spada servirà la tua causa.~
+@59 = ~Capisco il tuo desiderio di vendicare la tua amata, Dusk. Avrei fatto lo stesso per Patrick... Puoi contare su di me!~
+@60 = ~Finalmente potremo sventrare questi maledetti incantatori. Dusk, lasciami occuparmi di quel petulante Stregone!~
+@61 = ~Quanti innocenti sono caduti per colpa di questi necromanti? È ora di rendere conto. La magia non deve essere intrinsecamente malvagia, ve lo dimostrerò!~
+@62 = ~La morte vivente è un'affronto alla natura, Anthagar... per questo, in nome di Silvanus, il tuo cammino finisce qui. Per i caduti!~
+@63 = ~La vostra abominazione finisce qui, stregone! Rugiremo come la tempesta di primavera e le nostre azioni echeggeranno anche nell'oscurità di questa landa antinaturale. Alla battaglia!~
+@64 = ~Non permetterò che un altro Lavok sorga in Amn! Dusk, contate su di me. Combattiamo!~
+@65 = ~Questi "faern" sono pazzi. Sarà un piacere sconfiggerli per te, Dusk. E saranno un'offerta splendida per Shar.~
+@66 = ~Finalmente, uomo dei bastoncini. Il mio momento di splendere è arrivato! Questi maghi da quattro soldi capiranno che non devono sfidare Edwin Odesseiron (Ve lo dimostrerò...).~
+
+
+@67 = ~Basta di chiacchiere! È ora di spaccare teste con la mia ascia. Gambe lunghe, lasciami quel mago elfo effeminato. La sua testa sarà un bellissimo trofeo.~
+@68 = ~Beh, suppongo che non vorrai che ti racconti una storia prima della battaglia, giusto?~
+@69 = ~Non è il momento adatto, gnomo. Non provocarmi...~
+@70 = ~Mi piace, piccolo Dusk. Mi piace. Ora, al lavoro: ci sono umani che devono provare l'efficacia della mia balestra.~
+@71 = ~Ehi, ehi! Ho combattuto così in altri piani, caro Dusk. Ma non a questo livello. Questo sarà degno di comporre una o due canzoni!~
+@72 = ~Non sono sicura che la strada della vendetta sia la giusta, Dusk. Ma se ho accompagnato <CHARNAME> su percorsi simili, suppongo di poterlo fare anche per te.~
+@73 = ~È giunto il momento, soldato... e parlando di soldati... Sono riuscito ad incantare un paio di guardie di Amn e un Incappucciato... Sono dell'élite, come vedrai tra pochi secondi...~
+@74 = ~Capitano, Puki brama la tua testa. Vedrai anche come ho sotto la mia protezione altri fedeli servi... sono... dietro... di te... Ah ah ah!~
+@75 = ~Finalmente... per questa occasione adotterò una trasformazione speciale... sarà qualcosa di unico...~
+@76 = ~Fai tutto questo per vendetta? Non farmi ridere... l'unico responsabile della morte della tua amata sei tu... nel profondo lo sai.~
+@77 = ~Non è solo vendetta, Anthagar... È anche per piacere... Il momento di strapparti la testa è arrivato. Preparati!~
+@78 = ~Repliche... All'attacco!~
+@79 = ~Finalmente... hanno trionfato.~
+@80 = ~*I suoi orbti scarlatti sembrano esaminare il campo di battaglia alla ricerca di minacce*~
+
+
+@81 = ~Così è, Danctian... Abbiamo vinto!~
+@82 = ~Percepisco che Ardusk è caduto... purtroppo non ho il potere di riportarlo in vita. Se tu puoi farlo, che sia così.~
+@83 = ~Altrimenti... torna semplicemente a parlare con me per farti riportare al tuo piano. Torneremo ad Athkatla. Quel... talismano... Lo prenderò. Utilizzerò il suo potere per darti qualche ricompensa per ciò che avete realizzato qui.~
+@84 = ~Finalmente, Ardusk... la tua vendetta è completa...~
+@85 = ~Per ora, tornate a parlare con me per farvi riportare di nuovo ad Athkatla.~
+@86 = ~Ho completato il rituale per tornare ad Athkatla, <CHARNAME>. Spero che abbiate finito le vostre faccende qui. Preparatevi, perché torneremo immediatamente.~
+@87 = ~Non avrei potuto farcela senza di te, né <CHARNAME>.~
+@88 = ~(Hmpf. Come se Edwin Odesseiron fosse rimasto fermo a guardare senza fare niente. Quest'uomo del bastone merita una o due lezioni secondo me)~
+@89 = ~Neanche Edwin. Il mago rosso ha dimostrato di essere uno dei migliori incantatori di tutto Faerûn. Le sue abilità magiche non hanno nulla da invidiare ai servitori di Mellifleur.~
+@90 = ~Erhm. *clears throat* Bene, è ovvio, Dusk. Edwin doveva dare una lezione a quei maghi primati. (Wow, dopo tutto, quest'uomo ha un po' di... decenza)~
+@91 = ~Confido che le forze del Pandemonium abbiano adempiuto al loro compito. Ora... ho bisogno del talismano, Ardusk.~
+@92 = ~È vero. Eccolo, Danctian.~
+@93 = ~Eccellente. Potrò assorbire il suo potere... Entrambi ne beneficeremo. Anche tu, <CHARNAME>.~
+@94 = ~Che sia così...~

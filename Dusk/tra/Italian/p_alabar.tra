@@ -1,0 +1,130 @@
+@0 = ~*ringhio* Ha funzionato...~
+@1 = ~Era quello che mi aspettavo.~
+@2 = ~Umano! Sei venuto, come il mago ha detto. Direttamente... alla mia bocca...~
+
+@3 = ~Mago? Sapevo che Valatar o Sornhil fossero coinvolti...~
+@4 = ~Non ho idea di come si chiami quel mago elfico, e nemmeno mi interessa.~
+@5 = ~Il suo nome era Kalanda, mio signore. Il suo incantesimo di trasmutazione è incredibile. Non pensavo durasse così a lungo.~
+@6 = ~Chimi: Mi ero abituato a vederlo come uno scoiattolo, capo.~
+@7 = ~Toxsan: Non era uno scoiattolo, Chimi. Era una donnola.~
+@8 = ~Continuo a pensare che una tasso sarebbe stata una scelta migliore.~
+@9 = ~Questo perché hai un'ossessione per i tassi, Kocha.~
+@10 = ~Credo ci siano questioni più importanti da discutere, compagni.~
+@11 = ~Silenzio, idioti! Il soldato ed io stiamo cercando di dialogare. Non che questo finisca in altro che una carneficina...~
+@12 = ~Dusk, non voglio spaventarti, ma siamo circondati.~
+
+// EVIL (part1)
+
+@13 = ~Ah! Quindi tu devi essere il figlio di Bhaal: <CHARNAME>. Ucciderti sarà un vantaggio aggiuntivo per il mio clan.~ ~Ah! Quindi tu devi essere la figlia di Bhaal: <CHARNAME>. Ucciderti sarà un vantaggio aggiuntivo per il mio clan.~
+@14 = ~Sgorbio! Non rivolgergli la parola. La tua bocca sporca non è degna di menzionarlo.~ ~Sgorbio! Non rivolgerle la parola. La tua bocca sporca non è degna di menzionarla.~
+@15 = ~*ringhio* Hai ancora quella rabbia, soldato. Ma non sarà come l'ultima volta... No... Alabarza il Mutilatore ti annienterà... una volta per tutte.~
+@16 = ~Sembra che tu abbia dimenticato chi ti ha strappato un occhio, mostro. Vuoi che finisca il lavoro e ti strappi l'altro? Lo farò con piacere.~
+@17 = ~*risata gutturale* Sembra che tu non sia consapevole della situazione, soldato.~
+@18 = ~I miei guerrieri finiranno i tuoi... e io finirò te...~
+
+
+// NPCs
+
+@19 = ~Dusk, <CHARNAME>, Minsc e Boo sono pronti a dare una bella lezione agli orchi e ai troll!~
+@20 = ~Calvo! Quel roditore sarà mio. Komar così comanda! Komar spezzerà le tue ossa e prenderà il piccolo peloso per il suo divertimento!!!~
+@21 = ~Calvo? Sarai tu il calvo, malvagio orco! E Boo non sarà schiavo di nessuno. La furia del criceto è libera e ti farà vedere le stelle!~
+@22 = ~Oh, non mi piace questa situazione... Ma farò del mio meglio per proteggere i miei amici!~
+@23 = ~Questa potrebbe essere la nostra ultima battaglia, miei amici. Ma per Torm darò battaglia fino alle ultime conseguenze!~
+@24 = ~Un paladino! Capo, lascia che me ne occupi io di quell'infame. Mi assicurerò che incontri il suo dio al più presto.~
+@25 = ~Provalo, creatura! Vedrai quanto velocemente cadi di fronte alla lama della Giustizia.~
+@26 = ~Beh, è ora di mettere alla prova le mie abilità da guerriero (non che saranno impressionanti, ma forse spavento un paio di mostri).~
+@27 = ~Arvorin, dammi la forza per vincere in questo combattimento!~
+@28 = ~Chimi: Quindi vuoi divorarti quella mezzana, Bob? Fallo, liberamente. Lascia qualche osso per il tuo fratello Mike, va bene?~
+@29 = ~(La creatura fissa gli occhi su Mazzy. Sembra quasi lecarsi le labbra)~
+@30 = ~Odio dirlo, ma non è la prima volta che un mostro cerca di divorarmi... Tuttavia, mi dispiace dirti che rimarrai deluso, fastidioso.~
+@31 = ~Finalmente ci porti un po' di azione, Dusk! Helm, dammi la forza. Combatterò oggi in nome tuo e trionferò!~
+
+
+@32 = ~Capetto, lascia che quel giovane monaco sia per me. È sempre un piacere pestare gli umani presuntuosi.~
+@33 = ~In memoria di mio padre, non permetterò che miserabili troll vaghino per queste terre!~
+@34 = ~Sento che mi stai parlando, ragazzina.~
+@35 = ~Per de'Arnise! Oggi sarà l'ultimo giorno in cui respiri, mostro.~
+@36 = ~*sospiro* Sono stanco di questi umani presuntuosi...~
+@37 = ~Dusk, la tua sete di vendetta è compresa e ben accolta. E sarà un onore combattere al tuo fianco per realizzarla!~
+@38 = ~È giunto il momento di porre fine a questo tumulo. Un covile del genere così vicino alla Radura è un affronto alla natura.~
+@39 = ~Toxsan: Cosa dici, Mike? Vuoi mangiare quel druido umano? Per me, benvenuto. Non dimenticare tuo fratello Bob, capisci?~
+@40 = ~(L'imponente mole fissa i suoi quattro occhi su Cernd, impaziente che il suo padrone lo liberi e possa iniziare l'attacco)~
+@41 = ~Creatura, oggi sarai il nutrimento dei vermi e contribuirai al ciclo della vita attraverso la tua morte.~
+@42 = ~Dusk, è giunta l'ora. Faremo giustizia per i tuoi compagni caduti!~
+@43 = ~Bene, compagno, abbiamo percorso una lunga strada per arrivare qui. Userò la divinità di Shar a tuo favore, non dimenticarlo. I nostri nemici cadranno nell'Oscurità Eterna.~
+@44 = ~*sibilo* Una drow! Signore, permettimi di sperimentare con lei, per favore. Prometto di esssere... meticolosssso.~
+@45 = ~Anche se non mi interessa il tuo passato, uomo della bacchetta, ammetto che questa è un'ottima opportunità per mettere alla prova i miei incantesimi. Specialmente contro quel rettile.~
+
+
+@46 = ~Mi stai parlando a me, mago rosso?~
+@47 = ~Esatto, rospo! Avrai l'onore di morire per mano di Edwin Odesseiron.~
+@48 = ~Sei pazzo, mago. Anche se non mi sorprende da un umano incantatore. Signore, permettimi di eliminare quell'imbecille.~
+@49 = ~Benissimo, mingherlino! Ci hai condotti in una "trappola". Quello che questi disgraziati non sanno è che hai a che fare con l'ascia di Korgan.~
+@50 = ~Chimi: Guarda, Toxsan! Un nano. Mi ricorda i vecchi tempi.~
+@51 = ~Toxsan: Esatto, Chimi. Schiacciarli era il nostro passatempo. Ora possiamo rivivere quei momenti, non credi?~
+@52 = ~Eccomi qui, maledetto ettin. Vieni a provare la mia ascia! Vedrai quanto velocemente ti sventro.~
+@53 = ~Quindi siamo caduti in una trappola, eh? Questo mi ricorda la volta in cui...~
+@54 = ~Non credo sia il momento migliore per una delle tue storie, Jan.~
+@55 = ~Beh, beh. Te la racconterò quando avremo vinto qui. Che ne dici, caro Dusk?~
+@56 = ~Affare fatto.~
+@57 = ~Ahhhh, corvo bianco. Sei caduto in una trappola. Ma chi sono io per giudicarti? Anch'io mi sono trovato in situazioni simili. Andiamo, sconfiggiamo questi stolti, così posso comporre una o due canzoni sulle nostre imprese.~
+
+
+// EVIL (part2)
+
+@58 = ~Forza, guerrieri! Siamo gli Assassini di Draghi... e ci rimane solo un drago da uccidere.~
+@59 = ~Signore, non ti deluderò!~
+@60 = ~Khjjjiii! Costruirò un altare con le loro ossa.~
+@61 = ~Capo, dimostrerò la mia forza. Per il nostro clan!~
+@62 = ~Farò un banchetto con la carne dei nostri nemici. Sarà un delizioso festino...~
+@63 = ~*sibilo* Finalmente... lasciamo qualcuno in vita... Voglio sperimentare sui loro corpi!~
+@64 = ~Chimi: Dai, Bob... Competi con tuo fratello, vediamo chi schiaccia di più questi deboli!~
+@65 = ~(Di fronte alle parole di Chimi, il Mastino prepara le sue terribili artigli per attaccare)~
+@66 = ~Toxsan: Hai sentito, Mike? Chimi ha lanciato una sfida. Non deludermi!~
+@67 = ~(Mike batte i suoi pugni l'uno contro l'altro e si lancia all'attacco dopo le parole di Toxsan)~
+
+// GOOD ORBET RING BELLFAME
+@68 = ~Ti ho sconfitto una volta, Alabarza. Posso farlo di nuovo.~
+@69 = ~Non sono da solo in questa, mostro.~
+@70 = ~Superati in numero? In questo ti sbagli, Alabarza. Sfera, porta i miei amici!~
+@71 = ~(Dusk solleva l'orbe teletrasportatore e questo si illumina. Diversi portali si aprono intorno a lui)~
+
+@73 = ~Ma cosa...?!~
+@74 = ~Nel nome dell'Nobile Ordine del Cuore Radioso, affronteremo la battaglia!~
+@75 = ~Wow, non pensavo che l'incantesimo del piccolo uomo verde funzionasse.~
+@76 = ~Wow, che vertigini!~
+@77 = ~Stai attenta, Coco! Non mostrare debolezza di fronte al nemico.~
+@78 = ~Cufa: Woo-hoo! Viaggio essere molto divertente. Possiamo farlo di nuovo, Tima?~
+@79 = ~Tima: È facile per te dirlo, Cufa. Credo di essere stato io ad avere gli effetti delle vertigini.~
+@80 = ~*ringhio* Quindi hai il tuo esercito, soldato...~
+@81 = ~È stata un'ottima idea, Dusk. Sembra che ora il gioco si sia livellato.~
+@82 = ~Dusk! Saremo sotto il tuo comando e quello di <CHARNAME>. Il piccolo uomo verde ha detto di non preoccuparti se qualcuno di noi cade in battaglia. Lui si occuperà di riportare in vita i morti, indipendentemente dalla gravità delle ferite.~
+@83 = ~Ma per farlo funzionare, Dusk, dobbiamo vincere questa battaglia. Devo ammettere che l'amico dell'elfo dai capelli verdi è piuttosto potente.~
+@84 = ~Interessante, mio signore. Non avevo mai assistito a tanto potere come in questi ultimi giorni. Tra il trasmutatore e l'orbe magica che il soldato ha estratto dal suo cilindro, sono sbalordito.~
+@85 = ~È vero che ti sorprendi per qualsiasi cosa, Tongas.~
+@86 = ~*sibilo* Piccolo uomo verde? Se viene, voglio torturarlo.~
+@87 = ~Fai pure ciò che vuoi, lucertola. Io penso che mi accontenterò di quella gnoll. *Lecca le labbra*~
+
+
+@88 = ~*ringhio* Questo resta da vedere, disgustoso orco.~
+@89 = ~È necessario che questo finisca in una rissa? Potremmo essere tutti amici e felici!~
+@90 = ~Jefe, un goblin con voce da bambina! Goblin, tu sarai la mia mascotte.~
+@91 = ~Ugh... sei davvero scortese, orco. Neanche nei tuoi sogni.~
+@92 = ~Cufa: Tima, vedi quello? Un altro ettin!~
+@93 = ~Tima: Sì, lo vedo, Cufa. Vedo anche i loro... mascotti...~
+@94 = ~Toxsan: Non posso credere a quello che vedo. Un ettin che combatte al fianco di umani e paladini...~
+@95 = ~Chimi: Come puoi non crederci? Lo stai vedendo con i nostri occhi, Toxsan!~
+@96 = ~Toxsan: *sospiro* Lo so, Chimi. È un modo di dire.~
+@97 = ~Toxsan: Non credo che possiamo fare amicizia con quei bruti, Chimi. Penso che dovremmo presentare loro i nostri mascotti, non credi?~
+@98 = ~(Bob prepara le braccia, desideroso di ricevere gli ordini dal suo padrone e lanciarsi all'attacco)~
+@99 = ~(Mike fa lo stesso, fissando le sue prede di fronte a lui)~
+@100 = ~Cufa: Tima, dover trovare mascotte in questo modo, non credere?~
+@101 = ~Tima: Cufa, hai già delle mascotte. E dubito che queste masse si troveranno bene con i cavalli dell'Ordine.~
+@102 = ~D'accordo... Soldati, in formazione! Ci aspetta una dura battaglia...~
+@103 = ~Avanti, guerrieri! Siamo gli Assassini dei Draghi... ma questa volta... Suppongo che dovremo accontentarci di uccidere questo... cane.~
+@104 = ~È meglio che ti svegli, soldato... Sei ancora circondato e superato in numero. I miei guerrieri si faranno un festino con le tue ossa.~
+@105 = ~Capitano... preparati... Andrò a prenderti!~
+@106 = ~Oh, Dusk... sai davvero come fare amicizie, eh? Vieni, ti aiuterò ad affrontare queste creature.~
+@107  = ~~
+@108  = ~~
+@109  = ~~

@@ -148,7 +148,94 @@ PlaySound("P_DuskE")
 StartDialogueNoSet(Player1)
 END
 
+// ToB Conversations - Timer 2 AR5500
+IF 
+InParty(Myself)
+Global("P_DuskTalkToB2","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("P_DuskTimerToB2","GLOBAL",60) //60
+SetGlobal("P_DuskTalkToB2","GLOBAL",1)
+END
 
+// ToB Conversations - Timer Expirado
+IF
+InParty(Myself)
+RealGlobalTimerExpired("P_DuskTimerToB2","GLOBAL")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+OR(1)
+Global("P_DuskTalkToB2","GLOBAL",1)
+THEN
+RESPONSE #100
+IncrementGlobal("P_DuskTalkToB2","GLOBAL",1)
+END
+
+
+
+// Talk luego del combate vs Tethyr
+//NEUTRAL
+IF
+InParty(Myself)
+Global("P_Dusk_IS_NEUTRAL_TOB","GLOBAL",1)
+AreaCheck("AR5500")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+OR(1)
+Global("P_DuskTalkToB2","GLOBAL",2)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("P_DuskN")
+StartDialogueNoSet(Player1)
+END
+
+//GOOD
+IF
+InParty(Myself)
+Global("P_Dusk_IS_GOOD_TOB","GLOBAL",1)
+AreaCheck("AR5500")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+OR(1)
+Global("P_DuskTalkToB2","GLOBAL",2)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("P_DuskG")
+StartDialogueNoSet(Player1)
+END
+
+//EVIL
+IF
+InParty(Myself)
+Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)
+AreaCheck("AR5500")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+OR(1)
+Global("P_DuskTalkToB2","GLOBAL",2)
+THEN
+RESPONSE #100
+PlaySong(0)
+PlaySound("P_DuskE")
+StartDialogueNoSet(Player1)
+END
+
+
+// PARCHE EET
 IF
   InParty(Myself)
   Global("P_DuskEstablishingDLGJ","GLOBAL",0)

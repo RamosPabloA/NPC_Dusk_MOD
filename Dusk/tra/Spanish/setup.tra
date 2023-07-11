@@ -3,21 +3,21 @@
 @2    = ~Dusk~
 @3    = ~Mis oídos aún retumban con esa explosión...~ [p_duski]
 @4    = ~¡No...!,¡¡¡NO!!!~ [p_dusk02]
-@5    = ~Me gusta cómo este grupo maneja las cosas.~
+@5    = ~Los métodos de este grupo para manejar situaciones tienen una cualidad etérea.~ [p_dusk36] 
 @6    = ~Deberíamos reconsiderar nuestras acciones...~ 
 @7    = ~Claramente algo no funciona aquí...~ 
 @8    = ~No podemos seguir trabajando juntos...~ 
-@9    = ~Te prefiero a ti como líder, pero si insistes...~ [P_Dusk08]
+@9    = ~Te prefiero a ti como líder, pero si insistes...~ [P_Dusk08] //08
 @10   = ~*bostezo* Creo que necesitamos descansar, ¿no lo crees?~ [P_Dusk09]
 @11   = ~No importa lo lento que vayas mientras no te detengas...~ [P_Dusk25]
 @12   = ~¡Veamos lo que tienes!~ [P_Dusk03]
 @13   = ~¡¡¡Por Cormyr!!!~ [P_Dusk05]
 @14   = ~¡No puedes ganar!~ [P_Dusk06]
 @15   = ~Lo lamento... necesito a alguien que se ocupe de mis heridas.~ [P_Dusk11]
-@16   = ~Debemos cuidarnos de las bestias salvajes. Por más hermoso que sea el bosque, el peligro se encuentra a la vuelta de la esquina...~
-@17   = ~Es increíble cómo la corrupción ha invadido hasta el rincón más recóndito de la ciudad...~
+@16   = ~Debemos cuidarnos de las bestias salvajes. Por más hermoso que sea el bosque, el peligro se encuentra a la vuelta de la esquina...~ [p_dusk37]
+@17   = ~Es increíble cómo la corrupción ha invadido hasta el rincón más recóndito de la ciudad...~ [p_dusk38]
 @18   = ~Debes tener cuidado aquí. Presiento... peligro.~ [P_Dusk15]
-@19   = ~Hoy es un buen día para pasear. Pero recuerda, <CHARNAME>, que tenemos un deber que cumplir.~
+@19   = ~Hoy es un buen día para pasear. Pero recuerda, <CHARNAME>, que tenemos un deber que cumplir.~ [p_dusk39]
 @20   = ~Las estrellas brillan en el firmamento, pero ¡cuidado! No todo lo que brilla es oro...~
 @21   = ~¿Qué tienes en mente?~ [P_Dusk17]
 @22   = ~¿Sí?~ [P_Dusk14]
@@ -54,7 +54,7 @@
 @48   = ~*suspiro* Mi objetivo es inmune...~ [P_Dusk28]
 @49   = ~Aquí vamos de nuevo...~ [P_Dusk13]
 @50   = ~*risa* La trampa... ha sido puesta.~ [P_Dusk33]
-@51   = ~Vaya... le he robado...~
+@51   = ~Robo exitoso...~ [p_dusk41]
 
 
 //SPINF99
@@ -1691,8 +1691,8 @@ Tirada de salvación: Ninguna
 
 DESCRIPCIÓN:
 
-Thiago lanza un fuerte gruñido, aumentando sus aptitudes en combate. Brinda protección contra el miedo a sus amigos, ya sea mágico o natural.
-Además, si alguno de sus compañeros estuviese afectado por el terror, la Valentía del Thiago debería curar ese efecto negativo.
+El oso lanza un fuerte gruñido, aumentando sus aptitudes en combate. Brinda protección contra el miedo a sus amigos, ya sea mágico o natural.
+Además, si alguno de sus compañeros estuviese afectado por el terror, la Valentía del Oso debería curar ese efecto negativo.
 THAC0: +1
 Tiradas de Salvación: +1~
 @200294 = ~Pánico~
@@ -1712,7 +1712,7 @@ Tirada de salvación: Ninguna
 
 DESCRIPCIÓN:
 
-Thiago se prepara para el arduo combate, invocando a las sagradas fuerzas de la naturaleza. Cuando hace esto, su fuerza, constitución y destreza aumentan 3 puntos.~
+El oso se prepara para el arduo combate, invocando a las sagradas fuerzas de la naturaleza. Cuando hace esto, su fuerza, constitución y destreza aumentan 3 puntos.~
 @200298 = ~Modificación de la Fuerza~
 @200299 = ~Modificación de la Fuerza~
 @200300 = ~Modificación de la Fuerza~
@@ -2945,6 +2945,8 @@ Peso: 1 lbs.~
 @200451 = ~Korgan... Maldición... yo te vengaré, enano.~
 @200452 = ~Nalia... ¡En nombre de tu familia, vengaré tu caída!~
 @200453 = ~Valygar, no... no... ¡¡¡NOooOOOoooo!!!~
+@200454 = ~¿Has enloquecido? ¡No puedo permitir que hagas esto!~
+
 
 
 ////////////////////////////////

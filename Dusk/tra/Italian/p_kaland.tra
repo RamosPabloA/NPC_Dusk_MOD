@@ -1,0 +1,64 @@
+//EVIL
+@0 = ~...~
+@1 = ~<CHARNAME>... sì, la tua descrizione coincide.~
+@2 = ~Che diavolo...? Elfo! Come fai a sapere il mio nome?~
+@3 = ~Conosci la mia identità... e sprigioni energia arcana, elfo. Dusk, questa creatura deve far parte dell'Ordine che ci sta inseguendo!~
+@4 = ~*colpetto di tosse* Oh, è perché sei molto famoso. Le tue imprese sono arrivate fin qui, sull'isola di Brynn Ley.~ ~*colpetto di tosse* Oh, è perché sei molto famosa. Le tue imprese sono arrivate fin qui, sull'isola di Brynn Ley.~
+@5 = ~<CHARNAME>, ci troviamo di fronte a un Trasmutatore.~
+@6 = ~Cosa?! (Hmph... sapevo che non sarei riuscito a convincerli... maledetto il giorno in cui ho ascoltato i consigli di Sornhil)~
+@7 = ~Quindi hai identificato la mia scuola di specializzazione, umano. Solo guardandomi... impressionante.~
+@8 = ~Suppongo che non mi rimanga altra scelta che presentarmi. Il mio nome è Kalanda, il Trasmutatore.~
+@9 = ~E tu, <CHARNAME>, non sei altro che il figlio di Bhaal che accompagna l'Assassino dei Maghi.~ ~E tu, <CHARNAME>, non sei altra che la figlia di Bhaal che accompagna l'Assassino dei Maghi.~
+@10 = ~*sospiro* Vedo che sei anche a conoscenza delle mie origini. Deve essere il segreto peggio custodito sulla Costa della Spada...~
+@11 = ~E se così fosse, cosa faresti? Presento che tu non sei una creatura di natura affabile, nonostante la tua razza, elfo.~
+@12 = ~Che tipo di nome è Kalanda? Ridicolo...~
+@13 = ~Sei vittima delle tue stesse azioni, <LADYLORD> <CHARNAME>. Non è da aspettarsi che molti esseri potenti siano a conoscenza della tua origine.~
+@14 = ~La mia natura è molto più meticolosa di quella dei miei... compagni. Ma non per questo dovresti sottovalutarmi...~
+
+
+@15 = ~Puoi prenderti gioco quanto vuoi, <PRO_RACE>. I tuoi tentativi di costringermi a un'azione furiosa non avranno successo. Anche se... ciò non significa che io non possa essere... imprevedibile per te.~
+@16 = ~Comunque, non sono qui per parlare di questo. Sono stato mandato in questo disgustoso posto, infestato da miserabili pirati, solo per metterli alla prova.~
+@17 = ~In prova? Ahah! Che prova può imporci un mago tanto patetico come te, elfo?~
+@18 = ~È necessario provocare uno scontro, Dusk? Abbiamo questioni più urgenti da affrontare qui.~
+@19 = ~Devi fare attenzione, Dusk. Così come il pipistrello non può trovare cibo quando il vento urla forte, non ho trovato nemmeno un grammo di natura in questa creatura elfica.~
+@20 = ~*risata* Chi l'avrebbe detto, abbil? Hai un po' di violenza razziale dentro di te. Credo che gli elfi di superficie se lo meritino...~
+@21 = ~Hm... questo elfo ha un'energia strana attorno a lui, omino con il bastone. Tuttavia, non credo che sia un avversario per i miei incantesimi. (No, non credo lo sia...)~
+@22 = ~Sputo sulle tue minacce, elfo spazzatura. Zampette magre, basta dire una parola e lo sbriciolerò per te.~
+@23 = ~Cuore bianco, devo dirti che questo Kalanda ha una forza misteriosa dentro di lui. Non dovremmo prendere alla leggera le sue minacce.~
+@24 = ~La mia Ordine è potente, Assassino di Maghi. Puoi anche esserti allenato con gli Occhi di Serpente per migliorare la tua resistenza arcana... ma non sarà sufficiente.~
+
+
+@25 = ~Ma come fai a saperlo, elfo? Parla, o morirai qui e ora!~
+@26 = ~È questa una specie di scherzo? Non capisco l'umorismo degli umani... mi sembra patetico.~
+@27 = ~No, non parlerò, Assassino di Maghi. E no, non è nemmeno il mio momento di morire.~
+@28 = ~Ma sarà il vostro se non superate questa prova.~
+@29 = ~Osserva attentamente questo!~
+@30 = ~Sembri sorpreso, Assassino di Maghi.~
+@31 = ~Hai molta fiducia in te stesso, umano. Mi chiedo cosa ne penserà il figlio di Bhaal a riguardo.~ ~Hai molta fiducia in te stesso, umano. Mi chiedo cosa ne penserà la figlia di Bhaal a riguardo.~
+@32 = ~Sul serio? Io faccio colazione con diavoletti e worgs. Questa prova sarà una passeggiata.~
+@33 = ~Se pensi che tu possa mettere alla prova il mio potere con questo, Kalanda, mi offendi.~
+@34 = ~Credo che Dusk abbia ragione. Ci deve essere qualche trucco dietro a questo, stregone... cos'è?~
+@35 = ~Stai scherzando? Queste creature non sono rivali per noi, Kalanda.~
+@36 = ~Cosa stai tramando davvero?~
+@37 = ~Le apparenze possono ingannare, <CHARNAME>. Dovresti saperlo... e lo scoprirai...~
+@38 = ~Molto perspicace, <CHARNAME>. Formate una buona squadra. Ma questo non vi salverà.~
+@39 = ~Fallire questa prova significherebbe la morte, <CHARNAME> e Dusk. E abbiate la certezza di questo: non sarà l'ultima volta che le nostre strade si incroceranno!~
+
+// GOOD
+
+@40 = ~<CHARNAME>, attenzione! Percepisco un'energia particolare in lui... è un Transmutatore.~
+@41 = ~D-dusk! Tranquillizzati. Non sei l'unico che userà tutte le sue forze per difendere <CHARNAME>. Hai più di un amico al tuo fianco.~
+@42 = ~Ah, sì, la tipica trama dell'elfo transmutatore. Ricordo che Golodon usava molti incantesimi di quella scuola. Una volta ha evocato una tartaruga, che doveva essere grande quanto il mio ginocchio. Golodon le ha lanciato un incantesimo di trasformazione e la tartaruga è cresciuta a tal punto che abbiamo deciso di costruire una casetta sulla sua corazza e vivere lì per un po'. Sono stati bei tempi. Quello che voglio dire, Dusk, è che devi prestare attenzione a questo elfo. Potrebbe avere intenzione di fare qualcosa di cattivo con le sue trasmutazioni.~
+@43 = ~C-cosa?! Come fai a saperlo? Parla! Non farmi venire voglia di ucciderti, Kalanda.~
+@44 = ~A cosa ti riferisci? Se cercherai di ferire <CHARNAME>, la tua testa rotolerà, Kalanda!~
+@45 = ~~
+@46 = ~~
+@47 = ~~
+@48 = ~~
+@49 = ~~
+
+
+
+@210036 = ~Dusk Aldant: L'Ordine dei Maghi
+
+Abbiamo incrociato il cammino di Kalanda, il Trasmutatore, a BrynnLaw. Apparentemente, ci stava aspettando per metterci alla prova, evocando un paio di creature deboli prima di trasformarle in mostruosi assetati di sangue. Cosa vogliono questi maghi da Dusk e da me? Ancora non lo sappiamo. Ma ho la sensazione che non sarà l'ultima volta che sentiremo parlare di loro.~

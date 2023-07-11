@@ -1,0 +1,46 @@
+//EVIL
+@0 = ~*tos* Ce l'ho fatta... il drago è morto...~
+@1 = ~Hai vinto, figlio di Bhaal... *tos* Peccato... non essere riuscito a ucciderti anche...~ ~Hai vinto, figlia di Bhaal... *tos* Peccato... non essere riuscito a ucciderti anche...~
+@2 = ~Sai che riporteremo in vita Dusk, vero? La tua contesa con lui è stata inutile... perché, alla fine, il soldato vivrà.~
+@3 = ~Suppongo che tu abbia ragione... non credo di poter riportare in vita Dusk con i danni che ha subito... ma almeno ti abbiamo ucciso.~
+@4 = ~*gemito* Non... non importa, <PRO_RACE>. Anche se il soldato viene riportato indietro... dovrà vivere con il fatto di essere caduto in battaglia... per mano di Alabarza... il M-mutilad--~
+@5 = ~(Senza riuscire a terminare le sue ultime parole, Alabarza sembra soffocare nel proprio sangue e infine morire)~
+@6 = ~*gemito* Consolazione da sciocchi, figlio di Bhaal... Sei potente... e ti rispetto per questo... E-io... Alabarza il M-mutilador... ti salu--~ ~*gemito* Consolazione da sciocchi, figlia di Bhaal... Sei potente... e ti rispetto per questo... E-io... Alabarza il M-mutilador... ti salu--~
+@7 = ~*tos* Forse... forse sei immortale, soldato?~
+@8 = ~(Alabarza, mentre sanguina a causa della ferita, fa un sorriso strano. Alla fine, esala il suo ultimo respiro)~
+@9 = ~Non ti rimane molto tempo di vita, scoria. Alla fine... hai pagato.~
+@10 = ~Vorrei dire... che questo non è ancora finito... Che... che ti perseguiterò nell'aldilà... ma...~
+@11 = ~Ma la tua divinità, Gruumsh, dubito che ti perdonerà, vero? Dopotutto... hai ricevuto aiuto da un elfo... e non c'è nulla che Gruumsh odii di più degli elfi...~
+@12 = ~*ride con malevolenza* Passerai l'eternità a soffrire, per mano del tuo dio. Un destino più che meritato, direi...~
+@13 = ~Grr... *con difficoltà, il semiorco tende la mano in un tentativo disperato di raggiungere il collo di Dusk*~
+@14 = ~*Ma Dusk, senza pietà, lo decapita con la sua spada, riempiendo il Tumulo con le urla soffocate di Alabarza*~
+
+@15 = ~Non avrai ultime parole né desideri, canaglia. Anche se forse questo ti conforterà: l'elfo che ti ha aiutato, tale Kalanda, avrà lo stesso destino che attende te...~
+
+//GOOD
+
+@16 = ~È finita, Alabarza...~
+@17 = ~Potrei lasciarti morire... o potremmo curare le tue ferite e consegnarti alla giustizia.~
+@18 = ~C-cosa? *tos* Saresti in grado di perdonarmi... la vita?~
+@19 = ~So cosa ti aspetta nell'aldilà, Alabarza. Gruumsh non dimenticherà che hai cospirato con un elfo per combattere i tuoi nemici...~
+@20 = ~...~
+@21 = ~Non temo il dolore, soldato...~
+@22 = ~Ma un'eternità di tortura... deve essere spaventoso, no?~
+@23 = ~Anche i più feroci provano paura... è normale.~
+@24 = ~Ecco perché ti offro di essere liberato dalla morte. Forse... forse puoi trovare redenzione... Credo che anche tu ne sia capace.~
+@25 = ~Soldato...~
+@26 = ~No... non curarmi...~
+@27 = ~Invece... ti dirò qualcosa...~
+@28 = ~Non abbiamo attaccato la tua squadra per caso...~
+@29 = ~*gemito* No... La verità è... che un'Ordine di Stregoni ci ha informato del tuo arrivo... del tuo sbarco.~
+@30 = ~C-cosa...?~
+@31 = ~Vestivano tuniche nere... un umano chiamato Sornhil, un altro chiamato Valatar... e l'elfo. *sputa sangue*~
+@32 = ~Il loro leader... un negromante...~
+@33 = ~N-negromante?~
+@34 = ~Volevano la sua morte... ignoro le ragioni...~
+@35 = ~M-ma tu... soldato... sei sopravvissuto...~
+@36 = ~I maghi fecero il possibile per rinforzare il mio clan... eravamo p-potenti...~
+@37 = ~Ma... ci hai uccisi...~
+@38 = ~Alabarza...~
+@39 = ~Il carico... c-contiene ciò che siamo riusciti a prendere dai tuoi compagni caduti... Lo hai recuperato...~
+@40 = ~C-credo che il mio destino da qui sia funesto... ma almeno... il mio ultimo grande momento è stato combattere contro di te...~

@@ -1,0 +1,56 @@
+//EVIL
+@0 = ~Ebbene, ebbene... Capitano, mi aspettavo un benvenuto più caloroso... dopotutto, ti sei fatto più potente grazie a noi...~
+@1 = ~~
+@2 = ~Suppongo che tu stia parlando dell'Orbe Scarlatta di Sornhil.~
+@3 = ~Forse dovrei ringraziarvi, mago. Cosa ne dici di avere il tuo cuore trafitto dalla mia spada come segno di gratitudine?~
+@4 = ~(risata) Non so se questa tua attitudine sia dovuta all'orbe o alla lunga compagnia con un discendente di Bhaal.~
+@5 = ~Non meriti la mia pazienza, fenomeno da circo... Tuttavia, oggi mi sento generoso: Sono Valatar, il Conjuratore.~
+@6 = ~Passiamo a questioni più interessanti: So bene perché sei qui, capitano. Devo dire che condivido il tuo amore per la vendetta. È... una sensazione unica quando finalmente la porti a compimento.~
+@7 = ~La tua opinione mi importa poco, conjuratore. Dimmi, cosa vuoi? La tua vita dipende dalla risposta che darai.~
+@8 = ~Sono stato inviato dalla mia Ordine. Abbiamo piani per te e il tuo... leader.~
+@9 = ~Siamo molto interessati all'esito dello scontro imminente tra il tuo gruppo e quello di Alabarza.~
+@10 = ~Come fate a sapere così tanto dei nostri movimenti? Credo che tu non sia diverso dal tuo compagno Sornhil. Sembra che entrambi godiate di ascoltare la vostra stessa voce, anche quando è più vuota di una spugna secca.~
+@11 = ~Ti assicuro, capitano... la mia voce è da temere...~
+@12 = ~Ma basta! Sono stato inviato per darti qualcosa. Mi hanno detto esplicitamente di non... ucciderti.~
+@13 = ~Tuttavia, sono molto curioso di vedere quale sia il limite dell'Orbe Scarlatta. Ecco perché... ho preparato un... diabolico confronto.~
+@14 = ~Capitano Aldant... sicuramente ci incontreremo di nuovo... se sopravviverai, ovviamente. Ah ah ah!~
+@15 = ~IO non devo ucciderti... in questo, rispetto gli ordini della mia Ordine... Tuttavia, non hanno detto niente riguardo le mie... evocazioni.~
+@16 = ~Lo sapevo! Attenzione, <CHARNAME>. Credo che ci troviamo di fronte a una contingenza arcana.~
+
+
+//GOOD
+@17 = ~Ebbene, ebbene... ecco il Capitano Aldant e il suo inseparabile compagno, <CHARNAME>...~
+@18 = ~Cosa cerchi, mago? Ho rifiutato il potere che il tuo amico ha cercato di offrirmi.~
+@19 = ~I tuoi sporchi trucchi non funzioneranno con me... e ti avverto... se provi qualcosa, non esiterò a separare la tua testa dal tuo corpo con la mia spada.~
+@20 = ~(risata) Anche se non mi impressioni, la tua attitudine sì. Forse è dovuta alla tua lunga compagnia con un discendente di Bhaal?~
+@21 = ~Poiché non vi considero una vera minaccia, ve lo dirò: Sono Valatar, il Conjuratore.~
+@22 = ~E cosa fai qui, Valatar? È evidente che ci stai seguendo. Dai, parla!~
+@23 = ~Hmpf... questo non è più divertente...~
+@24 = ~Vedi, la mia Ordine è molto interessata al tuo imminente scontro con Alabarza e il suo clan.~
+@25 = ~Se riesci a batterli, potresti ancora recuperare il tuo onore come Prima Spada nell'Esercito di Cormyr, non credi?~
+@26 = ~C-che...?~
+@27 = ~Se avessi accettato il potere dell'Orbe Scarlatta, questo non sarebbe un problema per te.~
+@28 = ~L'orbe avrebbe risvegliato una potenza smisurata dentro di te. Ti saresti sentito potente come un drago.~
+@29 = ~Ma... invece, avanzate come un branco di lupi, dipendendo dall'impulso della vostra mandria.~
+@30 = ~Quando arriverà il momento, capitano... vedrai quanto poco può fare un branco di animali selvaggi contro una vera forza del potere.~
+@31 = ~Cerchi di intimidirmi, Valatar... forse nella mia ignoranza riguardo alla tua Ordine, potrei essere dubbioso.~
+@32 = ~Ma conto sulla lealtà dei miei amici; Mathyus, Michelson, <CHARNAME>.~
+@33 = ~La paura non è un'arma che puoi usare contro di me.~
+@34 = ~Ah! Questo resta da vedere, cormyreano.~
+@35 = ~Mi hanno mandato solo per osservare... si suppone che non devo uccidervi.~
+@36 = ~Ma non hanno detto niente riguardo le mie evocazioni.~
+
+@37 = ~~
+@38 = ~~
+@39 = ~~
+
+
+
+
+@210020 = ~Dusk Aldant: La Vendetta della Prima Spada
+
+Durante il viaggio verso la Collina dei Troll, un altro mago ci ha intercettato. Questa volta era Valatar, il Conjuratore. Inizialmente, ha fatto finta di cercare gratitudine da parte di Dusk per aver aumentato il suo potere attraverso l'orba scarlatta. Tuttavia, Dusk lo ha minacciato di morte, così il Conjuratore ha evocato un potente demone abissale per eliminarci.~
+
+@210022 = ~Dusk Aldant: La Vendetta della Prima Spada
+
+Durante il nostro viaggio verso la Collina dei Troll, un altro mago ci ha intercettato. Questa volta era Valatar, il Conjuratore. Dopo un breve scambio di parole in cui Valatar ha dichiarato il potere che Dusk ha sprecato rifiutando l'orba scarlatta, ha deciso di inviare un demone abissale per ucciderci.~

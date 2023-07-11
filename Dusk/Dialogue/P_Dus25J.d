@@ -1,14 +1,6 @@
 BEGIN P_Dus25J
 
-IF ~~ THEN BEGIN 100 // from:
-  SAY @20000 /* ~Pero, ¿qué diantres--?~ */
-IF ~~ THEN GOTO 101
-END
 
-IF ~~ THEN BEGIN 101 // from:
-  SAY @20008 /* ~*suspiro*~ */
-IF ~~ THEN EXIT
-END
 
 // Volo
 
@@ -33,26 +25,54 @@ CHAIN SARVOLO P_DuskVoloBio3
 == P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @1001 /* Tal es el resultado de mis viajes contigo, <CHARNAME>. Lo que hemos logrado con nuestro poder finalmente ha sido reconocido. */
 EXTERN SARVOLO 9
 
+// General de Tethyr (GOOD / NEUTRAL)
+EXTEND_BOTTOM AMTGEN01 1
+IF ~Global("P_Dusk_IS_EVIL_TOB","GLOBAL",0)~ EXTERN P_DUS25J p_gnduskgn1
+END
+
+CHAIN P_DUS25J p_gnduskgn1
+@20000 /* ~Pero, ¿qué diantres--?~ */
+== P_Dus25J @20004 /* ¡Por Cormyr! <CHARNAME> no ha sido culpable de la destrucción de Saradush. ¡Ha sido obra de los Gigantes de Fuego! */
+== AMTGEN01 @20005 /* Se sabe que los Engrendros de Bhaal trabajan juntos para la conquista de esta tierra. <CHARNAME> es descendiente de Bhaal... da igual lo que digas, cormyreano. */
+== P_Dus25J @20006 /* Rayos... *susurro* Parece que no tenemos otra opción más que enfrentarnos a ellos, <CHARNAME>. No quería llegar a esto... los tezhyrianos son aliados de Cormyr... */
+== P_Dus25J @20007 /* Puede... puede que cuando todo esto termine, los lazos puedan ser reforjados... */
+== P_Dus25J @20008 /* *suspiro* */
+EXIT
+
+// General de Tethyr (EVIL)
+EXTEND_BOTTOM AMTGEN01 1
+IF ~Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)~ EXTERN P_DUS25J p_gnduskgn2
+END
+
+CHAIN P_DUS25J p_gnduskgn2
+@20000 /* ~Pero, ¿qué diantres--?~ */
+== P_Dus25J @20001 /* ¿Quién te crees que eres, mequetrefe? Lo sabía, <CHARNAME>. La 'realeza' de Tethyr muestra sus hilos. */
+== P_Dus25J @20002 /* Dime, pequeño hombre, ¿acaso Zaranda y Jédrak ya no participan en sus propias luchas? Sería interesante verlos en el campo de batalla... */
+== AMTGEN01 @20003 /* ¡Canalla! ¿Cómo te atreves a mancillar los nombres de nuestros regentes con tu sucia boca? ¡Soldados, acaben con ellos! */
+== P_Dus25J @20008 /* *suspiro* */
+EXIT
+
+// Capitán Erelon (GOOD / NEUTRAL)
+EXTEND_BOTTOM AMARCH02 5
+IF ~Global("P_Dusk_IS_EVIL_TOB","GLOBAL",0)~ EXTERN P_DUS25J p_amarch02_1
+END
+
+CHAIN P_DUS25J p_amarch02_1
+@20009 /* ~Bastardo, morirás por tu perversión. ¡Prepárate a morir!~ */ DO ~AttackReevaluate("AMARCH01",30)~
+EXIT
+
+EXTEND_BOTTOM AMARCH02 7
+IF ~Global("P_Dusk_IS_EVIL_TOB","GLOBAL",0)~ EXTERN P_DUS25J p_amarch02_2
+END
+
+CHAIN P_DUS25J p_amarch02_2
+@20010 /* ~¡¿Crees que dejaré que sigas con tu perversión, malnacido?! Las criaturas, incluso aquellas que vienen del Plano Etéreo, no deberían ser motivo de entrenamiento de nadie. ¡Morirás aquí y ahora!~ */  
+END AMARCH02 5
 
 
 I_C_T FINSOL01 27 P_DuskSolarFriend1
 == P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) !Global("P_DuskRomanceActive","GLOBAL",2)~ THEN @5 /* Confío en que harás lo que debas hacer con el nuevo poder que has de adquirir, <CHARNAME>. Nadie lo merece más que tú. */
 END
-
-I_C_T P_Dus25J 100 P_DuskTethyrEVIL1
-== P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)~ THEN @20001 /* ¿Quién te crees que eres, mequetrefe? Lo sabía, <CHARNAME>. La 'realeza' de Tethyr muestra sus hilos. */
-== P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)~ THEN @20002 /* Dime, pequeño hombre, ¿acaso Zaranda y Jédrak ya no participan en sus propias luchas? Sería interesante verlos en el campo de batalla... */
-== AMTGEN01 IF ~~ THEN @20003 /* ¡Canalla! ¿Cómo te atreves a mancillar los nombres de nuestros regentes con tu sucia boca? ¡Soldados, acaben con ellos! */
-END 
-
-I_C_T P_Dus25J 100 P_DuskTethyrGOOD_NEUTRAL1
-== P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL_TOB","GLOBAL",0)~ THEN @20004 /* ¡Por Cormyr! <CHARNAME> no ha sido culpable de la destrucción de Saradush. ¡Ha sido obra de los Gigantes de Fuego! */
-== AMTGEN01 IF ~~ THEN @20005 /* Se sabe que los Engrendros de Bhaal trabajan juntos para la conquista de esta tierra. <CHARNAME> es descendiente de Bhaal... da igual lo que digas, cormyreano. */
-== P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)~ THEN @20006 /* Rayos... *susurro* Parece que no tenemos otra opción más que enfrentarnos a ellos, <CHARNAME>. No quería llegar a esto... los tezhyrianos son aliados de Cormyr... */
-== P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID) Global("P_Dusk_IS_EVIL_TOB","GLOBAL",1)~ THEN @20007 /* Puede... puede que cuando todo esto termine, los lazos puedan ser reforjados... */
-END
-
-
 
 I_C_T AMMERC02 1 P_DuskSaemonMet11
 == P_Dus25J IF ~InParty("P_Dusk") InMyArea("P_Dusk") !StateCheck("P_Dusk",CD_STATE_NOTVALID)~ THEN @46 /* Otra vez este depravado... ¿no crees que es hora de darle una lección, <CHARNAME>? */
@@ -406,5 +426,106 @@ SetGlobal("P_Dusk_EVIL_REDEMPTION","GLOBAL",1)
 END
 
 
+// Conversación luego del combate contra el ejército de Tethyr - NEUTRAL/GOOD
+IF ~Global("P_DuskTalkToB2","GLOBAL",2)
+OR(2)
+Global ("P_Dusk_IS_NEUTRAL_TOB","GLOBAL",1)
+Global ("P_Dusk_IS_GOOD_TOB","GLOBAL",1)~ aa1
+SAY @178 /* No quería... sacar este tema a la luz, <CHARNAME>. Pero... el combate contra los soldados de Tethyr aún me tiene conmocionado. */
+++ @179 /* ¿De verdad? No fue un combate que nos haya puesto en aprietos. Me parece extraño en ti. */ + aa1.1
+++ @180 /* ¿Por qué lo dices, Dusk? Tiene que ver con tu pasado como mensajero de la paz, ¿verdad? */ + aa1.2
+++ @181 /* No es momento de lloriqueos, Dusk. Tenemos asuntos más importantes que atender. */ + aa1.0
+END
+
+IF ~~ aa1.0
+SAY @182 /* *suspiro* De acuerdo, <CHARNAME>. Continuemos. */
+IF ~~ DO ~SetGlobal("P_DuskTalkToB2","GLOBAL",3)
+~ EXIT
+END
+
+IF ~~ aa1.1
+SAY @183 /* ~No está relacionado al combate en sí. Muchos de esos soldados... intentaban hacer lo mismo que yo hace algunos años. Mantener la paz.~ */
+= @184 /* No sé qué se dirá de nosotros en detalle... El comandante tethyriano no nos quiso escuchar... supongo que nunca lo haría. */
+= @185 /* Es injusto que esto haya tenido que pasar. */
+++ @186 /* Muchas cosas son injustas, Dusk. Así es el mundo. Mejor vete acostumbrando a esa idea. */ + aa1.3
+++ @187 /* ~Puede que sea injusto. Pero creo que es nuestro deber enmendar las cosas. Hicimos lo posible por evitar el combate, Dusk.~ */ + aa1.4
+END
+
+IF ~~ aa1.3
+SAY @188 /* ~Un razonamiento bastante frío, compañero. Puede que el tiempo nos haya hecho más... duros.~ ~Un razonamiento bastante frío, compañera. Puede que el tiempo nos haya hecho más... duros.~ */
+IF ~~ DO ~SetGlobal("P_DuskTalkToB2","GLOBAL",3)
+~ EXIT
+END
+
+IF ~~ aa1.4
+SAY @189 /* ~Tienes razón. Llevas una pesada herencia, amigo mío. No muchos llegan a comprender lo que intentas hacer.~ ~Tienes razón. Llevas una pesada herencia, amiga mía. No muchos llegan a comprender lo que intentas hacer.~ */ 
+= @190 /* ~Aquellos que no lo entienden, te temen. El combate anterior es prueba de ello, ahora me doy cuenta.~ */
+= @191 /* No muchos son capaces de ver el valor que tienes, <CHARNAME>. Pero yo lo veo. Confío en ti. */
+= @192 /* ~*carraspeo* Bueno, creo que hemos hablado suficiente. Será mejor que continuemos.~ */
+IF ~~ DO ~SetGlobal("P_DuskTalkToB2","GLOBAL",3)
+~ EXIT
+END
+
+IF ~~ aa1.2
+SAY @193 /* ~Así es. Tethyr me recibió con los brazos abiertos. Zaranda es el emblema del honor y la sabiduría...~ */
+= @194 /* Lo de Saradush... fue terrible. Intentamos evitarlo, ¿no es así? */
+= @184 /* No sé qué se dirá de nosotros en detalle... El comandante tethyriano no nos quiso escuchar... supongo que nunca lo haría. */
+= @185 /* Es injusto que esto haya tenido que pasar. */
+++ @186 /* Muchas cosas son injustas, Dusk. Así es el mundo. Mejor vete acostumbrando a esa idea. */ + aa1.3
+++ @187 /* ~Puede que sea injusto. Pero creo que es nuestro deber enmendar las cosas. Hicimos lo posible por evitar el combate, Dusk.~ */ + aa1.4
+END
+
+
+
+// Conversación luego del combate contra el ejército de Tethyr - EVIL
+IF ~Global("P_DuskTalkToB2","GLOBAL",2)
+Global ("P_Dusk_IS_EVIL_TOB","GLOBAL",1)~ bb1
+SAY @195 /* Estúpidos tethyrianos... idiotas. ¿En qué estaban pensando? Merecían... merecían morir. */
+++ @196 /* ¿Qué estás murmurando, Dusk? ¿Estás hablando del combate en el Oasis? */ + bb1.1
+++ @197 /* Ah, has enloquecido, ¿huh? Era algo que me temía. Suele suceder con aquellos que hablan solos. */ + bb1.2
+++ @198 /* No quiero oír quejas sobre nada, Dusk. Si estás a punto de lloriquear por algo, será mejor que te lo guardes para ti mismo. */ + bb1.0
+END
+
+IF ~~ bb1.0
+SAY @199 /* ~Insolente. No estoy llorando. No me estoy quejando. Y no necesito de tu oído para esto. Será mejor que continuemos con nuestros asuntos.~ */
+IF ~~ DO ~SetGlobal("P_DuskTalkToB2","GLOBAL",3)
+~ EXIT
+END
+
+
+IF ~~ bb1.1
+SAY @200 /* ~Si a eso le puedes llamar combate, <CHARNAME>. Fue, más bien, una masacre. Esos estúpidos... nunca tuvieron una oportunidad.~ */
+= @201 /* Nunca tuvieron una oportunidad... */
+++ @202 /* ~Me sorprende que te compadezcas de ellos, Dusk. Tethyr se lo buscó. Aquellos que se interpongan en nuestros caminos, pagarán.~ */ + bb1.3
+++ @203 /* ¿Te sientes mal por haberlos matado, Dusk? Si te hace sentir mejor, creo que el combate era inevitable. */ + bb1.4
+END
+
+IF ~~ bb1.3
+SAY @204 /* ~Larga es la lista de cadáveres que pueden confirmar eso, Hijo de Bhaal. Larga es la lista...~ */
+= @205 /* Saradush. Tethyr... cementerios van creciendo a medida que vamos avanzando. */
+= @206 /* A veces me pregunto... si algún día podré presenciar el fin de esto. */
+IF ~~ DO ~SetGlobal("P_DuskTalkToB2","GLOBAL",3)
+~ EXIT
+END
+
+IF ~~ bb1.4
+SAY @207 /* ~Me siento molesto. ¿Limpiar la sangre de un joven soldado del filo de mi espada? No merecía el esfuerzo.~ */ 
+= @208 /* ~Entiendo que no tuvimos otra opción. La estúpida de Zaranda no escucha razonamientos.~ */
+= @209 /* ¿Enviar guerreros, veteranos y escuderos, al matadero por meros rumores? */
+= @210 /* ~Te lo digo, <CHARNAME>... Los reyes ya no pelean sus combates. Dejan que los jóvenes lo hagan por ellos.~ */
+= @211 /* El poder es una espada atractiva. Pero si quieres decapitar a los demás, al menos el que lo blanda debería poder valerse por sí mismo. */
+= @212 /* ¡Bah! Será mejor que continuemos. Los muertos, muertos están. */
+IF ~~ DO ~SetGlobal("P_DuskTalkToB2","GLOBAL",3)
+~ EXIT
+END
+
+IF ~~ bb1.2
+SAY @213 /* ~Muy gracioso, <CHARNAME>.~ ~Muy graciosa, <CHARNAME>.~ */
+= @214 /* Y no, no he enloquecido. He estado pensando en nuestro combate en el Oasis. */
+= @215 /* Si es que a eso se le puede llamar combate. Fue, más bien, una masacre. Esos estúpidos... nunca tuvieron una oportunidad. */
+= @201 /* Nunca tuvieron una oportunidad... */
+++ @202 /* ~Me sorprende que te compadezcas de ellos, Dusk. Tethyr se lo buscó. Aquellos que se interpongan en nuestros caminos, pagarán.~ */ + bb1.3
+++ @203 /*¿Te sientes mal por haberlos matado, Dusk? Si te hace sentir mejor, creo que el combate era inevitable. */ + bb1.4
+END
 
 END // End to APPEND
