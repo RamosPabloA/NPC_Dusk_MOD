@@ -3,6 +3,8 @@
 BEGIN P_DuskP
 
 IF ~Global("P_DuskDUSKDIEDFinalMission","GLOBAL",0)
+Global("P_DuskAlliesAttacked","GLOBAL",0)
+Global("P_DuskAlliesAttacked2","GLOBAL",0)
 Global("P_DuskKickedOut","GLOBAL",0)
 Global("P_Dusk_DornEnemy","GLOBAL",0)~ b2
 SAY @1 /* Supongo que nuestros caminos tomarán diferentes rumbos, ¿no es así? Si cambias de opinión, podrás encontrarme donde nos conocimos: en el Paseo de Waukin, cerca de las ruinas que provocó nuestro enemigo. */
@@ -46,7 +48,7 @@ END
 
 // GOOD/NEUTRAL
 IF ~Global("P_DuskKickedOut","GLOBAL",1) Global ("P_DUSK_IS_EVIL","GLOBAL",0)
-Global("P_Dusk_DornEnemy","GLOBAL",0)~ b3
+Global("P_Dusk_DornEnemy","GLOBAL",0) Global("P_DuskAlliesAttacked","GLOBAL",0) Global("P_DuskAlliesAttacked2","GLOBAL",0)~ b3
 SAY @5 /* ¡<CHARNAME>! Has regresado. Espero que podamos retomar nuestro viaje. Debemos dar justicia a los caídos. */
 ++ @6 /* Tienes razón, amigo. Vamos, únete a mí. */ + b3.1
 ++ @7 /* Aún no, Dusk, debo arreglar algunos asuntos antes. */ + b3.2

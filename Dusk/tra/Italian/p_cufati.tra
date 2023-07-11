@@ -1,0 +1,44 @@
+@0 = ~Cufa: Hmm, Cufa ha fame. Vederti mi fa venire ancora più fame.
+Tima: Cufa, ricorda che siamo a dieta. Ehi, sconosciuto, è meglio che parli con il nostro capo mentre io convinco il mio amico a non mangiarti, ok?~
+@1 = ~Cufa: Hmm, Cufa ha fame. Vederti mi fa venire ancora più fame.
+Tima: Cufa, ricorda che siamo a dieta. Ehi, sconosciuta, è meglio che parli con il nostro capo mentre io convinco il mio amico a non mangiarti, ok?~
+@2 = ~Cufa: Ah, finalmente Cufa può mangiare! È divertente, vero, Tima?~
+@3 = ~Tima: Cufa, non ne sono così sicuro... ricorda che il nostro desiderio di belligeranza è cessato... Combattere ancora una volta con questi esseri senzienti... potrebbe significare la nostra fine...~
+@4 = ~Tima: Ma non abbiamo altra scelta. La nostra capo ha provato a negoziare... ma non siamo riusciti a raggiungere un accordo... ci attende una battaglia. Forza, fratello! Abbiamo nemici da schiacciare.~
+@5 = ~Cufa: Schiacciare gli umani... è sempre divertente!~
+@6 = ~Cufa: Cufa pensa che Coco dovrebbe smettere di consumare funghi. Parla di cose senza senso.~
+@7 = ~Tima: Coco ha ragione. Tanto che è riuscito a convincere mio fratello a smettere di cibarsi di umani. Stiamo cercando di vivere in pace. Cerchiamo una casa.~
+@8 = ~Cufa: *sospiro* Mi mancherà mangiare gli umani...~
+@9 = ~Tima: Sembra che siamo ad un bivio. Non abbiamo modo di provare la nostra innocenza...~
+
+
+
+
+@10 = ~Tima: Ma nemmeno tu hai un modo per dimostrare la nostra colpevolezza, cormyreano.~
+@11 = ~Cufa: Hmm... cormyreano. Questo essere cibo?~
+@12 = ~Tima: *sussurro* Dipende, fratello. Dipende da ciò che risponde l'umano...~
+@13 = ~Tima: Oh, Coco... non mi dire che l'oggetto è maledetto...~
+@14 = ~Cufa: Scudo lilla maledetto? Peccato, a Cufa piacerebbe vedere uno scudo splendente.~
+@15 = ~Cufa: Dusk? A Cufa piace il nome. Facile da ricordare.~
+@16 = ~Tima: Hai sentito, Cufa? Presto avremo una casa. Non ci posso credere.~
+@17 = ~Cufa: Cufa ascoltare bene, Tima. Cufa essere felice per la nuova casa. Cufa piangere dall'emozione.~
+@18 = ~Tima: Cufa ed io siamo molto grati, forastero. Vero, Cufa?~
+@19 = ~Cufa: Tima avere ragione. Cufa sperare di vivere di cibi sani da ora in poi.~
+@20 = ~Tima: Questo, da parte tua, fratello, è molto da dire.~
+@21 = ~Cufa: Cufa aiutare a schiacciare l'orco mago. Cufa combattere al fianco degli umani.~
+@22 = ~Tima: Suppongo che non ho altra scelta che seguirti, Cufa.~
+@23 = ~Tima: Ma guarda, ci stanno visitando i nostri amici! Guarda, Cufa, è venuto <CHARNAME>.~
+@24 = ~Cufa: Uh? Scusa, Piccolo Dormiglione avere fame di nuovo. Cufa cercare fieno per Piccolo Dormiglione.~
+@25 = ~Tima: Cufa! Gli hai già dato da mangiare a Piccolo Dormiglione qualche ora fa, lascialo riposare un attimo. Puoi occuparti di Piccolo Saltellante, sembra essere affamato.~
+@26 = ~Cufa: Piccolo Saltellante essere a dieta. Vedi quanto è grasso? Tima voler far ingrassare tutti.~
+@27 = ~Tima: Fratello, stai dicendo sciocchezze. Sono stato io a metterti a dieta, ricordi? Da molto tempo mangi solo frutta e verdura.~
+@28 = ~Tima: Erhm... Scusa, <CHARNAME>. Come puoi vedere, siamo assegnati alle stalle. La verità è che ci piace molto questo incarico. Specialmente a Cufa. Mio fratello maggiore si è affezionato molto ai cavalli.~
+@29 = ~Cufa: Cufa essere felice con la nuova casa. Essere grato a Dusk e a <CHARNAME>. Cufa amare i suoi amici e i cavalli.~
+
+
+
+
+
+@210008 = ~Dusk Aldant: I Rinnegati di Sothillis
+
+Abbiamo trovato la tribù di umanoidi che apparentemente era responsabile dell'attacco al distaccamento di Dusk. Per qualche motivo, insistevano sul fatto di essere innocenti, ma abbiamo scoperto che portavano uno scudo viola rotto con l'emblema dei Draghi Viola di Cormyr. Dusk non ha esitato e li ha attaccati.~

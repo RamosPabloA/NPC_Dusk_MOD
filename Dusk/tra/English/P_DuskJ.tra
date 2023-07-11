@@ -581,7 +581,7 @@ But, anyway...~
 @327  = ~“The final battle was decided between Haedrak and Yusuf in Myratma. Both fought to the death on the destroyed west wall of the city. Haedrak managed to disarm Yusuf... And he could have killed him, Dusk... But he didn't...”~
 @328  = ~“With Yusuf defeated on the ground, Haedrak turned around and looked at me. He asked me: What should I do with him?”~
 @329  = ~“He sought advice from a lady, Dusk. How many warrior kings, in the heat of battle, do you know who have done that?”~
-@330  = ~Haedrak is a good man and it was at that moment he earned even more of my respect. But Yusuf took advantage of the prince's distraction... and pulled out a hidden dagger and lunged at Haedrak...”~
+@330  = ~“Haedrak is a good man and it was at that moment he earned even more of my respect. But Yusuf took advantage of the prince's distraction... and pulled out a hidden dagger and lunged at Haedrak...”~
 
 
 @331  = ~“My heart stopped. Yusuf was about to betrayingly kill my Haedrak... and it was in the possibility of losing him forever that I realized I loved him.”~
@@ -1499,11 +1499,23 @@ The powerful shilmist elf."~
 @3512 = ~Alright, alright... I'm not particularly fond of drinking humanoid blood... but I might make an exception this time.~
 @3513 = ~(GROWL)~ [BBEAR09]
 
-@3515  = ~~
-@3516  = ~~
+@3515  = ~The Adventure Mart's the finest shopping in all of Faerûn: widest selection, lowest prices, and nary a fancy illustration. Just the goods, bare and plain.... Hmmm... Why are you taking notes as I speak, young man?~
+@3516  = ~Ah, I see. A future competitor, huh? Oh, there's no need for that face, my dear human. You can learn everything you want. And, by the way, you would do well to buy me one or two trinkets, don't you think? Now, let me start again:~
 @3517  = ~~
 @3518  = ~~
 @3519  = ~~
+
+
+@30000    = ~Ah, if it isn't the captain of the North. Tell me, Dusk, is there anything I can help you with?~
+@30001    = ~A party of renegades, you say? I see. And what is it that you seek from the Noble Order of the Radiant Heart ?~
+@30002    = ~Hmm... I suppose I could intercede with the Prelate on your behalf and that of your party of humanoids. But tell me, why should I do so?~
+@30003    = ~It makes sense... Very well, I will speak to the Prelate, I am sure there will be no problems. There is plenty of room here at the barracks, even for larger humanoids. They can help with daily chores, in addition to serving a greater good for the nation.~
+@30004    = ~But first, I need you to do me a favor... as long as your reputation is relevant, of course.~
+@30005    = ~Also, I would need to speak with your leader <CHARNAME>. We have a tedious matter related to the slave trade involving men who used to call themselves Paladins.~
+@30006    = ~Do this for me, Dusk... and I will convince the Prelate about the humanoids you are trying to protect.~
+@30007    = ~Yes, Dusk. The matter of your humanoids...~
+@30008    = ~I would be happy to intercede with the Prelate on your behalf. You can go back to the Sothillis deserters and tell them to come to the Order's barracks.~
+
 
 // JOURNAL ENTRIES
 @210007 = ~Dusk Aldant: The Renegades of Sothillis

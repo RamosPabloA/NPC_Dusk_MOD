@@ -1,0 +1,72 @@
+@0 = ~(Da improvvisamente, un cane si avvicina al gruppo. Sembra riconoscere Dusk e si avvicina a lui)~
+
+@2 = ~(Comincia a muovere la coda e a abbaiare in modo strano, come se volesse comunicare qualcosa)~ [P_Demo01]
+
+@3 = ~(Il cane abbaia in modo strano e muove la testa molto lentamente. Noti che al suo collo ha legato un foglietto di carta)~ [P_Demo02]
+@4 = ~(Demoledor annuisce, muovendo lentamente la testa. Poi si gira a metà, con la stessa calma, e se ne va camminando, come se il tempo fosse dalla sua parte)~
+@5 = ~(Demoledor ci mette qualche secondo per accorgersi della tua presenza. Quando finalmente ti vede, inizia a muovere lentamente la coda e ad abbaiare. Immagini che ti stia salutando)~ [P_Demo01]
+@6 = ~(Demoledor, che sembrava essere addormentato durante un pisolino, si sveglia e muove la coda lentamente, orgoglioso del complimento del suo maestro. Poi si riaddormenta)~
+@7 = ~(Demoledor apre gli occhi lentamente, poiché stava facendo il suo solito pisolino, e abbaia in modo strano)~ [P_Demo02]
+@8 = ~(Demoledor si alza in piedi, all'erta, come se condividesse i sentimenti del suo maestro e ciò lo mettesse nervoso)~
+@9 = ~(Gli abbai strani di Demoledor si fanno notare. Sicuramente, la presenza di Dusk lo ha messo in ansia)~
+
+
+@10 = ~(A sorpresa di tutti, Demoledor si alza e inizia a muovere la coda e ad abbaiare a Mathyus)~ [P_Demo01]
+@11 = ~(Demoledor inizia a muovere la coda e a girare su se stesso. Abbaia felice alla presenza di Dusk)~ [P_Demo02]
+@12 = ~(Demoledor abbaia, come ci si aspetterebbe, a modo suo particolare. Ha un biglietto al suo collo)~ [P_Demo01]
+@13 = ~(Comincia a muovere la coda, ansioso anche per la risposta di Dusk)~
+@14 = ~(Demoledor abbaia a modo suo, annuisce, muove la coda e fa mezzo giro, molto lentamente. Ti chiedi se non arriveresti più velocemente tu che lui alla tana al Porto...)~ [P_Demo02]
+@15 = ~(Demoledor abbaia deluso dalla situazione. Poi, con la sua solita calma, se ne va di nuovo, presumibilmente verso la tana del suo maestro)~ [P_Demo01]
+@16 = ~(Demoledor è contento per il complimento del suo padrone. Anche se è evidente che è nervoso per la presenza di Dusk)~[P_Demo01]
+@17 = ~(Demoledor è contento per il complimento del suo padrone e per l'arrivo di Dusk e <CHARNAME> nel recinto)~[P_Demo02]
+@18 = ~(Demoledor, a modo suo abituale, abbaia. Ti sorprende vedere come muove la coda da un lato all'altro con una lentezza quasi innaturale)~ [P_Demo01]
+@19 = ~(Noti che ha con sé una nota, probabilmente di Mathyus. Dusk la prende e inizia a leggere)~
+@20 = ~Vediamo... "Dusk, <CHARNAME>:
+Spero che il vostro viaggio sia stato fruttuoso. Tuttavia, abbiamo notizie preoccupanti. Qualche giorno fa, un oscuro stregone è apparso. Inizialmente, si è presentato a noi come un nobile di Tethyr di nome Darvin."~
+
+
+@21 = ~Darvin... <CHARNAME>... sono sicuro che Mathyus stia parlando di Anthagar, il Negromante... continuerò a leggere:~
+@22 = ~"Grazie alla magia di Michelson, siamo stati in grado di smascherare la sua illusione. Lo stregone sembrava sorpreso e ho pensato che avremmo dovuto combatterlo. Tuttavia, ci ha consegnato solo uno strano artefatto. Michelson dice che si tratta di una gemma di teletrasporto."~
+@23 = ~Questo bastardo... Potrebbe essere una trappola, Dusk. Ma se hai intenzione di inseguirlo, puoi contare su di me.~
+@24 = ~Corvo bianco! Percepisco l'avvicinarsi di una guerra di piani. È una cosa seria e non devi prenderla alla leggera.~
+@25 = ~Oh, Dusk! Bene, almeno spero che i tuoi amici stiano bene. L'elfo dai capelli verdi e il piccolo allegro.~
+@26 = ~La lettera termina: "È meglio che veniate nella nostra tana nel Porto di Athkatla. Potremo parlare meglio e decidere come procedere in questa situazione. Ricorda, Dusk: hai l'alleanza di Shilmista.
+Cordiali saluti, Mathyus Davis.
+Il potente elfo di Shilmista."~
+@27 = ~Firma sempre le sue lettere come "il potente elfo di Shilmista"? Credo che la tintura verde gli sia salita alla testa.~
+@28 = ~<CHARNAME>... dovremmo tornare alla tana di Mathyus e vedere cosa sta succedendo.~
+@29 = ~(Demoledor concentra la sua attenzione su di te, in attesa di una risposta)~ [P_Demo02]
+@30 = ~Va bene, Dusk. Demoledor, corri e digli a tuo maestro che verremo subito!~
+
+
+@31 = ~Hm... andremo, ma in un altro momento, Dusk. Demoledor, va' e digli a Mathyus che andremo non appena avremo completato la nostra missione attuale.~
+@32 = ~Che stai guardando, sacco di pulci? Dì al tuo padrone di non darci fastidio. Andremo quando mi pare.~
+@33 = ~(Demoledor annuisce e abbaia. Poi fa mezza volta e se ne va con il suo camminare tranquillo abituale.)~
+@34 = ~(Demoledor si gratta le orecchie sentendo la parola "pulci", come se si ricordasse che ne ha una che lo sta infastidendo in questo momento)~
+@35 = ~Va bene, <CHARNAME>. Ricorda solo di cosa è capace Anthagar. I suoi seguaci sono pericolosi e potrebbero rappresentare una minaccia imminente per Amn e Tethyr.~
+@36 = ~Demoledor, va' e digli a Mathyus che andremo nel momento in cui <CHARNAME> vorrà. *sussurro* Se mai vorrà andare...~
+@37 = ~(Senza che tu te ne accorga, compare una presenza canina dal nulla. Niente di meno che Demoledor)~
+// 3262 e 3263
+@38 = ~Demoledor... confido che questa interruzione sia dovuta solo a novità sulla missione che ho affidato al tuo padrone.~
+@39 = ~Demole! È bello vederti. Immagino che Matyhus ti abbia mandato. Ci sono novità?~
+// 3407
+@40 = ~(Dal nulla, percepisci una presenza familiare vicino a te. Quando ti giri, vedi Demoledor muovere la coda a una velocità antinaturale)~
+@41 = ~Demole! Amico mio, è un grande piacere rivederti.~
+
+
+
+// JOURNAL ENTRIES
+
+@210006 = ~Dusk Aldant: I Rinnegati di Sothillis
+
+Ci siamo imbattuti in un cane curioso di nome Demolisher. Si è rivelato essere l'animale da compagnia di Mathyus Davis. Portava una nota destinata a Dusk, che indicava che erano attese notizie sul distaccamento di Cormyr. Probabilmente riguarda i vecchi compagni di Dusk, ma per saperne di più, dovremo dirigerci verso i Docks di Athkatla, verso il nascondiglio di Mathyus.~
+
+
+@210017 = ~Dusk Aldant: La Vendetta della Prima Spada
+
+Demolisher è comparso con una nota di Mathyus Davis. Apparentemente, ha individuato la tribù di umanoidi responsabile dell'attacco al distaccamento di Dusk. Il nostro guerriero di Cormyr è sicuro che si tratti del bersaglio giusto. Otterremo ulteriori informazioni quando ci dirigeremo verso il Distretto del Porto, verso il nascondiglio dell'elfo dai capelli verdi.~
+
+
+@210040 = ~Dusk Aldant: L'Ordine dei Maghi
+
+Demolisher è apparso per contattarci, portando con sé una nota scritta da Mathyus Davis. Dusk l'ha letta, informandoci dell'apparizione di Anthagar ad Athkatla. Apparentemente, ha consegnato una misteriosa pietra, probabilmente per il teletrasporto, ai nostri amici di Shilmist. Dobbiamo recarci al covo di Mathyus e Michelson nel Porto di Athkatla per ulteriori informazioni.~

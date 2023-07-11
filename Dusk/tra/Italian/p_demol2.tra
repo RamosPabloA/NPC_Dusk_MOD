@@ -1,0 +1,48 @@
+
+// 
+@0 = ~(Un portale trascina Demoledor con sé e, nella sua posa da combattimento, emette i suoi insoliti e consueti latrati.)~ [P_Demo01]
+
+@1 = ~(Nonostante senta le parole di Dusk, Demoledor mantiene il suo sguardo fisso sui maghi)~
+@2 = ~Fantastico, il sacco di pulci è venuto ad aiutarci. Dobbiamo fidarci che ci sia d'aiuto? È più probabile che sia di intralcio!~
+@3 = ~Demoledor! Non sai quanto mi fa piacere vederti qui.~
+@4 = ~Spero tu sia pronto per la battaglia, mio amico peloso. Questi maghi sembrano essere una seria minaccia.~
+@5 = ~(Vedi come si alza leggermente il pelo sulla sua schiena, chiaramente offeso dai tuoi commenti)~ [P_Demo02]
+@6 = ~(Demoledor muove sottilmente la coda in risposta alle parole di <CHARNAME>)~ [P_Demo02]
+@7 = ~(Il cane fissa il suo sguardo su Mathyus)~
+@8 = ~(Demoledor dirige il suo sguardo verso il gruppo di <CHARNAME>)~
+@9 = ~(Demoledor si lancia all'attacco in modo sorprendente. La battaglia è iniziata...)~
+@10 = ~Mi dispiace, Demole... Mathyus è sotto il controllo di uno dei nostri nemici... Non abbiamo altra scelta se non... sconfiggerlo.~
+@11 = ~(Demoledor abbaia direttamente a Mathyus, forse sperando di farlo riprendere)~
+@12 = ~(Mathyus non reagisce a ciò. È evidente che l'incantesimo di Sornhil ha colpito profondamente la sua mente)~
+@13 = ~Capitano... se pensi che quella... bestia possa fare la differenza... stai per scoprire quanto sbagli.~
+@14 = ~<CHARNAME>! Fai male a sottovalutare una creatura di Shilmista. Inoltre, ogni aiuto è il benvenuto.~
+@15 = ~Non dargli ascolto, Demoledor, <CHARNAME> non sta attraversando il suo miglior momento.~
+@16 = ~Demoledor?! Finalmente sei arrivato!~
+
+
+@3491 = ~Non disperarti, mio caro amico peloso. Minsc, Boo e Dusk faranno tutto il possibile per sconfiggere i cattivi e far sì che il tuo padrone torni al tuo fianco. Ai loro occhi, Boo!~
+@3492 = ~Per Baervan, voi negromanti non arriverete lontano. Quayle lo vorrebbe così. Sono pronta!~
+@3493 = ~<CHARNAME>, Dusk... è un onore stare al vostro fianco. La nostra vittoria qui onorerà i caduti. Per Torm, vi eliminerò!~
+@3494 = ~Non preoccuparti, cagnolino. Anche se il tuo amico elfo cade in battaglia, sono sicura che Michelson potrà riportarlo indietro. Per ora, dobbiamo concentrarci sulla vittoria.~
+@3495 = ~Finalmente possiamo sfregiare questi maledetti stregoni. Dusk, lascia che mi occupi di quell'arrogante Incantatore!~
+@3496 = ~Quanti innocenti sono caduti a causa di questi negromanti? È ora di rendere conto. La magia non deve essere intrinsecamente malvagia, ve lo dimostrerò!~
+@3497 = ~La morte vivente è un affronto alla natura, Anthagar... è per questo che, in nome di Silvanus, il tuo cammino finisce qui. Per i caduti!~
+@3498 = ~La vostra abominazione finisce qui, stregone! Urleremo come la folata di primavera e le nostre azioni echeggeranno anche nelle ombre di questa desolazione antinaturale. Avanti, piccolo Demoledor. Alla battaglia!~
+@3499 = ~Demoledor, Dusk, sarà un onore combattere al vostro fianco. Non permetterò che un altro Lavok sorga ad Amn! All'attacco!~
+@3500 = ~Questi "faern" sono pazzi. Sarà un piacere sconfiggerli per te, Dusk. E saranno un'offerta splendida a Shar.~
+@3501 = ~Finalmente, uomo del bastone. È il mio momento di splendere! Questi maghi di pacotiglia sapranno che non devono sfidare Edwin Odesseiron (Lo dimostrerò...).~
+
+
+@3502 = ~Basta con le chiacchiere! È ora di tagliare teste con la mia ascia. Gambe lunghe, lasciami quel mago elfo effeminato. La sua testa sarà un bel trofeo.~
+@3503 = ~Beh, suppongo che tu non voglia che ti racconti una storia prima di una battaglia, vero?~
+@3504 = ~Hai indovinato, mio intelligente amico. Prometto che ti comprerò della birra di rapa quando tutto questo sarà finito.~
+@3505 = ~Mi piace, Duskito. Mi piace. Ora, all'opera: ci sono degli umani che devono provare l'efficacia della mia balestra.~
+@3506 = ~Ehi, ehi! Ho combattuto in altri piani in questo modo, mio bel canarino bianco. Ma non di questo calibro. Questo sarà degno di comporre una o due canzoni!~
+@3507 = ~Va bene, Dusk! Farò del mio meglio per aiutarti. Ricorda solo che mi devi qualche biscotto di quelli che di solito compri quando tutto questo sarà finito, capito?~
+@3508 = ~È giunta l'ora, soldato... e parlando di soldati... Sono riuscito ad ammaliare un paio di guardie di Amn e un Incappucciato... Sono dell'élite, come vedrai fra pochi secondi...~
+@3509 = ~Capitano, vendicherò Puki. Vedrai che ho ancora alcuni fedeli servitori sotto la mia custodia... stanno... dietro... di te... Ah ah ah!~
+@3510 = ~Finalmente... per questa occasione adotterò una trasformazione speciale... sarà qualcosa di unico...~
+@3511 = ~Non importa quanti amici tu abbia, Ardusk Aldant. Cadrà... tutti cadranno! E infine... potrai riunirti con la tua amata Celine... nell'Inferno che ho creato per voi!~
+@3512 = ~Questo non è vendetta, Anthagar... Questa è giustizia! Mathyus... se mi stai ascoltando... mi dispiace, amico... Prometto che faremo tutto il possibile per riportarti in vita!~
+@3513 = ~(Mathyus, con i suoi occhi privi di volontà, tende il suo arco e vedi come i maghi della Cripta Dimenticata sorridono. Sanno che dovrai eliminarlo anche lui.)~
+@3515 = ~(I suoi occhi brillanti attendono un sostegno incondizionato)~

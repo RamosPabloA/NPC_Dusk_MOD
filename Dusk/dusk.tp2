@@ -2,7 +2,7 @@ BACKUP ~Dusk/Backup~
 
 AUTHOR ~Pol Rupes - pablo.alejandro.ramos@gmail.com~ 
 
-VERSION ~v0.9.4~
+VERSION ~v1.0.0~
 
 README ~Dusk/Readme-Dusk.txt~
 
@@ -23,15 +23,8 @@ ALWAYS
     END
   END
   
- 
-     // convert strings to UTF-8 for BGEE/BG2EE
-/*
-Small addition by jastey (same as in the readme):
-Please note: for BGII:EE and EET, if you want to create a mod that uses any other letters or symbols than the latin (english) alphabet, you need to provide the texts in UTF-8 (without BOM) format, whereas the original game needs them in ANSI. So in case you do, you'll need to get familiar with using d/tra-pairs in your mod ("traify-ing" your mod) and using HANDLE_CHARSETS + iconv.exe for text transformation upon install. 
-*/
-	
-ACTION_DEFINE_ARRAY 9xnoconvert BEGIN END //list here files that do not need to be converted, e.g. a file that only contains setup files.
-ACTION_DEFINE_ARRAY 9xreload BEGIN setup END //list the files that get read in after LANGUAGE declaration so the correct format will be used for ingame texts.
+ACTION_DEFINE_ARRAY 9xnoconvert BEGIN END
+ACTION_DEFINE_ARRAY 9xreload BEGIN setup END
 
   LAF HANDLE_CHARSETS
     INT_VAR
@@ -48,6 +41,8 @@ END
 LANGUAGE ~Spanish~ ~Spanish~ ~Dusk/tra/Spanish/setup.tra~
 
 LANGUAGE ~English~ ~English~ ~Dusk/tra/English/setup.tra~ 
+
+LANGUAGE ~Italian~ ~Italian~ ~Dusk/tra/Italian/setup.tra~ 
 
 BEGIN @1 /* Dusk MOD */ 
 
@@ -133,16 +128,8 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Dialogue/P_BDusk.d~ 
 	~Dusk/Dialogue/P_Dusk.d~ 
 	~Dusk/Dialogue/P_DuskJ.d~ 
-	~Dusk/Dialogue/P_DuskP.d~ 
-    ~Dusk/Dialogue/KAYL2.d~
-	~Dusk/Dialogue/RIBALD.d~
-
-    //Khan Zahra
-	~Dusk/Dialogue/TRGENI01.d~ // TESTING
-	//Testing BOY1
-	~Dusk/Dialogue/BOY1.d~ // TESTING
-	//Testing BFISHW1
-	~Dusk/Dialogue/BFISHW1.d~
+	~Dusk/Dialogue/P_DuskP.d~     
+	
 	//jack the winter wolf
 	~Dusk/Dialogue/p_jack.d~
 	//thiago the bear
@@ -226,15 +213,10 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Characters/m3good_allies/p_kayl2.d~
 	~Dusk/Characters/m3good_allies/p_zibe2.d~
 	
-	// EE Related
-	~Dusk/Dialogue/OHNQUAID.d~
-	
 	// Scripts
 	~Dusk/Scripts/P_DuskS.baf~ // Dusk's script.
-	//~Dusk/Scripts/P_DuskD.baf~ // Dusk's dream script for events at rest. If you want your NPC to talk to you at rest, add scripting here.
-	~Dusk/Scripts/P_DuskF.baf~ // Dusk's "fixing" script. Remember how various modders advised you to "select your NPC and press K"? Well, that's how they do it.
+	~Dusk/Scripts/P_DuskF.baf~
 	
-	//~Dusk/Scripts/p_cutmic.baf~
 	~Dusk/Scripts/p_michel.baf~
 	~Dusk/Summonings/p_bellf.baf~
 	~Dusk/Scripts/p_matut.baf~
@@ -247,7 +229,6 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Scripts/p_alaba2.baf~
 	~Dusk/Scripts/p_dancti.baf~
 	~Dusk/Scripts/p_demole.baf~
-	//~Dusk/Scripts/p_cutmi1.baf~
 	~Dusk/Scripts/p_kaland.baf~
 	~Dusk/Scripts/p_mephit.baf~
 	~Dusk/Scripts/p_worg.baf~
@@ -264,6 +245,7 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 EXTEND_TOP ~AR0700.bcs~ ~Dusk/Scripts/AR0700.baf~
 EXTEND_TOP ~AR0300.bcs~ ~Dusk/Scripts/AR0300.baf~
 EXTEND_TOP ~AR0318.bcs~ ~Dusk/Scripts/AR0318.baf~
+EXTEND_TOP ~AR0500.bcs~ ~Dusk/Scripts/AR0500.baf~
 EXTEND_TOP ~AR1200.bcs~ ~Dusk/Scripts/AR1200.baf~
 EXTEND_TOP ~AR0903.bcs~ ~Dusk/Scripts/AR0903.baf~
 EXTEND_TOP ~AR1904.bcs~ ~Dusk/Scripts/AR1904.baf~
@@ -273,14 +255,6 @@ EXTEND_TOP ~AR1506.bcs~ ~Dusk/Scripts/AR1506.baf~
 EXTEND_TOP ~AR2601.bcs~ ~Dusk/Scripts/AR2601.baf~
 EXTEND_TOP ~AR1509.bcs~ ~Dusk/Scripts/AR1509.baf~
 
-//TEST
-//REPLACE_SAY BFISHW1 #26258 ~Dusk~ END
-
-// Reemplazo el string del juego del archivo: BFISHW1.
-// Sin embargo, puse el mismo bloque de la conversaci�n para que no se perdiese.
-// Dicho string reemplazado, tiene como condicional que Sarevok se encuentre en el grupo.
-// Como Sarevok no puede aparecer en Athkatla, es imposible que dicho di�logo se inicie.
-// Por lo que podremos hacer uso de dicho String para otros usos.
 STRING_SET_EVALUATE 26258 @2 // Dusk Name
 STRING_SET_EVALUATE 26257 @0 // Fall Name
 STRING_SET_EVALUATE 26259 @200448 //Minsc
@@ -1605,6 +1579,8 @@ SAY NAME2 @200107 /*  */
 SAY UNIDENTIFIED_DESC @200096 /* */
 SAY DESC @200109 /* */
 SAY 366 @200110 /* */
+SAY 400 @200454 /* */
+
 
 // POCI�N CA�TICO MALIGNO(N/A)
 COPY ~Dusk/Items/p_POTN90.itm~ ~override~ 
@@ -1758,7 +1734,6 @@ END
 
 COMPILE EVALUATE_BUFFER ~Dusk/Dialogue/P_BDus25.d~
 
-	~Dusk/Dialogue/AMTGEN01.d~
 	~Dusk/Dialogue/P_Dusk25.d~
 	~Dusk/Dialogue/P_Dus25J.d~
 	~Dusk/Dialogue/P_Dus25P.d~

@@ -1756,3 +1756,47 @@ RESPONSE #100
 SetGlobal("P_DUSK_OHD7000","GLOBAL",1)
 StartDialogueNoSet(Player1)
 END
+
+// Atacan a aliados de Dusk (NEUTRAL/GOOD)
+// Atacar a un ser querido
+IF
+  IsValidForPartyDialog(Myself)
+  Global("P_DuskAlliesAttacked","GLOBAL",0)
+  Global("P_DUSK_IS_EVIL","GLOBAL",0)
+  AreaCheck("AR0318")
+  OR(6)
+    Allegiance("p_matut",ENEMY)
+    Allegiance("p_michel",ENEMY)
+    Allegiance("p_demole",ENEMY)
+    Dead("p_matut")
+    Dead("p_michel")
+    Dead("p_demole")
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskAlliesAttacked","GLOBAL",1)
+    DisplayStringHead(Myself,@200454)
+    LeaveParty()
+    Enemy()
+END
+
+IF
+  IsValidForPartyDialog(Myself)
+  Global("P_DuskAlliesAttacked2","GLOBAL",0)
+  Global("P_DUSK_IS_EVIL","GLOBAL",0)
+  AreaCheck("AR0903")
+  OR(8)
+    Allegiance("p_falon",ENEMY)
+    Allegiance("p_cufati",ENEMY)
+    Allegiance("p_coco",ENEMY)
+    Allegiance("p_ziben",ENEMY)
+    Dead("p_falon")
+    Dead("p_cufati")
+    Dead("p_coco")
+    Dead("p_ziben")
+THEN
+  RESPONSE #100
+    SetGlobal("P_DuskAlliesAttacked2","GLOBAL",1)
+    DisplayStringHead(Myself,@200454)
+    LeaveParty()
+    Enemy()
+END

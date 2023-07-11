@@ -1,0 +1,101 @@
+//EVIL
+@0 = ~L'Infraoscurità... Che luogo così ideale per il nostro incontro, capitano Ardusk Aldant!~
+@1 = ~E tu sei <CHARNAME>, l'abominio di Bhaal proveniente da Candelero e pupillo di Gorion.~ ~E tu sei <CHARNAME>, l'abominio di Bhaal proveniente da Candelero e pupilla di Gorion.~
+@2 = ~Dovrei essere impressionato? I tuoi scagnozzi hanno già dimostrato di conoscere l'origine del mio lignaggio. Non è gran cosa che tu lo sappia a queste altezze.~
+@3 = ~Come fai a sapere così tanto, negromante? È meglio che tu parli o sentirai la mia ira!~
+@4 = ~L'Ordine della Cripta Dimenticata? Servi un semidio, mago. Sai quanto patetico sia, vero?~
+@5 = ~Cosa vuoi da noi, Anthagar? Questo gioco del gatto e del topo sta diventando noioso...~
+@6 = ~La semplice menzione del mio Signore dovrebbe far tremare, figlio di Bhaal. Ma so che stai solo cercando di provocare. Sei perspicace, come mi è stato riferito...~ ~La semplice menzione del mio Signore dovrebbe far tremare, figlia di Bhaal. Ma so che stai solo cercando di provocare. Sei perspicace, come mi è stato riferito...~
+@7 = ~Hm! Vedo che hai una rabbia simile a quella del cormyreano... Mi chiedo se sia direttamente collegata al tuo lignaggio. Forse all'educazione che hai ricevuto? Non importa.~
+@8 = ~Mancare di rispetto al mio Signore farà solo sì che la tua morte sia più dolorosa, <CHARNAME>. Oltre a farti apparire come un idiota... Comunque, è di poca importanza.~ ~Mancare di rispetto al mio Signore farà solo sì che la tua morte sia più dolorosa, <CHARNAME>. Oltre a farti apparire come un'idiota... Comunque, è di poca importanza.~
+@9 = ~Ah, quella è una domanda importante, <CHARNAME>. Cosa vogliamo noi da voi? Presto lo scoprirai...~
+@10 = ~Immagino che tu abbia incontrato Sornhil e Valatar lungo il tuo cammino, vero? Non so se hai fatto lo stesso con Kalanda. L'elfo non è molto... socievole, diciamo così.~
+@11 = ~Il mio punto è... che hai superato le prove che ti sono state imposte, capitano. Occhi di Serpente ti ha addestrato bene.~
+@12 = ~Capisco... Avete seguito le mie orme fin dalla mia partenza da Shilmista... Fino a Lanzadragón.~
+
+
+@13 = ~Non poteva essere diversamente dalla mente disturbata di un mago...~
+@14 = ~Lascia che indovini... Occhi di Serpente, il Divinatore... era uno dei tuoi scagnozzi...~
+@15 = ~Bene, capitano... finalmente ti sei reso conto di questo inganno.~
+@16 = ~Un motivo in più per gioire di aver sbarazzato di quel disgraziato.~
+@17 = ~"Sbarazzato", dici? È interessante... come voi, uomini di latta, chiamate in altro modo l'Assassinio.~
+@18 = ~Non sei diverso, <CHARNAME>. Che tu lo ammetta o no, ti piace uccidere.~
+@19 = ~Molti sono caduti davanti all'ombra che il suo potere proietta.~
+@20 = ~Col passare del tempo... ci siamo resi conto di aver scelto bene te, Ardusk Aldant.~
+@21 = ~L'orbe scarlatta... Perché me l'hai consegnato, Anthagar?~
+@22 = ~Come studioso di Velsharún, è mio dovere studiare tutti gli aspetti della vita e della morte. In entrambi, utilizzando le adeguate istruzioni, si può trovare un potere nascosto.~
+@23 = ~Capisco... Questo misterioso negromante parla di poteri simili (o forse superiori) al Pergamena Oscura. Uomo del bastone, lascia che continui a parlare. Potrebbe avere qualcosa di interessante da dire...~
+@24 = ~Potrebbe essere che lo scatenare il tuo potere abbia portato a un... particolare incontro con una creatura proveniente da un altro piano.~
+@25 = ~Sono sicuro che quella specie di demone ti abbia conferito un potere ancora maggiore.~
+@26 = ~E quello che intendo fare è vedere quali sono i tuoi limiti...~
+@27 = ~Hmpf... lo sapevo. <CHARNAME>, dobbiamo fare attenzione. È probabile che si avvicini una difficile battaglia...~
+
+
+@28 = ~Nel nostro prossimo incontro, capitano... dovremo saldare i conti... Ma per ora... sopravvivi ai miei fedeli seguaci!~
+@29 = ~Ma... non capisco... Occhi di Serpente è caduto per la mia spada... Come può questo in qualche modo favorire voi?~
+@30 = ~Hmpf! Occhi di Serpente era consapevole della situazione, capitano. Semplicemente ha svolto il suo ruolo nel grande schema.~
+@31 = ~In quel momento non saresti stato in grado di comprendere il perché. E ora, ancora meno...~
+@32 = ~Ti ho offerto un potere oltre l'immaginazione, Aldant. Ma l'hai rifiutato.~
+@33 = ~Hai scelto la strada dell'amicizia... hai scelto di fidarti di idioti.~
+@34 = ~Forse te lo rivelerò in un'altra occasione, capitano. È evidente che sei più che in grado di interferire nei miei piani.~
+@35 = ~Malvagio! È più che chiaro che Minsc, Boo, Dusk e <CHARNAME> metteranno fine ai tuoi piani. Ti prenderemo a calci nel tuo maledetto sedere!~
+@36 = ~So che hai astuti alleati. Quel leprecauno di Shilmista e l'elfo arciere sono stati con te fin dall'inizio.~
+@37 = ~Potrebbe anche essere che l'influenza di questo figlio di Bhaal abbia avuto un ruolo...~ ~Potrebbe anche essere che l'influenza di questa figlia di Bhaal abbia avuto un ruolo...~
+@38 = ~Ma non importa, Ardusk Aldant di Cormyr. In un'altra situazione avrei messo alla prova il tuo potere... ma ora non posso rischiare la mia impresa con te.~
+@39 = ~Che tu combatta per vendetta o giustizia... oggi non farà alcuna differenza.~
+
+
+@40 = ~<CHARNAME>, dobbiamo stare attenti! È molto probabile che ci troveremo ancora una volta in una situazione arcanica critica. Dobbiamo prepararci per combattere!~
+@41 = ~Ora imparerete il significato del mio nome. Sono il Comandante della Morte, del Veleno e della Distruzione! Presto... lo capirete...~
+@42 = ~Beh, Dusk Aldant... vedo che hai una setta di seguaci che nemmeno il bardo più fallimentare vorrebbe avere...~
+@43 = ~Ehi! Stai attento a chi chiami stupido.~
+@44 = ~Finalmente... vi ho trovato...~
+@45 = ~*risata profonda* Sembra che l'illusione spettrale non ti sia piaciuta molto, vero, capitano?~
+@46 = ~Anthagar! Dannato... hai osato usare l'immagine di Celine!~
+@47 = ~Hmm... rilevo un nervosismo crescente nel tuo tono di voce, capitano.~
+@48 = ~Forse è vero ciò che lo spirito della tua amata diceva?~
+@49 = ~L'hai lasciata morire nelle tenebre del Castello della Trinità?~
+@50 = ~E osi chiamarmi dannato... anche se l'unico a portare la maledizione della colpa sei tu...~
+@51 = ~Puoi abbaiare quanto vuoi, cane! La mia spada separerà la tua testa dalle spalle una volta per tutte. Morirai!~
+@52 = ~*risata* Aspetta un attimo, capitano! Non vorrai... affrettare la fine di questa storia...~
+@53 = ~*schiocca le dita e compare un portale accanto a lui*~
+@54 = ~È un peccato...~
+
+
+
+// EVIL PATH
+@55 = ~Ah, ma ecco il Capitano Ardusk Aldant, accompagnato dalla grande <CHARNAME>, discendente di Bhaal.~
+@56 = ~Mi scuso in anticipo per questo incontro in un luogo un po'... insolito...~
+@57 = ~Anthagar... o dovrei chiamarti Darvin? Mi dispiace, mi hai confuso con le tue identità...~
+@58 = ~*sorride* Ah... il mio inganno portato a termine a Shilmista... Percepisco un po' di rabbia nella tua voce.~
+@59 = ~Ma è comprensibile. Avevo bisogno di te per raggiungere un obiettivo che va al di là della nostra comprensione.~
+@60 = ~Non siamo altro che punti di polvere confrontati con ciò che ci sta di fronte, Ardusk Aldant.~
+@61 = ~La gloria eterna non può essere raggiunta senza essere disposti a compiere certi... sacrifici.~
+@62 = ~Capisco... ti riferisci alla morte di mia moglie.~
+@63 = ~Un fatto deplorevole, davvero. Ma dovevo farlo...~
+@64 = ~La Maledizione di Mellifleur doveva colpirti. Sorprendentemente... l'incantesimo ha colpito in pieno l'elfa di Shilmista.~
+@65 = ~...~
+@66 = ~*carraspea* Tuttavia, è stata una fortuna che il destino sia caduto su di te, cormyreano.~
+@67 = ~Hai persino l'alleanza di un figlio di Bhaal. Se possiamo contare sul suo aiuto, potremo-~
+@68 = ~Per ora mettiamo da parte <CHARNAME>, necromante.~
+
+
+@69 = ~Andiamo al sodo: vuoi incontrare il Demone Oscuro del Pandemonium, giusto?~
+@70 = ~~
+@71 = ~Esatto, capitano... Suppongo che tu possa comandare che appaia dalle Ombre, vero?~
+@72 = ~*sorride* Danctian ha una volontà propria, Anthagar... È così che ho voluto che fosse.~
+@73 = ~N-no... non capisco...~
+@74 = ~~
+@75 = ~~
+@76 = ~~
+@77 = ~~
+@78 = ~~
+@79 = ~~
+
+@210037 = ~Dusk Aldant: L'Ordine dei Maghi
+
+Finalmente abbiamo incontrato colui che si cela dietro tutti gli attacchi arcani a Dusk e al nostro gruppo: Anthagar, il Negromante. Afferma di essere il leader di un ordine di maghi chiamato la Cripta Dimenticata, un sinistro culto dedicato al semidio Velsharoon, il Signore dell'Imorte. Non sappiamo ancora qual è il suo obiettivo finale nei nostri confronti. Per ora, dobbiamo superare ancora una volta gli ostacoli che ci mette davanti.~
+
+@210038 = ~Dusk Aldant: L'Ordine dei Maghi
+
+Finalmente abbiamo incontrato colui che si cela dietro tutti gli attacchi arcani a Dusk e al nostro gruppo: Anthagar, il Negromante. Afferma di essere il leader di un ordine di maghi chiamato la Cripta Dimenticata, un sinistro culto dedicato al semidio Velsharoon, il Signore dell'Imorte. Non sappiamo ancora qual è il suo obiettivo finale. Per ora, dobbiamo sopravvivere all'incontro fatidico che ha preparato per noi, poiché ci considera una minaccia per i suoi piani futuri.~
