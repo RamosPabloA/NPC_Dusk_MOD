@@ -4,7 +4,7 @@
 Ardusk Aldant, also know as Dusk, is a warrior from Cormyr, trained in the Order of the Purple Dragons. After a long journey to Athkatla, Dusk now becomes a notable Wizard Slayer who just wants to live in peace. But a dark figure attacks in the peaceful Waukeen's Promenade.
 
 <p align="center">
-    <img src="docs/images/screenshots/screenshot_01.jpg?raw=true" width="820">
+    <img src="docs/images/screenshots/screenshot_11.jpg?raw=true" width="820">
 </p>
 
 ## Features
