@@ -8,3 +8,4 @@ CreateCreature("p_michel",[3460.1990],6)
 SetGlobal("P_MichelSpawn","GLOBAL",1)
 Continue()
 END
+

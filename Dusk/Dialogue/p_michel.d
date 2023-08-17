@@ -5,7 +5,7 @@ IF WEIGHT #2~!InParty("P_Dusk")
 Global("P_DuskMatMission1","GLOBAL",2)
 Global("P_Dusk_Michel_Enc","LOCALS",0)~ THEN BEGIN 0 // from:
   SAY @0 /* ~(El leprechaun te ve llegar y luego de abrir bien sus ojos, se echa a correr como un desquiciado, alejándose de ti mientras se ríe)~ */
-  IF ~~ THEN DO ~RunAwayFrom([PC],300)~ EXIT
+  IF ~~ THEN DO ~RunAwayFrom([PC],20)~ EXIT
 END
 
 IF ~InParty("P_Dusk")
@@ -14,7 +14,7 @@ Global("P_DuskMatMission1","GLOBAL",3)
 Global("P_Dusk_Michel_Enc","LOCALS",1)
 Global("P_DuskMatMission1Failed","GLOBAL",1)~ THEN BEGIN 27 // from:
   SAY @0 /* ~(El leprechaun te ve llegar y luego de abrir bien sus ojos, se echa a correr como un desquiciado, alejándose de ti mientras se ríe)~ */
-  IF ~~ THEN DO ~RunAwayFrom([PC],300)~ EXIT
+  IF ~~ THEN DO ~RunAwayFrom([PC],20)~ EXIT
 END
 
 IF ~!InParty("P_Dusk")
@@ -23,7 +23,7 @@ Global("P_DuskMatMission1","GLOBAL",3)
 Global("P_Dusk_Michel_Enc","LOCALS",1)
 Global("P_DuskMatMission1Failed","GLOBAL",1)~ THEN BEGIN 57 // from:
   SAY @0 /* ~(El leprechaun te ve llegar y luego de abrir bien sus ojos, se echa a correr como un desquiciado, alejándose de ti mientras se ríe)~ */
-  IF ~~ THEN DO ~RunAwayFrom([PC],300)~ EXIT
+  IF ~~ THEN DO ~RunAwayFrom([PC],20)~ EXIT
 END
 
 IF ~InParty("P_Dusk")
@@ -31,7 +31,7 @@ IF ~InParty("P_Dusk")
 Global("P_DuskMatMission1","GLOBAL",2)
 Global("P_Dusk_Michel_Enc","LOCALS",0)~ THEN BEGIN 56 // from:
   SAY @0 /* ~(El leprechaun te ve llegar y luego de abrir bien sus ojos, se echa a correr como un desquiciado, alejándose de ti mientras se ríe)~ */
-  IF ~~ THEN DO ~RunAwayFrom([PC],300)~ EXIT
+  IF ~~ THEN DO ~RunAwayFrom([PC],20)~ EXIT
 END
 
 IF ~InParty("P_Dusk")
@@ -85,7 +85,7 @@ END
 
 IF ~~ THEN BEGIN 8 // from:
   SAY @16 /* ~(Luego de quedarse boquiabierto durante unos segundos, el ceño del leprechaun se fruñe. Parece que no le ha gustado tu chiste y como resultado, sale corriendo como un desquiciado mientras baila y golpea sus pies en el aire)~ */
-  IF ~~ THEN DO ~SetGlobal("P_DuskMatMission1Failed","GLOBAL",1) RunAwayFrom([PC],300) ~ EXTERN ~P_DUSKJ~ 23
+  IF ~~ THEN DO ~SetGlobal("P_DuskMatMission1Failed","GLOBAL",1) RunAwayFrom([PC],20) ~ EXTERN ~P_DUSKJ~ 23
 END
 
 IF ~~ THEN BEGIN 9 // from:
@@ -116,7 +116,7 @@ Global("P_Dusk_Michel_Enc","LOCALS",1)
 Global("P_DuskMatMission1Failed","GLOBAL",1)
 Global("P_DuskMatMission1","GLOBAL",3)~ THEN BEGIN 12 // from:
   SAY @21 /* ~(Te encuentras, nuevamente, con Michelson. El leprechaun sigue bailando como si no hubiera un mañana. Al no estar Dusk contigo, te ignora y sale corriendo, alejándose de ti lo más posible)~ */
-  IF ~~ THEN DO ~RunAwayFrom([PC],300)~ EXIT
+  IF ~~ THEN DO ~RunAwayFrom([PC],20)~ EXIT
 END
 
 
@@ -126,7 +126,7 @@ IF ~~ THEN BEGIN 13 // from:
   UseItem ("p_michx", LastTalkedToBy)
   DestroyItem ("p_michx")
   SetGlobal("P_DuskMatMission1Failed","GLOBAL",1)
-  RunAwayFrom([PC],300)
+  RunAwayFrom([PC],20)
    ~ EXIT
 END
 

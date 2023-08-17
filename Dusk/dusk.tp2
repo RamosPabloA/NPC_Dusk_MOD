@@ -1404,6 +1404,10 @@ COPY ~Dusk/Characters/p_muert2.cre~ ~override~
 SAY NAME1 @200427 /* Muerte */
 SAY NAME2 @200427 /* Muerte */
 
+// Michelson teleportation
+COPY ~Dusk/Spells/p_mictel.spl~ ~override~
+
+
 // Michelson 2 (Versi�n que ir� al AR1506)
 COPY ~Dusk/Characters/p_miche2.cre~ ~override~
 SAY NAME1 @200303 /* Michelson, el Leprechaun */
