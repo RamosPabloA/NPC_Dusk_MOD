@@ -21,7 +21,7 @@ See("P_Dusk")
 !StateCheck("P_Dusk",STATE_SLEEPING)
 Global("P_Dusk_Mathyus_Enc","LOCALS",0)~ THEN BEGIN 1 // from:
   SAY @1 /* ~¡Saludos! Vaya, vaya, pero si el soldado pródigo ha regresado. ¿Cómo está, mi buen capitán Aldant?~ */
-  IF ~~ THEN DO ~SetGlobal("P_Dusk_Mathyus_Enc","LOCALS",1)
+  IF ~~ THEN DO ~SetGlobal("P_Dusk_Mathyus_Enc","LOCALS",1) SetGlobal("P_DuskMatMission1","GLOBAL",2)
   ~ GOTO 4
 END
 

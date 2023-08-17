@@ -146,7 +146,8 @@ IF ~~ THEN BEGIN 27 // from:
   IF ~~ THEN DO ~SetGlobal("P_DuskMatMission1Failed","GLOBAL",1)~EXTERN ~P_MICHEL~ 13
 END
 
-IF ~Global("P_DuskMatMission1Failed","GLOBAL",1)
+IF ~AreaCheck("AR0318")
+Global("P_DuskMatMission1Failed","GLOBAL",1)
 Global("P_Dusk_T2","GLOBAL",0)~ THEN BEGIN 28 // from:
   SAY @3039 /* ~El pequeñín no nos lo ha hecho fácil, Mathyus. Pero por suerte, tuvimos éxito, pese a sufrir alguna de sus travesuras.~ */
   IF ~~ THEN DO ~AddexperienceParty(10000)~ EXTERN ~P_MATUT~ 31
@@ -179,7 +180,8 @@ IF ~~ THEN BEGIN 33 // from:
   IF ~~ THEN EXTERN ~P_MATUT~ 49
 END
 
-IF ~Global("P_DuskMatMission1Failed","GLOBAL",0)
+IF ~AreaCheck("AR0318")
+Global("P_DuskMatMission1Failed","GLOBAL",0)
 Global("P_Dusk_T2","GLOBAL",0)
 Global("P_Dusk_Mathyus_Enc","LOCALS",1)~ THEN BEGIN 34 // from:
   SAY @3038 /* ~A decir verdad, Mathyus, es todo mérito de <CHARNAME>. Ha sabido manejar el asunto sin tapujos. Michelson no es alguien fácil de lidiar.~ */
