@@ -55,7 +55,7 @@ THEN
 RESPONSE #100
 RealSetGlobalTimer("P_DuskTimer","GLOBAL",60) // TTT 60 Setea el timer y la declara como ""P_DuskTimer"". 3600 (3600 seg -> 60 min) valor "por defecto". Probamos con 100 ( 1 min 40 seg) para ver si levanta
 SetGlobal("P_DuskTalk","GLOBAL",1)       // Cada bloque debe ejecutarse 1 sola vez. Por eso seteamos la variable en 1, para que no vuelva a repetirse el diálogo y así pueda pasar al siguiente.
-END			
+END
 
 
 // TIEMPOS DE D&D&
@@ -647,7 +647,7 @@ See(Player1)
 CombatCounter(0)                         
 !See([ENEMY])
 !AreaType(DUNGEON)		
-!AreaCheck("AR0318")	
+!AreaCheck("P_AR14")	
 Global ("P_Dusk_Demole_Enc2","GLOBAL",0)
 THEN
 RESPONSE #100
@@ -1763,7 +1763,7 @@ IF
   IsValidForPartyDialog(Myself)
   Global("P_DuskAlliesAttacked","GLOBAL",0)
   Global("P_DUSK_IS_EVIL","GLOBAL",0)
-  AreaCheck("AR0318")
+  AreaCheck("P_AR14")
   OR(6)
     Allegiance("p_matut",ENEMY)
     Allegiance("p_michel",ENEMY)

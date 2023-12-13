@@ -659,6 +659,12 @@ Ma, in ogni modo...~
 @530 = ~Questo posto è disgustoso. L'odore di pesce è abbondante. I pavimenti sono appiccicosi... Accidenti, <CHARNAME>, questi posti in cui ci porti...~
 @531 = ~Non avrei mai pensato di vedere un drago d'argento. Mi chiedo se ha qualche artefatto che vale qualcosa...~
 
+@338 = ~Ah, quasi dimenticavo! Un'ultima cosa: un mio amico, un elfo shilmista chiamato Mathyus, sta riparando la mia maglia da combattimento.~
+
+@580 = ~L'armatura ha una buona resistenza e credo che ci sarà utile contro gli utenti magici.~
+
+@581 = ~Troveremo Mathyus nel suo rifugio al Porto. Si trova vicino ai quartieri dei Ladri delle Ombre... Quando avremo un momento, mi piacerebbe che ci dirigessimo là.~
+
 
 // **********************************************
 
@@ -1344,7 +1350,7 @@ ChatGPT
 
 @210001 = ~Dusk Aldant: L'Armatura Shilmist
 
-Dopo una breve conversazione con Dusk, ha menzionato la possibilità di recuperare la sua armatura da combattimento, una maglia di catene che è stata consegnata a un suo amico per le riparazioni. Possiamo trovarla in una casa abbandonata a nord-ovest dei Docks di Athkatla.~
+Dopo una breve conversazione con Dusk, ha accennato alla possibilità di recuperare la sua armatura da combattimento, una maglia di maglia consegnata a un elfo di nome Mathyus per le riparazioni. Lo troveremo a ovest del Porto, vicino al rifugio dei Ladri.~
 
 @210003 = ~Dusk Aldant: L'Armatura Shilmist
 

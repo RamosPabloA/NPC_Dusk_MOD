@@ -146,7 +146,7 @@ IF ~~ THEN BEGIN 27 // from:
   IF ~~ THEN DO ~SetGlobal("P_DuskMatMission1Failed","GLOBAL",1)~EXTERN ~P_MICHEL~ 13
 END
 
-IF ~AreaCheck("AR0318")
+IF ~AreaCheck("P_AR14")
 Global("P_DuskMatMission1Failed","GLOBAL",1)
 Global("P_Dusk_T2","GLOBAL",0)~ THEN BEGIN 28 // from:
   SAY @3039 /* ~El pequeñín no nos lo ha hecho fácil, Mathyus. Pero por suerte, tuvimos éxito, pese a sufrir alguna de sus travesuras.~ */
@@ -180,7 +180,7 @@ IF ~~ THEN BEGIN 33 // from:
   IF ~~ THEN EXTERN ~P_MATUT~ 49
 END
 
-IF ~AreaCheck("AR0318")
+IF ~AreaCheck("P_AR14")
 Global("P_DuskMatMission1Failed","GLOBAL",0)
 Global("P_Dusk_T2","GLOBAL",0)
 Global("P_Dusk_Mathyus_Enc","LOCALS",1)~ THEN BEGIN 34 // from:
@@ -2873,6 +2873,8 @@ END
 IF ~~ t.0
 SAY @144 /* Respuesta 4: Fin de la conversación -> Timer 3600 segundos (.d file) */
 = @338 /*  */
+= @580 /*  */
+= @581 /*  */
 IF ~~ DO ~IncrementGlobal("P_DuskTalk","GLOBAL",1)
 SetGlobal("P_DuskMatMission1","GLOBAL",1) ~ UNSOLVED_JOURNAL @210001 EXIT
 END 
@@ -2901,6 +2903,8 @@ END
 IF ~~ t1.12
 SAY @142 /* Dusk: Respuesta 1.3 -> Se va a la 1.4 */
 = @338 /*  */
+= @580 /*  */
+= @581 /*  */
 IF ~~ DO ~IncrementGlobal("P_DuskTalk","GLOBAL",1)
 SetGlobal("P_DuskMatMission1","GLOBAL",1)~ UNSOLVED_JOURNAL @210001 EXIT
 END 

@@ -125,6 +125,7 @@ WRITE_ASCII 0x3c  ~DuskM~ #8  // medium portrait
 
 COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Scripts/are/ar1509.are~
+	~Dusk/Scripts/are/P_AR14.are~
 	~Dusk/Dialogue/P_BDusk.d~ 
 	~Dusk/Dialogue/P_Dusk.d~ 
 	~Dusk/Dialogue/P_DuskJ.d~ 
@@ -241,10 +242,11 @@ COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
 	~Dusk/Scripts/p_miche2.baf~
 	~Dusk/Scripts/p_celin.baf~
 	~Dusk/Scripts/p_danct2.baf~
+	~Dusk/Scripts/are/P_AR14.baf~
 
 EXTEND_TOP ~AR0700.bcs~ ~Dusk/Scripts/AR0700.baf~
 EXTEND_TOP ~AR0300.bcs~ ~Dusk/Scripts/AR0300.baf~
-EXTEND_TOP ~AR0318.bcs~ ~Dusk/Scripts/AR0318.baf~
+//EXTEND_TOP ~AR0318.bcs~ ~Dusk/Scripts/AR0318.baf~
 EXTEND_TOP ~AR0500.bcs~ ~Dusk/Scripts/AR0500.baf~
 EXTEND_TOP ~AR1200.bcs~ ~Dusk/Scripts/AR1200.baf~
 EXTEND_TOP ~AR0903.bcs~ ~Dusk/Scripts/AR0903.baf~
@@ -254,6 +256,8 @@ EXTEND_TOP ~AR2100.bcs~ ~Dusk/Scripts/AR2100.baf~
 EXTEND_TOP ~AR1506.bcs~ ~Dusk/Scripts/AR1506.baf~
 EXTEND_TOP ~AR2601.bcs~ ~Dusk/Scripts/AR2601.baf~
 EXTEND_TOP ~AR1509.bcs~ ~Dusk/Scripts/AR1509.baf~
+//EXTEND_TOP ~P_AR14.bcs~ ~Dusk/Scripts/are/P_AR14.baf~
+
 
 STRING_SET_EVALUATE 26258 @2 // Dusk Name
 STRING_SET_EVALUATE 26257 @0 // Fall Name
@@ -412,6 +416,11 @@ SAY 80 @200385 /*  */
 COPY ~Dusk/Spells/p_sp5d.spl~ ~override~
 SAY 8 @200386 /* Juramento de Ira */ 
 SAY 80 @200387 /*  */
+
+//////////////////////////////////////
+// AR0300 Mathyus Hideout
+COPY ~Dusk/Scripts/are/AR0300.are~ ~override~         
+SAY 61388 @200455 /* Mathyus's Hideout */ 
 
 ////////////////////////////////////////////
 //NPCs Items Personalizados
@@ -1888,7 +1897,7 @@ UNLESS ~P_Dusk~
 UNLESS ~25POST~
 
 APPEND ~pdialog.2da~
-~P_Dusk P_DuskP P_DuskJ P_FallD P_Dus25P P_Dus25J P_Dus25D P_Dus25S~
+~P_Dusk P_DuskP P_DuskJ P_DuskD P_Dus25P P_Dus25J P_Dus25D P_Dus25S~
 UNLESS ~P_Dusk~
 IF ~25POST~
 

@@ -194,7 +194,7 @@ unaware of the tragedy that would befall him soon..."~
 @143  = ~Strange response. I think names are important... it's how we identify ourselves... but I respect your words.~
 // reutilizamos 139-140-141
 
-@338  = ~Ah, almost forgot! One last thing: a friend of mine is repairing my combat chainmail. It has good resistance and I think it will come in handy against magic users. We will find him in an abandoned house to the northwest of the Athkatla Docks. When we have some time, I would like us to head there.~
+
 
 // **********************************************
 // t2 - P_Dusk_T2 --- GLOBAL 4
@@ -860,13 +860,19 @@ But, anyway...~
 
 @531  = ~I never thought I'd see a silver dragon. I wonder if it has any artifacts that are worth something...~
 
+@338 = ~Ah, I almost forgot! One last thing: a friend of mine, a Shilmist elf named Mathyus, is repairing my chainmail combat vest.~
+
+@580 = ~The armor boasts stout resistance, and I reckon it shall serve us well against wielders of the magical arts.~
+
+@581 = ~We'll find Mathyus in his hideout at the Docks. It's located near the quarters of the Shadow Thieves... When we have some time, I'd like us to head there.~
+
 
 
 // ENTRADAS DE DIARIO JOURNAL ENTRIES
 
 @210001 = ~Dusk Aldant: The Shilmist Armor
 
-After a brief conversation with Dusk, he mentioned that he has the possibility of recovering his combat armor, a chainmail that was delivered to a friend of his for repairs. We can find it in an abandoned house northwest of the Athkatla's Docks.~
+After a brief conversation with Dusk, he mentioned the possibility of retrieving his combat armor, a chainmail vest that was handed over to an elf named Mathyus for repairs. We can find him in his hideout at the Docks, near the lair of the Thieves.~
 
 @210003 = ~Dusk Aldant: The Shilmist Armor
 
