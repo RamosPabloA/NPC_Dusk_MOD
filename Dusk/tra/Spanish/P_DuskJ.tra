@@ -196,7 +196,8 @@ Gracias a Imoen logramos escapar, y en el camino nos encontramos con estas dríad
 @143  = ~Extraña respuesta. Creo que los nombres son importantes... es así como nos identificamos... pero respeto tus palabras.~
 // reutilizamos 139-140-141
 
-@338  = ~¡Ah, casi me olvidaba! Una última cosa: un amigo mío está reparando mi cota de mallas de combate. Tiene una buena resistencia y creo que nos vendrá bien contra usuarios mágicos. Lo encontraremos en una casa abandonada al noroeste del Distrito del Puerto. Cuando tengamos un tiempo, me gustaría que nos encamináramos allí.~
+// ir a 580 <------
+
 
 // **********************************************
 // t2 - P_Dusk_T2 --- GLOBAL 4
@@ -844,13 +845,17 @@ Pero, en fin…~
 
 @531  = ~Nunca creí ver a un dragón plateado. Me pregunto si tendrá algún artefacto que valga la pena...~
 
+@338  = ~¡Ah, casi me olvidaba! Una última cosa: un amigo mío, un elfo shilmista llamado Mathyus, está reparando mi cota de mallas de combate.~
 
+@580  = ~La armadura tiene una buena resistencia y creo que nos vendrá bien contra usuarios mágicos.~
+
+@581  = ~Encontraremos a Mathyus en su guarida en el Puerto. La misma se encuentra cerca de los cuarteles de los Ladrones de las Sombras... Cuando tengamos un tiempo, me gustaría que nos encamináramos allí.~
 
 // ENTRADAS DE DIARIO JOURNAL ENTRIES
 
 @210001 = ~Dusk Aldant: La armadura Shilmista
 
-Luego de una breve conversación con Dusk, éste comentó que tiene la posibilidad de recuperar su armadura de combate, una cota de mallas que fue entregada a un amigo suyo para su reparación. Lo podremos encontrar en una casa abandonada al noroeste del Distrito Portuario.~
+Luego de una breve conversación con Dusk, éste comentó que tiene la posibilidad de recuperar su armadura de combate, una cota de mallas que fue entregada a un elfo llamado Mathyus para su reparación. Lo podremos encontrar en al Oeste del Puerto, cerca de la guarida de los Ladrones.~
 
 @210003 = ~Dusk Aldant: La armadura Shilmista
 

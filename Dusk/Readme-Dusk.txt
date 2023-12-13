@@ -1,5 +1,5 @@
 			Dusk NPC MOD for Baldur's Gate II
-				   Version 1.0.0
+				   Version 1.5.0
 
 CONTENTS
 
@@ -109,6 +109,25 @@ Pandemonium's gift: Pan's Lullaby by Javier Navarrete (perfomed by Erutan)
 -------------------
 6. Version History
 -------------------
+
+Version 1.5.0
+
+Bugs Fixed:
+
+- Fixed compatibility with Back to Brynnlaw and Tactics Remix mods
+- Fixed several typos
+- Fixed some code logic to improve the overall experience
+
+Enhancements:
+
+- Mathyus's Hideout:
+    * You can rest at this area
+    * You can find several stashes with some useful items
+    * You can use the stash to store items
+
+New Features:
+
+- New area in the docks near the Lair of the Thieves: Mathyus's Hideout. - You can also find it in the docks map once you have the first Dusk mission
 
 Version 1.0.0
 
