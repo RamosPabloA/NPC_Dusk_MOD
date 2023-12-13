@@ -76,21 +76,24 @@ Is Dusk compatible Classic Edition?
 
 ## Current Release
 
-**v1.0.0**
+**v1.5.0**
 
 **Bugs Fixed:**
 
-- Fixed remaining game's DLG files of the mod, avoiding potential conflicts with other mods
+- Fixed compatibility with Back to Brynnlaw and Tactics Remix mods
+- Fixed several typos
+- Fixed some code logic to improve the overall experience
 
 **Enhancements:**
 
-- New talk after the battle in The Oasis (ToB)
-- If player attacks Dusk’s allies (Eg. Mathyus or Michelson) he turns into a enemy
-- Added remaining Dusk’s voiceovers
+- Mathyus's Hideout:
+  - You can rest at this area
+  - You can find several stashes with some useful items
+  - You can use the stash to store items
 
 **New Features:**
 
-- Added new language: Italian
+- New area in the docks near the Lair of the Thieves: Mathyus's Hideout. You can also find it in the docks map once you have the first Dusk mission
 
 For older releases and release notes, check the *Releases* page, [here](https://github.com/RamosPabloA/NPC_Dusk_MOD/releases/ "here")
 
