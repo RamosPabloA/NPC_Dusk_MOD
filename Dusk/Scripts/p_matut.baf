@@ -2,7 +2,7 @@ IF
 Global("P_Dusk_UpdateK","GLOBAL",1)
 THEN
 RESPONSE #100
-SetName(@200304)
+SetName(@400304)
 END
 
 IF

@@ -2,17 +2,17 @@ BACKUP ~Dusk/Backup~
 
 AUTHOR ~Pol Rupes - pablo.alejandro.ramos@gmail.com~ 
 
-VERSION ~v0.6~  
+VERSION ~v1.0.0~
 
 README ~Dusk/Readme-Dusk.txt~
 
-AUTO_TRA ~Dusk/tra/%s~ // direcciona hacia dónde irán los archivos de traducción
+AUTO_TRA ~Dusk/tra/%s~ // direcciona hacia dï¿½nde irï¿½n los archivos de traducciï¿½n
 
-// Continúa las entradas de diario en caso de ser el juego EET (Enhanced Edition Trilogy)
+// Continï¿½a las entradas de diario en caso de ser el juego EET (Enhanced Edition Trilogy)
 ALWAYS
   ACTION_IF NOT VARIABLE_IS_SET bg2_chapter BEGIN
     ACTION_IF GAME_IS ~eet~ BEGIN
-      OUTER_SET bg2_chapter = 12 // EET continuación de capítulo 12 en este caso
+      OUTER_SET bg2_chapter = 12 // EET continuaciï¿½n de capï¿½tulo 12 en este caso
     END ELSE BEGIN
       OUTER_SET bg2_chapter = 0 // El resto de los juegos resetea el diario (BGT, EE)
     END
@@ -23,15 +23,8 @@ ALWAYS
     END
   END
   
- 
-     // convert strings to UTF-8 for BGEE/BG2EE
-/*
-Small addition by jastey (same as in the readme):
-Please note: for BGII:EE and EET, if you want to create a mod that uses any other letters or symbols than the latin (english) alphabet, you need to provide the texts in UTF-8 (without BOM) format, whereas the original game needs them in ANSI. So in case you do, you'll need to get familiar with using d/tra-pairs in your mod ("traify-ing" your mod) and using HANDLE_CHARSETS + iconv.exe for text transformation upon install. 
-*/
-	
-ACTION_DEFINE_ARRAY 9xnoconvert BEGIN END //list here files that do not need to be converted, e.g. a file that only contains setup files.
-ACTION_DEFINE_ARRAY 9xreload BEGIN setup END //list the files that get read in after LANGUAGE declaration so the correct format will be used for ingame texts.
+ACTION_DEFINE_ARRAY 9xnoconvert BEGIN END
+ACTION_DEFINE_ARRAY 9xreload BEGIN setup END
 
   LAF HANDLE_CHARSETS
     INT_VAR
@@ -45,829 +38,907 @@ END
   
 END
 
-LANGUAGE ~Spanish (Baldur's Gate II Enhanced Edition)~ ~Spanish EE~ ~Dusk/tra/Spanish EE/setup.tra~ // This is an example line for English language. If you want, you can also use Tra/English folder
+LANGUAGE ~Spanish~ ~Spanish~ ~Dusk/tra/Spanish/setup.tra~
 
-LANGUAGE ~Russian (by Jericho2)~ ~Russian~ ~Dusk/tra/Russian/setup.tra~ 
+LANGUAGE ~English~ ~English~ ~Dusk/tra/English/setup.tra~ 
 
-BEGIN @1 /* Dusk BG2 NPC mod for players and modders */ // This is the name of your mod.
+LANGUAGE ~Italian~ ~Italian~ ~Dusk/tra/Italian/setup.tra~ 
 
-// These two lines were created by CamDawg. It's a new state that checks if NPC is able to talk. USE this in your mod. See the dialogue for details.
+BEGIN @1 /* Dusk MOD */ 
+
+// CamDawg. Definiciï¿½n del CD_STATE_NOTVALID
 APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
 UNLESS ~CD_STATE_NOTVALID~
 
-COPY ~Dusk/Audio~ ~override~ // All Dusk's audio files are in the game now, and we'll hear them when she talks.
+COPY ~Dusk/Audio~ ~override~
 COPY ~Dusk/Items~ ~override~ 
 COPY ~Dusk/Spells~ ~override~ 
+COPY ~Dusk/Characters~ ~override~ 
+COPY ~Dusk/Sounds~ ~override~ 
+COPY ~Dusk/Characters/clan_orco~ ~override~ 
+COPY ~Dusk/Scripts/are~ ~override~
 
+////////////////
 
-// I am going to use my prefix now. For the purposes of this mod, it is going to be O#. DON'T USE IT, REGISTER YOUR OWN!
-// Go here: http://forums.blackwyrmlair.net/index.php?showtopic=113 - the list of prefixes is in the first post of the thread. Use it in ALL your files and ALL variables.
+COPY ~Dusk/Characters/P_Dusk.cre~ ~override/P_Dusk.cre~ 
 
-// Remember that all your filenames should not be longer than 8 symbols. Hence I often use P_Dusk, and not O#Dusk(9 symbols). 
-// You can use long character's names in variables, if you want. But I use variable names like P_DusnSomething instead of P_DusnwenSomething, so it's easier for you to mass-replace(read below).
-
-// HOW TO DO A QUICK MASS-REPLACE WHEN YOU'VE GOT YOUR OWN PREFIX?
-
-// Imagine you have an NPC called Anna, and your prefix is BB(and, yes, this prefix is taken, too, it's just hypothetical).
-
-// To use my code for your NPC, replace all P_Dusk with bbanna(if you want it to be case-sensitive, then P_Dusk with bbanna, P_Dusk with BBAnna and P_Dusk with BBANNA).
-// Exceptions are ToB files(with 25's in it), where you have to replace P_Dusk with bbanna, and THEN P_Dus with bbann(files can be only eight symbols long, so I have to use P_BDus25.d, not O#BBRAN25.d).
-// Naturally, make backups before you mass-replace.
-
-// This is my creature file, my .cre file. How to create it? Create a character in the game, export him, open him via Shadowkeeper and convert him to .cre. Or copy an existing .cre file. Near Infinity and DLTCEP help you edit your .cre.
-COPY ~Dusk/Characters/P_Dusk.cre~ ~override/P_Dusk.cre~ // copy our .cre file to the game. Below I edit(patch) P_Dusk.cre, adding a soundset, a bio, a dialogue file and other nice things.
-SAY NAME1 @2 /* Dusk */
-SAY NAME2 @2 /* Dusk */
-SAY INITIAL_MEETING @3 /* ¡Estoy listo cuando tú lo estés! */ // This text in square brackets means that DuskW01.wav is assigned here.
-SAY MORALE @4 /* Debo huir... */
-SAY HAPPY @5 /* Sí, lo sé, soy tu personaje preferido. */ 
-SAY UNHAPPY_ANNOYED @6 /* Deberíamos reconsiderar nuestras acciones... */ 
-SAY UNHAPPY_SERIOUS @7 /* Claramente algo no funciona aquí... */
-SAY UNHAPPY_BREAKING @8 /* No podemos seguir trabajando juntos... */
-SAY LEADER @9 /* ¡Haré todo lo que pueda! */
-SAY TIRED @10 /* ¡Estoy cansado! */
-SAY BORED @11 /* ¡En marcha! Tendremos mucho tiempo para descansar en la tumba. */
-SAY BATTLE_CRY1 @12 /* ¡Veamos lo que tienes! */
-SAY BATTLE_CRY2 @13 /* ¡La batalla ha comenzado! */
-SAY BATTLE_CRY3 @14 /* ¡No puedes ganar! */
-SAY BATTLE_CRY4 @44 /* ¡Adelante, vamos! */
-SAY BATTLE_CRY5 @49 /* ¿Crees que puedes cogerme? */
-SAY DAMAGE ~~ [P_Dusk38] // There's no text when Dusk cries out in pain.
-SAY DYING ~~ [P_Dusk39]
-SAY HURT @15 /* Necesito... que cuiden mis heridas... */
-SAY AREA_FOREST @16 /* Debemos cuidarnos de las bestias salvajes. Por más hermoso que sea el bosque, el peligro se encuentra a la vuelta de la esquina... */  // If there's no sound file for the line, then it's going to be silent.
-SAY AREA_CITY @17 /* Es increíble cómo la corrupción ha invadido hasta el rincón más recóndito de la ciudad... */
-SAY AREA_DUNGEON @18 /* Me emociona pensar que el momento de la venganza se acerca... */
-SAY AREA_DAY @19 /* Hoy es un buen día para pasear. Pero recuerda, <CHARNAME>, que tenemos un deber que cumplir. */
-SAY AREA_NIGHT @20 /* Las estrellas brillan en el firmamento, pero ¡cuidado! No todo lo que brilla es oro... */
-SAY SELECT_COMMON1 @21 /* ¿Me necesitas? */
-SAY SELECT_COMMON2 @22 /* ¡Listo! */
-SAY SELECT_COMMON3 @23 /* ¡Vamos a trabajar! */
-SAY SELECT_COMMON4 @21 /* ¿Me necesitas? */
-SAY SELECT_COMMON5 @22 /* ¡Listo! */
-SAY SELECT_COMMON6 @46 /* ¿Qué necesitas de mí? */
-SAY SELECT_ACTION1 @24 /* ¡Muy bien! */
-SAY SELECT_ACTION2 @25 /* ¡No fracasaré! */
-SAY SELECT_ACTION3 @26 /* Cuando lo pidas. */
-SAY SELECT_ACTION4 @27 /* Entiendo. */
-SAY SELECT_ACTION5 @28 /* Entendido. */
-SAY SELECT_ACTION6 @29 /* Así se hará. */
-SAY SELECT_ACTION7 @30 /* ¡Seré rápido al respecto! */
-SAY SELECT_RARE1 @31 /* No-no entiendo...¿estás intentando decirme algo? */
-SAY SELECT_RARE2 @32 /* Agradezco la atención, pero ¿no deberíamos centrarnos en el asunto que nos ocupa? */
-SAY CRITICAL_HIT @47 /* ¡Vamos! */
-SAY CRITICAL_MISS @34 /* Argh! */
-SAY TARGET_IMMUNE @48 /* ¡No puedo hacer nada más! */
-SAY INVENTORY_FULL @36 /* Para ti, esto puede resultar emocionante, pero prefiero las actividades más constructivas. */ 
-SAY SPELL_DISRUPTED @37 /* ¡Estoy malherido! */
-SAY REACT_TO_DIE_GENERAL @45 /*  */ // Reacción a la muerte de un compañero de grupo
-SAY BIO @38 /* Cuando preguntas por su pasado, Dusk queda un instante pensativo. Dice provenir de una orgullosa familia real, cuya sangre guerrera siempre combatió a los malvados nigromantes de Netheril, incluyendo al peligroso Aumvor. Dusk dice no estar seguro de la veracidad de ciertas narraciones que le contaron cuando era sólo un niño, pero está seguro de su odio natural por los liches. Dice que te acompañará siempre y cuando esté la promesa de que podrá enfrentarse, algún día, contra lo que él considera sus enemigos naturales. */
-WRITE_ASCII 0x248 ~P_DuskS~ #8  // OVERRIDE SCRIPT - Diálogos acerca de los comandos, banthers, etc (coincide con el nombre del archivo BAF)
+SAY NAME1 @4002 /* Dusk */
+SAY NAME2 @4002 /* Dusk */
+SAY INITIAL_MEETING @4003 /* Mis oï¿½dos aï¿½n retumban con esa explosiï¿½n... */ 
+SAY MORALE @4004 /* ï¿½No...!,ï¿½ï¿½ï¿½NO!!! */
+SAY HAPPY @4005 /* Me gusta cï¿½mo este grupo maneja las cosas. */ 
+SAY UNHAPPY_ANNOYED @4006 /* Deberï¿½amos reconsiderar nuestras acciones... */ 
+SAY UNHAPPY_SERIOUS @4007 /* Claramente algo no funciona aquï¿½... */
+SAY UNHAPPY_BREAKING @4008 /* No podemos seguir trabajando juntos... */
+SAY LEADER @4009 /* Te prefiero a ti como lï¿½der, pero si insistes... */
+SAY TIRED @40010 /* *bostezo* Creo que necesitamos descansar, ï¿½no lo crees? */
+SAY BORED @40011 /* No importa lo lento que vayas mientras no te detengas... */
+SAY BATTLE_CRY1 @40012 /* ï¿½Veamos lo que tienes! */
+SAY BATTLE_CRY2 @40013 /* ï¿½Por Cormyr! */
+SAY BATTLE_CRY3 @40014 /* ï¿½No puedes ganar! */
+SAY BATTLE_CRY4 @40044 /* ï¿½Adelante, vamos! */
+SAY BATTLE_CRY5 @40049 /* Aquï¿½ vamos de nuevo... */
+SAY DAMAGE ~~ [P_Dusk19]
+SAY DYING ~~ [P_Dusk20]
+SAY HURT @40015 /* Lo lamento... necesito a alguien que se ocupe de mis heridas. */
+SAY AREA_FOREST @40016 /* Debemos cuidarnos de las bestias salvajes. Por mï¿½s hermoso que sea el bosque, el peligro se encuentra a la vuelta de la esquina... */  // If there's no sound file for the line, then it's going to be silent.
+SAY AREA_CITY @40017 /* Es increï¿½ble cï¿½mo la corrupciï¿½n ha invadido hasta el rincï¿½n mï¿½s recï¿½ndito de la ciudad... */
+SAY AREA_DUNGEON @40018 /* Debes tener cuidado aquï¿½. Presiento... peligro. */
+SAY AREA_DAY @40019 /* Hoy es un buen dï¿½a para pasear. Pero recuerda, <CHARNAME>, que tenemos un deber que cumplir. */
+SAY AREA_NIGHT @40020 /* Las estrellas brillan en el firmamento, pero ï¿½cuidado! No todo lo que brilla es oro... All that is gold does not glitter*/
+SAY SELECT_COMMON1 @40021 /* ï¿½Quï¿½ tienes en mente? */
+SAY SELECT_COMMON2 @40022 /* ï¿½Sï¿½? */
+SAY SELECT_COMMON3 @40023 /* ï¿½Quï¿½ quieres? */
+SAY SELECT_COMMON4 @40039 /* Te protegerï¿½. */
+SAY SELECT_COMMON5 @40040 /* Hola, extraï¿½o. */
+SAY SELECT_COMMON6 @40046 /* Recuerda: nadie te golpearï¿½ tan fuerte como la vida misma. */
+SAY SELECT_ACTION1 @40024 /* ï¿½Muy bien! */
+SAY SELECT_ACTION2 @40025 /* Sï¿½, sï¿½. No necesitas gritar. */
+SAY SELECT_ACTION3 @40026 /* Hmmm... sï¿½, ï¿½por quï¿½ no? */
+SAY SELECT_ACTION4 @40027 /* Te seguirï¿½. */
+SAY SELECT_ACTION5 @40028 /* Una vez mï¿½s... */
+SAY SELECT_ACTION6 @40029 /* Dï¿½jamelo a mï¿½. */
+SAY SELECT_ACTION7 @40030 /* Puedo soportarlo. */
+SAY SELECT_RARE1 @40031 /* Hmm... ï¿½te conozco? ï¿½Ja! Sï¿½lo bromeo. */
+SAY SELECT_RARE2 @40032 /* Agradezco la atenciï¿½n, pero ï¿½no deberï¿½amos centrarnos en el asunto que nos ocupa? */
+SAY CRITICAL_HIT @40047 /* ï¿½ï¿½ï¿½Sï¿½!!! */
+SAY CRITICAL_MISS @40034 /* ï¿½Q-quï¿½...? */
+SAY TARGET_IMMUNE @40048 /* *suspiro* Mi objetivo es inmune... */
+SAY INVENTORY_FULL @40036 /* Lo siento, pero mi mochila estï¿½ llena. */ 
+SAY SPELL_DISRUPTED @40037 /* Oh, ï¿½maldiciï¿½n! */
+SAY REACT_TO_DIE_GENERAL @40045 /*  */ // Reacciï¿½n a la muerte de un compaï¿½ero de grupo
+SAY PICKED_POCKET @40051 /* Vaya... le he robado... */
+SAY HIDDEN_IN_SHADOWS @40041 /* Shhh... ahora estoy en las sombras... */
+SAY SET_A_TRAP @40050 /* *risa* La trampa... ha sido puesta. */
+SAY BIO @40038 /* Cuando preguntas por su pasado, DUSK queda un instante pensativo. Dice que sus frecuentes visitas al Paseo de Waukin se deben a un extraï¿½o deseo por convertirse en mercader. Lo cierto es que Dusk, en su vida pasada, fue Primera Espada del ejï¿½rcito de los Dragones Pï¿½rpuras de Cormyr. Su viaje al sur, como mensajero de la paz, se vio frustrado por una serie de sucesos que dice narrarï¿½ a su debido momento. Por lo pronto, dice provenir de los Aldant, una familia noble del norte que, antaï¿½o, combatiï¿½ contra liches y nigromantes de Netheril, incluyendo al peligroso Aumvor. Dusk dice no estar seguro de la veracidad de ciertas narraciones que le contaron cuando era sï¿½lo un niï¿½o, pero lo cierto es que siente una especial aversiï¿½n hacia los liches. */
+WRITE_ASCII 0x248 ~P_DuskS~ #8  // OVERRIDE SCRIPT - Diï¿½logos acerca de los comandos, banthers, etc (coincide con el nombre del archivo BAF)
 WRITE_ASCII 0x2cc ~P_Dusk~  #8  // DIALOGUE FILE - Archivo de saludo de Dusk
-WRITE_ASCII 0x280 ~P_Dusk~  #32 // DEATH VARIABLE - Hace referencia a cómo nos referimos a Dusk en el juego. (Ej.: In Party (P_Dusk))
+WRITE_ASCII 0x280 ~P_Dusk~  #32 // DEATH VARIABLE - Hace referencia a cï¿½mo nos referimos a Dusk en el juego. (Ej.: In Party (P_Dusk))
 WRITE_ASCII 0x34  ~DuskS~ #8  // small portrait
 WRITE_ASCII 0x3c  ~DuskM~ #8  // medium portrait
 
-ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
-COPY ~Dusk/Characters/DuskS.bmp~ ~override/DuskS.bmp~ 
-COPY ~Dusk/Characters/DuskM.bmp~ ~override/DuskM.bmp~ 
-COPY ~Dusk/Characters/DuskL.bmp~ ~override/DuskL.bmp~ 
-END
+//ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
+//COPY ~Dusk/Characters/DuskS.bmp~ ~override/DuskS.bmp~ 
+//COPY ~Dusk/Characters/DuskM.bmp~ ~override/DuskM.bmp~ 
+//COPY ~Dusk/Characters/DuskL.bmp~ ~override/DuskL.bmp~ 
+//END
 
-
-COMPILE EVALUATE_BUFFER ~Dusk/Dialogue/P_BDusk.d~ // All Dusk's banters with other party members will go here. We need the "EVALUATE_BUFFER" because the chapter variable now uses the OUTER_SPRINT variable defined above for the EET continuous journal system.
-	~Dusk/Dialogue/P_Dusk.d~  // Dusk's greeting dialogue will go here. 
-	~Dusk/Dialogue/P_DuskJ.d~ // The rest of Dusk's dialogue: her commentary, interjections, talks with the player, lovetalks and everything else.
-	~Dusk/Dialogue/P_DuskP.d~ // Dusk's leaving party dialogue will go here.
-
-    //Khan Zahra
-	~Dusk/Dialogue/TRGENI01.d~ // TESTING
-	//Testing BOY1
-	~Dusk/Dialogue/BOY1.d~ // TESTING
-	//Testing BFISHW1
-	~Dusk/Dialogue/BFISHW1.d~
+COMPILE EVALUATE_BUFFER ~Dusk/Scripts/are/ar1506.are~
+	~Dusk/Scripts/are/ar1509.are~
+	~Dusk/Scripts/are/P_AR14.are~
+	~Dusk/Dialogue/P_BDusk.d~ 
+	~Dusk/Dialogue/P_Dusk.d~ 
+	~Dusk/Dialogue/P_DuskJ.d~ 
+	~Dusk/Dialogue/P_DuskP.d~     
+	
+	//jack the winter wolf
+	~Dusk/Dialogue/p_jack.d~
+	//thiago the bear
+	~Dusk/Dialogue/p_thiago.d~
+	//sayang
+	~Dusk/Dialogue/p_sayang.d~
+	//uma
+	~Dusk/Dialogue/p_uma.d~
 	//p_baba dialog thief
 	~Dusk/Dialogue/p_baba.d~
 	//p_matut dialog
-	~Dusk/Characters/p_matut.d~
+	~Dusk/Dialogue/p_matut.d~
 	//p_michel dialog
-	~Dusk/Characters/p_michel.d~
+	~Dusk/Dialogue/p_michel.d~
+	//p_demole dialog
+	~Dusk/Dialogue/p_demole.d~
+	//p_falon dialog
+	~Dusk/Dialogue/p_falon.d~
+	//p_cufati dialog
+	~Dusk/Dialogue/p_cufati.d~
+	//p_ziben dialog
+	~Dusk/Dialogue/p_ziben.d~
+	//p_coco dialog
+	~Dusk/Dialogue/p_coco.d~
+	//mage1
+	~Dusk/Dialogue/p_sornhi.d~
+	//Bellfame
+	~Dusk/Dialogue/p_belld.d~
+	~Dusk/Dialogue/p_bell2.d~
 	
+	//Clan Orco
+	//Alabarza
+	~Dusk/Dialogue/p_alabar.d~
+	~Dusk/Dialogue/p_alaba2.d~
+	//Bob
+	~Dusk/Dialogue/p_bob.d~
+	//Mike
+	~Dusk/Dialogue/p_mike.d~
+	//Kocha
+	~Dusk/Dialogue/p_kocha.d~
+	//Komar
+	~Dusk/Dialogue/p_komar.d~
+	//Xeb
+	~Dusk/Dialogue/p_xeb.d~
+	//Toxsan
+	~Dusk/Dialogue/p_toxsan.d~
+	//Tongas
+	~Dusk/Dialogue/p_tongas.d~
+	//Serra
+	~Dusk/Dialogue/p_serra.d~
+	//Hurï¿½n
+	~Dusk/Dialogue/p_huron.d~
+    //mage2
+	~Dusk/Dialogue/p_valata.d~
+	//danctian
+	~Dusk/Dialogue/p_dancti.d~
+	//kalanda
+	~Dusk/Dialogue/p_kaland.d~
+	//anthagar
+	~Dusk/Dialogue/p_anthag.d~
+	//celine ghost
+	~Dusk/Dialogue/p_celgh.d~
+	//Mathyus poseido
+	~Dusk/Dialogue/p_matu2.d~
+	//Demoledor combatiente
+	~Dusk/Dialogue/p_demol2.d~
+	//Michelson Final Mission
+	~Dusk/Dialogue/p_miche2.d~
+	//Celine espï¿½ritu verdadero
+	~Dusk/Dialogue/p_celin.d~
+	//Danctian 2
+	~Dusk/Dialogue/p_danct2.d~
+	//Puki
+	~Dusk/Dialogue/p_dempid.d~
 
+	//ALLIES
+	
+	~Dusk/Characters/m3good_allies/p_coc2.d~
+	~Dusk/Characters/m3good_allies/p_cufat2.d~
+	~Dusk/Characters/m3good_allies/p_falo2.d~
+	~Dusk/Characters/m3good_allies/p_kayl2.d~
+	~Dusk/Characters/m3good_allies/p_zibe2.d~
+	
+	// Scripts
 	~Dusk/Scripts/P_DuskS.baf~ // Dusk's script.
-	~Dusk/Scripts/P_DuskD.baf~ // Dusk's dream script for events at rest. If you want your NPC to talk to you at rest, add scripting here.
-	~Dusk/Scripts/P_DuskF.baf~ // Dusk's "fixing" script. Remember how various modders advised you to "select your NPC and press K"? Well, that's how they do it.
+	~Dusk/Scripts/P_DuskF.baf~
 	
-	// Mathyus script de aparición
-	~Dusk/Characters/p_matut.baf~
-	~Dusk/Characters/p_michel.baf~
-// We are going to spawn Dusk in the Bridge District. It means that we have to add a little bit of script to the Bridge District Area(AR0700). Note that I wrote .bcs in the first part of that line, not .baf
+	~Dusk/Scripts/p_michel.baf~
+	~Dusk/Summonings/p_bellf.baf~
+	~Dusk/Scripts/p_matut.baf~
+	~Dusk/Scripts/p_falon.baf~
+	~Dusk/Scripts/p_cufati.baf~
+	~Dusk/Scripts/p_coco.baf~
+	~Dusk/Scripts/p_ziben.baf~
+	~Dusk/Scripts/p_huron.baf~
+	~Dusk/Scripts/p_alabar.baf~
+	~Dusk/Scripts/p_alaba2.baf~
+	~Dusk/Scripts/p_dancti.baf~
+	~Dusk/Scripts/p_demole.baf~
+	~Dusk/Scripts/p_kaland.baf~
+	~Dusk/Scripts/p_mephit.baf~
+	~Dusk/Scripts/p_worg.baf~
+	~Dusk/Scripts/p_anthag.baf~
+	~Dusk/Scripts/p_celgh.baf~
+	~Dusk/Scripts/p_matu2.baf~
+	~Dusk/Scripts/p_demol2.baf~
+	~Dusk/Scripts/p_valata.baf~
+	~Dusk/Scripts/p_sornhi.baf~
+	~Dusk/Scripts/p_miche2.baf~
+	~Dusk/Scripts/p_celin.baf~
+	~Dusk/Scripts/p_danct2.baf~
+	~Dusk/Scripts/are/P_AR14.baf~
+
 EXTEND_TOP ~AR0700.bcs~ ~Dusk/Scripts/AR0700.baf~
-EXTEND_TOP ~AR0702.bcs~ ~Dusk/Scripts/AR0702.baf~
-// Script de Vampiro fueron eliminados
-
-//TEST
-//REPLACE_SAY BFISHW1 #26258 ~Dusk~ END
-
-// Vampiro Script Body eliminado
-
-// Reemplazo el string del juego del archivo: BFISHW1.
-// Sin embargo, puse el mismo bloque de la conversación para que no se perdiese.
-// Dicho string reemplazado, tiene como condicional que Sarevok se encuentre en el grupo.
-// Como Sarevok no puede aparecer en Athkatla, es imposible que dicho diálogo se inicie.
-// Por lo que podremos hacer uso de dicho String para otros usos.
-STRING_SET 26258 ~Dusk~
+EXTEND_TOP ~AR0300.bcs~ ~Dusk/Scripts/AR0300.baf~
+//EXTEND_TOP ~AR0318.bcs~ ~Dusk/Scripts/AR0318.baf~
+EXTEND_TOP ~AR0500.bcs~ ~Dusk/Scripts/AR0500.baf~
+EXTEND_TOP ~AR1200.bcs~ ~Dusk/Scripts/AR1200.baf~
+EXTEND_TOP ~AR0903.bcs~ ~Dusk/Scripts/AR0903.baf~
+EXTEND_TOP ~AR1904.bcs~ ~Dusk/Scripts/AR1904.baf~
+EXTEND_TOP ~AR1600.bcs~ ~Dusk/Scripts/AR1600.baf~
+EXTEND_TOP ~AR2100.bcs~ ~Dusk/Scripts/AR2100.baf~
+EXTEND_TOP ~AR1506.bcs~ ~Dusk/Scripts/AR1506.baf~
+EXTEND_TOP ~AR2601.bcs~ ~Dusk/Scripts/AR2601.baf~
+EXTEND_TOP ~AR1509.bcs~ ~Dusk/Scripts/AR1509.baf~
+//EXTEND_TOP ~P_AR14.bcs~ ~Dusk/Scripts/are/P_AR14.baf~
 
 
-// Aquí agregamos las entradas que tendrá el diario. Sólo aplica para BG2EE. Para BGT con los comandos en los d files es suficiente
+STRING_SET_EVALUATE 26258 @4002 // Dusk Name
+STRING_SET_EVALUATE 26257 @4000 // Fall Name
+STRING_SET_EVALUATE 26259 @200448 //Minsc
+STRING_SET_EVALUATE 26260 @200449 // ~Aerie... No... Noooo... GRAAHH!!!~
+STRING_SET_EVALUATE 26261 @200450 //~Imoen! IMOEN... Nooo!!!~
+STRING_SET_EVALUATE 26262 @200451 //~Korgan! Grrr... No! Noo!!!~
+STRING_SET_EVALUATE 48700 @200452 //~Oh, Nalia... NooOOOooooo!!!~
+STRING_SET_EVALUATE 48705 @200453 //~Valygar, no... No... Noooo!!!~
+
+// Aquï¿½ agregamos las entradas que tendrï¿½ el diario. Sï¿½lo aplica para BG2EE. Para BGT con los comandos en los d files es suficiente
 ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
-ADD_JOURNAL @210001  @210003 @210004 @210005
+ADD_JOURNAL @210001  @210003 @210004 @210005 @210006 @210007 @210008 @210009 @210010 @210011 @210012 @210013 @210014 @210015 @210016 @210017 @210019 @210020 @210021 @210022 @210023 @210024 @210025 @210026 @210027 @210028 @210029 @210030 @210031 @210032 @210033 @210034 @210035 @210036 @210037 @210038 @210039 @210040 @210041  @210043 @210044 @210045 @210046 @210047 @210048 @210049
 END
 
-//ITEMS
-COPY ~Dusk/Items/P_AX1H99.itm~ ~override~         
-SAY NAME1 @200001 /* Hacha de Batalla */ 
-SAY NAME2 @200002 /* Hacha Dorada */
-SAY UNIDENTIFIED_DESC @200003 /* La versión más común del hacha de batalla es un palo fuerte de unos 120 cm. con una cuchilla de un filo en forma de cuña en uno de sus extremos. Las hachas de batalla también se denominan hachas anchas.
+////////////////////////////////////////////
+// ITEMS
+// Personalizados de DUSK
 
-CARACTERÍSTICAS:
+// 1 - Armadura de la familia Aldant
+COPY ~Dusk/Items/p_dchan1.itm~ ~override~
+SAY NAME1 @400309 /*   */ 
+SAY NAME2 @400310 /*  */
+SAY UNIDENTIFIED_DESC @400311 /* */
+SAY DESC @400312 /* */
 
-Daño: 1D8
-Tipo de daño: Cortante
-Peso: 7 lbs
-Factor de velocidad: 7
-Talento marcial: Hacha
-Tipo de arma: A una mano
-Requisitos: 10 de fuerza */
-SAY DESC @200004 /* El brillo dorado de esta terrible hacha es hipnotizante y extraño. A tal punto en que uno puede ver el reflejo mismo de la crueldad y desesperanza. Quizás haya sido forjada con oro puro o quizás se trate de algo más. Lo cierto es que el filo es perfecto y es totalmente capaz de cercenar la cabeza de un humano con la facilidad con la que se corta una manzana con un cuchillo.
-El mango posee unas arcaicas insignias de idioma enano y es tan inefable que causa dolor a la vista. Sin embargo, la inscripción de Hachasangrienta salta a la vista, dando la impresión que solamente alguien que posea tal apellido es capaz de blandirla.
+// 1 - Espada cormyreana reforjada
+COPY ~Dusk/Items/p_swr1.itm~ ~override~
+SAY NAME2 @400313 /*  */
+SAY DESC @400314 /* */
 
-CARACTERÍSTICAS:
+// 1- Bastï¿½n reforzado shilmista
+COPY ~Dusk/Items/p_stf1.itm~ ~override~
+SAY NAME2 @400315 /*  */
+SAY DESC @400316 /* */
 
-Habilidades poseídas:
-
-- Golpe Vorpalino: %10 de posibilidades de causar muerte instantánea (tirada de salvación por muerte/veneno con -4)
-
-- Miedo: Tirada de salvación contra muerte/veneno con 0 o la víctima será invadida por el miedo durante 30 segundos.
-
-Aptitudes poseídas
-
-+1 Punto a la Constitución
-CA: +1
-
-THAC0: +5
-Daño: 1D8 +5
-Tipo de daño: Cortante
-Peso: 7 lbs
-Factor de velocidad: 2
-Talento marcial: Hacha
-Tipo de arma: A una mano
-
-Permitido a:
-
-Korgan */
-SAY 558 @200005 /*Golpe vorpalino*/
-SAY 798 @200006 /*Huye aterrorizado*/
-
+// 2 - Espada cormyreana de disrupciï¿½n
 COPY ~Dusk/Items/p_sw1hdr.itm~ ~override~         
+SAY NAME1 @400007 /* Espada Bastarda */ 
+SAY NAME2 @400008 /* Espada cormyreana de disrupciï¿½n */
+SAY UNIDENTIFIED_DESC @400009 /*  */
+SAY DESC @400010 /*  */
+SAY 174 @400011 /*Cinco niveles consumidos*/
+SAY 222 @400012 /*Cuatro niveles consumidos*/
+SAY 270 @400013 /*Tres niveles consumidos*/
+SAY 318 @400014 /*Dos niveles consumidos*/
+SAY 366 @400015 /*Un nivel consumido*/
+SAY 798 @4002 /* */
 
-SAY NAME1 @200007 /* Espada Bastarda */ 
-SAY NAME2 @200008 /* Espada de Disrupción */
-SAY UNIDENTIFIED_DESC @200009 /* La espada bastarda, conocida también como espada de puño y medio, se llama así porque está a medio camino entre la espada de dos puños y la espada grande. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, que se puede adaptar a las dos manos si se prefiere. La longitud total de la espada bastarda oscila entre 120 y 150 centímetros.
 
-CARACTERÍSTICAS:
+// 2 - Espada Carmesï¿½ (EVIL PATH)
+COPY ~Dusk/Items/p_swevi1.itm~ ~override~
+SAY NAME1 @400007 /*  */ 
+SAY NAME2 @400334 /*  */
+SAY UNIDENTIFIED_DESC @400009 /* */
+SAY DESC @400335 /* */
 
-Daño: 2D4 
-Tipo de daño: Cortante
-Peso: 10 lbs
-Factor de velocidad: 8
-Talento marcial: Espada Bastarda
-Tipo de arma: A una mano
-Requisitos: 11 de fuerza */
-SAY DESC @200010 /* El poder de este filo emana desde el mismo mango. El acero azulado por el encanto propaga una electricidad constante y peligrosa. La magia sagrada con la que fue bendecida permite a esta espada la posibilidad de proteger al portador contra los poderes negativos de la Muerte y también genera la indiscutible posibilidad de desterrar de este mundo a los muertos vivientes que aún caminan en él. Sin lugar a dudas, la persona que creó la Espada Disruptora tenía un gran odio hacia los muertos.
+// 2 - Espada Esmeralda (GOOD PATH)
+COPY ~Dusk/Items/p_swgoo1.itm~ ~override~
+SAY NAME1 @400007 /* Espada Bastarda */ 
+SAY NAME2 @400341 /* Espada esmeralda */
+SAY UNIDENTIFIED_DESC @400009 /* */
+SAY DESC @400342 /* */
 
-CARACTERÍSTICAS:
+// 2 - Defensa de Cormyr
+COPY ~Dusk/Items/p_dplat1.itm~ ~override~
+SAY NAME2 @400421 /*  */
+SAY DESC @400422 /* */
 
-Aptitudes de combate:
-  
-- 2d6+4 puntos de daño a muertos vivientes, además de obligarles a salvarse contra muerte mágica (con un penalizador -4) para evitar ser destruidos por completo.
-  
-- Inmunidad a la consunción de niveles de experiencia.
+// 3 - Espada Carmesï¿½ MEJORADA (EVIL PATH)
+COPY ~Dusk/Items/p_swevi2.itm~ ~override~
+SAY NAME1 @400007 /* Espada carmesï¿½ mejorada */ 
+SAY NAME2 @400374 /*  */
+SAY UNIDENTIFIED_DESC @400009 /* */
+SAY DESC @400375 /* */
 
-THAC0: +3
-Daño: 2D4+3, +3 por Daño Eléctrico
-Tipo de daño: Cortante
-Peso: 10 lbs
-Factor de velocidad: 5
-Talento marcial: Espada Bastarda
-Tipo de arma: A una mano
-Requisitos: 11 de fuerza */
-SAY 174 @200011 /*Cinco niveles consumidos*/
-SAY 222 @200012 /*Cuatro niveles consumidos*/
-SAY 270 @200013 /*Tres niveles consumidos*/
-SAY 318 @200014 /*Dos niveles consumidos*/
-SAY 366 @200015 /*Un nivel consumido*/
-SAY 798 @2 /* */
-//test effect
-//LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 319 
-//special = RESOLVE_STR_REF (798) END
-//0x2c= GET_STRREF(@2 /* */) 0x2c END
-//GET_STRREF (@2) = 0x2c END
-//GET_STRREF 0x2c = (@2) END
-//0x2c = RESOLVE_STR_REF (@2 /* */) END
+// 3 - Espada Esmeralda MEJORADA (GOOD PATH)
+COPY ~Dusk/Items/p_swgoo2.itm~ ~override~
+SAY NAME1 @400007 /*  */ 
+SAY NAME2 @400376 /*  */
+SAY UNIDENTIFIED_DESC @400009 /* */
+SAY DESC @400377 /* */
+//SAY 0x2c @2
 
-COPY ~Dusk/Items/P_BRAC99.itm~ ~override~         
+// 3 - Salus -> Armadura mejorada de Dusk
+COPY ~Dusk/Items/p_platd1.itm~ ~override~
+SAY NAME2 @400411 /*  */
+SAY DESC @400412 /* */
 
-SAY NAME1 @200016 /* Brazales */ 
-SAY NAME2 @200017 /* Brazales de Defensa Pétrea */
-SAY UNIDENTIFIED_DESC @200018 /* Los brazales son gruesas bandas de metal o de cuero que van atadas con correas al antebrazo del personaje. Por lo general, la magia infundida en los brazales sólo sirve durante el combate, ya que la mayoría de ellos sirven para proteger a su portador de las lesiones y aumentar las posibilidades de golpear al contrincante. Sin embargo hay excepciones y cada día se producen más. */
-SAY DESC @200019 /* Estos brazaletes de peso liviano brindan una invaluable defensa a quien los use, incluyendo (gracias al poder mágico con el que fue imbuido) la posibilidad de conjurar una expansión defensiva que surge de su centro y se expande a todo el cuerpo, brindando al portador una dureza comparable con la roca.
-Incluso sin esta particular habilidad, el brazalete de por sí emana una fuerza vital, destinada solamente al protección de quien los use.
+// 3 - Rex -> Espada de Dusk mejorada
+COPY ~Dusk/Items/p_sw2hdr.itm~ ~override~
+SAY NAME1 @400007 /* Espada Bastarda */ 
+SAY NAME2 @400413 /* Rex */
+SAY UNIDENTIFIED_DESC @400009 /*  */
+SAY DESC @400414 /*  */
+SAY 174 @400011 /*Cinco niveles consumidos*/
+SAY 222 @400012 /*Cuatro niveles consumidos*/
+SAY 270 @400013 /*Tres niveles consumidos*/
+SAY 318 @400014 /*Dos niveles consumidos*/
+SAY 366 @400015 /*Un nivel consumido*/
+SAY 1086 @400415 /*Ralentizado */
+SAY 798 @4002 /* */
 
-CARACTERÍSTICAS:
 
-Habilidades poseídas:
-- Piel Pétrea: 2 veces al día.
 
-Aptitudes poseídas
-- +10 a los Puntos de Golpe
+// 4 - LUX (GOOD PATH)
+COPY ~Dusk/Items/p_swgoo3.itm~ ~override~
+SAY NAME1 @400007 /*  */ 
+SAY NAME2 @400430 /* Lux */
+SAY UNIDENTIFIED_DESC @400009 /* */
+SAY DESC @400431 /* */
 
-CA: +2
-Peso: 2 */
+// 4 - IRA (EVIL PATH)
+COPY ~Dusk/Items/p_swevi3.itm~ ~override~
+SAY NAME1 @400007 /* Espada carmesï¿½ mejorada */ 
+SAY NAME2 @400432 /*  */
+SAY UNIDENTIFIED_DESC @400009 /* */
+SAY DESC @400433 /* */
 
-COPY ~Dusk/Items/p_chan99.itm~ ~override~         
+// 5 - Lux Triumphans (GOOD PATH)
+COPY ~Dusk/Items/p_swgoo4.itm~ ~override~
+SAY NAME1 @400007 /*  */ 
+SAY NAME2 @400442 /*  */
+SAY UNIDENTIFIED_DESC @400009 /* */
+SAY DESC @400443 /* */
 
-SAY NAME1 @200020 /* Armadura de Cota de Mallas */ 
-SAY NAME2 @200021 /* Armadura de Magos */
-SAY UNIDENTIFIED_DESC @200022 /* La cota de malla está formada por anillos de metal entrelazados. Siempre está sobre una capa de tela acolchada o de cuero suave para evitar los roces y disminuir el impacto de los golpes.  
+// 5 - IRA Tenax (EVIL PATH)
+COPY ~Dusk/Items/p_swevi4.itm~ ~override~
+SAY NAME1 @400007 /* Espada carmesï¿½ mejorada */ 
+SAY NAME2 @400444 /*  */
+SAY UNIDENTIFIED_DESC @400009 /* */
+SAY DESC @400445 /* */
 
-CARACTERÍSTICAS:
+// SPELLS DUSK INNATES
+// 1 - Infundir Valor
+COPY ~Dusk/Spells/p_sp1d.spl~ ~override~
+SAY 8 @400378 /* Infundir Valor */ 
+SAY 80 @400388 /*  */
 
-Clase de armadura: 5
-Peso: 40 lbs
-Requisitos: 8 de fuerza */
-SAY DESC @200023 /* El diseño mágico de esta armadura permite al lanzador el conjurar hechizos sin restricción alguna. Además, un encantamiento adicional proporciona una mayor defensa física al portador.
+// 1 - Defensa Heroica
+COPY ~Dusk/Spells/p_sp2d.spl~ ~override~
+SAY 8 @400380 /* Defensa Heroica */ 
+SAY 80 @400381 /*  */
 
-CARACTERÍSTICAS:
+// 2 - Miedo
+COPY ~Dusk/Spells/p_sp3d.spl~ ~override~
+SAY 8 @400382 /* Miedo */ 
+SAY 80 @400383 /*  */
 
-Bonificadores: +10 a los PG.
+// 2 - ï¿½ltimo Esfuerzo
+COPY ~Dusk/Spells/p_sp4d.spl~ ~override~
+SAY 8 @400384 /* ï¿½ltimo Esfuerzo */ 
+SAY 80 @400385 /*  */
 
-Permite al mago que la viste el lanzar conjuros arcanos sin restricciones.
+// 3 - Juramento de Ira
+COPY ~Dusk/Spells/p_sp5d.spl~ ~override~
+SAY 8 @400386 /* Juramento de Ira */ 
+SAY 80 @400387 /*  */
 
-Clase de Armadura: 5
-Peso: 9 */
+//////////////////////////////////////
+// AR0300 Mathyus Hideout
+COPY ~Dusk/Scripts/are/AR0300.are~ ~override~         
+SAY 61388 @400455 /* Mathyus's Hideout */ 
 
-COPY ~Dusk/Items/P_CHNVIC.itm~ ~override~         
+////////////////////////////////////////////
+//NPCs Items Personalizados
 
-SAY NAME1 @200024 /* Manto */ 
-SAY NAME2 @200025 /* Túnica de Viconia */
-SAY UNIDENTIFIED_DESC @200026 /* El manto puede tener cualquier forma y hacerse con cualquier tipo de tela. La forma más habitual es una pieza redonda de tela con un agujero en el centro para la cabeza, con la tela drapeada desde el cuello con una cadena, un broche, un cordón o alfileres. */
-SAY DESC @200027 /* Esta túnica de artesanía drow es la vestimenta típica de la drow Viconia. Brinda una magnífica defensa física y también protege al portador del frío y fuego. Nadie más que Viconia puede utilizarla.
+// Hacha dorada (KORGAN)
+COPY ~Dusk/Items/P_AX1H99.itm~ ~override~         
+SAY NAME1 @400001 /* Hacha de Batalla */ 
+SAY NAME2 @400002 /* Hacha Dorada */
+SAY UNIDENTIFIED_DESC @400003 /*  */
+SAY DESC @400004 /*  */
+SAY 558 @400005 /*Golpe vorpalino*/
+SAY 798 @400006 /*Huye aterrorizado*/
 
-CARACTERÍSTICAS:
+// TUNICA DE VICONIA
+COPY ~Dusk/Items/P_CHNVIC.itm~ ~override~
+SAY NAME1 @400024 /* Manto */ 
+SAY NAME2 @400025 /* Tï¿½nica de Viconia */
+SAY UNIDENTIFIED_DESC @400026 /*  */
+SAY DESC @400027 /*  */
 
-Aptitudes poseídas:
+// VITALIDAD DE LA NOCHE (VICONIA)
+COPY ~Dusk/Items/p_nbk03.itm~ ~override~
+SAY NAME1 @400052 /*  */ 
+SAY NAME2 @400064 /*  */
+SAY UNIDENTIFIED_DESC @400054 /* */
+SAY DESC @400066 /* */
+SAY 270 @400067 /* */
+SAY 318 @400068 /* */
 
-+25% de Resistencia contra el Frío y Fuego
-Fuerza y Constitución: Incrementados en 3 puntos
+// EspÃ­ritu de la Justicia (KELDORN POT)
+COPY ~Dusk/Items/p_keld1.itm~ ~override~
+SAY NAME1 @400032 /*  */ 
+SAY NAME2 @400033 /*  */
+SAY UNIDENTIFIED_DESC @400034 /* */
+SAY DESC @400035 /* */
+SAY 318 @400036 /* */
+SAY 270 @400037 /* */
 
-Clase de Armadura: 0
-Peso: 15 */
+// EMBLEMA DE BAERVAN (AERIE)
+COPY ~Dusk/Items/p_nbk02.itm~ ~override~
+SAY NAME1 @400052 /*  */ 
+SAY NAME2 @400058 /*  */
+SAY UNIDENTIFIED_DESC @400054 /* */
+SAY DESC @400060 /* */
+SAY 414 @400061 /* */
+SAY 462 @400062 /* */
 
-COPY ~Dusk/Items/P_HAMM1.itm~ ~override~         
+// BENDICIï¿½N DE ARVORIN (MAZZY)
+COPY ~Dusk/Items/p_nbk04.itm~ ~override~
+SAY NAME1 @400052 /*  */ 
+SAY NAME2 @400070 /*  */
+SAY UNIDENTIFIED_DESC @400054 /* */
+SAY DESC @400072 /* */
+SAY 318 @400073 /* */
+SAY 366 @400074 /* */
+SAY 414 @400075 /* */
 
-SAY NAME1 @200028 /* Martillo de Guerra */ 
-SAY NAME2 @200029 /* Crimson Thunder */
-SAY UNIDENTIFIED_DESC @200030 /* Los caballeros a caballo no pueden manejar eficazmente las armas de palo largo, y como consecuencia de ello muchas de las armas disponen de un mango más corto para poder empuñarlas con una sola mano. Las mazas y los mayales son ejemplos anteriores (así como el martillo de guerra). El martillo de guerra del jinete es el descendiente del martillo de Lucerna. Se elabora por entero en acero, con arandelas que protegen y refuerzan la empuñadura. Las arandelas son pequeños discos de metal, que se diseñan a menudo con formas decorativas. El mango mide unos 46 centímetros.
+// ESTUDIOS SANTIFICADOS DE CORTHALA (VALYGAR)
+COPY ~Dusk/Items/p_nbk05.itm~ ~override~
+SAY NAME1 @400076 /*  */ 
+SAY NAME2 @400077 /*  */
+SAY UNIDENTIFIED_DESC @400078 /* */
+SAY DESC @400079 /* */
+SAY 270 @400080 /* */
+SAY 318 @400081 /* */
 
-CARACTERÍSTICAS:
+// PERGAMINO DEL TIEFLING (HAER-DALIS)
+COPY ~Dusk/Items/p_nbk06.itm~ ~override~
+SAY NAME1 @400076 /*  */ 
+SAY NAME2 @400083 /*  */
+SAY UNIDENTIFIED_DESC @400078 /* */
+SAY DESC @400085 /* */
+SAY 366 @400086 /* */
+SAY 414 @400087 /* */
 
-Daño: 1D4 +1
-Tipo de daño: Contundente
-Peso: 6 lbs
-Factor de velocidad: 4
-Talento marcial: Martillo de Guerra
-Tipo de arma: A una mano
-Requisitos: 9 de fuerza */
-SAY DESC @200031 /* Trueno Escarlata
+// Pociï¿½n Gnï¿½mica (JAN JANSEN)
+COPY ~Dusk/Items/p_nbk07.itm~ ~override~
+SAY NAME1 @400088 /*  */ 
+SAY NAME2 @400089 /*  */
+SAY UNIDENTIFIED_DESC @400090 /* */
+SAY DESC @400091 /* */
+SAY 270 @400092 /* */
+SAY 318 @400093 /* */
 
-Durante la guerra contra los titanes que emergieron de las Colinas Rojas, el valiente enano herrero Dronjack forjó, con la promesa de su propia alma a Moradin, un martillo en medio de tormentas de truenos y relámpagos. Se dice que Dronjack, liderando un ejército de enanos, logró vencer en una sangrienta batalla final a los terribles, liberando a las Colinas del sombrío mal de los gigantes y cayendo en combate, perdiéndose su Martillo Escarlata en un destino recóndito e ignoto.
+// FORTALEZA DE BHAAL (IMOEN)
+COPY ~Dusk/Items/p_nbk08.itm~ ~override~
+SAY NAME1 @400094 /*  */ 
+SAY NAME2 @400095 /*  */
+SAY UNIDENTIFIED_DESC @400096 /* */
+SAY DESC @400097 /* */
+SAY 462 @400098 /* */
+SAY 510 @400099 /* */
 
-CARACTERÍSTICAS:
+// FUERZA DEL ARPISTA (JAHEIRA)
+COPY ~Dusk/Items/p_nbk09.itm~ ~override~
+SAY NAME1 @400094 /*  */ 
+SAY NAME2 @400101 /*  */
+SAY UNIDENTIFIED_DESC @400096 /* */
+SAY DESC @400103 /* */
+SAY 270 @400104 /* */
+SAY 318 @400105 /* */
 
-Aptitudes poseídas:
+// ORBE DE LA TORMENTA (CERND)
+COPY ~Dusk/Items/p_nbk11.itm~ ~override~
+SAY NAME1 @400052 /*  */ 
+SAY NAME2 @400111 /*  */
+SAY UNIDENTIFIED_DESC @400054 /* */
+SAY DESC @400113 /* */
+SAY 270 @400114 /* */
+SAY 318 @400115 /* */
 
-Resistencia a la Electricidad: %50
+// TOMO DE DESTREZA THAYINA (EDWIN)
+COPY ~Dusk/Items/p_nbk12.itm~ ~override~
+SAY NAME1 @400094 /*  */ 
+SAY NAME2 @400117 /*  */
+SAY UNIDENTIFIED_DESC @400096 /* */
+SAY DESC @400119 /* */
+SAY 366 @400120 /* */
 
-Parálisis: Tirada de salvación contra conjuro o la víctima quedará paralizada durante 6 segundos a causa de un golpe electrizante.
+// POCIï¿½N DE RASHEMEN (MINSC)
+COPY ~Dusk/Items/p_POTN99.itm~ ~override~ 
+SAY NAME1 @400088 /*  */ 
+SAY NAME2 @400167 /*  */
+SAY UNIDENTIFIED_DESC @400090 /* */
+SAY DESC @400169 /* */
+SAY 318 @400170 /* */
 
-Aptitud de Combate:
+// Espada de Delryn (ANOMEN)
+COPY ~Dusk/Items/p_swanom.itm~ ~override~    
+SAY NAME1 @400209 /*  */ 
+SAY NAME2 @400210 /*  */
+SAY UNIDENTIFIED_DESC @400211 /* */
+SAY DESC @400212 /* */
+SAY 558 @400213 /* */
 
-- Clamar al Relámpago: Puede llamar a un relámpago de los cielos para que impacte en la víctima. Causa 3d8 de daño eléctrico.
-Uso: Hasta 5 veces por día.
+// Katana contundente (YOSHIMO)
+COPY ~Dusk/Items/p_yoshit.itm~ ~override~
+SAY NAME2 @400399 /*  */
+SAY DESC @400400 /* */
 
-TAC0: +5
-Daño: 2d4+5, +2d6 por daño eléctrico
-Tipo de daño: Contundente
-Peso: 5
-Factor de velocidad: 0
-Talento marcial: martillo de guerra
-Tipo: una mano */
+// Manto de'Arnise (NALIA)
+COPY ~Dusk/Items/p_nalit.itm~ ~override~
+SAY NAME2 @400401 /*  */
+SAY DESC @400402 /* */
 
-// TEST SÓLO ETIQUETAS
+// Guantes de Cuchillos Nocturnos (DORN)
+COPY ~Dusk/Items/p_dornbr.bam~ ~override~
+COPY ~Dusk/Items/p_dornbr.itm~ ~override~
+SAY NAME2 @403494 /* Guantes de Cuchillos Nocturnos */
+SAY DESC @403495 /* */
 
-COPY ~Dusk/Items/p_keld1.itm~ ~override~         
+// PociÃ³n de Magia Salvaje (NEERA)
+COPY ~Dusk/Items/p_neeptn.bam~ ~override~
+COPY ~Dusk/Items/p_neeptn.itm~ ~override~
+SAY NAME2 @403496 /* PociÃ³n de Magia Salvaje */
+SAY DESC @403497 /*  */
+SAY 318 @403498 /* Puntos de vida: +20 */
+SAY 366 @403499 /* Inteligencia: Aumentada en 1 punto */
+SAY 414 @403500 /* ConstituciÃ³n: Aumentada en 1 punto */
 
-SAY NAME1 @200032 /*  */ 
-SAY NAME2 @200033 /*  */
-SAY UNIDENTIFIED_DESC @200034 /* */
-SAY DESC @200035 /* */
-SAY 222 @200036 /* */
-SAY 270 @200037 /* */
+// PociÃ³n de Luz Blanca (RASAAD)
+COPY ~Dusk/Items/p_rasptn.itm~ ~override~
+SAY NAME2 @403501 /* PociÃ³n de Luz Blanca */
+SAY DESC @403502 /*  */
+SAY 318 @403498 /* Puntos de vida: +20 */
+SAY 366 @403503 /* Constitution: Increased by 2 points */
+SAY 414 @403504 /* Resistance to Magic Damage: +%25 */
 
-// FUEGO SALVAJE
+// PociÃ³n de LÃ­quido RubÃ­ (HEXXAT)
+COPY ~Dusk/Items/p_hexx.itm~ ~override~
+SAY NAME2 @403505 /* PociÃ³n de LÃ­quido RubÃ­ */
+SAY DESC @403506 /*  */
+SAY 222 @403507 /* Puntos de vida: +35 */
 
-COPY ~Dusk/Items/p_leat01.itm~ ~override~         
+// Flores y frutos invernales (WILSON)
+COPY ~Dusk/Items/p_wils.itm~ ~override~
+SAY NAME2 @403508 /* Flores y frutos invernales */
+SAY DESC @403509 /*  */
+SAY 222 @403510 /* Habilidad innata obtenida: Poolster */
 
-SAY NAME1 @200038 /*  */ 
-SAY NAME2 @200039 /*  */
-SAY UNIDENTIFIED_DESC @200040 /* */
-SAY DESC @200041 /* */
+// Frutos astrales de Bellfame (WILSON)
+COPY ~Dusk/Items/p_wils1.itm~ ~override~
+SAY NAME2 @403509 /*  */
+SAY 222 @403511 /* Habilidad innata obtenida: ValentÃ­a del Oso */
+SAY 270 @403512 /* Habilidad innata obtenida: Poder Sagrado del Oso */
+SAY 318 @403513 /* Habilidad innata obtenida: Oso Endurecido */
+
+////////////////////////////////////////////
+
+// Items for Kits:
+// Wizard Slayer
+// SET de WIZARDSLAYER
+
+// ESPERANZA DE BENORK
+COPY ~Dusk/Items/p_wsam.itm~ ~override~
+SAY NAME1 @400218 /*  */ 
+SAY NAME2 @400219 /*  */
+SAY UNIDENTIFIED_DESC @400220 /* */
+SAY DESC @400221 /* */
+
+// Defensa de Aznagarb
+COPY ~Dusk/Items/p_wsbrac.itm~ ~override~
+SAY NAME1 @400016 /*  */ 
+SAY NAME2 @400223 /*  */
+SAY UNIDENTIFIED_DESC @400018 /* */
+SAY DESC @400225 /* */
+
+// Camino de los Ancestros
+COPY ~Dusk/Items/p_wsboot.itm~ ~override~
+SAY NAME1 @400226 /*  */ 
+SAY NAME2 @400227 /*  */
+SAY UNIDENTIFIED_DESC @400228 /* */
+SAY DESC @400229 /* */
+SAY 886 @400230 /* */
+SAY 934 @400231 /* */
+SAY 982 @400232 /* */
+SAY 1030 @400233 /* */
+SAY 1078 @400234 /* */
+SAY 1126 @400235 /* */
+SAY 1174 @400236 /* */
+SAY 1222 @400237 /* */
+SAY 1270 @400238 /* */
+SAY 1414 @400239 /* */
+SAY 1462 @400240 /* */
+SAY 1510 @400241 /* */
+
+// Protecciï¿½n de Aznagarb
+COPY ~Dusk/Items/p_wsclk.itm~ ~override~
+SAY NAME1 @400242 /*  */ 
+SAY NAME2 @400243 /*  */
+SAY UNIDENTIFIED_DESC @400244 /* */
+SAY DESC @400245 /* */
+
+// Fortaleza de Benork
+COPY ~Dusk/Items/p_wsash.itm~ ~override~
+SAY NAME1 @400246 /*  */ 
+SAY NAME2 @400247 /*  */
+SAY UNIDENTIFIED_DESC @400248 /* */
+SAY DESC @400249 /* */
+
+// Iris de Tempus
+COPY ~Dusk/Items/p_wshelm.itm~ ~override~
+SAY NAME1 @400250 /*  */ 
+SAY NAME2 @400251 /*  */
+SAY UNIDENTIFIED_DESC @400252 /* */
+SAY DESC @400253 /* */
+SAY 518 @400254 /* */
+SAY 566 @400255 /* */
+SAY 998 @400256 /* */
+SAY 1142 @400257 /* */
+SAY 1190 @400258 /* */
+
+// Respiro del Linaje
+COPY ~Dusk/Items/p_wsrng1.itm~ ~override~
+SAY NAME1 @400259 /*  */ 
+SAY NAME2 @400260 /*  */
+SAY UNIDENTIFIED_DESC @400261 /* */
+SAY DESC @400262 /* */
+
+// Latido de Calia
+COPY ~Dusk/Items/p_wsrng2.itm~ ~override~
+SAY NAME1 @400259 /*  */ 
+SAY NAME2 @400264 /*  */
+SAY UNIDENTIFIED_DESC @400261 /* */
+SAY DESC @400266 /* */
+
+// Vengadora Real
+COPY ~Dusk/Items/P_WSSTP.itm~ ~override~
+SAY NAME1 @400267 /*  */ 
+SAY NAME2 @400268 /*  */
+SAY UNIDENTIFIED_DESC @400269 /* */
+SAY DESC @400270 /* */
+SAY 846 @400271 /* */
+
+// FUEGO SALVAJE (Shapeshifter)
+COPY ~Dusk/Items/p_leat01.itm~ ~override~
+SAY NAME1 @400038 /*  */ 
+SAY NAME2 @400039 /*  */
+SAY UNIDENTIFIED_DESC @400040 /* */
+SAY DESC @400041 /* */
+
+////////////////////////////////////////////
+// MICHELSON/DANCTIAN forge items
+// Brazales de Defensa Pï¿½trea
+COPY ~Dusk/Items/P_BRAC99.itm~ ~override~
+SAY NAME1 @400016 /* Brazales */ 
+SAY NAME2 @400017 /* Brazales de Defensa Pï¿½trea */
+SAY UNIDENTIFIED_DESC @400018 /*  */
+SAY DESC @400019 /*  */
+
+// /* Armadura de Magos */  ******
+COPY ~Dusk/Items/p_chan99.itm~ ~override~
+SAY NAME1 @400020 /* Armadura de Cota de Mallas */ 
+SAY NAME2 @400021 /* Armadura de Magos */
+SAY UNIDENTIFIED_DESC @400022 /*  */
+SAY DESC @400023 /*  */
+
+// CRIMSON THUNDER
+COPY ~Dusk/Items/P_HAMM1.itm~ ~override~ 
+SAY NAME1 @400028 /* Martillo de Guerra */ 
+SAY NAME2 @400029 /* Crimson Thunder */
+SAY UNIDENTIFIED_DESC @400030 /*  */
+SAY DESC @400031 /*  */
 
 // VENOM STRIKE
+COPY ~Dusk/Items/p_venom.itm~ ~override~
+SAY NAME1 @400042 /*  */ 
+SAY NAME2 @400043 /*  */
+SAY UNIDENTIFIED_DESC @400044 /* */
+SAY DESC @400045 /* */
+SAY 366 @400050 /* */
+SAY 462 @400051 /* */
 
-COPY ~Dusk/Items/p_venom.itm~ ~override~         
+// MUGENJIN  Espada Larga
+COPY ~Dusk/Items/P_SW1H13.itm~ ~override~
+SAY NAME2 @400193 /*  */
+SAY DESC @400403 /* */
 
-SAY NAME1 @200042 /*  */ 
-SAY NAME2 @200043 /*  */
-SAY UNIDENTIFIED_DESC @200044 /* */
-SAY DESC @200045 /* */
-SAY 222 @200046 /* */
-SAY 270 @200047 /* */
-SAY 558 @200048 /* */
-SAY 606 @200049 /* */
-SAY 1374 @200050 /* */
-SAY 1470 @200051 /* */
+// MUGENJIN  Mandoble
+COPY ~Dusk/Items/P_SW1H23.itm~ ~override~
+SAY NAME2 @400193 /*  */
+SAY DESC @400404 /* */
 
-// PROTECCIÓN DEL GUERRERO
-// Incluye el spell nuevo P_spinG.spl (de lo contrario no funciona)
+// MUGENJIN  Cimitarra
+COPY ~Dusk/Items/P_SW1H33.itm~ ~override~
+SAY NAME2 @400193 /*  */
+SAY DESC @400405 /* */
 
-COPY ~Dusk/Items/p_nbk01.itm~ ~override~         
+// SHIN-USHI  Espada Larga
+COPY ~Dusk/Items/P_SW1H14.itm~ ~override~
+SAY NAME2 @400197 /*  */
+SAY DESC @400406 /* */
+SAY 462 @400200 /* */
+SAY 510 @400201 /* */
+SAY 558 @400202 /* */
+SAY 606 @400203 /* */
+SAY 654 @400204 /* */
 
-SAY NAME1 @200052 /*  */ 
-SAY NAME2 @200053 /*  */
-SAY UNIDENTIFIED_DESC @200054 /* */
-SAY DESC @200055 /* */
-SAY 318 @200056 /* */
+// SHIN-USHI  Mandoble
+COPY ~Dusk/Items/P_SW1H24.itm~ ~override~
+SAY NAME2 @400197 /*  */
+SAY DESC @400407 /* */
+SAY 462 @400200 /* */
+SAY 510 @400201 /* */
+SAY 558 @400202 /* */
+SAY 606 @400203 /* */
+SAY 654 @400204 /* */
 
+// SHIN-USHI  Cimitarra
+COPY ~Dusk/Items/P_SW1H34.itm~ ~override~
+SAY NAME2 @400197 /*  */
+SAY DESC @400408 /* */
+SAY 462 @400200 /* */
+SAY 510 @400201 /* */
+SAY 558 @400202 /* */
+SAY 606 @400203 /* */
+SAY 654 @400204 /* */
+
+// SPELLS and INNATE ABILITIES
+
+// Guerrero de Acero (item y spell)
+COPY ~Dusk/Items/p_nbk01.itm~ ~override~
+SAY NAME1 @400052 /*  */ 
+SAY NAME2 @400053 /*  */
+SAY UNIDENTIFIED_DESC @400054 /* */
+SAY DESC @400055 /* */
+SAY 318 @400056 /* */
+// Spell Guerrero de Acero
 COPY ~Dusk/Spells/P_spinG.spl~ ~override~ 
 SAY 80 @100100 /*  */ 
 SAY 8 @100101 /*  */
 
+// Estrella Polar (Arma/Innate ability diseÃ±ada para WILSON)
+COPY ~Dusk/Spells/p_bearb1.bam~ ~override~ 
+COPY ~Dusk/Spells/p_bearb2.bam~ ~override~ 
+COPY ~Dusk/Spells/p_bearb3.bam~ ~override~ 
+COPY ~Dusk/Spells/p_bearp1.spl~ ~override~ 
+SAY NAME1 @403490 /* Poolster */ 
+SAY NAME2 @403490 /* Poolster */
+SAY UNIDENTIFIED_DESC @403491 /* */
+SAY DESC @403491 /* Poolster (Innato)
+Nivel: Innato
+Alcance: El oso
+DuraciÃ³n: Especial
+Tiempo de lanzamiento: 3
+Ãrea de efecto: El oso
+Tirada de salvaciÃ³n: Ninguna
+
+DESCRIPCIÃ“N:
+
+Este conjuro crea varios orbes de hielo de pequeÃ±o tamaÃ±o, uno por nivel del oso, que reemplazan a las garras habituales. El oso puede lanzar estos orbes contra objetivos que se encuentren a una distancia de hasta 15 metros, y serÃ¡n tratados como proyectiles con una bonificaciÃ³n +5 a las tiradas de ataque. Al chocar contra alguien, infligirÃ¡n 1D4 +3 puntos de daÃ±o y otros +3 puntos de daÃ±o gÃ©lido. El oso puede lanzar hasta cinco proyectiles por asalto. */
+
+COPY ~Dusk/Items/p_bearp1.itm~ ~override~  
+SAY NAME1 @403493 /* Orbe Poolster */ 
+SAY NAME2 @403493 /* Orbe Poolster  */
+SAY UNIDENTIFIED_DESC @403492 /* */
+SAY DESC @403492 /* Este brillante orbe ha sido creado por el conjuro innato: Poolster.
+
+CARACTERÃSTICAS:
+
+DaÃ±o: 1d4+3, +3 de daÃ±o gÃ©lido
+GAC0: bonificaciÃ³n +5
+Aptitudes de combate: NÃºmero de ataques por asalto establecido en 5
+Tipo de daÃ±o: Proyectil
+Peso: 0 lbs
+Factor de velocidad: 3 */
 
-// EMBLEMA DE BAERVAN
 
-COPY ~Dusk/Items/p_nbk02.itm~ ~override~         
 
-SAY NAME1 @200057 /*  */ 
-SAY NAME2 @200058 /*  */
-SAY UNIDENTIFIED_DESC @200059 /* */
-SAY DESC @200060 /* */
-SAY 366 @200061 /* */
-SAY 414 @200062 /* */
-
-// VITALIDAD DE LA NOCHE
-
-COPY ~Dusk/Items/p_nbk03.itm~ ~override~         
-
-SAY NAME1 @200063 /*  */ 
-SAY NAME2 @200064 /*  */
-SAY UNIDENTIFIED_DESC @200065 /* */
-SAY DESC @200066 /* */
-SAY 270 @200067 /* */
-SAY 318 @200068 /* */
-
-// BENDICIÓN DE ARVORIN
-
-COPY ~Dusk/Items/p_nbk04.itm~ ~override~         
-
-SAY NAME1 @200069 /*  */ 
-SAY NAME2 @200070 /*  */
-SAY UNIDENTIFIED_DESC @200071 /* */
-SAY DESC @200072 /* */
-SAY 318 @200073 /* */
-SAY 366 @200074 /* */
-SAY 414 @200075 /* */
-
-// ESTUDIOS SANTIFICADOS DE CORTHALA
-
-COPY ~Dusk/Items/p_nbk05.itm~ ~override~         
-
-SAY NAME1 @200076 /*  */ 
-SAY NAME2 @200077 /*  */
-SAY UNIDENTIFIED_DESC @200078 /* */
-SAY DESC @200079 /* */
-SAY 270 @200080 /* */
-SAY 318 @200081 /* */
-
-// PERGAMINO DEL TIEFLING
-
-COPY ~Dusk/Items/p_nbk06.itm~ ~override~         
-
-SAY NAME1 @200082 /*  */ 
-SAY NAME2 @200083 /*  */
-SAY UNIDENTIFIED_DESC @200084 /* */
-SAY DESC @200085 /* */
-SAY 366 @200086 /* */
-SAY 414 @200087 /* */
-
-// Poción Gnómica
-
-COPY ~Dusk/Items/p_nbk07.itm~ ~override~         
-
-SAY NAME1 @200088 /*  */ 
-SAY NAME2 @200089 /*  */
-SAY UNIDENTIFIED_DESC @200090 /* */
-SAY DESC @200091 /* */
-SAY 270 @200092 /* */
-SAY 318 @200093 /* */
-
-// FORTALEZA DE BHAAL
-
-COPY ~Dusk/Items/p_nbk08.itm~ ~override~         
-
-SAY NAME1 @200094 /*  */ 
-SAY NAME2 @200095 /*  */
-SAY UNIDENTIFIED_DESC @200096 /* */
-SAY DESC @200097 /* */
-SAY 462 @200098 /* */
-SAY 510 @200099 /* */
-
-// FUERZA DEL ARPISTA
-
-COPY ~Dusk/Items/p_nbk09.itm~ ~override~         
-
-SAY NAME1 @200100 /*  */ 
-SAY NAME2 @200101 /*  */
-SAY UNIDENTIFIED_DESC @200102 /* */
-SAY DESC @200103 /* */
-SAY 270 @200104 /* */
-SAY 318 @200105 /* */
-
-// RUNAS DE LA UNIVERSALIDAD
-
-COPY ~Dusk/Items/p_nbk10.itm~ ~override~         
-
-SAY NAME1 @200106 /*  */ 
-SAY NAME2 @200107 /*  */
-SAY UNIDENTIFIED_DESC @200108 /* */
-SAY DESC @200109 /* */
-SAY 366 @200110 /* */
-
-// ORBE DE LA TORMENTA
-
-COPY ~Dusk/Items/p_nbk11.itm~ ~override~         
-
-SAY NAME1 @200110 /*  */ 
-SAY NAME2 @200111 /*  */
-SAY UNIDENTIFIED_DESC @200112 /* */
-SAY DESC @200113 /* */
-SAY 270 @200114 /* */
-SAY 318 @200115 /* */
-
-// TOMO DE DESTREZA THAYINA
-
-COPY ~Dusk/Items/p_nbk12.itm~ ~override~         
-
-SAY NAME1 @200116 /*  */ 
-SAY NAME2 @200117 /*  */
-SAY UNIDENTIFIED_DESC @200118 /* */
-SAY DESC @200119 /* */
-SAY 366 @200120 /* */
-
-// POCIÓN CAÓTICO MALIGNO
-
-COPY ~Dusk/Items/p_POTN90.itm~ ~override~         
-
-SAY NAME1 @200121 /*  */ 
-SAY NAME2 @200122 /*  */
-SAY UNIDENTIFIED_DESC @200123 /* */
-SAY DESC @200124 /* */
-SAY 222 @200125 /* */
-
-// POCIÓN NEUTRAL MALIGNO
-
-COPY ~Dusk/Items/p_POTN91.itm~ ~override~         
-
-SAY NAME1 @200126 /*  */ 
-SAY NAME2 @200127 /*  */
-SAY UNIDENTIFIED_DESC @200128 /* */
-SAY DESC @200129 /* */
-SAY 270 @200130 /* */
-
-// POCIÓN LEGAL MALIGNO
-
-COPY ~Dusk/Items/p_POTN92.itm~ ~override~         
-
-SAY NAME1 @200131 /*  */ 
-SAY NAME2 @200132 /*  */
-SAY UNIDENTIFIED_DESC @200133 /* */
-SAY DESC @200134 /* */
-SAY 318 @200135 /* */
-
-// POCIÓN CAÓTICO NEUTRAL
-
-COPY ~Dusk/Items/p_POTN93.itm~ ~override~         
-
-SAY NAME1 @200136 /*  */ 
-SAY NAME2 @200137 /*  */
-SAY UNIDENTIFIED_DESC @200138 /* */
-SAY DESC @200139 /* */
-SAY 222 @200140 /* */
-
-// POCIÓN NEUTRAL AUTÉNTICO
-
-COPY ~Dusk/Items/p_POTN94.itm~ ~override~         
-
-SAY NAME1 @200141 /*  */ 
-SAY NAME2 @200142 /*  */
-SAY UNIDENTIFIED_DESC @200143 /* */
-SAY DESC @200144 /* */
-SAY 270 @200145 /* */
-
-// POCIÓN LEGAL NEUTRAL
-
-COPY ~Dusk/Items/p_POTN95.itm~ ~override~         
-
-SAY NAME1 @200146 /*  */ 
-SAY NAME2 @200147 /*  */
-SAY UNIDENTIFIED_DESC @200148 /* */
-SAY DESC @200149 /* */
-SAY 318 @200150 /* */
-
-// POCIÓN CAÓTICO BUENO
-
-COPY ~Dusk/Items/p_POTN96.itm~ ~override~         
-
-SAY NAME1 @200151 /*  */ 
-SAY NAME2 @200152 /*  */
-SAY UNIDENTIFIED_DESC @200153 /* */
-SAY DESC @200154 /* */
-SAY 222 @200155 /* */
-
-// POCIÓN NEUTRAL BUENO
-
-COPY ~Dusk/Items/p_POTN97.itm~ ~override~         
-
-SAY NAME1 @200156 /*  */ 
-SAY NAME2 @200157 /*  */
-SAY UNIDENTIFIED_DESC @200158 /* */
-SAY DESC @200159 /* */
-SAY 270 @200160 /* */
-
-// POCIÓN LEGAL BUENO
-
-COPY ~Dusk/Items/p_POTN98.itm~ ~override~         
-
-SAY NAME1 @200161 /*  */ 
-SAY NAME2 @200162 /*  */
-SAY UNIDENTIFIED_DESC @200163 /* */
-SAY DESC @200164 /* */
-SAY 318 @200165 /* */
-
-// POCIÓN DE RASHEMEN
-
-COPY ~Dusk/Items/p_POTN99.itm~ ~override~         
-
-SAY NAME1 @200166 /*  */ 
-SAY NAME2 @200167 /*  */
-SAY UNIDENTIFIED_DESC @200168 /* */
-SAY DESC @200169 /* */
-SAY 318 @200170 /* */
-
-// FUROR ÉPICO
-
-COPY ~Dusk/Items/p_shasw1.itm~ ~override~         
-
-SAY NAME1 @200171 /*  */ 
-SAY NAME2 @200172 /*  */
-SAY UNIDENTIFIED_DESC @200173 /* */
-SAY DESC @200174 /* */
-SAY 1086 @200175 /* */
 
 // COLMILLO DE LARLOCH
+COPY ~Dusk/Items/P_SW1H00.itm~ ~override~ 
+SAY NAME1 @400001 /*  */ 
+SAY NAME2 @400177 /*  */
+SAY UNIDENTIFIED_DESC @400003 /* */
+SAY DESC @400179 /* */
+SAY 222 @400180 /* */
+SAY 270 @400181 /* */
+SAY 894 @400182 /* */
 
-COPY ~Dusk/Items/P_SW1H00.itm~ ~override~         
 
-SAY NAME1 @200176 /*  */ 
-SAY NAME2 @200177 /*  */
-SAY UNIDENTIFIED_DESC @200178 /* */
-SAY DESC @200179 /* */
-SAY 222 @200180 /* */
-SAY 270 @200181 /* */
-SAY 894 @200182 /* */
+// KIKUICHIMONJI ****************
+COPY ~Dusk/Items/P_SW1H01.itm~ ~override~ 
+SAY NAME1 @400183 /*  */ 
+SAY NAME2 @400184 /*  */
+SAY UNIDENTIFIED_DESC @400185 /* */
+SAY DESC @400186 /* */
 
-// KIKUICHIMONJI
+// jissen-kenbu *******************
+COPY ~Dusk/Items/P_SW1H02.itm~ ~override~  
+SAY NAME1 @400187 /*  */ 
+SAY NAME2 @400188 /*  */
+SAY UNIDENTIFIED_DESC @400189 /* */
+SAY DESC @400190 /* */
+SAY 518 @400191 /* */
 
-COPY ~Dusk/Items/P_SW1H01.itm~ ~override~         
+// MUGENJIN  Katana
+COPY ~Dusk/Items/P_SW1H03.itm~ ~override~   
+SAY NAME1 @400183 /*  */ 
+SAY NAME2 @400193 /*  */
+SAY UNIDENTIFIED_DESC @400185 /* */
+SAY DESC @400195 /* */
 
-SAY NAME1 @200183 /*  */ 
-SAY NAME2 @200184 /*  */
-SAY UNIDENTIFIED_DESC @200185 /* */
-SAY DESC @200186 /* */
+// SHIN-USHI  Katana
+COPY ~Dusk/Items/P_SW1H04.itm~ ~override~  
+SAY NAME1 @400183 /*  */ 
+SAY NAME2 @400197 /*  */
+SAY UNIDENTIFIED_DESC @400185 /* */
+SAY DESC @400199 /* */
+SAY 462 @400200 /* */
+SAY 510 @400201 /* */
+SAY 558 @400202 /* */
+SAY 606 @400203 /* */
+SAY 654 @400204 /* */
 
-// jissen-kenbu
+// kaiten-kenbu *******************
+COPY ~Dusk/Items/P_SW1H05.itm~ ~override~  
+SAY NAME1 @400187 /*  */ 
+SAY NAME2 @400206 /*  */
+SAY UNIDENTIFIED_DESC @400189 /* */
+SAY DESC @400208 /* */
 
-COPY ~Dusk/Items/P_SW1H02.itm~ ~override~         
 
-SAY NAME1 @200187 /*  */ 
-SAY NAME2 @200188 /*  */
-SAY UNIDENTIFIED_DESC @200189 /* */
-SAY DESC @200190 /* */
-SAY 518 @200191 /* */
-
-// MUGENJIN
-
-COPY ~Dusk/Items/P_SW1H03.itm~ ~override~         
-
-SAY NAME1 @200192 /*  */ 
-SAY NAME2 @200193 /*  */
-SAY UNIDENTIFIED_DESC @200194 /* */
-SAY DESC @200195 /* */
-
-// SHIN-USHI
-
-COPY ~Dusk/Items/P_SW1H04.itm~ ~override~         
-
-SAY NAME1 @200196 /*  */ 
-SAY NAME2 @200197 /*  */
-SAY UNIDENTIFIED_DESC @200198 /* */
-SAY DESC @200199 /* */
-SAY 462 @200200 /* */
-SAY 510 @200201 /* */
-SAY 558 @200202 /* */
-SAY 606 @200203 /* */
-SAY 654 @200204 /* */
-
-// kaiten-kenbu
-
-COPY ~Dusk/Items/P_SW1H05.itm~ ~override~         
-
-SAY NAME1 @200205 /*  */ 
-SAY NAME2 @200206 /*  */
-SAY UNIDENTIFIED_DESC @200207 /* */
-SAY DESC @200208 /* */
-
-// Espada de Delryn
-
-COPY ~Dusk/Items/p_swanom.itm~ ~override~         
-
-SAY NAME1 @200209 /*  */ 
-SAY NAME2 @200210 /*  */
-SAY UNIDENTIFIED_DESC @200211 /* */
-SAY DESC @200212 /* */
-SAY 558 @200213 /* */
 
 // Ventisca del Averno
-
-COPY ~Dusk/Items/p_sw1h06.itm~ ~override~         
-
-SAY NAME1 @200214 /*  */ 
-SAY NAME2 @200215 /*  */
-SAY UNIDENTIFIED_DESC @200216 /* */
-SAY DESC @200217 /* */
-
-// SET de WIZARDSLAYER
-// ESPERANZA DE BENORK
-
-COPY ~Dusk/Items/p_wsam.itm~ ~override~         
+COPY ~Dusk/Items/p_sw1h06.itm~ ~override~
+SAY NAME1 @400007 /*  */ 
+SAY NAME2 @400215 /*  */
+SAY UNIDENTIFIED_DESC @400009 /* */
+SAY DESC @400217 /* */
 
 
-SAY NAME1 @200218 /*  */ 
-SAY NAME2 @200219 /*  */
-SAY UNIDENTIFIED_DESC @200220 /* */
-SAY DESC @200221 /* */
-
-// Defensa de Aznagarb
-
-COPY ~Dusk/Items/p_wsbrac.itm~ ~override~         
-
-
-SAY NAME1 @200222 /*  */ 
-SAY NAME2 @200223 /*  */
-SAY UNIDENTIFIED_DESC @200224 /* */
-SAY DESC @200225 /* */
-
-// Camino de los Ancestros
-
-COPY ~Dusk/Items/p_wsboot.itm~ ~override~         
-
-
-SAY NAME1 @200226 /*  */ 
-SAY NAME2 @200227 /*  */
-SAY UNIDENTIFIED_DESC @200228 /* */
-SAY DESC @200229 /* */
-SAY 886 @200230 /* */
-SAY 934 @200231 /* */
-SAY 982 @200232 /* */
-SAY 1030 @200233 /* */
-SAY 1078 @200234 /* */
-SAY 1126 @200235 /* */
-SAY 1174 @200236 /* */
-SAY 1222 @200237 /* */
-SAY 1270 @200238 /* */
-SAY 1414 @200239 /* */
-SAY 1462 @200240 /* */
-SAY 1510 @200241 /* */
-
-// Protección de Aznagarb
-
-COPY ~Dusk/Items/p_wsclk.itm~ ~override~         
-
-
-SAY NAME1 @200242 /*  */ 
-SAY NAME2 @200243 /*  */
-SAY UNIDENTIFIED_DESC @200244 /* */
-SAY DESC @200245 /* */
-
-// Fortaleza de Benork
-
-COPY ~Dusk/Items/p_wsash.itm~ ~override~         
-
-
-SAY NAME1 @200246 /*  */ 
-SAY NAME2 @200247 /*  */
-SAY UNIDENTIFIED_DESC @200248 /* */
-SAY DESC @200249 /* */
-
-// Iris de Tempus
-
-COPY ~Dusk/Items/p_wshelm.itm~ ~override~         
-
-SAY NAME1 @200250 /*  */ 
-SAY NAME2 @200251 /*  */
-SAY UNIDENTIFIED_DESC @200252 /* */
-SAY DESC @200253 /* */
-SAY 518 @200254 /* */
-SAY 566 @200255 /* */
-SAY 998 @200256 /* */
-SAY 1142 @200257 /* */
-SAY 1190 @200258 /* */
-
-// Respiro del Linaje
-
-COPY ~Dusk/Items/p_wsrng1.itm~ ~override~         
-
-SAY NAME1 @200259 /*  */ 
-SAY NAME2 @200260 /*  */
-SAY UNIDENTIFIED_DESC @200261 /* */
-SAY DESC @200262 /* */
-
-// Latido de Calia
-
-COPY ~Dusk/Items/p_wsrng2.itm~ ~override~         
-
-SAY NAME1 @200263 /*  */ 
-SAY NAME2 @200264 /*  */
-SAY UNIDENTIFIED_DESC @200265 /* */
-SAY DESC @200266 /* */
-
-// Vengadora Real
-
-COPY ~Dusk/Items/P_WSSTP.itm~ ~override~         
-
-SAY NAME1 @200267 /*  */ 
-SAY NAME2 @200268 /*  */
-SAY UNIDENTIFIED_DESC @200269 /* */
-SAY DESC @200270 /* */
-SAY 846 @200271 /* */
+///////////////////////////////////////////////
+// BELLFAME
 
 COPY ~Dusk/Summonings~ ~override~
-
 // Bellfame's Ring
-
-COPY ~Dusk/Summonings/p_belrng.itm~ ~override~         
-
-SAY NAME1 @200272 /*  */ 
-SAY NAME2 @200273 /*  */
-SAY UNIDENTIFIED_DESC @200274 /* */
-SAY DESC @200275 /* */
+COPY ~Dusk/Summonings/p_belrng.itm~ ~override~
+SAY NAME1 @400259 /*  */ 
+SAY NAME2 @400273 /*  */
+SAY UNIDENTIFIED_DESC @400261 /* */
+SAY DESC @400275 /* */
 //SAY 846 @ /* */
+
+// Bellfame's Ring (2nd version)
+COPY ~Dusk/Summonings/p_belrn2.itm~ ~override~ 
+SAY NAME1 @400259 /*  */ 
+SAY NAME2 @400273 /*  */
+SAY UNIDENTIFIED_DESC @400261 /* */
+SAY DESC @400390 /* */
+
+// Portrait Bellfame
+COPY ~Dusk/Summonings/p_bellf.baf~ ~override~
 COPY ~Dusk/Characters/p_bells.bmp~ ~override~
-
 COPY ~Dusk/Summonings/p_bellf.cre~ ~override~
-SAY NAME1 @200276 /* Bellfame */
-SAY NAME2 @200276 /* Bellfame */
-
-
+SAY NAME1 @400276 /* Bellfame */
+SAY NAME2 @400276 /* Bellfame */
+WRITE_ASCII 0x248 ~P_BELLF~  #8  // override script
+WRITE_ASCII 0x2cc ~P_BELLD~  #8  // dialogue file
+WRITE_ASCII 0x280 ~P_BELLF~  #32 // death variable
+WRITE_ASCII 0X34  ~P_BELLS~ #8  // small portrait
+//cre for quest 3
+COPY ~Dusk/Summonings/p_bell2.cre~ ~override~
+SAY NAME1 @400276 /* Bellfame */
+SAY NAME2 @400276 /* Bellfame */
 WRITE_ASCII 0x248 ~NYMPH~  #8  // override script
-WRITE_ASCII 0x2cc ~FAMIL1~  #8  // dialogue file
+WRITE_ASCII 0x2cc ~P_BELL2~  #8  // dialogue file
 WRITE_ASCII 0x280 ~NYMPHSU~  #32 // death variable
 WRITE_ASCII 0X34  ~P_BELLS~ #8  // small portrait
+// Bellfame Spell
+COPY ~Dusk/Summonings/p_forest.spl~ ~override~         
+SAY 8 @400286 /*  */ 
+SAY 80 @400287 /*  */
 
+// Baba el ratÃ³n nervioso
 COPY ~Dusk/Summonings/p_baba.cre~ ~override~
-SAY NAME1 @200277 /* Baba, el Ratón Nervioso */
-SAY NAME2 @200277 /* Baba, el Ratón Nervioso */
+SAY NAME1 @400277 /* Baba, el Ratï¿½n Nervioso */
+SAY NAME2 @400277 /* Baba, el Ratï¿½n Nervioso */
 SAY BATTLE_CRY1 ~~ [P_Baba09]
 SAY BATTLE_CRY2 ~~ [P_Baba10]
 SAY BATTLE_CRY3 ~~ [P_Baba11]
@@ -889,156 +960,782 @@ SAY SELECT_ACTION6 ~~ [P_Baba04]
 SAY SELECT_ACTION7 ~~ [P_Baba05]
 SAY SELECT_RARE1 ~~ [P_Baba01]
 SAY SELECT_RARE2 ~~ [P_Baba02]
-
-
 WRITE_ASCII 0X34  ~P_BABAS~ #8  // small portrait
-
-ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
-COPY ~Dusk/Characters/P_BABAS.bmp~ ~override/P_BABAS.bmp~ 
-END
-
-COPY ~Dusk/Summonings/p_jack.cre~ ~override~
-SAY NAME1 @200278 /* Jack, el Lobo de Invierno */
-SAY NAME2 @200278 /* Jack, el Lobo de Invierno */
-
-COPY ~Dusk/Summonings/p_sayang.cre~ ~override~
-SAY NAME1 @200279 /* Sayang, la Loba Worg */
-SAY NAME2 @200279 /* Sayang, la Loba Worg */
-
-COPY ~Dusk/Summonings/p_thiago.cre~ ~override~
-SAY NAME1 @200280 /* Thiago, el Oso Pardo */
-SAY NAME2 @200280 /* Thiago, el Oso Pardo */
-
-COPY ~Dusk/Summonings/p_uma.cre~ ~override~
-SAY NAME1 @200281 /* Uma, la Loba de las Sombras */
-SAY NAME2 @200281 /* Uma, la Loba de las Sombras */
-
-COPY ~Dusk/Summonings/p_babatt.itm~ ~override~         
-
-SAY NAME1 @200282 /*  */ 
-SAY NAME2 @200283 /*  */
-SAY UNIDENTIFIED_DESC @200284 /* */
-SAY DESC @200285 /* */
-
-COPY ~Dusk/Summonings/p_forest.spl~ ~override~         
-
-SAY 8 @200286 /*  */ 
-SAY 80 @200287 /*  */
-
+//ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
+//COPY ~Dusk/Characters/P_BABAS.bmp~ ~override/P_BABAS.bmp~ 
+//END
+// Baba melee weapon
+COPY ~Dusk/Summonings/p_babatt.itm~ ~override~
+SAY NAME1 @400282 /*  */ 
+SAY NAME2 @400283 /*  */
+SAY UNIDENTIFIED_DESC @400284 /* */
+SAY DESC @400285 /* */
+// Baba Innate ability
 COPY ~Dusk/Summonings/p_babsp1.spl~ ~override~         
+SAY 8 @400288 /*  */ 
+SAY 782 @400289 /*  */
+SAY 830 @400290 /*  */
+SAY 80 @400291 /*  */ 
 
-SAY 8 @200288 /*  */ 
-SAY 782 @200289 /*  */
-SAY 830 @200290 /*  */
-SAY 80 @200291 /*  */ 
+// Jack, el lobo del invierno
+COPY ~Dusk/Summonings/p_jack.cre~ ~override~
+SAY NAME1 @400278 /* Jack, el Lobo de Invierno */
+SAY NAME2 @400278 /* Jack, el Lobo de Invierno */
+WRITE_ASCII 0x2cc ~p_jack~  #8  // dialogue file
+WRITE_ASCII 0X34  ~p_jack~ #8  // small portrait
 
+
+// Cono de frï¿½o de JACK
+COPY ~Dusk/Summonings/p_spcono.spl~ ~override~  
+
+// Sayang, la loba worg
+COPY ~Dusk/Summonings/p_sayang.cre~ ~override~
+SAY NAME1 @400279 /* Sayang, la Loba Worg */
+SAY NAME2 @400279 /* Sayang, la Loba Worg */
+WRITE_ASCII 0x2cc ~p_sayang~  #8  // dialogue file
+WRITE_ASCII 0X34  ~p_sayang~ #8  // small portrait
+
+
+// Uma la loba de las sombras
+COPY ~Dusk/Summonings/p_uma.cre~ ~override~
+SAY NAME1 @400281 /* Uma, la Loba de las Sombras */
+SAY NAME2 @400281 /* Uma, la Loba de las Sombras */
+WRITE_ASCII 0x2cc ~p_uma~  #8  // dialogue file
+WRITE_ASCII 0X34  ~p_uma~ #8  // small portrait
+
+
+// Thiago el oso
+COPY ~Dusk/Summonings/p_thiago.cre~ ~override~
+SAY NAME1 @400280 /* Thiago, el Oso Pardo */
+SAY NAME2 @400280 /* Thiago, el Oso Pardo */
+WRITE_ASCII 0x2cc ~p_thiago~  #8  // dialogue file
+WRITE_ASCII 0X34  ~p_thiago~ #8  // small portrait
+
+// BEAR: Innate Spell: ValentÃ­a del oso
 COPY ~Dusk/Summonings/p_thisp1.spl~ ~override~         
+SAY 8 @400292 /*  */ 
+SAY 80 @400293 /*  */
+SAY 542 @400294 /*  */
+SAY 590 @400295 /*  */ 
 
-SAY 8 @200292 /*  */ 
-SAY 80 @200293 /*  */
-SAY 542 @200294 /*  */
-SAY 590 @200295 /*  */ 
-
+// BEAR: Innate Spell: Poder Sagrado del Oso
 COPY ~Dusk/Summonings/p_thisp2.spl~ ~override~         
+SAY 8 @400296 /*  */ 
+SAY 80 @400297 /*  */
+SAY 286 @400298 /*  */
+SAY 862 @400299 /*  */ 
+SAY 1438 @400300 /*  */
 
-SAY 8 @200296 /*  */ 
-SAY 80 @200297 /*  */
-SAY 286 @200298 /*  */
-SAY 862 @200299 /*  */ 
-SAY 1438 @200300 /*  */
+// BEAR: Innate Spell: Oso Endurecido
+COPY ~Dusk/Summonings/p_thisp3.spl~ ~override~
+SAY 8 @400301 /*  */ 
+SAY 80 @400302 /*  */
 
-COPY ~Dusk/Summonings/p_thisp3.spl~ ~override~         
-
-SAY 8 @200301 /*  */ 
-SAY 80 @200302 /*  */
-
+//////////////////////////////////////////////////////
 // Nuevos NPC not joinables
 // Michelson
 COPY ~Dusk/Characters/p_michx.itm~ ~override~
 COPY ~Dusk/Characters/p_michel.cre~ ~override~
-SAY NAME1 @200303 /* Michelson, el Leprechaun */
-SAY NAME2 @200303 /* Michelson, el Leprechaun */
-
+SAY NAME1 @400303 /* Michelson, el Leprechaun */
+SAY NAME2 @400303 /* Michelson, el Leprechaun */
+SAY BATTLE_CRY1 ~~ [P_Mich00]
+SAY BATTLE_CRY2 ~~ [P_Mich01]
+SAY BATTLE_CRY3 ~~ [P_Mich02]
+SAY BATTLE_CRY4 ~~ [P_Mich03]
+SAY BATTLE_CRY5 ~~ [P_Mich04]
+//SAY DAMAGE ~~ 
+SAY SELECT_COMMON1 ~~ [P_Mich00]
+SAY SELECT_COMMON2 ~~ [P_Mich01]
+SAY SELECT_COMMON3 ~~ [P_Mich02]
+SAY SELECT_COMMON4 ~~ [P_Mich03]
+SAY SELECT_COMMON5 ~~ [P_Mich04]
+SAY SELECT_COMMON6 ~~ [P_Mich00]
+SAY SELECT_ACTION1 ~~ [P_Mich01]
+SAY SELECT_ACTION2 ~~ [P_Mich02]
+SAY SELECT_ACTION3 ~~ [P_Mich03]
+SAY SELECT_ACTION4 ~~ [P_Mich04]
+SAY SELECT_ACTION5 ~~ [P_Mich00]
+SAY SELECT_ACTION6 ~~ [P_Mich01]
+SAY SELECT_ACTION7 ~~ [P_Mich02]
+SAY SELECT_RARE1 ~~ [P_Mich03]
+SAY SELECT_RARE2 ~~ [P_Mich04]
 WRITE_ASCII 0x2cc ~p_michel~ #8
 WRITE_ASCII 0x34  ~p_michs~ #8  // small portrait
-
-ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
-COPY ~Dusk/Characters/p_michs.bmp~ ~override/p_michs.bmp~ 
-END
+WRITE_ASCII 0x248 ~p_michel~ #8  // OVERRIDE SCRIPT - Diï¿½logos acerca de los comandos, banthers, etc (coincide con el nombre del archivo BAF)
+//ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
+//COPY ~Dusk/Characters/p_michs.bmp~ ~override/p_michs.bmp~ 
+//END
 
 // Mathyus Davis
 COPY ~Dusk/Characters/p_matut.cre~ ~override~
-SAY NAME1 @200304 /* Mathyus Davis */
-SAY NAME2 @200304 /* Mathyus Davis */
-
+SAY NAME1 @400304 /* Mathyus Davis */
+SAY NAME2 @400304 /* Mathyus Davis */
 WRITE_ASCII 0x2cc ~p_matut~ #8 // dialog file
 WRITE_ASCII 0X34  ~p_mats~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_matut~ #8  // OVERRIDE SCRIPT - Diï¿½logos acerca de los comandos, banthers, etc (coincide con el nombre del archivo BAF)
+//ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
+//COPY ~Dusk/Characters/p_mats.bmp~ ~override/p_mats.bmp~ 
+//END
 
-ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
-COPY ~Dusk/Characters/p_mats.bmp~ ~override/p_mats.bmp~ 
-END
+// Demoledor, el perro de Mathyus
+//Item convocacion (es necesario?)
+COPY ~Dusk/Characters/p_demscr.itm~ ~override~
+SAY NAME1 @330006 /*   */ 
+SAY NAME2 @330007 /*  */
+SAY UNIDENTIFIED_DESC @330008 /* */
+SAY DESC @330009 /* */
+// DEMOLEDOR - CREATURE file
+COPY ~Dusk/Characters/p_demole.cre~ ~override~
+SAY NAME1 @400321 /* Demoledor */
+SAY NAME2 @400321 /* Demoledor */
+SAY BATTLE_CRY1 ~~ [P_Demo01]
+SAY BATTLE_CRY2 ~~ [P_Demo02]
+SAY BATTLE_CRY3 ~~ [P_Demo01]
+SAY BATTLE_CRY4 ~~ [P_Demo02]
+SAY BATTLE_CRY5 ~~ [P_Demo01]
+//SAY DAMAGE ~~ 
+SAY SELECT_COMMON1 ~~ [P_Demo01]
+SAY SELECT_COMMON2 ~~ [P_Demo02]
+SAY SELECT_COMMON3 ~~ [P_Demo01]
+SAY SELECT_COMMON4 ~~ [P_Demo02]
+SAY SELECT_COMMON5 ~~ [P_Demo01]
+SAY SELECT_COMMON6 ~~ [P_Demo02]
+SAY SELECT_ACTION1 ~~ [P_Demo01]
+SAY SELECT_ACTION2 ~~ [P_Demo02]
+SAY SELECT_ACTION3 ~~ [P_Demo01]
+SAY SELECT_ACTION4 ~~ [P_Demo02]
+SAY SELECT_ACTION5 ~~ [P_Demo01]
+SAY SELECT_ACTION6 ~~ [P_Demo02]
+SAY SELECT_ACTION7 ~~ [P_Demo01]
+SAY SELECT_RARE1 ~~ [P_Demo02]
+SAY SELECT_RARE2 ~~ [P_Demo01]
+WRITE_ASCII 0x2cc ~p_demole~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_demole~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_demole~ #8  // OVERRIDE SCRIPT
+
+// Falon, la Cacique Orco
+COPY ~Dusk/Characters/p_falon.cre~ ~override~
+SAY NAME1 @400322 /* Falon, la cacique orco */
+SAY NAME2 @400322 /* Falon, la cacique orco */
+WRITE_ASCII 0x2cc ~p_falon~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_falon~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_falon~ #8  // OVERRIDE SCRIPT
+// Falon, cre file for quest 3
+COPY ~Dusk/Characters/m3good_allies/p_falo2.cre~ ~override~
+SAY NAME1 @400322 /* Falon, la cacique orco */
+SAY NAME2 @400322 /* Falon, la cacique orco */
+WRITE_ASCII 0x2cc ~p_falo2~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_falon~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_falon~ #8  // OVERRIDE SCRIPT
+
+// Cufa-Tima, el Ettin
+COPY ~Dusk/Characters/p_cufati.cre~ ~override~
+SAY NAME1 @400323 /* Cufa-Tima, el Ettin */
+SAY NAME2 @400323 /* Cufa-Tima, el Ettin */
+WRITE_ASCII 0x2cc ~p_cufati~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_cufati~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_cufati~ #8  // OVERRIDE SCRIPT
+// cre file for quest 3
+COPY ~Dusk/Characters/m3good_allies/p_cufat2.cre~ ~override~
+SAY NAME1 @400323 /* Cufa-Tima, el Ettin */
+SAY NAME2 @400323 /* Cufa-Tima, el Ettin */
+WRITE_ASCII 0x2cc ~p_cufat2~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_cufati~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_cufati~ #8  // OVERRIDE SCRIPT
+
+// Ziben, la gnoll
+COPY ~Dusk/Characters/p_ziben.cre~ ~override~
+SAY NAME1 @400324 /* Ziben, la gnoll */
+SAY NAME2 @400324 /* Ziben, la gnoll */
+WRITE_ASCII 0x2cc ~p_ziben~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_ziben~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_ziben~ #8  // OVERRIDE SCRIPT
+// cre file for quest 3
+COPY ~Dusk/Characters/m3good_allies/p_zibe2.cre~ ~override~
+SAY NAME1 @400324 /* Ziben, la gnoll */
+SAY NAME2 @400324 /* Ziben, la gnoll */
+WRITE_ASCII 0x2cc ~p_zibe2~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_ziben~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_ziben~ #8  // OVERRIDE SCRIPT
+
+// Coco, la chamï¿½n trasgo
+COPY ~Dusk/Characters/p_coco.cre~ ~override~
+SAY NAME1 @400325 /* Coco, la chamï¿½n trasgo */
+SAY NAME2 @400325 /* Coco, la chamï¿½n trasgo */
+WRITE_ASCII 0x2cc ~p_coco~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_coco~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_coco~ #8  // OVERRIDE SCRIPT
+// cre file for quest 3
+COPY ~Dusk/Characters/m3good_allies/p_coc2.cre~ ~override~
+SAY NAME1 @400325 /* Coco, la chamï¿½n trasgo */
+SAY NAME2 @400325 /* Coco, la chamï¿½n trasgo */
+WRITE_ASCII 0x2cc ~p_coc2~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_coco~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_coco~ #8  // OVERRIDE SCRIPT
+
+// Sornhil, el Encantador
+COPY ~Dusk/Characters/p_sornhi.cre~ ~override~
+SAY NAME1 @400326 /* Sornhil, el Encantador */
+SAY NAME2 @400326 /* Sornhil, el Encantador */
+WRITE_ASCII 0x2cc ~p_sornhi~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_sornhi~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_sornhi~ #8  // OVERRIDE SCRIPT
+
+/////////////// CLAN_ORCO ////////////////////////
+// Alabarza, el Mutilador
+
+COPY ~Dusk/Characters/clan_orco/p_alabar.cre~ ~override~
+SAY NAME1 @400359 /* Alabarza, el Mutilador */
+SAY NAME2 @400359 /* Alabarza, el Mutilador */
+WRITE_ASCII 0x2cc ~p_alabar~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_alabar~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_alabar~ #8  // OVERRIDE SCRIPT
+
+COPY ~Dusk/Characters/clan_orco/p_alaba2.cre~ ~override~
+SAY NAME1 @400359 /* Alabarza, el Mutilador */
+SAY NAME2 @400359 /* Alabarza, el Mutilador */
+WRITE_ASCII 0x2cc ~p_alaba2~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_alabar~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_alaba2~ #8  // OVERRIDE SCRIPT
+
+COPY ~Dusk/Characters/clan_orco/p_bob.cre~ ~override~
+SAY NAME1 @400360 /* Bob */
+SAY NAME2 @400360 /* Bob */
+WRITE_ASCII 0x2cc ~p_bob~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_bob~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_bob~ #8  // OVERRIDE SCRIPT
+
+COPY ~Dusk/Characters/clan_orco/p_kocha.cre~ ~override~
+SAY NAME1 @400361 /* Kocha, el bersï¿½rker */
+SAY NAME2 @400361 /* Kocha, el bersï¿½rker */
+WRITE_ASCII 0x2cc ~p_kocha~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_kocha~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_kocha~ #8  // OVERRIDE SCRIPT
+
+COPY ~Dusk/Characters/clan_orco/p_komar.cre~ ~override~
+SAY NAME1 @400362 /* Komar, el ogro */
+SAY NAME2 @400362 /* Komar, el ogro */
+WRITE_ASCII 0x2cc ~p_komar~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_komar~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_komar~ #8  // OVERRIDE SCRIPT
+
+COPY ~Dusk/Characters/clan_orco/p_mike.cre~ ~override~
+SAY NAME1 @400363 /* Mike */
+SAY NAME2 @400363 /* Mike */
+WRITE_ASCII 0x2cc ~p_mike~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_mike~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_mike~ #8  // OVERRIDE SCRIPT
+
+COPY ~Dusk/Characters/clan_orco/p_serra.cre~ ~override~
+SAY NAME1 @400364 /* Serrano, el carnicero */
+SAY NAME2 @400364 /* Serrano, el carnicero */
+WRITE_ASCII 0x2cc ~p_serra~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_serra~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_serra~ #8  // OVERRIDE SCRIPT
+
+COPY ~Dusk/Characters/clan_orco/p_tongas.cre~ ~override~
+SAY NAME1 @400365 /* Tongas, el hechicero */
+SAY NAME2 @400365 /* Tongas, el hechicero */
+WRITE_ASCII 0x2cc ~p_tongas~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_tongas~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_tongas~ #8  // OVERRIDE SCRIPT
+
+COPY ~Dusk/Characters/clan_orco/p_toxsan.cre~ ~override~
+SAY NAME1 @400366 /* Toxsan-Chimi, el ettin */
+SAY NAME2 @400366 /* Toxsan-Chimi, el ettin */
+WRITE_ASCII 0x2cc ~p_toxsan~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_toxsan~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_toxsan~ #8  // OVERRIDE SCRIPT
+
+COPY ~Dusk/Characters/clan_orco/p_xeb.cre~ ~override~
+SAY NAME1 @400367 /* Xeb'Tian, el torturador */
+SAY NAME2 @400367 /* Xeb'Tian, el torturador */
+WRITE_ASCII 0x2cc ~p_xeb~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_xeb~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_xeb~ #8  // OVERRIDE SCRIPT
+
+//////////////////////////////////////////////////////
+
+// Valatar, el Conjurador
+COPY ~Dusk/Characters/p_valata.cre~ ~override~
+SAY NAME1 @400373 /* Valatar, el Conjurador */
+SAY NAME2 @400373 /* Valatar, el Conjurador */
+WRITE_ASCII 0x2cc ~p_valata~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_valata~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_valata~ #8  // OVERRIDE SCRIPT
+
+// HurÃ³n Misterioso
+COPY ~Dusk/Characters/clan_orco/p_huron.cre~ ~override~
+SAY NAME1 @400389 /* Hurï¿½n misterioso */
+SAY NAME2 @400389 /* Hurï¿½n misterioso */
+WRITE_ASCII 0x2cc ~p_huron~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_huron~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_huron~ #8  // OVERRIDE SCRIPT
+
+// Sir Ryan Espinel
+COPY ~Dusk/Characters/m3good_allies/p_kayl2.cre~ ~override~
+SAY NAME1 @400391 /* Sir Ryan Espinel */
+SAY NAME2 @400391 /* Sir Ryan Espinel */
+WRITE_ASCII 0x2cc ~p_kayl2~ #8 // dialog file
+
+// Puki, el demonio abisal de Valatar
+COPY ~Dusk/Characters/p_dempit.cre~ ~override~
+SAY NAME1 @400392 /* Puki */
+SAY NAME2 @400392 /* Puki */
+
+// DANCTIAN
+COPY ~Dusk/Characters/p_dancti.cre~ ~override~
+SAY NAME1 @400416 /* Danctian */
+SAY NAME2 @400416 /* Danctian */
+WRITE_ASCII 0x2cc ~p_dancti~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_dancti~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_dancti~ #8  // OVERRIDE SCRIPT
+
+// Kalanda, el Transmutador
+COPY ~Dusk/Characters/p_kaland.cre~ ~override~
+SAY NAME1 @400423 /* Kalanda, el Transmutador */
+SAY NAME2 @400423 /* Kalanda, el Transmutador */
+WRITE_ASCII 0x2cc ~p_kaland~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_kaland~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_kaland~ #8  // OVERRIDE SCRIPT
+COPY ~Dusk/Items/p_kasum1.itm~ ~override~
+COPY ~Dusk/Items/p_kasum2.itm~ ~override~
+
+// Kalanda, el Transmutador2
+COPY ~Dusk/Characters/p_kalan2.cre~ ~override~
+SAY NAME1 @400423 /* Kalanda, el Transmutador */
+SAY NAME2 @400423 /* Kalanda, el Transmutador */
+WRITE_ASCII 0x2cc ~p_kaland~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_kaland~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_kaland~ #8  // OVERRIDE SCRIPT
+
+// Convocaciones de Kalanda
+COPY ~Dusk/Characters/p_mephit.cre~ ~override~
+SAY NAME1 @400424 /* Diablillo enfermo */
+SAY NAME2 @400424 /* Diablillo enfermo */
+WRITE_ASCII 0x248 ~p_mephit~ #8  // OVERRIDE SCRIPT
+COPY ~Dusk/Characters/p_worg.cre~ ~override~
+SAY NAME1 @400425 /* Worg dï¿½bil */
+SAY NAME2 @400425 /* Worg dï¿½bil */
+WRITE_ASCII 0x248 ~p_worg~ #8  // OVERRIDE SCRIPT
+COPY ~Dusk/Items/p_kasum1.itm~ ~override~
+COPY ~Dusk/Items/p_kasum2.itm~ ~override~
+
+// Anthagar, el Nigromante
+COPY ~Dusk/Characters/p_anthag.cre~ ~override~
+SAY NAME1 @400426 /* Anthagar, el Nigromante */
+SAY NAME2 @400426 /* Anthagar, el Nigromante */
+WRITE_ASCII 0x2cc ~p_anthag~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_anthag~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_anthag~ #8  // OVERRIDE SCRIPT
+
+// Anthagar, el Nigromante
+COPY ~Dusk/Characters/p_antha2.cre~ ~override~
+SAY NAME1 @400426 /* Anthagar, el Nigromante */
+SAY NAME2 @400426 /* Anthagar, el Nigromante */
+WRITE_ASCII 0x2cc ~p_anthag~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_anthag~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_anthag~ #8  // OVERRIDE SCRIPT
 
 
-// This code is also used by BG2 Fixpack - it would help you to run custom music for your NPC from "a clean slate", installing "blank" music you could run it with. Not everyone installs the Fixpack, though, so here we go:
-// Feel free to skip this code if you're not using any music in your mod, only your NPC's voice.
+// Nombre de las convocaciones: Veneno, Muerte y Destrucciï¿½n
+COPY ~Dusk/Characters/p_muerte.cre~ ~override~
+SAY NAME1 @400427 /* Muerte */
+SAY NAME2 @400427 /* Muerte */
+COPY ~Dusk/Items/p_muerte.itm~ ~override~
+
+COPY ~Dusk/Characters/p_veneno.cre~ ~override~
+SAY NAME1 @400428 /* Veneno */
+SAY NAME2 @400428 /* Veneno */
+COPY ~Dusk/Items/p_veneno.itm~ ~override~
+
+COPY ~Dusk/Characters/p_destru.cre~ ~override~
+SAY NAME1 @400429 /* Destrucciï¿½n */
+SAY NAME2 @400429 /* Destrucciï¿½n */
+COPY ~Dusk/Items/p_destru.itm~ ~override~
+
+// Espï¿½ritu de Celine
+COPY ~Dusk/Characters/p_celgh.cre~ ~override~
+SAY NAME1 @400434 /* Espï¿½ritu */
+SAY NAME2 @400434 /* Espï¿½ritu */
+WRITE_ASCII 0x2cc ~p_celgh~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_celgh~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_celgh~ #8  // OVERRIDE SCRIPT
+
+// Mathyus Poseï¿½do
+COPY ~Dusk/Characters/p_matu2.cre~ ~override~
+SAY NAME1 @400304 /* Mathyus Davis */
+SAY NAME2 @400304 /* Mathyus Davis */
+WRITE_ASCII 0x2cc ~p_matu2~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_mats~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_matu2~ #8  // OVERRIDE SCRIPT
+
+// Demoledor combatiente
+COPY ~Dusk/Characters/p_demol2.cre~ ~override~
+SAY NAME1 @400321 /* Demoledor */
+SAY NAME2 @400321 /* Demoledor */
+SAY BATTLE_CRY1 ~~ [P_Demo01]
+SAY BATTLE_CRY2 ~~ [P_Demo02]
+SAY BATTLE_CRY3 ~~ [P_Demo01]
+SAY BATTLE_CRY4 ~~ [P_Demo02]
+SAY BATTLE_CRY5 ~~ [P_Demo01]
+//SAY DAMAGE ~~ 
+SAY SELECT_COMMON1 ~~ [P_Demo01]
+SAY SELECT_COMMON2 ~~ [P_Demo02]
+SAY SELECT_COMMON3 ~~ [P_Demo01]
+SAY SELECT_COMMON4 ~~ [P_Demo02]
+SAY SELECT_COMMON5 ~~ [P_Demo01]
+SAY SELECT_COMMON6 ~~ [P_Demo02]
+SAY SELECT_ACTION1 ~~ [P_Demo01]
+SAY SELECT_ACTION2 ~~ [P_Demo02]
+SAY SELECT_ACTION3 ~~ [P_Demo01]
+SAY SELECT_ACTION4 ~~ [P_Demo02]
+SAY SELECT_ACTION5 ~~ [P_Demo01]
+SAY SELECT_ACTION6 ~~ [P_Demo02]
+SAY SELECT_ACTION7 ~~ [P_Demo01]
+SAY SELECT_RARE1 ~~ [P_Demo02]
+SAY SELECT_RARE2 ~~ [P_Demo01]
+WRITE_ASCII 0x2cc ~p_demol2~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_demole~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_demol2~ #8  // OVERRIDE SCRIPT
+
+// Convocaciones de Valatar
+COPY ~Dusk/Characters/p_dempi2.cre~ ~override~
+SAY NAME1 @400435 /* Glabrezu de Valatar */
+SAY NAME2 @400435 /* Glabrezu de Valatar */
+
+COPY ~Dusk/Characters/p_dempi3.cre~ ~override~
+SAY NAME1 @400436 /* Tanar'ri de Valatar */
+SAY NAME2 @400436 /* Tanar'ri de Valatar */
+
+COPY ~Dusk/Characters/p_muert2.cre~ ~override~
+SAY NAME1 @400427 /* Muerte */
+SAY NAME2 @400427 /* Muerte */
+
+// Michelson teleportation
+COPY ~Dusk/Spells/p_mictel.spl~ ~override~
+
+
+// Michelson 2 (Versiï¿½n que irï¿½ al AR1506)
+COPY ~Dusk/Characters/p_miche2.cre~ ~override~
+SAY NAME1 @400303 /* Michelson, el Leprechaun */
+SAY NAME2 @400303 /* Michelson, el Leprechaun */
+SAY BATTLE_CRY1 ~~ [P_Mich00]
+SAY BATTLE_CRY2 ~~ [P_Mich01]
+SAY BATTLE_CRY3 ~~ [P_Mich02]
+SAY BATTLE_CRY4 ~~ [P_Mich03]
+SAY BATTLE_CRY5 ~~ [P_Mich04]
+//SAY DAMAGE ~~ 
+SAY SELECT_COMMON1 ~~ [P_Mich00]
+SAY SELECT_COMMON2 ~~ [P_Mich01]
+SAY SELECT_COMMON3 ~~ [P_Mich02]
+SAY SELECT_COMMON4 ~~ [P_Mich03]
+SAY SELECT_COMMON5 ~~ [P_Mich04]
+SAY SELECT_COMMON6 ~~ [P_Mich00]
+SAY SELECT_ACTION1 ~~ [P_Mich01]
+SAY SELECT_ACTION2 ~~ [P_Mich02]
+SAY SELECT_ACTION3 ~~ [P_Mich03]
+SAY SELECT_ACTION4 ~~ [P_Mich04]
+SAY SELECT_ACTION5 ~~ [P_Mich00]
+SAY SELECT_ACTION6 ~~ [P_Mich01]
+SAY SELECT_ACTION7 ~~ [P_Mich02]
+SAY SELECT_RARE1 ~~ [P_Mich03]
+SAY SELECT_RARE2 ~~ [P_Mich04]
+WRITE_ASCII 0x2cc ~p_miche2~ #8 // d
+WRITE_ASCII 0x34  ~p_michs~ #8  // s portrait
+WRITE_ASCII 0x248 ~p_miche2~ #8  // baf
+//ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
+//COPY ~Dusk/Characters/p_michs.bmp~ ~override/p_michs.bmp~ 
+//END
+
+// Celine, verdadero espï¿½ritu
+COPY ~Dusk/Characters/p_celin.cre~ ~override~
+SAY NAME1 @400441 /* Celine */
+SAY NAME2 @400441 /* Celine */
+WRITE_ASCII 0x2cc ~p_celin~ #8 // d
+WRITE_ASCII 0x34  ~p_celin~ #8  // s portrait
+WRITE_ASCII 0x248 ~p_celin~ #8  // baf
+
+// Danctian 2 Final Mission
+COPY ~Dusk/Items/p_b1-6.itm~ ~override~
+COPY ~Dusk/Characters/p_danct2.cre~ ~override~
+SAY NAME1 @400416 /* Danctian */
+SAY NAME2 @400416 /* Danctian */
+WRITE_ASCII 0x2cc ~p_danct2~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_dancti~ #8  // small portrait
+WRITE_ASCII 0x248 ~p_danct2~ #8  // OVERRIDE SCRIPT
+
+// Danctian Replicas Guerreras
+COPY ~Dusk/Characters/p_danct3.cre~ ~override~
+SAY NAME1 @400416 /* Danctian */
+SAY NAME2 @400416 /* Danctian */
+WRITE_ASCII 0x248 ~p_danct3~ #8  // OVERRIDE SCRIPT
+
+
+// Puki, el demonio abisal de Valatar
+COPY ~Dusk/Characters/p_dempid.cre~ ~override~
+SAY NAME1 @400392 /* Puki */
+SAY NAME2 @400392 /* Puki */
+WRITE_ASCII 0x2cc ~p_dempid~ #8 // dialog file
+WRITE_ASCII 0X34  ~p_dempid~ #8  // small portrait
+
+/////////////////////////////////////////////////
+// KEY ITEMS
+
+// Libro de recetas Leprechaun
+COPY ~Dusk/Items/p_bookm.itm~ ~override~
+SAY NAME1 @400305 /* Libro  */ 
+SAY NAME2 @400306 /* Libro de recetas leprechaun */
+SAY UNIDENTIFIED_DESC @400307 /* El libro es incomprensible a la vista. Puede que un conjuro de identificaciï¿½n o el conocimiento de un bardo pueda resolverlo.*/
+SAY DESC @400308 /* */
+
+// Escudo roto de la Orden del Dragï¿½n Pï¿½rpura
+COPY ~Dusk/Items/p_brkshl.itm~ ~override~
+SAY NAME2 @400317 /*  */
+SAY DESC @400318 /* */
+
+// Orbe rojo de Sornhil
+COPY ~Dusk/Items/p_orbe1.itm~ ~override~
+SAY NAME1 @400052 /*  */
+SAY NAME2 @400327 /*  */
+SAY UNIDENTIFIED_DESC @400054 /* */
+SAY DESC @400328 /* */
+
+// EVIL ORB
+COPY ~Dusk/Items/p_orbe2e.itm~ ~override~
+SAY NAME1 @400052 /*  */
+SAY NAME2 @400327 /*  */
+SAY UNIDENTIFIED_DESC @400054 /* */
+SAY DESC @400328 /* */
+SAY 606 @400345 /*  */ 
+SAY 654 @400346 /*  */
+SAY 702 @400347 /*  */
+SAY 750 @400348 /*  */ 
+SAY 798 @400349 /*  */
+SAY 846 @400350 /*  */ 
+SAY 894 @400351 /*  */ 
+SAY 1134 @400352 /*  */
+
+// GOOD ORB
+COPY ~Dusk/Items/p_orbe2g.itm~ ~override~
+SAY NAME1 @400052 /*  */
+SAY NAME2 @400327 /*  */
+SAY UNIDENTIFIED_DESC @400054 /* */
+SAY DESC @400328 /* */
+SAY 318 @400353 /*  */ 
+SAY 366 @400354 /*  */
+SAY 414 @400355 /*  */
+SAY 462 @400356 /*  */ 
+SAY 510 @400357 /*  */
+
+// Orbe verde de Sornhil, purificado
+COPY ~Dusk/Items/p_orbev.itm~ ~override~
+SAY NAME1 @400052 /*  */
+SAY NAME2 @400343 /*  */
+SAY UNIDENTIFIED_DESC @400054 /* */
+SAY DESC @400344 /* */
+SAY 80 @400358 /*  */
+
+// ORBE TELETRANSPORTADOR1
+COPY ~Dusk/Items/p_orbet1.itm~ ~override~
+SAY NAME1 @400368 /*  */
+SAY NAME2 @400368 /*  */
+SAY UNIDENTIFIED_DESC @400371 /* */
+SAY DESC @400371 /* */
+
+// Aumento de Wisdom de la espada esmeralda
+COPY ~Dusk/Items/p_wis1.itm~ ~override~
+SAY 8 @400341 /*  */ 
+SAY 80 @400341 /*  */ 
+SAY 366 @400336 /*  */ 
+
+// Mano de Alabarza
+COPY ~Dusk/Items/p_mano.itm~ ~override~
+SAY NAME2 @400393 /*  */
+SAY UNIDENTIFIED_DESC @400394 /* */
+SAY DESC @400395 /* */
+
+// Utilerï¿½a de Cormyr
+COPY ~Dusk/Items/p_restos.itm~ ~override~
+SAY NAME2 @400396 /* Utilerï¿½a de Cormyr */
+//SAY UNIDENTIFIED_DESC @200396 /* */
+SAY DESC @400398 /* */
+
+// Amatista del Dragï¿½n Pï¿½rpura
+COPY ~Dusk/Items/p_gemdr1.itm~ ~override~
+SAY NAME2 @400409 /*  */
+SAY DESC @400410 /* */
+
+// Sï¿½mbolo de Velsharï¿½n
+COPY ~Dusk/Items/p_simvel.itm~ ~override~ 
+SAY NAME2 @400437 /* Sï¿½mbolo de Velsharï¿½n */
+SAY DESC @400438 /* El extraï¿½o amuleto carga con una energï¿½a tenebrosa. Tus manos tiemblan ligeramente al sostenerlo. Lo has obtenido del cuerpo de Anthagar, el lï¿½der de la Cripta Olvidada. */
+
+// Cadï¿½ver de Mathyus
+COPY ~Dusk/Items/p_matcor.itm~ ~override~
+SAY NAME1 @400439 /* Cuerpo de Mathyus Davis */ 
+SAY DESC @400440 /* Este es el cadï¿½ver del elfo shilmista Mathyus Davis. Cayï¿½ en combate al ser dominado por los encantamientos del hechicero de la Cripta Olvidada, Sornhil. */
+
+// Orbe -> Juramento de Ira
+COPY ~Dusk/Items/p_orbef.itm~ ~override~
+SAY NAME1 @400386 /* Juramento de Ira */ 
+SAY NAME2 @400387 /*  */
+SAY 222 @400446 /* Habilidad innata obtenida: Juramento de Ira */
+
+//////////////////////////////////////////////////////
+// NO APLICA
+// RUNAS DE LA UNIVERSALIDAD (N/A)
+COPY ~Dusk/Items/p_nbk10.itm~ ~override~ 
+SAY NAME1 @400094 /*  */ 
+SAY NAME2 @400107 /*  */
+SAY UNIDENTIFIED_DESC @400096 /* */
+SAY DESC @400109 /* */
+SAY 366 @400110 /* */
+SAY 400 @400454 /* */
+
+
+// POCIï¿½N CAï¿½TICO MALIGNO(N/A)
+COPY ~Dusk/Items/p_POTN90.itm~ ~override~ 
+SAY NAME1 @400121 /*  */ 
+SAY NAME2 @400122 /*  */
+SAY UNIDENTIFIED_DESC @400123 /* */
+SAY DESC @400124 /* */
+SAY 222 @400125 /* */
+
+// POCIï¿½N NEUTRAL MALIGNO(N/A)
+COPY ~Dusk/Items/p_POTN91.itm~ ~override~ 
+SAY NAME1 @400126 /*  */ 
+SAY NAME2 @400127 /*  */
+SAY UNIDENTIFIED_DESC @400128 /* */
+SAY DESC @400129 /* */
+SAY 270 @400130 /* */
+
+// POCIï¿½N LEGAL MALIGNO(N/A)
+COPY ~Dusk/Items/p_POTN92.itm~ ~override~ 
+SAY NAME1 @400131 /*  */ 
+SAY NAME2 @400132 /*  */
+SAY UNIDENTIFIED_DESC @400133 /* */
+SAY DESC @400134 /* */
+SAY 318 @400135 /* */
+
+// POCIï¿½N CAï¿½TICO NEUTRAL(N/A)
+COPY ~Dusk/Items/p_POTN93.itm~ ~override~ 
+SAY NAME1 @400136 /*  */ 
+SAY NAME2 @400137 /*  */
+SAY UNIDENTIFIED_DESC @400138 /* */
+SAY DESC @400139 /* */
+SAY 222 @400140 /* */
+
+// POCIï¿½N NEUTRAL AUTï¿½NTICO(N/A)
+COPY ~Dusk/Items/p_POTN94.itm~ ~override~ 
+SAY NAME1 @400141 /*  */ 
+SAY NAME2 @400142 /*  */
+SAY UNIDENTIFIED_DESC @400143 /* */
+SAY DESC @400144 /* */
+SAY 270 @400145 /* */
+
+// POCIï¿½N LEGAL NEUTRAL(N/A)
+COPY ~Dusk/Items/p_POTN95.itm~ ~override~ 
+SAY NAME1 @400146 /*  */ 
+SAY NAME2 @400147 /*  */
+SAY UNIDENTIFIED_DESC @400148 /* */
+SAY DESC @400149 /* */
+SAY 318 @400150 /* */
+
+// POCIï¿½N CAï¿½TICO BUENO(N/A)
+COPY ~Dusk/Items/p_POTN96.itm~ ~override~ 
+SAY NAME1 @400151 /*  */ 
+SAY NAME2 @400152 /*  */
+SAY UNIDENTIFIED_DESC @400153 /* */
+SAY DESC @400154 /* */
+SAY 222 @400155 /* */
+
+// POCIï¿½N NEUTRAL BUENO(N/A)
+COPY ~Dusk/Items/p_POTN97.itm~ ~override~ 
+SAY NAME1 @400156 /*  */ 
+SAY NAME2 @400157 /*  */
+SAY UNIDENTIFIED_DESC @400158 /* */
+SAY DESC @400159 /* */
+SAY 270 @400160 /* */
+
+// POCIï¿½N LEGAL BUENO (N/A)
+COPY ~Dusk/Items/p_POTN98.itm~ ~override~  
+SAY NAME1 @400161 /*  */ 
+SAY NAME2 @400162 /*  */
+SAY UNIDENTIFIED_DESC @400163 /* */
+SAY DESC @400164 /* */
+SAY 318 @400165 /* */
+
+// FUROR ï¿½PICO(N/A)
+COPY ~Dusk/Items/p_shasw1.itm~ ~override~
+SAY NAME1 @400007 /*  */ 
+SAY NAME2 @400172 /*  */
+SAY UNIDENTIFIED_DESC @400009 /* */
+SAY DESC @400174 /* */
+SAY 1086 @400175 /* */
+
+//TERMINA LISTADO DE ITEMS, SPELLS, CREATURES
+
 COPY_EXISTING ~songlist.2da~ ~override~
   SET_2DA_ENTRY 0 0 3 ~Blank.mus~ //fue modificado. Originalmente era 0 2 3
-// You will note there's a Blank.mus file in your Audio directory - it's needed exactly for that purpose. Delete it if you're not using any music in your mod.
 
-// Now we are going to add Dusk content for the Throne of Bhaal. You need one more cre file, or you could use the same one twice.
-ACTION_IF FILE_EXISTS_IN_GAME ~mel01.cre~ THEN // It means that the Throne of Bhaal is installed. If not, this part is not added to the game. This check also works for BG2:EE games.
-BEGIN // you WILL need an END below.
 
-COPY ~Dusk/Characters/P_Dusk25.cre~ ~override/P_Dusk25.cre~ // Traditionally, all Throne of Bhaal files have "25" in it. You can use the same .cre file or two files. Below we patch Dusk's ToB .cre file.
-SAY NAME1 @2 /* Dusk */
-SAY NAME2 @2 /* Dusk */
-SAY INITIAL_MEETING @3 /* ¡Estoy listo cuando tú lo estés! */ // This text in square brackets means that DuskW01.wav is assigned here.
-SAY MORALE @4 /* Debo huir... */
-SAY HAPPY @5 /* Sí, lo sé, soy tu personaje preferido. */ 
-SAY UNHAPPY_ANNOYED @6 /* Deberíamos reconsiderar nuestras acciones... */ 
-SAY UNHAPPY_SERIOUS @7 /* Claramente algo no funciona aquí... */
-SAY UNHAPPY_BREAKING @8 /* No podemos seguir trabajando juntos... */
-SAY LEADER @9 /* ¡Haré todo lo que pueda! */
-SAY TIRED @10 /* ¡Estoy cansado! */
-SAY BORED @11 /* ¡En marcha! Tendremos mucho tiempo para descansar en la tumba. */
-SAY BATTLE_CRY1 @12 /* ¡Veamos lo que tienes! */
-SAY BATTLE_CRY2 @13 /* ¡La batalla ha comenzado! */
-SAY BATTLE_CRY3 @14 /* ¡No puedes ganar! */
-SAY BATTLE_CRY4 @44 /* ¡Adelante, vamos! */
-SAY BATTLE_CRY5 @49 /* ¿Crees que puedes cogerme? */
-SAY DAMAGE ~~ [P_Dusk38] // There's no text when Dusk cries out in pain.
-SAY DYING ~~ [P_Dusk39]
-SAY HURT @15 /* Necesito... que cuiden mis heridas... */
-SAY AREA_FOREST @16 /* Debemos cuidarnos de las bestias salvajes. Por más hermoso que sea el bosque, el peligro se encuentra a la vuelta de la esquina... */  // If there's no sound file for the line, then it's going to be silent.
-SAY AREA_CITY @17 /* Es increíble cómo la corrupción ha invadido hasta el rincón más recóndito de la ciudad... */
-SAY AREA_DUNGEON @18 /* Me emociona pensar que el momento de la venganza se acerca... */
-SAY AREA_DAY @19 /* Hoy es un buen día para pasear. Pero recuerda, <CHARNAME>, que tenemos un deber que cumplir. */
-SAY AREA_NIGHT @20 /* Las estrellas brillan en el firmamento, pero ¡cuidado! No todo lo que brilla es oro... */
-SAY SELECT_COMMON1 @21 /* ¿Me necesitas? */
-SAY SELECT_COMMON2 @22 /* ¡Listo! */
-SAY SELECT_COMMON3 @23 /* ¡Vamos a trabajar! */
-SAY SELECT_COMMON4 @21 /* ¿Me necesitas? */
-SAY SELECT_COMMON5 @22 /* ¡Listo! */
-SAY SELECT_COMMON6 @46 /* ¿Qué necesitas de mí? */
-SAY SELECT_ACTION1 @24 /* ¡Muy bien! */
-SAY SELECT_ACTION2 @25 /* ¡No fracasaré! */
-SAY SELECT_ACTION3 @26 /* Cuando lo pidas. */
-SAY SELECT_ACTION4 @27 /* Entiendo. */
-SAY SELECT_ACTION5 @28 /* Entendido. */
-SAY SELECT_ACTION6 @29 /* Así se hará. */
-SAY SELECT_ACTION7 @30 /* ¡Seré rápido al respecto! */
-SAY SELECT_RARE1 @31 /* No-no entiendo...¿estás intentando decirme algo? */
-SAY SELECT_RARE2 @32 /* Agradezco la atención, pero ¿no deberíamos centrarnos en el asunto que nos ocupa? */
-SAY CRITICAL_HIT @47 /* ¡Vamos! */
-SAY CRITICAL_MISS @34 /* Argh! */
-SAY TARGET_IMMUNE @48 /* ¡No puedo hacer nada más! */
-SAY INVENTORY_FULL @36 /* Para ti, esto puede resultar emocionante, pero prefiero las actividades más constructivas. */ 
-SAY SPELL_DISRUPTED @37 /* ¡Estoy malherido! */
-SAY REACT_TO_DIE_GENERAL @45 /* ¡Estoy malherido! */
-SAY BIO @38 /* Cuando preguntas por su pasado, Dusk queda un instante pensativo. Dice provenir de una orgullosa familia real, cuya sangre guerrera siempre combatió a los malvados nigromantes de Netheril, incluyendo al peligroso Aumvor. Dusk dice no estar seguro de la veracidad de ciertas narraciones que le contaron cuando era sólo un niño, pero está seguro de su odio natural por los liches. Dice que te acompañará siempre y cuando esté la promesa de que podrá enfrentarse, algún día, contra lo que él considera sus enemigos naturales. */
-WRITE_ASCII 0x248 ~P_Dus25S~ #8  // override script where you put all the commands for lovetalks and such.
-WRITE_ASCII 0x2cc ~P_Dusk25~ #8  // dialogue file where we'll put Dusk's greeting dialogue for ToB, if you summon her via Fate Spirit.
-WRITE_ASCII 0x280 ~P_Dusk~   #32 // death variable - it remains the same in ToB.
+ACTION_IF FILE_EXISTS_IN_GAME ~mel01.cre~ THEN
+BEGIN
+
+COPY ~Dusk/Characters/P_Dusk25.cre~ ~override/P_Dusk25.cre~
+SAY NAME1 @4002 /* Dusk */
+SAY NAME2 @4002 /* Dusk */
+SAY INITIAL_MEETING @4003 /* Mis oï¿½dos aï¿½n retumban con esa explosiï¿½n... */ 
+SAY MORALE @4004 /* ï¿½No...!,ï¿½ï¿½ï¿½NO!!! */
+SAY HAPPY @4005 /* Me gusta cï¿½mo este grupo maneja las cosas. */ 
+SAY UNHAPPY_ANNOYED @4006 /* Deberï¿½amos reconsiderar nuestras acciones... */ 
+SAY UNHAPPY_SERIOUS @4007 /* Claramente algo no funciona aquï¿½... */
+SAY UNHAPPY_BREAKING @4008 /* No podemos seguir trabajando juntos... */
+SAY LEADER @4009 /* Te prefiero a ti como lï¿½der, pero si insistes... */
+SAY TIRED @40010 /* *bostezo* Creo que necesitamos descansar, ï¿½no lo crees? */
+SAY BORED @40011 /* No importa lo lento que vayas mientras no te detengas... */
+SAY BATTLE_CRY1 @40012 /* ï¿½Veamos lo que tienes! */
+SAY BATTLE_CRY2 @40013 /* ï¿½Por Cormyr! */
+SAY BATTLE_CRY3 @4004 /* ï¿½No puedes ganar! */
+SAY BATTLE_CRY4 @40044 /* ï¿½Adelante, vamos! */
+SAY BATTLE_CRY5 @40049 /* Aquï¿½ vamos de nuevo... */
+SAY DAMAGE ~~ [P_Dusk19]
+SAY DYING ~~ [P_Dusk20]
+SAY HURT @40015 /* Lo lamento... necesito a alguien que se ocupe de mis heridas. */
+SAY AREA_FOREST @40016 /* Debemos cuidarnos de las bestias salvajes. Por mï¿½s hermoso que sea el bosque, el peligro se encuentra a la vuelta de la esquina... */  // If there's no sound file for the line, then it's going to be silent.
+SAY AREA_CITY @40017 /* Es increï¿½ble cï¿½mo la corrupciï¿½n ha invadido hasta el rincï¿½n mï¿½s recï¿½ndito de la ciudad... */
+SAY AREA_DUNGEON @40018 /* Debes tener cuidado aquï¿½. Presiento... peligro. */
+SAY AREA_DAY @40019 /* Hoy es un buen dï¿½a para pasear. Pero recuerda, <CHARNAME>, que tenemos un deber que cumplir. */
+SAY AREA_NIGHT @40020 /* Las estrellas brillan en el firmamento, pero ï¿½cuidado! No todo lo que brilla es oro... All that is gold does not glitter*/
+SAY SELECT_COMMON1 @40021 /* ï¿½Quï¿½ tienes en mente? */
+SAY SELECT_COMMON2 @40022 /* ï¿½Sï¿½? */
+SAY SELECT_COMMON3 @40023 /* ï¿½Quï¿½ quieres? */
+SAY SELECT_COMMON4 @40039 /* Te protegerï¿½. */
+SAY SELECT_COMMON5 @40040 /* Hola, extraï¿½o. */
+SAY SELECT_COMMON6 @40046 /* Recuerda: nadie te golpearï¿½ tan fuerte como la vida misma. */
+SAY SELECT_ACTION1 @40024 /* ï¿½Muy bien! */
+SAY SELECT_ACTION2 @40025 /* Sï¿½, sï¿½. No necesitas gritar. */
+SAY SELECT_ACTION3 @40026 /* Hmmm... sï¿½, ï¿½por quï¿½ no? */
+SAY SELECT_ACTION4 @40027 /* Te seguirï¿½. */
+SAY SELECT_ACTION5 @40028 /* Una vez mï¿½s... */
+SAY SELECT_ACTION6 @40029 /* Dï¿½jamelo a mï¿½. */
+SAY SELECT_ACTION7 @40030 /* ï¿½Serï¿½ rï¿½pido al respecto! */
+SAY SELECT_RARE1 @40031 /* Hmm... ï¿½te conozco? ï¿½Ja! Sï¿½lo bromeo. */
+SAY SELECT_RARE2 @40032 /* Agradezco la atenciï¿½n, pero ï¿½no deberï¿½amos centrarnos en el asunto que nos ocupa? */
+SAY CRITICAL_HIT @40047 /* ï¿½ï¿½ï¿½Sï¿½!!! */
+SAY CRITICAL_MISS @40034 /* Argh! */
+SAY TARGET_IMMUNE @40048 /* *suspiro* Mi objetivo es inmune... */
+SAY INVENTORY_FULL @40036 /* Lo siento, pero mi mochila estï¿½ llena. */ 
+SAY SPELL_DISRUPTED @40037 /* ï¿½Estoy malherido! */
+SAY REACT_TO_DIE_GENERAL @40045 /*  */ // Reacciï¿½n a la muerte de un compaï¿½ero de grupo
+SAY PICKED_POCKET @40051 /* Vaya... le he robado... */
+SAY HIDDEN_IN_SHADOWS @40041 /* Shhh... ahora estoy en las sombras... */
+SAY SET_A_TRAP @40050 /* *risa* La trampa... ha sido puesta. */
+SAY BIO @40038 /* Cuando preguntas por su pasado, Dusk queda un instante pensativo. Dice provenir de una orgullosa familia real, cuya sangre guerrera siempre combatiï¿½ a los malvados nigromantes de Netheril, incluyendo al peligroso Aumvor. Dusk dice no estar seguro de la veracidad de ciertas narraciones que le contaron cuando era sï¿½lo un niï¿½o, pero estï¿½ seguro de su odio natural por los liches. Dice que te acompaï¿½arï¿½ siempre y cuando estï¿½ la promesa de que podrï¿½ enfrentarse, algï¿½n dï¿½a, contra lo que ï¿½l considera sus enemigos naturales. */
+WRITE_ASCII 0x248 ~P_Dus25S~ #8 
+WRITE_ASCII 0x2cc ~P_Dusk25~ #8 
+WRITE_ASCII 0x280 ~P_Dusk~   #32 // death variable - con esta variable reconocemos al pj mediante scripts y dlg
 WRITE_ASCII 0X34  ~DuskS~  #8  // small portrait
 WRITE_ASCII 0x3c  ~DuskM~  #8  // medium portrait
 
@@ -1047,76 +1744,171 @@ COPY ~Dusk/Characters/DuskS.bmp~ ~override/DuskS.bmp~
 END
 
 
-COMPILE EVALUATE_BUFFER ~Dusk/Dialogue/P_BDus25.d~  // All Dusk's ToB banters with other party members will go here. Again, we use 25, because it's a tradution for ToB. Again, "EVALUATE_BUFFER" because of the chapter numbers
-	~Dusk/Dialogue/P_Dusk25.d~  // Dusk's ToB greeting dialogue will go here.
-	~Dusk/Dialogue/P_Dus25J.d~  // The rest of Dusk's ToB dialogue: her commentary, interjections, talks with the player, lovetalks and everything else.
-	~Dusk/Dialogue/P_Dus25P.d~  // Dusk's ToB leaving party dialogue will go here.
+COMPILE EVALUATE_BUFFER ~Dusk/Dialogue/P_BDus25.d~
 
-	~Dusk/Scripts/P_Dus25S.baf~ // Dusk's script for ToB.
-	~Dusk/Scripts/P_Dus25D.baf~ // Dusk's dream script for ToB.
+	~Dusk/Dialogue/P_Dusk25.d~
+	~Dusk/Dialogue/P_Dus25J.d~
+	~Dusk/Dialogue/P_Dus25P.d~
 
-// Baldur's Gate 2: Enhanced Edition adds four new NPCs for your party. Naturally, Dusk banters with these NPCs, too. Let's compile a separate banter file here in ToB section(because it involves Dusk's ToB banter file):
+	~Dusk/Scripts/P_Dus25S.baf~ 
+
+
+// Baldur's Gate Trilogy: Enhanced Edition
 ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
 COMPILE	~Dusk/Dialogue/DuskEE.d~
 END
 
-// Dusk is going to be romanceable, so she'll need a Gorion Wraith sequence. We are going to copy Anomen's sister Moira and turn her into Dusk's grandmother. Like this:
-COPY_EXISTING ~loveone4.cre~ ~override/P_DuskG.cre~
-SAY NAME1 @41 /* Dusk's Grandmother */
-SAY NAME2 @41 /* Dusk's Grandmother */
-WRITE_ASCII 0x248 ~P_DuskG~ #8	// override
-WRITE_ASCII 0x2cc ~P_DuskG~ #8  // dialogue
-WRITE_ASCII 0x280 ~P_DuskG~ #32 // death variable
-WRITE_ASCII 0x250 ~~ 	    #8  // class script
-WRITE_ASCII 0x258 ~~ 	    #8  // race script
-WRITE_ASCII 0x260 ~~ 	    #8  // general script
-WRITE_ASCII 0x268 ~~	    #8	// default script
-
-// And this is the extra script for Gorion's Wraith:
-EXTEND_TOP ~Cut218g.bcs~  ~Dusk/Scripts/Cut218g.baf~
-
-// This is the cutscene for Dusk's grandmother to appear in the scene with Gorion's wraith:
-COMPILE ~Dusk/Scripts/P_DuskG.baf~
-
-// Since we want our NPCs to have an epilogue, we'll add something to the last area in the game:
+// EPILOGOS
 EXTEND_TOP ~AR6200.bcs~ ~Dusk/Scripts/AR6200.baf~
 
-// It's an epilogue file. Just copy it for your own needs. Please note that the name of the large portrait for your NPC should be in the upper left corner instead of BranweL.
+// NEUTRAL DUSK
+// Epï¿½logo 1 -> Neutral Dusk - Mercader
 COPY ~Dusk/Epilogue/P_Duszz.2da~ ~override/P_Dus01.2da~
-REPLACE ~99999~ @42 /* After the events of the Throne of Bhaal were over, Dusk remained by her friends' side. Their new adventures together rivaled those of Drizzt himself, and indeed, if rumors were true, the famous drow ranger joined them once outside Silverymoon.
+REPLACE ~99999~ @330006 /* Luego de los eventos del Trono de Bhaal, Dusk dirigiï¿½ sus pasos a Athkatla. Intentï¿½ poner una tienda de compra y venta de artefactos extraï¿½os e incluso recibiï¿½ varios consejos de Ribald el Truequista. Sin embargo, su emprendimiento fracasï¿½, ya que la mayor parte del tiempo hacï¿½a de mediador entre los Ladrones de las Sombras y la Noble Orden del Sagrado Corazï¿½n. Se puede decir que evitï¿½ varios conflictos y eso, sumado a las hazaï¿½as realizadas junto a <CHARNAME>, le valieron varias invitaciones para desempeï¿½ar trabajos de carï¿½cter militar.
 
-Several years later, however, Dusk started yearning for home, and eventually decided to visit her old home village. A holy warrior and a high priestess of Tempus, she was greeted warmly by most of the townsfolk, and remained there for a while.
+Finalmente acudiï¿½ al llamado de Thethyr para servir como general de los ejï¿½rcitos de Zaranda Estrella. Se dice que sï¿½lo pidiï¿½, a cambio, el favor de la Reina para acabar con toda fuerza nigromï¿½ntica de la regiï¿½n.
 
-But adventure beckoned, and soon Dusk joined her friends again, fighting for good and noble ends. Many men and women across the Realms would remember the fair-haired woman with a smile, often recalling her favourite saying: "By Tempus' shield!" */
+Con valentï¿½a, liderï¿½ los ejï¿½rcitos de Ternan Grannox y mantuvo la paz durante muchos aï¿½os, hasta su retiro cuando ya no pudo blandir mï¿½s una espada y su bastï¿½n ya no tenï¿½a mï¿½s propï¿½sito que el de servirle como tercer pierna.
 
-// Since Dusk is romanceable, we need a second epilogue file for her romance. We copy over the same file under a different name and replace the epilogue text.
-COPY ~Dusk/Epilogue/P_Duszz.2da~ ~override/P_Dus02.2da~
-REPLACE ~99999~ @43 /* Dusk and <CHARNAME> would cross the Realms thrice over, from Kara-Tur to Norheim Isles. Ever together, they would battle dragons and tame demons, match wits with kings and drink with rascals.
+Se dice que pasï¿½ sus ï¿½ltimos dï¿½as en paz bajo la tenue luz crepuscular de una reconstruida Darromar. */
 
-They would keep winning admiration of the common folk and respect of the underworld alike, and yet always they would have a moment for one another.
 
-Eventually Dusk and <CHARNAME> would settle down for a time, but some new adventure would always beckon, and, laughing, they would don their traveling garb and take to the road again.
 
-Indeed, many roads they would travel, and many more would be left to discover. "If Tempus wills it," Dusk would once again say with a smile, taking her lover's hand. "What is your command?" */
+// Epï¿½logo 2 -> Neutral Dusk - Dragon Purple Knight
+
+COPY ~Dusk/Epilogue/P_Dus1z.2da~ ~override/P_Dus02.2da~
+REPLACE ~99999~ @330007 /* Tras la separaciï¿½n con <CHARNAME>, Dusk dirigiï¿½ su camino hacia Cormyr.
+
+Allï¿½ narrï¿½ todo lo sucedido desde su partida, esperando recibir un merecido castigo por su larga ausencia. Lejos de ello, la Espada Superior de la Orden restituyï¿½ su cargo como Primera Espada y asignï¿½ un nuevo destacamento para recuperar los cuerpos de los soldados caï¿½dos, ahora hallados en Shilmista.
+
+No sï¿½lo logrï¿½ ese cometido, sino que dio caza a los orcos responsables del ataque. Fue en un Tï¿½mulo infestado de trolls donde se librï¿½ esa batalla, obteniendo la victoria los Caballeros de la Orden del Dragï¿½n Pï¿½rpura. Derrotï¿½ en un combate singular al cacique orco Alabarza, dando muerte, tambiï¿½n, a decenas de sus esbirros.
+Ninguno de sus soldados cayï¿½ en esa batalla y dicha hazaï¿½a le valiï¿½ un ascenso a Capitï¿½n Espada.
+
+Se le conociï¿½ por ser un fï¿½rreo cazador de nigromantes y liches, librando a su naciï¿½n de muchas potenciales amenazas. Luego de muchos aï¿½os de servicio, decidiï¿½ retirarse. 
+
+Los rumores indican que se casï¿½ con una bella mujer de Suzail y restaurï¿½ el castillo de la familia Aldant, en los lindes de Arabel. Durante sus aï¿½os de paz, tuvo a una ï¿½nica hija a la que llamï¿½: Celine. */
+
+// Epï¿½logo 3 -> Good Dusk - Mielikki's Church
+
+COPY ~Dusk/Epilogue/P_Dus3z.2da~ ~override/P_Dus03.2da~
+REPLACE ~99999~ @330008 /* Tras la separaciï¿½n con <CHARNAME>, Dusk dirigiï¿½ su camino hacia Shilmista.
+
+Allï¿½, recuperï¿½ los cuerpos de los soldados cormyreanos caï¿½dos con el permiso del rey elfo Elbereth. Luego, con una escolta de exploradores, viajï¿½ hacia Cormyr.
+
+Al anunciarse, logrï¿½ exponer todo lo sucedido a los altos mandos del ejï¿½rcito, ofreciï¿½ndose a cumplir el castigo que crean adecuado. El general de los Dragones Pï¿½rpura, al ver que uno de sus Primeras Espadas habï¿½a forjado una buena relaciï¿½n con los elfos de Shilmista, decidiï¿½ perdonarlo en nombre del rey.
+
+Los arreglos fï¿½nebres a los caï¿½dos fue una bella escena, llena de solemnidad y nostalgia. Al finalizar, los elfos indicaron que una alianza comercial entre Cormyr y Shilmista serï¿½a de lo mï¿½s beneficioso para todos.
+
+Esto alegrï¿½ mucho a los nobles, quienes exigieron una entrega de recompensa cuantiosa a Ardusk Aldant. Pero ï¿½ste se negï¿½, contestando que estarï¿½a mï¿½s que contento en levantar una iglesia a Mielikki y allï¿½ enseï¿½ar sobre su dogma.
+
+Cormyr accediï¿½ y asï¿½ comenzï¿½ la alianza entre los hombres del norte y los elfos del sur. 
+
+Los rumores indican que Dusk pasï¿½ el resto de su vida en los Bosques del Rey en Cormyr, amando a la naturaleza como su esposa le hubo enseï¿½ado. Quizï¿½s, cuando el tiempo le llegue, pueda reencontrarse con ella en las Praderas del Unicornio en el Bosque de la Dama y allï¿½, fundirse en un abrazo eterno de amor. */
+
+// Epï¿½logo 4 -> Good Dusk - Alabarza's Death
+
+COPY ~Dusk/Epilogue/P_Dus4z.2da~ ~override/P_Dus04.2da~
+REPLACE ~99999~ @330009 /* Tras la separaciï¿½n con <CHARNAME>, Dusk dirigiï¿½ sus pasos a Shilmista. Se dice que estudiï¿½ con varios hechiceros elfos y que buscï¿½ durante mucho tiempo una respuesta a una inquietud interior.
+
+Aï¿½os despuï¿½s, viajï¿½ hacia Athkatla y buscï¿½ a Falon y su tribu. Allï¿½ hablï¿½ con Sir Ryan Espinel y le explicï¿½ lo que intentaba hacer. Si bien, el paladï¿½n no estaba de acuerdo con lo que Dusk planeaba, finalmente permitiï¿½ que Falon y los demï¿½s le acompaï¿½asen a un 'pequeï¿½o' viaje.
+
+Juntos, viajaron por las tierras de Amn y Tethyr, portando los emblemas del Radiante Corazï¿½n de Tyr, para evitar ataques de las fuerzas locales. Su destino les llevï¿½ al Tï¿½mulo de los Trolls en los lï¿½mites de la ï¿½rboleda Druï¿½dica.
+
+Dusk realizo un complejo ritual a los dioses de la naturaleza y empleï¿½ mucho del poder que habï¿½a adquirido gracias al Orbe Esmeralda. Al finalizar, Alabarza y sus esbirros habï¿½an resucitado.
+
+Alabarza, sorprendido de haber vuelto a la vida (y mï¿½s aï¿½n viendo que quien lo habï¿½a revivido era su gran enemigo), preguntï¿½: "ï¿½Por quï¿½ lo has hecho, soldado?".
+Se dice que Dusk sï¿½lo sonriï¿½ y dijo que el castigo eterno de Gruumsh le parecï¿½a demasiado excesivo.
+
+Al cabo de varias horas de conversaciones entre los humanoides, Dusk logrï¿½ convencer a Alabarza y su tribu de redimir sus actos, actuando como primera defensa de Amn, junto a la tribu de Falon. 
+
+Alabarza finalmente accediï¿½ y el resto de su tribu le siguiï¿½. Se dice que al cabo de unos meses se enamorï¿½ de Falon y le propuso matrimonio, bajo la luz de su nuevo dios: Tyr.
+
+En cuanto a Dusk, se dice que viajï¿½ por muchos lugares, protegiendo al dï¿½bil a la primera oportunidad. Pudo obtener el perdï¿½n en Cormyr, restaurar la maldiciï¿½n en el Castillo de la Trinidad con la ayuda de Elbereth y Mathyus, visitar a Michelson y Demoledor en Shilmista.
+
+Los aï¿½os pasaron y cuando su tiempo estaba llegando, en alguna parte del Bosque del Rey en Cormyr, una luz divina surgiï¿½ de un roble hueco. De ella saliï¿½ Mielikki, la Dama del Bosque, y cargï¿½ en sus brazos a un viejo y desgastado Ardusk Aldant.
+
+Se dice que atravesaron la luz del roble y viajaron por ocï¿½anos de estrellas hasta llegar a la Pradera del Unicornio. Allï¿½, una resplandeciente efigie se le presentï¿½: ï¿½l ya no estaba viejo: sus arrugas y dolores corporales habï¿½an desaparecido; y frente a ï¿½l, una bella elfa de cabellos dorados como el sol le sonreï¿½a.
+
+"Celine..." susurrï¿½. Y fue hacia ella, abrazï¿½ndola mientras la armonï¿½a salvaje a su alrededor danzaba en un cï¿½firo otoï¿½al. Ahora sï¿½, Dusk y Celine estarï¿½an juntos por siempre. */
+
+// Epï¿½logo 5 -> Good Dusk - Bellfame's War
+
+COPY ~Dusk/Epilogue/P_Dus5z.2da~ ~override/P_Dus05.2da~
+REPLACE ~99999~ @330010 /* El aï¿½o de la Jarra transcurrï¿½a en el mundo cuando Kartlzer, el Caballero Imperceptor de Zentharim invadiï¿½ el Bosque de Mir. Franqueï¿½ las linderas del bosque y se adentrï¿½ para resguardarse de las tropas de Thethyr, con quien entrarï¿½an en guerra en poco tiempo.
+
+Su mago percibiï¿½ la presencia de una poderosa ninfa, la cual podrï¿½an utilizar, viva o muerta, para sus crueles cometidos. Fue entonces que Kartlzer avanzï¿½ al corazï¿½n del bosque con un mago y veinte guerreros.
+
+Al llegar a un glauco manglar, los villanos se encontraron con una efigie particular: la ninfa, Bellfame, les esperaba rodeada de un oso, tres lobos y un pequeï¿½o ratï¿½n en su hombro.
+
+Kartlzer dio un paso al frente y exigiï¿½ la rendiciï¿½n de la ninfa, a cambio de no matar a sus bestias. Sin embargo, la ninfa, silenciosa, sï¿½lo le observï¿½ con cierto recelo. Fue entonces que Kartlzer se percatï¿½ de otra presencia.
+
+De entre las sombras, un caballero de verde y purpï¿½rea armadura, con el sï¿½mbolo del Dragï¿½n Pï¿½rpura en su pecho, hizo apariciï¿½n.
+
+"Soy Ardusk Aldant, Primera Espada de Cormyr, Caballero de la Orden de los Dragones Pï¿½rpuras y Guardiï¿½n de Shilmista. Si quieres salir de vida de aquï¿½, date la media vuelta... de lo contrario, tï¿½ y todos tus hombres morirï¿½n aquï¿½, hoy."
+
+Kartlzer habï¿½a oï¿½do sobre ï¿½l y de sus hazaï¿½as con <CHARNAME>. Bien podrï¿½a tratarse de una artimaï¿½a, pero algo en la figura de Dusk le hizo convencerse de lo contrario.
+
+Finalmente, el Caballero Imperceptor dio media vuelta y se marchï¿½, con rapidez, por donde habï¿½a venido.
+
+Dusk mirï¿½ con sorpresa su puï¿½o cerrado. Lo abriï¿½, pero no habï¿½a nada: En ï¿½l estaba el Anillo del Bosque de Mir y habï¿½a desaparecido.
+
+Bellfame esbozï¿½ una sonrisa por primera vez: "Lo has logrado, Ardusk. Nos has salvado... has cambiado mi destino."
+
+Ambos se fundieron en un abrazo y allï¿½, Bellfame amï¿½ por primera a un mortal.
+
+Dusk pasï¿½ el resto de sus dï¿½as en Mir junto a las bestias y plantas del bosque que tanto amï¿½. */
+
+// Epï¿½logo 6 -> Evil Dusk - Sothillis's Hunter
+
+COPY ~Dusk/Epilogue/P_Dus6z.2da~ ~override/P_Dus06.2da~
+REPLACE ~99999~ @330011 /* Tras su separaciï¿½n con <CHARNAME>, Dusk dirigiï¿½ sus pasos a Tethyr. Allï¿½ fundï¿½ una compaï¿½ï¿½a de mercenarios llamada La Guardia Escarlata. Se puso a las ï¿½rdenes de Zaranda Estrella y protegiï¿½ la regiï¿½n de potenciales enemigos. Pero los rumores indican que Dusk indujo, unos aï¿½os mï¿½s tarde, el inicio de la guerra contra el Imperio de Sothillis. El conflicto produjo la pï¿½rdida de miles de soldados de ambos bandos. El mismo finalizï¿½, segï¿½n se dice, en una sangrienta batalla entre los humanoides y la Guardia Escarlata. Se dice que Sothillis cayï¿½ en batalla contra un guerrero que blandï¿½a una espada roja como la sangre.
+Los rumores tomaron fuerza cuando, ya en tiempos de paz, Dusk visitï¿½ Puerta de Baldur y dejï¿½ allï¿½ un gran mandoble manchado de sangre. Dicha arma pertenecï¿½a a un humanoide de gran tamaï¿½o; aï¿½os mï¿½s tarde, expertos dirï¿½an que era el arma personal del ogro mago Sothillis.
+
+Los aï¿½os pasaron y los actos de Dusk eran cada vez mï¿½s errï¿½ticos y misteriosos. Nunca se separaba de su espada, la cual parecï¿½a fortalecerse con cada muerte que ocasionaba.
+Finalmente, el brillo escarlata de su espada fue desapareciendo, indicando el fin de la vida del guerrero cormyreano. Se dice que una gran sombra, la cual se hacï¿½a llamar Danctian, vino a buscarlo en sus ï¿½ltimos momentos de vida.
+
+Los ï¿½ltimos vestigios de Dusk no eran mï¿½s que sombra y polvo, pero algunos arcanos mencionan que pueden hallar una presencia familiar y tenebrosa en el plano del Pandemonium. */
+
+// Epï¿½logo 7 -> Evil Dusk - Dusk Redemption
+
+COPY ~Dusk/Epilogue/P_Dus7z.2da~ ~override/P_Dus07.2da~
+REPLACE ~99999~ @330012 /* Tras los acontecimientos del Trono de Bhaal, Dusk regresï¿½ a Athkatla, precisamente a una casa abandonada en el Distrito del Puerto.
+
+Allï¿½, realizï¿½ un ritual junto a Danctian y, entregando gran parte de su poder, pudo traer a la vida a tres criaturas shilmistas. Mathyus, Michelson y Demoledor estaban de vuelta, confundidos ante la decisiï¿½n de Dusk (quien los habï¿½a aniquilado en un principio). No obtuvieron respuesta alguna y Dusk, junto a su sombra demonï¿½aca, desaparecieron para siempre de Amn.
+
+Se dice que una figura escarlata con el emblema de Cormyr ayudï¿½ a Tethyr a combatir la amenaza del Ogro Mago Sothillis. Luego, viajï¿½ a Shilmista a visitar la tumba de una elfa exploradora y, finalmente, visitï¿½ un lugar maldito llamado El Castillo de la Trinidad.
+
+Allï¿½, realizï¿½ un ritual prohibido en el que abriï¿½ un portal a un plano forestal. Realizï¿½ un pacto con la mismï¿½sima Dama del Bosque. Algunos elfos guardianes fueron testigos de cï¿½mo el humano desenvainï¿½ su espada, la cual era escarlata como la sangre, pero poco a poco, la misma fue tornï¿½ndose glauca como las hojas de un cedro. Un poderoso vendaval invadiï¿½ el lugar y el brillo de la espada se esfumï¿½, al igual que la vida en Dusk.
+
+Cuando los elfos retornaron a Shilmista a informar a Elbereth, ï¿½ste ya estaba lidiando con un hecho sobrenatural. Y es que Celine, la elfa exploradora, habï¿½a revivido.
+
+Celine, aï¿½n conmocionada por lo acontecido, partiï¿½ de inmediato a Trinidad. Allï¿½, no pudo hallar el cuerpo de Dusk. Sï¿½lo hallï¿½ un bastï¿½n, con el emblema de Shilmista, y una armadura, con el emblema de Cormyr. Dichos artefactos se guardan con recelo, aï¿½n a dï¿½a de hoy, en el corazï¿½n de Shilmista.
+
+ */
+
 
 END // and here ends ToB content
 
-// These files add Dusk's scripts and dialogue files to the game(except for the banter file, that's below). The first block is for SoA-only installs, the second one is for ToB.
-// Here's the order: death variable, leaving party file, main dialogue file(J for joined), dream script for SoA.
-// Or death variable, leaving party file, main dialogue file(J for joined), dream script for SoA, leaving party file for ToB, main dialogue(J) file for ToB, ToB dream script, ToB main script.
 
 APPEND ~pdialog.2da~
-~P_Dusk        P_DuskP             P_DuskJ            P_DuskD~
+~P_Dusk        P_DuskP             P_DuskJ~
 UNLESS ~P_Dusk~
 UNLESS ~25POST~
 
 APPEND ~pdialog.2da~
-~P_Dusk        P_DuskP             P_DuskJ            P_DuskD             P_Dus25P             P_Dus25J             P_Dus25D       P_Dus25S~
+~P_Dusk P_DuskP P_DuskJ P_DuskD P_Dus25P P_Dus25J P_Dus25D P_Dus25S~
 UNLESS ~P_Dusk~
 IF ~25POST~
 
-// These files add Dusk's banter files to the game. The first block is for SoA-only installs, the second one is for ToB.
-// Here's the order: death variable, SoA banter file for SoA. Or death variable, SoA banter file, ToB banter file for ToB.
+// TEST Crossmods
+ACTION_IF FILE_EXISTS_IN_GAME ~BWILSON.dlg~ AND FILE_EXISTS_IN_GAME ~P_BDusk.dlg~
+THEN BEGIN
+  PRINT ~Adding crossmod between Dusk and Wilson~
+COMPILE ~%MOD_FOLDER%/dialogue/crossmod/bwilson.d~
+END
+
+// END Test Crossmods
+
 APPEND ~interdia.2da~
 ~P_Dusk       P_BDusk~
 UNLESS ~P_Dusk~
@@ -1127,34 +1919,25 @@ APPEND ~interdia.2da~
 UNLESS ~P_Dusk~
 IF ~25FILE~
 
-/* comment from jastey: unfortunately, for technical reasons (automated installers etc.), having the readme call at the end of the installation is not good. This is why it is deactivated, but I leave it in for legacy reasons.
-// Some modders use README flag instead. Not me. Every user is presented with a readme file so that they know where to find Dusk, whether she is romanceable and so on.
-//AT_INTERACTIVE_EXIT ~VIEW Dusk/Readme-Dusk.txt~
-*/
-
-// If you want to use README flag instead, use this, just place it in the top part of your file, right after VERSION line but before BEGIN line, and uncomment it. Your players will be asked whether they want to read a readme:
-// README ~Dusk/Readme-Dusk.txt~
-
-// This is really all there is about a simple NPC mod. Since you will probably want your mod to be translated into multiple languages, you can read on the forums about translation files, or .tra files(files with strings that look like @100 = ~Hello!~). This mod is not fully traified for ease-of-use reasons - Dusk NPC is a tutorial of sorts, after all, so her files should be easy enough to read.
 
 // EET related code
-ACTION_IF GAME_IS ~eet~ BEGIN //only true if game is detected as Enhanced Edition Trilogy (mod for BG2:EE)
-  INCLUDE ~EET/other/EET_functions.tph~ //declaration of external EET functions used below. This is part of the EET package the player has in his install so don't worry about it
-  LAF ~EET_NPC_TRANSITION~ //function used to automatically implement EET continuity system. This deals with the transition to ToB and automatically creates all the needed script blocks and dialogue entries for e.g. the calling of the SoA Dusk the player left somewhere via the fate spirit, the disabling of the fate spirit calling if Dusk is in the party upon transition etc. The function will be executed upon installation of the mod. What follows is all entries we need for our Dusk:
+ACTION_IF GAME_IS ~eet~ BEGIN 
+  INCLUDE ~EET/other/EET_functions.tph~ 
+  LAF ~EET_NPC_TRANSITION~ 
     INT_VAR
-      type = 2 //informs the function that this is BG2 NPC without BG1 content (because the mod doesn't add to BG1)
-      default_ToB = 1 //NPC available as summonable NPC when the game is started in ToB (= new ToB game)
-      clean_ToB = 1 //forces function to clean old BG1 Dusk code that exists in AR4000.BCS and FATESP.DLG (i.e. no entry for the original BG1 Dusk if this mod is installed)
+      type = 2 
+      default_ToB = 1 
+      clean_ToB = 1 
     STR_VAR
       dv = "P_Dusk" //Dusk Death Variable (script name)
       override_SoA = "P_DuskS" //Dusk SoA Override script
       override_ToB = "P_Dus25S" //Dusk ToB Override script
       dialog_ToB = "P_Dusk25" //Dusk ToB dialogue file
       cre_ToB = "P_Dusk25" //Dusk ToB CRE filename
-      string = "Bring me Dusk, the priestess of Tempus." //normally this should be reference to TRA file, but the mod is not traified
+      string = "Bring me Dusk, the Wizard Slayer." //normally this should be reference to TRA file, but the mod is not traified
       stringPosDV = "Cernd" //Dusk will be appended right above Cernd
       clean_ToB_DV = "Dusk" //death variable of BG1 Dusk (see clean_ToB comment)
   END
-END ELSE BEGIN //we use different Fate Spirit dialogue patching for any other platform than EET
+END ELSE BEGIN 
   COMPILE ~Dusk/Dialogue/FATESP.d~
 END

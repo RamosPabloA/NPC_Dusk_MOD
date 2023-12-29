@@ -1,60 +1,60 @@
-@0    = ~Fall~
+@4000    = ~Fall~
 @1    = ~Dusk MOD~
-@2    = ~Dusk~
-@3    = ~Mis oídos aún retumban con esa explosión...~ [p_duski]
-@4    = ~¡No...!,¡¡¡NO!!!~ [p_dusk02]
-@5    = ~Los métodos de este grupo para manejar situaciones tienen una cualidad etérea.~ [p_dusk36] 
-@6    = ~Deberíamos reconsiderar nuestras acciones...~ 
-@7    = ~Claramente algo no funciona aquí...~ 
-@8    = ~No podemos seguir trabajando juntos...~ 
-@9    = ~Te prefiero a ti como líder, pero si insistes...~ [P_Dusk08] //08
-@10   = ~*bostezo* Creo que necesitamos descansar, ¿no lo crees?~ [P_Dusk09]
-@11   = ~No importa lo lento que vayas mientras no te detengas...~ [P_Dusk25]
-@12   = ~¡Veamos lo que tienes!~ [P_Dusk03]
-@13   = ~¡¡¡Por Cormyr!!!~ [P_Dusk05]
-@14   = ~¡No puedes ganar!~ [P_Dusk06]
-@15   = ~Lo lamento... necesito a alguien que se ocupe de mis heridas.~ [P_Dusk11]
-@16   = ~Debemos cuidarnos de las bestias salvajes. Por más hermoso que sea el bosque, el peligro se encuentra a la vuelta de la esquina...~ [p_dusk37]
-@17   = ~Es increíble cómo la corrupción ha invadido hasta el rincón más recóndito de la ciudad...~ [p_dusk38]
-@18   = ~Debes tener cuidado aquí. Presiento... peligro.~ [P_Dusk15]
-@19   = ~Hoy es un buen día para pasear. Pero recuerda, <CHARNAME>, que tenemos un deber que cumplir.~ [p_dusk39]
-@20   = ~Las estrellas brillan en el firmamento, pero ¡cuidado! No todo lo que brilla es oro...~
-@21   = ~¿Qué tienes en mente?~ [P_Dusk17]
-@22   = ~¿Sí?~ [P_Dusk14]
-@23   = ~¿Qué quieres?~ [P_Dusk27]
+@4002    = ~Dusk~
+@4003    = ~Mis oídos aún retumban con esa explosión...~ [p_duski]
+@4004    = ~¡No...!,¡¡¡NO!!!~ [p_dusk02]
+@4005    = ~Los métodos de este grupo para manejar situaciones tienen una cualidad etérea.~ [p_dusk36] 
+@4006    = ~Deberíamos reconsiderar nuestras acciones...~ 
+@4007    = ~Claramente algo no funciona aquí...~ 
+@4008    = ~No podemos seguir trabajando juntos...~ 
+@4009    = ~Te prefiero a ti como líder, pero si insistes...~ [P_Dusk08] //08
+@40010   = ~*bostezo* Creo que necesitamos descansar, ¿no lo crees?~ [P_Dusk09]
+@40011   = ~No importa lo lento que vayas mientras no te detengas...~ [P_Dusk25]
+@40012   = ~¡Veamos lo que tienes!~ [P_Dusk03]
+@40013   = ~¡¡¡Por Cormyr!!!~ [P_Dusk05]
+@40014   = ~¡No puedes ganar!~ [P_Dusk06]
+@40015   = ~Lo lamento... necesito a alguien que se ocupe de mis heridas.~ [P_Dusk11]
+@40016   = ~Debemos cuidarnos de las bestias salvajes. Por más hermoso que sea el bosque, el peligro se encuentra a la vuelta de la esquina...~ [p_dusk37]
+@40017   = ~Es increíble cómo la corrupción ha invadido hasta el rincón más recóndito de la ciudad...~ [p_dusk38]
+@40018   = ~Debes tener cuidado aquí. Presiento... peligro.~ [P_Dusk15]
+@40019   = ~Hoy es un buen día para pasear. Pero recuerda, <CHARNAME>, que tenemos un deber que cumplir.~ [p_dusk39]
+@40020   = ~Las estrellas brillan en el firmamento, pero ¡cuidado! No todo lo que brilla es oro...~
+@40021   = ~¿Qué tienes en mente?~ [P_Dusk17]
+@40022   = ~¿Sí?~ [P_Dusk14]
+@40023   = ~¿Qué quieres?~ [P_Dusk27]
 
-@24   = ~Estoy motivado por la carencia de dudas.~ [P_Dusk10]
-@25   = ~Sí, sí. No necesitas gritar.~ [P_Dusk16]
-@26   = ~Hmmm... sí, ¿por qué no?~ [P_Dusk21]
-@27   = ~Te seguiré.~ [P_Dusk22]
-@28   = ~Una vez más...~ [P_Dusk12]
-@29   = ~Déjamelo a mí.~ [P_Dusk04]
-@30   = ~Puedo soportarlo.~ [P_Dusk01]
-@31   = ~Hmm... ¿te conozco? ¡Ja! Sólo bromeo.~ [P_Dusk23]
-@32   = ~Recuerda esto: Es mejor luchar por algo a vivir por nada.~ [P_Dusk24]
-@33   = ~¡Vamos!~ [P_Dusk14]
-@34   = ~¿Q-qué...?~[P_Dusk30]
-@35   = ~¡No puedo hacer nada más!~ [P_Dusk13]
-@36   = ~Lo siento, pero mi mochila está llena.~ [P_Dusk18]
-@37   = ~Oh, ¡maldición!~ [P_Dusk31]
-@38   = ~Cuando preguntas por su pasado, DUSK queda un instante pensativo. Dice que sus frecuentes visitas al Paseo de Waukin se deben a un extraño deseo por convertirse en mercader. Lo cierto es que Dusk, en su vida pasada, fue Primera Espada del ejército de los Dragones Púrpuras de Cormyr. Su viaje al sur, como mensajero de la paz, se vio frustrado por una serie de sucesos que dice narrará a su debido momento. Por lo pronto, dice provenir de los Aldant, una familia noble del norte que, antaño, combatió contra liches y nigromantes de Netheril, incluyendo al peligroso Aumvor. Dusk dice no estar seguro de la veracidad de ciertas narraciones que le contaron cuando era sólo un niño, pero lo cierto es que siente una especial aversión hacia los liches.~
-
-
-@39   = ~Te protegeré.~ [P_Dusk34]
-@40   = ~Hola, extraño.~[P_Dusk35] ~Hola, extraña.~ [P_Dusk35]
-@41   = ~Shhh... ahora estoy en las sombras...~ [P_Dusk32]
+@40024   = ~Estoy motivado por la carencia de dudas.~ [P_Dusk10]
+@40025   = ~Sí, sí. No necesitas gritar.~ [P_Dusk16]
+@40026   = ~Hmmm... sí, ¿por qué no?~ [P_Dusk21]
+@40027   = ~Te seguiré.~ [P_Dusk22]
+@40028   = ~Una vez más...~ [P_Dusk12]
+@40029   = ~Déjamelo a mí.~ [P_Dusk04]
+@40030   = ~Puedo soportarlo.~ [P_Dusk01]
+@40031   = ~Hmm... ¿te conozco? ¡Ja! Sólo bromeo.~ [P_Dusk23]
+@40032   = ~Recuerda esto: Es mejor luchar por algo a vivir por nada.~ [P_Dusk24]
+@40033   = ~¡Vamos!~ [P_Dusk14]
+@40034   = ~¿Q-qué...?~[P_Dusk30]
+@40035   = ~¡No puedo hacer nada más!~ [P_Dusk13]
+@40036   = ~Lo siento, pero mi mochila está llena.~ [P_Dusk18]
+@40037   = ~Oh, ¡maldición!~ [P_Dusk31]
+@40038   = ~Cuando preguntas por su pasado, DUSK queda un instante pensativo. Dice que sus frecuentes visitas al Paseo de Waukin se deben a un extraño deseo por convertirse en mercader. Lo cierto es que Dusk, en su vida pasada, fue Primera Espada del ejército de los Dragones Púrpuras de Cormyr. Su viaje al sur, como mensajero de la paz, se vio frustrado por una serie de sucesos que dice narrará a su debido momento. Por lo pronto, dice provenir de los Aldant, una familia noble del norte que, antaño, combatió contra liches y nigromantes de Netheril, incluyendo al peligroso Aumvor. Dusk dice no estar seguro de la veracidad de ciertas narraciones que le contaron cuando era sólo un niño, pero lo cierto es que siente una especial aversión hacia los liches.~
 
 
+@40039   = ~Te protegeré.~ [P_Dusk34]
+@40040   = ~Hola, extraño.~[P_Dusk35] ~Hola, extraña.~ [P_Dusk35]
+@40041   = ~Shhh... ahora estoy en las sombras...~ [P_Dusk32]
 
 
-@44   = ~¡Adelante, vamos!~ [p_dusk07]
-@45   = ~¡Un camarada nuestro ha caído!~
-@46   = ~Recuerda: nadie te golpeará tan fuerte como la vida misma.~ [P_Dusk26]
-@47   = ~¡¡¡Sí!!!~ [P_Dusk29]
-@48   = ~*suspiro* Mi objetivo es inmune...~ [P_Dusk28]
-@49   = ~Aquí vamos de nuevo...~ [P_Dusk13]
-@50   = ~*risa* La trampa... ha sido puesta.~ [P_Dusk33]
-@51   = ~Robo exitoso...~ [p_dusk41]
+
+
+@40044   = ~¡Adelante, vamos!~ [p_dusk07]
+@40045   = ~¡Un camarada nuestro ha caído!~
+@40046   = ~Recuerda: nadie te golpeará tan fuerte como la vida misma.~ [P_Dusk26]
+@40047   = ~¡¡¡Sí!!!~ [P_Dusk29]
+@40048   = ~*suspiro* Mi objetivo es inmune...~ [P_Dusk28]
+@40049   = ~Aquí vamos de nuevo...~ [P_Dusk13]
+@40050   = ~*risa* La trampa... ha sido puesta.~ [P_Dusk33]
+@40051   = ~Robo exitoso...~ [p_dusk41]
 
 
 //SPINF99
@@ -86,9 +86,9 @@ Las capas permanecerán sobre el guerrero durante 3 horas hasta que estas se acab
 
 // ITEMS
 
-@200001  = ~Hacha de Batalla ~
-@200002  = ~Hacha Dorada ~
-@200003  = ~La versión más común del hacha de batalla es un palo fuerte de unos 120 cm. con una cuchilla de un filo en forma de cuña en uno de sus extremos. Las hachas de batalla también se denominan hachas anchas.
+@400001  = ~Hacha de Batalla ~
+@400002  = ~Hacha Dorada ~
+@400003  = ~La versión más común del hacha de batalla es un palo fuerte de unos 120 cm. con una cuchilla de un filo en forma de cuña en uno de sus extremos. Las hachas de batalla también se denominan hachas anchas.
 
 CARACTERÍSTICAS:
 
@@ -99,7 +99,7 @@ Factor de velocidad: 7
 Talento marcial: Hacha
 Tipo de arma: A una mano
 Requisitos: 10 de fuerza ~
-@200004  = ~El brillo dorado de esta terrible hacha es hipnotizante y extraño. A tal punto en que uno puede ver el reflejo mismo de la crueldad y desesperanza. Quizás haya sido forjada con oro puro o quizás se trate de algo más. Lo cierto es que el filo es perfecto y es totalmente capaz de cercenar la cabeza de un humano con la facilidad con la que se corta una manzana con un cuchillo.
+@400004  = ~El brillo dorado de esta terrible hacha es hipnotizante y extraño. A tal punto en que uno puede ver el reflejo mismo de la crueldad y desesperanza. Quizás haya sido forjada con oro puro o quizás se trate de algo más. Lo cierto es que el filo es perfecto y es totalmente capaz de cercenar la cabeza de un humano con la facilidad con la que se corta una manzana con un cuchillo.
 El mango posee unas arcaicas insignias de idioma enano y es tan inefable que causa dolor a la vista. Sin embargo, la inscripción de Hachasangrienta salta a la vista, dando la impresión que solamente alguien que posea tal apellido es capaz de blandirla.
 
 CARACTERÍSTICAS:
@@ -122,12 +122,12 @@ Peso: 7 lbs
 Factor de velocidad: 2
 Talento marcial: Hacha
 Tipo de arma: A una mano~
-@200005  = ~Golpe vorpalino ~
-@200006  = ~Huye aterrorizado ~
+@400005  = ~Golpe vorpalino ~
+@400006  = ~Huye aterrorizado ~
 //ESPADA DE DISRUPCIÓN
-@200007  = ~Espada Bastarda~
-@200008  = ~Espada cormyreana de disrupción~
-@200009  = ~La espada bastarda, conocida también como espada de puño y medio, se llama así porque está a medio camino entre la espada de dos puños y la espada grande. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, que se puede adaptar a las dos manos si se prefiere. La longitud total de la espada bastarda oscila entre 120 y 150 centímetros.
+@400007  = ~Espada Bastarda~
+@400008  = ~Espada cormyreana de disrupción~
+@400009  = ~La espada bastarda, conocida también como espada de puño y medio, se llama así porque está a medio camino entre la espada de dos puños y la espada grande. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, que se puede adaptar a las dos manos si se prefiere. La longitud total de la espada bastarda oscila entre 120 y 150 centímetros.
 
 CARACTERÍSTICAS:
 
@@ -139,7 +139,7 @@ Talento marcial: Espada Bastarda
 Tipo de arma: A una mano
 Requisitos: 11 de fuerza~
 
-@200010  = ~La espada cormyreana de Dusk reforjada
+@400010  = ~La espada cormyreana de Dusk reforjada
 
 Irradia un terrible poder, electrocutando a todo aquel que no sea de sangre Aldant. Además, se percibe un aura divina, que contrasta con la peligrosidad del filo. La espada brinda protección contra el consumo de niveles, generalmente proveniente de criaturas no-muertas. Además, cada impacto genera una posibilidad de destierro de los muertos vivientes de este plano. Sin lugar a dudas, el ritual llevado a cabo en el proceso de reforzamiento ha despertado en el arma un odio instintivo, probablemente proveniente de la misma sangre de Dusk.
 
@@ -159,18 +159,18 @@ Factor de velocidad: 4
 Talento marcial: Espada Bastarda
 Tipo de arma: A una mano
 Requisitos: 11 de fuerza~
-@200011  = ~Cinco niveles consumidos~
-@200012  = ~Cuatro niveles consumidos~
-@200013  = ~Tres niveles consumidos~
-@200014  = ~Dos niveles consumidos~
-@200015  = ~Un nivel consumido~
+@400011  = ~Cinco niveles consumidos~
+@400012  = ~Cuatro niveles consumidos~
+@400013  = ~Tres niveles consumidos~
+@400014  = ~Dos niveles consumidos~
+@400015  = ~Un nivel consumido~
 
 // BRAZALES DE DEFENSA PETREA
 
-@200016  = ~Brazales~
-@200017  = ~Brazales de Defensa Pétrea~
-@200018  = ~Los brazales son gruesas bandas de metal o de cuero que van atadas con correas al antebrazo del personaje. Por lo general, la magia infundida en los brazales sólo sirve durante el combate, ya que la mayoría de ellos sirven para proteger a su portador de las lesiones y aumentar las posibilidades de golpear al contrincante. Sin embargo hay excepciones y cada día se producen más.~
-@200019  = ~Estos brazaletes de peso liviano brindan una invaluable defensa a quien los use, incluyendo (gracias al poder mágico con el que fue imbuido) la posibilidad de conjurar una expansión defensiva que surge de su centro y se expande a todo el cuerpo, brindando al portador una dureza comparable con la roca.
+@400016  = ~Brazales~
+@400017  = ~Brazales de Defensa Pétrea~
+@400018  = ~Los brazales son gruesas bandas de metal o de cuero que van atadas con correas al antebrazo del personaje. Por lo general, la magia infundida en los brazales sólo sirve durante el combate, ya que la mayoría de ellos sirven para proteger a su portador de las lesiones y aumentar las posibilidades de golpear al contrincante. Sin embargo hay excepciones y cada día se producen más.~
+@400019  = ~Estos brazaletes de peso liviano brindan una invaluable defensa a quien los use, incluyendo (gracias al poder mágico con el que fue imbuido) la posibilidad de conjurar una expansión defensiva que surge de su centro y se expande a todo el cuerpo, brindando al portador una dureza comparable con la roca.
 Incluso sin esta particular habilidad, el brazalete de por sí emana una fuerza vital destinada meramente a la protección de quien lo use.
 
 CARACTERÍSTICAS:
@@ -186,16 +186,16 @@ Peso: 2~
 
 // ARMADURA DE MAGOS
 
-@200020  = ~Armadura de Cota de Mallas~
-@200021  = ~Armadura de Magos~
-@200022  = ~La cota de malla está formada por anillos de metal entrelazados. Siempre está sobre una capa de tela acolchada o de cuero suave para evitar los roces y disminuir el impacto de los golpes.  
+@400020  = ~Armadura de Cota de Mallas~
+@400021  = ~Armadura de Magos~
+@400022  = ~La cota de malla está formada por anillos de metal entrelazados. Siempre está sobre una capa de tela acolchada o de cuero suave para evitar los roces y disminuir el impacto de los golpes.  
 
 CARACTERÍSTICAS:
 
 Clase de armadura: 5
 Peso: 40 lbs
 Requisitos: 8 de fuerza~
-@200023  = ~El diseño mágico de esta armadura permite al lanzador el conjurar hechizos sin restricción alguna. Además, un encantamiento adicional proporciona una mayor defensa física al portador.
+@400023  = ~El diseño mágico de esta armadura permite al lanzador el conjurar hechizos sin restricción alguna. Además, un encantamiento adicional proporciona una mayor defensa física al portador.
 
 CARACTERÍSTICAS:
 
@@ -208,10 +208,10 @@ Peso: 9~
 
 // TÚNICA DE VICONIA
 
-@200024  = ~Manto~
-@200025  = ~Túnica de Viconia~
-@200026  = ~El manto puede tener cualquier forma y hacerse con cualquier tipo de tela. La forma más habitual es una pieza redonda de tela con un agujero en el centro para la cabeza, con la tela drapeada desde el cuello con una cadena, un broche, un cordón o alfileres.~
-@200027  = ~Esta túnica de artesanía drow es la vestimenta típica de la drow Viconia. Brinda una magnífica defensa física y también protege al portador del frío y fuego. Nadie más que Viconia puede utilizarla.
+@400024  = ~Manto~
+@400025  = ~Túnica de Viconia~
+@400026  = ~El manto puede tener cualquier forma y hacerse con cualquier tipo de tela. La forma más habitual es una pieza redonda de tela con un agujero en el centro para la cabeza, con la tela drapeada desde el cuello con una cadena, un broche, un cordón o alfileres.~
+@400027  = ~Esta túnica de artesanía drow es la vestimenta típica de la drow Viconia. Brinda una magnífica defensa física y también protege al portador del frío y fuego. Nadie más que Viconia puede utilizarla.
 
 CARACTERÍSTICAS:
 
@@ -225,9 +225,9 @@ Peso: 15~
 
 // CRIMSON THUNDER
 
-@200028  = ~Martillo de Guerra~
-@200029  = ~Crimson Thunder~
-@200030  = ~Los caballeros a caballo no pueden manejar eficazmente las armas de palo largo, y como consecuencia de ello muchas de las armas disponen de un mango más corto para poder empuñarlas con una sola mano. Las mazas y los mayales son ejemplos anteriores (así como el martillo de guerra). El martillo de guerra del jinete es el descendiente del martillo de Lucerna. Se elabora por entero en acero, con arandelas que protegen y refuerzan la empuñadura. Las arandelas son pequeños discos de metal, que se diseñan a menudo con formas decorativas. El mango mide unos 46 centímetros.
+@400028  = ~Martillo de Guerra~
+@400029  = ~Crimson Thunder~
+@400030  = ~Los caballeros a caballo no pueden manejar eficazmente las armas de palo largo, y como consecuencia de ello muchas de las armas disponen de un mango más corto para poder empuñarlas con una sola mano. Las mazas y los mayales son ejemplos anteriores (así como el martillo de guerra). El martillo de guerra del jinete es el descendiente del martillo de Lucerna. Se elabora por entero en acero, con arandelas que protegen y refuerzan la empuñadura. Las arandelas son pequeños discos de metal, que se diseñan a menudo con formas decorativas. El mango mide unos 46 centímetros.
 
 CARACTERÍSTICAS:
 
@@ -238,7 +238,7 @@ Factor de velocidad: 4
 Talento marcial: Martillo de Guerra
 Tipo de arma: A una mano
 Requisitos: 9 de fuerza~
-@200031  = ~Trueno Escarlata
+@400031  = ~Trueno Escarlata
 
 Durante la guerra contra los titanes que emergieron de las Colinas Rojas, el valiente enano herrero Dronjack forjó, con la promesa de su propia alma a Moradin, un martillo en medio de tormentas de truenos y relámpagos. Se dice que Dronjack, liderando un ejército de enanos, logró vencer en una sangrienta batalla final a los terribles, liberando a las Colinas del sombrío mal de los gigantes y cayendo en combate, perdiéndose su Martillo Escarlata en un destino recóndito e ignoto.
 
@@ -265,10 +265,10 @@ Tipo: una mano~
 
 // ESPÍRITU DE LA JUSTICIA
 
-@200032 = ~Poción~
-@200033 = ~Espíritu de la Justicia~
-@200034 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200035 = ~La pesada botella metálica emana un aroma dulce y extravagante. Si te atreves a ver en su interior, verás un líquido brillante y misterioso, irradiando una energía incesante e infinita. La inscripción con el símbolo de Torm anuncia que sólo un fiel seguidor del Dios de la Justicia podrá ser capaz de regocijarse de sus beneficios.
+@400032 = ~Poción~
+@400033 = ~Espíritu de la Justicia~
+@400034 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400035 = ~La pesada botella metálica emana un aroma dulce y extravagante. Si te atreves a ver en su interior, verás un líquido brillante y misterioso, irradiando una energía incesante e infinita. La inscripción con el símbolo de Torm anuncia que sólo un fiel seguidor del Dios de la Justicia podrá ser capaz de regocijarse de sus beneficios.
 
 CARACTERÍSTICAS:
 
@@ -278,20 +278,20 @@ Bonificadores permanentes:
 - Puntos de Golpe: +20
 
 Peso: 25 lbs.~
-@200036 = ~Puntos de Golpe Obtenidos: +20~
-@200037 = ~Habilidad con Mandoble: Establecida en 5~
+@400036 = ~Puntos de Golpe Obtenidos: +20~
+@400037 = ~Habilidad con Mandoble: Establecida en 5~
 
 //FUEGO SALVAJE
-@200038 = ~Armadura de cuero~
-@200039 = ~Fuego Salvaje~
-@200040 = ~La armadura de cuero tachonado tiene poco en común con la armadura de cuero normal. Mientras que la armadura de cuero es una coraza endurecida, la de cuero tachonado es suave y flexible con cientos de remaches de metal incrustados. Estos remaches están tan próximos unos de otros que forman una armadura dura de metal que desvía los ataques de cuchilladas. El respaldo de cuero suave es simplemente un medio de sujetar los remaches en su lugar.  
+@400038 = ~Armadura de cuero~
+@400039 = ~Fuego Salvaje~
+@400040 = ~La armadura de cuero tachonado tiene poco en común con la armadura de cuero normal. Mientras que la armadura de cuero es una coraza endurecida, la de cuero tachonado es suave y flexible con cientos de remaches de metal incrustados. Estos remaches están tan próximos unos de otros que forman una armadura dura de metal que desvía los ataques de cuchilladas. El respaldo de cuero suave es simplemente un medio de sujetar los remaches en su lugar.  
 
 CARACTERÍSTICAS:
 
 Clase de armadura: 7
 Peso: 25 lbs
 Requisitos: 6 de fuerza~
-@200041 = ~Se cuenta que hace muchos siglos un grupo de humanos pretendió derribar uno de los grandes bosques septentrionales en Tethyr con el objetivo de progresar en su economía monetaria vendiendo madera y pieles de animales.
+@400041 = ~Se cuenta que hace muchos siglos un grupo de humanos pretendió derribar uno de los grandes bosques septentrionales en Tethyr con el objetivo de progresar en su economía monetaria vendiendo madera y pieles de animales.
 En medio de la destrucción un elfo sin nombre, solitario y sombrío, rogó al Dios de los Druidas, Mielikki, que le brindara las fuerzas necesarias para poder luchar contra los invasores. En ese instante, su torso desnudo fue cubierto con una misteriosa piel de cuero duro.
 El ardiente deseo del elfo en proteger su tierra brindó la capacidad de defenderse de sus enemigos con fuego, logrando un poderoso ataque ígneo, a su vez en que ganó protección contra dicho elemento.
 Se dice que el elfo, en ocasiones, se transformó en un fiero licántropo y con furia desgarró e incineró a algunos cazadores humanos, logrando la huída de los que pretendían atacar a la naturaleza.
@@ -308,9 +308,9 @@ Peso: 5~
 
 //VENOM STRIKE
 
-@200042 = ~Garrote~
-@200043 = ~Venom Strike~
-@200044 = ~La mayoría de los garrotes son palos recios de madera, estrechos en la empuñadura y más anchos en los extremos. Esta sencilla herramienta se ha utilizado desde que el hombre comenzó a utilizar herramientas. Todo el mundo puede encontrar una buena pieza recia de madera con la que golpear, de ahí el amplio uso de los garrotes.
+@400042 = ~Garrote~
+@400043 = ~Venom Strike~
+@400044 = ~La mayoría de los garrotes son palos recios de madera, estrechos en la empuñadura y más anchos en los extremos. Esta sencilla herramienta se ha utilizado desde que el hombre comenzó a utilizar herramientas. Todo el mundo puede encontrar una buena pieza recia de madera con la que golpear, de ahí el amplio uso de los garrotes.
 
 CARACTERÍSTICAS:
 
@@ -321,7 +321,7 @@ Factor de velocidad: 4
 Talento marcial: Clava/Garrote
 Tipo de arma: A una mano
 Requisitos: 5 de fuerza~
-@200045 = ~Golpe de Veneno
+@400045 = ~Golpe de Veneno
 
 Se dice que la punta escorpiana de la cola de una mantícora irradia un hedor agrio a putrefacción. Y es precisamente ese hedor lo que emana la punta de esta terrible clava, haciéndote sospechar que realmente fue construído en base a ingredientes de una mantícora muerta. Sea como fuere, la magia negra con la que fue imbuída permite al portador absorber la fuerza vital de la víctima.
 
@@ -339,15 +339,15 @@ Factor de velocidad: 3
 Talento marcial: Clava/Garrote
 Tipo de arma: A una mano
 Requisitos: 13 de fuerza~
-@200050 = ~Cuatro niveles consumidos~
-@200051 = ~Sanado~
+@400050 = ~Cuatro niveles consumidos~
+@400051 = ~Sanado~
 
 //PROTECCIÓN DEL GUERRERO
 
-@200052 = ~Gema~
-@200053 = ~Guerrero de Acero~
-@200054 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
-@200055 = ~La pesada gema destaca por la inscripción rúnica en su centro. Utilizarla significaría aprender la útil habilidad de instar una protección contra los ataques físicos, proveyendo al usuario una infalible cualidad contra sus enemigos.
+@400052 = ~Gema~
+@400053 = ~Guerrero de Acero~
+@400054 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
+@400055 = ~La pesada gema destaca por la inscripción rúnica en su centro. Utilizarla significaría aprender la útil habilidad de instar una protección contra los ataques físicos, proveyendo al usuario una infalible cualidad contra sus enemigos.
 
 CARACTERÍSTICAS:
 
@@ -356,14 +356,14 @@ Bonificadores permanentes:
 - Guerrero de Acero: 1 vez al día.
 
 Peso: 25 lbs.~
-@200056 = ~Habilidad Innata Obtenida: Guerrero de Acero~
+@400056 = ~Habilidad Innata Obtenida: Guerrero de Acero~
 
 // EMBLEMA DE BAERVAN
 
-@200057 = ~Gema~
-@200058 = ~Emblema de Baervan~
-@200059 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
-@200060 = ~La oscurosa forma de la piedra que tienes ante ti llama la atención. No puedes evitar sentir una tranquilidad al levantarla.
+@400057 = ~Gema~
+@400058 = ~Emblema de Baervan~
+@400059 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
+@400060 = ~La oscurosa forma de la piedra que tienes ante ti llama la atención. No puedes evitar sentir una tranquilidad al levantarla.
 Sin lugar a dudas, el animal representa al dios de los gnomos, Baervan, y sólo un fiel creyente del dogma puede utilizarlo.
 
 CARACTERÍSTICAS:
@@ -374,15 +374,15 @@ Bonificadores permanentes:
 - Constitución: Aumentada en 8 puntos.
 
 Peso: 25 lbs.~
-@200061 = ~Emblema de Baervan: +2 a la Inteligencia y Sabiduría~
-@200062 = ~Emblema de Baervan: +8 a la Constitución~
+@400061 = ~Emblema de Baervan: +2 a la Inteligencia y Sabiduría~
+@400062 = ~Emblema de Baervan: +8 a la Constitución~
 
 // VITALIDAD DE LA NOCHE
 
-@200063 = ~Gema~
-@200064 = ~Vitalidad de la Noche~
-@200065 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
-@200066 = ~La negrura del emblema que tienes ante ti es tan profunda que puede causar un ligero daño a la vista. Emana un profundo y recóndito sentimiento de nostalgia y su poder es innegable. Sólo un sirviente de Shar puede hacer uso de él.
+@400063 = ~Gema~
+@400064 = ~Vitalidad de la Noche~
+@400065 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
+@400066 = ~La negrura del emblema que tienes ante ti es tan profunda que puede causar un ligero daño a la vista. Emana un profundo y recóndito sentimiento de nostalgia y su poder es innegable. Sólo un sirviente de Shar puede hacer uso de él.
 
 CARACTERÍSTICAS:
 
@@ -392,15 +392,15 @@ Bonificadores permanentes:
 - Constitución: Aumentada en 8 puntos.
 
 Peso: 25 lbs.~
-@200067 = ~Vitalidad de la Noche: +4 a la Fuerza~
-@200068 = ~Vitalidad de la Noche: +8 a la Constitución~
+@400067 = ~Vitalidad de la Noche: +4 a la Fuerza~
+@400068 = ~Vitalidad de la Noche: +8 a la Constitución~
 
 // BENDICIÓN DE ARVORIN
 
-@200069 = ~Gema~
-@200070 = ~Bendición de Arvorin~
-@200071 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
-@200072 = ~El grupo de gemas brilla incesantemente con un ardiente deseo de justicia. Sólo podrán ser comprendidos por aquel que siga la valiente senda del dios mediano Arvorin.
+@400069 = ~Gema~
+@400070 = ~Bendición de Arvorin~
+@400071 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
+@400072 = ~El grupo de gemas brilla incesantemente con un ardiente deseo de justicia. Sólo podrán ser comprendidos por aquel que siga la valiente senda del dios mediano Arvorin.
 
 CARACTERÍSTICAS:
 
@@ -413,16 +413,16 @@ Disipar Magia (2 veces al día)
 Visión Verdadera (2 veces al día)
 
 Peso: 25lbs.~
-@200073 = ~Bendición de Arvorin: +4 a la Fuerza~
-@200074 = ~Habilidad Innata Obtenida: Disipar Magia~
-@200075 = ~Habilidad Innata Obtenida: Visión Verdadera~
+@400073 = ~Bendición de Arvorin: +4 a la Fuerza~
+@400074 = ~Habilidad Innata Obtenida: Disipar Magia~
+@400075 = ~Habilidad Innata Obtenida: Visión Verdadera~
 
 // ESTUDIOS SANTIFICADOS DE CORTHALA
 
-@200076 = ~Pergamino~
-@200077 = ~Estudios Santificados de Corthala~
-@200078 = ~Un pergamino de protección es un conjunto de runas mágicas recogidas en un manuscrito encantado. Estos pergaminos son únicos porque cualquier personaje, sea o no experto en magia, puede leerlos. Cuando estas runas se leen en voz alta, la magia protectora se dirige al objetivo elegido por el lector. Estos pergaminos pueden tener gran variedad de efectos beneficiosos, aunque hay que tener cuidado con los pergaminos provenientes de fuentes sospechosas.~
-@200079 = ~El contenido de los pergaminos data de tiempos antiguos en donde la familia Corthala regía como una de las más poderosas de Amn. Las runas e inscripciones mágicas brindan al portador un poder extraordinario. Sin embargo, sólo tendrán efecto en aquél que tenga sangre Corthala y sea lo suficientemente experimentado como para poder soportar dicha transformación.
+@400076 = ~Pergamino~
+@400077 = ~Estudios Santificados de Corthala~
+@400078 = ~Un pergamino de protección es un conjunto de runas mágicas recogidas en un manuscrito encantado. Estos pergaminos son únicos porque cualquier personaje, sea o no experto en magia, puede leerlos. Cuando estas runas se leen en voz alta, la magia protectora se dirige al objetivo elegido por el lector. Estos pergaminos pueden tener gran variedad de efectos beneficiosos, aunque hay que tener cuidado con los pergaminos provenientes de fuentes sospechosas.~
+@400079 = ~El contenido de los pergaminos data de tiempos antiguos en donde la familia Corthala regía como una de las más poderosas de Amn. Las runas e inscripciones mágicas brindan al portador un poder extraordinario. Sin embargo, sólo tendrán efecto en aquél que tenga sangre Corthala y sea lo suficientemente experimentado como para poder soportar dicha transformación.
 
 CARACTERÍSTICAS:
 
@@ -435,15 +435,15 @@ Peso: 2 lbs.
 
 Sólo lo puede usar:
 Valygar, nivel 12.~
-@200080 = ~Habilidad en Katana establecida en 5~
-@200081 = ~Estudios de Corthala: +4 a la Sabiduría~
+@400080 = ~Habilidad en Katana establecida en 5~
+@400081 = ~Estudios de Corthala: +4 a la Sabiduría~
 
 // PERGAMINO DEL TIEFLING
 
-@200082 = ~Pergamino~
-@200083 = ~Pergamino del Tiefling~
-@200084 = ~Un pergamino de protección es un conjunto de runas mágicas recogidas en un manuscrito encantado. Estos pergaminos son únicos porque cualquier personaje, sea o no experto en magia, puede leerlos. Cuando estas runas se leen en voz alta, la magia protectora se dirige al objetivo elegido por el lector. Estos pergaminos pueden tener gran variedad de efectos beneficiosos, aunque hay que tener cuidado con los pergaminos provenientes de fuentes sospechosas.~
-@200085 = ~Las runas son incomprensibles para cualquiera que no sea un tiefling. El misterioso poder que emana probablemente pueda ser comprendido por alguien que no sea originario de este plano.
+@400082 = ~Pergamino~
+@400083 = ~Pergamino del Tiefling~
+@400084 = ~Un pergamino de protección es un conjunto de runas mágicas recogidas en un manuscrito encantado. Estos pergaminos son únicos porque cualquier personaje, sea o no experto en magia, puede leerlos. Cuando estas runas se leen en voz alta, la magia protectora se dirige al objetivo elegido por el lector. Estos pergaminos pueden tener gran variedad de efectos beneficiosos, aunque hay que tener cuidado con los pergaminos provenientes de fuentes sospechosas.~
+@400085 = ~Las runas son incomprensibles para cualquiera que no sea un tiefling. El misterioso poder que emana probablemente pueda ser comprendido por alguien que no sea originario de este plano.
 
 CARACTERÍSTICAS:
 
@@ -454,15 +454,15 @@ Bonificadores permanentes:
 - Resistencia Mágica: +10%
 
 Peso: 5 lbs.~
-@200086 = ~Pergamino del Tiefling: +4 a la Inteligencia y Constitución~
-@200087 = ~Resistencia Mágica: +%10~
+@400086 = ~Pergamino del Tiefling: +4 a la Inteligencia y Constitución~
+@400087 = ~Resistencia Mágica: +%10~
 
 // POCIÓN GNÓMICA
 
-@200088 = ~Poción~
-@200089 = ~Poción Gnómica~
-@200090 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200091 = ~Los coloridos retoques en el exterior de la pesadísima botella harían desconfiar hasta al más confianzudo. Sin embargo, logras reconocer algo en la inscripción como: "...de nabos y gnomos...", dándote la impresión de que sólo alguien que sea de tal raza pueda entender con claridad sobre qué se trata.
+@400088 = ~Poción~
+@400089 = ~Poción Gnómica~
+@400090 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400091 = ~Los coloridos retoques en el exterior de la pesadísima botella harían desconfiar hasta al más confianzudo. Sin embargo, logras reconocer algo en la inscripción como: "...de nabos y gnomos...", dándote la impresión de que sólo alguien que sea de tal raza pueda entender con claridad sobre qué se trata.
 
 CARACTERÍSTICAS:
 
@@ -472,15 +472,15 @@ Bonificadores permanentes:
 - Destreza: Aumentada en 1 punto.
 
 Peso: 25 lbs.~
-@200092 = ~Poción Gnómica: +3 de Inteligencia~
-@200093 = ~Poción Gnómica: +1 de Destreza~
+@400092 = ~Poción Gnómica: +3 de Inteligencia~
+@400093 = ~Poción Gnómica: +1 de Destreza~
 
 // FORTALEZA DE BHAAL
 
-@200094 = ~Manual~
-@200095 = ~Fortaleza de Bhaal~
-@200096 = ~A juzgar por los símbolos arcanos impresos en su cubierta, está claro que este libro está imbuido con propiedades mágicas de alguna clase. No obstante, hasta que intentéis leerlo o identificarlo, seguiréis desconociendo su naturaleza exacta.~
-@200097 = ~La inscripción evoca, sorpresivamente, al dios del asesinato: Bhaal. En su interior se hace alusión a un descendiente con capacidades latrocinias y mágicas. 
+@400094 = ~Manual~
+@400095 = ~Fortaleza de Bhaal~
+@400096 = ~A juzgar por los símbolos arcanos impresos en su cubierta, está claro que este libro está imbuido con propiedades mágicas de alguna clase. No obstante, hasta que intentéis leerlo o identificarlo, seguiréis desconociendo su naturaleza exacta.~
+@400097 = ~La inscripción evoca, sorpresivamente, al dios del asesinato: Bhaal. En su interior se hace alusión a un descendiente con capacidades latrocinias y mágicas. 
 Como el tomo parece rechazar a <CHARNAME>, lo más probable es que el susodicho hijo de Bhaal no sea el destinado a "consumirlo".
 
 CARACTERÍSTICAS:
@@ -491,15 +491,15 @@ Bonificadores permanentes:
 - Inteligencia y Destreza: Aumentada en 1 punto.
 
 Peso: 15 lbs.~
-@200098 = ~Fortaleza de Bhaal: Fuerza aumentada en 7 puntos~
-@200099 = ~Fortaleza de Bhaal: Inteligencia y Destreza aumentadas en 1 punto~
+@400098 = ~Fortaleza de Bhaal: Fuerza aumentada en 7 puntos~
+@400099 = ~Fortaleza de Bhaal: Inteligencia y Destreza aumentadas en 1 punto~
 
 // FUERZA DEL ARPISTA
 
-@200100 = ~Manual~
-@200101 = ~Fuerza del Arpista~
-@200102 = ~A juzgar por los símbolos arcanos impresos en su cubierta, está claro que este libro está imbuido con propiedades mágicas de alguna clase. No obstante, hasta que intentéis leerlo o identificarlo, seguiréis desconociendo su naturaleza exacta.~
-@200103 = ~El símbolo de Mystra indica el preludio de una obra Arpista en donde se señalan misteriosas runas que sólo alguien de tal orden podría comprender. Aparentemente, indica el exiguo ritual en el que el portador es capaz de aumentar su fuerza física y mental.
+@400100 = ~Manual~
+@400101 = ~Fuerza del Arpista~
+@400102 = ~A juzgar por los símbolos arcanos impresos en su cubierta, está claro que este libro está imbuido con propiedades mágicas de alguna clase. No obstante, hasta que intentéis leerlo o identificarlo, seguiréis desconociendo su naturaleza exacta.~
+@400103 = ~El símbolo de Mystra indica el preludio de una obra Arpista en donde se señalan misteriosas runas que sólo alguien de tal orden podría comprender. Aparentemente, indica el exiguo ritual en el que el portador es capaz de aumentar su fuerza física y mental.
 
 CARACTERÍSTICAS:
 
@@ -509,15 +509,15 @@ Bonificadores permanentes:
 - Sabiduría: Aumentada en 3 puntos.
 
 Peso: 15 lbs.~
-@200104 = ~Tomo del Arpista: +2 a la Fuerza~
-@200105 = ~Tomo del Arpista: +3 a la Sabiduría~
+@400104 = ~Tomo del Arpista: +2 a la Fuerza~
+@400105 = ~Tomo del Arpista: +3 a la Sabiduría~
 
 // RUNAS DE UNIVERSALIDAD
 
-@200106 = ~Manual~
-@200107 = ~Runas de Universalidad~
-@200108 = ~A juzgar por los símbolos arcanos impresos en su cubierta, está claro que este libro está imbuido con propiedades mágicas de alguna clase. No obstante, hasta que intentéis leerlo o identificarlo, seguiréis desconociendo su naturaleza exacta.~
-@200109 = ~El pesado pergamino contiene runas mágicas fácilmente comprensibles. En pocas palabras, vislumbrarlas significará obtener la poderosa capacidad de utilizar prácticamente cualquier objeto. Vuelve al usuario: Universal.
+@400106 = ~Manual~
+@400107 = ~Runas de Universalidad~
+@400108 = ~A juzgar por los símbolos arcanos impresos en su cubierta, está claro que este libro está imbuido con propiedades mágicas de alguna clase. No obstante, hasta que intentéis leerlo o identificarlo, seguiréis desconociendo su naturaleza exacta.~
+@400109 = ~El pesado pergamino contiene runas mágicas fácilmente comprensibles. En pocas palabras, vislumbrarlas significará obtener la poderosa capacidad de utilizar prácticamente cualquier objeto. Vuelve al usuario: Universal.
 
 CARACTERÍSTICAS:
 
@@ -527,14 +527,14 @@ Bonificadores permanentes:
 
 
 Peso: 25 lbs.~
-@200110 = ~Habilidad Pasiva Obtenida: Usar cualquier objeto~
+@400110 = ~Habilidad Pasiva Obtenida: Usar cualquier objeto~
 
 // ORBE DE LA TORMENTA
 
-@200110 = ~Gema~
-@200111 = ~Orbe de la Tormenta~
-@200112 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
-@200113 = ~Rara vez se encuentran fragmentos estelares, resultados de grandiosas tormentas del firmamento. Ante ti se encuentra una especie de gema cristalizada, la cual emana un poder extraordinario. Hasta donde puedes ver, sólo un experimentado druida nórdico es capaz de comprender su poder.
+@400110 = ~Gema~
+@400111 = ~Orbe de la Tormenta~
+@400112 = ~Esta gema parece estar fuera de lugar en un lugar como este; es como si la hubieran dejado a propósito. Tal vez tenga algún significado, aunque tenéis el incómodo presentimiento de que no deberíais venderla y que sería mejor conservarla durante un tiempo. Normalmente, el agradable verde oscuro de las piedras beljuril brilla periódicamente con una reluciente luz parpadeante. Esta piedra tiene un matiz diferente, quizás porque sea una nueva variedad desconocida hasta la fecha. Parece muy valiosa.~
+@400113 = ~Rara vez se encuentran fragmentos estelares, resultados de grandiosas tormentas del firmamento. Ante ti se encuentra una especie de gema cristalizada, la cual emana un poder extraordinario. Hasta donde puedes ver, sólo un experimentado druida nórdico es capaz de comprender su poder.
 
 CARACTERÍSTICAS:
 
@@ -546,15 +546,15 @@ Bonificadores permanentes:
 Peso: 25 lbs.
 Sólo lo puede usar:
 Cambiaformas, nivel 13.~
-@200114 = ~Orbe de la Tormenta: +4 a la Fuerza~
-@200115 = ~Habilidad Innata Obtenida: Espíritu Animal~
+@400114 = ~Orbe de la Tormenta: +4 a la Fuerza~
+@400115 = ~Habilidad Innata Obtenida: Espíritu Animal~
 
 // TOMO DE DESTREZA THAYINA
 
-@200116 = ~Manual~
-@200117 = ~Tomo de Destreza Thayina~
-@200118 = ~A juzgar por los símbolos arcanos impresos en su cubierta, está claro que este libro está imbuido con propiedades mágicas de alguna clase. No obstante, hasta que intentéis leerlo o identificarlo, seguiréis desconociendo su naturaleza exacta.~
-@200119 = ~El tomo que se haya ante ti es una muestra excepcional de cómo un mago thayino es capaz, mediante poderosas runas, de obtener habilidades físicas totalmente envidiables hasta para el más escurridizo Ladrón de las Sombras. Como es de esperarse, sólo un mago rojo puede comprenderlo.
+@400116 = ~Manual~
+@400117 = ~Tomo de Destreza Thayina~
+@400118 = ~A juzgar por los símbolos arcanos impresos en su cubierta, está claro que este libro está imbuido con propiedades mágicas de alguna clase. No obstante, hasta que intentéis leerlo o identificarlo, seguiréis desconociendo su naturaleza exacta.~
+@400119 = ~El tomo que se haya ante ti es una muestra excepcional de cómo un mago thayino es capaz, mediante poderosas runas, de obtener habilidades físicas totalmente envidiables hasta para el más escurridizo Ladrón de las Sombras. Como es de esperarse, sólo un mago rojo puede comprenderlo.
 
 CARACTERÍSTICAS:
 
@@ -566,14 +566,14 @@ Peso: 10 lbs.
 
 Sólo lo puede usar:
 Mago Rojo, nivel 15~
-@200120 = ~Tomo Thayino: +7 a la Destreza~
+@400120 = ~Tomo Thayino: +7 a la Destreza~
 
 // POCIÓN CAÓTICO MALIGNO **VER
 
-@200121 = ~Poción~
-@200122 = ~Brebaje Mágico: Caótico Maligno~
-@200123 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200124 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400121 = ~Poción~
+@400122 = ~Brebaje Mágico: Caótico Maligno~
+@400123 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400124 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 CARACTERÍSTICAS:
 
@@ -582,14 +582,14 @@ Cambio de Alineamiento (permanente):
 - Caótico Maligno.
 
 Peso: 25 lbs.~
-@200125 = ~Alineamiento cambiado: Caótico Maligno~
+@400125 = ~Alineamiento cambiado: Caótico Maligno~
 
 // POCIÓN NEUTRAL MALIGNO
 
-@200126 = ~Poción~
-@200127 = ~Brebaje Mágico: Neutral Maligno~
-@200128 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200129 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400126 = ~Poción~
+@400127 = ~Brebaje Mágico: Neutral Maligno~
+@400128 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400129 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 CARACTERÍSTICAS:
 
@@ -598,14 +598,14 @@ Cambio de Alineamiento (permanente):
 - Neutral Maligno.
 
 Peso: 25 lbs.~
-@200130 = ~Alineamiento cambiado: Neutral Maligno~
+@400130 = ~Alineamiento cambiado: Neutral Maligno~
 
 // POCIÓN LEGAL MALIGNO **VER
 
-@200131 = ~Poción~
-@200132 = ~Brebaje Mágico: Legal Maligno~
-@200133 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200134 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400131 = ~Poción~
+@400132 = ~Brebaje Mágico: Legal Maligno~
+@400133 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400134 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 CARACTERÍSTICAS:
 
@@ -614,14 +614,14 @@ Cambio de Alineamiento (permanente):
 - Legal Maligno.
 
 Peso: 25 lbs.~
-@200135 = ~Alineamiento cambiado: Legal Maligno~
+@400135 = ~Alineamiento cambiado: Legal Maligno~
 
 // POCIÓN CAÓTICO NEUTRAL **VER
 
-@200136 = ~Poción~
-@200137 = ~Brebaje Mágico: Caótico Neutral~
-@200138 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200139 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400136 = ~Poción~
+@400137 = ~Brebaje Mágico: Caótico Neutral~
+@400138 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400139 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 CARACTERÍSTICAS:
 
@@ -630,14 +630,14 @@ Cambio de Alineamiento (permanente):
 - Caótico Neutral.
 
 Peso: 25 lbs.~
-@200140 = ~Alineamiento cambiado: Caótico Neutral~
+@400140 = ~Alineamiento cambiado: Caótico Neutral~
 
 // POCIÓN NEUTRAL AUTÉNTICO
 
-@200141 = ~Poción~
-@200142 = ~Brebaje Mágico: Neutral Auténtico~
-@200143 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200144 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400141 = ~Poción~
+@400142 = ~Brebaje Mágico: Neutral Auténtico~
+@400143 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400144 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 CARACTERÍSTICAS:
 
@@ -646,14 +646,14 @@ Cambio de Alineamiento (permanente):
 - Neutral Auténtico.
 
 Peso: 25 lbs.~
-@200145 = ~Alineamiento cambiado: Neutral Auténtico~
+@400145 = ~Alineamiento cambiado: Neutral Auténtico~
 
 // POCIÓN LEGAL NEUTRAL **VER
 
-@200146 = ~Poción~
-@200147 = ~Brebaje Mágico: Legal Neutral~
-@200148 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200149 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400146 = ~Poción~
+@400147 = ~Brebaje Mágico: Legal Neutral~
+@400148 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400149 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 CARACTERÍSTICAS:
 
@@ -662,14 +662,14 @@ Cambio de Alineamiento (permanente):
 - Legal Neutral.
 
 Peso: 25 lbs.~
-@200150 = ~Alineamiento cambiado: Legal Neutral~
+@400150 = ~Alineamiento cambiado: Legal Neutral~
 
 // POCIÓN CAÓTICO BUENO **VER
 
-@200151 = ~Poción~
-@200152 = ~Brebaje Mágico: Caótico Bueno~
-@200153 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200154 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400151 = ~Poción~
+@400152 = ~Brebaje Mágico: Caótico Bueno~
+@400153 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400154 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 CARACTERÍSTICAS:
 
@@ -678,14 +678,14 @@ Cambio de Alineamiento (permanente):
 - Caótico Bueno.
 
 Peso: 25 lbs.~
-@200155 = ~Alineamiento cambiado: Caótico Bueno~
+@400155 = ~Alineamiento cambiado: Caótico Bueno~
 
 // POCIÓN NEUTRAL BUENO
 
-@200156 = ~Poción~
-@200157 = ~Brebaje Mágico: Neutral Bueno~
-@200158 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200159 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400156 = ~Poción~
+@400157 = ~Brebaje Mágico: Neutral Bueno~
+@400158 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400159 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 CARACTERÍSTICAS:
 
@@ -694,14 +694,14 @@ Cambio de Alineamiento (permanente):
 - Neutral Bueno.
 
 Peso: 25 lbs.~
-@200160 = ~Alineamiento cambiado: Neutral Bueno~
+@400160 = ~Alineamiento cambiado: Neutral Bueno~
 
 // POCIÓN LEGAL BUENO **VER
 
-@200161 = ~Poción~
-@200162 = ~Brebaje Mágico: Legal Bueno~
-@200163 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200164 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400161 = ~Poción~
+@400162 = ~Brebaje Mágico: Legal Bueno~
+@400163 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400164 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 CARACTERÍSTICAS:
 
@@ -710,14 +710,14 @@ Cambio de Alineamiento (permanente):
 - Legal Bueno.
 
 Peso: 25 lbs.~
-@200165 = ~Alineamiento cambiado: Legal Bueno~
+@400165 = ~Alineamiento cambiado: Legal Bueno~
 
 // POCIÓN DE RASHEMEN
 
-@200166 = ~Poción~
-@200167 = ~Poción de Sabiduría Rashemen~
-@200168 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200169 = ~Algunas historias indican que cuando un hombre realiza con éxito total el viaje llamado "dejemma", reciben la sabiduría divina que sólo los más prestigiosos miembros del Dragón de Hielo poseen. 
+@400166 = ~Poción~
+@400167 = ~Poción de Sabiduría Rashemen~
+@400168 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400169 = ~Algunas historias indican que cuando un hombre realiza con éxito total el viaje llamado "dejemma", reciben la sabiduría divina que sólo los más prestigiosos miembros del Dragón de Hielo poseen. 
 La poción que ante ti se halla es un camino más corto hacia dicha gnosis. Sin embargo, sólo alguien nativo del Norte puede obtener los misteriosos poderes que ofrece.
 
 CARACTERÍSTICAS:
@@ -730,13 +730,13 @@ Peso: 25 lbs.
 
 Sólo lo puede usar:
 Explorador de Rashemen, nivel 12.~
-@200170 = ~Poción Rashemen: +11 a la Sabiduría~
+@400170 = ~Poción Rashemen: +11 a la Sabiduría~
 
 // FUROR ÉPICO
 
-@200171 = ~Espada Bastarda~
-@200172 = ~Epicus Furor~
-@200173 = ~La espada bastarda, conocida también como espada de puño y medio, se llama así porque está a medio camino entre la espada de dos puños y la espada grande. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, que se puede adaptar a las dos manos si se prefiere. La longitud total de la espada bastarda oscila entre 120 y 150 centímetros.
+@400171 = ~Espada Bastarda~
+@400172 = ~Epicus Furor~
+@400173 = ~La espada bastarda, conocida también como espada de puño y medio, se llama así porque está a medio camino entre la espada de dos puños y la espada grande. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, que se puede adaptar a las dos manos si se prefiere. La longitud total de la espada bastarda oscila entre 120 y 150 centímetros.
 
 CARACTERÍSTICAS:
 
@@ -747,7 +747,7 @@ Factor de velocidad: 8
 Talento marcial: Espada Bastarda
 Tipo de arma: A una mano
 Requisitos: 11 de fuerza~
-@200174 = ~Epicus Furor: La Espada Esmeralda.
+@400174 = ~Epicus Furor: La Espada Esmeralda.
 Hace siglos, en los planos misteriosos de Argalord, existió una Abominación que amenazaba con arrasar con toda la vida existente de la tierra. Se dice que sólo un hombre se atrevió a enfrentarlo. El hombre sin nombre, conocido como El Guerrero de Hielo, buscó en los confines del continente en busca de la legendaria espada, aquella que sólo un experimentado guerrero podría blandir.
 
 Luego de superar, a duras penas, todas las pruebas impuestas, fue capaz de blandir la Espada Esmeralda, el Furor Épico, y en una batalla que rompió las barreras del tiempo y del espacio, pudo derrotar a la Abominación que azotaba las pacíficas tierras de Argalord. Lamentablemente cayó en combate y la espada se perdió para siempre, siendo, según dicen, absorbida por la noche para nunca más verse por ese Plano.
@@ -773,13 +773,13 @@ Factor de velocidad: 3
 Talento marcial: Espada Bastarda
 Tipo de arma: A una mano
 Requisitos: 15 de fuerza~
-@200175 = ~Huye aterrorizado~
+@400175 = ~Huye aterrorizado~
 
 // COLMILLO DE LARLOCH
 
-@200176 = ~Hacha de Batalla~
-@200177 = ~Colmillo de Larloch~
-@200178 = ~La versión más común del hacha de batalla es un palo fuerte de unos 120 cm. con una cuchilla de un filo en forma de cuña en uno de sus extremos. Las hachas de batalla también se denominan hachas anchas.
+@400176 = ~Hacha de Batalla~
+@400177 = ~Colmillo de Larloch~
+@400178 = ~La versión más común del hacha de batalla es un palo fuerte de unos 120 cm. con una cuchilla de un filo en forma de cuña en uno de sus extremos. Las hachas de batalla también se denominan hachas anchas.
 
 CARACTERÍSTICAS:
 
@@ -790,7 +790,7 @@ Factor de velocidad: 7
 Talento marcial: Hacha
 Tipo de arma: A una mano
 Requisitos: 10 de fuerza~
-@200179 = ~El maligno y gélido poder que emana el frío acero del hacha genera numerosos escalofríos en la columna vertebral del portador. El Hacha de Batalla, Colmillo de Larloch, no es más que una creación menor del Rey de las Sombras, el liche Larloch. La víctima que sea herida por el filo del hacha será lastimada con un golpe adicional de frío que absorverá la energía vital y la entregará al portador. Además, el arma brinda protección contra los hechizos de encantamiento.
+@400179 = ~El maligno y gélido poder que emana el frío acero del hacha genera numerosos escalofríos en la columna vertebral del portador. El Hacha de Batalla, Colmillo de Larloch, no es más que una creación menor del Rey de las Sombras, el liche Larloch. La víctima que sea herida por el filo del hacha será lastimada con un golpe adicional de frío que absorverá la energía vital y la entregará al portador. Además, el arma brinda protección contra los hechizos de encantamiento.
 
 CARACTERÍSTICAS:
 
@@ -810,15 +810,15 @@ Factor de velocidad: 4
 Talento marcial: Hacha de Batalla
 Tipo de arma: A una mano
 Requisitos: 10 de fuerza~
-@200180 = ~Hechizo horrendo~
-@200181 = ~Encantado~
-@200182 = ~Sanado~
+@400180 = ~Hechizo horrendo~
+@400181 = ~Encantado~
+@400182 = ~Sanado~
 
 // KIKUICHIMONJI
 
-@200183 = ~Katana~
-@200184 = ~Kikuichimonji~
-@200185 = ~La katana es una espada curvada con un único filo y acabada en punta. Quizá sea una de las mejores espadas que se han fabricado nunca. Los pasos de su creación, un proceso largo y secreto, son más una forma de arte que cualquier otra cosa. Su hoja es una de las facetas más importantes de la cultura de Kara-Tur. Tocar o coger la katana de un samurái es un insulto que atraerá su ira. Que un gaijin o extranjero posea una de estas espadas es algo raro. O el gaijin ha sido honrado por un importante ministro o ha asesinado a un samurái.
+@400183 = ~Katana~
+@400184 = ~Kikuichimonji~
+@400185 = ~La katana es una espada curvada con un único filo y acabada en punta. Quizá sea una de las mejores espadas que se han fabricado nunca. Los pasos de su creación, un proceso largo y secreto, son más una forma de arte que cualquier otra cosa. Su hoja es una de las facetas más importantes de la cultura de Kara-Tur. Tocar o coger la katana de un samurái es un insulto que atraerá su ira. Que un gaijin o extranjero posea una de estas espadas es algo raro. O el gaijin ha sido honrado por un importante ministro o ha asesinado a un samurái.
 
 CARACTERÍSTICAS:
 
@@ -828,7 +828,7 @@ Peso: 6
 Factor de velocidad: 4
 Talento marcial: Katana
 Tipo: una mano~
-@200186 = ~En las tierras de Kara-Tur, en Kozakura, existió un joven asesino llamado Tenken Soujiro. Se dice que era tan rápido en combate que nada tenían que hacer sus oponentes. En medio del combate, su cuerpo tomaba un color dorado y sus extremidades se movían tan rápido que era difícil para el oponente adivinar a dónde habría de atacar. Con el paso de los años, Soujiro abandonó la senda del asesinato y se convirtió en Nómada. Nunca más se supo de él, y su katana fue vendida a un precio excelente, siendo su destino tan incierto como su original dueño.
+@400186 = ~En las tierras de Kara-Tur, en Kozakura, existió un joven asesino llamado Tenken Soujiro. Se dice que era tan rápido en combate que nada tenían que hacer sus oponentes. En medio del combate, su cuerpo tomaba un color dorado y sus extremidades se movían tan rápido que era difícil para el oponente adivinar a dónde habría de atacar. Con el paso de los años, Soujiro abandonó la senda del asesinato y se convirtió en Nómada. Nunca más se supo de él, y su katana fue vendida a un precio excelente, siendo su destino tan incierto como su original dueño.
 
 CARACTERÍSTICAS:
 
@@ -846,9 +846,9 @@ Tipo: una mano~
 
 // JISSEN-KENBU
 
-@200187 = ~Wakizashi~
-@200188 = ~Jissen-kenbu~
-@200189 = ~Wakizashi
+@400187 = ~Wakizashi~
+@400188 = ~Jissen-kenbu~
+@400189 = ~Wakizashi
 El wakizashi, o "espada compañera", es muy importante para un samurái. Se lleva en todo momento, incluso por dentro, y está cerca del samurái mientras duerme por la noche. El wakizashi tiene tanta calidad como la katana, aunque es más corta; mide entre 30 y 60 centímetros, resultando un arma peligrosa en manos expertas.
 
 CARACTERÍSTICAS:
@@ -859,7 +859,7 @@ Peso: 3
 Factor de velocidad: 3
 Talento marcial: cimitarra/wakizashi/ninja-to
 Tipo: una mano~
-@200190 = ~Kodachi
+@400190 = ~Kodachi
 
 Danza de Espadas - Flujo de Agua
 El mango de esta wakizashi emite una fría sensación, debido al daño gélido que prorrumpe la hoja.
@@ -878,13 +878,13 @@ Peso: 4
 Factor de velocidad: 0
 Talento marcial: katana
 Tipo: una mano~
-@200191 = ~Imagen espejada~
+@400191 = ~Imagen espejada~
 
 // MUGENJIN Katana
 
-@200192 = ~Katana~
-@200193 = ~Mugenjin~
-@200194 = ~La katana es una espada curvada con un único filo y acabada en punta. Quizá sea una de las mejores espadas que se han fabricado nunca. Los pasos de su creación, un proceso largo y secreto, son más una forma de arte que cualquier otra cosa. Su hoja es una de las facetas más importantes de la cultura de Kara-Tur. Tocar o coger la katana de un samurái es un insulto que atraerá su ira. Que un gaijin o extranjero posea una de estas espadas es algo raro. O el gaijin ha sido honrado por un importante ministro o ha asesinado a un samurái.
+@400192 = ~Katana~
+@400193 = ~Mugenjin~
+@400194 = ~La katana es una espada curvada con un único filo y acabada en punta. Quizá sea una de las mejores espadas que se han fabricado nunca. Los pasos de su creación, un proceso largo y secreto, son más una forma de arte que cualquier otra cosa. Su hoja es una de las facetas más importantes de la cultura de Kara-Tur. Tocar o coger la katana de un samurái es un insulto que atraerá su ira. Que un gaijin o extranjero posea una de estas espadas es algo raro. O el gaijin ha sido honrado por un importante ministro o ha asesinado a un samurái.
 
 CARACTERÍSTICAS:
 
@@ -894,7 +894,7 @@ Peso: 6
 Factor de velocidad: 4
 Talento marcial: Katana
 Tipo: una mano~
-@200195 = ~Mugenjin
+@400195 = ~Mugenjin
 
 Es imposible ignorar la artesanía con la que fue construida esta katana. Lo más llamativo es el filo ardiente, el cual provoca un daño mortífero a la víctima. Lo segundo es el aceite con la que está bañada constantemente, según dicen, por la carne de las incontables víctimas que fueron tajadas con Mugenjin. Se dice que alguna vez tuvo un duelo con su espada antagonista: Shin-Ushi, El Corazón de la Espada. Desconoces de la razón por la cual la espada fue imbuida así, porque por más que lo intentes, no podrás apaciguar el fuego de su acero. En la hoja yace una inscripción: "La Ira Ígnea".
 
@@ -924,9 +924,9 @@ Tipo: una mano~
 
 // SHIN-USHI
 
-@200196 = ~Katana~
-@200197 = ~Shin-Ushi~
-@200198 = ~La katana es una espada curvada con un único filo y acabada en punta. Quizá sea una de las mejores espadas que se han fabricado nunca. Los pasos de su creación, un proceso largo y secreto, son más una forma de arte que cualquier otra cosa. Su hoja es una de las facetas más importantes de la cultura de Kara-Tur. Tocar o coger la katana de un samurái es un insulto que atraerá su ira. Que un gaijin o extranjero posea una de estas espadas es algo raro. O el gaijin ha sido honrado por un importante ministro o ha asesinado a un samurái.
+@400196 = ~Katana~
+@400197 = ~Shin-Ushi~
+@400198 = ~La katana es una espada curvada con un único filo y acabada en punta. Quizá sea una de las mejores espadas que se han fabricado nunca. Los pasos de su creación, un proceso largo y secreto, son más una forma de arte que cualquier otra cosa. Su hoja es una de las facetas más importantes de la cultura de Kara-Tur. Tocar o coger la katana de un samurái es un insulto que atraerá su ira. Que un gaijin o extranjero posea una de estas espadas es algo raro. O el gaijin ha sido honrado por un importante ministro o ha asesinado a un samurái.
 
 CARACTERÍSTICAS:
 
@@ -936,7 +936,7 @@ Peso: 6
 Factor de velocidad: 4
 Talento marcial: Katana
 Tipo: una mano~
-@200199 = ~Shin-Ushi
+@400199 = ~Shin-Ushi
 
 Lo curioso de esta katana es la carencia del filo. Si bien es ligeramente más liviana de lo normal y no tiene el letal filo de muchas espadas, Shin-Ushi es una de las espadas definitivas. Se dice que alguna vez tuvo un duelo con su espada antagonista: Mugenjin, La Ira Ígnea. Desconoces de la razón por la cual la espada no tiene filo, porque por más que lo intentes, no podrás afilarla debido a sus runas mágicas. En la hoja yace una inscripción: "El Corazón de la Espada".
 
@@ -964,17 +964,17 @@ Fuerza necesaria: 6
 Sabiduría necesaria: 10
 Talento marcial: Katana
 Tipo: una mano~
-@200200 = ~Cinco niveles consumidos~
-@200201 = ~Cuatro niveles consumidos~
-@200202 = ~Tres niveles consumidos~
-@200203 = ~Dos niveles consumidos~
-@200204 = ~Un nivel consumido~
+@400200 = ~Cinco niveles consumidos~
+@400201 = ~Cuatro niveles consumidos~
+@400202 = ~Tres niveles consumidos~
+@400203 = ~Dos niveles consumidos~
+@400204 = ~Un nivel consumido~
 
 // kaiten-kenbu
 
-@200205 = ~Wakizashi~
-@200206 = ~Kaiten-kenbu~
-@200207 = ~Wakizashi
+@400205 = ~Wakizashi~
+@400206 = ~Kaiten-kenbu~
+@400207 = ~Wakizashi
 El wakizashi, o "espada compañera", es muy importante para un samurái. Se lleva en todo momento, incluso por dentro, y está cerca del samurái mientras duerme por la noche. El wakizashi tiene tanta calidad como la katana, aunque es más corta; mide entre 30 y 60 centímetros, resultando un arma peligrosa en manos expertas.
 
 CARACTERÍSTICAS:
@@ -985,7 +985,7 @@ Peso: 3
 Factor de velocidad: 3
 Talento marcial: cimitarra/wakizashi/ninja-to
 Tipo: una mano~
-@200208 = ~Kodachi
+@400208 = ~Kodachi
 
 Danza de Espadas - Defensa eléctrica
 El mango de esta wakizashi emite una extraña sensación, debido al daño eléctrico que prorrumpe la hoja.
@@ -1004,9 +1004,9 @@ Tipo: una mano~
 
 // Espada de Delryn
 
-@200209 = ~Espada larga~
-@200210 = ~Espada de Delryn~
-@200211 = ~Estas espadas generalmente reciben el nombre de espadas de doble filo, de guerra o militares. En muchos casos, la espada larga tiene una hoja de un solo filo. No existe una única versión de la espada larga, ya que su diseño y longitud varían de una cultura a otra, e incluso puede cambiar dentro de una misma cultura dependiendo del período histórico. Una de las características más comunes en todas las espadas largas es su longitud, que oscila entre 90 y 120 centímetros. En el último caso, sólo la hoja llega a medir hasta 1 metro de la longitud total de la espada. La mayoría de las espadas largas son de doble filo y punta afilada. A pesar de tener punta, se diseñan para cortar, no para apuñalar.
+@400209 = ~Espada larga~
+@400210 = ~Espada de Delryn~
+@400211 = ~Estas espadas generalmente reciben el nombre de espadas de doble filo, de guerra o militares. En muchos casos, la espada larga tiene una hoja de un solo filo. No existe una única versión de la espada larga, ya que su diseño y longitud varían de una cultura a otra, e incluso puede cambiar dentro de una misma cultura dependiendo del período histórico. Una de las características más comunes en todas las espadas largas es su longitud, que oscila entre 90 y 120 centímetros. En el último caso, sólo la hoja llega a medir hasta 1 metro de la longitud total de la espada. La mayoría de las espadas largas son de doble filo y punta afilada. A pesar de tener punta, se diseñan para cortar, no para apuñalar.
 
 CARACTERÍSTICAS:
 
@@ -1017,7 +1017,7 @@ Factor de velocidad: 5
 Talento marcial: Espada Larga
 Tipo de arma: A una mano
 Requistos: 6 de fuerza~
-@200212 = ~Los ancestros de la familia Delryn no fueron muy reconocidos en la historia de Athkatla. Sin embargo, se cuenta que hubo un caballero de la Noble Orden del Muy Radiante Corazón que luchó contra los gigantes en la Colina de los Trolls en un ataque que flanqueó las defensas de la región de de'Arnise. Junto a un grupo de paladines, lograron defender la tierra de la invasión de humanoides; sin embargo, todos murieron en combate y nunca más se supo del cuerpo del caballero Delryn. Su espada desapareció con él.
+@400212 = ~Los ancestros de la familia Delryn no fueron muy reconocidos en la historia de Athkatla. Sin embargo, se cuenta que hubo un caballero de la Noble Orden del Muy Radiante Corazón que luchó contra los gigantes en la Colina de los Trolls en un ataque que flanqueó las defensas de la región de de'Arnise. Junto a un grupo de paladines, lograron defender la tierra de la invasión de humanoides; sin embargo, todos murieron en combate y nunca más se supo del cuerpo del caballero Delryn. Su espada desapareció con él.
 Sólo alguien con la sangre de su familia corriendo por sus venas puede blandirla.
 
 CARACTERÍSTICAS:
@@ -1036,13 +1036,13 @@ Factor de velocidad: 0
 Talento marcial: Espada Larga
 Tipo de arma: A una mano
 Requistos: 6 de fuerza~
-@200213 = ~Habilidad en Espada Larga establecida en 5~
+@400213 = ~Habilidad en Espada Larga establecida en 5~
 
 // Ventisca del Averno
 
-@200214 = ~Espada Bastarda~
-@200215 = ~Ventisca del Averno~
-@200216 = ~La espada bastarda, conocida también como espada de puño y medio, se llama así porque está a medio camino entre la espada de dos puños y la espada grande. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, que se puede adaptar a las dos manos si se prefiere. La longitud total de la espada bastarda oscila entre 120 y 150 centímetros.
+@400214 = ~Espada Bastarda~
+@400215 = ~Ventisca del Averno~
+@400216 = ~La espada bastarda, conocida también como espada de puño y medio, se llama así porque está a medio camino entre la espada de dos puños y la espada grande. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, que se puede adaptar a las dos manos si se prefiere. La longitud total de la espada bastarda oscila entre 120 y 150 centímetros.
 
 CARACTERÍSTICAS:
 
@@ -1053,7 +1053,7 @@ Factor de velocidad: 8
 Talento marcial: Espada Bastarda
 Tipo de arma: A una mano
 Requisitos: 11 de fuerza~
-@200217 = ~El origen de la álgida espada es desconocido; sin embargo, se cuenta que proviene de algún plano infernal en donde el fuego no existe. Su hoja desprende un brillo frío y azulado y aquél que la mire fijamente, corre el riesgo de sufrir una conmoción cerebral, provocando que la víctima no esté consciente de sus propios actos.
+@400217 = ~El origen de la álgida espada es desconocido; sin embargo, se cuenta que proviene de algún plano infernal en donde el fuego no existe. Su hoja desprende un brillo frío y azulado y aquél que la mire fijamente, corre el riesgo de sufrir una conmoción cerebral, provocando que la víctima no esté consciente de sus propios actos.
 
 CARACTERÍSTICAS:
 
@@ -1073,10 +1073,10 @@ Requisitos: 11 de fuerza~
 // SET DE WIZARDSLAYER
 // Esperanza de Benork
 
-@200218 = ~Amuleto de plata~
-@200219 = ~Esperanza de Benork~
-@200220 = ~Los amuletos suelen ser objetos mágicos que por lo común se llevan alrededor del cuello, colgados de una cadena. El tipo de cadena que acompaña al amuleto suele aumentar el valor estético del elemento, pero no las propiedades mágicas. Sólo se puede llevar un amuleto en el cuello.~
-@200221 = ~Esperanza de Benork
+@400218 = ~Amuleto de plata~
+@400219 = ~Esperanza de Benork~
+@400220 = ~Los amuletos suelen ser objetos mágicos que por lo común se llevan alrededor del cuello, colgados de una cadena. El tipo de cadena que acompaña al amuleto suele aumentar el valor estético del elemento, pero no las propiedades mágicas. Sólo se puede llevar un amuleto en el cuello.~
+@400221 = ~Esperanza de Benork
 
 Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
 Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
@@ -1097,10 +1097,10 @@ Habilidades:
 
 // Defensa de Aznagarb
 
-@200222 = ~Brazales~
-@200223 = ~Defensa de Aznagarb~
-@200224 = ~Los brazales son gruesas bandas de metal o de cuero que van atadas con correas al antebrazo del personaje. Por lo general, la magia infundida en los brazales sólo sirve durante el combate, ya que la mayoría de ellos sirven para proteger a su portador de las lesiones y aumentar las posibilidades de golpear al contrincante. Sin embargo hay excepciones y cada día se producen más.~
-@200225 = ~Defensa de Aznagarb
+@400222 = ~Brazales~
+@400223 = ~Defensa de Aznagarb~
+@400224 = ~Los brazales son gruesas bandas de metal o de cuero que van atadas con correas al antebrazo del personaje. Por lo general, la magia infundida en los brazales sólo sirve durante el combate, ya que la mayoría de ellos sirven para proteger a su portador de las lesiones y aumentar las posibilidades de golpear al contrincante. Sin embargo hay excepciones y cada día se producen más.~
+@400225 = ~Defensa de Aznagarb
 
 Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
 Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
@@ -1123,14 +1123,14 @@ Peso: 4 lbs.~
 
 // Camino de los Ancestros
 
-@200226 = ~Botas~
-@200227 = ~Camino de los Ancestros~
-@200228 = ~Las botas las suelen hacer a mano los zapateros. Las botas normales se hacen partiendo de un molde, pero las buenas se diseñan para el pie de alguna persona en particular.
+@400226 = ~Botas~
+@400227 = ~Camino de los Ancestros~
+@400228 = ~Las botas las suelen hacer a mano los zapateros. Las botas normales se hacen partiendo de un molde, pero las buenas se diseñan para el pie de alguna persona en particular.
 
 CARACTERÍSTICAS:
 
 Peso: 4 lbs~
-@200229 = ~Camino de los Ancestros
+@400229 = ~Camino de los Ancestros
 
 Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
 Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
@@ -1148,25 +1148,25 @@ Aptitudes poseídas:
 - Resistencia a la Electricidad: +15%
 
 Peso: 4 lbs.~
-@200230 = ~<NO TEXT>~
- @200231 = ~<NO TEXT>~
- @200232 = ~<NO TEXT>~
- @200233 = ~<NO TEXT>~
- @200234 = ~<NO TEXT>~
- @200235 = ~<NO TEXT>~
- @200236 = ~<NO TEXT>~
- @200237 = ~<NO TEXT>~
- @200238 = ~<NO TEXT>~
- @200239 = ~Inmóvil~
- @200240 = ~Lentificado~
- @200241 = ~Lento~
+@400230 = ~<NO TEXT>~
+ @400231 = ~<NO TEXT>~
+ @400232 = ~<NO TEXT>~
+ @400233 = ~<NO TEXT>~
+ @400234 = ~<NO TEXT>~
+ @400235 = ~<NO TEXT>~
+ @400236 = ~<NO TEXT>~
+ @400237 = ~<NO TEXT>~
+ @400238 = ~<NO TEXT>~
+ @400239 = ~Inmóvil~
+ @400240 = ~Lentificado~
+ @400241 = ~Lento~
 
 // Protección de Aznagarb
 
-@200242 = ~Manto~
-@200243 = ~Protección de Aznagarb~
-@200244 = ~El manto puede tener cualquier forma y hacerse con cualquier tipo de tela. La forma más habitual es una pieza redonda de tela con un agujero en el centro para la cabeza, con la tela drapeada desde el cuello con una cadena, un broche, un cordón o alfileres.~
-@200245 = ~Protección de Aznagarb
+@400242 = ~Manto~
+@400243 = ~Protección de Aznagarb~
+@400244 = ~El manto puede tener cualquier forma y hacerse con cualquier tipo de tela. La forma más habitual es una pieza redonda de tela con un agujero en el centro para la cabeza, con la tela drapeada desde el cuello con una cadena, un broche, un cordón o alfileres.~
+@400245 = ~Protección de Aznagarb
 
 Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
 Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
@@ -1186,14 +1186,14 @@ Peso: 3 lbs.~
 
 // Fortaleza de Benork
 
-@200246 = ~Fajín~
-@200247 = ~Fortaleza de Benork~
-@200248 = ~Los fajines son parecidos a los cinturones. Pero los fajines no se utilizan para sujetarse los pantalones, sino para llevar bolsas, vainas y cosas similares.
+@400246 = ~Fajín~
+@400247 = ~Fortaleza de Benork~
+@400248 = ~Los fajines son parecidos a los cinturones. Pero los fajines no se utilizan para sujetarse los pantalones, sino para llevar bolsas, vainas y cosas similares.
 
 CARACTERÍSTICAS:
 
 Peso: 2 lbs~
-@200249 = ~Fortaleza de Benork
+@400249 = ~Fortaleza de Benork
 
 Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
 Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
@@ -1214,16 +1214,16 @@ Peso: 4 lbs.~
 
 // Iris de Tempus
 
-@200250 = ~Casco~
-@200251 = ~Iris de Tempus~
-@200252 = ~Esta clase de casco de rostro descubierto, hecho con cuero reforzado o con metal, cubre casi toda la cabeza, salvo la cara y el cuello. Estos cascos suelen incluir una protección para la nariz.
+@400250 = ~Casco~
+@400251 = ~Iris de Tempus~
+@400252 = ~Esta clase de casco de rostro descubierto, hecho con cuero reforzado o con metal, cubre casi toda la cabeza, salvo la cara y el cuello. Estos cascos suelen incluir una protección para la nariz.
 
 CARACTERÍSTICAS:
 
 Bonificador de clase de armadura: Ninguno
 Especial: Protege contra golpes críticos
 Peso: 2 lbs~
-@200253 = ~Iris de Tempus
+@400253 = ~Iris de Tempus
 
 Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
 Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
@@ -1248,18 +1248,18 @@ Habilidades:
 THAC0: +1
 Clase de Armadura: +1
 Peso: 3 lbs.~
-@200254 = ~Hechizo horrendo~
-@200255 = ~Encantado~
-@200256 = ~Dominado~
-@200257 = ~Pánico~
-@200258 = ~Pánico~
+@400254 = ~Hechizo horrendo~
+@400255 = ~Encantado~
+@400256 = ~Dominado~
+@400257 = ~Pánico~
+@400258 = ~Pánico~
 
 // Respiro del Linaje
 
-@200259 = ~Anillo~
-@200260 = ~Respiro del Linaje~
-@200261 = ~Un anillo es una pequeña banda de metal precioso que se utiliza como joya. Algunos anillos poco comunes han tenido encantamientos que confieren varias propiedades mágicas. Estos anillos son muy buscados, especialmente por aquéllos que se dedican a las aventuras.~
-@200262 = ~Respiro del Linaje
+@400259 = ~Anillo~
+@400260 = ~Respiro del Linaje~
+@400261 = ~Un anillo es una pequeña banda de metal precioso que se utiliza como joya. Algunos anillos poco comunes han tenido encantamientos que confieren varias propiedades mágicas. Estos anillos son muy buscados, especialmente por aquéllos que se dedican a las aventuras.~
+@400262 = ~Respiro del Linaje
 
 Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
 Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
@@ -1281,10 +1281,10 @@ Habilidades:
 
 // Latido de Calia
 
-@200263 = ~Anillo~
-@200264 = ~Latido de Calia~
-@200265 = ~Un anillo es una pequeña banda de metal precioso que se utiliza como joya. Algunos anillos poco comunes han tenido encantamientos que confieren varias propiedades mágicas. Estos anillos son muy buscados, especialmente por aquéllos que se dedican a las aventuras.~
-@200266 = ~Latido de Calia
+@400263 = ~Anillo~
+@400264 = ~Latido de Calia~
+@400265 = ~Un anillo es una pequeña banda de metal precioso que se utiliza como joya. Algunos anillos poco comunes han tenido encantamientos que confieren varias propiedades mágicas. Estos anillos son muy buscados, especialmente por aquéllos que se dedican a las aventuras.~
+@400266 = ~Latido de Calia
 
 Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
 Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
@@ -1306,9 +1306,9 @@ Habilidades:
 
 // Vengadora Real
 
-@200267 = ~Bastón~
-@200268 = ~Vengadora Real~
-@200269 = ~Es la más sencilla y humilde de las armas de palo. La barra es una madera de 180 a 275 centímetros de largo. Una buena barra está hecha de madera de roble y va rematada con metal en ambos extremos. La barra se debe empuñar con ambas manos.
+@400267 = ~Bastón~
+@400268 = ~Vengadora Real~
+@400269 = ~Es la más sencilla y humilde de las armas de palo. La barra es una madera de 180 a 275 centímetros de largo. Una buena barra está hecha de madera de roble y va rematada con metal en ambos extremos. La barra se debe empuñar con ambas manos.
 
 CARACTERÍSTICAS:
 
@@ -1319,7 +1319,7 @@ Factor de velocidad: 4
 Talento marcial: Bastón
 Tipo de arma: A dos manos
 Requisitos: 5 de fuerza~
-@200270 = ~Vengadora Real
+@400270 = ~Vengadora Real
 
 Benork fue un olvidado duque del Norte que luchó para vengar la muerte de su familia. La leyenda cuenta que un grupo de lóbregos hechiceros anhelaba su castillo por razones desconocidas, aunque los rumores mencionan que querían formar parte del clan de Larloch, el Rey Liche; y que como parte de su rito de iniciación, necesitaban sangre real. 
 Los nigromantes emplearon sus artes arcanas para liquidar cruelmente a la familia del noble. Sólo el duque Benork sobrevivió al lograr resistir un poderoso conjuro de enajenación. A pesar de ello, quedó ciego.
@@ -1353,14 +1353,14 @@ Factor de velocidad: 0
 Talento marcial: Bastón
 Tipo de arma: A dos manos
 Requisitos: 14 de fuerza~
-@200271 = ~Efectos de Dispersión~
+@400271 = ~Efectos de Dispersión~
 
 // Bellfame's Ring
 
-@200272 = ~Anillo~
-@200273 = ~Anillo del Bosque de Mir~
-@200274 = ~Un anillo es una pequeña banda de metal precioso que se utiliza como joya. Algunos anillos poco comunes han tenido encantamientos que confieren varias propiedades mágicas. Estos anillos son muy buscados, especialmente por aquéllos que se dedican a las aventuras.~
-@200275 = ~Anillo del Bosque de Mir
+@400272 = ~Anillo~
+@400273 = ~Anillo del Bosque de Mir~
+@400274 = ~Un anillo es una pequeña banda de metal precioso que se utiliza como joya. Algunos anillos poco comunes han tenido encantamientos que confieren varias propiedades mágicas. Estos anillos son muy buscados, especialmente por aquéllos que se dedican a las aventuras.~
+@400275 = ~Anillo del Bosque de Mir
 
 Hace algunos siglos, en las profundidades del bosque de Mir, habitaba la ninfa Bellfame junto a sus bestias. Durante muchos años protegió el bosque de Tethyr de cazadores furtivos y humanos sedientos de poder. Muchas criaturas le sirvieron de aliados y la naturaleza le estaba agradecida.
 Fue durante el Año de la Jarra que habría de encontrar su funesto final: Ajena era para su conocimiento la guerra que se gestaba entre Tethyr y el Tirano Oscuro de Mintar: Teldorn Darkhope.
@@ -1521,18 +1521,18 @@ HABILIDADES:
 
 Ataque Torbellino Mayor (3 vez al día): Sayang puede moverse a gran velocidad, permitiendo lanzar una "ráfaga" de golpes superrápidos.~
 // CRIATURAS CONVOCADAS
-@200276 = ~Bellfame~
-@200277 = ~Baba, el Ratón Nervioso~
-@200278 = ~Jack, el Lobo de Invierno~
-@200279 = ~Sayang, la Loba Worg~
-@200280 = ~Thiago, el Oso Pardo~
-@200281 = ~Uma, la Loba de las Sombras~
+@400276 = ~Bellfame~
+@400277 = ~Baba, el Ratón Nervioso~
+@400278 = ~Jack, el Lobo de Invierno~
+@400279 = ~Sayang, la Loba Worg~
+@400280 = ~Thiago, el Oso Pardo~
+@400281 = ~Uma, la Loba de las Sombras~
 
 //Ataque de Baba
-@200282 = ~Ataque~
-@200283 = ~Ataque mocho~
-@200284 = ~Ataque~
-@200285 = ~Por lo general, los roedores suelen atacar con sus filosos dientes, pero no es el caso de Baba, el Ratón Nervioso. 
+@400282 = ~Ataque~
+@400283 = ~Ataque mocho~
+@400284 = ~Ataque~
+@400285 = ~Por lo general, los roedores suelen atacar con sus filosos dientes, pero no es el caso de Baba, el Ratón Nervioso. 
 Sus problemas neuróticos debido al estrés de ser un ratón han provocado que roa y grite todo el tiempo, provocando que sus dientes pierdan su filo.
 En otras palabras, es muy poco probable que Baba sea capaz de lastimar a alguien con sus ataques, pero al menos es su último recurso.
 
@@ -1540,8 +1540,8 @@ Ataque: 1d2, daño contundente
 Velocidad de ataque: 0~
 
 //Descripción del Conjuro
-@200286 = ~Fuerzas del Bosque de Mir~
-@200287 = ~Fuerzas del Bosque de Mir
+@400286 = ~Fuerzas del Bosque de Mir~
+@400287 = ~Fuerzas del Bosque de Mir
 (Conjuración/Convocación)
 Nivel: Innato
 Alcance: 15 metros
@@ -1672,16 +1672,16 @@ Ataque Torbellino Mayor (3 vez al día): Sayang puede moverse a gran velocidad, p
 
 // Spell BABA
 
-@200288 = ~Aullido del ratón loco~
-@200289 = ~Pánico~
-@200290 = ~Pánico~
-@200291 = ~Baba emite un aullido fuerte y tenebroso, lo que provoca sorpresa tanto en aliados como en enemigos. 
+@400288 = ~Aullido del ratón loco~
+@400289 = ~Pánico~
+@400290 = ~Pánico~
+@400291 = ~Baba emite un aullido fuerte y tenebroso, lo que provoca sorpresa tanto en aliados como en enemigos. 
 Puede utilizarse tres veces por convocación, inflige daño e infunde miedo en los enemigos malignos, además de disipar el miedo y ejecutar un conjuro de Protección contra el mal sobre los aliados de Baba.~
 
 // Spell Thiago1
 
-@200292 = ~Valentía del Oso~
-@200293 = ~Valentía del Oso (Innato)
+@400292 = ~Valentía del Oso~
+@400293 = ~Valentía del Oso (Innato)
 Nivel: Innato
 Alcance: Grupo
 Tiempo de lanzamiento: 0
@@ -1695,13 +1695,13 @@ El oso lanza un fuerte gruñido, aumentando sus aptitudes en combate. Brinda prot
 Además, si alguno de sus compañeros estuviese afectado por el terror, la Valentía del Oso debería curar ese efecto negativo.
 THAC0: +1
 Tiradas de Salvación: +1~
-@200294 = ~Pánico~
-@200295 = ~Pánico~
+@400294 = ~Pánico~
+@400295 = ~Pánico~
 
 // Spell Thiago2
 
-@200296 = ~Poder Sagrado del Oso~
-@200297 = ~Poder Sagrado del Oso (Innato)
+@400296 = ~Poder Sagrado del Oso~
+@400297 = ~Poder Sagrado del Oso (Innato)
 Nivel: Innato
 Esfera: Combate
 Alcance: 0
@@ -1713,14 +1713,14 @@ Tirada de salvación: Ninguna
 DESCRIPCIÓN:
 
 El oso se prepara para el arduo combate, invocando a las sagradas fuerzas de la naturaleza. Cuando hace esto, su fuerza, constitución y destreza aumentan 3 puntos.~
-@200298 = ~Modificación de la Fuerza~
-@200299 = ~Modificación de la Fuerza~
-@200300 = ~Modificación de la Fuerza~
+@400298 = ~Modificación de la Fuerza~
+@400299 = ~Modificación de la Fuerza~
+@400300 = ~Modificación de la Fuerza~
 
 // Spell Thiago3
 
-@200301 = ~Oso endurecido~
-@200302 = ~Oso Endurecido (Alteración)
+@400301 = ~Oso endurecido~
+@400302 = ~Oso Endurecido (Alteración)
 Nivel: Innato
 Esfera: Elemental
 Alcance: Thiago
@@ -1736,17 +1736,17 @@ Thiago endurece su piel de tal manera, que crea capas impenetrables a las armas 
 
 // Michelson, el Leprechaun
 
-@200303 = ~Michelson, el Leprechaun~
+@400303 = ~Michelson, el Leprechaun~
 
 // Mathyus Davis
-@200304 = ~Mathyus Davis~
+@400304 = ~Mathyus Davis~
 
 // Libro de recetas leprechaun
 
-@200305 = ~Libro~
-@200306 = ~Libro de recetas leprechaun~
-@200307 = ~El libro es incomprensible a la vista. Puede que un conjuro de identificación o el conocimiento de un bardo pueda resolverlo.~
-@200308 = ~Libro de recetas leprechaun
+@400305 = ~Libro~
+@400306 = ~Libro de recetas leprechaun~
+@400307 = ~El libro es incomprensible a la vista. Puede que un conjuro de identificación o el conocimiento de un bardo pueda resolverlo.~
+@400308 = ~Libro de recetas leprechaun
 
 Saludos, viajeros. Les dejo este libro con las recetas necesarias para forjar poderosos artefactos, de la mano del buen Michelson. Creo que está todo bastante claro, así que espero que cuando reúnas lo necesario para algún artefacto, vengas con nosotros (habla primero conmigo, Michelson siempre está perdido en sus cosas de leprechaun).
 Aquí vamos:
@@ -1880,9 +1880,9 @@ Mathyus Davis.-~
 
 
 
-@200309 = ~Armadura de Cota de Mallas~
-@200310 = ~Armadura de la familia Aldant~
-@200311 = ~La cota de malla está formada por anillos de metal entrelazados. Siempre está sobre una capa de tela acolchada o de cuero suave para evitar los roces y disminuir el impacto de los golpes.  
+@400309 = ~Armadura de Cota de Mallas~
+@400310 = ~Armadura de la familia Aldant~
+@400311 = ~La cota de malla está formada por anillos de metal entrelazados. Siempre está sobre una capa de tela acolchada o de cuero suave para evitar los roces y disminuir el impacto de los golpes.  
 
 CARACTERÍSTICAS:
 
@@ -1893,7 +1893,7 @@ No permitido a:
  Druida 
  Mago 
  Ladrón~
-@200312 = ~Armadura de la familia Aldant
+@400312 = ~Armadura de la familia Aldant
 
 La cota de mallas expone un gallardo color púrpura, seguramente representando a los Dragones de Cormyr. Pero también tiene unos hermosos detalles de hojas, resultado del arte místico de los elfos. La magia que irradia provee protección adicional al portador. En este caso, a alguien con la sangre de la familia Aldant.
 
@@ -1905,8 +1905,8 @@ Peso: 10 lbs~
 
 // 	
 
-@200313 = ~Espada cormyreana reforjada~
-@200314 = ~Espada cormyreana reforjada
+@400313 = ~Espada cormyreana reforjada~
+@400314 = ~Espada cormyreana reforjada
 
 Esta espada bastarda fue forjada originalmente en Cormyr. Una típica espada de soldado. Sin embargo, la artesanía de la misma es exquisita, siendo su filo peligroso para todo aquello que toque.
 Según cuenta Dusk, la misma fue rota en un combate contra un troll gigante. Posteriormente, fue reforjada por los artesanos elfos del rey Elbereth, potenciando sus encantamientos y agregando un daño ácido en la misma, para no tener que sufrir las mismas consecuencias en caso de enfrentar de nuevo a esas criaturas de las montañas.
@@ -1925,8 +1925,8 @@ Tipo de talento: Espada bastarda~
 
 // Bastón reforzado shilmista
 
-@200315 = ~Bastón reforzado shilmista~
-@200316 = ~El bastón posee los colores de la Orden del Dragón Púrpura. La artesanía es especial, pues fue creado en Cormyr.
+@400315 = ~Bastón reforzado shilmista~
+@400316 = ~El bastón posee los colores de la Orden del Dragón Púrpura. La artesanía es especial, pues fue creado en Cormyr.
 Sin embargo, Dusk cuenta que el mismo fue reforzado en Shilmista por el rey elfo Elbereth y sólo Dusk puede usarlo.
 
 CARACTERÍSTICAS:
@@ -1941,30 +1941,30 @@ Factor de velocidad: 2
 Talento marcial: Bastón
 Tipo: dos manos~
 
-@200317 = ~Escudo roto de la Orden del Dragón Púrpura~
-@200318 = ~Los fragmentos maltrechos del escudo se encontraba en poder de un grupo de humanoides, los cuales clamaban ser desertores del ejército de Sothillis. Aún se puede admirar el purpúreo color metálico, aunque ya no sirva como escudo en sí.~
+@400317 = ~Escudo roto de la Orden del Dragón Púrpura~
+@400318 = ~Los fragmentos maltrechos del escudo se encontraba en poder de un grupo de humanoides, los cuales clamaban ser desertores del ejército de Sothillis. Aún se puede admirar el purpúreo color metálico, aunque ya no sirva como escudo en sí.~
 
 // DEFENSA DE CORMYR
 
 
 
-@200321 = ~Demoledor~
-@200322 = ~Falon, la cacique orco~
-@200323 = ~Cufa-Tima, el Ettin~
-@200324 = ~Ziben, la gnoll~
-@200325 = ~Coco, la chamán trasgo~
+@400321 = ~Demoledor~
+@400322 = ~Falon, la cacique orco~
+@400323 = ~Cufa-Tima, el Ettin~
+@400324 = ~Ziben, la gnoll~
+@400325 = ~Coco, la chamán trasgo~
 
-@200326 = ~Sornhil, el Encantador~
+@400326 = ~Sornhil, el Encantador~
 
-@200327 = ~Orbe escarlata misterioso~
-@200328 = ~El artefacto fue entregado por un misterioso personaje llamado Sornhil, un mago especializado en encantamientos. El orbe brilla con un rojo sangriento. Emana un poder misterioso, pero no sabes qué utilidad le puedas dar. Quizás Mathyus y Michelson puedan analizarlo un poco más.~
+@400327 = ~Orbe escarlata misterioso~
+@400328 = ~El artefacto fue entregado por un misterioso personaje llamado Sornhil, un mago especializado en encantamientos. El orbe brilla con un rojo sangriento. Emana un poder misterioso, pero no sabes qué utilidad le puedas dar. Quizás Mathyus y Michelson puedan analizarlo un poco más.~
 
 
 
 
 // ESPADA CARMESÍ
-@200334 = ~Espada carmesí~
-@200335 = ~Espada carmesí
+@400334 = ~Espada carmesí~
+@400335 = ~Espada carmesí
 
 El arma fue creada a partir de un orbe maligno. Dusk ha logrado desencadenar el poder completo del mismo, aunque a un costo que no logramos comprender. La espada brilla con un color carmesí, rojo sangre, como lo era el del misterioso orbe. Pese a tener el tamaño de una espada bastarda regular, su peso es descomunal comparado a una. Como es de esperarse, sólo la puede blandir Dusk.
 
@@ -1989,15 +1989,15 @@ Talento marcial: Espada Bastarda
 Tipo de arma: A una mano
 Requisitos: 19 de fuerza~
 
-@200336 = ~Sabiduría aumentada en 1 punto~
-@200337 = ~Habilidad innata obtenida: Guerrero de acero~
-@200338 = ~Experiencia obtenida: 100.000 puntos~
-@200339 = ~Alineamiento cambiado: Neutral Bueno~
-@200340 = ~Arma obtenida: Espada esmeralda~
+@400336 = ~Sabiduría aumentada en 1 punto~
+@400337 = ~Habilidad innata obtenida: Guerrero de acero~
+@400338 = ~Experiencia obtenida: 100.000 puntos~
+@400339 = ~Alineamiento cambiado: Neutral Bueno~
+@400340 = ~Arma obtenida: Espada esmeralda~
 
 // Espada Esmeralda
-@200341 = ~Espada esmeralda~
-@200342 = ~Espada esmeralda
+@400341 = ~Espada esmeralda~
+@400342 = ~Espada esmeralda
 
 El arma fue creada a partir de un orbe maligno. Dusk ha decidido acudir al explorador shilmista Mathyus Davis para que, junto al misterioso leprechaun Michelson, lograran erradicar la maldad del mismo. Si bien el poder del orbe disminuyó tras la purificación del mismo, Dusk ha logrado desencadenar su poder interior, logrando la creación de esta espada. Como es de esperarse, sólo la puede blandir él.
 
@@ -2022,30 +2022,30 @@ Tipo de arma: A una mano
 Requisitos: 15 de fuerza~
 
 
-@200343 = ~Orbe esmeralda purificado~
-@200344 = ~El artefacto fue entregado por un misterioso personaje llamado Sornhil, un mago especializado en encantamientos. El mismo fue purificado por el leprechaun de Shilmista, Michelson. Ahora brilla con un afable color verde musgo, y brilla de tanto en tanto, resplandeciendo como una esmeralda.~
+@400343 = ~Orbe esmeralda purificado~
+@400344 = ~El artefacto fue entregado por un misterioso personaje llamado Sornhil, un mago especializado en encantamientos. El mismo fue purificado por el leprechaun de Shilmista, Michelson. Ahora brilla con un afable color verde musgo, y brilla de tanto en tanto, resplandeciendo como una esmeralda.~
 
 
 // EVIL ORB
-@200345 = ~Fuerza aumentada en 2 puntos~
-@200346 = ~Destreza aumentada en 6 puntos~
-@200347 = ~Sabiduría disminuida en 2 puntos~
-@200348 = ~Habilidad innata obtenida: Guerrero de acero x3~
-@200349 = ~Habilidad innata obtenida: Miedo x2~
-@200350 = ~Experiencia obtenida: 500.000 puntos~
-@200351 = ~Arma obtenida: Espada carmesí~
-@200352 = ~Alineamiento cambiado: Neutral Maligno~
+@400345 = ~Fuerza aumentada en 2 puntos~
+@400346 = ~Destreza aumentada en 6 puntos~
+@400347 = ~Sabiduría disminuida en 2 puntos~
+@400348 = ~Habilidad innata obtenida: Guerrero de acero x3~
+@400349 = ~Habilidad innata obtenida: Miedo x2~
+@400350 = ~Experiencia obtenida: 500.000 puntos~
+@400351 = ~Arma obtenida: Espada carmesí~
+@400352 = ~Alineamiento cambiado: Neutral Maligno~
 
 // GOOD ORB
-@200353 = ~Sabiduría aumentada en 1 punto~
-@200354 = ~Habilidad innata obtenida: Último Esfuerzo~
-@200355 = ~Experiencia obtenida: 100.000 puntos~
-@200356 = ~Alineamiento cambiado: Neutral Bueno~
-@200357 = ~Arma obtenida: Espada esmeralda~
+@400353 = ~Sabiduría aumentada en 1 punto~
+@400354 = ~Habilidad innata obtenida: Último Esfuerzo~
+@400355 = ~Experiencia obtenida: 100.000 puntos~
+@400356 = ~Alineamiento cambiado: Neutral Bueno~
+@400357 = ~Arma obtenida: Espada esmeralda~
 
 // Cono de frío de JACK
 
-@200358 = ~Cono de Frío (Innato)
+@400358 = ~Cono de Frío (Innato)
 Nivel: 5
 Alcance: 0
 Duración: Instantánea
@@ -2059,31 +2059,31 @@ Jack emite un poderoso aliento gélido, similar al conjuro arcano. El daño emitid
 
 // Clan Orco
 
-@200359 = ~Alabarza, el Mutilador~
-@200360 = ~Bob~
-@200361 = ~Kocha, el bersérker~
-@200362 = ~Komar, el ogro~
-@200363 = ~Mike~
-@200364 = ~Serrano, el carnicero~
-@200365 = ~Tongas, el hechicero~
-@200366 = ~Toxsan-Chimi, el ettin~
-@200367 = ~Xeb'Tian, el torturador~
+@400359 = ~Alabarza, el Mutilador~
+@400360 = ~Bob~
+@400361 = ~Kocha, el bersérker~
+@400362 = ~Komar, el ogro~
+@400363 = ~Mike~
+@400364 = ~Serrano, el carnicero~
+@400365 = ~Tongas, el hechicero~
+@400366 = ~Toxsan-Chimi, el ettin~
+@400367 = ~Xeb'Tian, el torturador~
 
 // Orbe teletransportador
 
-@200368 = ~Orbe Teletransportador~
-@200371 = ~El extraño orbe color verde brilla incesante. Aparentemente, ha sido diseñado para teletransportar al lugar a aquellos que tengan otras gemas de teletransportación. El artefacto fue diseñado por Michelson, el misterioso leprechaun de Shilmista.
+@400368 = ~Orbe Teletransportador~
+@400371 = ~El extraño orbe color verde brilla incesante. Aparentemente, ha sido diseñado para teletransportar al lugar a aquellos que tengan otras gemas de teletransportación. El artefacto fue diseñado por Michelson, el misterioso leprechaun de Shilmista.
 
 Peso: 3 lbs.~
-@200372 = ~El extraño orbe color verde brilla incesante. Aparentemente, ha sido diseñado para teletransportar al lugar a aquellos que tengan otras gemas de teletransportación. El artefacto fue diseñado por Michelson, el misterioso leprechaun de Shilmista.
+@400372 = ~El extraño orbe color verde brilla incesante. Aparentemente, ha sido diseñado para teletransportar al lugar a aquellos que tengan otras gemas de teletransportación. El artefacto fue diseñado por Michelson, el misterioso leprechaun de Shilmista.
 
 Peso: 3 lbs.~
 
 
-@200373 = ~Valatar, el Conjurador~
+@400373 = ~Valatar, el Conjurador~
 
-@200374 = ~Espada carmesí mejorada~
-@200375 = ~Espada carmesí mejorada
+@400374 = ~Espada carmesí mejorada~
+@400375 = ~Espada carmesí mejorada
 
 El arma fue creada a partir de un orbe maligno. Dusk ha logrado desencadenar el poder completo del mismo, aunque a un costo que no logramos comprender. La espada brilla con un color carmesí, rojo sangre, como lo era el del misterioso orbe. Pese a tener el tamaño de una espada bastarda regular, su peso es descomunal comparado a una. Como es de esperarse, sólo la puede blandir Dusk.
 
@@ -2111,8 +2111,8 @@ Talento marcial: Espada Bastarda
 Tipo de arma: A una mano
 Requisitos: 19 de fuerza~
 
-@200376 = ~Espada esmeralda mejorada~
-@200377 = ~Espada esmeralda mejorada
+@400376 = ~Espada esmeralda mejorada~
+@400377 = ~Espada esmeralda mejorada
 
 El arma fue creada a partir de un orbe maligno. Dusk ha decidido acudir al explorador shilmista Mathyus Davis para que, junto al misterioso leprechaun Michelson, lograran erradicar la maldad del mismo. Si bien el poder del orbe disminuyó tras la purificación del mismo, Dusk ha logrado desencadenar su poder interior, logrando la creación de esta espada. Como es de esperarse, sólo la puede blandir él.
 
@@ -2141,8 +2141,8 @@ Requisitos: 15 de fuerza~
 // INNATES SPELLS DUSK
 // Infundir Valor
 
-@200378 = ~Infundir Valor~
-@200388 = ~Infundir Valor
+@400378 = ~Infundir Valor~
+@400388 = ~Infundir Valor
 Nivel: Innato
 Esfera: Abjuración
 Alcance: 10 metros
@@ -2158,8 +2158,8 @@ El guerrero cormyreano emite un grito de guerra "¡Por Cormyr!", el cual infunde 
 
 // Defensa Heroica
 
-@200380 = ~Defensa Heroica~
-@200381 = ~Defensa Heroica
+@400380 = ~Defensa Heroica~
+@400381 = ~Defensa Heroica
 Nivel: Innato
 Esfera: Protección
 Alcance: Objetivo
@@ -2172,8 +2172,8 @@ El guerrero cormyreano que ha sido entrenado como Primera Espada, es capaz de br
 
 // Miedo
 
-@200382 = ~Miedo~
-@200383 = ~Miedo
+@400382 = ~Miedo~
+@400383 = ~Miedo
 Nivel: Innato
 Esfera: Hechizo
 Alcance: Toque
@@ -2186,8 +2186,8 @@ El guerrero se rodea de un aura de temor de hasta 90 centímetros de radio. Todas
 
 // Último Esfuerzo
 
-@200384 = ~Último Esfuerzo~
-@200385 = ~Último Esfuerzo
+@400384 = ~Último Esfuerzo~
+@400385 = ~Último Esfuerzo
 Nivel: Innato
 Esfera: Curación
 Alcance: Alcance visual del lanzador
@@ -2203,8 +2203,8 @@ La Primera Espada evoca un sentimiento de esfuerzo vital a sus compañeros, incit
 
 // Juramento de Ira
 
-@200386 = ~Juramento de Ira~
-@200387 = ~Juramento de Ira
+@400386 = ~Juramento de Ira~
+@400387 = ~Juramento de Ira
 Nivel: Innato
 Esfera: Combate
 Alcance: 0
@@ -2222,10 +2222,10 @@ Puntos de golpe adicionales: 25
 Suerte: Máximo daño en cada ataque~
 
 
-@200389 = ~Hurón misterioso~
+@400389 = ~Hurón misterioso~
 
 // BELLFAME RING MEJORADO
-@200390 = ~Anillo del Bosque de Mir
+@400390 = ~Anillo del Bosque de Mir
 
 Hace algunos siglos, en las profundidades del bosque de Mir, habitaba la ninfa Bellfame junto a sus bestias. Durante muchos años protegió el bosque de Tethyr de cazadores furtivos y humanos sedientos de poder. Muchas criaturas le sirvieron de aliados y la naturaleza le estaba agradecida.
 Fue durante el Año de la Jarra que habría de encontrar su funesto final: Ajena era para su conocimiento la guerra que se gestaba entre Tethyr y el Tirano Oscuro de Mintar: Teldorn Darkhope.
@@ -2393,22 +2393,22 @@ HABILIDADES:
 
 Ataque Torbellino Mayor (3 vez al día): Sayang puede moverse a gran velocidad, permitiendo lanzar una "ráfaga" de golpes superrápidos.~
 
-@200391 = ~Sir Ryan Espinel~
+@400391 = ~Sir Ryan Espinel~
 
-@200392 = ~Puki~
+@400392 = ~Puki~
 
 // Mano de Alabarza
-@200393 = ~Mano de Alabarza~
-@200394 = ~La mano parece haber sido cercenada de un limpio espadazo.~
-@200395 = ~Esta es la mano de Alabarza, el Mutilador. La misma fue cercenada por Dusk Aldant, el Asesino de Magos de Cormyr en venganza por el ataque del orco al destacamento cormyreano. Puede que Dusk la lleve consigo porque ve en ella una utilidad para un futuro o, simplemente, como trofeo de su victoria.~
+@400393 = ~Mano de Alabarza~
+@400394 = ~La mano parece haber sido cercenada de un limpio espadazo.~
+@400395 = ~Esta es la mano de Alabarza, el Mutilador. La misma fue cercenada por Dusk Aldant, el Asesino de Magos de Cormyr en venganza por el ataque del orco al destacamento cormyreano. Puede que Dusk la lleve consigo porque ve en ella una utilidad para un futuro o, simplemente, como trofeo de su victoria.~
 
-@200396 = ~Utilería de Cormyr~
+@400396 = ~Utilería de Cormyr~
 
-@200398 = ~Este parece ser el cargamento del destacamento de Dusk. Alabarza debe haber recogido todos estos artículos de los caballeros caídos en combate. Varían entre armas, armaduras, pergaminos y pociones. Aunque, en su mayoría, todo parece estar muy descuidado y echado a perder.~
+@400398 = ~Este parece ser el cargamento del destacamento de Dusk. Alabarza debe haber recogido todos estos artículos de los caballeros caídos en combate. Varían entre armas, armaduras, pergaminos y pociones. Aunque, en su mayoría, todo parece estar muy descuidado y echado a perder.~
 
 // YOSHI ITEM
-@200399 = ~Katana contundente~
-@200400 = ~Katana contundente
+@400399 = ~Katana contundente~
+@400400 = ~Katana contundente
 
 El arma fue forjada por Michelson. Utilizando los restos metálicos inservibles del antiguo destacamento de Dusk, el leprechaun ha sido capaz de imbuir un gran poder a esta katana. La misma fue un regalo a Yoshimo, aunque cualquiera que sea capaz de utilizar katanas podrá utilizarla.
 
@@ -2422,8 +2422,8 @@ Factor de velocidad: 0
 Talento marcial: Katana
 Tipo de arma: A una mano
 Requisitos: 6 de fuerza~
-@200401 = ~Manto de'Arnise~
-@200402 = ~Manto de'Arnise
+@400401 = ~Manto de'Arnise~
+@400402 = ~Manto de'Arnise
 
 El manto tiene el emblema de la familia de'Arnise. Propia de ser utilizada por un líder, las protecciones mágicas brindan al portador una gran resistencia contra conjuros de índole mágica, además de brindar protección física.
 
@@ -2436,7 +2436,7 @@ Peso: 3 lbs~
 
 // MUGENJIN Espada Larga
 
-@200403 = ~Mugenjin
+@400403 = ~Mugenjin
 
 Es imposible ignorar la artesanía con la que fue construida esta espada larga. Lo más llamativo es el filo ardiente, el cual provoca un daño mortífero a la víctima. Lo segundo es el aceite con la que está bañada constantemente, según dicen, por la carne de las incontables víctimas que fueron tajadas con Mugenjin. Se dice que alguna vez tuvo un duelo con su espada antagonista: Shin-Ushi, El Corazón de la Espada. Desconoces de la razón por la cual la espada fue imbuida así, porque por más que lo intentes, no podrás apaciguar el fuego de su acero. En la hoja yace una inscripción: "La Ira Ígnea".
 
@@ -2466,7 +2466,7 @@ Tipo: una mano~
 
 // MUGENJIN Mandoble
 
-@200404 = ~Mugenjin
+@400404 = ~Mugenjin
 
 Es imposible ignorar la artesanía con la que fue construida este mandoble. Lo más llamativo es el filo ardiente, el cual provoca un daño mortífero a la víctima. Lo segundo es el aceite con la que está bañada constantemente, según dicen, por la carne de las incontables víctimas que fueron tajadas con Mugenjin. Se dice que alguna vez tuvo un duelo con su espada antagonista: Shin-Ushi, El Corazón de la Espada. Desconoces de la razón por la cual la espada fue imbuida así, porque por más que lo intentes, no podrás apaciguar el fuego de su acero. En la hoja yace una inscripción: "La Ira Ígnea".
 
@@ -2496,7 +2496,7 @@ Tipo: dos manos~
 
 // MUGENJIN Cimitarra
 
-@200405 = ~Mugenjin
+@400405 = ~Mugenjin
 
 Es imposible ignorar la artesanía con la que fue construida esta cimitarra. Lo más llamativo es el filo ardiente, el cual provoca un daño mortífero a la víctima. Lo segundo es el aceite con la que está bañada constantemente, según dicen, por la carne de las incontables víctimas que fueron tajadas con Mugenjin. Se dice que alguna vez tuvo un duelo con su espada antagonista: Shin-Ushi, El Corazón de la Espada. Desconoces de la razón por la cual la espada fue imbuida así, porque por más que lo intentes, no podrás apaciguar el fuego de su acero. En la hoja yace una inscripción: "La Ira Ígnea".
 
@@ -2528,7 +2528,7 @@ Tipo: una mano~
 
 // SHIN-USHI Espada Larga
 
-@200406 = ~Shin-Ushi
+@400406 = ~Shin-Ushi
 
 Lo curioso de esta espada larga es la carencia del filo. Si bien es ligeramente más liviana de lo normal y no tiene el letal filo de muchas espadas, Shin-Ushi es una de las espadas definitivas. Se dice que alguna vez tuvo un duelo con su espada antagonista: Mugenjin, La Ira Ígnea. Desconoces de la razón por la cual la espada no tiene filo, porque por más que lo intentes, no podrás afilarla debido a sus runas mágicas. En la hoja yace una inscripción: "El Corazón de la Espada".
 
@@ -2559,7 +2559,7 @@ Tipo: una mano~
 
 // SHIN-USHI Mandoble
 
-@200407 = ~Shin-Ushi
+@400407 = ~Shin-Ushi
 
 Lo curioso de este mandoble es la carencia del filo. Si bien es ligeramente más liviana de lo normal y no tiene el letal filo de muchas espadas, Shin-Ushi es una de las espadas definitivas. Se dice que alguna vez tuvo un duelo con su espada antagonista: Mugenjin, La Ira Ígnea. Desconoces de la razón por la cual la espada no tiene filo, porque por más que lo intentes, no podrás afilarla debido a sus runas mágicas. En la hoja yace una inscripción: "El Corazón de la Espada".
 
@@ -2590,7 +2590,7 @@ Tipo: dos manos~
 
 // SHIN-USHI Cimitarra
 
-@200408 = ~Shin-Ushi
+@400408 = ~Shin-Ushi
 
 Lo curioso de esta cimitarra es la carencia del filo. Si bien es ligeramente más liviana de lo normal y no tiene el letal filo de muchas espadas, Shin-Ushi es una de las espadas definitivas. Se dice que alguna vez tuvo un duelo con su espada antagonista: Mugenjin, La Ira Ígnea. Desconoces de la razón por la cual la espada no tiene filo, porque por más que lo intentes, no podrás afilarla debido a sus runas mágicas. En la hoja yace una inscripción: "El Corazón de la Espada".
 
@@ -2621,13 +2621,13 @@ Tipo: una mano~
 
 // AMATISTA DRAGON PURPURA
 
-@200409 = ~Amatista del Dragón Púrpura~
-@200410 = ~La gema brilla con un profundo color purpúreo. Según te fue indicado, puedes utilizarla para mejorar la Espada de Disrupción o a la armadura Defensa de Cormyr. Ambos artefactos deben haber sido forjados a partir de la receta indicada en el libro del leprechaun. Como consecuencia, para que su forjador pueda utilizarla, debes haber forjado anteriormente alguno de los artefactos mencionados.~
+@400409 = ~Amatista del Dragón Púrpura~
+@400410 = ~La gema brilla con un profundo color purpúreo. Según te fue indicado, puedes utilizarla para mejorar la Espada de Disrupción o a la armadura Defensa de Cormyr. Ambos artefactos deben haber sido forjados a partir de la receta indicada en el libro del leprechaun. Como consecuencia, para que su forjador pueda utilizarla, debes haber forjado anteriormente alguno de los artefactos mencionados.~
 
 // SALUS
 
-@200411 = ~Salus~
-@200412 = ~Salus
+@400411 = ~Salus~
+@400412 = ~Salus
 
 Con el poder de la Amatista del Dragón Púrpura, la armadura ha sido mejorada en sobremanera, obteniendo así a Salus. No sólo ha reforzado su resistencia a la magia, sino que brinda un notorio perfeccionamiento en la defensa contra el daño físico. Además, la armadura parece más ligera, pero no por ello menos defensiva.
 Sólo Dusk puede usarla.
@@ -2649,8 +2649,8 @@ Peso: 40 lbs~
 
 // REX 
 
-@200413 = ~Rex~
-@200414 = ~Rex
+@400413 = ~Rex~
+@400414 = ~Rex
 
 Con el poder de la Amatista del Dragón Púrpura, la espada ha sido mejorada en sobremanera, obteniendo así a Rex. Además de mantener sus actuales aptitudes de combate, Rex es capaz de ralentizar a los enemigos, sin darle oportunidad alguna de salvación. Su daño elemental, también, ha mejorado.
 La espada, en esencia, sigue siendo la misma, por lo que sólo Dusk es capaz de utilizarla.
@@ -2674,13 +2674,13 @@ Peso: 10 lbs
 Factor de velocidad: 3
 Talento marcial: Espada Bastarda
 Tipo de arma: A una mano~
-@200415 = ~Ralentizado~
+@400415 = ~Ralentizado~
 
 
-@200416 = ~Danctian~
+@400416 = ~Danctian~
 
-@200421 = ~Defensa de Cormyr~
-@200422 = ~La armadura de Dusk fue mejorada con las placas reforjadas de un escudo cormyreano. El encantamiento le ha añadido una mejora notable en su defensa física, así como mantenido los refuerzos arcanos de la cota de mallas sobre la cual fue hecha.
+@400421 = ~Defensa de Cormyr~
+@400422 = ~La armadura de Dusk fue mejorada con las placas reforjadas de un escudo cormyreano. El encantamiento le ha añadido una mejora notable en su defensa física, así como mantenido los refuerzos arcanos de la cota de mallas sobre la cual fue hecha.
 
 CARACTERÍSTICAS:
 
@@ -2692,17 +2692,17 @@ Bonificadores:
 Clase de armadura: -1
 Peso: 50 lbs~
 
-@200423 = ~Kalanda, el Transmutador~
-@200424 = ~Diablillo enfermo~
-@200425 = ~Worg débil~
+@400423 = ~Kalanda, el Transmutador~
+@400424 = ~Diablillo enfermo~
+@400425 = ~Worg débil~
 
-@200426 = ~Anthagar, el Nigromante~
-@200427 = ~Muerte~
-@200428 = ~Veneno~
-@200429 = ~Destrucción~
+@400426 = ~Anthagar, el Nigromante~
+@400427 = ~Muerte~
+@400428 = ~Veneno~
+@400429 = ~Destrucción~
 
-@200430 = ~Lux~
-@200431 = ~Lux
+@400430 = ~Lux~
+@400431 = ~Lux
 
 La espada esmeralda se ha convertido en un arma épica llamada Lux. La magia que irradia es casi pura y bondadosa, protegiendo al portador de daño físico y mágico, potenciando también su filo con un misterioso poder arcano. Si bien tiene el peso de una espada bastarda, aún posee la facultad veloz de ataque. 
 Sólo Dusk puede blandirla.
@@ -2728,8 +2728,8 @@ Talento marcial: Espada Bastarda
 Tipo de arma: A una mano
 Requisitos: 15 de fuerza~
 
-@200432 = ~Ira~
-@200433 = ~Ira
+@400432 = ~Ira~
+@400433 = ~Ira
 
 Ira es un arma épica forjada en las sombras del Pandemonium. Es la mejora definitiva de la espada carmesí y no sólo ha mantenido sus aptitudes actuales, sino que las ha perfeccionado y agregado un poderoso hechizo de Silencio a los conjuradores hostiles. El calor del filo es aún más mortífero y sus llamas parecen no afectar al portador.
 Sólo Dusk puede blandirla.
@@ -2757,20 +2757,20 @@ Talento marcial: Espada Bastarda
 Tipo de arma: A una mano
 Requisitos: 19 de fuerza~
 
-@200434 = ~Espíritu~
-@200435 = ~Glabrezu de Valatar~
-@200436 = ~Tanar'ri de Valatar~
+@400434 = ~Espíritu~
+@400435 = ~Glabrezu de Valatar~
+@400436 = ~Tanar'ri de Valatar~
 
-@200437 = ~Símbolo de Velsharún~
-@200438 = ~El extraño amuleto carga con una energía tenebrosa y claramente ves el cráneo sonriente de Velsharún en él. Tus manos tiemblan ligeramente al sostenerlo. Lo has obtenido del cuerpo de Anthagar, el líder de la Cripta Olvidada.~
+@400437 = ~Símbolo de Velsharún~
+@400438 = ~El extraño amuleto carga con una energía tenebrosa y claramente ves el cráneo sonriente de Velsharún en él. Tus manos tiemblan ligeramente al sostenerlo. Lo has obtenido del cuerpo de Anthagar, el líder de la Cripta Olvidada.~
 
-@200439 = ~Cuerpo de Mathyus Davis~
-@200440 = ~Este es el cadáver del elfo shilmista Mathyus Davis. Cayó en combate al ser dominado por los encantamientos del hechicero de la Cripta Olvidada, Sornhil.~
+@400439 = ~Cuerpo de Mathyus Davis~
+@400440 = ~Este es el cadáver del elfo shilmista Mathyus Davis. Cayó en combate al ser dominado por los encantamientos del hechicero de la Cripta Olvidada, Sornhil.~
 
-@200441 = ~Celine~
+@400441 = ~Celine~
 
-@200442 = ~Lux Triumphans~
-@200443 = ~Lux Triumphans
+@400442 = ~Lux Triumphans~
+@400443 = ~Lux Triumphans
 
 La luz triunfante es la espada bastarda por excelencia. Su magia irradia una energía pura y bondadosa, protegiendo al portador del daño físico y mágico. El filo arcano es capaz de activar una poderosa luz que mostrará al guerrero el camino de la verdad ante las mentiras de las ilusiones.
 Sólo Dusk puede blandirla.
@@ -2797,8 +2797,8 @@ Talento marcial: Espada Bastarda
 Tipo de arma: A una mano
 Requisitos: 15 de fuerza~
 
-@200444 = ~Ira Tenax~
-@200445 = ~Ira Tenax
+@400444 = ~Ira Tenax~
+@400445 = ~Ira Tenax
 
 Ira tenaz es la espada bastarda por excelencia. Forjada en las sombras del Pandemonium, Ira Tenax mantiene todas sus aptitudes y algunas incluso fueron mejoradas. Sumado al conjuro de Silencio, el guerrero puede ahora lanzar un poderoso Golpe de Fuego sobre sus enemigos. El calor del filo es aún mayor. Afortunadamente no parecen afectar al portador.
 Sólo Dusk puede blandirla.
@@ -2827,12 +2827,12 @@ Talento marcial: Espada Bastarda
 Tipo de arma: A una mano
 Requisitos: 19 de fuerza~
 
-@200446 = ~Habilidad innata obtenida: Juramento de Ira~
+@400446 = ~Habilidad innata obtenida: Juramento de Ira~
 
 // Items personalizados EE Characters
 // Wilson
-@3490  = ~Poolster~
-@3491  = ~Poolster (Innato)
+@403490  = ~Poolster~
+@403491  = ~Poolster (Innato)
 Nivel: Innato
 Alcance: El oso
 Duración: Especial
@@ -2843,7 +2843,7 @@ Tirada de salvación: Ninguna
 DESCRIPCIÓN:
 
 Este conjuro crea varios orbes de hielo de pequeño tamaño, uno por nivel del oso, que reemplazan a las garras habituales. El oso puede lanzar estos orbes contra objetivos que se encuentren a una distancia de hasta 15 metros, y serán tratados como proyectiles con una bonificación +5 a las tiradas de ataque. Al chocar contra alguien, infligirán 1D4 +3 puntos de daño y otros +3 puntos de daño gélido. El oso puede lanzar hasta cinco proyectiles por asalto.~
-@3492  = ~Este brillante orbe ha sido creado por el conjuro innato: Poolster.
+@403492  = ~Este brillante orbe ha sido creado por el conjuro innato: Poolster.
 
 CARACTERÍSTICAS:
 
@@ -2853,10 +2853,10 @@ Aptitudes de combate: Número de ataques por asalto establecido en 5
 Tipo de daño: Proyectil
 Peso: 0 lbs
 Factor de velocidad: 3~
-@3493  = ~Orbe Poolster~
+@403493  = ~Orbe Poolster~
 
-@3494  = ~Guantes de Cuchillos Nocturnos~
-@3495  = ~Guantes de Cuchillos Nocturnos
+@403494  = ~Guantes de Cuchillos Nocturnos~
+@403495  = ~Guantes de Cuchillos Nocturnos
 
 Estos guanteletes pesados emanan una indecible aura de maldad. Incluso pareciera ser que los mismos están impregnados con antiguas manchas de sangre seca, posiblemente debido a unos pinches que parecen salir de los mismos de tanto en tanto. Al parecer, sólo un Guardia Negro pueden usarlos.
 
@@ -2868,8 +2868,8 @@ Duración: 1 turno.
 
 Peso: 6~
 
-@3496  = ~Poción de Magia Salvaje~
-@3497  = ~El contenido de esta gran botella es un misterio. Sin embargo, te aseguraron que quien sea apto para beberla, obtendrá ventajas en su constitución tanto como para su mente. Parece ser sólo aceptable para aquel que conozca la magia salvaje.
+@403496  = ~Poción de Magia Salvaje~
+@403497  = ~El contenido de esta gran botella es un misterio. Sin embargo, te aseguraron que quien sea apto para beberla, obtendrá ventajas en su constitución tanto como para su mente. Parece ser sólo aceptable para aquel que conozca la magia salvaje.
 
 CARACTERÍSTICAS:
 
@@ -2880,13 +2880,13 @@ Bonificadores permanentes:
 - Constitución: Aumentada en 1 punto.
 
 Peso: 10 lbs.~
-@3498  = ~Puntos de vida: +20~
-@3499  = ~Inteligencia: Aumentada en 1 punto~
-@3500  = ~Constitución: Aumentada en 1 punto~
+@403498  = ~Puntos de vida: +20~
+@403499  = ~Inteligencia: Aumentada en 1 punto~
+@403500  = ~Constitución: Aumentada en 1 punto~
 
 
-@3501  = ~Poción de Luz Blanca~
-@3502  = ~Poción de Luz Blanca
+@403501  = ~Poción de Luz Blanca~
+@403502  = ~Poción de Luz Blanca
 
 La poción emana una luz brillante, como si los mismos rayos del sol estuviesen contenidos dentro de ella. Sólo un monje del Alma Solar podrá utilizar sus beneficios.
 
@@ -2899,11 +2899,11 @@ Bonificadores permanentes:
 - Resistencia al Daño Mágico: +%25
 
 Peso: 10 lbs.~
-@3503  = ~Constitución: Aumentada en 2 puntos~
-@3504  = ~Resistencia al Daño Mágico: +%25~
+@403503  = ~Constitución: Aumentada en 2 puntos~
+@403504  = ~Resistencia al Daño Mágico: +%25~
 
-@3505  = ~Poción de Líquido Rubí~
-@3506  = ~Poción de Líquido Rubí
+@403505  = ~Poción de Líquido Rubí~
+@403506  = ~Poción de Líquido Rubí
 
 El contenido de la botella te suena misteriosamente a algo conocido. ¿Puede que sea sangre? De todas formas, parece estar destinada solamente a Hexxat.
 
@@ -2915,11 +2915,11 @@ Bonificadores permanentes:
 
 
 Peso: 10 lbs.~
-@3507  = ~Puntos de vida: +35~
+@403507  = ~Puntos de vida: +35~
 
 
-@3508  = ~Flores y frutos invernales~
-@3509  = ~Flores y frutos invernales
+@403508  = ~Flores y frutos invernales~
+@403509  = ~Flores y frutos invernales
 
 Las ramas y hojas tienen un color gélido y sientes escalofríos al tan solo tocarlas. Sus frutos son morados y emiten un aroma dulzón. Claramente es un alimento para osos, porque la mirada de Wilson hacia ti cuando las sostienes, sugieren que se los des para que pueda comerlas de una vez por todas.
 
@@ -2930,23 +2930,23 @@ Bonificadores permanentes:
 - Habilidad innata: Poolster.
 
 Peso: 1 lbs.~
-@3510  = ~Habilidad innata obtenida: Poolster~
+@403510  = ~Habilidad innata obtenida: Poolster~
 
-@3511 = ~Habilidad innata obtenida: Valentía del Oso~
-@3512 = ~Habilidad innata obtenida: Poder Sagrado del Oso~
-@3513 = ~Habilidad innata obtenida: Oso Endurecido~
+@403511 = ~Habilidad innata obtenida: Valentía del Oso~
+@403512 = ~Habilidad innata obtenida: Poder Sagrado del Oso~
+@403513 = ~Habilidad innata obtenida: Oso Endurecido~
 
 
 
-@200447 = ~¡Jaheira! No... ¡¡¡Noooo!!!~
-@200448 = ~Minsc... Bubú... No... ¡Pagarán por esto!~
-@200449 = ~¡Aerie! Bastardos... ¡Mueran!~
-@200450 = ~¡Imoen! ¡IMOEN! No... ¡¡¡NoooOOoo!!!~
-@200451 = ~Korgan... Maldición... yo te vengaré, enano.~
-@200452 = ~Nalia... ¡En nombre de tu familia, vengaré tu caída!~
-@200453 = ~Valygar, no... no... ¡¡¡NOooOOOoooo!!!~
-@200454 = ~¿Has enloquecido? ¡No puedo permitir que hagas esto!~
-@200455 = ~Guarida de Mathyus~
+@400447 = ~¡Jaheira! No... ¡¡¡Noooo!!!~
+@400448 = ~Minsc... Bubú... No... ¡Pagarán por esto!~
+@400449 = ~¡Aerie! Bastardos... ¡Mueran!~
+@400450 = ~¡Imoen! ¡IMOEN! No... ¡¡¡NoooOOoo!!!~
+@400451 = ~Korgan... Maldición... yo te vengaré, enano.~
+@400452 = ~Nalia... ¡En nombre de tu familia, vengaré tu caída!~
+@400453 = ~Valygar, no... no... ¡¡¡NOooOOOoooo!!!~
+@400454 = ~¿Has enloquecido? ¡No puedo permitir que hagas esto!~
+@400455 = ~Guarida de Mathyus~
 
 
 
