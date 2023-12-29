@@ -1,60 +1,60 @@
-@0    = ~Fall~
+@4000    = ~Fall~
 @1    = ~Dusk MOD~
-@2    = ~Dusk~
-@3    = ~My ears still ring with that explosion...~ [p_duski]
-@4    = ~No...!,NO!!!~ [p_dusk02]
-@5    = ~This party's methods for dealing with situations have an ethereal quality to them.~ [p_dusk36] //  /// I like how this group handles things.
-@6    = ~We should reconsider our actions...~ // N/A
-@7    = ~Clearly something is not working here...~ // N/A
-@8    = ~We can't keep working together...~ // N/A
-@9    = ~I prefer you as the leader, but if you insist...~ [P_Dusk08] //08
-@10   = ~*yawn* I think we need some rest, don't you?~ [P_Dusk09]
-@11   = ~It doesn't matter how slow you go as long as you don't stop...~ [P_Dusk25]
-@12   = ~Let's see what you've got!~ [P_Dusk03]
-@13   = ~For Cormyr!!!~ [P_Dusk05]
-@14   = ~You can't win!~ [P_Dusk06]
-@15   = ~I'm sorry... I need someone to tend to my wounds.~ [P_Dusk11]
-@16   = ~We must beware of wild beasts. As beautiful as the forest may be, danger lurks around every corner...~ [p_dusk37]
-@17   = ~It's astonishing how corruption has permeated even the most secluded corners of the city.~ [p_dusk38]
-@18   = ~You should be careful here. I sense... danger.~ [P_Dusk15]
-@19   = ~Today is a good day for a stroll. But remember, <CHARNAME>, we have a duty to fulfill.~ [p_dusk39]
-@20   = ~The stars shine in the firmament, but beware! Not everything that glitters is gold...~ [p_dusk40]
-@21   = ~What's on your mind? ~ [P_Dusk17]
-@22   = ~Yes?~ [P_Dusk14]
-@23   = ~What do you want?~ [P_Dusk27]
+@4002    = ~Dusk~
+@4003    = ~My ears still ring with that explosion...~ [p_duski]
+@4004    = ~No...!,NO!!!~ [p_dusk02]
+@4005    = ~This party's methods for dealing with situations have an ethereal quality to them.~ [p_dusk36] //  /// I like how this group handles things.
+@4006    = ~We should reconsider our actions...~ // N/A
+@4007    = ~Clearly something is not working here...~ // N/A
+@4008    = ~We can't keep working together...~ // N/A
+@4009    = ~I prefer you as the leader, but if you insist...~ [P_Dusk08] //08
+@40010   = ~*yawn* I think we need some rest, don't you?~ [P_Dusk09]
+@40011   = ~It doesn't matter how slow you go as long as you don't stop...~ [P_Dusk25]
+@40012   = ~Let's see what you've got!~ [P_Dusk03]
+@40013   = ~For Cormyr!!!~ [P_Dusk05]
+@40014   = ~You can't win!~ [P_Dusk06]
+@40015   = ~I'm sorry... I need someone to tend to my wounds.~ [P_Dusk11]
+@40016   = ~We must beware of wild beasts. As beautiful as the forest may be, danger lurks around every corner...~ [p_dusk37]
+@40017   = ~It's astonishing how corruption has permeated even the most secluded corners of the city.~ [p_dusk38]
+@40018   = ~You should be careful here. I sense... danger.~ [P_Dusk15]
+@40019   = ~Today is a good day for a stroll. But remember, <CHARNAME>, we have a duty to fulfill.~ [p_dusk39]
+@40020   = ~The stars shine in the firmament, but beware! Not everything that glitters is gold...~ [p_dusk40]
+@40021   = ~What's on your mind? ~ [P_Dusk17]
+@40022   = ~Yes?~ [P_Dusk14]
+@40023   = ~What do you want?~ [P_Dusk27]
 
-@24   = ~I am motivated by the lack of doubts. ~ [P_Dusk10]
-@25   = ~Yes, yes. You don't need to shout.~ [P_Dusk16]
-@26   = ~Hmmm... yes, why not?~ [P_Dusk21]
-@27   = ~I'll follow you.~ [P_Dusk22]
-@28   = ~One more time...~ [P_Dusk12]
-@29   = ~Leave it to me.~ [P_Dusk04]
-@30   = ~I can take it.~ [P_Dusk01]
-@31   = ~Hmm... do I know you? Ha! Just kidding.~ [P_Dusk23]
-@32   = ~Remember this: It is better to fight for something than to live for nothing.~ [P_Dusk24]
-@33   = ~Yes?~ [P_Dusk14]
-@34   = ~Wh-what...?~[P_Dusk30]
-@35   = ~Here we go again...~ [P_Dusk13]
-@36   = ~I'm sorry, but my backpack is full.~ [P_Dusk18]
-@37   = ~Oh, damn it!~ [P_Dusk31]
-@38   = ~When asked about his past, DUSK becomes thoughtful for a moment. He says that his frequent visits to Waukeen's Promenade are due to a strange desire to become a merchant. The truth is that Dusk, in his past life, was the First Sword of the Purple Dragons of Cormyr's army. His journey south, as a messenger of peace, was frustrated by a series of events that he says he will narrate in due time. For now, he says he comes from the Aldant, a noble family from the north who once fought against liches and necromancers from Netheril, including the dangerous Aumvor. Dusk says he's not sure about the truthfulness of certain stories he was told when he was just a child, but the fact is that he feels a special aversion towards liches.~
-
-
-@39   = ~I will guard you.~ [P_Dusk34]
-@40   = ~Hi, stranger.~[P_Dusk35] ~Hi, stranger.~ [P_Dusk35]
-@41   = ~Shhh... I'm in the shadows now...~ [P_Dusk32]
+@40024   = ~I am motivated by the lack of doubts. ~ [P_Dusk10]
+@40025   = ~Yes, yes. You don't need to shout.~ [P_Dusk16]
+@40026   = ~Hmmm... yes, why not?~ [P_Dusk21]
+@40027   = ~I'll follow you.~ [P_Dusk22]
+@40028   = ~One more time...~ [P_Dusk12]
+@40029   = ~Leave it to me.~ [P_Dusk04]
+@40030   = ~I can take it.~ [P_Dusk01]
+@40031   = ~Hmm... do I know you? Ha! Just kidding.~ [P_Dusk23]
+@40032   = ~Remember this: It is better to fight for something than to live for nothing.~ [P_Dusk24]
+@40033   = ~Yes?~ [P_Dusk14]
+@40034   = ~Wh-what...?~[P_Dusk30]
+@40035   = ~Here we go again...~ [P_Dusk13]
+@40036   = ~I'm sorry, but my backpack is full.~ [P_Dusk18]
+@40037   = ~Oh, damn it!~ [P_Dusk31]
+@40038   = ~When asked about his past, DUSK becomes thoughtful for a moment. He says that his frequent visits to Waukeen's Promenade are due to a strange desire to become a merchant. The truth is that Dusk, in his past life, was the First Sword of the Purple Dragons of Cormyr's army. His journey south, as a messenger of peace, was frustrated by a series of events that he says he will narrate in due time. For now, he says he comes from the Aldant, a noble family from the north who once fought against liches and necromancers from Netheril, including the dangerous Aumvor. Dusk says he's not sure about the truthfulness of certain stories he was told when he was just a child, but the fact is that he feels a special aversion towards liches.~
 
 
+@40039   = ~I will guard you.~ [P_Dusk34]
+@40040   = ~Hi, stranger.~[P_Dusk35] ~Hi, stranger.~ [P_Dusk35]
+@40041   = ~Shhh... I'm in the shadows now...~ [P_Dusk32]
 
 
-@44   = ~Come on, let's go!~ [p_dusk07]
-@45   = ~A comrade of ours has fallen!~
-@46   = ~Remember: no one will hit you harder than life itself.~ [P_Dusk26]
-@47   = ~Yes!!!~ [P_Dusk29]
-@48   = ~*sigh* My target is immune...~ [P_Dusk28]
-@49   = ~Here we go again...~ [P_Dusk13]
-@50   = ~*laugh* The trapt... it's set.~ [P_Dusk33]
-@51   = ~Stealing successful.~ [p_dusk41]
+
+
+@40044   = ~Come on, let's go!~ [p_dusk07]
+@40045   = ~A comrade of ours has fallen!~
+@40046   = ~Remember: no one will hit you harder than life itself.~ [P_Dusk26]
+@40047   = ~Yes!!!~ [P_Dusk29]
+@40048   = ~*sigh* My target is immune...~ [P_Dusk28]
+@40049   = ~Here we go again...~ [P_Dusk13]
+@40050   = ~*laugh* The trapt... it's set.~ [P_Dusk33]
+@40051   = ~Stealing successful.~ [p_dusk41]
 
 
 //SPINF99
@@ -85,9 +85,9 @@ The layers will remain on the warrior for 3 hours until they are exhausted eithe
 
 // ITEMS
 
-@200001  = ~Battle Axe~
-@200002  = ~Golden Axe~
-@200003  = ~The most common version of the battle axe is a sturdy pole of about 120 cm with a single-edged, wedge-shaped blade on one end. Battle axes are also known as broad axes.
+@400001  = ~Battle Axe~
+@400002  = ~Golden Axe~
+@400003  = ~The most common version of the battle axe is a sturdy pole of about 120 cm with a single-edged, wedge-shaped blade on one end. Battle axes are also known as broad axes.
 
 FEATURES:
 
@@ -98,7 +98,7 @@ Speed factor: 7
 Martial talent: Axe
 Weapon type: One-handed
 Requirements: 10 strength~
-@200004  = ~The golden shine of this terrible axe is mesmerizing and eerie. To such an extent that one can see the reflection of cruelty and despair. Perhaps it has been forged with pure gold or perhaps it's something else. The blade is perfect and is fully capable of severing the head of a human as easily as one cuts an apple with a knife.
+@400004  = ~The golden shine of this terrible axe is mesmerizing and eerie. To such an extent that one can see the reflection of cruelty and despair. Perhaps it has been forged with pure gold or perhaps it's something else. The blade is perfect and is fully capable of severing the head of a human as easily as one cuts an apple with a knife.
 
 The handle bears some archaic insignias of the Dwarven language and is so ineffable that it causes pain to the eyes. However, the inscription of Bloodaxe stands out, giving the impression that only someone with such a surname is capable of wielding it.
 
@@ -119,14 +119,14 @@ Weight: 7 lbs
 Speed factor: 2
 Martial talent: Axe
 Weapon type: One-handed~
-@200005  = ~Vorpal Strike~
-@200006  = ~Flee in terror~
+@400005  = ~Vorpal Strike~
+@400006  = ~Flee in terror~
 
 
 //ESPADA DE DISRUPCIÓN
-@200007  = ~Bastard Sword~
-@200008  = ~Cormyrean Sword of Disruption~
-@200009  = ~Also known as the hand-and-a-half sword, the bastard sword derives its name from the fact that it is halfway between the two-handed sword and the long sword. The bastard sword has a double-edged blade and a long grip, which can accommodate both hands if preferred. The overall length of the bastard sword ranges between four feet and four feet ten inches.
+@400007  = ~Bastard Sword~
+@400008  = ~Cormyrean Sword of Disruption~
+@400009  = ~Also known as the hand-and-a-half sword, the bastard sword derives its name from the fact that it is halfway between the two-handed sword and the long sword. The bastard sword has a double-edged blade and a long grip, which can accommodate both hands if preferred. The overall length of the bastard sword ranges between four feet and four feet ten inches.
 
 STATISTICS:
 
@@ -139,7 +139,7 @@ Requires:
 
 Weight: 10~
 
-@200010  = ~The Reforged Cormyrean Sword of Dusk
+@400010  = ~The Reforged Cormyrean Sword of Dusk
 
 It radiates a terrible power, electrocuting anyone who is not of Aldant blood. Additionally, there is a divine aura that contrasts with the danger of the blade. The sword provides protection against level drain, typically caused by undead creatures. Moreover, each hit has a chance to banish undead from this plane. Undoubtedly, the ritual used in the reinforcing process has awakened an instinctive hatred in the weapon, probably stemming from the blood of Dusk himself.
 
@@ -158,18 +158,18 @@ Speed Factor: 4
 Weapon Proficiency: Bastard Sword
 Weapon Type: One-handed
 Requirements: 11 Strength~
-@200011  = ~Five levels drained~
-@200012  = ~Four levels drained~
-@200013  = ~Three levels drained~
-@200014  = ~Two levels drained~
-@200015  = ~One levels drained~
+@400011  = ~Five levels drained~
+@400012  = ~Four levels drained~
+@400013  = ~Three levels drained~
+@400014  = ~Two levels drained~
+@400015  = ~One levels drained~
 
 // BRAZALES DE DEFENSA PETREA
 
-@200016  = ~Bracers~
-@200017  = ~Stone Defense Bracers~
-@200018  = ~The bracers are thick metal or leather bands strapped to the character's forearm with straps. Typically, the magic infused in bracers only works during combat, as most of them are used to protect their wearer from injury and increase the chances of hitting the opponent. However, there are exceptions and more are being produced every day.~
-@200019  = ~These lightweight braces provide invaluable defense to the wearer, including (through the magical power with which they were imbued) the ability to conjure a defensive expansion that emanates from their center and expands to the entire body, providing the wearer with a hardness comparable to that of rock. Even without this particular ability, the bracelet itself radiates life force, meant solely for the protection of the wearer.
+@400016  = ~Bracers~
+@400017  = ~Stone Defense Bracers~
+@400018  = ~The bracers are thick metal or leather bands strapped to the character's forearm with straps. Typically, the magic infused in bracers only works during combat, as most of them are used to protect their wearer from injury and increase the chances of hitting the opponent. However, there are exceptions and more are being produced every day.~
+@400019  = ~These lightweight braces provide invaluable defense to the wearer, including (through the magical power with which they were imbued) the ability to conjure a defensive expansion that emanates from their center and expands to the entire body, providing the wearer with a hardness comparable to that of rock. Even without this particular ability, the bracelet itself radiates life force, meant solely for the protection of the wearer.
 
 STATISTICS:
 
@@ -184,9 +184,9 @@ Weight: 2~
 
 // ARMADURA DE MAGOS
 
-@200020  = ~Chain Mail~
-@200021  = ~Mage Armor~
-@200022  = ~Chain mail is made of interlocking metal rings. It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows. 
+@400020  = ~Chain Mail~
+@400021  = ~Mage Armor~
+@400022  = ~Chain mail is made of interlocking metal rings. It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows. 
 
 STATISTICS:
 
@@ -195,7 +195,7 @@ Requires:
  8 Strength
 
 Weight: 40~
-@200023  = ~The magical design of this armor allows the wearer to cast spells without any restrictions. In addition, an extra enchantment provides greater physical defense to the wearer.
+@400023  = ~The magical design of this armor allows the wearer to cast spells without any restrictions. In addition, an extra enchantment provides greater physical defense to the wearer.
 
 STATISTICS:
 
@@ -208,10 +208,10 @@ Weight: 9~
 
 // TÚNICA DE VICONIA
 
-@200024  = ~Mantle~
-@200025  = ~Viconia's Tunic~
-@200026  = ~The mantle can take any form and be made from any type of cloth. The most common form is a round piece of cloth with a hole in the center for the head, with the cloth draped from the neck with a chain, clasp, cord, or pins.~
-@200027  = ~This artisanal tunic is the typical clothing of the drow Viconia. It provides magnificent physical defense and also protects the wearer from cold and fire. Only Viconia can use it.
+@400024  = ~Mantle~
+@400025  = ~Viconia's Tunic~
+@400026  = ~The mantle can take any form and be made from any type of cloth. The most common form is a round piece of cloth with a hole in the center for the head, with the cloth draped from the neck with a chain, clasp, cord, or pins.~
+@400027  = ~This artisanal tunic is the typical clothing of the drow Viconia. It provides magnificent physical defense and also protects the wearer from cold and fire. Only Viconia can use it.
 
 STATISTICS:
 
@@ -225,9 +225,9 @@ Weight: 15~
 
 // CRIMSON THUNDER
 
-@200028  = ~War Hammer~
-@200029  = ~Crimson Thunder~
-@200030  = ~Mounted knights cannot effectively use long pole weapons while on horseback and, as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand. Maces and flails are two examples of thisâ€”the war hammer is another. The horseman's war hammer is the descendent of the Lucerne hammer. It is made entirely of steel, with rondels protecting and strengthening the grip. (Rondels are small disks of metal, often shaped into decorative designs.) The shaft is about eighteen inches long.
+@400028  = ~War Hammer~
+@400029  = ~Crimson Thunder~
+@400030  = ~Mounted knights cannot effectively use long pole weapons while on horseback and, as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand. Maces and flails are two examples of thisâ€”the war hammer is another. The horseman's war hammer is the descendent of the Lucerne hammer. It is made entirely of steel, with rondels protecting and strengthening the grip. (Rondels are small disks of metal, often shaped into decorative designs.) The shaft is about eighteen inches long.
 
 STATISTICS:
 
@@ -239,7 +239,7 @@ Requires:
  9 Strength
 
 Weight: 6~
-@200031  = ~Crimson Thunder
+@400031  = ~Crimson Thunder
 
 During the war against the titans that emerged from the Red Hills, the brave dwarf blacksmith Dronjack forged, with the promise of his own soul to Moradin, a hammer in the midst of thunderstorms and lightning. It is said that Dronjack, leading an army of dwarves, managed to win a bloody final battle against the terrible giants, freeing the Hills from the giants' dark evil and falling in combat, losing his Crimson Thunder in a remote and unknown fate.
 
@@ -266,10 +266,10 @@ Type: One-handed~
 
 // ESPÍRITU DE LA JUSTICIA
 
-@200032 = ~Potion~
-@200033 = ~Spirit of Justice~
-@200034 = ~Potions are usually found in ceramic, glass, or metal jars or vessels. The jars or other containers contain enough liquid to provide a person with the necessary dose to achieve the effects of the potion.~
-@200035 = ~The heavy metal bottle emanates a sweet and extravagant aroma. If you dare to look inside, you will see a bright and mysterious liquid, radiating ceaseless and infinite energy. The inscription with the symbol of Torm announces that only a faithful follower of the God of Justice will be able to rejoice in its benefits.
+@400032 = ~Potion~
+@400033 = ~Spirit of Justice~
+@400034 = ~Potions are usually found in ceramic, glass, or metal jars or vessels. The jars or other containers contain enough liquid to provide a person with the necessary dose to achieve the effects of the potion.~
+@400035 = ~The heavy metal bottle emanates a sweet and extravagant aroma. If you dare to look inside, you will see a bright and mysterious liquid, radiating ceaseless and infinite energy. The inscription with the symbol of Torm announces that only a faithful follower of the God of Justice will be able to rejoice in its benefits.
 
 STATISTICS:
 
@@ -279,20 +279,20 @@ Permanent bonuses:
 - Hit Points: +20
 
 Weight: 25 lbs.~
-@200036 = ~Hit Points Gained: +20~
-@200037 = ~Proficiency with Two-handed Sword: Set to 5~
+@400036 = ~Hit Points Gained: +20~
+@400037 = ~Proficiency with Two-handed Sword: Set to 5~
 
 //FUEGO SALVAJE
-@200038 = ~Leather Armor~
-@200039 = ~Wildfire~
-@200040 = ~Studded leather armor has little in common with normal leather armor. While leather armor is a hardened cuirass, studded leather armor is soft and flexible with hundreds of metal studs embedded in it. These studs are so close together that they form a hard metal armor that deflects slashing attacks. The soft leather backing is merely a means of holding the studs in place.
+@400038 = ~Leather Armor~
+@400039 = ~Wildfire~
+@400040 = ~Studded leather armor has little in common with normal leather armor. While leather armor is a hardened cuirass, studded leather armor is soft and flexible with hundreds of metal studs embedded in it. These studs are so close together that they form a hard metal armor that deflects slashing attacks. The soft leather backing is merely a means of holding the studs in place.
 
 STATISTICS:
 
 Armor Class: 7
 Weight: 25 lbs
 Requirements: 6 Strength~
-@200041 = ~It is said that many centuries ago, a band of humans tried to bring down one of the great northern forests in Tethyr with the aim of progressing their monetary economy by selling wood and animal skins.
+@400041 = ~It is said that many centuries ago, a band of humans tried to bring down one of the great northern forests in Tethyr with the aim of progressing their monetary economy by selling wood and animal skins.
 Amidst the destruction, an unnamed, solitary and somber elf prayed to the Druid God, Mielikki, for the strength to fight against the invaders. In that instant, his bare torso was covered with a mysterious tough leather hide.
 The elf's burning desire to protect his land granted him the ability to defend himself against fire, gaining a powerful fiery attack and protection against the element.
 It is said that the elf sometimes transformed into a fierce werewolf and with fury tore and incinerated some human hunters, achieving the exile of those who sought to attack nature.
@@ -309,9 +309,9 @@ Weight: 5~
 
 //VENOM STRIKE
 
-@200042 = ~Club~
-@200043 = ~Venom Strike~
-@200044 = ~Most clubs are sturdy wooden sticks, narrow at the handle and wider at the ends. This simple tool has been used since humans began using tools. Anyone can find a good sturdy piece of wood to strike with, hence the widespread use of clubs.
+@400042 = ~Club~
+@400043 = ~Venom Strike~
+@400044 = ~Most clubs are sturdy wooden sticks, narrow at the handle and wider at the ends. This simple tool has been used since humans began using tools. Anyone can find a good sturdy piece of wood to strike with, hence the widespread use of clubs.
 
 FEATURES:
 
@@ -322,7 +322,7 @@ Speed Factor: 4
 Weapon Skill: Mace/Club
 Weapon Type: One-handed
 Requirements: 5 Strength~
-@200045 = ~Venom Strike
+@400045 = ~Venom Strike
 
 It is said that the scorpion-like tip of a Manticore's tail radiates a sour stench of decay. And it is precisely that stench that emanates from the tip of this terrible club, making you suspect that it was really built from ingredients of a dead Manticore. Be that as it may, the dark magic with which it was imbued allows the bearer to absorb the life force of the victim.
 
@@ -340,15 +340,15 @@ Speed Factor: 3
 Martial Talent: Club
 Weapon Type: One-handed
 Requirements: 13 strength~
-@200050 = ~Four levels consumed~
-@200051 = ~Healed~
+@400050 = ~Four levels consumed~
+@400051 = ~Healed~
 
 //PROTECCIÓN DEL GUERRERO
 
-@200052 = ~Gem~
-@200053 = ~Steel Warrior~
-@200054 = ~This gem seems out of place in a location like this; as if it was left here on purpose. It might hold some significance, although you have the uncomfortable feeling that you shouldn't sell it and that it would be better to keep it for a while. Normally, the pleasant dark green of beljuril stones periodically shines with a sparkling flashing light. This stone has a different hue, perhaps because it is a new variety unknown to date. It seems very valuable.~
-@200055 = ~The heavy gem stands out for the runic inscription in its center. Using it would mean learning the useful ability to instill protection against physical attacks, providing the user with an infallible quality against their enemies.
+@400052 = ~Gem~
+@400053 = ~Steel Warrior~
+@400054 = ~This gem seems out of place in a location like this; as if it was left here on purpose. It might hold some significance, although you have the uncomfortable feeling that you shouldn't sell it and that it would be better to keep it for a while. Normally, the pleasant dark green of beljuril stones periodically shines with a sparkling flashing light. This stone has a different hue, perhaps because it is a new variety unknown to date. It seems very valuable.~
+@400055 = ~The heavy gem stands out for the runic inscription in its center. Using it would mean learning the useful ability to instill protection against physical attacks, providing the user with an infallible quality against their enemies.
 
 STATISTICS:
 
@@ -357,12 +357,12 @@ Permanent Bonuses:
 - Steel Warrior: Once per day.
 
 Weight: 25 lbs.~
-@200056 = ~Innate Ability Obtained: Steel Warrior~
+@400056 = ~Innate Ability Obtained: Steel Warrior~
 
 // EMBLEMA DE BAERVAN
 
-@200058 = ~Baervan's Emblem~
-@200060 = ~The darkened shape of the stone before you catches your attention. You can't help feeling a sense of calm as you lift it up.
+@400058 = ~Baervan's Emblem~
+@400060 = ~The darkened shape of the stone before you catches your attention. You can't help feeling a sense of calm as you lift it up.
 Undoubtedly, the animal represents the god of the gnomes, Baervan, and only a faithful believer of the dogma can use it.
 
 STATISTICS:
@@ -373,13 +373,13 @@ Permanent Bonuses:
 - Constitution: Increased by 8 points.
 
 Weight: 25 lbs.~
-@200061 = ~Baervan's Emblem: +2 to Intelligence and Wisdom~
-@200062 = ~Baervan's Emblem: +8 to Constitution~
+@400061 = ~Baervan's Emblem: +2 to Intelligence and Wisdom~
+@400062 = ~Baervan's Emblem: +8 to Constitution~
 
 // VITALIDAD DE LA NOCHE
 
-@200064 = ~Night's Vitality~
-@200066 = ~The darkness of the emblem before you is so deep that it can cause slight damage to the eyes. It emanates a profound and obscure feeling of nostalgia, and its power is undeniable. Only a servant of Shar can make use of it.
+@400064 = ~Night's Vitality~
+@400066 = ~The darkness of the emblem before you is so deep that it can cause slight damage to the eyes. It emanates a profound and obscure feeling of nostalgia, and its power is undeniable. Only a servant of Shar can make use of it.
 
 STATISTICS:
 
@@ -389,13 +389,13 @@ Permanent Bonuses:
 - Constitution: Increased by 8 points.
 
 Weight: 25 lbs.~
-@200067 = ~Night's Vitality: +4 to Strength~
-@200068 = ~Night's Vitality: +8 to Constitution~
+@400067 = ~Night's Vitality: +4 to Strength~
+@400068 = ~Night's Vitality: +8 to Constitution~
 
 // BENDICIÓN DE ARVORIN
 
-@200070 = ~Blessing of Arvoreen~
-@200072 = ~The group of gems shines incessantly with a burning desire for justice. They can only be understood by those who follow the brave path of the halfling god Arvoreen.
+@400070 = ~Blessing of Arvoreen~
+@400072 = ~The group of gems shines incessantly with a burning desire for justice. They can only be understood by those who follow the brave path of the halfling god Arvoreen.
 
 STATISTICS:
 
@@ -408,16 +408,16 @@ Permanent bonuses:
    * True Sight (2 times per day)
 
 Weight: 25 lbs.~
-@200073 = ~Blessing of Arvoreen: +4 to Strength~
-@200074 = ~Innate Ability Obtained: Dispel Magic~
-@200075 = ~Innate Ability Obtained: True Sight~
+@400073 = ~Blessing of Arvoreen: +4 to Strength~
+@400074 = ~Innate Ability Obtained: Dispel Magic~
+@400075 = ~Innate Ability Obtained: True Sight~
 
 // ESTUDIOS SANTIFICADOS DE CORTHALA
 
-@200076 = ~Scroll~
-@200077 = ~Sanctified Studies of Corthala~
-@200078 = ~A protection scroll is a collection of magical runes gathered in an enchanted manuscript. These scrolls are unique because any character, whether or not they are a magic expert, can read them. When these runes are read aloud, the protective magic is directed at the target chosen by the reader. These scrolls can have a wide variety of beneficial effects, although one must be careful with scrolls from suspicious sources.~
-@200079 = ~The contents of the scrolls date back to ancient times when the Corthala family ruled as one of the most powerful in Amn. The magical runes and inscriptions provide the bearer with extraordinary power. However, they will only have an effect on someone with Corthala blood and who is experienced enough to withstand such transformation.
+@400076 = ~Scroll~
+@400077 = ~Sanctified Studies of Corthala~
+@400078 = ~A protection scroll is a collection of magical runes gathered in an enchanted manuscript. These scrolls are unique because any character, whether or not they are a magic expert, can read them. When these runes are read aloud, the protective magic is directed at the target chosen by the reader. These scrolls can have a wide variety of beneficial effects, although one must be careful with scrolls from suspicious sources.~
+@400079 = ~The contents of the scrolls date back to ancient times when the Corthala family ruled as one of the most powerful in Amn. The magical runes and inscriptions provide the bearer with extraordinary power. However, they will only have an effect on someone with Corthala blood and who is experienced enough to withstand such transformation.
 
 STATISTICS:
 
@@ -430,13 +430,13 @@ Weight: 2 lbs.
 
 Can only be used by:
 Valygar, level 12.~
-@200080 = ~Studies of Corthala: Katana Proficiency set at 5~
-@200081 = ~Studies of Corthala: +4 to Wisdom~
+@400080 = ~Studies of Corthala: Katana Proficiency set at 5~
+@400081 = ~Studies of Corthala: +4 to Wisdom~
 
 // PERGAMINO DEL TIEFLING
 
-@200083 = ~Tiefling Scroll~
-@200085 = ~The runes are incomprehensible to anyone who is not a tiefling. The mysterious power emanating from it can probably be understood by someone who is not native to this plane.
+@400083 = ~Tiefling Scroll~
+@400085 = ~The runes are incomprehensible to anyone who is not a tiefling. The mysterious power emanating from it can probably be understood by someone who is not native to this plane.
 
 STATISTICS:
 
@@ -447,15 +447,15 @@ Permanent Bonuses:
 - Magic Resistance: +10%
 
 Weight: 5 lbs.~
-@200086 = ~Tiefling Scroll: +4 to Intelligence and Constitution~
-@200087 = ~Magic Resistance: +10%~
+@400086 = ~Tiefling Scroll: +4 to Intelligence and Constitution~
+@400087 = ~Magic Resistance: +10%~
 
 // POCIÓN GNÓMICA
 
-@200088 = ~Potion~
-@200089 = ~Gnomish Potion~
-@200090 = ~Potions are usually found in ceramic, glass, or metal jars or vessels. The jars or other types of containers contain enough liquid to provide a person with the necessary dose to achieve the effects of the potion.~
-@200091 = ~The colorful touches on the outside of the heavy bottle would make even the most trusting person suspicious. However, you manage to recognize something in the inscription like: "...of turnips and gnomes...", giving you the impression that only someone of that race can clearly understand what it's about.
+@400088 = ~Potion~
+@400089 = ~Gnomish Potion~
+@400090 = ~Potions are usually found in ceramic, glass, or metal jars or vessels. The jars or other types of containers contain enough liquid to provide a person with the necessary dose to achieve the effects of the potion.~
+@400091 = ~The colorful touches on the outside of the heavy bottle would make even the most trusting person suspicious. However, you manage to recognize something in the inscription like: "...of turnips and gnomes...", giving you the impression that only someone of that race can clearly understand what it's about.
 
 STATISTICS:
 
@@ -465,15 +465,15 @@ Permanent bonuses:
 - Dexterity: Increased by 1 point.
 
 Weight: 25 lbs.~
-@200092 = ~Gnomish Potion: +3 Intelligence~
-@200093 = ~Gnomish Potion: +1 Dexterity~
+@400092 = ~Gnomish Potion: +3 Intelligence~
+@400093 = ~Gnomish Potion: +1 Dexterity~
 
 // FORTALEZA DE BHAAL
 
-@200094 = ~Manual~
-@200095 = ~Fortress of Bhaal~
-@200096 = ~Judging by the arcane symbols printed on its cover, it's clear that this book is imbued with some kind of magical properties. However, until you try to read or identify it, you will remain unaware of its exact nature.~
-@200097 = ~The inscription surprisingly evokes the god of murder: Bhaal. Inside, it refers to a descendant with thieving and magical abilities.
+@400094 = ~Manual~
+@400095 = ~Fortress of Bhaal~
+@400096 = ~Judging by the arcane symbols printed on its cover, it's clear that this book is imbued with some kind of magical properties. However, until you try to read or identify it, you will remain unaware of its exact nature.~
+@400097 = ~The inscription surprisingly evokes the god of murder: Bhaal. Inside, it refers to a descendant with thieving and magical abilities.
 As the tome seems to reject <CHARNAME>, it's most likely that said child of Bhaal is not the one destined to "consume" it.
 
 STATISTICS:
@@ -484,13 +484,13 @@ Permanent bonuses:
 - Intelligence and Dexterity: Increased by 1 point.
 
 Weight: 15 lbs.~
-@200098 = ~Fortress of Bhaal: Strength increased by 7 points~
-@200099 = ~Fortress of Bhaal: Intelligence and Dexterity increased by 1 point~
+@400098 = ~Fortress of Bhaal: Strength increased by 7 points~
+@400099 = ~Fortress of Bhaal: Intelligence and Dexterity increased by 1 point~
 
 // FUERZA DEL ARPISTA
 
-@200101 = ~Harper's Strength~
-@200103 = ~The symbol of Mystra indicates the prelude of a Harper work in which mysterious runes are pointed out that only someone from such an order could understand. Apparently, it indicates the meager ritual in which the bearer is capable of increasing their physical and mental strength.
+@400101 = ~Harper's Strength~
+@400103 = ~The symbol of Mystra indicates the prelude of a Harper work in which mysterious runes are pointed out that only someone from such an order could understand. Apparently, it indicates the meager ritual in which the bearer is capable of increasing their physical and mental strength.
 
 STATISTICS:
 
@@ -500,13 +500,13 @@ Permanent bonuses:
 - Wisdom: Increased by 3 points.
 
 Weight: 15 lbs.~
-@200104 = ~Harper's Tome: +2 to Strength~
-@200105 = ~Harper's Tome: +3 to Wisdom~
+@400104 = ~Harper's Tome: +2 to Strength~
+@400105 = ~Harper's Tome: +3 to Wisdom~
 
 // RUNAS DE UNIVERSALIDAD
 
-@200107 = ~Universality Runes~
-@200109 = ~The heavy parchment contains easily understandable magical runes. In short, glimpsing them will mean obtaining the powerful ability to use practically any object. It turns the user: Universal.
+@400107 = ~Universality Runes~
+@400109 = ~The heavy parchment contains easily understandable magical runes. In short, glimpsing them will mean obtaining the powerful ability to use practically any object. It turns the user: Universal.
 
 STATISTICS:
 
@@ -515,12 +515,12 @@ Permanent bonuses:
 - Grants the epic thievery ability to the user: Use any object.
 	
 Weight: 25 lbs.~
-@200110 = ~Passive Ability Obtained: Use any object~
+@400110 = ~Passive Ability Obtained: Use any object~
 
 // ORBE DE LA TORMENTA
 
-@200111 = ~Storm Orb~
-@200113 = ~Stellar fragments resulting from great storms of the heavens are rarely found. Before you lies a sort of crystallized gem, which emits extraordinary power. As far as you can tell, only an experienced Nordic druid would be able to comprehend its power.
+@400111 = ~Storm Orb~
+@400113 = ~Stellar fragments resulting from great storms of the heavens are rarely found. Before you lies a sort of crystallized gem, which emits extraordinary power. As far as you can tell, only an experienced Nordic druid would be able to comprehend its power.
 
 STATISTICS:
 
@@ -533,13 +533,13 @@ Weight: 25 lbs.
 
 Can only be used by:
 Shapeshifters, level 13.~
-@200114 = ~Storm Orb: +4 to Strength~
-@200115 = ~Innate Ability Obtained: Animal Spirit~
+@400114 = ~Storm Orb: +4 to Strength~
+@400115 = ~Innate Ability Obtained: Animal Spirit~
 
 // TOMO DE DESTREZA THAYINA
 
-@200117 = ~Tome of Thayan Dexterity~
-@200119 = ~The tome before you is an exceptional example of how a Thayan mage can, through powerful runes, obtain physical abilities that are enviable even to the most elusive Shadow Thief. As expected, only a Red Wizard can comprehend it.
+@400117 = ~Tome of Thayan Dexterity~
+@400119 = ~The tome before you is an exceptional example of how a Thayan mage can, through powerful runes, obtain physical abilities that are enviable even to the most elusive Shadow Thief. As expected, only a Red Wizard can comprehend it.
 
 STATISTICS:
 
@@ -551,14 +551,14 @@ Weight: 10 lbs.
 
 Can only be used by:
 Red Wizard, level 15.~
-@200120 = ~Tome of Thayan Dexterity: +7 to Dexterity~
+@400120 = ~Tome of Thayan Dexterity: +7 to Dexterity~
 
 // POCIÓN CAÓTICO MALIGNO **VER
 
-@200121 = ~Poción~
-@200122 = ~Brebaje Mágico: Caótico Maligno~
-@200123 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200124 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400121 = ~Poción~
+@400122 = ~Brebaje Mágico: Caótico Maligno~
+@400123 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400124 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 STATISTICS:
 
@@ -567,14 +567,14 @@ Cambio de Alineamiento (permanente):
 - Caótico Maligno.
 
 Peso: 25 lbs.~
-@200125 = ~Alineamiento cambiado: Caótico Maligno~
+@400125 = ~Alineamiento cambiado: Caótico Maligno~
 
 // POCIÓN NEUTRAL MALIGNO
 
-@200126 = ~Poción~
-@200127 = ~Brebaje Mágico: Neutral Maligno~
-@200128 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200129 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400126 = ~Poción~
+@400127 = ~Brebaje Mágico: Neutral Maligno~
+@400128 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400129 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 STATISTICS:
 
@@ -583,14 +583,14 @@ Cambio de Alineamiento (permanente):
 - Neutral Maligno.
 
 Peso: 25 lbs.~
-@200130 = ~Alineamiento cambiado: Neutral Maligno~
+@400130 = ~Alineamiento cambiado: Neutral Maligno~
 
 // POCIÓN LEGAL MALIGNO **VER
 
-@200131 = ~Poción~
-@200132 = ~Brebaje Mágico: Legal Maligno~
-@200133 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200134 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400131 = ~Poción~
+@400132 = ~Brebaje Mágico: Legal Maligno~
+@400133 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400134 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 STATISTICS:
 
@@ -599,14 +599,14 @@ Cambio de Alineamiento (permanente):
 - Legal Maligno.
 
 Peso: 25 lbs.~
-@200135 = ~Alineamiento cambiado: Legal Maligno~
+@400135 = ~Alineamiento cambiado: Legal Maligno~
 
 // POCIÓN CAÓTICO NEUTRAL **VER
 
-@200136 = ~Poción~
-@200137 = ~Brebaje Mágico: Caótico Neutral~
-@200138 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200139 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400136 = ~Poción~
+@400137 = ~Brebaje Mágico: Caótico Neutral~
+@400138 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400139 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 STATISTICS:
 
@@ -615,14 +615,14 @@ Cambio de Alineamiento (permanente):
 - Caótico Neutral.
 
 Peso: 25 lbs.~
-@200140 = ~Alineamiento cambiado: Caótico Neutral~
+@400140 = ~Alineamiento cambiado: Caótico Neutral~
 
 // POCIÓN NEUTRAL AUTÉNTICO
 
-@200141 = ~Poción~
-@200142 = ~Brebaje Mágico: Neutral Auténtico~
-@200143 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200144 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400141 = ~Poción~
+@400142 = ~Brebaje Mágico: Neutral Auténtico~
+@400143 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400144 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 STATISTICS:
 
@@ -631,14 +631,14 @@ Cambio de Alineamiento (permanente):
 - Neutral Auténtico.
 
 Peso: 25 lbs.~
-@200145 = ~Alineamiento cambiado: Neutral Auténtico~
+@400145 = ~Alineamiento cambiado: Neutral Auténtico~
 
 // POCIÓN LEGAL NEUTRAL **VER
 
-@200146 = ~Poción~
-@200147 = ~Brebaje Mágico: Legal Neutral~
-@200148 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200149 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400146 = ~Poción~
+@400147 = ~Brebaje Mágico: Legal Neutral~
+@400148 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400149 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 STATISTICS:
 
@@ -647,14 +647,14 @@ Cambio de Alineamiento (permanente):
 - Legal Neutral.
 
 Peso: 25 lbs.~
-@200150 = ~Alineamiento cambiado: Legal Neutral~
+@400150 = ~Alineamiento cambiado: Legal Neutral~
 
 // POCIÓN CAÓTICO BUENO **VER
 
-@200151 = ~Poción~
-@200152 = ~Brebaje Mágico: Caótico Bueno~
-@200153 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200154 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400151 = ~Poción~
+@400152 = ~Brebaje Mágico: Caótico Bueno~
+@400153 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400154 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 STATISTICS:
 
@@ -663,14 +663,14 @@ Cambio de Alineamiento (permanente):
 - Caótico Bueno.
 
 Peso: 25 lbs.~
-@200155 = ~Alineamiento cambiado: Caótico Bueno~
+@400155 = ~Alineamiento cambiado: Caótico Bueno~
 
 // POCIÓN NEUTRAL BUENO
 
-@200156 = ~Poción~
-@200157 = ~Brebaje Mágico: Neutral Bueno~
-@200158 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200159 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400156 = ~Poción~
+@400157 = ~Brebaje Mágico: Neutral Bueno~
+@400158 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400159 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 STATISTICS:
 
@@ -679,14 +679,14 @@ Cambio de Alineamiento (permanente):
 - Neutral Bueno.
 
 Peso: 25 lbs.~
-@200160 = ~Alineamiento cambiado: Neutral Bueno~
+@400160 = ~Alineamiento cambiado: Neutral Bueno~
 
 // POCIÓN LEGAL BUENO **VER
 
-@200161 = ~Poción~
-@200162 = ~Brebaje Mágico: Legal Bueno~
-@200163 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
-@200164 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
+@400161 = ~Poción~
+@400162 = ~Brebaje Mágico: Legal Bueno~
+@400163 = ~Las pociones se suelen encontrar en frascos o vasijas de cerámica, cristal o metal. Los frascos u otro tipo de recipientes contienen la suficiente cantidad de líquido para proporcionar a una persona la dosis necesaria para lograr los efectos de la pócima.~
+@400164 = ~Durante siglos se rumorearon historias sobre extrañas bebidas que cambiaban el comportamiento del consumidor. No es de extrañar que mediante influjos mágicos pueda crearse semejante brebaje.
 
 STATISTICS:
 
@@ -695,12 +695,12 @@ Cambio de Alineamiento (permanente):
 - Legal Bueno.
 
 Peso: 25 lbs.~
-@200165 = ~Alineamiento cambiado: Legal Bueno~
+@400165 = ~Alineamiento cambiado: Legal Bueno~
 
 // POCIÓN DE RASHEMEN
 
-@200167 = ~Rashemen Wisdom Potion~
-@200169 = ~Some stories indicate that when a man successfully completes the "dejemma" journey, they receive divine wisdom that only the most prestigious members of the Ice Dragon possess. The potion before you is a shortcut to such gnosis. However, only someone native to the North can obtain the mysterious powers it offers.
+@400167 = ~Rashemen Wisdom Potion~
+@400169 = ~Some stories indicate that when a man successfully completes the "dejemma" journey, they receive divine wisdom that only the most prestigious members of the Ice Dragon possess. The potion before you is a shortcut to such gnosis. However, only someone native to the North can obtain the mysterious powers it offers.
 
 STATISTICS:
 
@@ -712,12 +712,12 @@ Weight: 25 lbs.
 
 Can only be used by:
 Rasheman Ranger, level 12.~
-@200170 = ~Rashemi Potion: +11 to Wisdom~
+@400170 = ~Rashemi Potion: +11 to Wisdom~
 
 // FUROR ÉPICO
 
-@200172 = ~Epicus Furor~
-@200174 = ~Epicus Furor: The Emerald Sword
+@400172 = ~Epicus Furor~
+@400174 = ~Epicus Furor: The Emerald Sword
 Centuries ago, in the mysterious planes of Argalord, there was an Abomination that threatened to destroy all life on earth. It is said that only one man dared to face it. The unnamed man, known as The Ice Warrior, searched the corners of the continent in search of the legendary sword, the one that only an experienced warrior could wield.
 
 After barely overcoming all the challenges imposed, he was able to wield the Emerald Sword, the Epic Fury, and in a battle that broke the barriers of time and space, he was able to defeat the Abomination that plagued the peaceful lands of Argalord. Unfortunately, he fell in combat and the sword was lost forever, being, as they say, absorbed by the night never to be seen again in that Plane.
@@ -743,12 +743,12 @@ Speed factor: 3
 Weapon proficiency: Bastard Sword
 Weapon type: One-handed
 Requirements: Strength 15.~
-@200175 = ~Flee in terror~
+@400175 = ~Flee in terror~
 
 // COLMILLO DE LARLOCH
 
-@200177 = ~Larloch's Fang~
-@200179 = ~The evil and icy power that emanates from the cold steel of the axe generates numerous shivers down the spine of the bearer. The Battle Axe, Larloch's Fang, is nothing more than a lesser creation of the Shadow King, the lich Larloch. The victim who is wounded by the edge of the axe will be hurt with an additional cold strike that will absorb life energy and deliver it to the bearer. In addition, the weapon provides protection against enchantment spells.
+@400177 = ~Larloch's Fang~
+@400179 = ~The evil and icy power that emanates from the cold steel of the axe generates numerous shivers down the spine of the bearer. The Battle Axe, Larloch's Fang, is nothing more than a lesser creation of the Shadow King, the lich Larloch. The victim who is wounded by the edge of the axe will be hurt with an additional cold strike that will absorb life energy and deliver it to the bearer. In addition, the weapon provides protection against enchantment spells.
 
 STATISTICS:
 
@@ -768,15 +768,15 @@ Speed Factor: 4
 Weapon Proficiency: Battle Axe
 Weapon Type: One-Handed
 Requirements: 10 Strength.~
-@200180 = ~Horrendous spell~
-@200181 = ~Enchanted~
-@200182 = ~Healed~
+@400180 = ~Horrendous spell~
+@400181 = ~Enchanted~
+@400182 = ~Healed~
 
 // KIKUICHIMONJI
 
-@200183 = ~Katana~
-@200184 = ~Kikuichimonji~
-@200185 = ~The katana is a curved, single-edged sword with a sharp point. It is perhaps one of the greatest swords ever made. The steps in its creation, a long and secret process, are more of an art form than anything else. Its blade is one of the most important facets of Kara-Tur culture. Touching or handling the katana of a samurai is an insult that will bring their wrath. For a gaijin or foreigner to possess one of these swords is rare. Either the gaijin has been honored by an important minister or has killed a samurai.
+@400183 = ~Katana~
+@400184 = ~Kikuichimonji~
+@400185 = ~The katana is a curved, single-edged sword with a sharp point. It is perhaps one of the greatest swords ever made. The steps in its creation, a long and secret process, are more of an art form than anything else. Its blade is one of the most important facets of Kara-Tur culture. Touching or handling the katana of a samurai is an insult that will bring their wrath. For a gaijin or foreigner to possess one of these swords is rare. Either the gaijin has been honored by an important minister or has killed a samurai.
 
 STATISTICS:
 
@@ -786,7 +786,7 @@ Weight: 6
 Speed factor: 4
 Proficiency type: Katana
 Weapon type: One-handed~
-@200186 = ~In the lands of Kara-Tur, in Kozakura, there was a young assassin named Tenken Soujiro. It is said that he was so fast in combat that his opponents had no chance. In the midst of battle, his body took on a golden color and his limbs moved so quickly that it was difficult for the opponent to guess where he would strike. Over the years, Soujiro abandoned the path of assassination and became a nomad. He was never heard from again, and his katana was sold at an excellent price, its fate as uncertain as its original owner.
+@400186 = ~In the lands of Kara-Tur, in Kozakura, there was a young assassin named Tenken Soujiro. It is said that he was so fast in combat that his opponents had no chance. In the midst of battle, his body took on a golden color and his limbs moved so quickly that it was difficult for the opponent to guess where he would strike. Over the years, Soujiro abandoned the path of assassination and became a nomad. He was never heard from again, and his katana was sold at an excellent price, its fate as uncertain as its original owner.
 
 STATISTICS:
 
@@ -804,9 +804,9 @@ Weapon type: One-handed~
 
 // JISSEN-KENBU
 
-@200187 = ~Wakizashi~
-@200188 = ~Jissen-kenbu~
-@200189 = ~Wakizashi
+@400187 = ~Wakizashi~
+@400188 = ~Jissen-kenbu~
+@400189 = ~Wakizashi
 The wakizashi, or "companion sword", is very important for a samurai. It is carried at all times, even indoors, and is close to the samurai while he sleeps at night. The wakizashi is of equal quality to the katana, although it is shorter, measuring between 30 and 60 centimeters, making it a dangerous weapon in expert hands.
 
 STATISTICS:
@@ -817,7 +817,7 @@ Weight: 3
 Speed factor: 3
 Proficiency type: Scimitar/Wakizashi/Ninja-to
 Type: One-handed~
-@200190 = ~Kodachi
+@400190 = ~Kodachi
 
 Sword Dance - Flow of Water
 The handle of this wakizashi emits a cold sensation, due to the chilling damage that erupts from the blade.
@@ -836,12 +836,12 @@ Weight: 4
 Speed factor: 0
 Proficiency type: Katana
 Type: One-handed~
-@200191 = ~Mirror Image~
+@400191 = ~Mirror Image~
 
 // MUGENJIN Katana
 
-@200193 = ~Mugenjin~
-@200195 = ~Mugenjin
+@400193 = ~Mugenjin~
+@400195 = ~Mugenjin
 
 It's impossible to ignore the craftsmanship that went into building this katana. The most striking feature is the fiery edge, which inflicts deadly damage on the victim. The second is the oil with which it is constantly bathed, reportedly made from the flesh of countless victims who were slashed with Mugenjin. It is said to have once dueled its opposing blade: Shin-Ushi, The Heart of the Sword. You are unaware of the reason why the sword was imbued this way, because no matter how hard you try, you cannot quell the fire of its steel. On the blade lies an inscription: "The Fiery Wrath."
 
@@ -871,8 +871,8 @@ Type: One-handed~
 
 // SHIN-USHI
 
-@200197 = ~Shin-Ushi~
-@200199 = ~Shin-Ushi
+@400197 = ~Shin-Ushi~
+@400199 = ~Shin-Ushi
 
 The curious thing about this katana is the lack of edge. Although it is slightly lighter than usual and lacks the lethal edge of many swords, Shin-Ushi is one of the ultimate swords. It is said that it once had a duel with its antagonist sword: Mugenjin, the Fiery Wrath. You do not know the reason why the sword has no edge, because no matter how hard you try, you cannot sharpen it due to its magic runes. There is an inscription on the blade: "The Heart of the Sword".
 
@@ -899,16 +899,16 @@ Required Strength: 6
 Required Wisdom: 10
 Martial Skill: Katana
 Type: One-handed~
-@200200 = ~Five levels consumed~
-@200201 = ~Four levels consumed~
-@200202 = ~Three levels consumed~
-@200203 = ~Two levels consumed~
-@200204 = ~One level consumed~
+@400200 = ~Five levels consumed~
+@400201 = ~Four levels consumed~
+@400202 = ~Three levels consumed~
+@400203 = ~Two levels consumed~
+@400204 = ~One level consumed~
 
 // kaiten-kenbu
 
-@200206 = ~Kaiten-kenbu~
-@200208 = ~Kodachi
+@400206 = ~Kaiten-kenbu~
+@400208 = ~Kodachi
 
 Sword Dance - Electric Defense
 The handle of this wakizashi emits a strange sensation due to the electric damage that bursts from the blade.
@@ -927,9 +927,9 @@ Type: One-handed~
 
 // Espada de Delryn
 
-@200209 = ~Longsword~
-@200210 = ~Delryn Sword~
-@200211 = ~These swords are generally known as double-edged, war, or military swords. In many cases, the longsword has a single-edged blade. There is no single version of the longsword, as its design and length vary from culture to culture, and may even change within the same culture depending on the historical period. One of the most common STATISTICS for all longswords is their length, which ranges from 90 to 120 centimeters. In the latter case, only the blade can measure up to 1 meter in the total length of the sword. Most longswords are double-edged and have a sharp tip. Despite having a point, they are designed for cutting, not for thrusting.
+@400209 = ~Longsword~
+@400210 = ~Delryn Sword~
+@400211 = ~These swords are generally known as double-edged, war, or military swords. In many cases, the longsword has a single-edged blade. There is no single version of the longsword, as its design and length vary from culture to culture, and may even change within the same culture depending on the historical period. One of the most common STATISTICS for all longswords is their length, which ranges from 90 to 120 centimeters. In the latter case, only the blade can measure up to 1 meter in the total length of the sword. Most longswords are double-edged and have a sharp tip. Despite having a point, they are designed for cutting, not for thrusting.
 
 STATISTICS:
 
@@ -940,7 +940,7 @@ Speed Factor: 5
 Weapon Proficiency: Longsword
 Weapon Type: One-handed
 Requirements: 6 Strength~
-@200212 = ~The ancestors of the Delryn family were not well known in the history of Athkatla. However, it is said that there was a knight of the Noble Order of the Radiant Heart who fought against the giants on the Troll Hills in an attack that flanked the defenses of the de'Arnise region. Along with a company of paladins, they managed to defend the land from the invasion of humanoids; however, they all died in combat and the body of the Delryn knight was never seen again. His sword disappeared with him.
+@400212 = ~The ancestors of the Delryn family were not well known in the history of Athkatla. However, it is said that there was a knight of the Noble Order of the Radiant Heart who fought against the giants on the Troll Hills in an attack that flanked the defenses of the de'Arnise region. Along with a company of paladins, they managed to defend the land from the invasion of humanoids; however, they all died in combat and the body of the Delryn knight was never seen again. His sword disappeared with him.
 Somehow, the longsword has reappeared, this time within your reach. Only someone with the blood of his family running through their veins can wield it.
 
 STATISTICS:
@@ -959,12 +959,12 @@ Speed Factor: 0
 Weapon Proficiency: Longsword
 Weapon Type: One-handed
 Requirements: 6 Strength~
-@200213 = ~Longsword Proficiency set at 5~
+@400213 = ~Longsword Proficiency set at 5~
 
 // Ventisca del Averno
 
-@200215 = ~Hellfrost~
-@200217 = ~The origin of the frigid sword is unknown; however, it is said to come from some infernal plane where fire does not exist. Its blade emits a cold, bluish glow, and those who stare at it run the risk of suffering a brain concussion, causing the victim to be unaware of their own actions.
+@400215 = ~Hellfrost~
+@400217 = ~The origin of the frigid sword is unknown; however, it is said to come from some infernal plane where fire does not exist. Its blade emits a cold, bluish glow, and those who stare at it run the risk of suffering a brain concussion, causing the victim to be unaware of their own actions.
 
 STATISTICS:
 
@@ -984,10 +984,10 @@ Requirements: 11 strength~
 // SET DE WIZARDSLAYER
 // Esperanza de Benork
 
-@200218 = ~Silver amulet~
-@200219 = ~Benork's Hope~
-@200220 = ~Amulets are often magical objects that are commonly worn around the neck, hung from a chain. The type of chain that accompanies the amulet often increases its aesthetic value, but not its magical properties. Only one amulet can be worn around the neck at a time.~
-@200221 = ~Benork's Hope
+@400218 = ~Silver amulet~
+@400219 = ~Benork's Hope~
+@400220 = ~Amulets are often magical objects that are commonly worn around the neck, hung from a chain. The type of chain that accompanies the amulet often increases its aesthetic value, but not its magical properties. Only one amulet can be worn around the neck at a time.~
+@400221 = ~Benork's Hope
 
 Benork was a forgotten Duke of the North who fought to avenge the death of his family. Legend has it that a dark broterhood of shadowy sorcerers coveted his castle for unknown reasons, although rumors suggest that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
 The necromancers employed their arcane arts to cruelly dispose of the nobleman's family. Only Duke Benork survived by resisting a powerful enchantment spell. Despite this, he was left blind.
@@ -1008,8 +1008,8 @@ Abilities:
 
 // Defensa de Aznagarb
 
-@200223 = ~Aznagarb's Defense~
-@200225 = ~Aznagarb's Defense
+@400223 = ~Aznagarb's Defense~
+@400225 = ~Aznagarb's Defense
 
 Benork was a forgotten Duke of the North who fought to avenge the death of his family. Legend has it that a dark broterhood of shadowy sorcerers coveted his castle for unknown reasons, although rumors suggest that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
 The necromancers employed their arcane arts to cruelly dispose of the nobleman's family. Only Duke Benork survived by resisting a powerful enchantment spell. Despite this, he was left blind.
@@ -1032,14 +1032,14 @@ Weight: 4 lbs.~
 
 // Camino de los Ancestros
 
-@200226 = ~Boots~
-@200227 = ~Path of the Ancestors~
-@200228 = ~Boots are usually handcrafted by shoemakers. Normal boots are made from a mold, but good boots are designed for a particular person's foot.
+@400226 = ~Boots~
+@400227 = ~Path of the Ancestors~
+@400228 = ~Boots are usually handcrafted by shoemakers. Normal boots are made from a mold, but good boots are designed for a particular person's foot.
 
 STATISTICS:
 
 Weight: 4 lbs.~
-@200229 = ~Path of the Ancestors
+@400229 = ~Path of the Ancestors
 
 Benork was a forgotten duke from the North who fought to avenge his family's death. Legend has it that a dark broterhood of ominous sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join Larloch's clan, the Lich King, and as part of their initiation rite, they needed royal blood.
 The necromancers employed their arcane arts to cruelly liquidate the noble's family. Only Duke Benork survived by resisting a powerful spell of derangement. Despite this, he was left blind.
@@ -1057,25 +1057,25 @@ Aptitudes possessed:
 - Electricity Resistance: +15%
 
 Weight: 4 lbs.~
-@200230 = ~<NO TEXT>~
- @200231 = ~<NO TEXT>~
- @200232 = ~<NO TEXT>~
- @200233 = ~<NO TEXT>~
- @200234 = ~<NO TEXT>~
- @200235 = ~<NO TEXT>~
- @200236 = ~<NO TEXT>~
- @200237 = ~<NO TEXT>~
- @200238 = ~<NO TEXT>~
- @200239 = ~Stunned~
- @200240 = ~Slowed down~
- @200241 = ~Slow~
+@400230 = ~<NO TEXT>~
+ @400231 = ~<NO TEXT>~
+ @400232 = ~<NO TEXT>~
+ @400233 = ~<NO TEXT>~
+ @400234 = ~<NO TEXT>~
+ @400235 = ~<NO TEXT>~
+ @400236 = ~<NO TEXT>~
+ @400237 = ~<NO TEXT>~
+ @400238 = ~<NO TEXT>~
+ @400239 = ~Stunned~
+ @400240 = ~Slowed down~
+ @400241 = ~Slow~
 
 // Protección de Aznagarb
 
-@200242 = ~Mantle~
-@200243 = ~Protection of Aznagarb~
-@200244 = ~The mantle can have any shape and be made with any type of fabric. The most common shape is a round piece of fabric with a hole in the center for the head, with the fabric draped from the neck with a chain, a brooch, a cord, or pins.~
-@200245 = ~Protection of Aznagarb
+@400242 = ~Mantle~
+@400243 = ~Protection of Aznagarb~
+@400244 = ~The mantle can have any shape and be made with any type of fabric. The most common shape is a round piece of fabric with a hole in the center for the head, with the fabric draped from the neck with a chain, a brooch, a cord, or pins.~
+@400245 = ~Protection of Aznagarb
 
 Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a dark broterhood of shady wizards coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
 The necromancers employed their arcane arts to cruelly liquidate the noble's family. Only Duke Benork survived by resisting a powerful spell of madness. However, he was left blind.
@@ -1096,14 +1096,14 @@ Weight: 3 lbs.~
 
 // Fortaleza de Benork
 
-@200246 = ~Sash~
-@200247 = ~Benork's Fortitude~
-@200248 = ~Sashes are similar to belts. However, sashes are not used to hold up pants, but rather to carry bags, sheaths, and similar items.
+@400246 = ~Sash~
+@400247 = ~Benork's Fortitude~
+@400248 = ~Sashes are similar to belts. However, sashes are not used to hold up pants, but rather to carry bags, sheaths, and similar items.
 
 STATISTICS:
 
 Weight: 2 lbs.~
-@200249 = ~Benork's Fortitude
+@400249 = ~Benork's Fortitude
 
 Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a dark broterhood of gloomy sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
 The necromancers employed their arcane arts to cruelly liquidate the noble's family. Only Duke Benork survived by resisting a powerful spell of madness. Nevertheless, he was left blind.
@@ -1124,16 +1124,16 @@ Weight: 4 lbs.~
 
 // Iris de Tempus
 
-@200250 = ~Helmet~
-@200251 = ~Iris of Tempus~
-@200252 = ~This kind of open-faced helmet, made of reinforced leather or metal, covers almost the entire head except for the face and neck. These helmets usually include protection for the nose.
+@400250 = ~Helmet~
+@400251 = ~Iris of Tempus~
+@400252 = ~This kind of open-faced helmet, made of reinforced leather or metal, covers almost the entire head except for the face and neck. These helmets usually include protection for the nose.
 
 STATISTICS:
 
 Armor Class Bonus: None
 Special: Protects against critical hits
 Weight: 2 lbs.~
-@200253 = ~Iris of Tempus
+@400253 = ~Iris of Tempus
 
 Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a dark broterhood of gloomy sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King; and that as part of their initiation rite, they needed royal blood.
 The necromancers employed their arcane arts to cruelly liquidate the noble's family. Only Duke Benork survived by resisting a powerful spell of derangement. However, he was left blind.
@@ -1158,18 +1158,18 @@ Abilities:
 THAC0: +1
 Armor Class: +1
 Weight: 3 lbs.~
-@200254 = ~Horrid spell~
-@200255 = ~Enchanted~
-@200256 = ~Domination~
-@200257 = ~Panic~
-@200258 = ~Panic~
+@400254 = ~Horrid spell~
+@400255 = ~Enchanted~
+@400256 = ~Domination~
+@400257 = ~Panic~
+@400258 = ~Panic~
 
 // Respiro del Linaje
 
-@200259 = ~Ring~
-@200260 = ~Breath of Lineage~
-@200261 = ~A ring is a small band of precious metal that is worn as a piece of jewelry. Some uncommon rings have enchantments that confer various magical properties. These rings are highly sought after, especially by those who engage in adventures.~
-@200262 = ~Breath of Lineage
+@400259 = ~Ring~
+@400260 = ~Breath of Lineage~
+@400261 = ~A ring is a small band of precious metal that is worn as a piece of jewelry. Some uncommon rings have enchantments that confer various magical properties. These rings are highly sought after, especially by those who engage in adventures.~
+@400262 = ~Breath of Lineage
 
 Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a dark broterhood of sinister sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King, and as part of their initiation rite, they needed royal blood.
 The necromancers used their arcane arts to cruelly liquidate the noble's family. Only Duke Benork survived by resisting a powerful spell of madness. Nevertheless, he was left blind.
@@ -1191,8 +1191,8 @@ Abilities:
 
 // Latido de Calia
 
-@200264 = ~Calia's Heartbeat~
-@200266 = ~Calia's Heartbeat
+@400264 = ~Calia's Heartbeat~
+@400266 = ~Calia's Heartbeat
 
 Benork was a forgotten duke of the North who fought to avenge the death of his family. Legend has it that a dark broterhood of sinister sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King, and as part of their initiation rite, they needed royal blood.
 The necromancers used their arcane arts to cruelly liquidate the noble's family. Only Duke Benork survived by resisting a powerful spell of madness. Nevertheless, he was left blind.
@@ -1214,9 +1214,9 @@ Abilities:
 
 // Vengadora Real
 
-@200267 = ~Quarterstaff~
-@200268 = ~Royal Avenger~
-@200269 = ~It is the simplest and most humble of polearms. The staff is a 180 to 275 centimeter long piece of wood. A good staff is made of oak and is capped with metal on both ends. The staff should be wielded with both hands.
+@400267 = ~Quarterstaff~
+@400268 = ~Royal Avenger~
+@400269 = ~It is the simplest and most humble of polearms. The staff is a 180 to 275 centimeter long piece of wood. A good staff is made of oak and is capped with metal on both ends. The staff should be wielded with both hands.
 
 STATISTICS:
 
@@ -1227,7 +1227,7 @@ Speed Factor: 4
 Weapon Talent: Staff
 Weapon Type: Two-Handed
 Requirements: 5 Strength~
-@200270 = ~Royal Avenger
+@400270 = ~Royal Avenger
 
 Benork was a forgotten duke from the North who fought to avenge the death of his family. Legend has it that a dark broterhood of sinister sorcerers coveted his castle for unknown reasons, although rumors mention that they wanted to join the clan of Larloch, the Lich King, and as part of their initiation rite, they needed royal blood.
 The necromancers employed their arcane arts to cruelly slay the noble's family. Only Duke Benork survived by resisting a powerful enchantment. Despite this, he was left blind.
@@ -1261,12 +1261,12 @@ Speed Factor: 0
 Weapon Talent: Quarterstaff
 Weapon Type: Two-Handed
 Requirements: 14 Strength~
-@200271 = ~Dispersion Effects~
+@400271 = ~Dispersion Effects~
 
 // Bellfame's Ring
 
-@200273 = ~Forest Ring of Mir~
-@200275 = ~Forest Ring of Mir
+@400273 = ~Forest Ring of Mir~
+@400275 = ~Forest Ring of Mir
 
 Several centuries ago, in the depths of the Mir forest, the nymph Bellfame lived with her beasts. For many years, she protected the Tethyr forest from poachers and power-hungry humans. Many creatures served as her allies, and nature was grateful to her.
 It was during the Year of the Tankard that she would meet her fateful end: Bellfame was unaware of the war brewing between Tethyr and the Dark Tyrant of Mintar, Teldorn Darkhope. The evil cleric planned to invade the lands of Tethyr, hiding his Zentharim army in the depths of the forest. One of his generals, the Knight Imperceptor (a title that describes the desire for others to suffer) named Kartlzer, noticed that the Forest of Mir presented an opportunity to acquire power, in addition to being a hiding place, as his wizards identified the presence of a mysterious nymph at the heart of a swamp.
@@ -1426,26 +1426,26 @@ ABILITIES:
 
 - Greater Whirlwind Attack (3 times per day): Sayang can move at great speed, allowing her to launch a "burst" of super-fast strikes.~
 // CRIATURAS CONVOCADAS
-@200276 = ~Bellfame~
-@200277 = ~Baba, The Nervous Mouse~
-@200278 = ~Jack, The Winter Wolf~
-@200279 = ~Sayang, The Worg Wolf~
-@200280 = ~Thiago, The Brown Bear~
-@200281 = ~Uma, The Shadow Wolf~
+@400276 = ~Bellfame~
+@400277 = ~Baba, The Nervous Mouse~
+@400278 = ~Jack, The Winter Wolf~
+@400279 = ~Sayang, The Worg Wolf~
+@400280 = ~Thiago, The Brown Bear~
+@400281 = ~Uma, The Shadow Wolf~
 
 //Ataque de Baba
-@200282 = ~Attack~
-@200283 = ~Stumpy attack~
-@200284 = ~Attack~
-@200285 = ~Usually, rodents attack with their sharp teeth, but this is not the case with Baba, the Nervous Mouse. His neurotic problems due to the stress of being a mouse have caused him to gnaw and scream all the time, causing his teeth to lose their sharpness.
+@400282 = ~Attack~
+@400283 = ~Stumpy attack~
+@400284 = ~Attack~
+@400285 = ~Usually, rodents attack with their sharp teeth, but this is not the case with Baba, the Nervous Mouse. His neurotic problems due to the stress of being a mouse have caused him to gnaw and scream all the time, causing his teeth to lose their sharpness.
 In other words, it is very unlikely that Baba will be able to hurt anyone with his attacks, but at least it's his last resort.
 
 Attack: 1d2, blunt damage
 Attack speed: 0~
 
 //Descripción del Conjuro
-@200286 = ~Forces of the Forest of Mir~
-@200287 = ~Forces of the Forest of Mir
+@400286 = ~Forces of the Forest of Mir~
+@400287 = ~Forces of the Forest of Mir
 (Conjuration/Summoning)
 Level: Innate
 Range: 15 m.
@@ -1577,16 +1577,16 @@ ABILITIES:
 
 // Spell BABA
 
-@200288 = ~Mad Mouse Howl~
-@200289 = ~Panic~
-@200290 = ~Panic~
-@200291 = ~Baba emits a loud and eerie howl, which surprises both allies and enemies.
+@400288 = ~Mad Mouse Howl~
+@400289 = ~Panic~
+@400290 = ~Panic~
+@400291 = ~Baba emits a loud and eerie howl, which surprises both allies and enemies.
 It can be used three times per summoning, deals damage and instills fear in evil enemies, as well as dispelling fear and casting a Protection from Evil spell on Baba's allies.~
 
 // Spell Thiago1
 
-@200292 = ~Bear's Bravery~
-@200293 = ~Bear's Bravery (Innate)
+@400292 = ~Bear's Bravery~
+@400293 = ~Bear's Bravery (Innate)
 Level: Innate
 Range: Party
 Casting Time: 0
@@ -1600,13 +1600,13 @@ The bear lets out a fierce growl, enhancing his combat abilities. He provides pr
 Moreover, if any of his companions were affected by terror, Bear's Bravery should cure that negative effect.
 THAC0: +1
 Saving Throws: +1~
-@200294 = ~Panic~
-@200295 = ~Panic~
+@400294 = ~Panic~
+@400295 = ~Panic~
 
 // Spell Thiago2
 
-@200296 = ~Sacred Power of the Bear~
-@200297 = ~Sacred Power of the Bear (Innate)
+@400296 = ~Sacred Power of the Bear~
+@400297 = ~Sacred Power of the Bear (Innate)
 Level: Innate
 Sphere: Combat
 Range: 0
@@ -1618,14 +1618,14 @@ Saving Throw: None
 DESCRIPTION:
 
 The bear prepares for arduous combat, invoking the sacred forces of nature. When he does this, his strength, constitution, and dexterity increase by 3 points.~
-@200298 = ~Strength, Constitution and Dexterity Modification~
-@200299 = ~Strength, Constitution and Dexterity Modification~
-@200300 = ~Strength, Constitution and Dexterity Modification~
+@400298 = ~Strength, Constitution and Dexterity Modification~
+@400299 = ~Strength, Constitution and Dexterity Modification~
+@400300 = ~Strength, Constitution and Dexterity Modification~
 
 // Spell Thiago3
 
-@200301 = ~Hardened Bear~
-@200302 = ~Hardened Bear (Alteration)
+@400301 = ~Hardened Bear~
+@400302 = ~Hardened Bear (Alteration)
 Level: Innate
 Sphere: Elemental
 Range: Thiago
@@ -1641,17 +1641,17 @@ The bear hardens his skin to create impenetrable layers against physical weapons
 
 // Michelson, el Leprechaun
 
-@200303 = ~Michelson, The Leprechaun~
+@400303 = ~Michelson, The Leprechaun~
 
 // Mathyus Davis
-@200304 = ~Mathyus Davis~
+@400304 = ~Mathyus Davis~
 
 // Libro de recetas leprechaun
 
-@200305 = ~Book~
-@200306 = ~Leprechaun Recipe Book~
-@200307 = ~The book is incomprehensible at first glance. A spell of identification or knowledge from a bard may be able to decipher it.~
-@200308 = ~Libro de recetas leprechaun
+@400305 = ~Book~
+@400306 = ~Leprechaun Recipe Book~
+@400307 = ~The book is incomprehensible at first glance. A spell of identification or knowledge from a bard may be able to decipher it.~
+@400308 = ~Libro de recetas leprechaun
 
 Greetings, travelers. I leave you this book with the necessary recipes to forge powerful artifacts, from the hand of the good Michelson. I think everything is quite clear, so I hope that when you gather what is needed for an artifact, you come to us (talk to me first, Michelson is always lost in his leprechaun things).
 Here we go:
@@ -1771,9 +1771,9 @@ PS: If you get all eight artifacts, bring Dusk with you. Something tells me that
 Sincerely,
 Mathyus Davis.-~
 
-@200309 = ~Chain Mail Armor~
-@200310 = ~Aldant Family Armor~
-@200311 = ~Chain mail is made of interlocking metal rings. It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows. 
+@400309 = ~Chain Mail Armor~
+@400310 = ~Aldant Family Armor~
+@400311 = ~Chain mail is made of interlocking metal rings. It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows. 
 
 STATISTICS:
 
@@ -1782,7 +1782,7 @@ Requires:
  8 Strength
 
 Weight: 40.~
-@200312 = ~Aldant Family Armor
+@400312 = ~Aldant Family Armor
 
 The chain mail exposes a gallant purple color, surely representing the Dragons of Cormyr. But it also has beautiful leaf details, the result of elven mystical art. The magic it radiates provides additional protection to the wearer. In this case, to someone with Aldant family blood.
 
@@ -1794,8 +1794,8 @@ Weight: 10 lbs.~
 
 // 	
 
-@200313 = ~Reforged Cormyrean sword~
-@200314 = ~Reforged Cormyrean sword
+@400313 = ~Reforged Cormyrean sword~
+@400314 = ~Reforged Cormyrean sword
 
 This bastard sword was originally forged in Cormyr. A typical soldier's sword. However, its craftsmanship is exquisite, with its edge being dangerous to anything it touches.
 According to Dusk, it was broken in a battle against a giant troll. Later, it was reforged by the Elbereth king's elven artisans, enhancing its enchantments and adding acid damage to it, so as not to suffer the same consequences when facing those creatures of the mountains.
@@ -1814,8 +1814,8 @@ Proficiency Type: Bastard Sword~
 
 // Bastón reforzado shilmista
 
-@200315 = ~Reinforced Shilmist Staff~
-@200316 = ~The staff bears the colors of the Order of the Purple Dragon. The craftsmanship is special, as it was created in Cormyr. However, Dusk recounts that it was reinforced in Shilmista by the elven king Elbereth and only Dusk can use it.
+@400315 = ~Reinforced Shilmist Staff~
+@400316 = ~The staff bears the colors of the Order of the Purple Dragon. The craftsmanship is special, as it was created in Cormyr. However, Dusk recounts that it was reinforced in Shilmista by the elven king Elbereth and only Dusk can use it.
 
 STATISTICS:
 
@@ -1829,27 +1829,27 @@ Speed Factor: 2
 Proficiency: Quarterstaff
 Type: Two-handed~
 
-@200317 = ~Broken Shield of the Order of the Purple Dragon~
-@200318 = ~The battered fragments of the shield were in the possession of a tribe of humanoids who claimed to be deserters from the army of Sothillis. The metallic purple color can still be admired, although it no longer serves as a shield itself.~
+@400317 = ~Broken Shield of the Order of the Purple Dragon~
+@400318 = ~The battered fragments of the shield were in the possession of a tribe of humanoids who claimed to be deserters from the army of Sothillis. The metallic purple color can still be admired, although it no longer serves as a shield itself.~
 
 
-@200321 = ~Demolisher~
-@200322 = ~Falon, the Orc Chieftain~
-@200323 = ~Cufa-Tima, the Ettin~
-@200324 = ~Ziben, the gnoll~
-@200325 = ~Coco, the Goblin Shaman~
+@400321 = ~Demolisher~
+@400322 = ~Falon, the Orc Chieftain~
+@400323 = ~Cufa-Tima, the Ettin~
+@400324 = ~Ziben, the gnoll~
+@400325 = ~Coco, the Goblin Shaman~
 
-@200326 = ~Sornhil, the Enchanter~
+@400326 = ~Sornhil, the Enchanter~
 
-@200327 = ~Mysterious Scarlet Orb~
-@200328 = ~The artifact was delivered by a mysterious figure named Sornhil, a wizard specializing in enchantments. The orb glows with a bloody red hue. It emanates a mysterious power, but you are not sure what use you could make of it. Perhaps Mathyus and Michelson can analyze it further.~
+@400327 = ~Mysterious Scarlet Orb~
+@400328 = ~The artifact was delivered by a mysterious figure named Sornhil, a wizard specializing in enchantments. The orb glows with a bloody red hue. It emanates a mysterious power, but you are not sure what use you could make of it. Perhaps Mathyus and Michelson can analyze it further.~
 
 
 
 
 // ESPADA CARMESÍ
-@200334 = ~Crimson sword~
-@200335 = ~Crimson sword
+@400334 = ~Crimson sword~
+@400335 = ~Crimson sword
 
 The weapon was created from an evil orb. Dusk has managed to unleash its full power, although at a cost we cannot comprehend. The sword glows with a crimson color, blood red, just like the mysterious orb. Despite being the size of a regular bastard sword, its weight is enormous compared to a regular one. As expected, only Dusk can wield it.
 
@@ -1874,15 +1874,15 @@ Weapon proficiency: Bastard Sword
 Weapon type: One-handed
 Requirements: 19 strength~
 
-@200336 = ~Increased wisdom by 1 point~
-@200337 = ~Innate ability obtained: Steel Warrior~
-@200338 = ~Experience gained: 100,000 points~
-@200339 = ~Alignment changed: Neutral Good~
-@200340 = ~Weapon obtained: Emerald sword~
+@400336 = ~Increased wisdom by 1 point~
+@400337 = ~Innate ability obtained: Steel Warrior~
+@400338 = ~Experience gained: 100,000 points~
+@400339 = ~Alignment changed: Neutral Good~
+@400340 = ~Weapon obtained: Emerald sword~
 
 // Espada Esmeralda
-@200341 = ~Emerald sword~
-@200342 = ~Emerald sword
+@400341 = ~Emerald sword~
+@400342 = ~Emerald sword
 
 The weapon was created from a malevolent orb. Dusk has decided to seek out the Shilmist explorer Mathyus Davis to eradicate the evil within it, along with the mysterious leprechaun Michelson. While the orb's power diminished after its purification, Dusk managed to unleash its inner power, resulting in the creation of this sword. As expected, only he can wield it.
 
@@ -1907,30 +1907,30 @@ Weapon type: One-handed
 Requirements: 15 strength~
 
 
-@200343 = ~Purified Emerald Orb~
-@200344 = ~The artifact was delivered by a mysterious character named Sornhil, a mage specializing in enchantments. It was purified by the Shilmist leprechaun, Michelson. Now, it glows with a friendly moss green color, and sparkles occasionally, shining like an emerald.~
+@400343 = ~Purified Emerald Orb~
+@400344 = ~The artifact was delivered by a mysterious character named Sornhil, a mage specializing in enchantments. It was purified by the Shilmist leprechaun, Michelson. Now, it glows with a friendly moss green color, and sparkles occasionally, shining like an emerald.~
 
 
 // EVIL ORB
-@200345 = ~Strength increased by 2 points~
-@200346 = ~Dexterity increased by 6 points~
-@200347 = ~Wisdom decreased by 2 points~
-@200348 = ~Innate ability obtained: Steel Warrior x3~
-@200349 = ~Innate ability obtained: Fear x2~
-@200350 = ~Experience gained: 500,000 points~
-@200351 = ~Weapon obtained: Crimson Sword~
-@200352 = ~Alignment changed: Neutral Evil~
+@400345 = ~Strength increased by 2 points~
+@400346 = ~Dexterity increased by 6 points~
+@400347 = ~Wisdom decreased by 2 points~
+@400348 = ~Innate ability obtained: Steel Warrior x3~
+@400349 = ~Innate ability obtained: Fear x2~
+@400350 = ~Experience gained: 500,000 points~
+@400351 = ~Weapon obtained: Crimson Sword~
+@400352 = ~Alignment changed: Neutral Evil~
 
 // GOOD ORB
-@200353 = ~Wisdom increased by 1 point~
-@200354 = ~Innate ability obtained: Last Effort~
-@200355 = ~Experience gained: 100,000 points~
-@200356 = ~Alignment changed: Neutral Good~
-@200357 = ~Weapon obtained: Emerald Sword~
+@400353 = ~Wisdom increased by 1 point~
+@400354 = ~Innate ability obtained: Last Effort~
+@400355 = ~Experience gained: 100,000 points~
+@400356 = ~Alignment changed: Neutral Good~
+@400357 = ~Weapon obtained: Emerald Sword~
 
 // Cono de frío de JACK
 
-@200358 = ~Cone of Cold (Innate)
+@400358 = ~Cone of Cold (Innate)
 Level: 5
 Range: 0
 Duration: Instantaneous
@@ -1944,28 +1944,28 @@ Jack emits a powerful icy breath, similar to the arcane spell. The damage dealt 
 
 // Clan Orco
 
-@200359 = ~Alabarza, the Mutilator~
-@200360 = ~Bob~
-@200361 = ~Kocha, the berserker~
-@200362 = ~Komar, the ogre~
-@200363 = ~Mike~
-@200364 = ~Serrano, the butcher~
-@200365 = ~Tongas, the sorcerer~
-@200366 = ~Toxsan-Chimi, the ettin~
-@200367 = ~Xeb'Tian, the torturer~
+@400359 = ~Alabarza, the Mutilator~
+@400360 = ~Bob~
+@400361 = ~Kocha, the berserker~
+@400362 = ~Komar, the ogre~
+@400363 = ~Mike~
+@400364 = ~Serrano, the butcher~
+@400365 = ~Tongas, the sorcerer~
+@400366 = ~Toxsan-Chimi, the ettin~
+@400367 = ~Xeb'Tian, the torturer~
 
 // Orbe teletransportador
 
-@200368 = ~Teleportation Orb~
-@200371 = ~The strange green-colored orb glows incessantly. Apparently, it has been designed to teleport those who have other teleportation gems to a specific location. The artifact was designed by Michelson, the mysterious leprechaun of Shilmista.
+@400368 = ~Teleportation Orb~
+@400371 = ~The strange green-colored orb glows incessantly. Apparently, it has been designed to teleport those who have other teleportation gems to a specific location. The artifact was designed by Michelson, the mysterious leprechaun of Shilmista.
 
 Weight: 3 lbs.~
 
 
-@200373 = ~Valatar, the Conjurer~
+@400373 = ~Valatar, the Conjurer~
 
-@200374 = ~Enhanced Crimson Sword~
-@200375 = ~Enhanced Crimson Sword
+@400374 = ~Enhanced Crimson Sword~
+@400375 = ~Enhanced Crimson Sword
 
 The weapon was crafted from a malevolent orb. Dusk has managed to unleash its full power, although at a cost we cannot comprehend. The sword glows with a crimson, blood-red color, much like that of the mysterious orb. Despite being the size of a regular bastard sword, its weight is colossal compared to one. As expected, only Dusk can wield it.
 
@@ -1993,8 +1993,8 @@ Weapon Proficiency: Bastard Sword
 Weapon Type: One-handed
 Requirements: 19 Strength~
 
-@200376 = ~Enhanced Emerald Sword~
-@200377 = ~Enhanced Emerald Sword
+@400376 = ~Enhanced Emerald Sword~
+@400377 = ~Enhanced Emerald Sword
 
 The weapon was created from a malevolent orb. Dusk has decided to seek out the Shilmist explorer Mathyus Davis to purify the orb's evilness along with the mysterious leprechaun Michelson. Although the power of the orb decreased after its purification, Dusk has managed to unleash its inner power, resulting in the creation of this sword. As expected, only he can wield it.
 
@@ -2023,8 +2023,8 @@ Requirements: 15 Strength~
 // INNATES SPELLS DUSK
 // Infundir Valor
 
-@200378 = ~Infuse Valor~
-@200388 = ~Infuse Valor
+@400378 = ~Infuse Valor~
+@400388 = ~Infuse Valor
 Level: Innate
 Sphere: Abjuration
 Range: 10 meters
@@ -2040,8 +2040,8 @@ The Cormyrean warrior lets out a battle cry "For Cormyr!", which infuses courage
 
 // Defensa Heroica
 
-@200380 = ~Heroic Defense~
-@200381 = ~Heroic Defense
+@400380 = ~Heroic Defense~
+@400381 = ~Heroic Defense
 Level: Innate
 Sphere: Protection
 Range: Target
@@ -2054,8 +2054,8 @@ The Cormyrean warrior trained as a First Sword is capable of providing Heroic De
 
 // Miedo
 
-@200382 = ~Fear~
-@200383 = ~Fear
+@400382 = ~Fear~
+@400383 = ~Fear
 Level: Innate
 Sphere: Spell
 Range: Touch
@@ -2068,8 +2068,8 @@ The Cormyrean warrior surrounds himself with a aura of fear with a radius of up 
 
 // Último Esfuerzo
 
-@200384 = ~Last Effort~
-@200385 = ~Last Effort
+@400384 = ~Last Effort~
+@400385 = ~Last Effort
 Level: Innate
 Sphere: Healing
 Range: Visual range of the caster
@@ -2085,8 +2085,8 @@ The First Sword evokes a feeling of vital effort in his companions, urging them 
 
 // Juramento de Ira
 
-@200386 = ~Oath of Fury~
-@200387 = ~Oath of Fury
+@400386 = ~Oath of Fury~
+@400387 = ~Oath of Fury
 Level: Innate
 Sphere: Combat
 Range: 0
@@ -2103,10 +2103,10 @@ Strength: Increased by 6 points
 Additional Hit Points: 25
 Luck: Maximum damage on each attack.~
 
-@200389 = ~Mysterious Ferret~
+@400389 = ~Mysterious Ferret~
 
 // BELLFAME RING MEJORADO
-@200390 = ~Forest Ring of Mir
+@400390 = ~Forest Ring of Mir
 
 Several centuries ago, in the depths of the Mir forest, the nymph Bellfame lived with her beasts. For many years, she protected the Tethyr forest from poachers and power-hungry humans. Many creatures served as her allies, and nature was grateful to her.
 It was during the Year of the Tankard that she would meet her fateful end: Bellfame was unaware of the war brewing between Tethyr and the Dark Tyrant of Mintar, Teldorn Darkhope. The evil cleric planned to invade the lands of Tethyr, hiding his Zentharim army in the depths of the forest. One of his generals, the Knight Imperceptor (a title that describes the desire for others to suffer) named Kartlzer, noticed that the Forest of Mir presented an opportunity to acquire power, in addition to being a hiding place, as his wizards identified the presence of a mysterious nymph at the heart of a swamp.
@@ -2268,22 +2268,22 @@ ABILITIES:
 
 - Greater Whirlwind Attack (3 times per day): Sayang can move at great speed, allowing her to launch a "burst" of super-fast strikes.~
 
-@200391 = ~Sir Ryan Trawl~
+@400391 = ~Sir Ryan Trawl~
 
-@200392 = ~Puki~
+@400392 = ~Puki~
 
 // Mano de Alabarza
-@200393 = ~Alabarza's Hand~
-@200394 = ~The hand seems to have been cleanly severed by a sword strike.~
-@200395 = ~This is the hand of Alabarza, the Mutilator. It was severed by Dusk Aldant, the Wizard Slayer of Cormyr, in revenge for the orc's attack on the Cormyrean detachment. Dusk may carry it with him because he sees some use for it in the future or simply as a trophy of his victory.~
+@400393 = ~Alabarza's Hand~
+@400394 = ~The hand seems to have been cleanly severed by a sword strike.~
+@400395 = ~This is the hand of Alabarza, the Mutilator. It was severed by Dusk Aldant, the Wizard Slayer of Cormyr, in revenge for the orc's attack on the Cormyrean detachment. Dusk may carry it with him because he sees some use for it in the future or simply as a trophy of his victory.~
 
-@200396 = ~Cormyran Gear~
+@400396 = ~Cormyran Gear~
 
-@200398 = ~This seems to be the cargo of Dusk's detachment. Alabarza must have gathered all these items from the fallen knights in combat. They range from weapons, armor, scrolls, and potions. Although most of it seems to be very neglected and spoiled.~
+@400398 = ~This seems to be the cargo of Dusk's detachment. Alabarza must have gathered all these items from the fallen knights in combat. They range from weapons, armor, scrolls, and potions. Although most of it seems to be very neglected and spoiled.~
 
 // YOSHI ITEM
-@200399 = ~Crushing Katana~
-@200400 = ~Crushing Katana
+@400399 = ~Crushing Katana~
+@400400 = ~Crushing Katana
 
 The weapon was forged by Michelson. Using the useless metal scraps from Dusk's old detachment, the leprechaun was able to imbue great power into this katana. It was a gift to Yoshimo, but anyone who can wield katanas can use it.
 
@@ -2297,8 +2297,8 @@ Speed factor: 0
 Martial ability: Katana
 Weapon type: One-handed
 Requirements: 6 strength~
-@200401 = ~De'Arnise Mantle~
-@200402 = ~De'Arnise Mantle
+@400401 = ~De'Arnise Mantle~
+@400402 = ~De'Arnise Mantle
 
 The mantle has the emblem of the de'Arnise family. Intended to be worn by a leader, the magical protections provide the wearer with great resistance against magical spells, in addition to physical protection.
 
@@ -2311,7 +2311,7 @@ Weight: 3 lbs~
 
 // MUGENJIN Espada Larga
 
-@200403 = ~Mugenjin
+@400403 = ~Mugenjin
 
 It's impossible to ignore the craftsmanship that went into building this longsword. The most striking feature is the fiery edge, which inflicts deadly damage on the victim. The second is the oil with which it is constantly bathed, reportedly made from the flesh of countless victims who were slashed with Mugenjin. It is said to have once dueled its opposing blade: Shin-Ushi, The Heart of the Sword. You are unaware of the reason why the sword was imbued this way, because no matter how hard you try, you cannot quell the fire of its steel. On the blade lies an inscription: "The Fiery Wrath."
 
@@ -2341,7 +2341,7 @@ Type: One-handed~
 
 // MUGENJIN Mandoble
 
-@200404 = ~Mugenjin
+@400404 = ~Mugenjin
 
 It's impossible to ignore the craftsmanship that went into building this Two-handed Sword. The most striking feature is the fiery edge, which inflicts deadly damage on the victim. The second is the oil with which it is constantly bathed, reportedly made from the flesh of countless victims who were slashed with Mugenjin. It is said to have once dueled its opposing blade: Shin-Ushi, The Heart of the Sword. You are unaware of the reason why the sword was imbued this way, because no matter how hard you try, you cannot quell the fire of its steel. On the blade lies an inscription: "The Fiery Wrath."
 
@@ -2371,7 +2371,7 @@ Type: Two-handed~
 
 // MUGENJIN Cimitarra
 
-@200405 = ~Mugenjin
+@400405 = ~Mugenjin
 
 It's impossible to ignore the craftsmanship that went into building this scimitar. The most striking feature is the fiery edge, which inflicts deadly damage on the victim. The second is the oil with which it is constantly bathed, reportedly made from the flesh of countless victims who were slashed with Mugenjin. It is said to have once dueled its opposing blade: Shin-Ushi, The Heart of the Sword. You are unaware of the reason why the sword was imbued this way, because no matter how hard you try, you cannot quell the fire of its steel. On the blade lies an inscription: "The Fiery Wrath."
 
@@ -2403,7 +2403,7 @@ Type: one-handed~
 
 // SHIN-USHI Espada Larga
 
-@200406 = ~Shin-Ushi
+@400406 = ~Shin-Ushi
 
 The curious thing about this longsword is the lack of edge. Although it is slightly lighter than usual and lacks the lethal edge of many swords, Shin-Ushi is one of the ultimate swords. It is said that it once had a duel with its antagonist sword: Mugenjin, the Fiery Wrath. You do not know the reason why the sword has no edge, because no matter how hard you try, you cannot sharpen it due to its magic runes. There is an inscription on the blade: "The Heart of the Sword".
 
@@ -2433,7 +2433,7 @@ Type: One-handed~
 
 // SHIN-USHI Mandoble
 
-@200407 = ~Shin-Ushi
+@400407 = ~Shin-Ushi
 
 The curious thing about this Two-handed Sword is the lack of edge. Although it is slightly lighter than usual and lacks the lethal edge of many swords, Shin-Ushi is one of the ultimate swords. It is said that it once had a duel with its antagonist sword: Mugenjin, the Fiery Wrath. You do not know the reason why the sword has no edge, because no matter how hard you try, you cannot sharpen it due to its magic runes. There is an inscription on the blade: "The Heart of the Sword".
 
@@ -2463,7 +2463,7 @@ Type: Two-handed~
 
 // SHIN-USHI Cimitarra
 
-@200408 = ~Shin-Ushi
+@400408 = ~Shin-Ushi
 
 The curious thing about this scimitar is the lack of edge. Although it is slightly lighter than usual and lacks the lethal edge of many swords, Shin-Ushi is one of the ultimate swords. It is said that it once had a duel with its antagonist sword: Mugenjin, the Fiery Wrath. You do not know the reason why the sword has no edge, because no matter how hard you try, you cannot sharpen it due to its magic runes. There is an inscription on the blade: "The Heart of the Sword".
 
@@ -2493,13 +2493,13 @@ Type: One-handed~
 
 // AMATISTA DRAGON PURPURA
 
-@200409 = ~Purple Dragon Amethyst~
-@200410 = ~The gem shines with a deep purplish color. As you were informed, you can use it to enhance either the Disruption Sword or the Cormyr Defense Armor. Both artifacts must have been forged using the recipe indicated in the leprechaun's book. Therefore, for its forger to be able to use it, you must have previously forged one of the mentioned artifacts.~
+@400409 = ~Purple Dragon Amethyst~
+@400410 = ~The gem shines with a deep purplish color. As you were informed, you can use it to enhance either the Disruption Sword or the Cormyr Defense Armor. Both artifacts must have been forged using the recipe indicated in the leprechaun's book. Therefore, for its forger to be able to use it, you must have previously forged one of the mentioned artifacts.~
 
 // SALUS
 
-@200411 = ~Salus~
-@200412 = ~Salus
+@400411 = ~Salus~
+@400412 = ~Salus
 
 With the power of the Purple Dragon Amethyst, the armor has been greatly enhanced, becoming Salus. Not only has it reinforced its resistance to magic, but it also provides a notable improvement in defense against physical damage. Additionally, the armor seems lighter, but not less defensive.
 Only Dusk can use it.
@@ -2521,8 +2521,8 @@ Weight: 40 lbs~
 
 // REX 
 
-@200413 = ~Rex~
-@200414 = ~Rex
+@400413 = ~Rex~
+@400414 = ~Rex
 
 With the power of the Purple Dragon Amethyst, the sword has been greatly improved, resulting in Rex. In addition to maintaining its current combat abilities, Rex is capable of slowing down enemies without giving them any chance of saving. Its elemental damage has also improved. The sword, essentially, remains the same, so only Dusk is capable of using it.
 
@@ -2544,13 +2544,13 @@ Weight: 10 lbs
 Speed Factor: 3
 Weapon Talent: Bastard Sword
 Weapon Type: One-handed~
-@200415 = ~Slowed~
+@400415 = ~Slowed~
 
 
-@200416 = ~Danctian~
+@400416 = ~Danctian~
 
-@200421 = ~Cormyr Defense~
-@200422 = ~Dusk's armor was improved with the re-forged plates of a Cormyrian shield. The enchantment has added a significant improvement in its physical defense, as well as maintaining the arcane reinforcements of the chainmail on which it was made.
+@400421 = ~Cormyr Defense~
+@400422 = ~Dusk's armor was improved with the re-forged plates of a Cormyrian shield. The enchantment has added a significant improvement in its physical defense, as well as maintaining the arcane reinforcements of the chainmail on which it was made.
 
 STATISTICS:
 
@@ -2562,17 +2562,17 @@ Bonuses:
 Armor class: -1
 Weight: 50 lbs~
 
-@200423 = ~Kalanda, the Transmuter~
-@200424 = ~Sickly Imp~
-@200425 = ~Weak Worg~
+@400423 = ~Kalanda, the Transmuter~
+@400424 = ~Sickly Imp~
+@400425 = ~Weak Worg~
 
-@200426 = ~Anthagar, the Necromancer~
-@200427 = ~Death~
-@200428 = ~Poison~
-@200429 = ~Destruction~
+@400426 = ~Anthagar, the Necromancer~
+@400427 = ~Death~
+@400428 = ~Poison~
+@400429 = ~Destruction~
 
-@200430 = ~Lux~
-@200431 = ~Lux
+@400430 = ~Lux~
+@400431 = ~Lux
 
 The emerald sword has been transformed into an epic weapon called Lux. The magic it radiates is almost pure and benevolent, protecting the wielder from physical and magical damage, as well as enhancing its edge with a mysterious arcane power. Although it has the weight of a bastard sword, it still possesses the swift attack ability. Only Dusk can wield it.
 
@@ -2597,8 +2597,8 @@ Martial Talent: Bastard Sword
 Weapon Type: One-Handed
 Requirements: 15 Strength~
 
-@200432 = ~Ira~
-@200433 = ~Ira
+@400432 = ~Ira~
+@400433 = ~Ira
 
 Ira is an epic weapon forged in the shadows of Pandemonium. It is the ultimate upgrade of the crimson sword, not only retaining its current abilities but also perfecting them and adding a powerful Silence spell against hostile casters. The heat of the blade is even deadlier, and its flames seem to not affect the wielder. Only Dusk can wield it.
 
@@ -2625,20 +2625,20 @@ Weapon Proficiency: Bastard Sword
 Weapon Type: One-handed
 Requirements: 19 Strength~
 
-@200434 = ~Spirit~
-@200435 = ~Valatar's Glabrezu~
-@200436 = ~Valatar's Tanar'ri~
+@400434 = ~Spirit~
+@400435 = ~Valatar's Glabrezu~
+@400436 = ~Valatar's Tanar'ri~
 
-@200437 = ~Symbol of Velsharoon~
-@200438 = ~The strange amulet carries a dark energy, and you clearly see Velsharoon's grinning skull on it. Your hands tremble slightly as you hold it. You obtained it from the body of Anthagar, the leader of the Forgotten Crypt.~
+@400437 = ~Symbol of Velsharoon~
+@400438 = ~The strange amulet carries a dark energy, and you clearly see Velsharoon's grinning skull on it. Your hands tremble slightly as you hold it. You obtained it from the body of Anthagar, the leader of the Forgotten Crypt.~
 
-@200439 = ~Mathyus's Body~
-@200440 = ~This is the corpse of the Shilmist elf Mathyus Davis. He fell in combat after being dominated by the enchantments of the Forgotten Crypt's sorcerer, Sornhil.~
+@400439 = ~Mathyus's Body~
+@400440 = ~This is the corpse of the Shilmist elf Mathyus Davis. He fell in combat after being dominated by the enchantments of the Forgotten Crypt's sorcerer, Sornhil.~
 
-@200441 = ~Celine~
+@400441 = ~Celine~
 
-@200442 = ~Lux Triumphans~
-@200443 = ~Lux Triumphans
+@400442 = ~Lux Triumphans~
+@400443 = ~Lux Triumphans
 
 Triumphant Light is the quintessential bastard sword. Its magic emanates a pure and benevolent energy, protecting the bearer from physical and magical damage. The arcane edge is capable of activating a powerful light that will show the warrior the path of truth amidst the lies of illusions.
 Only Dusk can wield it.
@@ -2665,8 +2665,8 @@ Weapon Proficiency: Bastard Sword
 Weapon Type: One-Handed
 Requirements: 15 Strength~
 
-@200444 = ~Ira Tenax~
-@200445 = ~Ira Tenax
+@400444 = ~Ira Tenax~
+@400445 = ~Ira Tenax
 
 Persistent Wrath is the ultimate bastard sword. Forged in the shadows of Pandemonium, the sword retains all its abilities and some have even been enhanced. In addition to the Silence spell, the warrior can now unleash a powerful Fire Strike on their enemies. The blade's heat is even greater. Fortunately, it does not seem to affect the bearer. Only Dusk can wield it.
 
@@ -2694,13 +2694,13 @@ Weapon Proficiency: Bastard Sword
 Weapon type: One-handed
 Requirements: 19 Strength~
 
-@200446 = ~Innate ability obtained: Oath of Fury~
+@400446 = ~Innate ability obtained: Oath of Fury~
 
 
 // Items personalizados EE Characters
 // Wilson
-@3490  = ~Poolster~
-@3491  = ~Poolster (Innate)
+@403490  = ~Poolster~
+@403491  = ~Poolster (Innate)
 Level: Innate
 Range: The bear
 Duration: Special
@@ -2712,7 +2712,7 @@ DESCRIPTION:
 
 This spell creates several small ice orbs, one per bear level, that replace the bear's usual claws. The bear can hurl these orbs at targets up to 15 meters away, and they will be treated as projectiles with a +5 bonus to attack rolls. Upon impact, they deal 1d4+3 points of damage plus an additional 3 points of cold damage. The bear can hurl up to five projectiles per round.~
 
-@3492  = ~This bright orb has been created by the innate spell Poolster.
+@403492  = ~This bright orb has been created by the innate spell Poolster.
 
 STATISTICS:
 
@@ -2722,11 +2722,11 @@ Combat abilities: Number of attacks per round set to 5
 Damage type: Projectile
 Weight: 0 lbs
 Speed factor: 3~
-@3493  = ~Poolster's orb~
+@403493  = ~Poolster's orb~
 
 // Dorn
-@3494  = ~Night Knives Gloves~
-@3495  = ~Night Knives Gloves
+@403494  = ~Night Knives Gloves~
+@403495  = ~Night Knives Gloves
 
 These heavy gauntlets emit an unspeakable aura of evil. They even seem to be impregnated with ancient stains of dry blood, possibly due to spikes that occasionally protrude from them. Apparently, only a BlackGuard can wear them.
 
@@ -2739,8 +2739,8 @@ Duration: 1 turn.
 
 Weight: 6 lbs.~
 
-@3496  = ~Wild Magic Potion~
-@3497  = ~The contents of this large bottle are a mystery. However, you were assured that whoever is capable of drinking it will gain advantages in both their constitution and mind. It seems to be only acceptable for those who know wild magic.
+@403496  = ~Wild Magic Potion~
+@403497  = ~The contents of this large bottle are a mystery. However, you were assured that whoever is capable of drinking it will gain advantages in both their constitution and mind. It seems to be only acceptable for those who know wild magic.
 
 STATISTICS:
 
@@ -2751,12 +2751,12 @@ Permanent bonuses:
 - Constitution: Increased by 1 point.
 
 Weight: 10 lbs.~
-@3498  = ~Hit Points: +20~
-@3499  = ~Intelligence: Increased by 1 point~
-@3500  = ~Constitution: Increased by 1 point~
+@403498  = ~Hit Points: +20~
+@403499  = ~Intelligence: Increased by 1 point~
+@403500  = ~Constitution: Increased by 1 point~
 
-@3501  = ~White Light Potion~
-@3502  = ~White Light Potion
+@403501  = ~White Light Potion~
+@403502  = ~White Light Potion
 
 The potion emits a bright light, as if the rays of the sun were contained within it. Only a Sun Soul Monk can use its benefits.
 
@@ -2769,12 +2769,12 @@ Permanent bonuses:
 - Resistance to Magic Damage: +%25
 
 Weight: 10 lbs.~
-@3503  = ~Constitution: Increased by 2 points~
-@3504  = ~Resistance to Magic Damage: +%25~
+@403503  = ~Constitution: Increased by 2 points~
+@403504  = ~Resistance to Magic Damage: +%25~
 
 
-@3505 = ~Ruby Liquid Potion~
-@3506 = ~Ruby Liquid Potion
+@403505 = ~Ruby Liquid Potion~
+@403506 = ~Ruby Liquid Potion
 
 The contents of the bottle mysteriously remind you of something familiar. Could it be blood? In any case, it seems to be intended only for Hexxat.
 
@@ -2785,11 +2785,11 @@ Permanent bonuses:
 - Hit points: +35
 
 Weight: 10 lbs.~
-@3507 = ~Hit points: +35~
+@403507 = ~Hit points: +35~
 
 
-@3508 = ~Winter flowers and fruits~
-@3509 = ~Winter flowers and fruits
+@403508 = ~Winter flowers and fruits~
+@403509 = ~Winter flowers and fruits
 
 The branches and leaves have a frosty color, and you feel a chill just by touching them. Their fruits are purple and emit a sweet scent. Clearly, it's food for bears, because Wilson's gaze towards you when you hold them suggests that you should give them to him so he can eat them all at once.
 
@@ -2801,21 +2801,21 @@ Permanent bonuses:
 
 Weight: 1 lbs.~
 
-@3510 = ~Innate ability obtained: Poolster~
+@403510 = ~Innate ability obtained: Poolster~
 
-@3511 = ~Innate ability obtained: Bear's Bravery~
-@3512 = ~Innate ability obtained: Sacred Power of the Bear~
-@3513 = ~Innate ability obtained: Hardened Bear~
+@403511 = ~Innate ability obtained: Bear's Bravery~
+@403512 = ~Innate ability obtained: Sacred Power of the Bear~
+@403513 = ~Innate ability obtained: Hardened Bear~
 
-@200447 = ~Jaheira! No... NOOOOooooooo!~
-@200448 = ~Minsc... Boo... No... You'll regret this!~
-@200449 = ~¡Aerie! Bastardos... ¡Mueran!~
-@200450 = ~Imoen! IMOEN! No... NoooOOoo!!!~
-@200451 = ~Korgan... Darn it... I'll avenge you, dwarf.~
-@200452 = ~Nalia... no... In the name of your family, I'll avenge your fall!~
-@200453 = ~Valygar, no... no... NOooOOOoooo!!!~
-@200454 = ~Have you gone mad? I can't allow you to do this!~
-@200455 = ~Mathyus's Hideout~
+@400447 = ~Jaheira! No... NOOOOooooooo!~
+@400448 = ~Minsc... Boo... No... You'll regret this!~
+@400449 = ~¡Aerie! Bastardos... ¡Mueran!~
+@400450 = ~Imoen! IMOEN! No... NoooOOoo!!!~
+@400451 = ~Korgan... Darn it... I'll avenge you, dwarf.~
+@400452 = ~Nalia... no... In the name of your family, I'll avenge your fall!~
+@400453 = ~Valygar, no... no... NOooOOOoooo!!!~
+@400454 = ~Have you gone mad? I can't allow you to do this!~
+@400455 = ~Mathyus's Hideout~
 
 ////////////////////////////////
 // DIARIO ENTRIES

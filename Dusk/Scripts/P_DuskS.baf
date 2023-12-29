@@ -1486,7 +1486,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskFuryJaheira","GLOBAL",1)
-    DisplayStringHead(Myself,@200447)
+    DisplayStringHead(Myself,@400447)
 	CreateItem ("p_fury",1,1,0)
 	UseItem ("p_fury", Myself)
 	Attack(LastAttackerOf("Jaheira"))
@@ -1512,7 +1512,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskFuryMinsc","GLOBAL",1)
-    DisplayStringHead(Myself,@200448)
+    DisplayStringHead(Myself,@400448)
 	CreateItem ("p_fury",1,1,0)
 	UseItem ("p_fury", Myself)
 	Attack(LastAttackerOf("Minsc"))
@@ -1538,7 +1538,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskFuryAerie","GLOBAL",1)
-    DisplayStringHead(Myself,@200449)
+    DisplayStringHead(Myself,@400449)
 	CreateItem ("p_fury",1,1,0)
 	UseItem ("p_fury", Myself)
 	Attack(LastAttackerOf("Aerie"))
@@ -1565,7 +1565,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskFuryImoen","GLOBAL",1)
-    DisplayStringHead(Myself,@200450)
+    DisplayStringHead(Myself,@400450)
 	CreateItem ("p_fury",1,1,0)
 	UseItem ("p_fury", Myself)
 	Attack(LastAttackerOf("Imoen2"))
@@ -1589,7 +1589,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskFuryKorgan","GLOBAL",1)
-    DisplayStringHead(Myself,@200451)
+    DisplayStringHead(Myself,@400451)
 	CreateItem ("p_fury",1,1,0)
 	UseItem ("p_fury", Myself)
 	Attack(LastAttackerOf("Korgan"))
@@ -1613,7 +1613,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskFuryNalia","GLOBAL",1)
-    DisplayStringHead(Myself,@200452)
+    DisplayStringHead(Myself,@400452)
 	CreateItem ("p_fury",1,1,0)
 	UseItem ("p_fury", Myself)
 	Attack(LastAttackerOf("Nalia"))
@@ -1640,7 +1640,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskFuryValygar","GLOBAL",1)
-    DisplayStringHead(Myself,@200453)
+    DisplayStringHead(Myself,@400453)
 	CreateItem ("p_fury",1,1,0)
 	UseItem ("p_fury", Myself)
 	Attack(LastAttackerOf("Valygar"))
@@ -1774,7 +1774,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskAlliesAttacked","GLOBAL",1)
-    DisplayStringHead(Myself,@200454)
+    DisplayStringHead(Myself,@400454)
     LeaveParty()
     Enemy()
 END
@@ -1796,7 +1796,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("P_DuskAlliesAttacked2","GLOBAL",1)
-    DisplayStringHead(Myself,@200454)
+    DisplayStringHead(Myself,@400454)
     LeaveParty()
     Enemy()
 END
