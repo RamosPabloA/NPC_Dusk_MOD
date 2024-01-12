@@ -1,0 +1,26 @@
+//@0    = ~~
+@1    = ~I suppose our paths will take different directions, won't they? If you change your mind, you can find me where we first met: at the Waukeen's Promenade, near the ruins caused by our enemy.~
+@2    = ~Wait, Dusk. Don't go, our journey must continue.~
+@3    = ~Of course, we'll see each other there, at the Waukeen's Promenade.~
+@4    = ~Better wait for me here, Dusk.~
+@5    = ~<CHARNAME>! You've returned. I hope we can continue our journey. We must bring justice to the fallen.~
+@6    = ~You're right, my friend. Let's go, join me.~
+@7    = ~Not yet, Dusk. I must settle some matters first.~
+@8    = ~Great! <CHARNAME>, let's go.~
+@9    = ~I'll wait here, then.~
+
+@10    = ~Well... at least you've reconsidered... Very well... I'll follow you... for now...~
+@11    = ~But... what in blazes?! For a moment... have I lost consciousness?~
+@12    = ~In fact, you had died, Dusk. Michelson brought you back using the Velsharoon symbol of Anthagar.~
+@13    = ~In fact, you had died, Dusk. Danctian brought you back using the Velsharoon Symbol of Anthagar.~
+@14    = ~Verily... I see...~
+@15    = ~*Michelson, with a grin from ear to ear, greets Dusk*~ [P_Mich01]
+@16    = ~Michelson... I have no words to thank you for what you've done...~
+@17    = ~I see.. I see that Mathyus has fallen... Damn... it's been a tough fight, <CHARNAME>...~
+@18    = ~I think Michelson will be able to take us home when we're ready... when you deem it appropriate, <CHARNAME>, talk to him to get us out of this cursed place.~
+
+@19    = ~You have returned, <CHARNAME>. Have you reconsidered and need my services?~
+@20    = ~You're right, Dusk. Let's go, join me.~
+@21    = ~So be it, <CHARNAME>. Let's go.~
+
+@3501  = ~Do you plan to attack the Order? I cannot allow it... they are my allies! <CHARNAME>, prepare yourself!~

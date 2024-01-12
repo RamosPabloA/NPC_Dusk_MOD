@@ -1,0 +1,99 @@
+//EVIL
+@0 = ~The Underdark... What a perfect place for our reunion, Captain Ardusk Aldant!~
+@1 = ~And you are <CHARNAME>, the Bhaalspawn from Candlekeep and the ward of Gorion.~
+@2 = ~Should I be impressed? Your minions have already shown to know the origin of my lineage. It's not a big deal that you know that at this point.~
+@3 = ~How do you know so much, necromancer? You better speak up or you'll feel my wrath!~
+@4 = ~Order of the Forgotten Crypt? You serve a demigod, wizard. You know how pathetic that is, don't you?~
+@5 = ~What do you want from us, Anthagar? This cat and mouse game is getting tedious...~
+@6 = ~The mere mention of my Lord should make you shudder, child of Bhaal. But I know you only seek provocation. You are perceptive, just as I have been informed...~
+@7 = ~Hm! I see you possess a wrath similar to that of the Cormyrean... I wonder if it's directly related to your lineage. Perhaps to your upbringing? It doesn't matter.~
+@8 = ~Disrespecting my Lord will only make your death more painful, <CHARNAME>. In addition to making you look like a fool... But that's of little importance.~
+@9 = ~Ah, that's a very important question, <CHARNAME>. What do we want from you? You'll soon find out...~
+@10 = ~I imagine you've met Sornhil and Valatar on your adventures, yes? I don't know if you've done the same with Kalanda. The elf isn't the most... sociable, let's say.~
+
+@11 = ~My point is... you have passed the tests that have been imposed on you, captain. Snake Eyes has taught you well.~
+@12 = ~I see... You have followed my steps since I left Shilmista... Even to Dragonspear.~
+@13 = ~Nothing else could be expected from the disturbed mind of a mage...~
+@14 = ~Let me guess... Snake Eyes, the Diviner... was one of your lackeys...~
+@15 = ~As the veil of deception lifted from your sight, Captain... You beheld the truth that was once out of your sight.~
+@16 = ~One more reason to rejoice in dispatching that wretch.~
+
+@17 = ~"Dispatched", you say? It's interesting... how you, tin men, have another name for murder.~
+@18 = ~It's no different with you, <CHARNAME>. Whether you admit it or not, you enjoy killing. Yes... Your heart delights in the art of death.~
+@19 = ~Many have fallen before the shadow cast by your power.~
+@20 = ~As time has passed... we have realized that we chose well in selecting you, Ardusk Aldant.~
+@21 = ~The scarlet orb... Why have you given it to me, Anthagar?~
+@22 = ~As a scholar of Velsharoon, it is my duty to study all aspects of life and death. In both, using the appropriate instructions, hidden power can be found.~
+@23 = ~I see... this mysterious necromancer speaks of powers similar (or perhaps superior) to the Nether Scroll. Stick man, let him continue talking. He may have something interesting to say...~
+@24 = ~The result of unleashing your power may have led to a... peculiar encounter with a creature from another plane.~
+@25 = ~I'm sure that kind of demon has given you even greater power.~
+
+@26 = ~And what I intend is to see what your limits are...~
+@27 = ~Hmph... I knew it. <CHARNAME>, we must be careful. Most likely, a difficult battle lies ahead...~
+@28 = ~In our next encounter, captain... we shall settle the score... For now... Survive my faithful followers!~
+@29 = ~But... I don't understand... Snake Eyes fell by my sword... How is that, in any way, beneficial to you?~
+@30 = ~Hmph! Snake Eyes was aware of the situation, captain. He simply played his part in the grand scheme: A tale oft told, more perceived than intricate: a shadow looms by death's cold touch conceived...~
+
+@31 = ~Back then you wouldn't have been able to comprehend the why. And now, even less so...~
+@32 = ~I have offered you a power beyond imagination, Aldant. But you have rejected it.~
+@33 = ~You tread upon a path of loyalty and trust where fools and their whims will lead you to doom.~
+@34 = ~Perhaps I will reveal it to you on another occasion, captain. It is clear that you are more than capable of interfering with my plans.~
+@35 = ~Evil-doer! It is clear that Minsc, Boo, Dusk, and <CHARNAME> will foil your plans. We will kick your magical butt left and right!~
+@36 = ~I know you have cunning allies. That leprechaun from Shilmista and the elven archer have been with you from the start.~
+
+@37 = ~Even the influence of this child of Bhaal may have had something to do with it...~
+@38 = ~But that doesn't matter, Ardusk Aldant of Cormyr. In another situation, I would have tested your power... but now, I can't risk my enterprise with you.~
+@39 = ~Whether vengeance or justice guides your hand, it matters not, because on this field of strife and war all sides will feel the deadly toll.~
+@40 = ~<CHARNAME>, we must be careful! It is very likely that we will once again find ourselves in an arcane contingency. We must prepare to fight!~
+@41 = ~Now you will come to know the meaning of my name. I am the commander of Death, Poison, and Destruction! Soon... you will understand...~
+@42 = ~Well, Dusk Aldant... I see you have a cult of followers that not even the most failed bard would want...~
+@43 = ~Hey! Be careful who you call a fool.~
+@44 = ~Finally... I have found you...~
+
+@45 = ~*Deep laughter* It seems that you did not quite enjoy the phantasmagoric illusion, did you, Captain?~
+@46 = ~Anthagar! Damned... you dared to use the image of Celine!~
+@47 = ~Well... I detect an incremental nervousness in your tone of voice, Captain.~
+@48 = ~Could it be that the spirit of your beloved was telling the truth?~
+@49 = ~Did you leave her to die in the darkness of the Trinity Castle?~
+@50 = ~And you dare to call me damned... even though you are the only one burdened with the curse of guilt...~
+@51 = ~You can bark as much as you want, dog! My sword will separate your head from your shoulders once and for all. You will die!~
+@52 = ~*laughter* Wait a moment, Captain! You would not want to... hasten the end of this story...~
+@53 = ~*snaps his fingers and a portal appears in front of him*~
+@54 = ~It's a shame...~
+
+// EVIL PATH
+
+@55 = ~Ah, but if it isn't Captain Ardusk Aldant, accompanied by the great <CHARNAME>, descendant of Bhaal.~
+@56 = ~My apologies in advance for this meeting in a somewhat... unusual place...~
+@57 = ~Anthagar... Or should I call you Darvin? I'm sorry, you have me confused with your identities...~
+@58 = ~*smiles* Ah... my deception carried out in Shilmista... I sense a hint of anger in your voice.~
+@59 = ~But it's understandable. I needed you to fulfill a purpose that surpasses your understanding.~
+@60 = ~We are nothing but specks of dust compared to what lies before us, Ardusk Aldant.~
+@61 = ~Eternal glory cannot be achieved without being willing to carry out certain... sacrifices.~
+@62 = ~I understand... you're referring to the death of my wife.~
+@63 = ~A regrettable event, truly. But I had to do it...~
+@64 = ~The Curse of Mellifleur had to reach you. Surprisingly... the spell hit the shilmist elf directly.~
+
+@65 = ~...~
+@66 = ~*clears throat* However, it has been fortunate that fate has fallen upon you, Cormyrean.~
+@67 = ~You even have the alliance of a child of Bhaal. If we have their help, we can-~
+@68 = ~For now, let's set <CHARNAME> aside, necromancer.~
+@69 = ~What is it you truly seek? You want to meet the Shadow Demon of Pandemonium, don't you?~
+@70 = ~~
+@71 = ~Verily, Captain... I suppose you can command it to appear from the Shadows, can't you?~
+@72 = ~*smiles* Danctian has a will of its own, Anthagar... That's how I wanted it.~
+@73 = ~I-I don't understand...~
+@74 = ~~
+@75 = ~~
+@76 = ~~
+@77 = ~~
+@78 = ~~
+@79 = ~~
+
+@210037 = ~Dusk Aldant: The Order of Mages
+
+We have finally met the one behind all the arcane attacks on Dusk and our party: Anthagar, the Necromancer. He claims to be the leader of an order of magi called the Forgotten Crypt, a sinister cult dedicated to the demigod Velsharoon, the Lord of Undeath. We still don't know what his ultimate goal is with us. For now, we must overcome the obstacles he puts in our way once again.~
+
+@210038 = ~Dusk Aldant: The Order of Mages
+
+We have finally met the one behind all the arcane attacks on Dusk and our party: Anthagar, the Necromancer. He claims to be the leader of an order of magi called the Forgotten Crypt, a sinister cult dedicated to the demigod Velsharoon, the Lord of Undeath. We still don't know what his ultimate goal is. For now, we must survive the fateful encounter he has prepared for us, as he sees us as a threat to his future plans.~

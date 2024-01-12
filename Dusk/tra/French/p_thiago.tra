@@ -1,0 +1,47 @@
+@0 = ~*Thiago approaches Dusk discreetly. He sniffs his backpack in search of food.*~
+@1 = ~I'm sorry, Thiago. The candies have... run out.~
+@2 = ~*Thiago lets out an exaggerated howl of lament*~
+@3 = ~Hm... I might have some... cookies.~
+@4 = ~*Upon hearing the word 'cookies', the bear's ears perk up.*~
+@5 = ~Yes, here you g--- Darn! You nearly tore my hand off, bear. You know, you could stand to lose some weight. You should eat less.~
+@6 = ~*Thiago ignores Dusk's words as he devours his cookies.*~
+
+@7 = ~*Thiago is scratching one of his ears near Neera.*~
+@8 = ~Oh, hello, Thiago! How are you--? Ugh! Thiago, is that smell coming from you?~
+@9 = ~*Thiago looks at Neera, unsure of what she's referring to.*~
+@10 = ~Phew! Bellfame! Where are you? You need to do something about the stench coming from your bear!~
+@11 = ~Ah, little mortal. Does Thiago bother you? I apologize, he doesn't like to bathe.~
+@12 = ~Argh! I thought all bears liked water.~
+@13 = ~*Thiago shudders at the word 'water'.*~
+@14 = ~Well... it's not like I haven't been in a sewer before... But that doesn't mean I'll tolerate your 'aroma', bear! I hope you bathe, or I might come up with a spell to send you to a freezing waterfall.~
+@15 = ~*Thiago looks at Neera, confused. After a few seconds, he resumes his ear-scratching.*~
+
+@16 = ~*Thiago timidly approaches Viconia.*~
+@17 = ~You better stay away from me, furball. I'm not in the mood.~
+@18 = ~*Thiago sits next to Viconia and watches her, almost admiringly.*~
+@19 = ~No matter how big you make your eyes, I won't give you my morsel.~
+@20 = ~*Thiago lets out a soft lament and then licks his snout.*~
+@21 = ~Ugh, fine. But this better be the last time.~
+@22 = ~*Thiago takes the mushroom bread offered by Viconia with his snout. It barely lasts two seconds before being devoured. Then, he lies at Viconia's feet, expecting some affection. The drow ignores him but allows him to stay by her side.*~
+
+@23 = ~*Thiago is sitting next to Jan while devouring what appears to be a turnip cake.*~
+@24 = ~That's right, furball. Ma Jansen's recipe is foolproof. Nothing is as delicious as the pastries made with Jansen Farm's turnips. You see, my Aunt Petunia created that intricate recipe inspired by one of her adventures in the surrounding forests of Tethyr. To mix the flour with the ground turnips, she used milk from a cow she stole from a witch and brought here to Athkatla.~
+@25 = ~*The bear seems to listen attentively to the gnome's words. The word 'cow' catches his attention.*~
+@26 = ~Ah, I see you're interested in Rosita. Yes, that's the name of the dairy cow. I can introduce you to her if we go to the Slums someday. Although... now that I see you licking your lips, maybe that's not such a good idea, my hefty friend.~
+@27 = ~*Thiago lets out a soft lament, but after a few seconds, he continues devouring the turnip cake.*~
+
+@28 = ~*Thiago looks at you with a hint of fear. He's convinced you're going to scold him for eating something he found on the ground. When he realizes you're not saying anything, he continues chewing as if there's no tomorrow.*~
+@29 = ~*Thiago sits by your side. He gazes at you with his big eyes, hoping you'll give him some food. He lets out a bored snort as he waits for you to tend to his well-being.*~
+@30 = ~*Thiago becomes joyful when he sees you approaching him. He starts spinning around on his own axis, surprising you with his agility despite his large size.*~
+@31 = ~*Thiago emits several laments, trying to grab your attention. You're not sure if he wants food or caresses. Maybe both.*~
+@32 = ~*You stroke Thiago's back, and he seems happier than ever. So happy, in fact, that he lets out a gas, leaving you with no choice but to move away from him.*~
+
+@33 = ~*Thiago approaches Wilson, and both of them start lamenting.*~
+@34 = ~Lament, lament.~ [BBEAR02]
+@35 = ~*Thiago points to <CHARNAME>'s backpack, and Wilson seems to agree.*~
+@36 = ~I'm not so sure <CHARNAME> would appreciate you for eating his provisions, beyond any hunger you might have.~ ~I'm not so sure <CHARNAME> would appreciate you for eating her provisions, beyond any hunger you might have.~
+@37 = ~Exaggerated lament.~ [BBEAR02]
+@38 = ~*Thiago imitates Wilson and laments in an exaggerated manner as well.*~
+@39 = ~I can create magical berries for you to eat, my children. I hope this will make you give up on eating your companion's provisions.~
+@40 = ~Snort.~ [BBEAR01]
+@41 = ~*Thiago also snorts in agreement with the nymph and gladly accepts the berries she has created. He exchanges a knowing look with Wilson, who is also devouring his share.*~

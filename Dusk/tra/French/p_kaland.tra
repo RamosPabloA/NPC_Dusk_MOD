@@ -1,0 +1,55 @@
+//EVIL
+@0 = ~...~
+@1 = ~<CHARNAME>... yes, your description matches.~
+@2 = ~What the hell...? Elf! How do you know my name?~ 
+@3 = ~You know my identity... and you exhale arcane energy, elf. Dusk, this creature must be part of the Order that pursues us!~
+@4 = ~*coughs* Oh, it's just that you're very famous. Your deeds have even reached here, on the island of Brynnlaw.~
+@5 = ~<CHARNAME>, we are facing a Transmuter.~
+@6 = ~What?! (Hmph... I knew I wasn't going to convince them... cursed be the day I listened to Sornhil's advice)~
+@7 = ~So you have identified my school of specialization, human. Just by looking at me... impressive.~
+@8 = ~I suppose I have no choice but to introduce myself. My name is Kalanda, the Transmuter.~
+@9 = ~And you, <CHARNAME>, are none other than the son of Bhaal who accompanies the Wizard Slayer.~ ~And you, <CHARNAME>, are none other than the daughter of Bhaal who accompanies the Wizard Slayer.~
+@10 = ~*sigh* I see you are also aware of my lineage. It must be the worst kept secret on the Sword Coast...~
+@11 = ~And what if I were? I sense that you are not a creature of affable nature, despite your race, elf.~
+@12 = ~What kind of name is Kalanda? Ridiculous...~
+@13 = ~You are a victim of your own actions, <LADYLORD> <CHARNAME>. It is not to be expected that many powerful beings are aware of your origin.~
+@14 = ~My nature is much more methodical than that of my... companions. But that does not mean you should take me lightly...~
+@15 = ~You can mock all you want, <PRO_RACE>. Your attempts to force a furious reaction from me will not succeed. Although... that does not mean I cannot be... unpredictable for you.~
+@16 = ~Anyway, I'm not here to talk about that. I was sent to this stinking place, infested with filthy pirates, just to test you.~
+@17 = ~A test? Ha! What test can a pathetic wizard like you impose on us, elf?~
+@18 = ~Do you have to provoke a confrontation, Dusk? We have more pressing matters to attend to here.~
+@19 = ~You must be careful, Dusk. Just as the bat cannot find food when the wind roars strongly, I have not been able to find a gram of nature in this elven creature.~
+@20 = ~*laughs* Who would have thought, abbil? You have some racial violence inside you. I think the surface elves deserve it...~
+@21 = ~Hmm... this elf has a strange energy around him, stick man. However, I do not think he is a match for my spells. (No, I do not think he is...)~
+@22 = ~I spit on your threats, ye trash elf. Skinny legs, just give the word and I will dismember him for ye.~
+@23 = ~White crow, I must say that this Kalanda has a mysterious strength in him. We should not take his threats lightly.~
+@24 = ~My Order is powerful, Wizard Slayer. You may have trained with Snake Eyes to improve your arcane resistance... but that will not be enough.~
+@25 = ~Wh-What?! How do you know that, elf? Speak, or you will die right now!~
+@26 = ~Is that supposed to be a joke? I don't understand human humor... it seems pathetic to me.~
+@27 = ~No, I will not speak, Wizard Slayer. And no, it is not my time to die either.~
+@28 = ~But it will be yours if you don't pass this test.~
+@29 = ~Watch this carefully!~
+@30 = ~You look surprised, Wizard Slayer.~
+@31 = ~You have a lot of confidence in yourself, human. I wonder what the son of Bhaal will think about it.~ ~You have a lot of confidence in yourself, human. I wonder what the daughter of Bhaal will think about it.~
+@32 = ~Really? I eat imps and worgs for breakfast. This test will be a piece of cake.~
+@33 = ~You offend me if you think you can test my power with this, Kalanda.~
+@34 = ~I think Dusk is right. There must be some trick behind this, sorcerer... what is it?~
+@35 = ~Are you serious? These creatures are no match for us, Kalanda.~
+@36 = ~What are you really plotting?~
+@37 = ~Appearances can give you a false impression, <CHARNAME>. You should know it... and you will know it...~
+@38 = ~Very perceptive, <CHARNAME>. Both of you make a good team. But that won't save you.~
+@39 = ~Failing this test will mean death, <CHARNAME> and Dusk. And rest assured: this will not be the last time our paths cross!~
+
+// GOOD
+
+@40 = ~<CHARNAME>, be careful! I sense a particular energy in him... he's a Transmuter.~
+@41 = ~D-dusk! Calm down. You're not the only one who will use all their strength to defend <CHARNAME>. You have more than one friend by your side.~
+@42 = ~Ah, yes, the typical plot of the Transmuter elf. I remember Golodon used many spells from that school. Once he summoned a turtle, which was the size of my knee. Golodon cast a transformation spell on it and it grew in size, to the point that we decided to build a little house on top of its shell and live there for a good while. Those were good times. What I mean, Dusk, is that you should pay attention to this elf. He may have intentions of doing something bad with his transmutations.~
+@43 = ~What?! How do you know that? Speak! Don't make me kill you, Kalanda.~
+@44 = ~What do you mean? If you try to harm <CHARNAME>, your head will roll, Kalanda!~
+
+
+
+@210036 = ~Dusk Aldant: The Order of Mages
+
+We crossed paths with Kalanda, the Transmuter, in Brynnlaw. Apparently, he was waiting for us to test our skills, summoning a couple of weak creatures and then transmuting them into bloodthirsty monsters. What do these wizards want with Dusk and me? We don't know yet. But I have a feeling that this won't be the last time we hear from them.~

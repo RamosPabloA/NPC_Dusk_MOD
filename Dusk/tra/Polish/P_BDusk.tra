@@ -1,0 +1,344 @@
+// Aerie
+
+@0    = ~*Przez dluzsza chwile wpatruje sie w Aerie*~
+@1    = ~Dusk! Widzialam cie! Dlaczego na mnie tak patrzysz?~
+@2    = ~Przepraszam, jesli cie zaniepokoilem, Aerie... t-to tylko tak, ze przypominasz mi o...~
+@3    = ~O, zobacz! Wielki Dusk jakajacy sie? *smiech*~
+@4    = ~(Cholera...) No, smiac sie mozesz.~
+@5    = ~I zaczerwieniles sie! *smiech* O, przepraszam, Dusk. Nie chcialam cie wysmiewac. Powiedz, o kim mi przypominasz?~
+@6    = ~*usmiecha sie* Moze kiedys ci opowiem, mala. Na razie kontynuujmy podróz.~
+
+// Aerie - GOOD
+
+@1005    = ~Aerie, czy pamietasz, kiedy zapytalas mnie, kogo mi przypominasz?~
+@1006    = ~Dusk, oczywiscie, ze pamietam. Zarumieniles sie jak pomidor! *smiech*~
+@1007    = ~*chrzakanie* Tak wiec... przypominasz mi elfke z Shilmista, o imieniu Celine.~
+@1008    = ~Celine? To piekne imie. Opowiedz mi o niej.~
+@1009    = ~Byla zaciekla wojowniczka, biegla w poslugiwaniu sie lukiem. Ale to nie ze wzgledu na sile fizyczna, której ewidentnie brakuje tobie, przypominasz mi ja.~
+@1010    = ~Ej! (Hm... no cóz, rzeczywiscie powinienem wiecej cwiczyc)~
+@1011    = ~Nie wstydz sie tego, Aerie. Jestes inteligentna i zyczliwa, to te cechy sprawiaja, ze przypominasz mi Celine.~
+@1012    = ~Och, rozumiem. A powiedz, Dusk... czy dlugo nie widziales jej?~
+@1013    = ~...~
+@1014    = ~Za dlugo... dluzej niz bym chcial... Czasami snie o niej. Pewnego dnia... pewnego dnia znowu ja zobacze.~
+@1015    = ~Lepiej wrócmy do podrózy. Wiesz, jak <CHARNAME> reaguje, gdy rozmawiamy zbyt dlugo.~
+@1016    = ~Zgoda, Dusk. Ale mam nadzieje, ze bedziesz mi jeszcze o niej opowiadal.~
+@1017    = ~Moze, Aerie. Byc moze...~
+
+// Aerie - GOOD
+
+@1018    = ~...~
+@1019    = ~Dusk! Znowu na mnie patrzysz... chociaz... twoje oczy nie sa takie, jak dawniej...~
+@1020    = ~Przypominasz mi Celine, Aerie. Ale nie jestes tak silna jak ona... Twoje spojrzenie na swiat poprowadzi cie do zguby.~
+@1021    = ~O-o czym ty mówisz, Dusk?~
+@1022    = ~Jestes inteligentna, co stanowi twoja sile. Ale takze jestes mila i naiwna... i to doprowadzi cie do upadku.~
+@1023    = ~N-nie prosilam cie o opinie w tej kwestii, wiesz? I-ja jestem taka, jaka jestem, i lubie to byc.~
+@1024    = ~Nie obwiniam cie, mala. Latwo uwierzyc w dobre intencje innych. Ale prawda jest taka, ze wszyscy mamy w sobie wewnetrznego demona, czekajacego w cieniu, gotowego przejac kontrole.~
+@1025    = ~*dreszcz* D-dusk, nie rozumiem... juz nie jestes taki jak przedtem. Teraz... nie ma juz blasku w twoich oczach... c-czuje tylko... tylko zimno w twoich slowach.~
+@1026    = ~Nigdy nie widzialem rzeczy tak jasno, jak teraz. Nie martw sie o mnie. Jestem teraz silniejszy niz kiedykolwiek.~
+@1027    = ~Sila to nie wszystko... nie rozumiem, dlaczego jestes taki, Dusk... nie rozumiem.~
+@1028    = ~Nie ma nic do zrozumienia, Aerie. Nadal uwazam, ze twoja zyczliwosc doprowadzi cie do zguby... ale nie tak dlugo, jak bede obok.~
+@1029    = ~Mozesz pozwolic sobie na naiwnosc. A jesli zagraza ci niebezpieczenstwo, zatrzymam je krwia i przemoca.~
+@1030    = ~N-nie potrzebuje, zebys za mnie zabijal, Dusk! N-nie wszystko musi konczyc sie przemoca i zabójstwem.~
+@1031    = ~Ale tak wlasnie jest, mala... Swiat, w którym zyjemy, zostal ulepiony z krwi i przemocy. I tak bedzie az do czasu, gdy slonce i gwiazdy straca swój blask... Zawsze tak bedzie...~
+
+// Anomen
+
+@7    = ~Musze to powiedziec, Anomen... troche mnie uspokaja, ze Tethyr nie wszedl w wojne z Amn... Nie chcialbym miec cie za wroga na polu bitwy.~
+@8    = ~Pokój miedzy obiema nacjami wydaje sie utrzymywac. Niemniej jednak rozumiem, o co ci chodzi. Równiez nie chcialbym musiec zmierzyc sie z kims, kto walczy o to, co sprawiedliwe.~
+@9    = ~Czy tez zostac z nim zmierzonego, prawda?~
+@10   = ~Haha! Jestes bezczelny, chlopcze. Moze powinnismy sie przetestowac i zobaczyc, co sie stanie. Chociaz dla mnie wynik jest oczywisty.~
+@11   = ~Moze, Anomen. Moze... Ale cos mi mówi, ze musialbys polegac na modlitwach Helm, bo wynik móglby nie byc tak oczywisty, jak sadzisz...~
+
+// Anomen - EVIL
+
+@1000    = ~Powinienes poprawic swoje podejscie, mnichu. Nigdy nie wiesz, kiedy spotkasz niewlasciwa osobe...~
+@1001    = ~Ale co-? Chlopcze! Te niegrzecznosci moga cie duzo kosztowac. Ja-~
+@1002    = ~Co ty? Myslisz, ze powinienem sie bac, bo ciagle szczekasz swoje wyczyny? Widzialem cie w walce... i z pewnoscia nie jestes wielkim mistrzem.~
+@1003   = ~Gdyby nie to, ze jestem tu dla <CHARNAME>, zapewne juz bym ci kilka rzeczy nauczyl.~
+@1004   = ~Ha! Placilbym, zeby cie zobaczyc próbujacego, mnichu...~
+
+
+// Cernd
+
+@12   = ~Dusk, nie moglem nie zauwazyc, ze masz gleboka sympatie do natury. Jednak wydajesz sie byc bardziej czlowiekiem miasta.~
+@13   = ~Mam szczególna milosc do obyczajów elfickich. To byc moze to, o co ci chodzi.~
+@14   = ~Z pewnoscia elfy maja szczególna wiez z lasami, zwierzetami, ale to nie jest cos, co jest im wylacznie przypisane.~
+@899   = ~Ludzie byli prymitywni przez tysiaclecia, nawet przed elfami. Nasza swiadomosc istnienia nie byla rozwinieta jak u naszych elfich braci, ale mielismy cos wrodzonego, co równiez mieli oni.~
+@15   = ~Polaczenie z ziemia, morzami i niebem. Zmysly, które mielismy i stracilismy w miare uplywu czasu.~
+@901   = ~A teraz jestesmy uwiezieni w sieci istnienia, obok roslin i zwierzat, podobnie jak reszta myslacych istot.~
+@16   = ~Dokladnie. Dlatego niektórzy z nas, ludzi, staraja sie odzyskac te zmysly, pomimo naszego krótkiego zycia.~
+@17   = ~Krótkie zycie, jak swiatlo spadajacej gwiazdy migoczacej na niebie i ginacej w nocy, jak lzy dziecka.~
+@18   = ~Naprawde milo jest rozmawiac z kims, kto rozumie te rzeczy, Dusku. Ciesze sie, ze mozemy podrózowac razem.~
+@902 = ~To moje zaszczyt, Cerndzie.~
+
+// Edwin
+
+@19   = ~Ostrzegam cie, magu! Musisz byc ostrozniejszy z zakleciami.~
+@20   = ~Mówisz do mnie, hombrecito? To bezczelne z twojej strony, zadac ode mnie czegos takiego! Czy moze boisz sie, ze kula ognia przypadkowo cie dosiegnie?~
+@21   = ~Nie myl sie, Odesseironie. Nie boje sie twoich zaklec. Chodzi mi o niewinnych, którzy moga ucierpiec z powodu twojej bezmyslnosci.~
+@22   = ~Nie masz pojecia o zasiegu i szkodach, jakie mozesz wyrzadzic.~
+@23   = ~Swiadomosc? (O czym ten prymityw mówi?) Hmpf! Spójrz, czlowieku z blachy, doskonale wiem, co robie. Ja-~
+@24   = ~To wszystko, co mam ci do powiedzenia. Ciesze sie, ze wyjasnilismy sprawe.~
+@25   = ~Co?! (Bezczelny przerwal mi?)~
+@1032 = ~Hmpf! (Moze spróbuje jednak rzucic mu kula ognia, zobaczymy, czy mu sie nie podoba...)~
+
+// EDWIN 2
+
+@113  = ~Z biegiem czasu, Edwinie, musze przyznac, ze twoje umiejetnosci sa wyjatkowe...~
+@114  = ~(Hm... ten prymityw w koncu uznaje moja wyzszosc.) Oczywiscie! Edwin Odesseiron to trwoga Wybrzeza Miecza, Dusku. Nie zapomnij o tym.~
+@115  = ~Jednakze... jest cos, co mi nie pasuje...~
+@116  = ~*hem* O co aluzji? (Dlaczego patrzy na mnie tymi zimnymi oczami? Do diabla, moze zna mój sekret.)~
+@117  = ~Przez lata stawalem do wielu pojedynków z magami, zaklinaczami, przemieniaczami, nekromantami... ale nikt nie dorównuje tobie pod wzgledem szybkosci i wymowy zaklec...~
+@118  = ~Oczywiscie, to cos we mnie. Nie mozna oczekiwac czegos innego po kims tak spra-~
+@119  = ~Dlaczego z taka niechecia ukrywasz swój amulet, drogi Edwinie? Nie powinienes sie o mnie martwic... nie jestem zadnym zlodziejem... Nie mam zamiaru wnikliwie przygladac sie twoim umiejetnosci- erm, chcialem powiedziec: amuletowi. *usmiech*~
+@120  = ~(Do diabla, drwi ze mnie... moze lepiej, zeby sie stad wypchal... Wolalbym, zeby odejsc, nim zbyt wiele odkryje...) Lepiej, zebys skierowal swój wzrok gdzie indziej, czlowieku-z-paleczka... Niech bedzie, zebys nie zechcial sprawdzic moich... umiejetnosci...~
+
+
+//HaerDalis
+
+@26   = ~Czesc, wróblu! Masz ochote, bysmy zaspiewali serenade? Poza tym, ze wygladasz jak wojownik, moje serce mówi mi, ze jestes takze poeta.~
+@27   = ~Wróblu?~
+@28   = ~Nie podoba ci sie? Brzmisz jak wróbel, lordzie. Ale jesli ci sie nie podoba, inny ptaszek, do którego mi przypominasz, to sowy.~
+@1033   = ~Wolisz, zebym cie nazwal sowa, lordzie?~
+@29   = ~Hmm... mysle, ze wolalbym "wróbla".~
+@30   = ~To wróbel zatem! Boskie kruki i smutne wróble. Ta grupa ma najbardziej barwny sklad.~
+@1034   = ~A co ty na to? To swietny czas, by zyc! Zacznijmy serenade?~
+@31   = ~*chrzakniecie* Moze... moze innym razem, towarzyszu.~
+
+//HaerDalis EVIL
+
+@1035   = ~Kto by pomyslal? Kanarek przemienil sie w wielkiego i strasznego jastrzebia.~
+@1036   = ~Mówisz do mnie, bardzie? Widze, ze wciaz trzymasz sie tych glupich zartów o ptakach.~
+@1037   = ~No cóz, oczywiscie! Jastrzab na pewno jest bardziej interesujacy niz kanarek, nieprawdaz?~
+@1038   = ~Choc trzeba przyznac, ze spiew kanarka jest piekniejszy.~
+@1039   = ~Mam to gdzies, jak mnie nazwiesz, tiefling. Po prostu nie spiewaj. Nie mam humoru.~
+@1040   = ~Cóz, wydaje mi sie, ze humorem raczej nie blyszczy jastrzab, inaczej niz w przypadku kanarka.~
+@1041   = ~Powiedz jeszcze raz cos o ptakach, a twoja mowa stanie sie pozywieniem dla psów.~
+@1042   = ~O, zdecydowanie, dobry nastrój równiez sie przemienil...~
+
+// Imoen
+
+@32   = ~Hmmm... ale dziwne! Myslalem, ze zostawilem tu moja torbe z ciasteczkami.~
+@33   = ~Jestes pewien? W okolicy jest wiele gryzoni, moze którys z chomików pozyczyl ja sobie.~
+@1043 = ~Sluchajcie, Boo pyta, dlaczego patrzycie na niego tak intensywnie!~
+@34   = ~Pozyczyl? Cóz, nie sad-... Hej... chwila. Masz okruchy na policzkach!~
+@35   = ~Okruchy? Dusk, to niegrzeczne patrzec intensywnie na policzki damy.~
+@36   = ~Niegrzeczne? Przepraszam, po prostu ja...~
+@1044   = ~Hej, nie próbuj sie wymigiwac, mala! Gdybys chciala moje ciasteczka, wystarczylo je poprosic.~
+@37   = ~Oh, naprawde? Dzieki, Dusk. (Przypuszczam, ze nie bedzie mu przeszkadzac, ze pozyczylam sobie jego torbe z cukierkami)~
+
+
+// Imoen 2
+
+@121  = ~Imoen, czy ta jablko jest pyszne?~
+@122  = ~Hmm... *zuje* No tak! *zuje*~
+@123  = ~To swietnie! Zwlaszcza, ze mialem dokladnie takie samo w moim plecaku... a teraz nie moge go znalezc.~
+@124  = ~Oh, Dusk... *zuje* Powinienes byc bardziej ostrozny z jedzeniem...~
+@126  = ~Niech tylko jakis chomik albo mysz ukradnie mi moje jablko, co?~
+@127  = ~Heh, heh... To samo chcialem powiedziec. Jestes na mnie zlodziejko, Dusku? Oh... nie mów mi, ze masz jakies... podejrzenia!~
+@128  = ~(Cholera, nie moge jej udzielic reprymendy, kiedy robi te oczy porzuconego kociaka) Hm... Nie, nie, Imoen... to tylko, ze bylem troche glodny i ja-~
+@129  = ~Oh, no to powiedz wczesniej! Jedz troche, Dusku.~
+@1082 = ~(Eh? Ale zostawila mi tylko pestke...) No cóz, dzieki, Imoen... *westchnienie*~
+
+// Jaheira
+
+@38   = ~Dusk, widze cos w twoich oczach. Pewnego rodzaju pragnienie. Czy sie myle?~
+@39   = ~Moze widzisz cos we mnie, co równiez cie identyfikuje, Jaheira.~
+@40   = ~Straciles tez kogos bliskiego, prawda? Nie rozpoczynam tej rozmowy, by mówic o szczególach, Dusk... to po prostu...~
+@44   = ~Rozumiem, Jaheira. Czasami trudno rozmawiac o takich sytuacjach. A tym bardziej dla nas, którzy rzadko wyrazamy to, co czujemy.~
+@45   = ~No przynajmniej nie slowami... mysle, ze wyrazamy zbyt wiele, mój przyjacielu. Czy to na spacerze, czy na polu bitwy.~
+@46   = ~Tak, m'Lady. I musimy isc naprzód, prawda? Bez wzgledu na wszystko... isc naprzód...~
+@41   = ~Za poleglych...~
+@1045 = ~Za poleglych...~
+
+
+// Jan
+
+@47   = ~Hej, duzy!~
+@48   = ~Duzy?~
+@49   = ~Widzialem, jak przygladales sie mojej torbie z rzodkiewkami. W domu zawsze to jest tematem do rozmów.~
+@50   = ~Twoja torba z czym?~
+@51   = ~Pewnego razu wujek Gerardo patrzyl na torbe ziemniaków przez trzy kolejne dni. Przez chwile myslelismy, ze na diecie, bo tylko patrzyl i nie chcial jesc ani gotowac, a mama Jansen tego nie toleruje. Wiec czwartego dnia mama postanowila poklepac go po ramieniu, zeby zabrac go do kuchni. W tym momencie zrobil skok trzy metry w góre. Okazalo sie, ze spal. Przez ten czas przeprowadzal eksperymenty z miksturami wymieszanymi z potem ropuchy i sokiem z cebuli, zmieszanymi z kilkoma gnomimi zakleciami. Najpierw byl bardzo przestraszony, potem zdal sobie sprawe, ze mikstura nie zadzialala.~
+@52   = ~To... nie wiem, czy pytac, dlaczego nie zadzialala...~
+@53   = ~No cóz, Dusk, to oczywiste. Tego rodzaju mikstury maja sprawic, ze bedziesz spal z otwartymi oczami przez piec dni, nie cztery. Przez swiete tylki malpy, Dusk. Nie moge byc dostepny przez caly dzien, zeby uczyc cie rzeczy. Musisz dojrzec i nauczyc sie wartosci mikstur gnomów. Szczególnie, jesli mówimy o wujku Gerardo.~
+@1046 = ~Ehm... Zgoda, Jan. Wezme to pod uwage.~
+@1047 = ~Tak mi sie podoba, duzy, tak mi sie podoba. Milo bylo rozmawiac o interesach z toba. Nastepnym razem, jesli chcesz kontynuowac, popatrz ponownie na moja torbe z rzodkiewkami, dobrze?~
+@1048 = ~Och, nie martw sie, gnomo. Przeciez twoja torba z rzodkiewkami zawsze jest tu... na oczach wszystkich...~
+
+// Keldorn
+
+@54 = ~Twoje umiejetnosci na polu bitwy sa godne podziwu, mlodziencze. I walczysz z honorem. Gdybym byl mlodszy, wzialbym cie pod swoje skrzydla, abys stal sie godnym rycerzem Szlachetnego Zakonu.~
+@55 = ~Sir Keldornie, to zaszczyt walczyc u twojego boku. Chetnie przyjalbym twoja propozycje. Ale zycie zdecydowalo, ze nasze drogi skrzyzowaly sie pózniej niz wczesniej.~
+@56 = ~To prawda, drogi przyjacielu. Twój obowiazek wobec Tethyr i Cormyr jest godny podziwu. Ale musze zapytac, dlaczego zrezygnowales ze swoich obowiazków?~
+@57 = ~Przez lata walczylismy z silami Zentharim. Przez lata stawialismy opór. A do tego napiecia z Amn tylko rosly.~
+@58 = ~Z pomoca elfów z Weldath udalo nam sie nawiazac relacje tutaj, mimo ze niektórzy mówia cos innego.~
+@59 = ~Ale... jak wiesz, niektórzy lotrzy czerpia korzysci z wojny... mielismy kilku przeciwników w cieniu, których musielismy zniesc... niestety nie bez strat...~
+@60 = ~Rozumiem, Dusk... moge sobie wyobrazic, ze straciles kogos bliskiego w jednej z tych potyczek.~
+@61 = ~Tak jest... i to cos, o czym wolalbym nie rozmawiac. Po spelnieniu mojej misji... po prostu odszedlem... a los chcial, abym spotkal <CHARNAME> i Irenicusa w Athkatli.~
+@1049 = ~A reszta to juz historia, mój panie...~
+@62 = ~Rozumiem... Dusku, postaram sie isc u twojego boku i ofiarowac ci wszelka mozliwa pomoc. Moze twoje osobiste pragnienia nie sa jasne, ale przynajmniej twoje serce jest szlachetne.~
+@1050 = ~Bedzie wielkim zaszczytem, sir Keldornie.~
+
+// KORGAN
+
+@63 = ~Nigdy nie mialem przyjemnosci walczyc u boku krasnoluda. Musze powiedziec, ze nie zawodzisz jako wojownik swojej rasy, Korganie.~
+@64 = ~Ha! Dzieki, szczudlarzu. Musze przyznac, ze ty tez sobie niezle radzisz, mimo ze machasz tym patykiem.~
+@65 = ~He! Od ciebie to komplement, grube nogi.~
+@66 = ~Jasne! Widzialem, jak z przyjemnoscia rozprawiasz sie z tymi obrzydliwymi magami. Moja ulubiona czesc jest, gdy uzywasz miecza bastarda. Bron dla prawdziwego bohatera, dla utalentowanego zlodzieja!~
+@67 = ~Miecz to jedno z moich ulubionych narzedzi. Chociaz doceniam wartosc kija i jego miazdzace obrazenia sa zabójcze.~
+@68 = ~Nie ma nic lepszego niz dobry topór. Moglibysmy kontynuowac rozmowe na temat tego, co jest lepsze, czy kto jest lepszy, czy moze wypic piwo i zobaczyc, czy nie spotkamy jakiejs slodkiej krasnoludki.~
+@1051 = ~Mysle, ze wybiore opcje z piwem. A przy okazji mozemy troche nacieszyc sie swiezym powietrzem.~
+
+// MAZZY
+
+@69   = ~Pani Fentan, pozwól mi wyrazic moje ogromne podziw dla Twojej odwagi na polu bitwy. To zaszczyt walczyc u Twojego boku.~
+@70   = ~Pani? Pochlebiasz mnie, Dusku. Ale mozesz mówic do mnie Mazzy, tak jak robia to wszyscy moi przyjaciele.~
+@71   = ~Zgoda, bedzie Mazzy.~
+@72   = ~Jestes posluszny! Bylbys doskonalym giermkiem.~
+@73   = ~Giermek? Czy nie myslisz, ze celowalbym troche wyzej?~
+@1052   = ~Hmpf, przepraszam, nie uzylem slowa "wyzej" z zamiarem obrazy.~
+@74   = ~No cóz, cóz! Ta uprzejmosc szybko znika, gdy nabierasz pewnosci siebie. To mi sie podoba, Dusku. To mi sie podoba.~
+
+// MINSC
+
+@75   = ~Minsc, twoja sila woli mnie zaskakuje. Jaki jest twój sekret?~
+@76   = ~Hmm... te pytania najlepiej by bylo zadac jakiemus medrcowi, prawda, Boo?~
+@77   = ~Boo mówi, ze Minsc czerpie swoja sile woli z pragnienia kopac tylki zlym lotrzykom.~
+@78   = ~Ah... Boo, co? To naprawde odwazny chomik, którego tam masz.~
+@79   = ~Boo nie jest moim zwierzakiem, Dusku. To mój przyjaciel. To gigantyczny chomik, który przybyl z kosmosu. Pomimo ze jest gigantyczny, jest bardzo zwinny.~
+@80   = ~(W sumie nie wydaje mi sie zbyt gigantyczny)~
+@81   = ~Boo pyta, co tam mamroczysz, Dusku.~
+@82   = ~Ehm... ze Boo wydaje sie na tyle silny, ze nie chcialbym, zeby zwrócil sie przeciwko moim oczom.~
+@83   = ~Oh, nie martw sie, Dusku! Z Boo zobaczylismy, ze masz dobre serce, i bedziemy wspólnikami w walce, póki podrózujemy razem.~
+@84   = ~Ciesze sie, ze to slysze.~
+
+// Minsc 2
+
+@140  = ~Minsc, mam te pierniczki imbirowe dla naszego wspólnego przyjaciela, Boo.~
+@141  = ~Och, spokojnie, Boo! Minsc rzadko widzial Boo tak podekscytowanego. Prawie nie moge powstrzymac jego sily.~
+@142  = ~*Pisk hamiczka*~ [p_squeak]
+@143  = ~Wow! Wyraznie zafascynowal sie imbirem, nieprawdaz?~
+@144  = ~Boo, uspokój sie! Pamietaj, ze jestes na diecie.~
+@145  = ~*Warzenie hamiczka*~ [p_squeak]
+@146  = ~Ha! Nasz futrzasty towarzysz ma prawdziwy temperament.~
+@147  = ~Dusku, Minsc dziekuje za pamiec. Ale nastepnym razem pamietaj, ze Boo nie bedzie tak zwinny, majac pelny brzuszek pierniczków imbirowych.~
+@148  = ~Zgadza sie, zgadza sie. Bede pamietal. Nastepnym razem moze wystarczy jedno jablko.~
+@149  = ~Tak! To da mu energie i nie sprawi, ze bedzie tak... *szept* pulchny. Ale serdeczne dzieki, wielki Dusku. Boo jest bardzo wdzieczny. Powiedzialby cos, gdyby nie to, ze juz schowal kilka pierniczków w swojej kieszonce.~
+@150  = ~Nie ma sprawy, Minsc. *szept* Boo, kiedykolwiek bedziesz chcial uciec od diety na kilka godzin, wiesz, gdzie mnie znalezc.~
+
+
+// NALIA
+
+@85   = ~Dusku, <CHARNAME> powiedzial mi, ze spotkales go na Promenadzie Waukeen, czy to prawda?~
+@86   = ~Pani De'Arnise, wiec szukasz informacji o mnie, meczac naszego potomka Bhaala?~
+@87   = ~*chrzakniecie* Przepraszam, Dusku. Nie chcialam sie wtracac-~
+@88   = ~Ha! Przepraszam, Nalio. Tylko zartowalem. Wcale mi nie przeszkadza, ze pytasz o moje sprawy. W najgorszym przypadku otrzymasz ode mnie odmowna odpowiedz.~
+@89   = ~Jestes bezczelny! Ale pomijajac twoja zuchwalosc, poslucham tego, co mówisz, i zapytam. Co tam robiles?~
+@90   = ~Po tym jak... zakonczylem moje uslugi dla Tethyr, zdecydowalem sie przybyc do krainy kupców. Moglem równie dobrze pójsc do Caravasaru, ale z jakiegos powodu Athkatla przyciagnela moja uwage.~
+@1053   = ~Musze przyznac, ze handel to cos, co mnie interesuje. Prosta zycie, które byc moze kiedys podejme.~
+@1055   = ~Serio? Nie wygladasz na handlowca, Dusku. Bardziej przypominasz...~
+@1056   = ~Wojownika? Rycerza?~
+@1057   = ~Mialem powiedziec stajennego.~
+@1058   = ~Cholera, Pani De'Arnise! Trafilas w samo ego.~
+@1059   = ~Zasluzyles na to, zebys sie nieco uspokoil, czlowieku. Ale przynajmniej byles szczery w swojej odpowiedzi.~
+
+// Valygar
+
+@91   = ~Dusku, obserwowalem cie od jakiegos czasu. Chcialbym cie o cos zapytac, jesli nie masz nic przeciwko.~
+@92   = ~Powiedz, mój przyjacielu, w czym moge ci pomóc?~
+@93   = ~Twoje... stanowisko jako Mordercy Magów... budzi moje zainteresowanie. Rozumiem, ze spedziles kilka lat na szkoleniu... Odpornosc na zaklecia w sposób naturalny to cos imponujacego, ale zastanawiam sie, jak ci sie to udalo?~
+@94   = ~Hmm... widze, dokad zmierzasz, Valygar... Wiem, ze nie jestes glupcem i nie ignorujesz faktów zwiazanych z magia... Wiem, ze wiesz, ze Mordercy Magów, KTÓRZY nie zostali wyszkoleni w pólnocnych plemionach, zazwyczaj maja intencje... mroczne.~
+@95   = ~Wiem, Dusku... dlatego cie pytam: jak to mozliwe, ze bronisz sprawiedliwosci, gdy byles szkolony przez zlowrogie stowarzyszenie?~
+@1060   = ~Nie myl moich pytan z podstepem, poniewaz mam wystarczajaco jasny osad, aby wiedziec, ze nie jestes oszustem... to tylko...~
+@96   = ~Ciekawosc, co nie? Jak kazdy... czarownik...~
+@97   = ~To sprawiedliwe stwierdzenie... i zasluzone, obawiam sie.~
+@98   = ~Nie mialem zamiaru cie urazic, przyjacielu. Wiem, ze nienawidzisz magii tak samo, jak ja. Dlatego tez dostrzegam, ze masz wiele wspólnego z tymi, których tak bardzo nienawidzisz...~
+@1061   = ~"Trzeba uwazac przy wyborze wrogów... bo zaczynasz im przypominac." powiedzial pewien medrzec.~
+@1062   = ~W odpowiednim czasie porozmawiamy znowu na ten temat, Valygar... ale nie teraz... nie teraz...~
+@1063   = ~To uczciwe, sadze. Kontynuujemy to w innym momencie, Dusku.~
+
+
+// Valygar 2
+
+@130  = ~Czy nadal jestes zainteresowany, jak znalazlem sie w tej "zlowrogiej sekcie", Valygarze?~
+@131  = ~Cóz... tak, prawde mówiac, chcialbym to wiedziec, Dusku. Czy jestes gotów porozmawiac?~
+@132  = ~Zawsze, jesli jestes gotów posluchac, mój przyjacielu.~
+@133  = ~Dusku, zamieniam sie w sluch.~
+@134  = ~Hm... zgoda... Nie zawsze mialem awersje do magii, wiesz? Dopiero kiedy podstepny czarodziej odebral mi kogos, kogo... cenilem.~
+@135  = ~Uslyszalem plotki o armii stworzonej przez aasimara w okolicach Wrót Baldura. Jak pewnie wiesz, aasimarowie maja wrodzona odpornosc na magie ze wzgledu na swoje boskie pochodzenie; wiec zakladalem, ze tam znajde Morderców Czarodziejów gotowych walczyc po jej stronie. Morderców Czarodziejów, których sama wyszkolila, byc moze obdarzonych ta wrodzona odpornoscia na magie.~
+@136  = ~Nie jestem pewien, co sie stalo z ta aasimarka, ale gdy dotarlem, ona i jej armia zniknely... Jednak rozmawiajac z mieszkancami, uslyszalem plotki o armii na poludniu, czajacej sie w ciemnosci Pola Martwych na poludniowy zachód od Wzgórz Weza.~
+@137  = ~Po kilku tygodniach udalo mi sie ich odnalezc. To byla tylko grupa najemników, którzy zdezerterowali z armii Smoczego Miecza. Ale tam byli Mordercy Czarodziejów... i przekonalem ich, by mnie przyjeli, muszac wczesniej zwyciezyc w kilku walkach z chuliganami.~
+@1064  = ~Dowiodlem swojej wartosci, i mnie przyjeli. Pierwsza rzecza, jaka musialem zrobic, bylo porozmawianie z liderem ich grupy, magiem o imieniu Wezowe Oczy. To byl ludzki wrózbita, z którym mialem wiele... nietypowych... rozmo´w...~
+@138  = ~"Nietypowych"?~
+@139  = ~Tak... Wrózbita odczytal moja przeszlosc. Odkryl moje królewskie pochodzenie i zobaczyl, jak moi przodkowie walczyli przeciwko silom mroku Aumvor. Dostrzegl we mnie gleboka niechec do magii, ale nie byl w stanie odczytac moich prawdziwych zamiarów.~
+@1065  = ~Twoje prawdziwe... zamiary?~
+@1066  = ~Hm... troche juz za pózno, Valygarze. Co powiesz na to, zebysmy kontynuowali to w innym czasie? Obiecuje dokonczyc moja historie pózniej.~
+@1067  = ~Dobrze, Dusku, dobrze... biore cie na slowo.~
+
+// Valygar 3
+
+@171  = ~Dusku, sadze, ze juz wystarczajaco duzo czasu minelo od naszej ostatniej rozmowy, czyz nie?~
+@172  = ~To prawda, Valygarze. Zamierzam zakonczyc moja opowiesc...~
+@173  = ~Jak wspomnialem wczesniej, Oczy Weza przeprowadzil ze mna kilka sesji. Jego specjalnoscia byla szkola wrózbiarstwa, dzieki czemu mógl zaglebic sie w moja przeszlosc za pomoca pewnych... czarów. Nie powiedzial nic wiecej, niz juz wiedzial, bo jego prawdziwym celem bylo zobaczyc, jaka jest moja intencja, rozumiesz?~
+@174  = ~Rozumiem. Twoja prawdziwa intencja bylo poprawienie swojej naturalnej odpornosci na magie, aby zemscic sie na czarodziejach, którzy naduzywaja swojej mocy, czy sie myle? Moje pytanie brzmi... Jak oszukales Oczy Weza?~
+@175  = ~Moja chec zemsty byla zbyt wielka... tak wielka, ze oslepila to, co zamierzalem z nimi zrobic, z najemnikami z doliny.~
+@176  = ~Oczy Weza skupil sie bardziej na mojej arkanicznej przeszlosci niz na mojej przyszlej, daremnej próbie wykorzystania tego, co wynikaloby z naturalnej odpornosci magicznej. Ale nie byl glupi... bylo mu obojetne, czy zyje, czy umieram, wiec jego... metody pobudzania tej odpornosci we mnie byly bezwzgledne.~
+@177  = ~Mam lekkie podejrzenia, jak szkoleni sa Mordercy Czarodziejów na pólnocy, w plemionach barbarzynców... Czy to, co mysle, ze to jest?~
+@1068  = ~Tak: Oczy Weza uzywal przeciwko mnie zaklec. Rzucal wszelkiego rodzaju czary, a potem udawal sie do kaplana z obozu, aby mnie uleczyc.~
+@1069  = ~Setki razy bylem bliski smierci... ale moje przeznaczenie utrzymalo mnie na nogach.~
+@1070  = ~Po kilku miesiacach zrozumialem, jak wiekszosc zaklec dziala... przynajmniej w podstawowym zakresie. I wtedy przystapilem do realizacji kolejnego etapu mojego planu.~
+
+
+
+@1071  = ~Co sie stalo?~
+@1072  = ~Zabilem ich wszystkich...~
+@1073  = ~Widze, ze nie oceniasz mnie za moje czyny... dlaczego?~
+@1074  = ~No wiem, Dusku... mysle, ze zasluzyli na to. Znam sposób dzialania najemników, a sekty szkolenia Morderców Czarodziejów nie maja dobrych zamiarów. Szukaja tylko smierci i podboju. Ty to wiedziales, na pewno to przezyles... I moze nawet... musiales zrobic rzeczy, których nie chciales.~
+@1075  = ~Masz racje... Wiele razy unikalem pewnych "obowiazków" wobec obozu. Ostatecznie bylem zbyt skoncentrowany na moim glównym celu. A kiedy go osiagnalem, wreszcie zemscilem sie na nich.~
+@1076  = ~Oczy Weza byl zaskoczony... ale kiedy go skonfrontowalem, ostatecznie zdalem sobie sprawe, ze wiedzial, ze tak zareaguje.~
+@1077  = ~W kazdym razie nie zastanawialem sie nad tym zbyt dlugo. Zadalem mu smiertelny cios i nawet oprawilem sie z jednym z jego zaklec. To bylo jego kres. I zarazem poczatek mojej odkupienia.~
+@1078  = ~Kierowalem sie do Athkatli, bo wiedzialem, ze wielkie miasto jest zdominowane przez korupcje, a ja moglem wykorzystac moja nowa wiedze, aby pomagac tym, którzy potrzebuja.~
+@1079  = ~Potem wydarzylo sie to, co sie wydarzylo na Pasazu. Irenicus, <CHARNAME>, Imoen. Reszta... to juz historia.~
+@1080  = ~To bylo interesujace, Dusku. Dzieki za podzielenie sie tym ze mna. Mam nadzieje, ze razem zakonczymy te oblawe na Irenicusa... mysle, ze wspólnie mozemy pomóc <CHARNAME>.~
+@1081  = ~Mysle to samo, Valygarze... mysle to samo...~
+
+
+// VICONIA
+
+@99   = ~W nocy odczuwam twój wzrok, Viconio... Czy jest cos, co powinienem wiedziec?~
+@100  = ~Naprawde, abbil? Moze to po prostu jest pozadanie, nie sadzisz?~
+@101  = ~Hm. Mysle, ze ukrywasz swoje prawdziwe zamiary, drow. Niemniej jednak, to cos, co mnie nie martwi. Twoje sprawy sa tylko twoja sprawa.~
+@102  = ~W tym masz racje, mezczyzno. Choc nie powinienes lekcewazyc moich slów. Byc moze obserwuje cie nocami, bo pragne poczuc krew miedzy moimi palcami. Zawsze chcialam wypróbowac Asasyna Magów.~
+@103  = ~Czy powinienem czuc sie zagrozony? Watpie... nie dostrzegam w twoich slowach nienawisci.~
+@104  = ~Moze i nie, rivvil... ale niech cie nie zwiedzie mysl, ze to moze sie zmienic w kazdej chwili... Na razie... po prostu ciesz sie, gdy odczujesz mój wzrok na swoim ciele. Nie masz nic do stracenia... jeszcze...~
+
+// Viconia 2
+
+@151  = ~Przynioslem to dla ciebie.~
+@152  = ~C-czego, rivvil? Co to jest? To... to jest broszka.~
+@153  = ~Dokladnie... reprezentuje Ksiezyc... albo przynajmniej jego ciemna strone.~
+@154  = ~Ale... dlaczego?~
+@155  = ~Bo jestesmy przyjaciólmi. Przyjaciele maja tendencje do obdarowywania sie nawzajem. A wydawalo mi sie, ze od dawna nikt ci nic nie dal.~
+@156  = ~N-nie potrzebuje, zeby ktos mi cos dawal, rivvil... Jesli czegos chce, po prostu to biore.~
+@157  = ~Ale powiedz mi... czy nad tym pracowales przez ostatnie noce?~
+@1083  = ~*chrzakniecie* Tak. Pomaga mi sie oderwac.~
+@1084  = ~Nie powinienes byl tego robic, gluptasie... nie musisz mnie miec za powód swoich rozrywek.~
+@1085  = ~Niemniej jednak... dziekuje. Jak na rivvila, z pewnoscia masz talent do rzezbienia w drewnie.~
+@1086  = ~Nie wspominaj o tym, Viconio. Chcesz, nie chcesz, zaczynasz tworzyc przyjaznie w tej grupie. A przyjaciele robia tego typu rzeczy. Byc dla ciebie.~
+@1087  = ~...~
+@1088  = ~Zastanowie sie nad twoimi slowami, abbil. Na razie zostaw mnie samej.~
+@1089  = ~Zgoda, Vicky. *usmiechajacy sie szyderczo*~
+@1090  = ~Nie przeciagaj liny, rivvil. Na twoje szczescie przejde nad tym do czegos, tylko dlatego, ze podobal mi sie twój... prezent.~
+
+// YOSHIMO
+
+@105  = ~Nienawidze to przyznawac, Yoshimo... ale jestes prawdziwa zagadka.~
+@106  = ~Zagadki blyszcza w poludnie jak gwiazdy, chociaz nie zawsze mozna je dostrzec przez slonce. Mam nadzieje, ze mówisz o dobrym Yoshimo z dobrymi zamiarami, mój przyjacielu.~
+@1091  = ~Nie obchodzi mnie, czy cie obrazam, zlodzieju. Zauwazam, ze czesto dzialasz z wahaniem, chociaz twoje zachowanie sugeruje cos przeciwnego.~
+@107  = ~Oh, nie mialem zamiaru cie urazic, przyjacielu. Po prostu zauwazam, ze czesto dzialasz z wahaniem, chociaz twoje zachowanie sugeruje cos przeciwnego.~
+@108  = ~Watpliwosci sa czyms naturalnym, nawet u tych, którzy maja nadmierna pewnosc siebie. Sam zauwazylem, ze ty tez masz watpliwosci, Dusk. Co sadzisz na ten temat?~
+@109  = ~Niewatpliwie jestes inteligentny... próbujesz odwrócic uwage, kierujac ja na odbiorce... Ale przypuszczam, ze masz swoje tajemnice, tak jak ja mam swoje.~
+@110  = ~Cóz, kazdy wojownik, który zbyt wiele widzial na polu bitwy, ma swoje watpliwosci... i tylko czasami one ujawniaja sie podczas czuwania w snach.~
+@111  = ~W snach, co nie? Cóz, przypuszczam, ze powinnismy uwazac, nawet gdy snimy... Niech nas prawda nie zaskoczy, co nie?~
+@112  = ~Yoshimo nie zaskoczy nic ani nikogo, mój drogi Dusku. Zazwyczaj to Yoshimo zaskakuje innych...~
+

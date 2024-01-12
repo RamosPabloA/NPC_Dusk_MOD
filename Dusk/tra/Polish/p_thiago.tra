@@ -1,0 +1,48 @@
+@0    = ~*Thiago podchodzi do Duska niepostrzezenie. Wacha jego plecak w poszukiwaniu jedzenia.*~
+@1    = ~Przykro mi, Thiago. Cukierki sie skonczyly.~
+@2    = ~*Thiago wydaje przesadzone wyjatki zalosci*~
+@3    = ~Hm... moze mam kilka... ciasteczek.~
+@4    = ~*Na slowo 'ciasteczko' uszy niedzwiedzia prostuja sie.*~
+@5    = ~Tak, tutaj masz--- Hej! Prawie mi reke odgryzles, niedzwiedziu. Wiesz, troche by ci zaszkodzilo schudnac. Powinienes jesc mniej.~
+@6    = ~*Thiago ignoruje slowa Duska, pochlaniajac swoje ciasteczka.*~
+
+@7    = ~*Thiago drapie jedno z uszu w poblizu Neery.*~
+@8    = ~Oh, czesc, Thiago! Jak sie czu--? Ugh! Thiago, czy ten smród pochodzi od ciebie?~
+@9    = ~*Thiago patrzy na Neere, nie wiedzac, o co jej chodzi.*~
+@10   = ~Uff! Bellfame! Gdzie jestes? Musisz zrobic cos z zapachem tego niedzwiedzia!~
+@11   = ~Ach, mala smiertelniczko. Czy przeszkadza ci Thiago? Przykro mi, ale on nie lubi sie kapac.~
+@12   = ~Argh! Myslalam, ze wszystkie niedzwiedzie lubia wode.~
+@13   = ~*Thiago drzy na dzwiek slowa 'woda'.*~
+@14   = ~Cóz... to nie tak, jakby wczesniej nie byl w scieku... Ale i tak nie zniose twojego 'zapachu', niedzwiedziu! Mam nadzieje, ze sie umyjesz, bo inaczej wymysle jakis czar, zeby cie wyslac pod zimny strumien wody.~
+@15   = ~*Thiago patrzy zdezorientowany na Neere. Po chwili wraca do drapania sie za uchem.*~
+
+@16   = ~*Thiago niesmialo podchodzi do Viconii.*~
+@17   = ~Lepiej odejdz ode mnie, wlochaty. Nie jestem w nastroju.~
+@18   = ~*Thiago siada obok Viconii i zaczyna ja obserwowac, niemal ja podziwiajac.*~
+@19   = ~Nie wazne, jak wielkie zrobisz swoje oczy. Nie dam ci mojej przekaski.~
+@20   = ~*Thiago wydaje lekki lament, a potem oblizuje sie.*~
+@21   = ~Ugh, dobrze. Ale niech to bedzie ostatni raz.~
+@22   = ~*Thiago bierze bulke z grzybów za pomoca swojego pyska. Nie minie dwóch sekund, a juz zostala pochlonieta. Nastepnie kladzie sie u stóp drow, oczekujac na troche pieszczot. Viconia ja ignoruje, ale pozwala mu zostac lezacym obok.*~
+
+@23   = ~*Thiago siedzi obok Jana, jedzac to, co wydaje sie byc placek z rzodkiewek.*~
+@24   = ~Tak, wlochaty. Przepis Ma Jansen jest niezawodny. Nie ma nic tak pysznego jak placki zrobione z rzodkiewek z ogrodu Jansen. Zobaczysz, moja ciotka Petunia opracowala te skomplikowana recepture inspirowana jednymi z jej przygód w okolicznych lasach Tethyr. Aby wymieszac make z rozdrobnionymi rzodkiewkami, uzyla mleka od krowy, która ukradla czarownicy i przyniosla tutaj do Athkatla.~
+@25   = ~*Niedzwiedz wydaje sie uwaznie sluchac slów gnoma. Slowo 'krowa' wydaje sie przykuwac jego uwage.*~
+@26   = ~Ach, widze, ze zainteresowala cie Rosita. Tak, tak sie nazywa nasza krowa mleczna. Moge ci ja przedstawic, jesli kiedys pójdziemy do Dzielnic Dolnych. Choc... teraz, kiedy widze, jak oblizujesz sie, moze to nie jest najlepszy pomysl, mój pulchny przyjacielu.~
+@27   = ~*Thiago wydaje lekki lament, ale po chwili znów zaglebia sie w jedzenie placka z rzodkiewek.*~
+
+@28   = ~*Thiago patrzy na ciebie z lekkim przerazeniem. Jest przekonany, ze zbesztasz go za to, ze je cos, co znalazl na ziemi. Widzac, ze nic mu nie mówisz, kontynuuje zucie, jakby nie bylo jutra.*~
+@29   = ~*Thiago siada obok ciebie. Patrzy na ciebie swoimi wielkimi oczami i czeka, az mu cos dasz do jedzenia. Wydaje z siebie stlumiony dzwiek znuzenia, czekajac, az zadzialasz na jego korzysc.*~
+@30  = ~*Thiago raduje sie, gdy widzi, ze do niego idziesz. Zaczyna krecic sie wokól wlasnej osi, zaskakujac cie swoja zwinnoscia pomimo swojego duzego rozmiaru.*~
+@31  = ~*Thiago wydaje rózne lamenty, starajac sie przyciagnac twoja uwage. Nie jestes pewien, czy chce jedzenia, czy pieszczot. Byc moze obie te rzeczy.*~
+@32  = ~*Glaszczesz Thiago po grzbiecie, a on wydaje sie byc bardziej zadowolony niz kiedykolwiek. Tyle ze uwalnia gaz, i nie masz innego wyboru, jak sie od niego oddalic.*~
+
+@33  = ~*Thiago podchodzi do Wilsona, a obaj zaczynaja lamentowac.*~
+@34  = ~Lament, lament.~ [BBEAR02]
+@35  = ~*Thiago wskazuje na torbe <CHARNAME>, a Wilson wydaje sie zgadzac.*~
+@36  = ~Nie jestem pewna, czy <CHARNAME> ucieszyloby sie, gdybyscie jedli jego zapasy, poza glodem, jaki oboje mozecie odczuwac.~
+@37  = ~Wyolbrzymiony lament.~ [BBEAR02]
+@38  = ~*Thiago nasladuje Wilsona i sam równiez wyolbrzymia lament, przerywajac go w sposób wyolbrzymiony.*~
+@39  = ~Moge stworzyc magiczne jagody, które mozecie zjesc, moi mali. Mam nadzieje, ze to zniecheci was do jedzenia zapasów waszego towarzysza.~
+@40  = ~Bufniecie.~ [BBEAR01]
+@41  = ~*Thiago równiez wydaje bufniecie, wyrazajac zgode z nimfa i z ochota spozywajac stworzone przez nia jagody. Spoglada z ukosa na Wilsona, który równiez zajada swoje jagody.*~
+

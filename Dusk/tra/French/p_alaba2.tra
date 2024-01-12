@@ -1,0 +1,46 @@
+//EVIL
+
+@0    = ~*coughs* I've done it... the dragon is dead...~
+@1   = ~You've won, son of Bhaal... *coughs* Too bad... I couldn't kill you too...~ ~You've won, daughter of Bhaal... *coughs* Too bad... I couldn't kill you too...~
+@2   = ~You know we will revive Dusk, don't you? Your fight with him has been in vain... for the soldier will live, after all.~
+@3   = ~I concede to your reasoning... I don't think I can revive Dusk with the damage he's taken... but at least we've killed you.~
+@4   = ~*groans* No... it doesn't matter, <PRO_RACE>. Even if the soldier is brought back... he'll have to live with the fact that he fell in battle... b-by the hand of Alabarza... the M-mutila--~
+@5   = ~*Without finishing his last words, Alabarza seems to choke on his own blood and finally dies*~
+@6   = ~*groans* F-fool's comfort, son of Bhaal... You're powerful... and I respect you for that... I-I... Alabarza the M-mutilator... salute y--~ ~*groans* F-fool's comfort, daughter of Bhaal... You're powerful... and I respect you for that... I-I... Alabarza the M-mutilator... salute y--~
+@7   = ~*coughs* Are you... are you immortal, soldier?~
+@8   = ~*As Alabarza bleeds out, he gives a strange smile. Finally, he exhales his last breath*~
+@9   = ~You don't have much life left, scum. Finally... you've paid.~
+@10   = ~I-I would like to say... that this is not over yet... That... that I'll haunt you in the afterlife... b-but...~
+@11   = ~But your deity, Gruumsh, I doubt he'll forgive you, doesn't he? After all... you've received help from an elf... and there's nothing Gruumsh hates more than elves...~
+@12   = ~*laughs malevolently* You will spend eternity suffering, at the hand of your god. A fate more than deserved, I'd say...~
+@13   = ~Grr... *with difficulty, the half-orc reaches out in a desperate attempt to grab Dusk's neck*~
+@14   = ~*But Dusk, mercilessly, severs it with his sword, filling the Mound with Alabarza's muffled screams*~
+@15   = ~You won't have any last words or wishes, scum. Although perhaps this will comfort you: the elf who helped you, Kalanda, will have the same fate as you...~
+
+//GOOD
+
+@16   = ~It's over, Alabarza...~
+@17   = ~I could let you die... or we could heal your wounds and bring you to justice.~
+@18   = ~W-what? *coughs* Would you be able to spare... my life?~
+@19   = ~I know what awaits you in the afterlife, Alabarza. Gruumsh will not forget that you conspired with an elf to fight against your enemies...~
+@20   = ~...~
+@21   = ~I do not fear pain, soldier...~
+@22   = ~But an eternity of torture... that must be terrifying, don't you think?~
+@23   = ~Even the fiercest feel fear... it's normal.~
+@24   = ~That's why I offer to free you from death. Perhaps... perhaps you can find redemption... I believe even you are capable of it.~
+@25   = ~Soldier...~
+@26   = ~Don't... don't heal me...~
+@27   = ~Instead... I'll t-tell you something...~
+@28   = ~We didn't attack your detachment by mere chance...~
+@29   = ~*groan* The t-truth is... that a order of sorcerers informed us of your arrival... of your landing.~
+@30   = ~W-what...?~
+@31   = ~Black robes... a human named Sornhil, another named Valatar... and the elf. *spits blood*~
+@32   = ~Their leader... a Necromancer...~
+@33   = ~N-necromancer?~
+@34   = ~They wanted to see you dead... I don't know the reasons...~
+@35   = ~B-but you... soldier... you survived...~
+@36   = ~After that, the mages did everything they could to reinforce my clan... we were p-powerful...~
+@37   = ~But... you killed us...~
+@38   = ~Alabarza...~
+@39   = ~The cargo... c-contains what we could take from your fallen comrades... You have retrieved it...~
+@40   = ~I believe my fate from here on out is bleak... but at least... my last great moment was fighting against you...~

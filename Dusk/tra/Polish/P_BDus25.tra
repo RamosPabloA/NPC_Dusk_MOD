@@ -1,0 +1,62 @@
+// AERIE - EVIL
+
+@0    = ~...~
+@1    = ~Jeszcze nie przyzwyczailas sie do mojej obecnosci, co prawda, Aerie?~
+@2    = ~J-ja, j-ja...~
+@3    = ~Nie martw sie. To mi obojetne, czy sie przyzwyczaisz, czy nie. Jestem tym, kim jestem.~
+@4    = ~Ale, Dusk... nie byles taki wczesniej... zmieniles sie.~
+@5    = ~Wszyscy sie zmieniamy. Nawet ty, mala.~
+@6    = ~Tak, ale... ty zrobiles to z zewnetrznego powodu.~
+@7    = ~Tak... szkarlatna kula. Byc moze to po prostu sprawilo, ze moja prawdziwa osobowosc wyszla na jaw. Moje prawdziwe ja.~
+@8    = ~Nie, nie sadze, aby tak bylo, Dusk. Mysle, ze mozesz wrócic do tego, kim byles. Nie jest za pózno.~
+@9    = ~Dla niektórych rzeczy... juz jest za pózno, moja droga... zdecydowanie za pózno...~
+
+// ANOMEN - NEUTRAL/GOOD
+
+@10   = ~Jesli masz cos do powiedzenia, powiedz, Dusku. Zauwazylem, ze od jakiegos czasu próbujesz podjac rozmowe na jakis temat.~
+@11   = ~*chrzakniecie* Przepraszam, Anomen. To prawda, chcialem zapytac cie o armie, jesli nie masz nic przeciwko.~
+@12   = ~Rozumiem. Zapytaj, mój przyjacielu.~
+@13   = ~Co robi armia Amnu z... dezerterami?~
+@14   = ~Hm... kiedy bylem giermkiem, nie widzialem wielu takich sytuacji. Ale z tego, co widzialem, dezerterów natychmiast wydala sie z armii. W niektórych przypadkach trafiaja do wiezienia.~
+@15   = ~Dlaczego pytasz?~
+@16   = ~Oh, nie dlatego, zeby cos... po prostu... nigdy nie wrócilem do Cormyru po mojej konfrontacji z orkami.~
+@17   = ~Przypuszczam, ze to mozna uznac za... dezercje.~
+@18   = ~Oh, juz rozumiem...~
+@19   = ~Tak... cóz, dziekuje za twój czas, Anomen.~
+@20   = ~Ale razem z <CHARNAME> zbudowales nienaganna reputacje. Bez watpienia byloby to cos, co przelozony by wzial pod uwage.~
+@21   = ~Naprawde? Dzieki, Anomen. Bylo mi milo porozmawiac z toba.~
+
+
+// SAREVOK - NEUTRAL/GOOD
+
+@124  = ~Dlaczego tak mnie uwaznie obserwujesz, malenki czlowieczku?~
+@125  = ~Malenki czlowieczku? Ostroznie, lajdaku. Mam na imie Ardusk Aldant, Pierwsza Miecz--~
+@126  = ~Tak, tak. Nie obchodzi mnie to.~
+@127  = ~*chrzakniecie* Mimo wszystko... jest cos w tobie, czego nie potrafie zrozumiec.~
+@128  = ~Z pewnoscia sa rzeczy, których nie zrozumiesz, chlopcze.~
+@129  = ~Twoje sojusze z <CHARNAME>, na poczatek. On to twój brat.~ ~Twoje sojusze z <CHARNAME>, na poczatek. Ona to twa siostra.~
+@130  = ~Jak mogles próbowac go zabic? Ja nie mam rodzenstwa... ale gdybym miala, zabicie go byloby ostatnia rzecza, o której pomyslalabym.~ ~Jak mogles próbowac ja zabic? Ja nie mam rodzenstwa... ale gdybym miala, zabicie jej byloby ostatnia rzecza, o której pomyslalabym.~
+@131  = ~Nie zakladam, ze prosty Cormyrejczyk zrozumie cel potomka Bhaala.~
+@132  = ~Bede tylko prostym zolnierzem, Sarevok. Ale wiem, co to lojalnosc. A ty tutaj, lojalny wobec <CHARNAME>. Dlaczego?~
+@133  = ~Popatrz wokól nas, chlopcze. Zyjemy w cudownych czasach. Moc jest dostepna dla tego, kto ja wezmie. Ja... po prostu chce byc swiadkiem tego, co zrobi mój brat.~ ~Popatrz wokól nas, chlopcze. Zyjemy w cudownych czasach. Moc jest dostepna dla tego, kto ja wezmie. Ja... po prostu chce byc swiadkiem tego, co zrobi moja siostra.~
+@134  = ~Moze... Nawet moze znajdziesz odpowiedz.~
+@135  = ~Odpowiedz?~
+@136  = ~Jestes czlowiekiem niewielu slów, Sarevok. Ale potrafie rozpoznac, kiedy czlowiek szuka czegos. Byc moze, towarzyszac <CHARNAME>, znajdziesz to.~
+
+
+
+// SAREVOK - EVIL
+
+@137  = ~Twoja aura... Nie pochodzi z tego plaszczyzny. Kim jestes?~
+@138  = ~Zdobylem moc poprzez Pandemonium, Sarevok. Znasz to miejsce?~
+@139  = ~Tak, znam, ale nie mialem przyjemnosci tam byc. Jak to zdobyles?~
+@140  = ~Zdradzilem swoich sojuszników. Uzylem ich zyciowej sily, by uwolnic Demona Cienia. Obecnie moja dusza jest z nim zwiazana.~
+@141  = ~Rozumiem. To zrozumiale rozwiazanie. Ci, którzy nie rodza sie z przeznaczeniem mocy w sobie, sa zobowiazani ja podjac.~
+@142  = ~Nie wiem, czy to byla zobowiazujaca sila, która poczulem... ale tak, rozumiem, o co ci chodzi.~
+@143  = ~Wiem. Widzialem, co potrafisz na polu bitwy. Bez watpienia <CHARNAME> zdobyl poteznych sojuszników.~
+@144  = ~A co powiesz o sobie? Pomimo ze nie jestes juz potomkiem Bhaala, to potega w tobie jest znaczaca. Chaos praktycznie wyplywa z koncówek twoich palców.~
+@145  = ~Poswiecilem cale zycie, by zdobyc Tron Bhaala. Sztuka wojny i podstepu byly moim chlebem powszednim.~
+@146  = ~*westchnienie* To juz przeszlosc. Teraz chce jedynie byc swiadkiem tych czasów. <CHARNAME> bedzie glównym bohaterem, a ja bede obok, by zobaczyc, jak ta historia sie zakonczy.~
+@147  = ~To uczucie bede dzielil, jesli tylko bedzie to mozliwe. Nasi wrogowie nie beda mieli szans.~
+@148  = ~Tak to ujales...~
+

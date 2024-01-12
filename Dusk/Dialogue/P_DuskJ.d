@@ -1945,7 +1945,8 @@ I_C_T P_DUSKJ 332 P_Dusk_GOOD_ALABAR1
 == KORGANJ IF ~InParty("Korgan") InMyArea("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @3472 /* Aquí me tienes, maldito ettin. ¡Ven a probar mi hacha! Verás cuán rápido te destripo. */
 == JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3473 /* Así que caímos en una trampa, ¿eh? Esto me recuerda a la vez-- */
 == P_DuskJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3474 /* ~No creo que sea el mejor momento para una de tus historias, Jan.~ */
-== JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3475 /* Bueno, bueno. Pero te lo contaré cuanto hayamos ganado aquí. ¿Qué te parece, buen Dusk? */
+== JANJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN 
+@3475 /* Bueno, bueno. Pero te lo contaré cuanto hayamos ganado aquí. ¿Qué te parece, buen Dusk? */
 == P_DuskJ IF ~InParty("Jan") InMyArea("Jan") !StateCheck("Jan",CD_STATE_NOTVALID)~ THEN @3476 /* ~Trato hecho.~ */
 == HAERDAJ IF ~InParty("HaerDalis") InMyArea("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @3477 /* Ahhhh, cuervo blanco. Has caído en una trampa. Pero, ¿quién soy yo para juzgarte? Yo mismo me he visto en situaciones similares. Vamos, venzamos a estos insensatos, así puedo componer una o dos canciones sobre nuestras proezas. */
 == IMOEN2J IF ~InParty("Imoen2") InMyArea("Imoen2") !StateCheck("Imoen2",CD_STATE_NOTVALID)~ THEN @3478 /* ~Oh, Dusk... tú sí que sabes hacer amistades, ¿eh? Vamos, que os ayudaré a enfrentar a estos monstruos.~ */

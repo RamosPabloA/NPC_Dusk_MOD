@@ -1,0 +1,621 @@
+@0 = ~Witaj, przyjacielu. Przykro mi, ale cie nie znam, wiec nie mam dla ciebie czasu.~ ~Witaj, przyjaciólko. Przykro mi, ale cie nie znam, wiec nie mam dla ciebie czasu.~
+
+@1 = ~Czesc! O, o, wyglada na to, ze zolnierz powrócil. Jak sie masz, mój dobry kapitanie Aldanta?~
+
+@2 = ~Jesli kapitan uwaza cie za swojego przyjaciela, to znaczy, ze dostrzega w tobie cos wyjatkowego. Nie powinienes bagatelizowac jego zdolnosci sadzenia, <LADYLORD> <CHARNAME>.~ ~Jesli kapitan uwaza cie za swoja przyjaciólke, to znaczy, ze dostrzega w tobie cos wyjatkowego. Nie powinienes bagatelizowac jego zdolnosci sadzenia, <LADYLORD> <CHARNAME>.~
+
+@3 = ~Witaj, <CHARNAME>. Tak dlugo.~
+
+@4 = ~Widze, ze przyprowadziles interesujaca grupe... postaci.~
+@5 = ~Witaj, <CHARNAME>. Milo cie poznac. Kazdy przyjaciel pana Aldanta jest moim przyjacielem.~ ~Witaj, <CHARNAME>. Milo cie poznac. Kazda przyjaciólka pana Aldanta jest moja przyjaciólka.~
+@6 = ~To mile, Mathyus.~ 
+@7 = ~To troche za wczesnie, zeby nazwac nas przyjaciólmi, nie sadzisz?~
+@8 = ~Przepraszam, elfie. Nie moge oderwac wzroku od twoich lsniacych zielonych wlosów.~
+@9 = ~Oh, pieczec Shilmisty! Cóz... nie moglem... zobaczysz...~
+
+
+@10 = ~Do tego zmierzam... Michelson zniknal.~
+@11 = ~To leprechaun. Wiesz, taki maly. Rude wlosy. Magiczny. Lubi pieniadze i blyszczace rzeczy. Mysle, ze nawet móglbym przysiac, ze jest obsesyjny na punkcie piwa.~
+@12 = ~To na pewno zart, prawda? Takie rzeczy nie istnieja.~
+@13 = ~Leprechaun? Nie wiedzialem, ze cos takiego istnieje.~
+@14 = ~Och, sa prawdziwe, <CHARNAME>. Ale nie nazywaj Michelsona 'czyms'. Jest bardzo wrazliwy. Ktos mu kiedys powiedzial "Ach, alez jestes uroczy!" i Michelson zamienil go w...~ 
+
+@15 = ~Nie powinien byc daleko. Najprawdopodobniej bada okolice. Na pewno znajdziesz go w porcie.~ 
+@16 = ~Czy mozesz podac nam wiecej informacji, Mathyusie?~
+@17 = ~Dlaczego sam nie idziesz go szukac? Przeciez jestes elfem. Mozesz uzyc swoich zmyslów, zeby go znalezc.~
+@18 = ~Co nam dasz, jesli go znajdziemy? Jestesmy zajetymi ludzmi, a nasz czas duzo znaczy.~
+@19 = ~Hmmm... jak to powiedziec... Nie moge wyjsc na zewnatrz, wiesz... moje zielone wlosy sa bardzo delikatne.~ 
+@20 = ~*wzdech* Zapytalbym, ale mysle, ze bym tego zalowal.~ 
+@21 = ~Tak, byloby szkoda, gdyby stalo sie cos pieknym twoim wlosom.~ 
+
+@22 = ~Moje wlosy sa powiazane z Michelsonem. Ale opowiem ci o tym, gdy go znajdziesz i bezpiecznie przyprowadzisz, zgoda?~
+@23 = ~Moge zaoferowac ci pieniadze... ale Michelson je uwielbia. Kilka monet, które mam, to na wszelki wypadek, zeby go uspokoic w razie naglej potrzeby.~
+
+
+@24 = ~Ale za to moge zaoferowac cos naprawde przydatnego. Powiedzmy, ze zobaczysz to, gdy wykonasz zadanie.~
+@25 = ~Cóz... mysle, ze jak to zobaczysz, to zdasz sobie sprawe: mala osoba, rudowlosa, w zielonych szatach (tak... zielonych, jak moje wlosy).~
+@26 = ~Inna sprawa. Dusk, musisz byc obecny, gdy go znajda. Michelson cie zna, wiec nie sadze, zeby uciekl, gdy zblizysz sie z grupa obcych.~
+@27 = ~No cóz... mam nadzieje, ze twój przyjaciel ma poczucie humoru, Dusk.~ ~No cóz... mam nadzieje, ze twoja przyjaciólka ma poczucie humoru, Dusk.~
+@28 = ~Zobaczysz, <CHARNAME>... Sadze, ze Michelson poslucha cie, jesli jakos mu sie przekupisz.~
+@29 = ~Nigdy wczesniej nie przekupywalem leprechauna. Czym powinienem go przekupic?~
+@30 = ~Mam nadzieje, ze nie trzeba go przekupywac zlotem, Mathyusie. Juz wystarczy, ze musimy szukac zaginionego magicznego drobniaka w Porcie Zlodziei.~
+@31 = ~*wzdech* Wyraznie nie mam poczucia humoru dla tego typu rzeczy, panowie. Ale zgoda, zrobie to.~
+@32 = ~Niekoniecznie musisz wydawac zloto, <CHARNAME>. Choc oczywiscie to by zadzialalo.~
+
+
+
+@33 = ~Mozesz mu tez dac piwo. Albo, jesli nie chcesz wydawac fizycznej pracy, po prostu opowiedz mu dowcip.~
+@34 = ~Dowcip? Zartujesz?~
+@35 = ~Co moge powiedziec? Jestem uroczy elf.~
+@36 = ~*szept* Dusk, to nie bylo twoje do opowiedzenia.~
+@37 = ~Tak, tak. Oboje wiemy, ze Michelson potrafi zadbac o siebie. No cóz, <CHARNAME>, poradzisz sobie z zadaniem?~
+@38 = ~Moze pózniej, Mathyusie. Teraz zajmujemy sie wazniejszymi sprawami.~
+@39 = ~Nie martw sie, elfie. Trzymaj gotowa nagrode, bo przywrócimy tego malego lobuza do ciebie.~ 
+@40 = ~Dobrze, dobrze. Dusk, w droge.~
+@41 = ~Hmmm... szkoda... choc choc nie martwie sie o niego, mam nadzieje, ze wrócisz do tego zadania jak najszybciej, <CHARNAME>.~
+@42 = ~Dzieki, <CHARNAME>. Czekam z niecierpliwoscia na twój powrót.~
+@43 = ~Jak idzie poszukiwanie, przyjaciele? Mam nadzieje, ze sa postepy. Choc nie tesknie za tym bezczelnym rudzielcem, poczulbym sie spokojniejszy, gdyby byl tutaj.~
+@44 = ~Witaj, <CHARNAME>. Mam nadzieje, ze wszystko idzie dobrze.~
+
+
+@45 = ~O kurcze! *chrzakniecie* Temat dosc niezreczny... Wolalbym porozmawiac o tym pózniej.~
+@46 = ~Kapitanie Aldant...~
+@47 = ~O, cóz, wiesz, jak to mówia! Stare nawyki trudno zgubic.~
+
+@48 = ~<CHARNAME>, Dusk! Jak widzicie, Michelson juz jest z nami.~
+@49 = ~Wierzcie mi, doskonale was rozumiem.~
+@50 = ~Tak czy inaczej, podczas gdy zmierzaliscie tutaj, Michelson natychmiast dokonczyl zaklecia naprawy twojej zbroi, Dusk.~
+@51 = ~Ah, mój dobry <CHARNAME>! Nie martw sie o nic. I nie mysl, ze zapomnialem o twojej nagrodzie za trudy.~
+@52 = ~Wiesz... Moze Michelson nie wyglada imponujaco, ale zapewniam cie, ze to potezna istota magiczna.~
+@53 = ~Nasz przyjaciel nie musi zazdroscic elfom czy kowalom krasnoludzkim. Chociaz... jedyna wada jest to, ze potrzebuje pewnych skladników, aby spelnic swoje zaklecia.~
+@54 = ~Poniewaz mialem zaufanie, ze odniosa sukces w misji, przygotowalem ksiazke z róznymi skladnikami, które mozna polaczyc, aby zaklec artefakt, czy to bron, zbroje czy nawet pierscienie.~
+@55 = ~Oddaje ci ja. Prosze, badz ostrozny, bo to jedyny egzemplarz. Jak widzisz, wszystkie skladniki wymagaja pewnych kamieni szlachetnych, niektóre powszechne, inne rzadsze. Nie wiem, czy to dla zaklecia czy dla przyjemnosci Michelsona.~
+@56 = ~Aha, rozumiem. Wedlug Michelsona uzywa kamieni szlachetnych jako skladników zaklecia.~
+@57 = ~Chwileczke... Mathyusie, czy ty rozumiesz, co mówi leprechaun?~
+
+
+
+@58 = ~Tak jest... z jakiegos powodu zaczalem go rozumiec, gdy zmienil kolor moich wlosów.~
+@59 = ~To sie stalo, gdy przypadkowo go spotkalem w Shilmista. Nigdy wczesniej nie widzialem takiego, wiec go scigalem.~
+@60 = ~Ale ten dran jest bardzo szybki... wiec go zgubilem. Dopiero gdy cos mówilem w stylu: "Zobaczymy, skrzacie! Cie dopadne, bo kto smieje sie ostatni, smieje sie najlepiej."~
+@61 = ~Podsumowujac: smiech Michelsona zdradzil mu kryjówke. Tak wiec go znalazlem i w koncu udalo mi sie go zlapac.~
+@62 = ~Problem byl taki, ze w tym samym momencie leprechaun rzucil na mnie zaklecie... i cóz... moje wlosy zmienily sie na ten kolor.~
+@63 = ~W rezultacie moge zrozumiec, co mówi Michelson... i ostrzegl mnie, ze jesli moje wlosy zostana dotkniete promieniami slonca lub ksiezyca, bede lysy na zawsze.~
+@64 = ~Ponadto wspomnial cos o posiadaniu mocy boga i jakims sprawie zwiazanym z walka z Cyricem.~
+@65 = ~Do dzisiaj nie do konca rozumiem, co mial na mysli, ale z pewnoscia nie zdecydowalem sie go zignorowac. Z czasem sprawdzilem, ze jego moc to nie zart.~
+@66 = ~W kazdym razie, chcialem powiedziec, ze Michelson i ja bedziemy waszymi sojusznikami, tworzac potezne artefakty (oczywiscie, jesli zdobedziecie odpowiednie skladniki).~
+@67 = ~Dobrze, Mathyusie. Przejrze twoja ksiege przepisów i jesli zdobedziemy to, co potrzebne, wrócimy.~
+@68 = ~Mam nadzieje, ze warto, elfie. Nie lubie tracic czasu na drobiazgi.~
+
+
+
+@69 = ~Dobrze, dobrze. Jesli bede mial jakies wiadomosci dotyczace tego, czego szukasz, poinformuje cie, kapitanie Aldancie.~
+@70 = ~Doskonale, towarzysze. Kiedykolwiek zechcecie cos specjalnego stworzyc, Michelson i ja bedziemy was czekac, prawda, przyjacielu?~
+
+@71 = ~Ah! Alez to mój ulubiony zespól awanturników. Jak sie macie? Przyszliscie, aby stworzyc jakies artefakty z Michelsonem?~
+@72 = ~Nadal nam sie nie udalo zebrac tego, co potrzebne, Mathyusie.~
+@73 = ~Mathyusie, zdobylismy to, co potrzebne do ulepszenia miecza Duska.~
+@74 = ~Rozumiem, rozumiem. Bedziemy tutaj, kiedy juz to zdobedziecie. Mam pelne zaufanie, ze jestescie w stanie zdobyc to, co potrzebne naszemu magicznemu przyjacielowi, prawda?~
+@75 = ~Oczywiscie.~
+@76 = ~Nie jeszcze, Mathyusie. Byc moze pózniej.~
+@77 = ~Rozumiem, rozumiem. Bedziemy tutaj, jesli zmienicie zdanie.~
+@78 = ~Uslyszales to, Michelsonie? Wyglada na to, ze mamy troche pracy.~
+@79 = ~Zgoda! Kapitanie, czy uprzejmie podarujesz mi swój miecz?~
+
+@80 = ~Dziekuje za wyrazy zaufania, mój przyjacielu. Cóz, cóz, Michelsonie. Wyglada na to, ze mamy troche pracy. Do dziela!~
+@81 = ~Och, nigdy nie przyzwyczaje sie do widoku go wyczerpanego.~
+@82 = ~Czy on bedzie w porzadku?~
+@83 = ~Oczywiscie! Spójrz na niego, juz znów tanczy.~
+@84 = ~Nie ma za co, przyjaciele. Mam nadzieje, ze dobrze wykorzystacie nasza prace wykonana dzisiaj.~
+@85 = ~Doskonala wiadomosc, mój przyjacielu. W takim razie, zaczynamy?~  ~Doskonala wiadomosc, moja przyjaciólko. W takim razie, zaczynamy?~
+@86 = ~Lepiej porozmawiaj z Michelsonem, <CHARNAME>.~
+@87 = ~Juz sie zaczyna, <CHARNAME>. Porozmawiaj z Michelsonem, abys mógl byc swiadkiem procesu budowy.~
+
+
+
+
+@88 = ~Czesc, <CHARNAME>. Michelson jest juz z nami. Jesli chcesz nagrody, musisz przyprowadzic ze soba Dusk.~
+
+@89 = ~Mathyus, zdobylismy wszystko, co potrzebne do ulepszenia zbroi Duska.~
+@90 = ~Zgoda! Dusku, czy bylbys tak mily i pozyczyl nam swoja zbroje?~
+
+@91 = ~Doskonale, <CHARNAME>. Wezme skladniki, a Michelson zrobi reszte.~
+@92 = ~Mathyus, zdobylismy wszystko, co potrzebne do stworzenia Pancerzy Kamiennej Obrony.~
+@93 = ~Mathyus, zdobylismy wszystko, co potrzebne do stworzenia mlota: Szkarlatny Grom.~
+@94 = ~<CHARNAME>, mam nadzieje, ze bedziesz odpowiedzialnie korzystac z tego artefaktu. To, co nosisz, to nie jest zwykla blyskotka. Mimo wszystko mamy w tobie zaufanie.~
+@95 = ~Mathyus, zdobylismy wszystko, co potrzebne do stworzenia zbroi Ognistego Szalu.~
+@96 = ~Mathyus, zdobylismy wszystko, co potrzebne do stworzenia bulawy: Trujacy Cios.~
+@97 = ~Mathyus, zdobylismy wszystko, co potrzebne do kucia Kla Larlocha.~
+@98 = ~Mathyus, zdobylismy wszystko, co potrzebne do kucia Mroznej Nawalnicy.~
+@99 = ~Wow... naprawde im sie udalo...~
+@100 = ~Jesli byla jakas grupa zdolna do tego, wiedzialem, ze wy, <CHARNAME>, Dusk, bedziecie godni tego wyczynu.~
+@101 = ~Jak powiedzial Dusk, nie bylo latwo... zgodnie z tym, co zanotowales w swoim dzienniku, Mathyus... mysle, ze cos nam sie nalezy...~
+@102 = ~Erhm... Tak, to prawda... ale wszystko sprowadza sie do Michelsona... (przepraszam, ze zdradzilem twój sekret, maly, ale oni maja kompletne wyposazenie Ksiecia... no, prawie kompletnie)~
+@103 = ~O ile Dusk nie odda w zamian swojego Wzmocnionego Kija Shilmista. Ten maly, najwyrazniej, nie chce pozostac bez swojego kija.~
+@104 = ~No dobrze? Wzmocniony kij shilmista za Królewska Zemste. Wydaje mi sie to uczciwa wymiana, nie sadzicie?~
+@105 = ~*Ehem* Zobacz... nie mamy tego kija przy sobie.~
+@106 = ~Dla mnie w porzadku, ale ostateczna decyzje ma Dusk.~
+
+@107 = ~Nadal nie jestesmy gotowi na wymiane, Mathyus.~
+@108 = ~Madra decyzja, mój przyjacielu. Michelsonie, mozesz dokonac wymiany, kiedy chcesz.~
+@109 = ~Brzmi kuszaco, ale chcialbym sie nad tym zastanowic, zanim zdecyduje, Mathyus.~
+@110 = ~Ach, moi drodzy awanturnicy! To, co dzisiaj osiagneliscie, jest niesamowite. Wierze, ze uzyjecie broni, aby wymierzyc sprawiedliwosc. Tak by chcial dobry hrabia Benork.~
+@111 = ~Mathyus, zdobylismy artefakty ksiecia Benorka.~
+@112 = ~Mathyusie! Znalezlismy kij Duska.~
+@113 = ~*wzdycha* No cóz, to ulga. Michelson mówi, ze przekaze wam legendarna Królewska Zemste. Ostateczna bron ksiecia Benorka.~
+
+///// MISION 2
+
+@114 = ~Dusku! Ciesze sie, ze otrzymales wiadomosc od mojego towarzysza. Dobra robota, Rozbójniku!~
+@115 = ~Dokladnie tak, Kapitanie. Rozbójnik, ze swoim wspanialym wechem, ustalil lokalizacje grupy, która szukasz.~
+@116 = ~Kiedy Kapitan Aldant opowiedzial nam o swoich wizjach, skonsultowalem to z Michelsonem. Powiedzial mi, ze te wizje moga byc rzeczywiste i moga dotyczyc prawdziwych napastników oddzialu Cormyr.~
+@117 = ~Z jakiegos powodu Michelson kladzie nacisk na slowo "mozliwe".~
+@118 = ~To oznacza, ze mozliwe jest, ze to nie sa napastnicy oddzialu Duska, prawda?~
+@119 = ~Jesli w wizjach pojawiaja sie orkowie i trolle, to najprawdopodobniej sa odpowiedzialni za ataki.~
+@120 = ~Kapitanie... Dusku, jestes pewien? Michelson analizowal twoje slowa... i sam wywnioskowal, ze istnieje mozliwosc, iz sie mylisz.~
+@121 = ~Ja... ehm... *westchnienie* Dobrze, Dusku. Zaznacze ci to na mapie, <CHARNAME>.~
+@122 = ~Miejsce to znane jest jako Wzgórza Wiatropedów. Znajdziesz je na poludniowy wschód od regionu, niedaleko duzego jeziora.~
+@123 = ~Nie ma problemu... ale, Dusku... nie rób nic pochopnego.~
+@124 = ~Zgoda, Kapitanie... kiedy zrealizujesz swój cel, prosze, wróc do nas.~
+@125 = ~<CHARNAME>! Ciesze sie, ze cie widze. Musze pilnie porozmawiac z Duskiem. Kiedy bedziesz mógl, przyjdz z nim.~
+@126 = ~Zgoda, drogi. Udalo ci sie zebrac potrzebne 'skladniki' dla naszego przyjaciela Michelsona?~ ~Zgoda, kochanie. Udalo ci sie zebrac potrzebne 'skladniki' dla naszego przyjaciela Michelsona?~
+@127 = ~Zgoda, Mathyusie. Wróce z Duskiem.~
+@128 = ~W porzadku, Mathyusie. Chociaz najpierw chcialbym zobaczyc, czy mozemy cos wykuc z tym krasnoludem.~
+@129 = ~Dzieki, <CHARNAME>. Wróc szybko.~
+
+
+@130 = ~Ciesze sie, ze was widze znowu. Czy macie jakies nowosci?~
+@131 = ~Nie jeszcze, Mathyusie. Ale jak tylko cos sie pojawi, wrócimy.~
+@132 = ~Nie jeszcze, Mathyusie. Najpierw chcielibysmy zobaczyc, czy mozemy cos wykuc z tym krasnoludem.~
+@133 = ~Tak, Mathyusie. Ale lepiej, zeby Dusk ci to powiedzial.~
+@134 = ~Najpierw chcielibysmy zobaczyc, czy mozemy cos wykuc z tym krasnoludem.~
+@135 = ~Tak, Mathyusie. Dusk, oddaje ci glos.~
+@136 = ~Ah, w koncu nowosci. No, Dusku. Jak wam poszlo?~
+@137 = ~Rozumiem... Intuicja Michelsona byla trafna, przeciez.~
+@138 = ~Zgoda, zgoda, Michelsonie. Miales racje. Zadowolony?~
+@139 = ~No cóz, Dusku. Jak doszedles do takiego wniosku? Przypuszczam, ze mogles z nimi wejsc w interakcje, prawda?~
+@140 = ~C-co...?~
+@141 = ~Dusku... Czy nie powiedziales wlasnie... ze to oni nie byli odpowiedzialni? Musieli cie zaatakowac, prawda? Ty nie zabilbys ich bez jakiegos uzasadnienia, prawda?~
+@142 = ~N-no! Dezercisci? Sama nazwa wskazuje, ze juz nie byli czescia armii ogara, Dusku.~
+@143 = ~Zeby nie roztrzasac? Nie rozumiem, Dusku... Nie poznaje cie... Ale... Cos jest nie tak... Odczuwam dziwna aure w tobie...~
+@144 = ~Co sie dzieje, Michelsonie? Czy rozpoznajesz ten artefakt?~
+@145 = ~Juz rozumiem... Dusku, Michelson mówi, ze kula jest wyjatkowo potezna. Chociaz tez niebezpieczna.~
+@146 = ~Z jej wnetrza mozna wydobyc wielka moc. Cos, co mozna by bylo przeniesc na twoje cialo i na bron.~
+@147 = ~Widocznie to cos, co tylko ty mozesz aktywowac. Kto by nie byl tym magiem, Dusku... wyraznie jest z toba w jakis sposób zwiazany.~
+
+
+
+@148 = ~To jest problem, Dusku... Michelson mówi, ze artefakt jest zlowrogi. Jesli go uzyjesz, istnieje bardzo duze prawdopodobienstwo, ze jego efekt bedzie nieodwracalny.~
+@149 = ~Michelson poleca, zebys zostawil to z nami, abysmy mogli to lepiej zanalizowac. Maly uwaza, ze mozliwe jest usuniecie tej zlosliwosci i jednoczesnie nadanie mu jakiegos zastosowania.~
+@150 = ~No cóz... tak. Ale przynajmniej uzywanie go byloby bezpieczniejsze.~
+@151 = ~Mysle, ze ten Sornhil dostarczyl ci ten artefakt, aby cie kusic, Dusku.~
+@152 = ~Gdybym byl toba, nie uzywalbym go. Mozesz nawet umrzec w procesie... to bardzo niebezpieczne.~
+@153 = ~Och, Dusku... nie mów mi, ze...~
+@154 = ~Dusku, nie rób tego... Nie wiemy, co moze sie stac... Mozesz nawet umrzec w procesie. Ja...~
+@155 = ~Zrób to, Dusku. Mam pelne zaufanie do ciebie. Wiem, ze jestes w stanie poradzic sobie z kazdym niebezpieczenstwem, jakie moze sie pojawic.~
+@156 = ~Posluchaj Mathyusa, Dusku. To jest niebezpieczne. Moze warto chociaz przez chwile to przemyslec.~
+@157 = ~*westchnienie* Dobrze, Dusku... Michelson powiedzial, ze musisz po prostu patrzec na kule... co zobaczysz? Nikt nie wie... ale musisz poprosic o to, czego pragniesz.~
+@158 = ~<CHARNAME>, Dusk wchodzi w moc kuli. Nie wiem, co widzi, ale po jego minie wnioskuje, ze to nie jest nic dobrego.~
+@159 = ~Err... D-dusk... co sie stalo? Kula zniknela.~
+@160 = ~P-podobno, Dusku, ja-~
+@161 = ~*lyka sline* R-rozumiem... Wysle... wysle Demoledora, gdy bede mial nowosci.~
+@162 = ~Nie jeszcze, Mathyusie. Mielismy przyniesc ci kulke, ale chyba ja zapomnielismy...~
+
+
+@163 = ~Nie przejmuj sie, Mathyusie. Wydawalo mi sie, ze to najrozsadniejsze wyjscie. Nie wszystko musi konczyc sie wojna.~
+@164 = ~Nie wspominaj o tym. Tak, przestan patrzec na mnie, jakbys byl mna zafascynowany, dobrze?~
+@165 = ~*chrzakniecie* No, no. Faktycznie, ciesze sie za was, prawda, Michelsonie?~
+@166 = ~Co? Michelson mówi, ze droga, która wybraliscie, zmienila losy Duska.~
+@167 = ~Cóz, ja tez tego nie rozumiem. Jego radosc jest taka, ze chce podarowac cos <CHARNAME>.~
+@168 = ~Serio? Zawsze mialem do ciebie sympatie, Michelsonie, czy wiedziales?~
+@169 = ~Nie dzialam na podstawie obietnicy nagrody, moi drodzy.~
+@170 = ~Mam nadzieje, ze to nie jest zadna psotka, karakanie.~
+@171 = ~O rany... Michelsonie, czy dasz swoje ulubione pierscienie <CHARNAME>?~
+@172 = ~<CHARNAME>, to, co masz tam, to bardzo potezny artefakt. Pamietaj o jednym: moze byc uzywany tylko przez tych, którzy sa zwiazani z natura, takich jak druidzi czy zwiadowcy.~
+@173 = ~Ach, teraz rozumiem. Michelson mówi, ze pierscien zawiera dusze nimfy z lasu Mir, zwana Bellfame. Mówi, ze pochodzi z czasów, które jeszcze nie nadeszly. Och, nie rozumiem, co znaczy to, mój maly przyjacielu.~
+@174 = ~Co? Demoledorze, czy ty nawet rozumiesz, co Michelson tlumaczy? Mówisz, ze wydarzenia opowiedziane przez pierscien wydarza sie za rok?~
+@175 = ~Hmpf... niewazne. Przypuszczam, ze jak zidentyfikujesz pierscien, lepiej zrozumiesz, o co chodzi.~
+@176 = ~Dosyc juz o pierscieniu, dobrze? Hej, Dusku. Cos sie dzieje? Wygladasz troche przygnebiony...~
+
+
+@177 = ~O co chodzi, Michelsonie? Czy rozpoznajesz ten artefakt? Eh... co sie dzieje, Dusku? Czuje jakas dziwna aure w tobie.~
+@178 = ~Michelson poleca, abys pozwolil mu go oczyscic. Maly uwaza, ze mozliwe jest usuniecie tej zlosliwosci i jednoczesnie nadanie mu jakiegos zastosowania.~
+@179 = ~Posluchaj Mathyusa, Dusku. To jest niebezpieczne. Moze warto chociaz przez chwile to przemyslec. Moze oczyszczenie byloby dobrym pomyslem.~
+@180 = ~Dokladnie! Chociaz... nie wiem, czy to moze stanowic dla niego zagrozenie.~
+@181 = ~Cieleta... czuje, jakbym trzymal oddech, mój dobry Dusku. W porzadku...~
+@182 = ~Michelson powiedzial, ze musisz po prostu patrzec na kulke... co zobaczysz? Nikt nie wie... ale musisz poprosic o to, czego pragniesz.~
+@183 = ~<CHARNAME>, Dusk zaglebia sie w moc kuli. Nie wiem, co widzi, ale widze, ze usmiecha sie, gdy lzy splywaja mu po policzku...~
+@184 = ~Ciesze sie, ze wszystko sie dobrze skonczylo, Dusku. Jak tylko bede mial nowe informacje, dam ci znac. Michelson, Demolator i ja bedziemy czujni na wszelki wypadek.~
+@185 = ~Za serce Shilmisty, Dusku! Bardzo sie ciesze z podjetej decyzji. <CHARNAME>, dziekuje ci, ze byles tam dla Duska.~
+@186 = ~D-Dusk! Ciesze sie, ze... odpowiedziales na mój sygnal. Demolator, dobra robota, jak zawsze.~
+@187 = ~*westchnienie* Tak, Dusku... Namierzylismy grupe humanoidów pod przywództwem orka z jednym okiem. Niosa sztandar Purpurowych Smoków Cormyru.~
+@188 = ~Ich klan jest znany jako...~
+@189 = ~Moze masz racje, Michelsonie...~
+@190 = ~Uwaza, ze Dusk oszaleje, jesli ja-~
+
+
+
+
+@191 = ~D-dobrze... Jego klan jest znany jako... Zabójcy Smoków.~
+@192 = ~*szept* Czy to to, czego sie obawiales, Michelsonie?~
+@193 = ~Dusk... musisz wiedziec... ze pewien Alabarza dysponuje liczna i niebezpieczna grupa humanoidów.~
+@194 = ~Trolle, Cienie Kretów, stworzenia gadzinowe. Liczna grupa potworów. Ma takze straszliwego ettina. Jest to... przerazajace.~
+@195 = ~D-dobrze, Dusku. Zaznacze ci na mapie lokalizacje. Jest blisko debowego ostepu druidów. To miejsce znane jest jako Kurhan Trolli. Ogromne i przytlaczajace miejsce na zachód od regionu. Mysle, ze bedziesz w stanie latwo je znalezc.~
+@196 = ~Dusku! Ciesze sie, ze odpowiedziales na mój sygnal. Demolator, dobra robota, jak zawsze.~
+@197 = ~Tak jest, Dusku... Namierzylismy grupe humanoidów pod przywództwem orka z jednym okiem. Niosa sztandar Purpurowych Smoków Cormyru.~
+@198 = ~Masz racje, Michelsonie. Dusk jest skoncentrowanym czlowiekiem...~
+@199 = ~Dobrze, Dusku... Jego klan jest znany jako... Zabójcy Smoków.~
+@200 = ~*szept* Miales racje, przeciez, Michelsonie.~
+@201 = ~Co mówisz? Dusku, Michelson mówi, ze mozliwe, iz mozesz uzyskac pomoc od Szlachetnego Zakonu Najjasniejszego Serca. W rzeczywistosci wspomina takze o Falonie i jego plemieniu.~
+@202 = ~Dobrze, przyjaciele. Nie bedziemy niepokoic Zakonu w tej sprawie.~
+@203 = ~Dusku, zaznacze ci na mapie lokalizacje. Jest blisko debowego ostepu druidów. To miejsce znane jest jako Kurhan trolli. Ogromne i przytlaczajace miejsce na zachód od regionu. Mysle, ze bedziesz w stanie latwo je znalezc.~
+
+
+
+
+@204 = ~<CHARNAME>, nie musisz sie martwic o udanie sie do Dzielnicy Swiatynnej. Michelson ma zdolnosc przywolania was tutaj, aby was zapytac.~
+@205 = ~Co sie dzieje, Mathyusie? Co jest z Michelsonem?~
+@206 = ~Haha! Co to za mrówka pogryzla reniferka? Wyglada na to, ze zaraz dostanie ataku serca.~
+@207 = ~Co do lokalizacji Alabarzy, zaznacze wam to na mapie. Jest blisko debowego ostepu druidów. To miejsce znane jest jako Kurhan Trolli. Ogromne i przerazajace miejsce na zachodzie regionu. Mysle, ze bedziecie w stanie znalezc je stosunkowo latwo.~
+
+// M3 SKONCZONE
+@208 = ~Mathyus... pokonalismy armie Alabarzy... ale z przykroscia informuje, ze Dusk polegl na polu walki.~
+@209 = ~I widze... ze nie udalo ci sie go wskrzesic...~
+@210 = ~(Michelson opuszcza glowe i lekko ja potrzasa, próbujac ukryc lzy na swoich policzkach)~
+@211 = ~(Demolator, opuszczony, jeczy cicho i kladzie sie na ziemi po slowach <CHARNAME>)~
+@212 = ~<CHARNAME>, d-dziekuje za ostrzezenie...~
+@213 = ~Dusk mógl pomscic swoich towarzyszy... przynajmniej... przynajmniej Amn bedzie bezpieczne przed Alabarza.~
+@214 = ~*westchnienie* Wiem, ze to nie wystarcza... chcialbym, aby mój przyjaciel nie umarl...~
+@215 = ~<CHARNAME>, zebralismy to z Michelsonem i Demoledorem. Mam nadzieje, ze bedziecie w stanie to dobrze wykorzystac.~
+@216 = ~Michelson, mysle, ze nie mamy tu juz nic do zrobienia...~
+@217 = ~(Michelson kiwa glowa, nie wydajac usmiechu ani tanca. Zaskakuje cie, ze jest tak smutny)~
+@218 = ~Wrócimy do Shilmisty. Watpie, ze nasze drogi znów sie skrzyzuja, <CHARNAME>. Niemniej jednak zycze ci szczescia i zdrowia w podrózach. Mam nadzieje, ze uda ci sie znalezc to, czego tak bardzo szukasz.~
+@219 = ~(Demolator spoglada na ciebie ze swoimi blyszczacymi oczami, jakby sie zegnal)~
+
+
+
+@220 = ~(Michelson pozdrawia z niewielkim zaangazowaniem i przechodzi do ruchu rak, rzucajac zaklecie teleportacji)~
+@231 = ~Do widzenia, <CHARNAME>.~
+@222 = ~(Michelson opuszcza glowe, potrzasa nia powoli, i po raz pierwszy wydaje sie, ze slyszysz westchnienie z jego ust)~
+@223 = ~*westchnienie* Moze mnie za to znienawidzisz, <CHARNAME>... ale nie moge sie oprzec lekkiemu uczuciu ulgi w moim sercu z powodu Duska.~
+@224 = ~(Demolator patrzy zdziwiony na Mathyusa)~
+@225 = ~Michelson musi czuc to samo, co ja. Zauwazylismy rosnace zlo w Dusku od czasu, gdy pochlonal tajemniczy szkarlatny orb.~
+@226 = ~Nie wiedzielismy, jak to moze wplynac na przyszlosc Shilimisty... poniewaz zemsta Duska mogla prowadzic do krwawej wojny w lasach...~
+@227 = ~Poniewaz byly to tylko przypuszczenia... nie mielismy zamiaru dzialac, dopóki Dusk nie skonczylby swojego zadania wobec Alabarzy...~
+@228 = ~Jednak wszystko zakonczylo sie smiercia Alabarzy... i równiez Duska.~
+@229 = ~Nie uwazaj mnie za plytka osobe, <CHARNAME>. Dusk byl kiedys dobrym czlowiekiem... ale straty, jakie ponieslismy w jego zyciu, sklonily go do podjecia... zlych decyzji. Nieodwracalnych.~
+@230 = ~Przynajmniej... przynajmniej teraz jest w spokoju...~
+
+
+@232 = ~Dusk! Przezyles... Pokonanie Alabarzy oznacza mniej problemów dla Amn i Tethyr, nie sadzisz? Ty i <CHARNAME> dobrze zrobiliscie, eliminujac jego zlo z tej ziemi.~
+@233 = ~Cóz... tak, Mathyus...~
+@234 = ~(Michelson, który byl usmiechniety i tanczyl, wydaje sie zmieszany slowami Duska)~
+@235 = ~Co sie dzieje, Dusku? Zauwazam, ze jestes niepewny.~
+@236 = ~Pomscilem moich poleglych towarzyszy, Mathyus. Ale... nie jest to to, co... wyobrazalem sobie...~
+@237 = ~Cos mi mówi, ze Alabarza zostal manipulowany, aby przeprowadzic swoje ataki... Widzisz, zanim dotarlismy do Tumulu, zostalismy zatrzymani przez maga o imieniu Valatar.~
+@238 = ~Valatar? Hmm... Myslisz, ze ma zwiazek z magiem, który rzucil zaklecie tarczy na plemie Falona?~
+@239 = ~Tak jest. Naleza do tej samej Zakonu. Podobnie, Alabarza wspomnial o elfim czarodzieju, który dostarczyl mu zaklecie transmutacji.~
+@240 = ~Fakt, ze ci... magowie sa zaangazowani, mówi mi, ze istnieje cos jeszcze. Cos, co jeszcze w pelni nie potrafie zrozumiec...~
+@241 = ~(Demolator podnosi sie i zaczyna energicznie poruszac swoim ogonem)~ [P_Demo01]
+@242 = ~*usmiecha sie* Demolator, co sie dzieje? Z jakiego powodu ta radosc, która niesiesz ze soba?~
+@243 = ~Ha! Demolator sadzi, ze znajdziesz te odpowiedzi szybciej niz pózniej, Dusku. I nie ma watpliwosci, ze bedziesz wiedzial, co z nimi zrobic.~
+@244 = ~(Michelson tupie i wydaje glosny smiech, kiwajac glowa)~ [P_Mich01]
+
+
+
+@245 = ~Zgadzam sie z naszymi przyjaciólmi, Dusku. Jestem pewien, ze to zagadkowe wydarzenie szybko sie wyjasni. W miedzyczasie wiesz, ze mozesz na nas liczyc.~
+@246 = ~Dzieki, moi przyjaciele. Dzieki takze tobie, <CHARNAME>.~
+@247 = ~*chrzakanie* Dobra, koniec gadania. Z Michelsonem zebralismy to jako rekompensate za trudne przedsiewziecie, które przeszliscie.~
+@248 = ~Mam nadzieje, ze bedzie wam to przydatne w waszym obecnym poszukiwaniu, <CHARNAME>.~
+@249 = ~No cóz, to bardzo mile z waszej strony, Mathyusie i Michelsonie.~
+@250 = ~Hmm... 50 tysiecy zlotych monet? Przypuszczam, ze wystarczy...~
+@251 = ~Dusku, <CHARNAME>, w razie czego wiesz, gdzie nas znalezc. Mam nadzieje, ze do zobaczenia niebawem.~
+
+@252 = ~Alabarza i jego klan byli uzywani od samego poczatku.~
+@253 = ~Wspomnial o Zakonie Magów w czarnych tunikach. Wymienil Sornhila i Valatara (którego spotkalismy w drodze do Tumulu).~
+@254 = ~Wspomnial tez o elfim transmutatorze. Chyba Kalanda bylo jego imie.~
+@255 = ~O rany... to jest... Ale ty mu wierzysz, Dusku?~
+@256 = ~Cóz, w dziwny sposób, tak. Alabarza nie mial nic do stracenia, ujawniajac te informacje... byly to... jego ostatnie chwile...~
+@257 = ~Rozumiem...~
+@258 = ~(Michelson, z pewnym niepokojem, wskazuje na skrzynie, która grupa przyniosla ze soba)~ [P_Mich03]
+@259 = ~Oh, to? To zaladunek, który przywiezlismy z Cormyr, Michelsonie. Odzyskalismy go, pokonujac Alabarze w Tumulu.~
+@260 = ~(Leprechaun przyjmuje z pewnym trudem wielka skrzynie. Nastepnie z zapalem zaczyna ja przeszukiwac)~
+@261 = ~To interesujace, Dusku. Na pierwszy rzut oka nic tu nie wydaje sie przydatne. Ale Michelson twierdzi, ze moze odzyskac wiele z tego repertuaru, uzywajac niektórych jego osobistych przedmiotów i oczywiscie swojej leprechaunskiej mocy.~
+
+
+@262 = ~(Bez pytania nikogo, Michelson zaczyna uzywac swoich zaklec na niektórych artefaktach, uzywajac proszków z kamieni szlachetnych i blyszczacych przedmiotów, których wydajesz sie nie znac)~
+@263 = ~To dobrze, <CHARNAME>. Moze uda nam sie odzyskac cos, co zostalo utracone juz dawno temu.~
+@264 = ~Tak, Dusku. Nawet moze sie okazac, ze Michelson zdobedzie cos uzytecznego dla reszty twojej grupy, <CHARNAME>.~
+@265 = ~(Michelson potrzasa mala niebieska butelka. Usmiechajac sie, biegnie i tanczy w strone Minsca)~
+@266 = ~Wow! Dzieki, krasnoludku. Butelka wydaje sie byc ciezsza niz sie wydaje. Minsc i Bubu ci dziekuja!~
+@267 = ~(Z szuflady wydobywaja sie drobne blyszczace czasteczki, wynikajace z zaklecia, które rzuca Michelson. Po chwili wyciaga dziwny talizman, który uroczyscie wrecza Aerie)~
+@268 = ~Wow! Dzieki, Michelson. Ten emblemat Baervana... jest bardzo ladny.~
+@269 = ~(Leprechaun wyciaga z szuflady miksture. Wydaje sie byc ciezka, chociaz leprechaun podnosi ja bez trudu. Z szacunkiem podchodzi do Keldorna i wrecza mu ja)~
+@270 = ~To bardzo mile z twojej strony, maly. Jestem pewien, ze pomoze nam to w naszej walce ze zlem.~
+@271 = ~(Maly wyciaga znikad katane. Wydaje sie byc dosc lekka na wzrok. Jednak czujesz w niej wielka moc. Huczac, kieruje sie w strone Yoshimo)~
+@272 = ~Cóz... zostawiles Yoshimo bez slów, mój maly przyjacielu. Dziekuje za prezent!~
+@273 = ~(Z towaru wybucha mala zlota eksplozja z zaklecia Michelsona. Nastepnie zbiera mala grupe zóltawych klejnotów, które wrecza zaczerwieniony Mazzy)~
+@274 = ~Bardzo dziekuje, Michelson. To mily upominek z twojej strony. Obejmuje wam wszystkim uzytek.~
+
+
+
+@275 = ~(Michelson przyglada sie uwaznie Anomenowi. Wydaje sie, ze analizowal go przez krótki czas. Po chwili jego palce trzaskaja, a on gwizda nieco dziwna melodie. Po zakonczeniu, z zaladunku wyciaga miecz, który wrecza Anomenowi)~
+@276 = ~Przez Helm... ten miecz ma emblemat mojej rodziny... Michelson... nie wiem, co powiedziec... Dziekuje... gleboko.~
+@277 = ~(Leprechaun uwaznie przyglada sie Nalii przez kilka sekund. Usmiechajac sie i podnoszac swoje male rece, podchodzi do ladunku. Z niego wyciaga zólta peleryne, która zdobi emblemat de'Arnise. Biegnac, podchodzi, aby ja wreczyc Nalii)~
+@278 = ~C-co? Skad to masz, Michelson? To... to ma emblemat mojej rodziny... poza tym... wydaje mi sie takie znajome... *chrzakanie* D-dziekuje, Michelson. Bede z niej dumna.~
+@279 = ~(Przez kilka sekund Michelson rzuca nieznanym zakleciem, które swieci sie blekitem w ladunku Cormyr. Po chwili wydobywa emblemat, który wrecza Jaheirze)~
+@280 = ~Symbol Mystry? Dzieki, Michelson. Jako harfistka z serca, z pewnoscia znajde mu zastosowanie.~
+@281 = ~(Nagle zaczynasz wyczuwac nostalgiczny zapach wilgotnej ziemi i lekka elektrycznosc w powietrzu. Michelson klaska z sila, a z ladunku unosi sie jasny kula. Z latwoscia podskakuje i bierze go w swe male raczki, a nastepnie biegnie szybko do Cerneda, aby mu go wreczyc)~
+@282 = ~Odczuwam spokojna burze w tej kuli, jakby w niej bylo zawarte marzenie motyla. Dziekuje, maly.~
+@283 = ~(Po krótkiej obserwacji Valygara, maly wyciaga dziwne zwitki. Mogles przysiac, ze na poczatku byly zniszczone, zdewastowane w ladunku Cormyr. Ale teraz wydaja sie byc nowe. Szybko podaje je Valygarowi)~
+@284 = ~Co to jest, Michelson? Te zwitki... maja pieczec mojej rodziny. *na chwile zastanawia sie* Dobra... rzuce na nie okiem. Wierze w twoje dobre serce, maly przyjacielu.~
+@285 = ~(Z pewnym lekiem Michelson wyciaga z najbardziej ukrytego zakamarka szuflady maly czarny przedmiot. Ostroznie kieruje sie w strone Viconii)~
+@286 = ~Co to jest, wael? Wyglada jak... Och, to naprawde jest symbol Shar. Ja... dziekuje.~
+@287 = ~(Leprechaun wydaje sie wyjmowac stary z ksiazke z ladunku. Mogles przysiac, ze byla pokryta kurzem, ale po kilku potrzasnieciach, zobaczysz czerwony kolor na jej okladce. Maly biegnie do Edwina, aby mu ja wreczyc)~
+@288 = ~Co to jest, skrzat? Hmm... Ciekawe... "Tom Zrecznosci Thay" (Moze sie to przydac po wszystkim...) Dzieki, Bichilson. Teraz mozesz odejsc.~
+@289 = ~(Nagle zloty blask wydaje sie wylaniac z ladunku cormyrejskiego. Michelson, po krótkim magicznym rytuale, wydobywa cos, co wyglada na zloty topór. Machajac nim jak psychopata, wrecza go Korganowi)~
+
+
+
+@290 = ~Ja! To dla mnie, maly lobuzie? Dzieki. Obiecuje odciac jak najwiecej glów tym toporem, rozumiesz?~
+@291 = ~(Znikad i jakby mial to juz przygotowane, Michelson wyciaga z kieszeni kolorowa miksture. Rzeczywiscie, jej jaskrawe i róznorodne kolory budza pewne podejrzenia. Hulajac i tanczac, podchodzi do Jana i mu ja wrecza)~
+@292 = ~Och, mikstura gnomów! Przypomina mi to czas, kiedy moja ciotka Gertrudis zostala schwytana przez straz Amn za przemyt napojów energetycznych. Czlowiek pomysli: "Co jest nie tak z napojami energetycznymi?" No cóz, ja twierdze, ze nic. Choc mozliwe, ze cioci uwieziono za skutki uboczne jej napojów. Mysle, ze powodowaly one, ze komus wyrastaly wlosy na zebach. W kazdym razie ta mikstura wyglada swietnie. Nie moge sie doczekac, aby ja spróbowac.~
+@293 = ~(Z zaladunku Michelson wyciaga zóltawe pergaminy. Na pierwszy rzut oka wydaja sie byc zwyklym papierem. Ale znajac leprechauna, najprawdopodobniej cos w nich tkwi. Szybko biegnie do Haer'Dalisa, aby mu je wreczyc)~
+@294 = ~Ah, alez to maly dzieciolek, który przynosi mi prezent! O, te runy wydaja mi sie znajome... Mysle, ze moja metoda podziekowania bedzie zatanczenie z toba, lordzie Michelsonie.~
+@295 = ~Dusk, dla ciebie mamy to: fioletowy kamien smoka. Dzieki niemu mozemy ulepszyc Miecz Zaklócen albo Pancerz Obrony Cormyru, zalezy co wybierzesz. Za darmo. Jestesmy dobrymi przyjaciólmi, co?~
+@296 = ~Dzieki, Mathyus i Michelson. To bardzo mile z waszej strony. Kiedy nadejdzie czas, na pewno <CHARNAME> pomoze mi madrze wybrac.~
+
+
+@297 = ~Co do ciebie, <CHARNAME>, mamy kilka opcji: Mozemy nagrodzic cie spora suma zlota i kilkoma ksiegami, które Michelson byl w stanie zebrac. Sto tysiecy sztuk zlota i szesc magicznych ksiag do podnoszenia umiejetnosci. To byloby jedno z rozwiazan.~
+@298 = ~Mozesz równiez wybrac rózne przedmioty magiczne, które nasz dobry leprechaun moze odzyskac z ladunku. Powiedzial mi, ze moze to byc katana, dwa ninja-to, pancerz i magiczny klejnot. Wszystkie te przedmioty moga byc twoje.~
+@299 = ~I jako ostatnia opcje, mamy potezna legendarna bron. Michelson mówi, ze to replika legendarnego oreza, które widzial na odleglym planie. Poniewaz jeszcze go nie wykonal, mówi, ze jesli wybierzesz te opcje, mozesz stworzyc miecz, katana, sztylet czy nawet dwureczna tezyszke. Zaleca jednak, aby brac pod uwage, ze te bronia nie moga poslugiwac sie osoby o zla dusze.~
+@300 = ~Dobrze, wiec, <CHARNAME>! Co wybierasz?~
+@301 = ~Prawda, Mathyus, sto tysiecy zlota i te ksiegi brzmia niezle. Wybieram te opcje.~
+@302 = ~Nic nie przebije dobrego zestawu przedmiotów magicznych, elfie. Wole to od cokolwiek innego.~
+@303 = ~Miecz legendarnej mocy, Mathyus.~
+@304 = ~Doskonaly wybór, <CHARNAME>. Ponownie gratuluje wykonanej pracy. I pamietajcie, mozecie nas znalezc tutaj, jesli kiedykolwiek chcecie cos magicznego wykuc, tak? Tymczasem zyczymy wam udanej podrózy.~
+@305 = ~Jaki rodzaj broni chcesz otrzymac?~
+@306 = ~Miecz.~
+@307 = ~Katana.~
+@308 = ~Sztylet.~
+@309 = ~Dwureczna tezyszka.~
+@310 = ~Hm... zmienilem zdanie. Wole wybrac cos innego.~
+
+@311 = ~Mathyus, chcemy cos wykonac z Ametysty Purpurowego Smoka.~
+@312 = ~Swietna wiadomosc, mój przyjacielu. No to co bedzie?~  ~Swietna wiadomosc, moja przyjaciólko. No to co bedzie?~
+@313 = ~Zmodyfikujemy zbroje, Mathyus: Obrona Cormyru.~
+@314 = ~Zmodyfikujemy bron, Mathyus: Miecz Zaklócen.~
+@315 = ~Nie jeszcze, Mathyus. Moze kiedy indziej.~
+@316 = ~Swietnie, <CHARNAME>. Wezme ametyste i zbroje.~
+@317 = ~Mysle, ze bedzie mu pasowac.~
+@318 = ~Wow! Jest lzejsza niz wczesniej... Dzieki, przyjaciele. Mam nadzieje, ze bede jej godny.~
+@319 = ~Swietnie, <CHARNAME>. Wezme ametyste i miecz.~
+@320 = ~Mysle, ze z pewnoscia bedzie w stanie nia machac.~
+@321 = ~Wow! Promieniuje wieksza moca niz wczesniej... to niesamowite. Dzieki, przyjaciele.~
+
+
+
+// EVIL DUSK FINAL INTERACTION
+
+@322 = ~Ah... D-dusk... widze, ze jestes... zdrowy i caly.~
+@323 = ~(Mathyus, z nadprzyrodzona szybkoscia, wyciaga strzale z kolczana i napina luk)~
+@324 = ~Heh, nie ukazuj swojej radosci, 'mój drogi przyjacielu'. Przezylem, pomimo waszych zyczen.~
+@325 = ~Oh, Dusk. Mam nadzieje, ze nie stworzylismy wrazenia, ze twoja obecnosc nas niepokoi... Wrecz przeciwnie, my-~
+@326 = ~(Michelson zaczyna okazywac coraz bardziej zauwazalne nerwowosc. Juz nie usmiecha sie. Juz nie tanczy)~
+@327 = ~(Demolator, wzniesiony, okazuje typowa dla zwierzat ekscytacje, gotowe do ataku)~
+@328 = ~Mathyus... mysle, ze powinienes wysluchac Michelsona i Demolatora. Wiesz, co sie zbliza...~
+@329 = ~N-nie rozumiem, Dusk... o co ci chodzi?~
+@330 = ~Podczas naszego najazdu na siedzibe Alabarzy, spotkalismy Zaklinacza o imieniu Valatar.~
+@331 = ~Ten dran wydawal sie byc czescia Kultu Czarowników, który sprawil, ze zabilismy grupe humanoidów na Wietrznych Wzgórzach.~
+@332 = ~Po wymianie kilku... slów, mag przywolal otchlannego demona, aby sprawdzic nasza sile.~
+@333 = ~Gdy demon zostal pokonany, w moim wnetrzu poczulem klarowny glos... cos, co wczesniej dostrzeglem, gdy zdobylem moc Orba Szkarlatnego.~
+@334 = ~Wtedy tamten glos wydawal sie byc daleki i prawie niezrozumialy. Prawie jakby to nie byl glos, a obraz. Artystyczny obraz z krwi i mroku.~
+@335 = ~Tylko gdy serce tego otchlannego demona przestalo bic na tej plaszczyznie, zrozumialem, co ten glos mi mówil.~
+@336 = ~C-czy Dusk?~
+@337 = ~(Michelson, w zaskakujacym ruchu, próbuje rzucic zaklecie na Duska)~
+@338 = ~(Demolator, z zaskakujaca zwinnoscia, rzuca sie w kierunku Duska)~
+
+@339 = ~¡Oh, minelo troche czasu od naszego ostatniego spotkania!~
+@340 = ~¡Oh, minelo troche czasu od naszego ostatniego spotkania! Ciesze sie, ze was znów widze. Czy Dusk jest z toba? Musze z nim pilnie porozmawiac.~
+@341 = ~¡Dusk! ¡<CHARNAME>! Milo was widziec razem, zdrowych i calo w calosci. Wyobrazam sobie, ze podróz statkiem i ekspedycja w niebezpieczna Ciemnosci Podziemnej byly prawdziwa przygoda.~
+@342 = ~¡Mathyus, Michelson! Milo znów widziec wasze twarze. Równiez ciebie, Demolatorze.~
+@343 = ~(Demolator, z zaskakujaca zwinnoscia, obraca sie w miejscu, gdy otrzymuje uznanie od swojego przyjaciela)~ [P_Demo02]
+@344 = ~Chociaz... Jak sie dowiedziales o naszych podrózach? Nie przypominam sobie, zebysmy wam opowiadali, co zamierzamy robic...~
+@345 = ~Wiem, wiem, Dusk. Ale Michelson nalegal, aby sledzic wasze slady. Uzyl jednej ze swoich kuli, jakby byla krysztalowa kula... zobaczylismy wasze obrazy w szalenstwie Brynn Ley i poprzez mroki Ust Natha.~
+@346 = ~Wiemy, ze to byla dluga, meczaca i niebezpieczna podróz. Prawda, Michelson?~
+@347 = ~(Michelson kiwa glowa szybko, machajac swoimi malymi rekami i smiejac sie jak szaleniec)~[P_Mich04]
+@348 = ~Rozumiem... wiec... zdajecie sobie sprawe z Zakonu Zapomnianej Krypty.~
+@349 = ~(Michelson staje sie powazny i sklada ramiona, choc nadal tupa nogami)~
+@350 = ~Tak... Darvin... albo lepiej powiedziec, Anthagar, pojawil sie kilka nocy temu. Chociaz nie bylismy w stanie go oszukac, zostawil nam... szczególny artefakt...~
+@351 = ~Artefakt? Mathyus, nie mozecie ufac tej zmii. Zakon Magów okazal sie byc bardziej niebezpieczny, niz sie wydaje.~
+@352 = ~Rozumiem... ale Michelson byl w stanie zbadac artefakt... i nie znalazl w nim nic zlego.~
+@353 = ~To jest teleporacyjna kula.~
+@354 = ~Pozostalismy troche zaklopotani ta informacja. Jednak Anthagar zostawil list dla ciebie, Dusk.~
+@355 = ~Dla twojego bezpieczenstwa... otworzylismy ja wczesniej. Nie wydaje sie, zeby miala jakas pulapke... to jest... Hm... Lepiej, zebys to przeczytal.~
+@356 = ~Zgoda, Mathyus. Zobaczmy...~
+@357 = ~"Kapitanie Aldant: Musze ponownie wyrazic moje rozczarowanie twoim odrzuceniem tego, co ci zaoferowalem. Szkarlatna kula sprawilaby, ze osiagnalbys moc poza twoja wyobraznia. Twoje intencje sa jasne i wiem, ze nie moge ci ufac ani tobie, ani <CHARNAME>."~
+@358 = ~"Nie moge oczekiwac, ze takie jednostki jak wy beda w stanie zrozumiec nawet to, do czego dazymy. Dlatego wyzywam was na ostateczny pojedynek. Czy to z powodu zemsty, czy sprawiedliwosci: Ardusk Aldant, czekam na ciebie po drugiej stronie progu, który kula dostarczy."~
+@359 = ~"Artefakt jest z waszymi 'przyjaciólmi' z Shilmista. Jestem pewien, ze ta dziwna istota juz zdolala ustalic, ze nie kryje zadnych tajnych zamiarów poza byciem mostem do naszej ostatecznej konfrontacji. Bedziemy czekac tyle, ile to konieczne... ale pamietaj: Przyszlosc Amn i Tethyr jest w twoich rekach. Anthagar."~
+@360 = ~Rozumiem... <CHARNAME>, co sadzisz o tym wszystkim?~
+@361 = ~<CHARNAME>, Dusk ma racje. To dotyczy zarówno ciebie, jak i jego. Wyraznie Zakon Zapomnianej Krypty uwaza, ze równiez ty stanowisz zagrozenie dla ich planów.~
+@362 = ~¡Dusk! Wiesz, ze mozesz na mnie liczyc. Ci magowie stanowia zagrozenie, którego nie mozemy ignorowac.~
+@363 = ~Cóz, uwazam, ze sa zagrozeniem. Chociaz nie widze, jak to mnie dotyczy. Wolalbym, zeby mnie nie angazowali.~
+@364 = ~Jasne, ze sa zagrozeniem. Jak dla mnie, dawajmy im popalic.~
+@365 = ~*westchnienie* Mam juz tego po dziurki w nosie, Dusk. Nie uwazam, zeby ci goscie byli problemem. Lepiej, zebysmy ich zignorowali.~
+
+
+@366 = ~Wow! To naprawde ulga to uslyszec, prawda?~
+@367 = ~(Michelson bije brawo i gwizda z radosci wobec determinacji <CHARNAME>)~ [P_Mich03]
+@368 = ~(Demolator porusza ogonem i szczeka w swoim stylu, wyrazajac wdziecznosc dziecku Bhaala)~ [P_Demo01] ~(Demolator porusza ogonem i szczeka w swoim stylu, wyrazajac wdziecznosc córce Bhaala)~[P_Demo01]
+@369 = ~Dziekuje, <CHARNAME>. Wiedzialem, ze moge na ciebie liczyc.~
+@370 = ~A propos, Dusk... widze, ze wciaz masz ze soba Szmaragdowy Miecz. Nie wiedzialem, ze go ulepszyles.~
+@371 = ~Tak jest... kiedy stanelismy do walki z Valatharem, ten przywolal demona z Otchlani.~
+@372 = ~Gdy go pokonalismy... poczulem, jak miecz nakazuje mi zakonczyc serce demona, aby nie mógl powrócic na ten plan.~
+@373 = ~Rozumiem... Michelson wspomnial mi, ze oczyszczona kula stworzyla oczyszczone ostrze. Slyszalem o niektórych mieczach, które maja wlasna wole. Wydaje sie, ze w przypadku Szmaragdowego Miecza jest tak samo.~
+@374 = ~(Michelson smieje sie i szarpie za szaty Mathyusa, by przyciagnac uwage)~ [P_Mich02]
+@375 = ~Co mówisz, Michelson? Czy to juz czas?~
+@376 = ~Co sie dzieje, Mathyusie?~
+@377 = ~Michelson mówi, ze juz nadszedl czas, aby ujawnic pelna moc Szmaragdowego Miecza.~
+@378 = ~Mówi, ze moze obudzic pelna moc tegoz miecza. Wystarczy, ze oddasz mu go na chwile.~
+@379 = ~W porzadku, przyjaciele. Michelson, prosze bardzo.~
+@380 = ~(Michelson bierze bron w swoje male rece i podziwia ja swoimi blyszczacymi oczami)~
+@381 = ~(Z jednej z kieszeni wyjmuje pewne, pozornie magiczne proszki, i rozsypuje je na ostrzu)~ [P_Mich03]
+@382 = ~(Bron zaczyna emanowac szmaragdowym blaskiem i przez chwile oslepia wszystkich)~
+@383 = ~(Po kilku sekundach miecz zostaje wreczony Duskowi)~
+@384 = ~Przez Cormyr... nie sadzilem, ze ta bron moze byc jeszcze potezniejsza...~
+@385 = ~Lux...~
+@386 = ~Lux?~
+@387 = ~To jest prawdziwe imie broni, Dusku. Przynajmniej tak twierdzi Michelson.~
+@388 = ~(Michelson kiwa glowa i bije brawo, podziwiajac Lux w rekach Duska)~
+@389 = ~Bedziesz go potrzebowal w walce przeciwko Zakonowi Anthagara, Dusku.~
+@390 = ~Na razie, moi przyjaciele, moge wam zagwarantowac, ze Szkarlatna Kula Nekromanty to nic wiecej jak kierownik do portalu.~
+@391 = ~Michelson mówi, ze jego przeznaczeniem jest miejsce... nieznane, choc zwiazane z zepsuta magia.~
+@392 = ~Bedziesz musial wrócic, gdy zwyciezysz, oczywiscie. Dlatego Michelson nie bedzie mógl nas towarzyszyc w tej podrózy.~
+@393 = ~Towarzyszyc? Nie mów mi, ze bedziemy mieli twoja pomoc, Mathyus.~
+@394 = ~I Demolatora tez!~
+@395 = ~(Demolator burczy przez kilka sekund, a nastepnie szczeka w swoim stylu, wyrazajac gotowosc do walki)~[P_Demo02]
+
+
+
+@396 = ~To dobrze wiedziec.~
+@397 = ~Ten klebek siersci bedzie walczyc po naszej stronie? Mam nadzieje, ze nie stanie mi na drodze, zielony marico. Nie chce go tez zalatwiac.~
+@398 = ~*chrzakniecie* Nie martw sie, panie krasnoludzie. Demolator jest bardziej zreczny, niz... pozornie.~
+@399 = ~Ah, w koncu zobaczymy tego lucznika w akcji. Juz mi sie znudzilo sluchanie, jak opowiada, jak potezny jest, nie udowadniajac tego czynami.~
+@400 = ~Chyba nie mam juz nic wiecej do powiedzenia na ten moment, Dusku. Kiedy bedziecie gotowi do drogi, porozmawiajcie ze mna ponownie.~
+@401 = ~Radze przygotowac sie. Pamietajcie, ze mozecie kowalowac artefakty u naszego zielonego przyjaciela, tak?~
+@402 = ~Kiedy beda gotowi... wróccie. Shilmista stanie do walki.~
+@403 = ~Czy jestes pewien, <CHARNAME>?~ ~Czy jestes pewna, <CHARNAME>?~
+@404 = ~<CHARNAME>, wiem, ze mamy sprawy do zalatwienia, pilne sprawy... jestem tego swiadom... Ale prosze, rozwaz to, bo Krypta Zapomnianych moze stanowic natychmiastowe zagrozenie, nawet dla Faerûn.~
+@405 = ~(Michelson kiwa glowa i gwizda z pewnym niepokojem wobec slów Duska.)~
+@406 = ~<CHARNAME>, na serio? Musimy pozbyc sie tych skorumpowanych magów najszybciej, jak to mozliwe.~
+@407 = ~Ma racje. Ale rozumiem, jesli musisz zalatwic inne sprawy najpierw (chce wierzyc, ze nie odmówisz tej odpowiedzialnosci...). Pamietaj, ze Demolator i ja zaoferujemy pomoc w ostatecznej konfrontacji.~
+@408 = ~Jesli zmienisz zdanie, pamietaj, aby przygotowac sie, bo nie wiemy, w jakie miejsce trafimy...~
+@409 = ~Nie mam nic wiecej do dodania...~
+@410 = ~Ciesze sie, ze was znów widze. Gotowi?~
+@411 = ~Jeszcze nie, Mathyus. Dusk nie jest z nami. Wróce do niego tak szybko, jak to mozliwe.~
+@412 = ~Dokladnie tak, Mathyus. Jestesmy gotowi na ostateczna bitwe przeciwko magom.~
+@413 = ~Dobra... Teraz uruchomimy zaklecie Anthagara... Przygotujcie sie!~
+@414 = ~(Michelson wydaje sie nieco niepewny przez kilka sekund. Jego oczy spoczywaja na Imoen, i jakby wpadl na pomysl, trzaska palcami i z wyladowanego towaru wyciaga stary zakurzony tom. Biegnie i zostawia go w rekach Imoen)~
+@415 = ~Dzieki, Michelson! Nie wiem, czy teraz mam ochote czytac, ale na pewno rzuce okiem, jak tylko bede mogla.~
+
+
+
+@416 = ~<CHARNAME>! Nie wiesz, jak milo cie widziec... i jak piekne jest znowu móc oddychac!~
+
+
+@417 = ~Mathyus! Widze, ze Michelsonowi udalo sie cie wskrzesic, w koncu.~
+@418 = ~(Demolator obraca sie wokól wlasnej osi, wyrazajac ogromna radosc na slowa swojego pana)~ [P_Demo01]
+@419 = ~(Michelson tupa nogami i tanczy w reakcji)~ [P_Mich03]
+@420 = ~Pokonaliscie straszne zlo, <CHARNAME>. Wiem, ze... wiem, ze Dusk bylby z tego dumny...~
+@421 = ~Jego dzialania nie byly napedzane nienawiscia, lecz sprawiedliwoscia.~
+@422 = ~Uczcil pamiec swojej ukochanej, Celine... swojego kochanego lasu, Shilmista... i swojej ojczyzny, Cormyr.~
+@423 = ~Jego walka nie zostanie zapomniana, <CHARNAME>. I wasze osiagniecia takze.~
+@424 = ~Tak! Nawet udalo mu sie przywrócic Demola, prawda, przyjacielu?~
+@425 = ~Wraz z Michelsonem zdolalismy zebrac te ilosc zlota... mam nadzieje, ze sie wam przyda. Mozecie równiez wrócic do nas, aby kiedys wykuc artefakty. Tymczasem... zycze wam zdrowia i wolnosci!~
+@426 = ~To ulga widziec, ze wszyscy sa zdrowi, Mathyus.~
+@427 = ~Ah... mój dobry kapitanie Ardusku Aldancie... Co za przyjemnosc widziec cie przy zyciu!~
+@428 = ~Nie bylbym tutaj, gdyby nie <CHARNAME>, Mathyus.~
+@429 = ~(Hmpf. Jak gdyby Edwin Odesseiron stal w miejscu, nic nie robiac. Ten czlowiek od patyka zasluguje moim zdaniem na jedno lub dwa pouczenia)~
+@430 = ~*chrzakniecie* No cóz, Edwin takze nam pomógl. Udowodnil, ze jest jednym z najlepszych czarodziejów w calym Faerûn. Stanal na wysokosci zadania zwiazanego z Cripta Olvidada.~
+@431 = ~Erhm. *chrzakniecie* No cóz, to oczywiste, Dusk. Edwin musial nauczyc tych magów malpy kultury. (No cóz, ten czlowiek ma jednak troche... godnosci)~
+@432 = ~Rozumiem, Dusk... i zaluje... zaluje, ze tak latwo dalem sie wciagnac w sidla tego czarodzieja.~
+@433 = ~Gdy przyszedlem, aktywowalem pulapke magiczna. Zostalem sparalizowany i pozostawiony na pastwe tych nikczemnych czarnoksiezników.~
+@434 = ~Reszta... to juz znana historia...~
+@435 = ~Chodzi ci o to, jak kopalismy twoje tylek? Tak, to juz znana historia.~
+@436 = ~*chrzakniecie* Tak wiec, jak mówilem.~
+@437 = ~Pokonanie Cripta Olvidada nie bylo latwe, to wiem.~
+
+
+
+@438 = ~Jednakze, jej wplyw juz nie jest odczuwalny na tym planie. Tak mi przynajmniej Michelson powiedzial.~
+@439 = ~(Michelson klaska i smieje sie, z zapalem potakujac slowom Mathyusa)~ [P_Mich01]
+@440 = ~Udalo ci sie, Dusku... pomsciles Celine.~
+@441 = ~Tak...~
+@442 = ~Co sie dzieje?~
+@443 = ~Zobaczylem ja, Mathyus... Zobaczylem... jej ducha...~
+@444 = ~Chociaz... nie jestem pewien, czy to byla ona. Wydaje mi sie... ze Anthagar zastosowal sztuczke... aby próbowac wtargnac do mojej glowy.~
+@445 = ~Rozumiem... Co o tym sadzisz, Michelsonie?~
+@446 = ~(Leprechaun zastanawia sie przez chwile)~
+@447 = ~(Po kilku sekundach podchodzi do Mathyusa i prosi go, aby sie uklakl na moment. Wydaje sie cos do niego szeptac.)~
+@448 = ~Tak, <CHARNAME>! Mam... lekkie slady tego, co dzialo sie podczas walki...~
+@449 = ~(Demolator szczeka swój sposób, wyrazajac radosc, widzac, ze jego pan jest przy zyciu)~ [P_Demo01]
+@450 = ~Naprawde? Och, Dusku... Michelson mówi, ze Anthagar zamierzal postawic ci pulapke mentalna. Duch, którego przywolal, to byla jedynie iluzja. Jesli chcesz zobaczyc cos bardziej rzeczywistego... poczekaj kilka sekund...~
+@451 = ~Dobra, jestesmy z powrotem w naszym schronieniu!~
+@452 = ~Nie, Dusku... wszyscy bylismy tam. Michelson zabral nas na rodzaj lesnego planu, krajobraz bardziej akceptowalny dla Naszej Pani Lasu.~
+@453 = ~(Michelson kiwa glowa, pokazujac swój perlisty usmiech)~
+@454 = ~Mam nadzieje... mam nadzieje, ze bylo to dla ciebie dobre, Dusku.~
+@455 = ~Tak bylo, mój przyjacielu. Bede pamietal o tym gescie na zawsze... Zobaczyc jeszcze raz Celine... po prostu nie mam slów wdziecznosci.~
+@456 = ~<CHARNAME> i ty zrobiliscie wiecej, niz mozna bylo sie spodziewac dla Amn. Powstrzymaliscie wojne pokonujac Zapomniana Krypte...~
+@457 = ~To bohaterowie, nawet jesli nie sa za to uznawani w Athkatli.~
+@458 = ~Mysle, ze nadszedl czas na nagrode, nie sadzisz, Michelsonie?~
+@459 = ~(Michelson klaska, potwierdzajac slowa swojego przyjaciela)~ [P_Mich02]
+@460 = ~Udalo nam sie zebrac cos jako podziekowanie za wasze czyny, przyjaciele.~
+@461 = ~Czas na nagrode? Brzmi swietnie, Mathyus.~
+@462 = ~Co sie stalo, Mathyus? To byl... sen?~
+@463 = ~Nie ma potrzeby, Mathyus. Nie zrobilismy tego dla nagrody. Chociaz, jesli zloto wam sie nie przyda, to z przyjemnoscia to przyjmiemy.~
+@464 = ~Nie uzyjemy tego, co zebralismy, wiec mam nadzieje, ze te fundusze wam sie przydadza.~
+@465 = ~50 000 sztuk zlota wydaje sie akceptowalnym wynagrodzeniem, nie sadzicie?~
+
+
+
+@466 = ~To wiecej niz dobrze, Mathyus. Ja...~
+@467 = ~(Demolator zaczyna szczekac w swoim stylu, widzac, ze Lux, miecz Duska, zaczyna swiecic sie niespodziewanie)~ [P_Demo02]
+@468 = ~Dusku, twój miecz... swieci sie nieustannie.~
+@469 = ~To sie... zmienia...~
+@470 = ~(Michelson zauwaza, ze symbol Velsharûn unosi sie ze swoich rzeczy. Po chwili znika, eksplodujac miedzy szmaragdowymi a lazurowymi swiatlami)~
+@471 = ~Lux pochlonela symbol Velsharûn...~
+@472 = ~Lux Triumphans...~
+@473 = ~Co powiedziales?~
+@474 = ~Swiatlo triumfuje... to ostateczna nazwa miecza. Jest potezniejszy niz kiedykolwiek, Mathyus...~
+@475 = ~Przez Mielikki... nie sadzilem, ze cos takiego jest mozliwe.~
+@476 = ~(Michelson klaska na slowa Duska)~ [P_Mich03]
+@477 = ~Rozumiem... To nie jest przypadek, ze to sie stalo, moi drodzy. Swiatlo Mielikki zniszczylo ostatnie slady zagrozenia ze strony Zapomnianej Krypty.~
+@478 = ~Pozostaje tylko zagrozenie ze strony Irenicusa dla ludzi Suldanessellaru.~
+@479 = ~Dusk, <CHARNAME>. Mam nadzieje, ze zrobia, co w ich mocy, aby go powstrzymac. W imieniu rasy elfów i zycia we Faerûn.~
+@480 = ~Zrobimy to, mój drogi przyjacielu. Polegaj na nas.~
+@481 = ~I pamietajcie: Kiedykolwiek bedziesz chcieli, mozecie do nas wrócic, aby kowalowac artefakty. Tymczasem... zycze wam zdrowia i wolnosci!~
+@482 = ~To wiecej niz dobrze, Mathyus.~
+@483 = ~(Leprechaun bacznie przyglada sie grupie <CHARNAME> przez chwile)~
+
+@484 = ~(Leprechaun zatrzymuje sie, a jego mina staje sie powazna. Z niesmialoscia spoglada na Dorna. Po chwili wyjmuje z ladunku ciemne rekawice i podchodzi do pólorka)~
+@485 = ~¿Hm? ¿Unos guanteletes? Supongo que servirán...~
+
+@486 = ~(Michelson zlacza dlonie i potrzasa nimi, z nich wydobywaja sie blyszczace pylki, które opadaja na pusta butelke. Niespodziewanie robi sie w niej plyn tak blyszczacy, ze musisz spojrzec uwaznie, aby nie zranic sobie oczu)~
+@487 = ~El brillo es enceguecedor, Michelson. Gracias, estoy seguro de que nos será muy útil.~
+
+@488 = ~(Maly zwraca uwage na Neere. Z ladunku wyjmuje gigantyczna butelke i pyli kilka kamieni szlachetnych, jakby byly cukierkami. Mikstura wydaje sie napelniac po chwili, a on przynosi ja do pólelfki z wielka ceremonia)~
+@489 = ~O rany, Michelsonie! Dzieki za... eh... to... eliksir. Mam nadzieje, ze nie skoncze z niestrawnoscia.~
+
+@491 = ~No chcialo ci sie tego wypuscic, co? Nie martw sie. Hexxat na pewno dobrze to wykorzysta.~
+
+
+@492 = ~(Michelson obserwuje Wilsona przez kilka sekund i drzy, gdy ten drugi oblizuje sie, patrzac na niego. Szybko, z jego kamizelki, wyciaga blyszczaca galazke z fioletowymi owocami. Szybko kieruje sie w strone niedzwiedzia brunatnego i podchodzi do niego z dzikimi owocami)~
+@493 = ~(Burczenie).~ [BBEAR09]
+@494 = ~Erhm... Wydaje mi sie, ze to jej sposób na podziekowanie, Michelsonie.~
+@495 = ~(Michelson spoglada na Hexxat z niechecia. Nastepnie na <CHARNAME>. Rozumie, ze jej obecnosc jest wymagana przez Potomstwo Bhaala, wiec niechetnie wyjmuje z ladunku karmazynowa miksture z Cormyru)~ ~(Michelson spoglada na Hexxat z niechecia. Nastepnie na <CHARNAME>. Rozumie, ze jej obecnosc jest wymagana przez Potomstwo Bhaala, wiec niechetnie wyjmuje z ladunku karmazynowa miksture z Cormyru)~
+
+
+@210029 = ~Dusk Aldant: Zemsta Pierwszego Miecza
+
+Poinformowalismy o zwyciestwie nad klanem Alabarza, ale równiez o smierci Duska w bitwie. Mathyus i Michelson byli smutni, choc takze pocieszani. Wierzyli, ze Dusk skierowal sie w mroczne strony, z których nie bedzie w stanie wrócic. Przypuszczam, ze teraz to juz przeszlosc, przynajmniej zemsta Duska zostala spelniona, chociaz oznaczalo to jego smierc.~
+
+@210030 = ~Dusk Aldant: Zemsta Pierwszego Miecza
+
+Poinformowalismy o zwyciestwie nad klanem Alabarza, ale równiez o smierci Duska w bitwie. Mathyus i Michelson byli smutni. Starali sie przekonac siebie, ze przynajmniej bitwa przyniosla sprawiedliwosc za poleglych z Cormyr, ale wiem, ze to tylko male pocieszenie. Mathyus i spólka wróca do Shilmista, nie zapominajac jednak zyczyc nam szczescia i zdrowia w naszych podrózach.~
+
+@210031 = ~Dusk Aldant: Zemsta Pierwszego Miecza
+
+Poinformowalismy o zwyciestwie nad klanem Alabarza. Dusk zauwazyl, ze czuje, ze za atakiem Alabarza na jego oddzial kryje sie cos wiecej. Mathyus i spólka zapewnili go, ze jesli tak jest, to niedlugo to odkryja. W miedzyczasie mamy pokazna sume zlota jako nagrode, co przyda sie nam w nadchodzacych bitwach...~
+
+
+@210032 = ~Dusk Aldant: Zemsta Pierwszego Miecza
+
+Poinformowalismy o zwyciestwie nad klanem Alabarza. Otrzymalismy sowita nagrode od sojuszników Duska, mieszkanców Shilmista. Ten ostatni wspomnial, ze Alabarza i jego klan zostali wykorzystani w ataku na oddzial Cormyr przez tajemniczy Zakon Magów, skladajacy sie z Sornhila i Valatara, których spotkalismy. Wódz orków wspomnial równiez o elfie o imieniu Kalanda i przywódcy Zakonu, nekromancie, o którym nic nie wiemy. Cos mi podpowiada, ze to nie ostatni raz, kiedy o nich uslyszymy.~
+
+@210041 = ~Dusk Aldant: Zakon Magów
+
+Dotarlismy do kryjówki Mathyusa, który poinformowal nas o aktualnej sytuacji. Otóz orbe, który Anthagar dostarczyl Mathyusowi i Michelsonowi, znajduje sie teraz w posiadaniu mieszkanców Shilmista i jest jedynie mostem do miejsca ostatecznej konfrontacji. Mathyus i Demolator zaoferowali nam swoja pomoc. Mamy tylko porozmawiac z elfem, gdy bedziemy gotowi do wyruszenia.~
+
+@210045 = ~Dusk Aldant: Zakon Magów
+
+Nieszczesny orbe Anthagara przeniósl nas w dziwne miejsce. Nie wydaje sie, ze jestesmy gdzies na znanym planie materialnym, raczej w rodzaju arkany kieszeni, z której nie bedziemy mogli uciec, zanim nie stawiemy czola Zapomnianej Krypcie. Nie ma znaków Mathyusa ani Demolatora. Mam nadzieje, ze zdaza na czas do walki.~

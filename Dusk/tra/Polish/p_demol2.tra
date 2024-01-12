@@ -1,0 +1,51 @@
+
+// 
+@0 = ~(Portal przynosi ze soba Demolatora, który w swojej bojowej pozie wydaje swoje nietypowe i juz znane ujadanie.)~ [P_Demo01]
+
+@1 = ~(Pomimo slów Duska, Demolator utrzymuje wzrok skierowany na magów)~
+@2 = ~Swietnie, worek pchel przyszedl nam z pomoca. Czy mamy polegac na tym, ze bedzie nam pomocny? Najprawdopodobniej tylko nam przeszkodzi!~
+@3 = ~Demolator! Nie wiesz, jak sie ciesze, ze cie tu widze.~
+@4 = ~Mam nadzieje, ze jestes gotowy do walki, mój wlochaty przyjacielu. Ci magowie wydaja sie byc powaznym przeciwnikiem.~
+@5 = ~(Widzisz, jak jego grzbiet delikatnie jezy sie, wyraznie obrazony twoimi uwagami)~ [P_Demo02]
+@6 = ~(Demolator kiwa ogonem delikatnie po slowach <CHARNAME>)~ [P_Demo02]
+@7 = ~(Pies skupia swoje spojrzenie na Mathyusie)~
+@8 = ~(Demolator skierowuje spojrzenie w strone grupy <CHARNAME>)~
+@9 = ~(Demolator atakuje niespodziewanie. Bitwa rozpoczeta...)~
+@10 = ~Przykro mi, Demole... Mathyus jest kontrolowany przez jednego z naszych wrogów... Nie mamy innego wyboru, niz go... pokonac.~
+@11 = ~(Demolator szczeka bezposrednio na Mathyusa, byc moze liczac na to, ze go ocknie)~
+@12 = ~(Mathyus nie reaguje na to. Wyraznie czar Sornhila wniknal gleboko w jego umysl)~
+@13 = ~Kapitanie... jesli sadzisz, ze ta... bestia zrobi jakas róznice... zaraz sie przekonasz, jak bardzo sie mylisz.~
+@14 = ~<CHARNAME>! Zle czynisz, lekcewazac istote z Shilmisty. Ponadto wszelka pomoc jest u nas mile widziana.~
+@15 = ~Nie zwracaj uwagi, Demolator, <CHARNAME> nie mial najlepszego dnia.~
+@16 = ~Demolator?! Wreszcie sie pojawiles!~
+
+@3491  = ~Nie rezygnuj, mój drogi, wlochaty przyjacielu. Minsc, Boo i Dusk zrobia, co w ich mocy, aby pokonac zloczynców i przywrócic twego wlasciciela do ciebie. Do oczu, Boo!~
+@3492  = ~Przez Baervana, wy, nekromanci, nie macie daleko dojsc. Quayle by tak chcial. Jestem gotowa!~
+@3493  = ~<CHARNAME>, Dusk... to zaszczyt byc u boku. Nasze zwyciestwo tu uczci poleglych. Za Torma, skoncze z wami!~
+@3494  = ~Spokojnie, psiaku. Chociaz twój przyjaciel elf upadnie w walce, jestem pewna, ze Michelson zdola go przywrócic. Na razie musimy sie skoncentrowac na wygranej.~
+@3495  = ~W koncu bedziemy mogli rozprawic sie z tymi przekletymi czarodziejami. Dusk, pozwól mi na tego zadufanego Zaklinacza!~
+@3496  = ~Ile niewinnych padlo ofiara tych nekromantów? Czas sie zemscic. Magia nie powinna byc z natury zla, wam to udowodnie!~
+@3497  = ~Nieumarli to obelga dla natury, Anthagar... dlatego w imie Silvanusa, twój koniec jest blisko. Za poleglych!~
+@3498  = ~Wasze potwornosci koncza sie tu, czarodzieju! Ryknemy jak wiosenny wichur i nasze czyny rozlegna sie nawet w mrokach tej nienaturalnej krainy. Chodz, maly Demoledorze. Na bitwe!~
+@3499  = ~Demoledorze, Dusku, zaszczyt bedzie walczyc u waszego boku. Nie pozwole, by w Amn powstal kolejny Lavok! Do boju!~
+@3500  = ~Ci "faern" sa szaleni. Bedzie przyjemnoscia was pokonac, Dusku. A beda piekna ofiara dla Shar.~
+@3501  = ~W koncu, czlowieku z patykiem. Nadszedl mój czas, by zablysnac! Ci malostkowi magowie dowiedza sie, ze nie nalezy przekraczac Edwina Odesseirona (udowodnie wam to...).~
+
+
+
+@3502  = ~Dosyc gadania! Czas siekac glowy moim toporem. Dlugonogie, zostaw tego afeminowanego elfiego maga. Jego glowa bedzie pieknym trofeum.~
+@3503  = ~No cóz, mysle, ze nie chcialbys, zebym przed bitwa opowiadal ci bajki, prawda?~
+@3504  = ~Zgadles, mój bystry przyjacielu. Obiecuje, ze kupie ci piwo z rzepy po tym wszystkim.~
+@3505  = ~Lubie to, Dusiu. Bardzo lubie. Teraz do dziela: sa ludzie, którzy musza poczuc skutecznosc mojego kusznika.~
+@3506  = ~O rany! Takie walki tocze na innych plaszczyznach, mój dobry bialy kanarku. Ale nie w tym kalibrze. To bedzie warte skomponowania jednej czy dwóch piosenek!~
+@3507  = ~Dobrze, Dusku! Zrobie, co w mojej mocy, aby ci pomóc. Tylko pamietaj, ze bedziesz mi winien kilka ciasteczek, takich, jakie zawsze kupujesz po zakonczonym wszystkim, dobrze?~
+@3508  = ~Nadszedl czas, kapitanie... a skoro o zolnierzach mówimy... Udalo mi sie oczarowac kilku strazników Amn i zakapturzonego... Sa z elity, jak zauwazysz za chwile...~
+@3509  = ~Kapitanie, pomscie Pukiego. Zobaczysz, jak mam jeszcze kilku wiernych slug pod moim przewodem... sa... za toba... Ha, ha, ha!~
+@3510  = ~Wreszcie... na te okazje przybiore szczególna forme przemiany... to bedzie cos wyjatkowego...~
+@3511  = ~Nie ma znaczenia, ile masz przyjaciól, Ardusku Aldancie. Upadniesz... wszyscy upadna! A na koniec... bedziesz mógl ponownie spotkac sie ze swoja ukochana Celine... w piekle, które dla was stworzylem!~
+
+
+
+@3512  = ~To nie zemsta, Anthagar... To sprawiedliwosc! Mathyus... jesli mnie slyszysz... przykro mi, przyjacielu... Obiecuje, ze zrobimy wszystko, aby cie wskrzesic!~
+@3513  = ~(Mathyus, ze swoimi oczami pozbawionymi woli, napina swój luk, a ty widzisz, jak magowie z Zapomnianej Krypty usmiechaja sie. Wiedza, ze bedziesz musial równiez zakonczyc go.)~
+@3515  = ~(Jego swiecace oczy oczekuja bezwarunkowego wsparcia)~

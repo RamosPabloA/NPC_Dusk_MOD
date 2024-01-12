@@ -1,0 +1,99 @@
+// Bloque 1 (FTF)
+
+@1 = ~Maly Baba patrzy na ciebie swoimi duzymi oczami, gdy sie zblizasz. Zaczyna PORUSZAC ogonem, nie bardzo wiesz, czy to oznacza, ze jest szczesliwy czy zly. Rusza swoim malutkim pyskiem i wydaje dzwieki, które wydaja sie byc rodzajem szczekania, co cie zdezorientowalo, poniewaz wlasnie oddzialujesz z gryzoniem.~ [P_Baba01] ~Maly Baba patrzy na ciebie swoimi duzymi oczami, gdy sie zblizasz. Zaczyna PORUSZAC ogonem, nie bardzo wiesz, czy to oznacza, ze jest szczesliwy czy zly. Rusza swoim malutkim pyskiem i wydaje dzwieki, które wydaja sie byc rodzajem szczekania, co cie zdezorientowalo, poniewaz wlasnie oddzialujesz z gryzoniem.~ [P_Baba01]
+@2 = ~Czesc, wielki Baba! Wiem, ze nie jestem godny, aby sie do ciebie zwracac, ale z nalezytym szacunkiem osmielam sie zwrócic z prosba o twoje uslugi. Jesli masz jakiekolwiek wartosciowe przedmioty dla mnie, czy wielki Baba bylby na tyle laskawy, aby mi je przekazac i tym samym odciazyc sie?~ ~Czesc, wielki Baba! Wiem, ze nie jestem godna, aby sie do ciebie zwracac, ale z nalezytym szacunkiem osmielam sie zwrócic z prosba o twoje uslugi. Jesli masz jakiekolwiek wartosciowe przedmioty dla mnie, czy wielki Baba bylby na tyle laskawy, aby mi je przekazac i tym samym odciazyc sie?~
+@3 = ~Kto jest najladniejszym myszka na swiecie? Ty nim jestes, tak Baba, ty nim jestes! A poniewaz jestes najladniejszym myszka na swiecie, na pewno dasz mi to, co masz cenne przy sobie, prawda? *próbujesz go poglaskac, jednoczesnie wymuszajac duzy, sztuczny usmiech*~
+
+
+@4 = ~Czesc, Baba. Chcesz kawalek ciasta? Musze miec cos schowanego w plecaku. Dam ci kawalek, jesli dasz mi to, co ukradles, co powiesz na to?~
+@5 = ~Przez chwile wydaje sie, ze udalo ci sie zaszachowac dume Baby. Ale nagle zaczyna sie trzasc jak szalony i ucieka od ciebie, wydajac dziwaczne pomruki.~ [P_Baba01]
+@6 = ~Przez pierwsze chwile patrzy na ciebie z podejrzliwoscia. Ale w koncu ulega twoim glaskom, wydajac kilka dziwnych wysokich dzwieków. Baba decyduje sie dac ci wszystko, co ma w swoim inwentarzu.~ [P_Baba02]
+@7 = ~Kiedy wspominasz o jedzeniu, uszy Baby wydluzaja sie na chwile. Ale po kilku sekundach zdaje sobie sprawe, ze próbujesz go tylko przekupic. Jego dume zraniono, i ucieka jak oszalaly, wydajac dzwieki zlosci w twoja strone.~ [P_Baba01]
+
+// Bloque 2 (TFF)
+
+@8 = ~Maly Baba patrzy na ciebie swoimi duzymi oczami, gdy do niego podejdziesz. Zaczyna SKAKAC jak szalony, i nie wiesz, czy to oznacza, ze jest zadowolony, ze cie widzi, czy moze planuje cie zaatakowac. Macha malymi lapkami i wydaje dzwieki, które jednoznacznie przypominaja te wydawane przez szczenie psa, co pozostawia cie zdezorientowanym, poniewaz akurat interagujesz z gryzoniem.~ [P_Baba01]
+@9 = ~Witaj, wielki Baba! Wiem, ze nie jestem godny zwracania sie do ciebie, ale z nalezytym szacunkiem osmielam sie poprosic o twoje uslugi. Jesli masz dla mnie jakas wartosciowa rzecz, czy wielki Baba bylby tak laskawy, zeby mi ja oddac i tym samym odciazyc swój ciezar?~ ~Witaj, wielki Baba! Wiem, ze nie jestem godna zwracania sie do ciebie, ale z nalezytym szacunkiem osmielam sie poprosic o twoje uslugi. Jesli masz dla mnie jakas wartosciowa rzecz, czy wielki Baba bylby tak laskawy, zeby mi ja oddac i tym samym odciazyc swój ciezar?~
+@10 = ~Kto jest najmilszym myszkiem na swiecie? Tak, ty nim jestes, Baba, ty nim jestes! A poniewaz jestes najmilszym myszkiem na swiecie, na pewno dasz mi to, co masz cenne przy sobie, prawda? *próbujesz go poglaskac, jednoczesnie wymuszajac usmiech*~
+
+
+
+@11 = ~Hej, Baba. Chcesz kawalek ciasta? Musze miec cos schowanego w plecaku. Dam ci kawalek, jesli dasz mi to, co ukradles. Jak myslisz?~
+@12 = ~Baba, nagle prostujac sie, wydaje sie z toba zgadzac, wydajac dziwne dzwieki przypominajace odglosy psa. Fakt, ze mówiles prawde, przekonal go do oddania ci tego, co ma w swoim inwentarzu.~ [P_Baba02]
+@13 = ~Przez chwile prawie mu wierzysz, ale Baba odkrywa, ze chcesz tylko to, co ma, wiec ucieka, narzekajac w niezrozumialym jezyku.~ [P_Baba01]
+@14 = ~Kiedy wspominasz o jedzeniu, uszy Baby na moment sie wydluzaja. Ale po chwili zdaje sobie sprawe, ze tylko próbujesz go przekupic. Jego duma zostaje zraniona, i ucieka jak szalony, wydajac odglosy zlosci w twoja strone.~ [P_Baba01]
+
+// Bloque 3 (FFT)
+
+@15 = ~Maly Baba patrzy na ciebie swoimi duzymi oczami, gdy sie zblizasz. Zaczyna BIEC wokól ciebie bez widocznego powodu, nie wiesz, czy robi to, bo sie cieszy, ze cie widzi, czy moze planuje ukrasc jakas cenna bizuterie, która mozesz miec. Wchodzi ci na ubranie, wdrapujac sie na jedna z twoich nóg. Próbujesz go z siebie zrzucic, ale to trudne. Tymczasem wydaje dzwieki podobne do jeków psa, co sprawia, ze czujesz sie zdezorientowany, bo wiesz, ze masz do czynienia z gryzoniem.~ [P_Baba01]
+@16 = ~Witaj, wielki Baba! Wiem, ze nie jestem godzien zwracac sie do ciebie, ale z nalezytym szacunkiem osmielam sie poprosic o twoje uslugi. Jesli masz jakies cenne przedmioty dla mnie, czy wielki Baba bylby tak laskawy, aby mi je przekazac i tym samym odciazyc swoje brzuchate plecy?~ ~Witaj, wielki Baba! Wiem, ze nie jestem godzien zwracac sie do ciebie, ale z nalezytym szacunkiem osmielam sie poprosic o twoje uslugi. Jesli masz jakies cenne przedmioty dla mnie, czy wielki Baba bylby tak laskawy, aby mi je przekazac i tym samym odciazyc swoje brzuchate plecy?~
+
+
+
+@17 = ~Która myszka jest najmilsza na swiecie? Ty jestes, Baba, tak, ty jestes! I poniewaz jestes najmilsza myszka na swiecie, na pewno dasz mi to, co masz wartosciowego przy sobie, prawda? (starczasz go, jednoczesnie wymuszajac wielki usmiech)~
+@18 = ~Czesc, Baba. Chcesz kawalek ciasta? Musze miec cos schowanego w plecaku. Dam ci kawalek, jesli dasz mi to, co ukradles. Co ty na to?~
+@19 = ~Przez chwile wydaje sie, ze udalo ci sie dotknac dumy Baby. Ale nagle zaczyna sie trzasc jak szalony i ucieka od ciebie, belkoczac wsciekle dzwieki.~ [P_Baba01]
+@20 = ~Przez chwile prawie udaje ci sie go przekonac, ale Baba odkrywa, ze chcesz tylko to, co on ma, wiec ucieka, jednoczesnie narzekajac w niezrozumialym jezyku.~ [P_Baba01]
+@21 = ~Chociaz widzisz wyrazna niechec Baby do ciebie, maly szczur zdal sobie sprawe, ze nie jadl od kilku godzin, wiec postanawia dac ci to, co udalo mu sie zdobyc, w zamian za obietnice jedzenia.~ [P_Baba02]
+
+// HPLT
+@22 = ~Hej, Baba, czy wszystko w porzadku? Wydajesz sie bardziej zdenerwowany niz zwykle. Jestes ranny?~
+@23 = ~Baba wydaje sie oburzac na tak oczywiste stwierdzenie, wiec postanawia pokazac ci swoje male lapki, gdzie ma rane z walki. Nastepnie ucieka od ciebie, bo wydajesz sie nie martwic o jego samopoczucie.~ [P_Baba01]
+
+@24 = ~*Baba patrzy na Minsca z duzym nieufnoscia. W rzeczywistosci nieufnosc ta jest skierowana do Boo.*~
+@25 = ~Co sie dzieje z malym Baba? He? Boo mówi, ze tez ci nie ufa.~
+@26 = ~*Baba zaczyna poruszac swoimi lapkami z duza predkoscia i wydaje dziwne dzwieki. Gdybys mówil w jego jezyku, bylbys niemal pewien, ze obelga Boo*~ [P_Baba01]
+@27 = ~To bardzo niegrzeczne! Co, ty tez, Boo?~
+@28 = ~*pisk*~ [P_Squeak]
+@29 = ~O, Boo, to niewybaczalne! Nigdy wczesniej nie slyszalem takich obelg... jestem calkowicie zawstydzony przez was!~
+@30 = ~*Baba kontynuuje swoja histerie i wydaje sie negatywnie zachecac do histerii u chomika.*~ [P_Baba02]
+//@31  = ~~
+@32 = ~O nie, to sie nie stanie. Ostatnie, czego nam trzeba, to pojedynek na smierc miedzy gryzoniami. <CHARNAME> bylby/a bardzo rozczarowany/a wami.~
+@33 = ~Chodz, Boo! Lepiej odejdz od tego niegrzecznego.~
+@34 = ~*Móglbys przysiac, ze Baba usmiecha sie zwycieski, gdy widzi, jak Minsc odchodzi z Boo.*~
+
+
+
+@35 = ~*Baba wydaje sie uwaznie obserwowac Yoshimo.*~
+@36 = ~Co to jest? To chyba dobry Baba. Ty móglbys byc swietnym Cieniem Zlodzieja, wiesz?~
+@37 = ~*Baba zaczyna wydawac swoje klasyczne dziwne dzwieki.*~ [P_Baba01]
+@38 = ~Tak, cóz. Prawde mówiac, nie mam pojecia, co do mnie mówisz.~
+@39 = ~*Baba nadal mówi w swoim jezyku i prawie wydaje sie tlumaczyc to, co 'mówi', swoimi malymi lapkami.*~ [P_Baba02]
+@40 = ~Patrzac na to, jak to wyrazasz, nie odwazylbym sie cie sprzeciwiac, maly przyjacielu.~
+@41 = ~*Baba wydaje sie kiwac glowa swoja mala glówka. Jest calkowicie przekonany, ze wlasciwie sie wyrazil.*~
+
+
+@42 = ~*Baba podchodzi do Mazzy i zatrzymuje sie, patrzac na nia uwaznie. Po raz pierwszy dostrzegasz wahanie w jego spojrzeniu.*~
+@43 = ~Oh, czesc Baba. Jak sie m--?~
+@44 = ~*Baba zaczyna wydawac swoje typowe dziwne dzwieki, przerywajac Mazz. W jego oczach widac pewien ból.*~ [P_Baba01]
+@45 = ~Ah, to piekne Baba.~
+@46 = ~*szept* Nie rozumiem, co sie dzieje, Bellfame?~
+@47 = ~Czy to nie jest oczywiste, smiertelniku? Baba wyznaje jej milosc.~
+@48 = ~*Baba kontynuuje swoje 'przemówienie', podczas gdy Mazzy i Bellfame rozmawiaja po cichu.*~ [P_Baba02]
+@49 = ~Co? Czy ten gryzon jest we mnie zakochany?~
+@50 = ~Tak. Wlasnie recytuje to, co wy nazywacie poezja.~
+@51 = ~Oh, rozumiem. A co mówi?~
+@52 = ~*Baba nadal wydaje egzotyczne dzwieki.*~ [P_Baba01]
+
+@53 = ~Mówi cos w ten sposób:
+'Gleboko w mojej malej norze,
+westchnienie milosci do pieknej kobiety.
+W jej oczach znajduje prawdziwe swiatlo,
+a moje mysie serce wypelnia sie gwiazdami.'~
+@54 = ~'Choc jestem maly, nie boje sie walczyc,
+za milosc, która czuje w moim mysim sercu.
+Pod ksiezycem szelecze wiersze bez ustanku,
+malujac w nocy slodkie pragnienie.'~
+@55 = ~'Och, Marzy, posluchaj mego glosu,
+jestem myszka, która cie kocha z oddaniem.
+W moim malym istnieniu jest milosc szybka,
+myszka zakochana, wiecznie zakochana.'~
+@56 = ~*Baba konczy wreszcie swoja 'deklaracje'.*~
+
+@57  = ~Oh, to... niezwykle piekne. Nie sadzilem, ze... gryzon moze skomponowac cos tak pieknego.~
+@58  = ~Baba moze byc surowy dla reszty smiertelników. Ale to pierwszy raz, kiedy widze, ze wyraza cos z prawdziwego uczucia.~
+@59  = ~Rozumiem.~
+@60  = ~Baba, dziekuje za twoja poezje. Chodz tutaj.~
+@61  = ~*Oczy Baby swieca nieustannie, a on biegnie szybko w kierunku Mazzy.*~
+@62  = ~*Mazzy bierze go w rece, unoszac i kladac pocalunek na jego glówce. Nastepnie odklada go na ziemie.*~
+@63  = ~*Baba wydaje sie byc zachwycony... i po chwili zdaje sobie sprawe, ze wszyscy go obserwuja. Aby uniknac zaklopotania, ucieka z duza predkoscia.*~

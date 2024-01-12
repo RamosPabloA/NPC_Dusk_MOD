@@ -1,0 +1,128 @@
+@0    = ~*growl* It worked...~
+@1   = ~It was what I expected.~
+@2   = ~Human! You have come, as the mage said. Straight... into my jaws...~
+
+@3   = ~Mage? I knew Valatar or Sornhil were involved...~
+@4   = ~I have no idea what that mage elf's name is, nor do I care.~
+@5   = ~Kalanda was his name, my lord. His transmutation spell is amazing. I didn't think it would last this long.~
+@6   = ~Chimi: I had already gotten used to seeing you as a squirrel, boss.~
+@7   = ~Toxsan: He wasn't a squirrel, Chimi. He was a ferret.~
+@8   = ~I still insist that a badger would have been a better choice.~
+@9   = ~That's because you have an obsession with badgers, Kocha.~
+@10   = ~I think there are more important issues to discuss, comrades.~
+@11   = ~Silence, you idiots! The soldier and I are trying to talk. It's not like this is going to end in anything other than a slaughter...~
+@12   = ~Dusk, I don't want to alarm you, but we are surrounded.~
+
+// EVIL (part1)
+
+@13   = ~Ha! So you must be the Bhaalspawn: <CHARNAME>. Killing you will be an extra benefit for my clan.~
+@14   = ~Scum! Do not address him. Your filthy mouth is not worthy to name him.~ ~Scum! Do not address her. Your filthy mouth is not worthy to name her.~
+@15   = ~*growl* You still have that anger, soldier. But it will not be like last time... No... Alabarza the Mutilator will finish you off... once and for all.~
+@16   = ~It seems you have forgotten who took out your eye, monster. Do you want me to finish the job and take out the other one? I'd be happy to.~
+@17   = ~*guttural laugh* It seems you are not aware of the situation, soldier.~
+@18   = ~My warriors will take care of yours... and I will take care of you...~
+
+// NPCs
+
+@19   = ~Dusk, <CHARNAME>, Minsc and Boo are ready to kick orc and troll butts!~
+@20   = ~Baldy! That rodent will be mine. Komar demands it! Komar will break your bones and take the little furball for his amusement!!!~
+@21   = ~Baldy? You will be the bald one, evil ogre! And Boo will be no one's slave. The fury of the hamster is free and will make you see stars!~
+@22   = ~Oh, I don't like this... but I'll do everything I can to protect my friends!~
+@23   = ~This may be our last battle, my friends. But by Torm, I will fight to the bitter end!~
+@24   = ~A paladin! Boss, let me take care of that miserable one. I'll make sure he meets his god as soon as possible.~
+@25   = ~Try it, creature! You'll see how quickly you fall before the edge of Justice.~
+@26   = ~Well, it's time to test my warrior skills (not that it's going to be anything impressive, but maybe it'll scare a couple of monsters).~
+@27   = ~Arvoreen, give me the strength to win this battle!~
+@28   = ~Chimi: So you want to devour that halfling, Bob? Go ahead, freely. Leave some bones for your brother Mike, will you?~
+@29   = ~*The creature centers its eyes on Mazzy. It almost seems to be licking its lips*~
+@30   = ~I hate to say this, but it's not the first time a monster has tried to devour me... Still, I'm sorry to say that you'll be disappointed, pest.~
+@31   = ~Finally, you bring us some action, Dusk! Helm, give me strength. Today, I'll fight in your name and triumph!~
+@32   = ~Boss, let me take that young monk. It's always a pleasure to beat up arrogant humans.~
+@33   = ~For the memory of my father, I will not allow miserable trolls to roam these lands!~
+
+@34   = ~I feel like you're talking to me, female.~
+@35   = ~For de'Arnise! Today will be the last day you breathe, monster.~
+@36   = ~*snort* I'm tired of these arrogant humans...~
+@37   = ~Dusk, your desire for revenge is understood and welcomed. And it will be an honor to fight alongside you to fulfill it!~
+@38   = ~It's time to put an end to this Mound. A den like this so close to the Grove is an affront to nature.~
+@39   = ~Toxsan: What do you say, Mike? Do you want to eat the human druid? For me, so be it. Don't forget your brother Bob, yes?~
+@40   = ~*The umber hulk focuses its four eyes on Cernd, impatient for its master to release its reins and begin the attack*~
+@41   = ~Creature, today you will be food for worms and contribute to the cycle of life, through your death.~
+@42   = ~Dusk, the time has come. We will do justice for your fallen comrades!~
+@43   = ~Well, rivvil, we have come a long way to get here. I will use the divinity of Shar in your favor, do not forget it. Our enemies will fall into the Eternal Darkness.~
+@44   = ~*hiss* A drow! Lord, let me experiment with her, please. I promise to be... meticulous.~
+@45   = ~While I don't care about your past, stick man, I admit this is a good opportunity to test my spells. Especially against that lizard.~
+
+@46   = ~Are you talking to me, red wizard?~
+@47   = ~That's right, tadpole! You'll have the honor of dying at the hands of Edwin Odesseiron.~
+@48   = ~You're crazy, wizard. Although that doesn't surprise me coming from a human user. Lord, allow me to finish off that fool.~
+@49   = ~Well done, scrawny! Ye've brought us into a 'trap'. What these fools don't know is that ye have Korgan's axe on yer side.~
+@50   = ~Chimi: Look, Toxsan! A dwarf. It reminds me of old times.~
+@51   = ~Toxsan: That's right, Chimi. Crushing them was our pastime. Now we can relive it, don't you think?~
+@52   = ~Here I am, bloody ettin. Come and try my axe! You'll see how quickly I gut ye.~
+@53   = ~So we fell into a trap, huh? This reminds me of the time--~
+@54   = ~I don't think it's the best time for one of your stories, Jan.~
+@55   = ~Well, well. But I'll tell you when we've won here. What do you think, good Dusk?~
+@56   = ~Deal.~
+@57   = ~Ahhh, white raven. You've fallen into a trap. But who am I to judge you? I myself have been in similar situations. Come, let's defeat these fools, so I can compose one or two songs about our feats.~
+
+
+// EVIL (part2)
+
+@58   = ~Come on, warriors! We are the Dragon Slayers... and we have only one dragon left to slay.~
+@59   = ~Lord, I will not disappoint you!~
+@60   = ~Khjjjiii! I will build an altar with its bones.~
+@61   = ~Chief, I will show my strength. For our clan!~
+@62   = ~I will make a feast with the meat of our enemies. It will be a delicious banquet...~
+@63   = ~*hiss* Finally... let us leave someone alive... I want to experiment with their bodies!~
+@64   = ~Chimi: Come on, Bob... Compete with your brother, let's see who can crush these weaklings more!~
+@65   = ~*At Chimi's words, the Hulk prepares its terrible claws to attack*~
+@66   = ~Toxsan: Did you hear that, Mike? Chimi has issued a challenge. Don't disappoint me!~
+@67   = ~*Mike claps his fists together and launches an attack after Toxsan's words*~
+
+
+// GOOD ORBET RING BELLFAME
+@68   = ~I have defeated you once, Alabarza. I can do it again.~
+@69   = ~I am not alone in this, monster.~
+@70   = ~Outnumbered? You are mistaken, Alabarza. Orb, bring my friends!~
+@71   = ~*Dusk raises the teleportation orb and it glows. Several portals open around him*~
+
+@73   = ~But what--?!~
+@74   = ~In the name of the Noble Order of the Radiant Heart, we will fight!~
+@75   = ~Well, I didn't think the spell of the little green man would work.~
+@76   = ~Wow, I feel so dizzy!~
+@77   = ~Pay attention, Coco! Don't show weakness to the enemy.~
+@78   = ~Cufa: Yay! Travel be very fun. Can we do it again, Tima?~
+@79   = ~Tima: It's easy for you to say, Cufa. I think I'm the one who got the effects of the dizziness.~
+@80   = ~*growl* So, you have your own army, soldier...~
+@81   = ~It was a great idea, Dusk. It seems like the game has been leveled now.~
+@82   = ~Dusk! We will be under your command and <CHARNAME>'s. The little green gnome said not to worry if any of us fall in battle. He will take care of reviving the dead, no matter how severe the injury.~
+@83   = ~But for that to work, Dusk, we must win this battle. I must admit that the little friend of the green-haired elf is quite powerful.~
+@84   = ~Interesting, my lord. I had never witnessed such power before as in these past few days. Between the transmuter and the magical orb that the soldier pulled out of his sleeve, I am stunned.~
+
+@85   = ~The truth is, you're surprised by anything, Tongas.~
+@86   = ~*hiss* Little green man? If he comes, I want to torture him.~
+@87   = ~Do what you want, lizard. I think I'll settle for that gnoll. *Licks lips*~
+@88   = ~*growl* That remains to be seen, disgusting orog.~
+@89   = ~Is it necessary for this to end in a fight? We could all be friends and happy!~
+@90   = ~Boss, a goblin with a delicate voice! Goblin, you'll serve as my pet.~
+@91   = ~Ugh... you're very rude, ogre. Not in your dreams.~
+@92   = ~Cufa: Tima, see that? Another ettin!~
+@93   = ~Tima: Yes, I see that, Cufa. I also see their... pets...~
+@94   = ~Toxsan: I can't believe what I'm seeing. An ettin fighting alongside humans and paladins...~
+@95   = ~Chimi: How can you not believe it? You're seeing it with our own eyes, Toxsan!~
+@96   = ~Toxsan: *sigh* I know, Chimi. It's an expression.~
+@97   = ~Toxsan: I don't think we can be friends with those brutes, Chimi. I think we'd have to introduce them to our pets, don't you think?~
+@98   = ~*Bob prepares his arms, eager to receive his master's orders and launch into attack*~
+
+@99   = ~*Mike does the same, focusing his eyes on the prey in front of him*~
+@100  = ~Cufa: Tima, we need to get pets like that, don't you think?~
+@101  = ~Tima: Cufa, you already have pets. And I doubt these umber hulks will get along with the Order's horses.~
+@102  = ~So be it... Soldiers, form up! A tough battle awaits us...~
+@103  = ~Come on, warriors! We are the Dragon Slayers... but this time... I suppose we'll have to settle for killing this... dog.~
+@104   = ~You better wake up, soldier... You're still surrounded and outnumbered. My warriors will have a feast with your bones.~
+@105  = ~Soldier... get ready... I'm coming for you!~
+@106  = ~Oh, Dusk... you sure know how to make friends, huh? Very well, I'll help you face these monsters.~
+@107  = ~~
+@108  = ~~
+@109  = ~~

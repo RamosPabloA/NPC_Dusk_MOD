@@ -1,0 +1,131 @@
+// DORN 1
+
+@0    = ~Jestes dziwnym stworzeniem, Dusk. Zaczelo mnie zastanawiac, co do twoich naturalnych zdolnosci.~
+@1    = ~Chodzi ci o odpornosc na magie?~
+@2    = ~Aha... twoje umiejetnosci na polu walki nie sa takie rewelacyjne. Jednakze zwraca uwage, ze czlowiek moze zdobyc taka... ceche.~
+@3    = ~Cóz... to cos, co osiaga sie dzieki wielu treningom... i przede wszystkim: bólowi.~
+@4    = ~Interesujace. Moze porozmawiamy o tym pózniej.~
+@5    = ~Moze, Dorn... moze...~
+
+// DORN 2
+
+@6    = ~Twoje umiejetnosci w walce sa niesamowite, Dorn. Twoje pragnienie krwi równiez. Szczerze mówiac, troche przeraza.~
+@7    = ~Wolac o krew to cos naturalnego dla Strazników Czarnych, Dusk.~
+@8    = ~Nie masz tego dosc?, nie tesknisz za spokojnym zyciem?~
+@9    = ~Spokój? To tylko bajka, chlopcze. Wojna jest znacznie bardziej atrakcyjna. Wszechswiat jest w calkowitym chaosie, zawsze.~
+@10   = ~Moze i tak jest... Troche przygnebiajace, nie sadzisz?~
+@11   = ~Prawda zazwyczaj nia jest. Nie musi ci sie podobac.~
+
+
+// DORN TOB
+
+@17   = ~Zrobiles duze postepy jako wojownik, czlowieku.~
+@18   = ~Dzieki, chyba.~
+@19   = ~Masz szczescie, ze jestesmy po tej samej stronie ulicy.~
+@20   = ~Nie jestem pewien, czy to, ze jestesmy w tym samym zespole, oznacza, ze jestesmy na "tej samej ulicy".~
+@21   = ~Heh! To prawda... Twoje idealy Cormyru z pewnoscia sa czyms do wykorzenia.~
+@22   = ~Wow, uprzedzenia pojawily sie szybko, co?~
+@23   = ~Jestem uprzedzony, chlopcze. Powinienes to docenic.~
+@24   = ~Masz racje... Co za grubianstwo z mojej strony!~
+
+// HEXXAT
+
+@25   = ~Co sie dzieje, Dusk? Wygladasz na nieswojego... Czy to... moja obecnosc?~
+@26   = ~Nieumarli byli moimi naturalnymi wrogami przez wiele lat. To, ze nic nie robie w zwiazku z twoja... "obecnoscia", wynika jedynie z mojego szacunku dla <CHARNAME>.~
+@27   = ~Szkoda... chcialbym zobaczyc, na co cie stac...~
+@28   = ~Nie próbuj swojego szczescia, demone...~
+
+// HEXXAT TOB
+
+@29   = ~Co z toba, Dusk? Nadal nie przyzwyczailes sie do mnie, co nie?~
+@30   = ~Oczywiscie nie, Hexxat.~
+@31   = ~Wow... przynajmniej wymówiles moje imie... To z pewnoscia postep.~
+
+// NEERA 1
+
+@32   = ~Musze przyznac, ze zaskakujesz, Neero.~
+@33   = ~*khem* Co? Nie mówisz... co znowu zrobilam?~
+@34   = ~O, nic, to tylko wyrazenie, nic konkretnego.~
+@35   = ~Dusk! To nieladne straszenie ludzi, wiesz?~
+@36   = ~No, nie bylo to moje zamiary, ja--~
+@37   = ~No dobrze? Jestem zaskakujaca (to juz wiedzialam), ale dlaczego to powiedziales?~
+@38   = ~Otóz, jestem dosyc niechetny do dzielenia drogi z uzytkownikiem magii.~
+@39   = ~Nie mów, Dusk. Widok, jak przerywasz cudze zaklecia swoim kijem, zupelnie mnie nie zaniepokoil.~
+@40   = ~Tak, no--~
+@41   = ~I równiez w ogóle nie przypuszczalem, kiedy obcinales rece szamanom trasgom czy orkom swoim wielkim mieczem. Nie, wcale.~
+@42   = ~*chrzakniecie* Rozumiem twój punkt widzenia...~
+@43   = ~I jestem dla ciebie zaskakujaca, poniewaz nie jestem kims jasno zlym ani godnym twojej zemsty i--~
+@44   = ~Juz, juz! *westchnienie* Och, ehm, wydaje sie, ze <CHARNAME> mnie wola.~
+@12   = ~Naprawde? Nic nie slyszalem.~
+@13   = ~Tak, no, wiesz, jak sie zachowuje, gdy go zaniedbuja. Porozmawiamy innym razem, ok?~
+@14   = ~Zgoda, Dusk! Zawsze milo z toba porozmawiac.~
+@15   = ~Hm, tak... to samo... znaczy sie...~
+
+// NEERA TOB
+
+@62   = ~Neera, nie jestem pewien, czy potrzebuje twoich zaklec ochronnych.~ 
+@63   = ~Dlaczego tak sadzisz, Dusk?~
+@64   = ~Hm... czasami czuje... skutki uboczne po pewnym czasie.~
+@65   = ~Och, nie mów mi, ze zaczynasz pachniec jak krowa.~
+@66   = ~Jak co? Nie, to nie to. Czasami, mojego glosu brzmi troche... inaczej. Jakby afonicznego gnojka.~
+@67   = ~Ha, rozumiem. Czyli dlatego ignorowales mnie tamtego dnia, kiedy prosilam, abys podzielil sie swoimi ciastkami?~
+@68   = ~Ehm... *chrzakniecie* Tak, dokladnie.~
+@69   = ~No cóz, Dusk. Przepraszam. Ale czasami, w zgielku walki, zapominamy, ze mozemy rzucic zaklecie obszaru.~
+@70   = ~Rozumiem... *szept* Wiec bedzie to nadal sie zdarzac... Kurcze...~
+
+
+// RASSAD 1
+
+@71   = ~Musze powiedziec, Rasaad: podziwiam twa odwage, korzystajac tylko z rak i nóg jako broni.~
+@72   = ~Dzieki, Dusk. Lata treningu przyniosly efekty.~
+@73   = ~Tak to prawda. Wola, zaangazowanie... to wartosci, których niewielu ludzi jest w stanie utrzymac.~
+@74   = ~Nie moglibysmy byc takimi wojownikami, gdybysmy nie mieli takich zdolnosci. Ale wiesz, ze to nie wszystko, co jest potrzebne, prawda?~
+@75   = ~Wiem... jest tez cel... cos, co popycha cie do przodu.~
+@76   = ~Widze, ze sie rozumiemy, Dusk.~
+@77   = ~Tak, Rasaad. To przyjemnosc walczyc u boku kogos takiego jak ty.~
+
+// RASSAD 2
+
+@78   = ~Twoja wola kontynuacji jest zelazna... mam na mysli twego brata, Rasaad.~
+@79   = ~Dz-dzieki, przypuszczam. Dusk, mysle, ze ty równiez idziesz dalej dla kogos, kto odszedl, prawda?~
+@80   = ~No cóz... tak... wspomnienia o tych, którzy juz nie sa, sklaniaja mnie do kontynuacji...~
+@81   = ~Mnie takze. Martwi patrza na nas... i musimy oddac im hold.~
+@82   = ~Chociaz... musze przyznac... ze czasem kwestionuje sens zemsty... To, do czego jestesmy zdolni...~
+@83   = ~Czasami nie pozwala ci to spac, co?~
+@84   = ~Rozumiesz mnie doskonale, mój przyjacielu. Idzmy dalej... przyszlosc na nas czeka.~
+
+// RASSAD TOB
+
+@93   = ~Co sadzisz o naszych przygodach, Rasaad?~
+@94   = ~Chodzi ci o miejsca, do których <CHARNAME> nas zaprowadzil?~
+@95   = ~Cóz, tak.~
+@96   = ~Oczywiscie sciezka potomka Bhaala wykracza poza moje zrozumienie. Przeciez jestem tylko zwyklym smiertelnikiem.~
+@97   = ~Rozumiem, ale ja mówilem o tym fizycznym aspekcie. Czy nie uwazasz za dziwne, ze Plany Bhaala, do których nas prowadzi na odpoczynek?~
+@98   = ~Zdecydowanie... choc z czasem sie przyzwyczaisz.~
+@99   = ~To samo mialem na mysli! Nawet zaczynasz to polubic.~
+@100  = ~*Smieje sie* No, nie wiem, czy powiedzialbym to w ten sposób. *chrzakniecie* Dusk, <CHARNAME> patrzy na nas dziwnie. Lepiej ruszajmy w podróz.~
+
+// WILSON
+
+@199  = ~(Wilson rusza uszami, wyrazajac zdziwienie wobec dowcipu <CHARNAME>)~ [BBEAR04]
+@201  = ~(Warczenie, parskanie)~ [BBEAR04]
+@202  = ~Co mówisz, Wilsonie? Chcesz pozrec te gnole?~
+@203  = ~*warczenie* Lepiej uspokój swojego kudlatego przyjaciela, zolnierzu.~
+@204  = ~(Warczenie, jek)~ [BBEAR09]
+@205  = ~Spokojnie, Wilsonie, spokojnie... poczekaj chwile... za chwile zobaczymy, jak to sie rozwiaze...~
+@206  = ~(Warczenie) (Widzisz, jak Wilson pokazuje zeby Niberowi)~ [BBEAR02]
+@207  = ~O kurcze, Wilson. *Oglada sie na wszelkie strony* Prosze, nie zjedz tego goscia.~
+@208  = ~(Lament) (Widzisz, jak Wilson opuszcza uszy, wyraznie przestraszony, chociaz nie wiesz, dlaczego)~ [BBEAR09]
+@209  = ~(Warczenie) (Wyraznie, Wilson bylby bardziej niz chetny, zeby pozrec Saemona)~ [BBEAR08]
+@210  = ~(Parskanie) (Na pozór Wilson wydaje sie niedowierzac widzac chlodne przyjecie elfów)~ [BBEAR04]
+
+@211  = ~Hmpf... kiedys uwazalbym to za absolutnie obrazliwe, gdyby cos takiego mialo miejsce w Hali Zakonu... Ale nauczylem sie, ze natura mieszczanina jest... glupia.~
+
+@212  = ~Zabijac cywili, pólorku? To jest ponizej naszego poziomu.~
+@213  = ~*westchnienie* Niemniej jednak, <CHARNAME>, jesli uwazasz, ze to wlasciwe, zrobie to.~
+@214  = ~~
+@215  = ~~
+@216  = ~~
+@217  = ~~
+@218  = ~~
+@219  = ~~
