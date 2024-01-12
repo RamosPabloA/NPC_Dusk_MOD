@@ -1,0 +1,194 @@
+
+@0 = ~(Leprechaun widzi cie nadchodzacego, a nastepnie, po otwarciu szeroko oczu, zaczyna biec jak oszalaly, oddalajac sie od ciebie podczas smiechu)~ [P_Mich04]
+
+@1 = ~(Maly wodzi na ciebie wzrokiem i widzisz, jak przygotowuje swoje nózki do ucieczki. Jednak zatrzymuje sie, widzac Duska w twoich szeregach)~ [P_Mich04]
+
+@2 = ~(Nagle jego oczy sie otwieraja, a on zaczyna usmiechac sie, jakby mial cie wlasnie zamordowac. Ale zamiast tego zaczyna tanczyc i tupotac w miejscu)~ [P_Mich02]
+
+@3 = ~(Jasne jest, ze leprachaun ignoruje Duska i nadal tanczy z euforia i szalenstwem, smiejac sie bardzo radosnie)~
+@4 = ~(Leprachaun nadal tanczy, jakby nie bylo jutra)~
+@5 = ~Szczerze mówiac, Dusku, wolalbym nie zaglebiac sie bardziej w te sprawe. Hej, gnojku! Dam ci 750 zlota, jesli wrócisz z twoim przyjacielem o zielonych wlosach, co powiesz?~
+@6 = ~Na nasze szczescie mamy cos, co go moze przekonac. Hej, Michelson! Chcesz piwa? Dam ci tylko wtedy, jesli obiecasz wrócic do swojego przyjaciela z zielonymi wlosami, zgoda?~
+@7 = ~Hmmm... mysle, ze mozemy zaimprowizowac jakis zart, co ty na to? Znasz jakis?~
+@8 = ~Nie rozumiem, dlaczego tyle dramatu. Spójrz na niego. To bardzo urocze stworzenie. Prawda, Michelson? Na pewno jestes bardzo uroczy. *usmiechasz sie do niego*~
+@9 = ~(Michelson przerywa swoje szalone tance, aby desperacko chwycic za worek z oferowanymi zlotówkami. Ponownie go blagasz, aby wrócil do Mathyusa, a on, z nosa w worku, wachajac zloto, kiwa glowa i ucieka na oslep)~ [P_Mich00]
+@10 = ~(Michelson przerywa swoje szalone tance, aby desperacko chwycic za kufel piwa, który mu oferowales. Zanim wypije cale, nalegasz, aby poszedl jak najszybciej do Mathyusa, na co leprachaun kiwa glowa, jednoczesnie pijac z kufla. Ucieka na oslep, a ty nie mozesz zrozumiec, jakim cudem nie rozlal ani kropli piwa w trakcie tego procesu)~ [P_Mich00]
+@11 = ~(Michelson zatrzymuje swój taniec po uslyszeniu slowa "zart". Jego postawa nagle staje sie powazna, skrzyzowal ramiona, uderza stopa o podloge, oczekujac na opowiesc)~
+
+
+
+@12 = ~Paladyn mówi orkowi, ze jego imie to 'Nikt'. Nastepnie atakuje go. Ork krzyczy o pomoc do swojego plemienia: "Pomocy, Nikt mnie atakuje!"~
+
+@13 = ~Dlaczego krasnolud zapuszcza brode? No, zeby wygladac jak jego matka! *smiejesz sie bez opamietania ze swojego wlasnego zartu*~
+
+@14 = ~Hej, Michelsonie... Czy wiesz, ze darowanemu koniowi nie patrzy sie w...*zastanawiasz sie przez chwile, bo nie pamietasz, jak brzmialo przyslowie*... wlosy nosa?~
+
+@15 = ~Mialem zamiar opowiedziec ci kawal, ale widzac cie takiego, caly zagniewanego, poczulem uczucie czulosci. Czyz nie jestes najbardziej urocza rzecza w calym Amn? *usmiechasz sie*~
+@16 = ~(Po kilku sekundach zaklopotania, brew leprechauna marszczy sie. Wyglada na to, ze nie polubil twojego zartu, w rezultacie biegnie jak oszalaly, tanczac i uderzajac stopami w powietrze)~ [P_Mich01]
+@17 = ~(Michelson uwaznie slucha zakonczenia twojej wypowiedzi. Nagle jego oczy szeroko sie otwieraja, zaczyna wydawac gromkie smiechy)~ [P_Mich03]
+@18 = ~Ha! Dzialalo. Michelson, potrzebujemy, abys wrócil do Mathyusa! Martwi sie o ciebie. Zrobisz nam te przysluge?~
+@19 = ~(Michelson nadal smieje sie, ale slucha i kiwa glowa. Obejmuje cie noga i ucieka jak opetany w kierunku kryjówki Mathyusa)~ [P_Mich00]
+@20 = ~(Znowu spotykasz Michelsona. Leprechaun nadal tanczy, jakby nie bylo jutra)~ [P_Mich00]
+@21 = ~(Znowu spotykasz Michelsona. Leprechaun nadal tanczy, jakby nie bylo jutra. Nie widzac przy tobie Duska, cie ignoruje i ucieka, oddalajac sie od ciebie jak najdalej)~ [P_Mich00]
+@22 = ~(Michelson, z marszczonym czolem i oczami pelnymi gniewu, szybko porusza rekami, a karmazynowy blask strzela w twoja strone. Nadal nie rozumiesz, co sie dzieje, widzisz, jak zwinny leprechaun odlatuje, oddalajac sie na kilka kroków)~ [P_Mich01]
+
+@23 = ~(Michelson uwaznie slucha rozmowy, jednoczesnie tupa stopami i tanczac jakis mistyczny i frenetyczny taniec)~
+@24 = ~(Nagle zatrzymuje swoje tance, oczekujacy i podekscytowany tym, co za chwile opowie Mathyus)~
+
+@25 = ~(Michelson szybko porusza rekami, wydajac jednoczesnie smiech przeplatany dziwnymi dzwiekami)~ [P_Mich02]
+@26 = ~(Michelson kreci sie ze smiechu, slyszac tamta fraze z opowiadania)~ [P_Mich03]
+@27 = ~(Michelson szybko kiwa glowa. Nastepnie macha raczka, witajac grupe, jednoczesnie tanczac piosenke, której ludzkie ucho nie jest w stanie uchwycic)~ [P_Mich00]
+
+@28 = ~(Michelson tanczy jakby nie bylo jutra. Wydaje sie byc jednoczesnie w rodzaju medytacyjnego transu. Jesli chcesz z nim cos zalatwic, musisz najpierw porozmawiac z Mathyusem)~ [P_Mich01]
+
+@29 = ~(Michelson zatrzymuje swój taniec i wiwatuje z euforia, smiejac sie, przypuszczasz, z radosci)~ [P_Mich03]
+@30 = ~(Michelson szybko kiwa glowa, prezentujac swoje biale zeby)~
+@31 = ~(Niezwykle rzadko, oblicze leprechauna staje sie powazne. Z wszystkimi skladnikami przed soba, jest gotowy do rozpoczecia procesu konstrukcji)~ [P_Mich01]
+@32 = ~(Wyglada na to, ze rytual dobiegl konca, a leprechaun jest troche wyczerpany)~
+@33 = ~(Michelson, zaskakujaco szybko odzyskujacy energie, tanczy i podchodzi do Duska, wymachujac z pewnym trudem nowa szabla)~ [P_Mich00]
+@34 = ~(Michelson, pelen energii, tanczy i pozdrawia grupe, tupa stopami i smiejac sie. Nie mozesz sie powstrzymac przed usmiechem)~
+
+
+@35 = ~(Michelson, zupelnie skoncentrowany, ma przed soba skladniki. Znikad zaczyna sie szalenczy ruch jego rak. Tak zaczyna sie proces konstrukcji)~
+
+@36 = ~(Michelson tanczy i pozdrawia grupe, tupajac stopami i smiejac sie)~ [P_Mich00]
+
+@37 = ~(Michelson tanczy jakby nie bylo jutra. Wydaje sie byc jednoczesnie w rodzaju medytacyjnego transu. Jesli chcesz z nim cos zalatwic, musisz najpierw porozmawiac z Mathyusem)~ [P_Mich01]
+@38 = ~(Michelson, zaskakujaco szybko odzyskujacy energie, tanczy i zbliza sie do Duska, podnoszac z ogromnym trudem pokazna zbroje plytowa)~ [P_Mich00]
+@39 = ~(Michelson, zaskakujaco szybko odzyskujacy energie, tanczy i zbliza sie, bawiac sie równoczesnie nowo wykutymi nadbrzusznikami)~
+
+@40 = ~Dziekuje, drogi Michelsonie. Nadbrzuszniki sa przepiekne.~
+@41 = ~Uwazaj, Michelsonie! Hmpf, prawie mnie poraziles, maluchu.~
+@42 = ~(Michelson, zaskakujaco szybko odzyskujacy energie, tanczy i zbliza sie, machajac niemal nieodpowiedzialnie mlotem Szkarlatnego Gromu na wszystkie strony, wywolujac iskry)~ [P_Mich00]
+@43 = ~(Michelson, zaskakujaco szybko odzyskujacy energie, tanczy i zbliza sie, noszac lekka zbroje skórzana)~ [P_Mich00]
+@44 = ~Dzieki, Michelsonie. Zbroja wyszla przepiekna.~
+@45 = ~(Michelson, zaskakujaco szybko odzyskujacy energie, tanczy i zbliza sie, wymachujac bulawa i obracajac glowa na wszystkie strony)~ [P_Mich00]
+
+
+@46 = ~Michelson, uwazaj! Wydaje sie byc niebezpieczna bronia...~
+@47 = ~(Michelson, zaskakujaco odzyskawszy sily, tanczy i zbliza sie, wymachujac toporem we wszystkich kierunkach)~ [P_Mich00]
+@48 = ~Michelson, uwazaj! O, topór swieci sie pieknym blaskiem...~
+@49 = ~(Michelson, zaskakujaco odzyskawszy sily, tanczy i zbliza sie, wymachujac mieczem we wszystkich kierunkach)~ [P_Mich00]
+@50 = ~Michelson, uwazaj! O, miecz swieci sie pieknym blaskiem...~
+@51 = ~(Michelson przerywa swój taniec i pozostaje, jak to sie rzadko zdarza, powazny i zszokowany przedstawionymi artefaktami przez <CHARNAME> i Duska)~
+@52 = ~(Michelson spoglada z pewnym zdziwieniem na Mathyusa, a nastepnie obserwuje Duska i <CHARNAME>. Po kilku sekundach ciszy...)~
+@53 = ~(...wyznaje sie w smiechu)~ [P_Mich03]
+@54 = ~(Michelson, z bialym usmiechem na twarzy, gwizda i trzaska palcami. Z tego samego powietrza wydaje sie tworzyc prosta linie, a fioletowy promien przybiera rzeczywista forme. Vengadora Real stoi przed twoimi oczami)~ [P_Mich01]
+@55 = ~(Michelson przyjmuje bron od Duska z wielka powaga i serio. Wykorzystujac te same gesty, co przywolujac Vengadora Real, sprawia, ze kij shilmista znika w powietrzu)~
+@56 = ~(Michelson klaska, smieje sie i tanczy. Mogloby sie wydawac, ze robi to, co zawsze, ale czesc ciebie uwaza, ze robi to dla upamietnienia faktu, ze zebrano pelny zespól hrabiego Benorka)~ [P_Mich02]
+
+
+@57 = ~(Michelson skinal glowa szybko. Nastepnie wydaje sie cos szepnac do Mathyusa)~
+@58 = ~(Michelson tanczy i smieje sie. Wydaje sie chwalic, ze mial racje)~ [P_Mich00]
+@59 = ~(Michelson przerywa swój taniec i zdaje sie byc sparalizowany, zatkaly go slowa Duska)~
+@60 = ~(Michelson przez chwile pozostaje zszokowany. Wydaje sie drzec, widzac krwisty czerwony kolor wydobywajacy sie z kuli)~
+@61 = ~(Michelson wydaje sie cos szeptac nerwowo do Mathyusa)~
+@62 = ~(Michelson drzy lekko, patrzac na szkarlatna bron. Zaslania oczy swoimi malymi dlonmi)~
+
+@63 = ~(Michelson pokazuje zeby i glosno smieje sie)~ [P_Mich04]
+@64 = ~(Michelson smieje sie na slowa <CHARNAME>. Nastepnie trzaska palcami, a znikad pojawia sie pierscien)~ [P_Mich00]
+@65 = ~(Michelson kiwa glowa, tanczac i tupiac. Podchodzi do <CHARNAME> z usmiechem i wyciaga reke, podajac magiczny pierscien)~
+@66 = ~(Michelson staje sie powazny i wyjasnia Mathyusowi pewne sprawy, podczas gdy oczywiscie tanczy i gwizda bez opamietania)~ [P_Mich01]
+@67 = ~(Michelson wydaje sie prawie obrazony insynuacja. Szybko kiwa glowa i smieje sie, biorac krwisty orbe w swoje male raczki)~ [P_Mich00]
+@68 = ~(Na pierwszy rzut oka dostrzegasz w kuli potezna sile zla, a mimo to wydaje sie ustepowac slowom, które w rzeczywistosci sa szalonym smiechem leprechauna)~ [P_Mich03]
+@69 = ~(Maly wyciaga z kieszeni kilka klejnotów, które wydaja sie rozpadac wokól orba. Czasteczki tych kamieni, jakby gwiazdy na firmamencie, stapiaja sie z orba)~
+
+
+
+@70 = ~(Zla energia rozprasza sie w powietrzu, a karminowa furia znika, ustepujac miejsca spokojnemu, lisciastemu zielonemu kolorowi. Po kilku sekundach kula wydaje sie ustabilizowac, blyszczy w swojej nowej formie)~
+@71 = ~(Michelson tanczy radosnie i zbliza sie do Duska, trzymajac kule. Oddaje ja z wielkim szacunkiem, zaczynajac smiac sie, wracajac na swoje miejsce obok Mathyusa)~ [P_Mich00]
+@72 = ~(Michelson podekscytowany wskazuje na szmaragdowy miecz, który pojawil sie przed Duskiem. Klaska, smieje sie i zaczyna tanczyc, jakby swietujac)~ [P_Mich02]
+@73 = ~(Michelson przerywa z powodu watpliwosci Mathyusa, machajac rekami w szybkim gescie zaprzeczenia)~
+@74 = ~(Cicho Michelson kiwa glowa, ruszajac ja po raz pierwszy, z ta sama powolnoscia co Demoledor)~
+@75 = ~(Michelson przerywa z powodu watpliwosci Mathyusa, smiejac sie i wykonujac dziwne kroki taneczne)~ [P_Mich03]
+@76 = ~(Michelson usmiecha sie, pokazujac niemalze lsniaca mine)~
+@77 = ~(Michelson gwizdze glosno, a nastepnie zaczyna sie smiac, przyciagajac uwage wszystkich)~
+@78 = ~(Michelson smieje sie glosno i zaczyna machac rekami. Nagle czujesz, jak powietrze wokól ciebie zaczyna sie poruszac)~ [P_Mich01]
+@79 = ~(Wyglada na to, ze rytual dobiegl konca, a leprechaun tanczy nieustannie w obecnosci tych, którzy zostali przywolani przez portal)~
+
+
+//CONVOC M3
+@80 = ~Za Tyra! ¿Gdzie jestem? Przed chwila bylem w Sali Zakonu...~
+@81 = ~Sir Ryan, Falon! Milo was znowu widziec.~
+@82 = ~Dusk, <CHARNAME>? Co sie dzieje?~
+@83 = ~Cos mi mówi, ze Dusk potrzebuje naszej pomocy, mój panie. To, co nie potrafie wytlumaczyc, to ten dziwny elf o zielonych wlosach. O wiele mniej ten rude gnom.~
+@84 = ~*chrzakniecie* Prosze nas wybaczyc, lordzie paladynie. To my przyprowadzilismy go tutaj... Ja jestem Mathyus Davis, badacz Lasu Shilmista. Ten, który rzucil zaklecie, to Michelson, leprechaun.~
+@85 = ~(Michelson witajacy z duzym zaangazowaniem nowoprzybylych)~ [P_Mich04]
+@86 = ~Rozumiem... ufam, ze nadal jestesmy w Athkatli, Dusku.~
+@87 = ~Tak, Sir Ryan. Dokladnie w Porcie.~
+@88 = ~Rozumiem... i dlaczego nas tu przyprowadziles?~
+@89 = ~<CHARNAME> i ja zmierzymy sie z klanem orków, niedawno przybylym do Amnu. Sa kilka godzin od miasta...~
+@90 = ~Grupa dowodzona przez orka, który zorganizowal atak na moja grupe, Sir Ryan.~
+@91 = ~Rozumiem... Chodzi o tego orka, którym prawie zaatakowales mnie i moje plemie, prawda?~
+@92 = ~Tak, Falon. Jego sily znaczaco sie zwiekszyly, a <CHARNAME> i ja moze nie wystarczymy.~
+@93 = ~Hmm... a czy uwazasz, Dusku, ze stanowi zagrozenie dla miasta?~
+@94 = ~Nie jestem pewien, czy to natychmiastowe zagrozenie, Sir Ryan. Ale sadze, ze wczesniej czy pózniej zaatakuje niewinnego, kto stanie mu na drodze.~
+@95 = ~Rozumiem, Dusku. Problem w tym, ze obecnie nie mam dostepnych rycerzy na twoje zadanie.~
+@96 = ~Jesli pozwolisz, mój panie, moje plemie i ja bylibysmy bardziej niz chetni, aby pomóc Duskowi i jego przyjaciolom.~
+@97 = ~Myslalem, ze chcecie unikac wojny, Falon. Dlaczego zdecydowalibyscie sie na to?~
+
+
+
+@98 = ~Dusk i <CHARNAME> dali nam druga szanse. Nowy dom. Jestem pewna, ze moja rodzina z przyjemnoscia zaoferuje pomoc nobilskiej sprawie.~
+@99 = ~Nauczyles sie dobrze, Falon. Bardzo dobrze, decyzja zapadla. Falon, jego plemie i ja udzielimy naszych ostrzy dla tej sprawy, Dusk.~
+@100 = ~Panie równiez, Sir Ryan?~
+@101 = ~Tak. Jesli humanoidy maja walczyc w imie Szlachetnego Zakonu, musze tam byc, by ich prowadzic.~
+@102 = ~Sir Ryan, Falon... nie mam slów, aby wyrazic moja wdziecznosc...~
+@103 = ~O, zobacz! To bardzo ekscytujace.~
+@104 = ~Bardzo dobrze, panowie! Lordzie paladynie, pani wodzu: Michelson wreczy wam specjalne klejnoty dla was i reszty plemienia.~
+@105 = ~Beda aktywowane za pomoca innego klejnotu, który dostanie Dusk. Kiedy rozpocznie sie moment walki, zostaniecie przeniesieni w miejsce, gdzie jest nadajnik.~
+@106 = ~Zgoda, elfie... o zielonych wlosach. Bedziemy gotowi, kiedy nadejdzie czas.~
+@107 = ~Tak jest. Zajme sie przygotowaniem reszty mojego plemienia, Dusk.~
+@108 = ~Doskonale! No cóz, mozecie uzyc tych samych klejnotów, aby wrócic do kwatery Zakonu. Michelson sie tym zajal.~
+@109 = ~Dobrze. <CHARNAME>, lepiej bedzie, jesli ruszymy natychmiast. Mathyusie, wrócimy tutaj, gdy bedziemy miec jakies nowosci w tej sprawie, tak?~
+@110 = ~Bedziemy was oczekiwac, moi drodzy.~
+
+
+@111 = ~~
+
+
+@112 = ~(Michelson energicznie macha swoimi malymi rekami. Smieje sie, zegnajac sie, tanczac i swiergolac jak szalony)~ [P_Mich01]
+@113 = ~(Znikad dobiega smiech, rozbrzmiewajacy nawet w najciemniejszych zakamarkach Mogily)~ [P_Mich00]
+@114 = ~(Wreszcie Michelson pojawia sie z cienia, tanczac i smiejac sie, jakby byla to impreza)~ [P_Mich02]
+@115 = ~Michelson?! No cóz, co tu robisz?~
+@116 = ~(Z usmiechem na twarzy wrecza ci notatke)~
+@117 = ~*Czytasz ja na glos* "Drogi <CHARNAME>: Michelson udaje sie do Mogily Trolli po zakonczeniu bitwy. Ma on na celu przeprowadzenie rytualu oczyszczenia tego miejsca i zapobiezenia powtórzeniu sie w przyszlosci podobnych zdarzen. Ponadto, gdy Michelson zakonczy rytual, przywróci do zycia poleglych w walce."~
+@118 = ~*Notatka kontynuuje* "Ci, którzy zostali przywolani za pomoca teleportacyjnej kuli, posiadali magiczna ochrone, która Michelson nalozyl. Bez wzgledu na powage ich ran, moga zostac wskrzeszeni. Mam nadzieje, ze Dusk przezyl starcie, w przeciwnym razie Michelson nie bedzie mial wystarczajacej mocy, aby przywrócic go do tego plaszczyzny. Byc moze jakas swiatynia lub potezny kleryk moze to zrobic. Jesli tak nie jest... po prostu wróc, a porozmawiamy na ten temat.
+  Z powazaniem, Mathyus Davis.
+  Potezny elf shilmistyczny."~
+  
+  
+@119 = ~(Po przeczytaniu notatki widzisz, jak Michelson podnosi glowe i szuka wzrokiem Duska)~
+@120 = ~(Jego typowy usmiech znika, gdy zdaje sobie sprawe, ze polegl w walce)~
+@121 = ~(Wydaje sie, ze zaraz poplacze, gdy kladziesz reke na jego ramieniu, nie wiedzac, co powiedziec)~
+@122 = ~(Nie majac nic wiecej do "powiedzenia", Michelson wskazuje list napisany przez Mathyusa, który czytales zaledwie kilka chwil temu)~
+@123 = ~(Myslisz, ze oznacza to, ze powinienes wrócic do Mathyusa, aby poinformowac go o tym, co sie stalo)~
+@124 = ~(Natychmiast Michelson rozpoczyna swój rytual oczyszczajacy, a ty czujesz, ze nie powinienes go przerywac. Zamiast tego widzisz, jak dziwne chmury otaczaja ciebie i twoja grupe. Kiedy sie obejrzysz, nagle znajdujesz sie poza Mogila i z powrotem w znanym miejscu...)~
+@125 = ~Dziekuje za przeczytanie notatki, <CHARNAME>. Michelson! Zawsze milo cie widziec.~
+@126 = ~(Michelson ukazuje usmiech i tanczy widzac, ze Dusk zyje)~ [P_Mich03]
+@127 = ~Mozesz przeprowadzic swój rytual, przyjacielu. Wrócimy do Mathyusa i poinformujemy go o tym, co sie tutaj wydarzylo.~
+@128 = ~Cos mi mówi, ze pewnie juz tam bedziesz, gdy wrócimy do Athkatli.~
+@129 = ~(Michelson gwizda i rusza nózkami, potwierdzajac to, co Dusk wlasnie powiedzial)~ [P_Mich01]
+
+@130 = ~(Michelson, zdumiewajaco wrócony do sil, tanczy i podchodzi lekko, noszac zbroje, która wydaje sie byc ciezka i solidna)~ [P_Mich04]
+@131 = ~Dziekuje, Michelson. Dusku, mam nadzieje, ze zbroja przypadla ci do gustu.~
+@132 = ~(Michelson, zdumiewajaco wrócony do sil, tanczy i podchodzi, niebezpiecznie machajac nowo zdobytym mieczem cormyrejskim)~ [P_Mich04]
+@133 = ~Dziekuje, Michelson. Dusku, mam nadzieje, ze miecz przypadl ci do gustu.~
+@134 = ~~
+@135 = ~~
+@136 = ~~
+@137 = ~~
+@138 = ~~
+@139 = ~~
+
+
+
+
+@210005 = ~Dusk Aldant: Zbroja Shilmista
+
+Powrócilismy do kryjówki Mathyusa Davisa i zastalismy Michelsona u jego boku. Po krótkiej rozmowie, w której opowiedzial nam o swoim pierwszym spotkaniu z Michelsonem i pózniejszej zmianie koloru wlosów, Mathyus wreczyl Duskowi Zbroje Shilmista.
+Otrzymalismy równiez ksiege receptur do kucia poteznych artefaktów, dzieki Michelsonowi. Jesli zdobedziemy odpowiednie skladniki, bedziemy musieli porozmawiac z Mathyusem, aby móc wykowac opisany w ksiedze artefakt.~
+
+@210026 = ~Dusk Aldant: Zemsta Pierwszego Miecza
+
+Dotarlismy do kryjówki Mathyusa, który poinformowal nas, ze grupa odpowiedzialna za atak na oddzial Duska znajduje sie w poblizu Lesnego Gaju Druidów w regionie. Ze wskazówek dostarczonych przez eksploratora, sprawca jest orkowy wódz o imieniu Alabarza. Znajdziemy go w Tumulusie trolli na zachód od regionu. Mathyus poinformowal nas równiez, ze ork posiada zróznicowany zbiór potworów gotowych, by go bronic. Na szczescie Dusk bedzie mial wsparcie od Sir Ryana Espinela oraz od Falona i jego plemienia. Kiedy nadejdzie odpowiedni moment, kamien aktywacyjny dostarczony przez Michelsona przyprowadzi ich na starcie.~

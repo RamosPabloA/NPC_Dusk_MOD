@@ -1,0 +1,77 @@
+
+
+@0 = ~(Nagle pojawil sie pies, zblizajac sie do grupy. Wydaje sie, ze rozpoznaje Duska i podchodzi do niego)~
+
+@2 = ~(Zaczyna machac ogonem i szczekac w dziwny sposób, jakby chcial cos przekazac)~ [P_Demo01]
+
+@3 = ~(Pies szczeka w dziwny sposób i porusza glowa bardzo powoli. Zauwazasz, ze na jego obrozy jest zawinieta kartka)~ [P_Demo02]
+@4 = ~(Demolator kiwa glowa, poruszajac nia bardzo powoli. Nastepnie odwraca sie o sto-ósem stopni, z tym samym impetem, i odchodzi, kroczac, jak gdyby czas byl po jego stronie)~
+@5 = ~(Demolator zajmuje mu chwile, zanim zauwazy twoja obecnosc. Gdy wreszcie cie zobaczy, zaczyna powoli machac ogonem i szczekac. Przypuszczasz, ze cie pozdrawia)~ [P_Demo01]
+@6 = ~(Demolator, który wydawal sie drzemac sobie drzemke, budzi sie i porusza ogonem powoli, dumny z pochwal swojego mistrza. Nastepnie znów zasypia)~
+@7 = ~(Demolator otwiera oczy powoli, bo wlasnie spal swoje zwyczajowe popoludniowe drzemki, i szczeka dziwnie)~ [P_Demo02]
+@8 = ~(Demolator wstaje, czujny, jakby dzielil uczucia swojego mistrza, i to go zdenerwowalo)~
+@9 = ~(Dziwne szczekanie Demolatora daje znac o swojej obecnosci. Faktycznie, obecnosc Duska sprawila, ze stal sie nerwowy)~
+
+
+@10 = ~(Ku zaskoczeniu wszystkich, Demolator podnosi sie i zaczyna machac ogonem oraz szczekac w kierunku Mathyusa)~ [P_Demo01]
+@11 = ~(Demolator zaczyna machac ogonem i krecic sie wokól wlasnej osi. Radosnie szczeka na widok Duska)~ [P_Demo02]
+@12 = ~(Demolator szczeka, jak mozna sie bylo spodziewac, na swój sposób charakterystyczny. W jego obrozy znajduje sie notatka)~ [P_Demo01]
+@13 = ~(Zaczyna machac ogonem, takze niecierpliwie czekajac na reakcje Duska)~
+@14 = ~(Demolator szczeka na swój sposób, kiwa glowa, poruszajac ogonem i obraca sie o sto-ósem stopni, bardzo powoli. Zastanawiasz sie, czy nie dotrzesz szybciej niz on do schronienia w porcie...)~ [P_Demo02]
+@15 = ~(Demolator szczeka zdezorientowany sytuacja. Nastepnie, ze swoim zwyczajowym spokojem, oddala sie, zamyslasz sie, pewnie do schronienia swojego pana)~ [P_Demo01]
+@16 = ~(Demolator jest zadowolony z pochwaly swojego pana. Chociaz wyraznie widac, ze jest zestresowany obecnoscia Duska)~ [P_Demo01]
+@17 = ~(Demolator jest zadowolony z pochwaly swojego pana i z przybycia Duska oraz <CHARNAME> do schronienia)~ [P_Demo02]
+@18 = ~(Demolator, jak zwykle, szczeka na swój sposób. Zdziwilo cie, jak powoli macha ogonem, niemal nienaturalnie)~ [P_Demo01]
+@19 = ~(Zauwazasz, ze przyniósl ze soba notatke, prawdopodobnie od Mathyusa. Dusk bierze ja i zaczyna czytac)~
+
+
+@20 = ~Zobaczmy... "Dusk, <CHARNAME>:
+Mam nadzieje, ze wasza podróz byla owocna. Jednakze mamy niepokojace wiesci. Kilka dni temu pojawil sie tajemniczy czarnoksieznik. Na poczatku udawal, ze jest szlachcicem z Tethyr o imieniu Darvin."~
+@21 = ~Darvin... <CHARNAME>... jestem pewien, ze Mathyus mówi o Anthagarze, Nekromancie... bede czytal dalej:~
+@22 = ~"Dzieki magii Michelsona udalo sie rozwiklac jego iluzje. Czarownik wydawal sie zaskoczony i myslalem, ze stoczymy z nim walke. Jednak tylko podarowal nam dziwny artefakt. Michelson mówi, ze to klejnot teleportacji."~
+@23 = ~Ten lotr... To prawdopodobnie pulapka, Dusk. Ale jesli zamierzasz podazac za nim, mozesz na mnie liczyc.~
+@24 = ~Bialy kruku! Wyczuwam, ze nadchodzi wojna miedzy plaszczyznami. To powazne i nie mozesz tego lekcewazyc.~
+@25 = ~Oh, Dusk! No cóz, przynajmniej mam nadzieje, ze twoi przyjaciele sa w porzadku. Zielonowlosy elf i radosne maluchy.~
+@26 = ~List konczy sie: "Najlepiej, zebyscie przybyli do naszego schronienia w Porcie Athkatla. Bedziemy mogli porozmawiac i zobaczyc, jak postepowac w tej sprawie. Pamietaj, Dusku: masz sojusz Shilmisty.
+Z powazaniem, Mathyus Davis.
+Potezny elf z Shilmisty."~
+
+
+
+@27 = ~Czy zawsze podpisuje swoje listy jako "potezny elf ze Shilmisty"? Wydaje mi sie, ze zielen dotarla juz do jego kory mózgowej.~
+@28 = ~<CHARNAME>... powinnismy wrócic do kryjówki Mathyusa i sprawdzic, co sie dzieje.~
+@29 = ~(Demolator skupia uwage na tobie, czekajac na odpowiedz)~ [P_Demo02]
+@30 = ~W porzadku, Dusk. Demoledor, biegnij i powiedz swojemu panu, ze zaraz przyjdziemy!~
+@31 = ~Hm... pójdziemy, ale w innym terminie, Dusk. Demoledor, idz i powiedz Mathyusowi, ze przyjdziemy, gdy tylko skonczymy nasze obecne zadanie.~
+@32 = ~Co sie gapisz, worku z pchelami? Powiedz swojemu panu, zeby nas nie zawracal. Pójdziemy, kiedy bede tego chcial.~
+@33 = ~(Demolator kiwa glowa i szczeka. Nastepnie odwraca sie i odchodzi swoim spokojnym krokiem.)~
+@34 = ~(Demolator drapie sie po uszach na slowo pchla, jakby przypomnial sobie, ze jedna go wlasnie teraz dokucza)~
+@35 = ~W porzadku, <CHARNAME>. Po prostu pamietaj, co Anthagar potrafi. Jego wyznawcy sa niebezpieczni i moga stanowic bezposrednie zagrozenie dla Amn i Tethyr.~
+@36 = ~Demolatorze, idz i powiedz Mathyusowi, ze przyjdziemy wtedy, gdy <CHARNAME> zechce. *szept* Jesli kiedykolwiek zechce pójsc...~
+
+
+
+@37 = ~(Bez twojej swiadomosci pojawia sie psia obecnosc. To nic innego, jak Demolator)~
+// 3262 y 3263
+@38 = ~Demolator... mam nadzieje, ze twoje zaklócenie wynika jedynie z nowosci dotyczacych zadania, które powierzylem twojemu panu.~
+@39 = ~Demola! Ciesze sie, ze cie widze. Zakladam, ze przysyla cie Mathyus. Czy sa jakies nowosci?~
+// 3407
+@40 = ~(Nagle zauwazasz znajoma obecnosc w poblizu. Obracasz sie i widzisz, jak Demolator macha ogonem w anty-predkosci nadprzyrodzonej)~
+@41 = ~Demola! Przyjacielu, wielka przyjemnosc cie znów widziec.~
+
+
+
+
+// JOURNAL ENTRIES
+
+@210006 = ~Dusk Aldant: Renegaci z Sothillis
+
+Natknelismy sie na ciekawego psa o imieniu Demolator. Okazal sie towarzyszem zwierzecym Mathyusa Davisa. Przyniósl notatke adresowana do Duska, w której informuje go o oczekiwanych nowosciach dotyczacych oddzialu Cormyr. Prawdopodobnie ma to zwiazek z bylymi towarzyszami Duska, ale musimy udac sie do Dzielnicy Portowej, do kryjówki Mathyusa, aby sie dowiedziec.~
+
+@210017 = ~Dusk Aldant: Zemsta Pierwszego Miecza
+
+Demolator pojawil sie z notatka od Mathyusa Davisa. Najwyrazniej udalo mu sie namierzyc humanoidów, którzy zniszczyli oddzial Duska. Nasz wojownik z Cormyr tym razem jest pewien, ze to wlasciwy cel. Dowiemy sie wiecej, kiedy udzielimy sie do Dzielnicy Portowej, do kryjówki elfa z zielonym wlosem.~
+
+@210040 = ~Dusk Aldant: Zakon Magów
+
+Demolator pojawil sie, aby nas skontaktowac, przynoszac notatke napisana przez Mathyusa Davisa. Dusk ja przeczytal, informujac nas o pojawieniu sie Anthagara w Athkatli. Wydaje sie, ze przekazal tajemniczy kamien, prawdopodobnie teleportacyjny, naszym przyjaciolom z Shilmista. Musimy udac sie do Dzielnicy Portowej, do kryjówki Mathyusa i Michelsona, aby uzyskac wiecej informacji.~

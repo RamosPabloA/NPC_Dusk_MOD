@@ -1,0 +1,70 @@
+@0 = ~*Out of nowhere, a dog approaches the party. It seems to recognize Dusk and walks towards him*~
+@2 = ~*It starts wagging its tail and barking in a strange way, as if trying to communicate something*~ [P_Demo01]
+
+@3 = ~*The dog barks in a strange way and moves its head very slowly. You notice that there is a note wrapped around its collar*~ [P_Demo02]
+@4 = ~*Demolisher nods, moving his head very slowly. Then he turns around, with the same drive, and walks away, as if time were on his side*~
+@5 = ~*Demolisher takes a few seconds to notice your presence. When he finally sees you, he starts wagging his tail slowly and barking. You assume he's greeting you*~ [P_Demo01]
+@6 = ~*Demolisher, who seemed to be taking a nap, wakes up and wags his tail slowly, proud of his master's compliment. Then, he goes back to sleep*~
+@7 = ~*Demolisher opens his eyes slowly, as he was taking his usual nap, and barks strangely*~ [P_Demo02]
+@8 = ~*Demolisher sits up, alert, as if sharing his master's feelings and feeling nervous about it*~
+@9 = ~*Demolisher's strange barking becomes noticeable. Certainly, the presence of Dusk has made him nervous*~
+
+@10 = ~*To everyone's surprise, Demolisher stands up and starts wagging his tail and barking at Mathyus*~ [P_Demo01]
+@11 = ~*Demolisher starts wagging his tail and spinning around. He barks cheerfully at the presence of Dusk*~ [P_Demo02]
+@12 = ~*Demolisher barks in his particular way, as expected. He has a note wrapped in his collar*~ [P_Demo01]
+@13 = ~*He starts wagging his tail, also eager for Dusk's response*~
+@14 = ~*Demolisher barks in his own way and nods, wagging his tail and slowly turning around. You wonder if you could get to the hideout in the Docks faster than he does...*~ [P_Demo02]
+@15 = ~*Demolisher barks disappointed with the situation. Then, in his usual peaceful manner, he withdraws back to his master's hideout*~ [P_Demo01]
+@16 = ~*Demolisher is happy with his master's compliment. Although it is evident that he is nervous about Dusk's presence*~[P_Demo01]
+@17 = ~*Demolisher is happy with his master's compliment and with the arrival of Dusk and <CHARNAME> to the compound*~[P_Demo02]
+@18 = ~*Demolisher barks in his usual way. You are surprised to see how he moves his tail from side to side with an almost unnatural slowness*~ [P_Demo01]
+@19 = ~*You notice he has a note with him, most likely from Mathyus. Dusk takes it and starts reading*~
+
+@20 = ~Hmm, let me read this... "Dusk, <CHARNAME>:
+I hope your journey has been fruitful. However, we have unsettling news. A dark wizard appeared a few days ago. At first, he tried to present himself to us as a noble from Tethyr named Darvin."~
+@21 = ~Darvin... <CHARNAME>, I'm sure Mathyus is talking about Anthagar, the Necromancer... I'll keep reading:~
+@22 = ~"It was through  Michelson's magic that he was able to unveil his illusion. The wizard seemed surprised and I thought he would start a fight with us. However, he only gave us a strange artifact. Michelson says it's a teleportation gem."~
+@23 = ~That bastard... It's probably a trap, Dusk. But if you intend to pursue him, count me in.~
+@24 = ~White Raven! I sense a war of planes approaching. It's serious and you shouldn't take it lightly.~
+@25 = ~Oh, Dusk! Well, at least I hope your friends are well. The green-haired elf and the cheerful little one.~
+@26 = ~The letter ends: "It would be best if you come to our hideout in the Athkatla's Docks. We can talk better and see how we should proceed in this. Remember, Dusk: you have the alliance of Shilmista.
+Sincerely, Mathyus Davis.
+The powerful elf of Shilmista."~
+@27 = ~Does he always sign his letters as 'the powerful elf of Shilmista'? I think the green dye has reached his brain.~
+@28 = ~<CHARNAME>... we should go back to Mathyus' hideout and see what's happening.~
+
+@29 = ~*Demolisher focuses his attention on you, waiting for a response*~ [P_Demo02]
+@30 = ~So be it, Dusk. Demolisher, go and tell your master that we'll be there soon!~
+@31 = ~Hm... we will go, but at another time, Dusk. Demolisher, go and tell Mathyus that we'll come as soon as we're done with our current mission.~
+@32 = ~What are you looking at, flea bag? Tell your master not to bother us. We'll go when I please.~
+@33 = ~*Demolisher nods and barks. Then, he turns around and departs with his usual peaceful gait.*~
+@34 = ~*Demolisher scratches his ears upon hearing the word flea, as if he remembers that one is bothering him right now*~
+@35 = ~Very well, <CHARNAME>. Just remember what Anthagar is capable of. His followers are dangerous and may pose an imminent threat to Amn and Tethyr.~
+@36 = ~Demolisher, go and tell Mathyus that we'll come when <CHARNAME> wants. *whisper* If he ever want to go...~ ~Demolisher, go and tell Mathyus that we'll come when <CHARNAME> wants. *whisper* If she ever want to go...~
+
+@37 = ~*Without you noticing, a canine presence appears out of nowhere. It is none other than Demolisher*~
+@38 = ~Demolisher... I trust that your interruption is only due to news regarding the mission I assigned to your master.~
+@39 = ~Demoli! Glad to see you. I imagine Matyhus sent you. Any news?~
+
+@40 = ~*Out of nowhere, you perceive a familiar presence near you. When you turn around, you see Demolisher wagging his tail at a supernatural anti-speed.*~
+@41 = ~Demoli! Friend, it's great to see you again.~
+
+
+
+
+
+
+
+// JOURNAL ENTRIES
+
+@210006 = ~Dusk Aldant: The Renegades of Sothillis
+
+We came across a curious dog named Demolisher. It turned out to be Mathyus Davis' animal companion. He brought a note intended for Dusk, which indicated that there was expected news about the Cormyr detachment. It probably has to do with Dusk's old companions, but to find out, we'll have to head to the Athkatla's Docks, towards Mathyus' hideout.~
+
+@210017 = ~Dusk Aldant: The Revenge of the First Sword
+
+Demolisher appeared with a note from Mathyus Davis. Apparently, he has located the tribe of humanoids responsible for the attack on Dusk's detachment. Our warrior from Cormyr is certain that this is the correct target. We will gather more information when we go to the Port District, towards the hideout of the green-haired elf.~
+
+@210040 = ~Dusk Aldant: The Order of Mages
+
+Demolisher has appeared to contact us, bringing with him a note written by Mathyus Davis. Dusk read it, informing us of Anthagar's appearance in Athkatla. Apparently, he delivered a mysterious stone, possibly for teleportation, to our Shilmist friends. We must go to the Athkatla's Docks to Mathyus and Michelson's lair for more information.~

@@ -1,0 +1,3339 @@
+@4000    = ~Fall~
+@1    = ~Dusk MOD~
+@4002    = ~Dusk~
+@4003 = ~Moje uszy wciaz rezonuja po tej eksplozji...~ [p_duski]
+@4004 = ~Nie...! NIE!!!~ [p_dusk02]
+@4005 = ~Metody tej grupy w radzeniu sobie ze sytuacjami maja eteryczna jakosc.~ [p_dusk36]
+@4006 = ~Powinnismy ponownie rozwazyc nasze dzialania...~
+@4007 = ~Wyraznie cos tutaj nie dziala...~
+@4008 = ~Nie mozemy kontynuowac wspólnej pracy...~
+@4009 = ~Wole ciebie jako lidera, ale jesli nalegasz...~ [P_Dusk08] //08
+@40010 = ~*ziewam* Mysle, ze potrzebujemy odpoczynku, nie sadzisz?~ [P_Dusk09]
+@40011 = ~Nie wazne, jak wolno idziesz, pod warunkiem, ze nie przestaniesz...~ [P_Dusk25]
+@40012 = ~Zobaczmy, co masz!~ [P_Dusk03]
+@40013 = ~Za Cormyr!!!~ [P_Dusk05]
+@40014 = ~Nie mozesz wygrac!~ [P_Dusk06]
+@40015 = ~Przykro mi... potrzebuje kogos, kto zajmie sie moimi ranami.~ [P_Dusk11]
+@40016 = ~Musimy uwazac na dzikie bestie. Tak piekny jak moze byc las, niebezpieczenstwo czyha za rogiem...~ [p_dusk37]
+@40017 = ~Niesamowite, jak korupcja wtargnela nawet w najbardziej oddalone zakatki miasta...~ [p_dusk38]
+@40018 = ~Musisz byc ostrozny tutaj. Czuje... niebezpieczenstwo.~ [P_Dusk15]
+@40019 = ~Dzis to dobry dzien na spacer. Ale pamietaj, <CHARNAME>, mamy obowiazek do spelnienia.~ [p_dusk39]
+@40020 = ~Gwiazdy swieca na niebie, ale uwaga! Nie wszystko, co sie blyszczy, jest zlotem...~
+@40021 = ~Co masz na mysli?~ [P_Dusk17]
+@40022 = ~Tak?~ [P_Dusk14]
+@40023 = ~Co chcesz?~ [P_Dusk27]
+@40024 = ~Jestem napedzany brakiem watpliwosci.~ [P_Dusk10]
+@40025 = ~Tak, tak. Nie musisz krzyczec.~ [P_Dusk16]
+@40026 = ~Hmmm... tak, dlaczego nie?~ [P_Dusk21]
+@40027 = ~Pójde za toba.~ [P_Dusk22]
+@40028 = ~Jeszcze raz...~ [P_Dusk12]
+@40029 = ~Pozwól mi to zrobic.~ [P_Dusk04]
+@40030 = ~Moge to zniesc.~ [P_Dusk01]
+@40031 = ~Hmm... Czy cie znam? Hehe, tylko zartuje.~ [P_Dusk23]
+@40032 = ~Pamietaj to: lepiej walczyc o cos niz zyc dla nikogo.~ [P_Dusk24]
+@40033 = ~Chodz!~ [P_Dusk14]
+@40034 = ~C-co...?~ [P_Dusk30]
+@40035 = ~Nie moge zrobic nic wiecej!~ [P_Dusk13]
+@40036 = ~Przepraszam, ale mój plecak jest pelen.~ [P_Dusk18]
+@40037 = ~O, cholera!~ [P_Dusk31]
+@40038 = ~Gdy pytany jest o swoja przeszlosc, DUSK na chwile zapada w zadumienie. Mówi, ze jego czeste wizyty na Paseo de Waukin wynikaja z dziwnego pragnienia zostania kupcem. Faktem jest, ze Dusk, w swoim poprzednim zyciu, byl Pierwszym Mieczem armii Purpurowych Smoków z Cormyr. Jego podróz na poludnie jako poslanca pokoju zostala udaremnona przez szereg wydarzen, które twierdzi opowie w odpowiednim czasie. Na razie twierdzi, ze pochodzi z rodu Aldant, szlachetnej rodziny z pólnocy, która kiedys walczyla przeciwko lichom i nekromantom z Netheril, w tym przeciwko niebezpiecznemu Aumvorowi. Dusk mówi, ze nie jest pewien prawdziwosci niektórych opowiesci, które opowiadano mu, gdy byl tylko dzieckiem, ale faktem jest, ze odczuwa szczególna niechec do lichów.~
+
+@40039 = ~Bede cie chronil.~ [P_Dusk34]
+@40040 = ~Czesc, nieznajomy.~ [P_Dusk35] ~Czesc, nieznajoma.~ [P_Dusk35]
+@40041 = ~Cisza... teraz jestem w cieniach...~ [P_Dusk32]
+
+@40044 = ~Naprzód, ruszajmy!~ [p_dusk07]
+@40045 = ~Nasz towarzysz upadl!~
+@40046 = ~Pamietaj: nikt nie uderzy cie tak mocno jak zycie samo.~ [P_Dusk26]
+@40047 = ~Tak!!!~ [P_Dusk29]
+@40048 = ~*wzdycha* Mój cel jest odporny...~ [P_Dusk28]
+@40049 = ~Oto znowu...~ [P_Dusk13]
+@40050 = ~*smiech* Pulapka... zostala postawiona.~ [P_Dusk33]
+@40051 = ~Udany rabunek...~ [p_dusk41]
+
+
+//SPINF99
+@100100 = ~Wojownik ze stali (Alteracja)
+Poziom: Wrodzony
+Sfera: Elementalna
+Zasieg: Wojownik
+Czas trwania: 3 godziny
+Czas rzutu: 0
+Obszar dzialania: Wojownik
+Rzut obronny: Zaden
+Efekt: Skóra jak stal
+
+OPIS:
+
+Wojownik posiadajacy te umiejetnosc zostaje pokryty skóra ze stali, chroniaca go przed atakami fizycznymi zarówno w walce wrecz, jak i przed pociskami. 
+W zaleznosci od poziomu wojownika, zdobedzie okreslona liczbe warstw ochronnych.
+
+Poziom 1-9: 4 warstwy
+Poziom 10-11: 5 warstw
+Poziom 12-13: 6 warstw
+Poziom 14-15: 7 warstw
+Poziom 16-17: 8 warstw
+Poziom 18-19: 9 warstw
+Poziom 20 i wiecej: 10 warstw
+
+Warstwy pozostana na wojowniku przez 3 godziny, az do wyczerpania sie ich w wyniku fizycznych uderzen lub poprzez magiczna dyspersje.~
+
+@100101 = ~Wojownik ze stali~
+
+// ITEMS
+
+@400001 = ~Topór bojowy~
+@400002 = ~Zloty topór~
+@400003 = ~Najbardziej powszechna wersja topora bojowego jest mocny kij o dlugosci okolo 120 cm z jednostronnym, klinowatym ostrzem na jednym z konców. Topory bojowe sa równiez nazywane toporami szerokimi.
+
+CECHY:
+
+Obrazenia: 1D8
+Rodzaj obrazen: Ciete
+Waga: 7 funtów
+Wspólczynnik szybkosci: 7
+Zdolnosc bojowa: Topór
+Typ broni: Jednoreczna
+Wymagania: 10 sily ~
+
+@400004 = ~Zlociste swiatlo tego straszliwego topora jest hipnotyzujace i dziwaczne. Na tyle, ze mozna zobaczyc samo odzwierciedlenie okrucienstwa i rozpaczy. Byc moze zostal wykuty z czystego zlota, a moze to cos innego. Jednakze, krawedz jest doskonala i z latwoscia moze odciac glowe czlowieka tak samo, jak kroimy jablko nozem.
+Rekojesc zdobia starozytne insygnia w jezyku krasnoludzkim, jest tak nieopisana, ze sprawia ból dla wzroku. Niemniej jednak, napis "Krwawy Topór" rzuca sie w oczy, dajac wrazenie, ze tylko osoba posiadajaca takie nazwisko jest zdolna do wymachiwania nim.
+
+CECHY:
+
+Posiadane umiejetnosci:
+
+- Ostrze Vorpalne: 10% szans na natychmiastowe zabicie (rzut obronny przed smiercia/otruciem z bonusem -4)
+
+- Strach: Rzut obronny przed smiercia/otruciem z bonusem 0, w przeciwnym razie ofiara zostanie ogarnieta strachem przez 30 sekund.
+
+Posiadane zdolnosci:
+
++1 punkt do Konstytucji
+CA: +1
+
+THAC0: +5
+Obrazenia: 1D8 +5
+Rodzaj obrazen: Ciete
+Waga: 7 funtów
+Wspólczynnik szybkosci: 2
+Zdolnosc bojowa: Topór
+Typ broni: Jednoreczna~
+@400005 = ~Ostrze Vorpalne~
+@400006 = ~Uciekaj przerazony~
+
+//ESPADA DE DISRUPCIÓN
+@400007 = ~Miecz bastardowy~
+@400008 = ~Miecz zaklócenia cormyrejski~
+@400009 = ~Miecz bastardowy, znany równiez jako miecz jedno i pól reczny, nosi te nazwe, poniewaz stanowi polowe drogi miedzy mieczem dwurecznym a mieczem wielkim. Miecz bastardowy ma dwustronnie naostrzona klinge i dlugi uchwyt, który mozna dostosowac do obu rak, jesli sie zdecydujesz. Calkowita dlugosc miecza bastardowego wynosi od 120 do 150 centymetrów.
+
+CECHY:
+
+Obrazenia: 2D4
+Rodzaj obrazen: Ciete
+Waga: 10 funtów
+Wspólczynnik szybkosci: 8
+Zdolnosc bojowa: Miecz Bastardowy
+Typ broni: Jednoreczna
+Wymagania: 11 sily~
+
+@400010 = ~Miecz Cormyrajski Duska przekuty
+
+Promieniuje straszna moca, porazajaca kazdego, kto nie jest z krwi Aldant. Ponadto odczuwa sie boska aure, kontrastujaca z niebezpieczenstwem ostrza. Miecz zapewnia ochrone przed pochlanianiem poziomów, zazwyczaj pochodzacym od istot nieumarlych. Ponadto kazde uderzenie generuje szanse na wydalenie z tego planu umarlych istot. Bez watpienia rytual przeprowadzony podczas procesu wzmacniania wzbudzil w broni instynktowna nienawisc, prawdopodobnie pochodzaca z tej samej krwi, co Dusk.
+
+CECHY:
+
+Umiejetnosci bojowe:
+  
+- 2D6+4 obrazen przeciwko istotom nieumarlym, dodatkowo zmuszajac je do rzutu obronnego przed magiczna smiercia (z kara -4), aby uniknac calkowitego zniszczenia.
+  
+- Immunitet na pochlanianie poziomów doswiadczenia.
+
+THAC0: +4
+Obrazenia: 2D4+4, +1 obrazen elektrycznych i +1 obrazen kwasowych
+Rodzaj obrazen: Ciete
+Waga: 10 funtów
+Wspólczynnik szybkosci: 4
+Zdolnosc bojowa: Miecz Bastardowy
+Typ broni: Jednoreczna
+Wymagania: 11 sily~
+
+@400011 = ~Piec poziomów pochlonietych~
+@400012 = ~Cztery poziomy pochloniete~
+@400013 = ~Trzy poziomy pochloniete~
+@400014 = ~Dwa poziomy pochloniete~
+@400015 = ~Jeden poziom pochloniety~
+
+// BRAZALES DE DEFENSA PETREA
+
+@400016 = ~Naramienniki~
+@400017 = ~Naramienniki Kamiennego Obrony~
+@400018 = ~Naramienniki to grube paski metalu lub skóry, mocowane paskami do przedramienia postaci. Zazwyczaj magia wprowadzona w naramienniki dziala tylko podczas walki, poniewaz wiekszosc z nich sluzy do ochrony nosiciela przed obrazeniami i zwiekszenia szans na trafienie przeciwnika. Jednak istnieja wyjatki i kazdego dnia pojawiaja sie nowe.~
+
+@400019 = ~Te lekkie bransolety zapewniaja bezcenna ochrone uzytkownikowi, w tym (dzieki magicznej mocy, która posiadaja) mozliwosc przywolania obronnej ekspansji, która wylania sie z ich centrum i rozprzestrzenia sie po calym ciele, nadajac nosicielowi twardosc porównywalna z kamieniem.
+Nawet bez tej szczególnej zdolnosci, same bransolety wydzielaja energie zyciowa, zaledwie majaca na celu ochrone ich uzytkownika.
+
+CECHY:
+
+Posiadane umiejetnosci:
+- Skóra Kamienna: 2 razy dziennie.
+
+Posiadane zdolnosci:
+- +10 do Punktów Zycia
+
+CA: +2
+Waga: 2~
+
+// ARMADURA DE MAGOS
+
+@400020 = ~Zbroja kolcza~
+@400021 = ~Zbroja Maga~
+@400022 = ~Zbroja kolcza sklada sie z polaczonych ze soba metalowych pierscieni. Zawsze znajduje sie na warstwie wyscielanej tkaniny lub miekkiej skóry, aby zapobiec obtarciom i zmniejszyc wplyw uderzen.  
+
+CECHY:
+
+Klasa pancerza: 5
+Waga: 40 funtów
+Wymagania: 8 sily~
+
+@400023 = ~Magiczny design tej zbroi pozwala rzucajacemu zaklecia bez zadnych ograniczen. Dodatkowe zaklecie zapewnia dodatkowa fizyczna ochrone nosicielowi.
+
+CECHY:
+
+Bonusy: +10 do PG.
+
+Pozwala magowi na rzucanie czarów arkanicznych bez ograniczen.
+
+Klasa Pancerza: 5
+Waga: 9~
+
+// TÚNICA DE VICONIA
+
+@400024 = ~Plaszcz~
+@400025 = ~Tunika Viconii~
+@400026 = ~Plaszcz moze miec dowolny ksztalt i byc wykonany z róznego rodzaju materialów. Najczestszy ksztalt to okragla plachta z dziura na srodku na glowe, z tkanina zwisajaca z szyi na lancuchu, klamrze, sznurku lub agrafkach.~
+
+@400027 = ~Ta tunika wykonana przez rzemieslników drow to typowy strój drow Viconii. Zapewnia doskonala ochrone fizyczna oraz chroni nosiciela przed zimnem i ogniem. Moze nosic ja jedynie Viconia.
+
+CECHY:
+
+Posiadane zdolnosci:
+
++25% odpornosci na zimno i ogien
+Sila i Konstytucja: Zwiekszone o 3 punkty
+
+Klasa Pancerza: 0
+Waga: 15~
+
+
+// CRIMSON THUNDER
+
+@400028 = ~Mlot Wojenny~
+@400029 = ~Karmazynowy Grzmot~
+@400030 = ~Rycerze konni nie moga skutecznie poslugiwac sie bronia o dlugim trzonie, dlatego wiele z tych broni ma krótsza rekojesc, aby mozna bylo je trzymac jedna reka. Mloty i bulawy to przyklady takich broni (podobnie jak mlot wojenny). Mlot wojenny jezdzca to potomek mlota lucernowego. Caly jest wykonany ze stali, z podkladkami ochronnymi i wzmacniajacymi rekojesc. Podkladki to male metalowe dyski, które czesto sa ozdobione róznymi ksztaltami. Trzon mierzy okolo 46 centymetrów.
+
+CECHY:
+
+Obrazenia: 1D4 +1
+Rodzaj obrazen: Obuchowe
+Waga: 6 funtów
+Wspólczynnik szybkosci: 4
+Zdolnosc bojowa: Mlot Wojenny
+Typ broni: Jednoreczna
+Wymagania: 9 sily~
+
+@400031 = ~Szkarlatny Grzmot
+
+Podczas wojny przeciwko tytanom, którzy wylonili sie z Czerwonych Wzgórz, dzielny krasnoludzki kowal Dronjack kujac, z obietnica wlasnej duszy dla Moradina, mlot posrodku burz i blyskawic. Mówi sie, ze Dronjack, prowadzac armie krasnoludów, zdolal zwyciezyc w krwawej bitwie przeciwko poteznym, uwolniwszy Wzgórza od mrocznego zla gigantów i polegajac w walce, gdzie Szkarlatny Mlot zaginal w odleglym i nieznanym losie.
+
+CECHY:
+
+Posiadane zdolnosci:
+
+Odpornosc na Elektrycznosc: 50%
+
+Paraliz: Rzut obronny przed zakleciem, w przeciwnym razie ofiara zostanie sparalizowana na 6 sekund z powodu uderzenia pradem.
+
+Zdolnosc bojowa:
+
+- Wzywanie Pioruna: Moze wezwac piorun z nieba, który uderza w ofiare. Powoduje 3d8 obrazen elektrycznych.
+Uzycie: Do 3 razy dziennie.
+
+TAC0: +5
+Obrazenia: 2D4+5, +1D6 za obrazenia elektryczne
+Rodzaj obrazen: Obuchowe
+Waga: 5
+Wspólczynnik szybkosci: 0
+Zdolnosc bojowa: Mlot Wojenny
+Typ: Jednoreczna~
+
+// ESPÍRITU DE LA JUSTICIA
+
+@400032 = ~Eliksir~
+@400033 = ~Duch Sprawiedliwosci~
+@400034 = ~Eliksiry zazwyczaj znajduja sie w butelkach lub naczyniach z ceramiki, szkla lub metalu. Butelki lub inne rodzaje pojemników zawieraja wystarczajaca ilosc plynu, aby dostarczyc jednej osobie odpowiednia dawke, aby uzyskac efekty eliksiru.~
+
+@400035 = ~Ciezka metalowa butelka wydziela slodki i ekstrawagancki aromat. Jesli odwazysz sie spojrzec do jej wnetrza, zobaczysz blyszczacy i tajemniczy plyn, promieniujacy nieustajaca i nieskonczona energia. Napis ze znakiem Torma oglasza, ze tylko wierny wyznawca Boga Sprawiedliwosci moze cieszyc sie jego korzysciami.
+
+CECHY:
+
+Bonusy stale:
+
+- Zdolnosc do uzywania Miecza Dwurecznego: Ustalona na 5
+- Punktów Zycia: +20
+
+Waga: 25 funtów.~
+
+@400036 = ~Zdobyte Punkty Zycia: +20~
+@400037 = ~Zdolnosc do uzywania Miecza Dwurecznego: Ustalona na 5~
+
+//FUEGO SALVAJE
+@400038 = ~Zbroja skórzana~
+@400039 = ~Dziki Ogien~
+@400040 = ~Naciagana skórzana zbroja ma niewiele wspólnego ze zwykla skórzana zbroja. Podczas gdy skórzana zbroja jest utwardzona pancerzem, naciagana skórzana jest miekka i elastyczna, z setkami metalowych nitów wbitych w nia. Nitki sa tak blisko siebie, ze tworza twardy metalowy pancerz odbijajacy ataki ciete. Miekka skórzana podszewka sluzy jedynie do utrzymania nitów na swoim miejscu. 
+
+CECHY:
+
+Klasa pancerza: 7
+Waga: 25 funtów
+Wymagania: 6 sily~
+
+@400041 = ~Mówi sie, ze wiele wieków temu pewna grupa ludzi próbowala wyciac jeden z wielkich pólnocnych lasów w Tethyrze, aby rozwijac swoja gospodarke, sprzedajac drewno i skóry zwierzat.
+W srodku zniszczenia samotny i ponury elf blagal nieznanego imienia Boga Druidów, Mielikki, o sile, aby móc walczyc z najezdzcami. W tym wlasnie momencie jego nagie tors zostalo przykryte tajemnicza twarda skóra z cuero.
+Gorace pragnienie elfa w obronie swojej ziemi zapewnilo mu zdolnosc obrony przed wrogami ogniem, osiagajac potezny atak ogniowy, zarazem zyskujac ochrone przed tym zywiolem.
+Mówi sie, ze elf czasami przemienial sie w dzikiego wilkolaka i z wsciekloscia rozrywal i palal niektórych ludzkich mysliwych, odstraszajac tych, którzy zamierzali zaatakowac nature.
+
+CECHY:
+
+Bonusy:
+
+Odpornosc na Ogien: 30%
+Ognisty tarczownik: 3 razy dziennie
+
+Klasa Pancerza: 2
+Waga: 5~
+
+//VENOM STRIKE
+
+@400042 = ~Dlugi kij~
+@400043 = ~Uderzenie Jadem~
+@400044 = ~Wiekszosc dlugich kijów to tegie drewniane prety, waskie w rekojesci i szersze na koncach. To proste narzedzie bylo uzywane od czasu, gdy czlowiek zaczal uzywac narzedzi. Kazdy moze znalezc porzadna, twarda kawalkowa drewniana wersje, która mozna uzyc do uderzenia, stad szerokie zastosowanie dlugich kijów.
+
+CECHY:
+
+Obrazenia: 1D6
+Rodzaj obrazen: Obuchowe
+Waga: 3 funty
+Wspólczynnik predkosci: 4
+Talent bojowy: Palka/Dlugi kij
+Typ broni: Jednoreczna
+Wymagania: 5 sily~
+
+@400045 = ~Uderzenie Jadu
+
+Mówi sie, ze kolec skorpioniego ogona mantikory wydziela kwasowy zapach zgnilizny. I to wlasnie ten odór wydobywa sie z konca tej strasznej palki, dajac ci podejrzenie, ze naprawde zostala zbudowana na bazie skladników martwej mantikory. W kazdym razie czarna magia, która nasaczono, pozwala posiadaczowi pochlaniac sile zyciowa ofiary.
+
+CECHY:
+
+Apteczki posiadane:
+
+- Odsysanie: Za kazdym razem, gdy trafia, istnieje 15% szansy na skonsumowanie 4 poziomów, uzdrawiajac 20 pkt. zycia posiadacza i przyspieszajac go na 30 sekund, jednoczesnie zwiekszajac jego sile o 3 w tym samym czasie.
+
+Obrazenia: 1D6 +5, +1D5 za trucizne
+THAC0: Bonus +5
+Rodzaj obrazen: Obuchowe
+Waga: 15 funtów
+Wspólczynnik predkosci: 3
+Talent bojowy: Palka/Dlugi kij
+Typ broni: Jednoreczna
+Wymagania: 13 sily~
+
+@400050 = ~Cztery poziomy skonsumowane~
+@400051 = ~Uleczony~
+
+//PROTECCIÓN DEL GUERRERO
+
+@400052 = ~Kamien~
+@400053 = ~Wojownik ze Stali~
+@400054 = ~Ten kamien wydaje sie byc nie na miejscu w takim miejscu; jakby zostawiono go celowo. Byc moze ma jakies znaczenie, chociaz macie nieprzyjemne przeczucie, ze nie powinniscie go sprzedawac i lepiej go zachowac przez pewien czas. Zazwyczaj przyjemna ciemnozielona barwa kamieni beljuril periodycznie swieci blyszczacym swiatlem. Ten kamien ma inny odcien, byc moze dlatego, ze jest to nowa odmiana dotad nieznana. Wydaje sie byc bardzo wartosciowy.~
+
+@400055 = ~Ciezki kamien wyróznia sie runicznym napisem w jego centrum. Jego uzycie oznacza nauke przydatnej umiejetnosci wywolywania ochrony przed atakami fizycznymi, dostarczajac uzytkownikowi niezawodnej cechy w walce przeciwko wrogom.
+
+CECHY:
+
+Bonusy stale:
+
+- Wojownik ze Stali: Raz na dzien.
+
+Waga: 25 funtów.~
+
+@400056 = ~Otrzymana Umiejetnosc Innata: Wojownik ze Stali~
+
+// EMBLEMA DE BAERVAN
+
+@400057 = ~Kamien~
+@400058 = ~Emblemat Baervana~
+@400059 = ~Ten kamien wydaje sie byc nie na miejscu w takim miejscu; jakby zostawiono go celowo. Byc moze ma jakies znaczenie, chociaz macie nieprzyjemne przeczucie, ze nie powinniscie go sprzedawac i lepiej go zachowac przez pewien czas. Zazwyczaj przyjemna ciemnozielona barwa kamieni beljuril periodycznie swieci blyszczacym swiatlem. Ten kamien ma inny odcien, byc moze dlatego, ze jest to nowa odmiana dotad nieznana. Wydaje sie byc bardzo wartosciowy.~
+
+@400060 = ~Mroczna forma kamienia przed toba przyciaga uwage. Nie mozesz sie oprzec uczuciu spokoju podnoszac go.
+Bez watpienia zwierze reprezentuje boga gnome, Baervana, i tylko wierny wyznawca jego dogmatu moze go uzywac.
+
+CECHY:
+
+Bonusy stale:
+
+- Inteligencja i Madrosc: Zwiekszone o 2 punkty kazda.
+- Konstytucja: Zwiekszona o 8 punktów.
+
+Waga: 25 funtów.~
+
+@400061 = ~Emblemat Baervana: +2 do Inteligencji i Madrosci~
+@400062 = ~Emblemat Baervana: +8 do Konstytucji~
+
+// VITALIDAD DE LA NOCHE
+@400063 = ~Kamien~
+@400064 = ~Zyciowa Moc Nocy~
+@400065 = ~Ten kamien wydaje sie byc nie na miejscu w takim miejscu; jakby zostawiono go celowo. Byc moze ma jakies znaczenie, chociaz macie nieprzyjemne przeczucie, ze nie powinniscie go sprzedawac i lepiej go zachowac przez pewien czas. Zazwyczaj przyjemna ciemnozielona barwa kamieni beljuril periodycznie swieci blyszczacym swiatlem. Ten kamien ma inny odcien, byc moze dlatego, ze jest to nowa odmiana dotad nieznana. Wydaje sie byc bardzo wartosciowy.~
+
+@400066 = ~Czern kamienia przed toba jest tak gleboka, ze moze lekko razic w oczy. Wydziela glebokie i ukryte uczucie nostalgii, a jego moc jest niezaprzeczalna. Tylko sluga Shar moze z niego korzystac.
+
+CECHY:
+
+Bonusy stale:
+
+- Sila: Zwiekszona o 4 punkty.
+- Konstytucja: Zwiekszona o 8 punktów.
+
+Waga: 25 funtów.~
+
+@400067 = ~Zyciowa Moc Nocy: +4 do Sily~
+@400068 = ~Zyciowa Moc Nocy: +8 do Konstytucji~
+
+// BENDICIÓN DE ARVORIN
+@400069 = ~Kamien~
+@400070 = ~Blogoslawienstwo Arvorina~
+@400071 = ~Ten kamien wydaje sie byc nie na miejscu w takim miejscu; jakby zostawiono go celowo. Byc moze ma jakies znaczenie, chociaz macie nieprzyjemne przeczucie, ze nie powinniscie go sprzedawac i lepiej go zachowac przez pewien czas. Zazwyczaj przyjemna ciemnozielona barwa kamieni beljuril periodycznie swieci blyszczacym swiatlem. Ten kamien ma inny odcien, byc moze dlatego, ze jest to nowa odmiana dotad nieznana. Wydaje sie byc bardzo wartosciowy.~
+
+@400072 = ~Grupa kamieni swieci nieprzerwanie z plonacym pragnieniem sprawiedliwosci. Moga byc zrozumiane jedynie przez tego, kto podaza smiala sciezka boga sredniaka, Arvorina.
+
+CECHY:
+
+Bonusy stale:
+
+- Sila: Zwiekszona o 4 punkty.
+- Udziela zdolnosci wrodzonych:
+
+Rozproszenie Magii (2 razy dziennie)
+Prawdziwe Widzenie (2 razy dziennie)
+
+Waga: 25 funtów.~
+@400073 = ~Blogoslawienstwo Arvorina: +4 do Sily~
+@400074 = ~Zdolnosc Wrodzona Otrzymana: Rozproszenie Magii~
+@400075 = ~Zdolnosc Wrodzona Otrzymana: Prawdziwe Widzenie~
+
+// ESTUDIOS SANTIFICADOS DE CORTHALA
+@400076 = ~Pergamin~
+@400077 = ~Uswiecone Studia Corthala~
+@400078 = ~Pergamin ochrony to zestaw magicznych run zawartych w zakletym manuskrypcie. Sa one wyjatkowe, poniewaz kazda osoba, niezaleznie od jej wiedzy na temat magii, moze je czytac. Gdy te runy sa czytane na glos, magia ochronna kierowana jest ku wybranemu celowi przez czytelnika. Pergaminy te moga miec róznorodne korzystne efekty, chociaz trzeba uwazac na pergaminy pochodzace z podejrzanych zródel.~
+
+@400079 = ~Zawartosc pergaminów pochodzi z czasów, gdy rodzina Corthala rzadzila jako jedna z najpotezniejszych w Amn. Runy i zaklecia magiczne nadaja nosicielowi niezwykla moc. Jednakze, beda one mialy skutek jedynie u osoby posiadajacej krew Corthala i bedacej wystarczajaco doswiadczona, by zniesc taka transformacje.
+
+CECHY:
+
+Bonusy stale:
+
+- Madrosc: Zwiekszona o 4 punkty.
+- Mistrzostwo w Bron: Katana (ustalone na 5 punktów).
+
+Waga: 2 funty.
+
+Moze uzywac tylko:
+Valygar, poziom 12.~
+@400080 = ~Mistrzostwo w Katana ustalone na 5~
+@400081 = ~Studia Corthala: +4 do Madrosci~
+
+// PERGAMINO DEL TIEFLING
+
+@400082 = ~Pergamin~
+@400083 = ~Pergamin Tieflinga~
+@400084 = ~Pergamin ochronny to zestaw magicznych run zawartych w zakletym manuskrypcie. Sa one wyjatkowe, poniewaz kazda osoba, niezaleznie od jej wiedzy na temat magii, moze je czytac. Gdy te runy sa czytane na glos, magia ochronna kierowana jest ku wybranemu celowi przez czytelnika. Pergaminy te moga miec róznorodne korzystne efekty, chociaz trzeba uwazac na pergaminy pochodzace z podejrzanych zródel.~
+
+@400085 = ~Runy sa niezrozumiale dla wszystkich oprócz tieflingów. Tajemnicza moc, która z nich promieniuje, prawdopodobnie moze byc zrozumiana przez kogos, kto nie jest z tego planu.
+
+CECHY:
+
+Bonusy stale:
+
+- Inteligencja: Zwiekszona o 4 punkty.
+- Konstytucja: Zwiekszona o 4 punkty.
+- Odpornosc na Magie: +10%
+
+Waga: 5 funtów.~
+@400086 = ~Pergamin Tieflinga: +4 do Inteligencji i Konstytucji~
+@400087 = ~Odpornosc na Magie: +%10~
+
+// POCIÓN GNÓMICA
+@400088 = ~Mikstura~
+@400089 = ~Mikstura Gnomów~
+@400090 = ~Mikstury zazwyczaj znajduja sie w fiolkach lub naczyniach z ceramiki, szkla lub metalu. Fiolki lub inne rodzaje pojemników zawieraja wystarczajaca ilosc plynu, aby dostarczyc osobie dawke niezbedna do uzyskania efektów mikstury.~
+
+@400091 = ~Kolorowe zdobienia na zewnetrznej czesci ogromnej butelki moga sklonic do nieufnosci nawet najbardziej ufajacego. Jednak rozpoznajesz cos na inskrypcji, co brzmi jak: "...z rzodkiewkami i gnomami...", dajac ci wrazenie, ze tylko ktos z tej rasy moze jasno zrozumiec, o co chodzi.
+
+CECHY:
+
+Bonusy stale:
+
+- Inteligencja: Zwiekszona o 3 punkty.
+- Zrecznosc: Zwiekszona o 1 punkt.
+
+Waga: 25 funtów.~
+@400092 = ~Mikstura Gnomów: +3 do Inteligencji~
+@400093 = ~Mikstura Gnomów: +1 do Zrecznosci~
+
+// FORTALEZA DE BHAAL
+
+@400094 = ~Podrecznik~
+@400095 = ~Twierdza Bhaala~
+@400096 = ~Oceniajac po wydrukowanych na okladce symbolach arkanicznych, wyraznie widac, ze ta ksiega jest nasaczona jakims rodzajem magii. Niemniej jednak, dopóki nie spróbujesz jej przeczytac lub zidentyfikowac, nadal pozostaniesz nieswiadomy jej dokladnej natury.~
+
+@400097 = ~Napis sugeruje, zaskakujaco, na Bhaala, boga zabójstwa. Wewnatrz znajduje sie aluzja do potomka z zdolnosciami lotrowania i magicznymi. 
+Poniewaz ksiega wydaje sie odrzucac <CHARNAME>, najprawdopodobniej wymieniony potomek Bhaala nie jest przeznaczony do "jej" spozycia.
+
+CECHY:
+
+Bonusy stale:
+
+- Sila: Zwiekszona o 7 punktów.
+- Inteligencja i Zrecznosc: Zwiekszone o 1 punkt.
+
+Waga: 15 funtów.~
+@400098 = ~Twierdza Bhaala: Sila zwiekszona o 7 punktów~
+@400099 = ~Twierdza Bhaala: Inteligencja i Zrecznosc zwiekszone o 1 punkt~
+
+// FUERZA DEL ARPISTA
+
+@400100 = ~Podrecznik~
+@400101 = ~Sila Harfisty~
+@400102 = ~Oceniajac po wydrukowanych na okladce symbolach arkanicznych, wyraznie widac, ze ta ksiega jest nasaczona jakims rodzajem magii. Niemniej jednak, dopóki nie spróbujesz jej przeczytac lub zidentyfikowac, nadal pozostaniesz nieswiadomy jej dokladnej natury.~
+
+@400103 = ~Symbol Mystry wskazuje na preludium do utworu Harfisty, w którym wymienione sa tajemnicze runy, które tylko ktos z tego zakonu móglby zrozumiec. Wydaje sie, ze wskazuje na skromny rytual, w którym posiadacz jest w stanie zwiekszyc swoja sile fizyczna i umyslowa.
+
+CECHY:
+
+Bonusy stale:
+
+- Sila: Zwiekszona o 2 punkty.
+- Madrosc: Zwiekszona o 3 punkty.
+
+Waga: 15 funtów.~
+@400104 = ~Ksiega Harfisty: +2 do Sily~
+@400105 = ~Ksiega Harfisty: +3 do Madrosci~
+
+// RUNAS DE UNIVERSALIDAD
+
+@400106 = ~Podrecznik~
+@400107 = ~Runy Uniwersalnosci~
+@400108 = ~Oceniajac po wydrukowanych na okladce symbolach arkanicznych, wyraznie widac, ze ta ksiega jest nasaczona jakims rodzajem magii. Niemniej jednak, dopóki nie spróbujesz jej przeczytac lub zidentyfikowac, nadal pozostaniesz nieswiadomy jej dokladnej natury.~
+
+@400109 = ~Ciezki pergamin zawiera magiczne runy latwe do zrozumienia. W skrócie, spojrzenie na nie oznacza uzyskanie poteznej zdolnosci do korzystania praktycznie z kazdego przedmiotu. Nadaje uzytkownikowi zdolnosc epickiego mistrza zlodziejstwa: Uzycie dowolnego przedmiotu.
+
+CECHY:
+
+Bonusy stale:
+
+- Nadaje uzytkownikowi zdolnosc epickiego mistrza zlodziejstwa: Uzycie dowolnego przedmiotu.
+
+Waga: 25 funtów.~
+@400110 = ~Zdolnosc Pasywna Otrzymana: Uzycie dowolnego przedmiotu~
+
+// ORBE DE LA TORMENTA
+
+@400110 = ~Kamien~
+@400111 = ~Orb Burzy~
+@400112 = ~Ten kamien wydaje sie byc nietypowy w takim miejscu; to jakby zostawiono go celowo. Moze miec jakies znaczenie, chociaz masz niepokojace przeczucie, ze lepiej go nie sprzedawac i przechowac przez jakis czas. Zazwyczaj przyjemna ciemnozielona barwa kamieni beljuril regularnie migocze blyszczacym swiatlem. Ten kamien ma inny odcien, byc moze dlatego, ze to nowa, nieznana dotad odmiana. Wydaje sie byc bardzo cenny.~
+
+@400113 = ~Rzadko spotyka sie fragmenty gwiazd, wynikajace z poteznych burz niebios. Przed toba znajduje sie swoiste skrystalizowane klejnot, emanujace niezwykla moca. O ile mozesz ocenic, tylko doswiadczony nordycki druid jest w stanie zrozumiec jego potege.
+
+CECHY:
+
+Bonusy stale:
+
+- Sila: Zwiekszona o 4 punkty.
+- Umiejetnosci przywolywania: Duch zwierzecia, 3 razy dziennie.
+
+Waga: 25 funtów.
+Moze uzywac tylko:
+Zmiennoksztaltny, poziom 13.~
+@400114 = ~Orb Burzy: +4 do Sily~
+@400115 = ~Otrzymana Zdolnosc Pasywna: Duch Zwierzecia~
+
+
+// TOMO DE DESTREZA THAYINA
+
+@400116 = ~Podrecznik~
+@400117 = ~Tom Zwinnosci Thayina~
+@400118 = ~Sadzac po rytualnych symbolach wytloczonych na okladce, jasne jest, ze ta ksiega jest nasycona jakims rodzajem magii. Jednak dopóki nie spróbujesz jej przeczytac lub zidentyfikowac, bedziesz nie wiedzial dokladnie, co to za magia.~
+
+@400119 = ~Tom przed toba to wyjatkowy przyklad tego, jak thayijski mag moze, za pomoca poteznych run, zdobyc absolutnie godne pozazdroszczenia zdolnosci fizyczne, nawet dla najbardziej wymijajacego Cienia. Jak mozna sie spodziewac, tylko czerwony mag moze go zrozumiec.
+
+CECHY:
+
+Bonusy stale:
+
+- Zwinnosc: Zwiekszona o 7 punktów.
+
+Waga: 10 funtów.
+Moze uzywac tylko:
+Czerwony Mag, poziom 15.~
+@400120 = ~Tom Thayina: +7 do Zwinnosci~
+
+
+// POCIÓN CAÓTICO MALIGNO **VER
+
+@400121 = ~Mikstura~
+@400122 = ~Eliksir Magiczny: Chaotycznie Zlowrogi~
+@400123 = ~Mikstury zazwyczaj znajduja sie w butelkach lub naczyniach z ceramiki, szkla lub metalu. Butelki lub inne rodzaje pojemników zawieraja wystarczajaca ilosc plynu, aby dostarczyc jednej osobie niezbedna dawke mikstury w celu uzyskania efektów magicznych.~
+
+@400124 = ~Przez wieki krazyly opowiesci o dziwnych napojach, które zmienialy zachowanie konsumenta. Nic dziwnego, ze za pomoca magicznych wplywów mozna stworzyc taki eliksir.
+
+CECHY:
+
+Zmiana Pochodzenia (trwala):
+
+- Chaotycznie Zlowrogi.
+
+Waga: 25 funtów.~
+@400125 = ~Pochodzenie zmienione: Chaotycznie Zlowrogi~
+
+
+// POCIÓN NEUTRAL MALIGNO
+
+@400126 = ~Mikstura~
+@400127 = ~Eliksir Magiczny: Neutralnie Zlowrogi~
+@400128 = ~Mikstury zazwyczaj znajduja sie w butelkach lub naczyniach z ceramiki, szkla lub metalu. Butelki lub inne rodzaje pojemników zawieraja wystarczajaca ilosc plynu, aby dostarczyc jednej osobie niezbedna dawke mikstury w celu uzyskania efektów magicznych.~
+
+@400129 = ~Przez wieki krazyly opowiesci o dziwnych napojach, które zmienialy zachowanie konsumenta. Nic dziwnego, ze za pomoca magicznych wplywów mozna stworzyc taki eliksir.
+
+CECHY:
+
+Zmiana Pochodzenia (trwala):
+
+- Neutralnie Zlowrogi.
+
+Waga: 25 funtów.~
+@400130 = ~Pochodzenie zmienione: Neutralnie Zlowrogi~
+
+
+// POCIÓN LEGAL MALIGNO **VER
+
+@400131 = ~Mikstura~
+@400132 = ~Eliksir Magiczny: Prawo Zlowrogie~
+@400133 = ~Mikstury zazwyczaj znajduja sie w butelkach lub naczyniach z ceramiki, szkla lub metalu. Butelki lub inne rodzaje pojemników zawieraja wystarczajaca ilosc plynu, aby dostarczyc jednej osobie niezbedna dawke mikstury w celu uzyskania efektów magicznych.~
+
+@400134 = ~Przez wieki krazyly opowiesci o dziwnych napojach, które zmienialy zachowanie konsumenta. Nic dziwnego, ze za pomoca magicznych wplywów mozna stworzyc taki eliksir.
+
+CECHY:
+
+Zmiana Pochodzenia (trwala):
+
+- Prawo Zlowrogie.
+
+Waga: 25 funtów.~
+@400135 = ~Pochodzenie zmienione: Prawo Zlowrogie~
+
+// POCIÓN CAÓTICO NEUTRAL **VER
+
+@400136 = ~Mikstura~
+@400137 = ~Eliksir Magiczny: Chaotycznie Neutralny~
+@400138 = ~Mikstury zazwyczaj znajduja sie w butelkach lub naczyniach z ceramiki, szkla lub metalu. Butelki lub inne rodzaje pojemników zawieraja wystarczajaca ilosc plynu, aby dostarczyc jednej osobie niezbedna dawke mikstury w celu uzyskania efektów magicznych.~
+
+@400139 = ~Przez wieki krazyly opowiesci o dziwnych napojach, które zmienialy zachowanie konsumenta. Nic dziwnego, ze za pomoca magicznych wplywów mozna stworzyc taki eliksir.
+
+CECHY:
+
+Zmiana Pochodzenia (trwala):
+
+- Chaotycznie Neutralny.
+
+Waga: 25 funtów.~
+@400140 = ~Pochodzenie zmienione: Chaotycznie Neutralny~
+
+// POCIÓN NEUTRAL AUTÉNTICO
+
+@400141 = ~Mikstura~
+@400142 = ~Eliksir Magiczny: Prawdziwie Neutralny~
+@400143 = ~Mikstury zazwyczaj znajduja sie w butelkach lub naczyniach z ceramiki, szkla lub metalu. Butelki lub inne rodzaje pojemników zawieraja wystarczajaca ilosc plynu, aby dostarczyc jednej osobie niezbedna dawke mikstury w celu uzyskania efektów magicznych.~
+
+@400144 = ~Przez wieki krazyly opowiesci o dziwnych napojach, które zmienialy zachowanie konsumenta. Nic dziwnego, ze za pomoca magicznych wplywów mozna stworzyc taki eliksir.
+
+CECHY:
+
+Zmiana Pochodzenia (trwala):
+
+- Neutralny Prawdziwy.
+
+Waga: 25 funtów.~
+@400145 = ~Pochodzenie zmienione: Neutralny Prawdziwy~
+
+// POCIÓN LEGAL NEUTRAL **VER
+
+@400146 = ~Mikstura~
+@400147 = ~Eliksir Magiczny: Prawny Neutralny~
+@400148 = ~Mikstury zazwyczaj znajduja sie w butelkach lub naczyniach z ceramiki, szkla lub metalu. Butelki lub inne rodzaje pojemników zawieraja wystarczajaca ilosc plynu, aby dostarczyc jednej osobie niezbedna dawke mikstury w celu uzyskania efektów magicznych.~
+
+@400149 = ~Przez wieki krazyly opowiesci o dziwnych napojach, które zmienialy zachowanie konsumenta. Nic dziwnego, ze za pomoca magicznych wplywów mozna stworzyc taki eliksir.
+
+CECHY:
+
+Zmiana Pochodzenia (trwala):
+
+- Prawny Neutralny.
+
+Waga: 25 funtów.~
+@400150 = ~Pochodzenie zmienione: Prawny Neutralny~
+
+// POCIÓN CAÓTICO BUENO **VER
+
+@400151 = ~Mikstura~
+@400152 = ~Eliksir Magiczny: Chaotycznie Dobry~
+@400153 = ~Mikstury zazwyczaj znajduja sie w butelkach lub naczyniach z ceramiki, szkla lub metalu. Butelki lub inne rodzaje pojemników zawieraja wystarczajaca ilosc plynu, aby dostarczyc jednej osobie niezbedna dawke mikstury w celu uzyskania efektów magicznych.~
+
+@400154 = ~Przez wieki krazyly opowiesci o dziwnych napojach, które zmienialy zachowanie konsumenta. Nic dziwnego, ze za pomoca magicznych wplywów mozna stworzyc taki eliksir.
+
+CECHY:
+
+Zmiana Pochodzenia (trwala):
+
+- Chaotycznie Dobry.
+
+Waga: 25 funtów.~
+@400155 = ~Pochodzenie zmienione: Chaotycznie Dobry~
+
+
+// POCIÓN NEUTRAL BUENO
+
+@400156 = ~Mikstura~
+@400157 = ~Eliksir Magiczny: Neutralny Dobry~
+@400158 = ~Mikstury zazwyczaj znajduja sie w butelkach lub naczyniach z ceramiki, szkla lub metalu. Butelki lub inne rodzaje pojemników zawieraja wystarczajaca ilosc plynu, aby dostarczyc jednej osobie niezbedna dawke mikstury w celu uzyskania efektów magicznych.~
+
+@400159 = ~Przez wieki krazyly opowiesci o dziwnych napojach, które zmienialy zachowanie konsumenta. Nic dziwnego, ze za pomoca magicznych wplywów mozna stworzyc taki eliksir.
+
+CECHY:
+
+Zmiana Pochodzenia (trwala):
+
+- Neutralny Dobry.
+
+Waga: 25 funtów.~
+@400160 = ~Pochodzenie zmienione: Neutralny Dobry~
+
+
+// POCIÓN LEGAL BUENO **VER
+
+@400161 = ~Mikstura~
+@400162 = ~Eliksir Magiczny: Legalny Dobry~
+@400163 = ~Mikstury zazwyczaj znajduja sie w butelkach lub naczyniach z ceramiki, szkla lub metalu. Butelki lub inne rodzaje pojemników zawieraja wystarczajaca ilosc plynu, aby dostarczyc jednej osobie niezbedna dawke mikstury w celu uzyskania efektów magicznych.~
+
+@400164 = ~Przez wieki krazyly opowiesci o dziwnych napojach, które zmienialy zachowanie konsumenta. Nic dziwnego, ze za pomoca magicznych wplywów mozna stworzyc taki eliksir.
+
+CECHY:
+
+Zmiana Pochodzenia (trwala):
+
+- Legalny Dobry.
+
+Waga: 25 funtów.~
+@400165 = ~Pochodzenie zmienione: Legalny Dobry~
+
+
+// POCIÓN DE RASHEMEN
+
+@400166 = ~Mikstura~
+@400167 = ~Mikstura Madrosci Rashemen~
+@400168 = ~Mikstury zazwyczaj znajduja sie w butelkach lub naczyniach z ceramiki, szkla lub metalu. Butelki lub inne rodzaje pojemników zawieraja wystarczajaca ilosc plynu, aby dostarczyc jednej osobie niezbedna dawke mikstury w celu uzyskania efektów magicznych.~
+
+@400169 = ~Niektóre opowiesci wskazuja, ze gdy mezczyzna z sukcesem odbywa podróz zwana "dejemma", otrzymuje boska madrosc, która posiadaja tylko najbardziej renomowani czlonkowie Smoczego Zakonu Lodu. Mikstura, która masz przed soba, stanowi krótsza droge do tej wiedzy. Jednak tylko rodzimy mieszkaniec Pólnocy moze uzyskac tajemnicze moce, które oferuje.
+
+CECHY:
+
+Bonusy stale:
+
+- Madrosc: Zwiekszona o 11 punktów.
+
+Waga: 25 funtów.
+
+Moze uzywac tylko:
+
+Zwiadowca z Rashemen, poziom 12.~
+@400170 = ~Mikstura Rashemen: +11 do Madrosci~
+
+
+// FUROR ÉPICO
+
+@400171 = ~Miecz Bastardowy~
+@400172 = ~Epicus Furor~
+@400173 = ~Miecz bastardowy, znany równiez jako miecz jednoreczny, nazywany jest tak, poniewaz jest na pól drogi miedzy dwurecznym a wielkim mieczem. Miecz bastardowy ma ostrze dwustronne i dlugi uchwyt, który mozna dostosowac do dwóch rak, jesli ktos woli. Calkowita dlugosc miecza bastardowego wynosi od 120 do 150 centymetrów.
+
+CECHY:
+
+Obrazenia: 2D4
+Typ obrazen: Ciete
+Waga: 10 funtów
+Wskaznik predkosci: 8
+Talent bojowy: Miecz Bastardowy
+Typ broni: Jednoreczna
+Wymagania: 11 sily~
+@400174 = ~Epicus Furor: Miecz Szmaragdowy.
+Wiek temu, na tajemniczych planach Argalord, istnialo Przeklenstwo, które grozilo zniszczeniem wszelkiego istniejacego zycia na ziemi. Mówi sie, ze tylko jeden czlowiek osmielil sie mu stawic. Czlowiek bez imienia, znany jako Wojownik Lodowy, poszukiwal na krancach kontynentu legendarnego miecza, tego, którym tylko doswiadczony wojownik móglby wymierzac ciosy.
+
+Pokonujac z trudem wszelkie narzucone próby, byl w stanie wymierzyc cios Mieczem Szmaragdowym, Furor Épico, a w bitwie, która przelamala bariery czasu i przestrzeni, zdolal pokonac Przeklenstwo, które pustoszylo spokojne ziemie Argalord. Niestety polegl w walce, a miecz zaginal na zawsze, wedlug legend, pochloniety przez noc, by nigdy wiecej nie pojawic sie na tym Planie.
+
+CECHY:
+
+Zdolnosci posiadane:
+
+- Regeneracja: 1 punkt zycia co 5 sekund.
+- Odpornosc magiczna: +10%
+- Ochrona przed Zlem podczas uzywania.
+- Punkty zycia: +10%
+
+Zdolnosci bojowe:
+
+- Groza: Rzut obronny przeciw magii, lub ofiara ucieknie przerazona na 30 sekund.
+
+THAC0: +5
+Obrazenia: 2D4+5, +2d3 za obrazenia magiczne
+Typ obrazen: Ciete
+Waga: 13 funtów
+Wskaznik predkosci: 3
+Talent bojowy: Miecz Bastardowy
+Typ broni: Jednoreczna
+Wymagania: 15 sily~
+@400175 = ~Ucieka przerazony~
+
+// COLMILLO DE LARLOCH
+
+@400176 = ~Topór Bojowy~
+@400177 = ~Kiel Larlocha~
+@400178 = ~Najbardziej powszechna wersja topora bojowego jest silna pala o dlugosci okolo 120 cm, z jednostronnym, klinowatym ostrzem na jednym z konców. Topory bojowe nazywane sa równiez szerokimi toporami.
+
+CECHY:
+
+Obrazenia: 1D8
+Typ obrazen: Ciete
+Waga: 7 funtów
+Wskaznik predkosci: 7
+Talent bojowy: Topór
+Typ broni: Jednoreczna
+Wymagania: 10 sily~
+@400179 = ~Zlo i lodowa potega, wydobywajaca sie ze zimnego metalu topora, wywoluje liczne dreszcze na kregoslupie posiadacza. Topór Bojowy, Kiel Larlocha, to nic innego jak mniejsze dzielo Króla Cieni, Licha Larlocha. Ofiara zraniona ostrzem topora zostanie dotknieta dodatkowym ciosem zimna, który wchlonie zyciowa energie i przekaze ja posiadaczowi. Ponadto bron zapewnia ochrone przed zakleciami oczarowania.
+
+CECHY:
+
+Zdolnosci posiadane:
+
+- Nietknionosc przed Zakleciami.
+
+Zdolnosci bojowe:
+
+- Odsysanie: Kazdy zadanym ciosem uleczy posiadacza o 3 punkty zycia.
+
+THAC0: +3
+Obrazenia: 1D8+3, +1d3 za obrazenia zimowe
+Typ obrazen: Ciete
+Waga: 7 funtów
+Wskaznik predkosci: 4
+Talent bojowy: Topór Bojowy
+Typ broni: Jednoreczna
+Wymagania: 10 sily~
+@400180 = ~Okropne zaklecie~
+@400181 = ~Zaklecie~
+@400182 = ~Uleczony~
+
+// KIKUICHIMONJI
+
+@400183 = ~Katana~
+@400184 = ~Kikuichimonji~
+@400185 = ~Katana to krzywa szabla o jednostronnym ostrzu zakonczonym na koncu. Byc moze to jedno z najlepszych mieczy, jakie kiedykolwiek wyprodukowano. Proces jej tworzenia, dlugi i tajemniczy, jest bardziej sztuka niz czyms innym. Jej ostrze jest jednym z najwazniejszych elementów kultury Kara-Tur. Dotkniecie lub nawet wziecie katany od samuraja to obelga, która przyciagnie jego gniew. To rzadkosc, zeby gaijin czy obcokrajowiec posiadal jedno z tych mieczy. Albo dany gaijin zostal uhonorowany przez waznego ministra, albo zabil samuraja.
+
+CECHY:
+
+Obrazenia: 1D10
+Typ obrazen: Ciete
+Waga: 6
+Wskaznik predkosci: 4
+Talent bojowy: Katana
+Typ: Jednoreczna~
+@400186 = ~Na ziemiach Kara-Tur, w Kozakurze, istnial mlody zabójca o imieniu Tenken Soujiro. Mówi sie, ze byl tak szybki w walce, ze jego przeciwnicy nie mieli szans. W trakcie walki jego cialo przybieralo zloty kolor, a konczyny poruszaly sie tak szybko, ze dla przeciwnika trudno bylo zgadnac, gdzie nastapi atak. Po latach Soujiro porzucil sciezke zabójcy i stal sie Nomadem. Nigdy wiecej o nim nie slyszano, a jego katana zostala sprzedana za znakomita cene, jej los tak niepewny jak los jej pierwotnego wlasciciela.
+
+CECHY:
+
+Umiejetnosci bojowe:
+
+- 20% szans na Przyspieszenie posiadacza na 15 sekund po zadanym ciosie
+
+THAC0: +4
+Obrazenia: 1D10+4
+Typ obrazen: Ciete
+Waga: 6
+Wskaznik predkosci: 0
+Talent bojowy: Katana
+Typ: Jednoreczna~
+
+
+// JISSEN-KENBU
+
+@400187 = ~Wakizashi~
+@400188 = ~Jissen-kenbu~
+@400189 = ~Wakizashi
+Wakizashi, czyli "miecz towarzyszacy", jest bardzo wazny dla samuraja. Zawsze jest noszony, nawet podczas snu, i jest blisko samuraja podczas nocy. Wakizashi ma taka sama jakosc co katana, chociaz jest krótszy; mierzy od 30 do 60 centymetrów, co czyni go niebezpieczna bronia w rekach ekspertów.
+
+CECHY:
+
+Obrazenia: 1D8
+Typ obrazen: Ciete
+Waga: 3
+Wskaznik predkosci: 3
+Talent bojowy: Cimitarra/Wakizashi/Ninja-to
+Typ: Jednoreczna~
+@400190 = ~Kodachi
+
+Taniec Mieczy - Strumien Wody
+Rekojesc tego wakizashi wydziela zimne wibracje, wynikajace z lodowego uszkodzenia, które emanuje z ostrza.
+Jissen-kenbu to specjalna technika, w której posiadacz jest w stanie rzucic umiejetnosc tworzenia wielu obrazów siebie, aby zmylic przeciwnika i generowac niemal doskonala obrone fizyczna.
+
+CECHY:
+
+Umiejetnosci specjalne:
+
+- Obraz Lustrzany: 6 obrazów samego siebie. Moze byc uzywane 3 razy dziennie.
+
+THAC0: +3
+Obrazenia: 1D8 +3; +1D2 punktów obrazen lodowych
+Typ obrazen: Klujace
+Waga: 4
+Wskaznik predkosci: 0
+Talent bojowy: Katana
+Typ: Jednoreczna~
+@400191 = ~Obraz Lustrzany~
+
+// MUGENJIN Katana
+
+@400192 = ~Katana~
+@400193 = ~Mugenjin~
+@400194 = ~Katana to krzywa szabla z jednym ostrzem zakonczonym szpicem. Byc moze to jedno z najlepszych mieczy, jakie kiedykolwiek powstaly. Proces jego tworzenia, dlugi i tajemniczy, jest bardziej sztuka niz czymkolwiek innym. Jego ostrze jest jednym z najwazniejszych elementów kultury Kara-Tur. Dotkniecie lub chwycenie katany samuraja to obraza, która przyciagnie jego gniew. To rzadkosc, gdy gaijin czy obcokrajowiec posiada taki miecz. Oznacza to, ze gaijin zostal uhonorowany przez waznego ministra lub zabil samuraja.
+
+CECHY:
+
+Obrazenia: 1D10
+Typ obrazen: Ciete
+Waga: 6
+Wskaznik szybkosci: 4
+Talent bojowy: Katana
+Typ: jednoreczna~
+
+@400195 = ~Mugenjin
+
+Niemozliwe jest zignorowanie kunsztu, z jakim zostala wykonana ta katana. Najbardziej uderzajacy jest plonacy brzeg, który zadaje ofierze smiertelne obrazenia. Drugim elementem jest olej, który stale pokrywa ostrze, jak mówia, z ciala niezliczonych ofiar, które zostaly rozciete przez Mugenjin. Mówi sie, ze kiedys stoczyla pojedynek ze swoim antagonista: Shin-Ushi, Serce Miecza. Nie wiesz, dlaczego miecz zostal tak obdarzony, bo chocbys próbowal, nie uda ci sie usmierzyc ognia jego stali. Na ostrzu widnieje inskrypcja: "Ogien Gniewu".
+
+Postacie legalne nie moga nia wymachiwac.
+
+CECHY:
+
+Umiejetnosci posiadane:
+
+- Charyzma: +2
+- Madrosc i Inteligencja: +1
+- Punkty zycia: +%10
+
+Umiejetnosci bojowe:
+
+- Ogien: +2D4 punktów obrazen za kazdy cios.
+- Przebijajacy Cios: 15% szansy na skremowanie ofiary. Rzut obronny przed Smiercia -1.
+
+THAC0: +5
+Obrazenia: 1D10+5
+Typ obrazen: Ciete
+Waga: 6
+Wskaznik szybkosci: 0
+Wymagana sila: 6
+Talent bojowy: Katana
+Typ: jednoreczna~
+
+
+// SHIN-USHI
+
+@400196 = ~Katana~
+@400197 = ~Shin-Ushi~
+@400198 = ~Katana to krzywa szabla z jednym ostrzem zakonczonym szpicem. Byc moze to jedno z najlepszych mieczy, jakie kiedykolwiek powstaly. Proces jego tworzenia, dlugi i tajemniczy, jest bardziej sztuka niz czymkolwiek innym. Jego ostrze jest jednym z najwazniejszych elementów kultury Kara-Tur. Dotkniecie lub chwycenie katany samuraja to obraza, która przyciagnie jego gniew. To rzadkosc, gdy gaijin czy obcokrajowiec posiada taki miecz. Oznacza to, ze gaijin zostal uhonorowany przez waznego ministra lub zabil samuraja.
+
+CECHY:
+
+Obrazenia: 1D10
+Typ obrazen: Ciete
+Waga: 6
+Wskaznik szybkosci: 4
+Talent bojowy: Katana
+Typ: jednoreczna~
+
+@400199 = ~Shin-Ushi
+
+Ciekawostka tej katany jest brak ostrza. Choc jest nieco lzejsza niz zwykle katanas i nie ma smiertelnego ostrza wielu mieczy, Shin-Ushi to jedno z ostatecznych orezów. Mówi sie, ze kiedys stoczyla pojedynek ze swoim antagonista: Mugenjin, Ogien Gniewu. Nie wiesz, dlaczego miecz nie ma ostrza, bo chocbys próbowal, nie uda ci sie go naostrzyc z powodu jego magicznych run. Na ostrzu widnieje inskrypcja: "Serce Miecza".
+
+Postacie zle nie moga nia wymachiwac.
+
+CECHY:
+
+Umiejetnosci posiadane:
+
+- Immunitet na pochlanianie poziomów.
+
+Umiejetnosci bojowe:
+
+- Obezwladnienie wroga: Kazdy czlowiek lub pólczlowiek, z wylaczeniem elfów, trafiony przez Shin-Ushi, musi zdawac test na odpornosc na trucizne z kara -1 lub zasnac na 18 sekund.
+- Paralizujacy Cios: Test na odpornosc na zaklecia z kara -1 lub ofiara zostanie sparalizowana na 5 sekund.
+- Boska Szybkosc: 15% szans na przyspieszenie posiadacza po trafieniu na 10 sekund.
+
+THAC0: +5, +4 przeciwko stworzeniom zlym
+Obrazenia: 1D6+5, +4 przeciwko stworzeniom zlym, podwójne obrazenia przeciwko nieumarlym
+Typ obrazen: Obuchowe
+Waga: 5
+Wskaznik szybkosci: 0
+Wymagana sila: 6
+Wymagana madrosc: 10
+Talent bojowy: Katana
+Typ: jednoreczna~
+
+@400200 = ~Skonsumowane piec poziomów~
+@400201 = ~Skonsumowane cztery poziomy~
+@400202 = ~Skonsumowane trzy poziomy~
+@400203 = ~Skonsumowany dwa poziomy~
+@400204 = ~Skonsumowany jeden poziom~
+
+// kaiten-kenbu
+
+@400205 = ~Wakizashi~
+@400206 = ~Kaiten-kenbu~
+@400207 = ~Wakizashi
+Wakizashi, czyli "miecz towarzyszacy", jest bardzo wazny dla samuraja. Noszony jest zawsze, nawet pod ubraniem, i jest blisko samuraja podczas snu. Wakizashi ma taka sama jakosc jak katana, chociaz jest krótszy; mierzy od 30 do 60 centymetrów, co czyni go niebezpieczna bronia w rekach ekspertów.
+
+CECHY:
+
+Obrazenia: 1D8
+Typ obrazen: Ciete
+Waga: 3
+Wskaznik szybkosci: 3
+Talent bojowy: szable/wakizashi/ninja-to
+Typ: jednoreczna~
+
+@400208 = ~Kodachi
+
+Taniec Mieczy - Obrona elektryczna
+Rekojesc tego wakizashi wydziela dziwna sensacje z powodu zadawanego przez ostrze obrazenia elektrycznego.
+Kaiten-kenbu to specjalna technika, w której posiadacz, oprócz zadawania stalych obrazen elektrycznych, zyskuje obrone przed obrazeniami fizycznymi.
+
+CECHY:
+
+Baza KP: +3
+THAC0: +3 
+Obrazenia: 1D8 +3; +1d3 punkty obrazen elektrycznych.
+Typ obrazen: Klujace
+Waga: 4
+Wskaznik szybkosci: 0
+Talent bojowy: katana
+Typ: jednoreczna~
+
+
+// Espada de Delryn
+
+@400209 = ~Miecz Dlugi~
+@400210 = ~Miecz Delryna~
+@400211 = ~Te miecze sa zazwyczaj nazywane mieczami dwustronnymi, wojennymi lub wojskowymi. W wielu przypadkach miecz dlugi ma ostrze jednostronne. Nie istnieje jedna wersja miecza dlugiego, poniewaz jego projekt i dlugosc róznia sie miedzy kulturami, a nawet moga sie zmieniac w obrebie tej samej kultury w zaleznosci od okresu historycznego. Jedna z najczestszych cech wszystkich mieczy dlugich jest ich dlugosc, która oscyluje miedzy 90 a 120 centymetrów. W ostatnim przypadku tylko ostrze mierzy do 1 metra dlugosci calkowitej miecza. Wiekszosc mieczy dlugich ma obosieczne ostrze i ostry czubek. Pomimo posiadania ostrza, sa projektowane do ciecia, a nie do klucia.
+
+CECHY:
+
+Obrazenia: 1D8
+Typ obrazen: Ciete
+Waga: 4 lbs
+Wskaznik szybkosci: 5
+Talent bojowy: Dlugi miecz
+Typ: jednoreczna
+Wymagania: 6 sily~
+
+@400212 = ~Przodkowie rodziny Delryn nie byli zbyt rozpoznawalni w historii Athkatli. Niemniej jednak opowiada sie, ze byl rycerz z Szlachetnego Zakonu Najjasniejszego Serca, który walczyl przeciwko gigantom na Wzgórzu Trolli w ataku, który z flanki zaatakowal obrony regionu de'Arnise. Razem z grupa paladynów udalo im sie obronic ziemie przed inwazja humanoidów; niestety wszyscy zgineli w walce, a ciala rycerza Delryna nigdy wiecej nie odnaleziono. Jego miecz zniknal razem z nim.
+Tylko ktos, u kogo plynie krew tej rodziny, moze go dzierzyc.
+
+
+CECHY:
+
+Aptitudes posiadane:
+
+- Odpornosc na magie: +%20
+- Zdolnosc do walki mieczem: Ustalona na 5 punktów.
+
+Baza KP: +1
+THAC0: +5
+Obrazenia: 1D8+5, +1d6 za obrazenia elektryczne.
+Typ obrazen: Ciete
+Waga: 4 lbs
+Wskaznik szybkosci: 0
+Talent bojowy: Dlugi miecz
+Typ: jednoreczna
+Wymagania: 6 sily~
+
+@400213 = ~Zdolnosc w poslugiwaniu sie Dlugim Mieczem ustalona na 5~ 
+
+
+// Ventisca del Averno
+
+@400214 = ~miecz póltorareczny"~
+@400215 = ~Wicher Piekla~
+@400216 = ~Miecz dwureczny, znany równiez jako miecz jednoreczno-dwureczny, nazywany jest tak, poniewaz jest polowa drogi miedzy mieczem dwurecznym a wielkim mieczem. Miecz dwureczny ma ostrze dwustronne i dlugi uchwyt, który mozna dostosowac do obu rak, jesli ktos woli. Calkowita dlugosc miecza dwurecznego wynosi od 120 do 150 centymetrów.
+
+CECHY:
+
+Obrazenia: 2D4 
+Typ obrazen: Ciete
+Waga: 10 lbs
+Wskaznik szybkosci: 8
+Talent bojowy: miecz póltorareczny"
+Typ broni: Jednoreczna
+Wymagania: 11 sily~
+
+@400217 = ~Pochodzenie lodowatego miecza jest nieznane; jednak mówi sie, ze pochodzi z jakiegos piekielnego plaszczyzny, gdzie nie istnieje ogien. Jego ostrze wydziela zimne, blekitne swiatlo, a ten, kto spojrzy na niego zbyt dlugo, moze doznac wstrzasu mózgu, co powoduje, ze ofiara traci swiadomosc swoich wlasnych czynów.
+
+CECHY BOJOWE:
+
+- Konfuzja: ofiara musi zdac test na uodparnianie sie przed zakleciami z bonusem +4 lub byc zdezorientowana przez 18 sekund.
+
+THAC0: +3
+Obrazenia: 2D4+3, +2d3 punktów za obrazenia mrozne.
+Typ obrazen: Ciete
+Waga: 10 lbs
+Wskaznik szybkosci: 5
+Talent bojowy: miecz póltorareczny"
+Typ broni: Jednoreczna
+Wymagania: 11 sily~
+
+
+// SET DE WIZARDSLAYER
+// Esperanza de Benork
+
+@400218 = ~Srebrny amulet~
+@400219 = ~Nadzieja Benorka~
+@400220 = ~Amulety to zazwyczaj magiczne przedmioty, które zwykle nosi sie na szyi, zawieszone na lancuszku. Rodzaj lancuszka, który towarzyszy amuletowi, zwykle zwieksza jego wartosc estetyczna, ale nie wlasciwosci magiczne. Mozna nosic tylko jeden amulet na szyi.~
+
+@400221 = ~Nadzieja Benorka
+
+Benork byl zapomnianym ksieciem z Pólnocy, który walczyl, by pomscic smierc swojej rodziny. Legenda glosi, ze grupa mrocznych czarowników pragnela jego zamku z nieznanych powodów, chociaz plotki wspominaja, ze chcieli dolaczyc do klanu Larlocha, Króla Licha, i ze jako czesc swojego rytualu inicjacyjnego potrzebowali królewskiej krwi.
+Nekromanci uzyli swoich arkanicznych sztuk, aby okrutnie zlikwidowac rodzine szlachcica. Tylko ksiaze Benork przezyl, udajac sie oprzec poteznemu zakleciu oblakania. Pomimo tego oslepl.
+Jego najlepszym przyjacielem byl potezny kleryk Tempusa, który przyszedl mu z pomoca. Obydwaj uciekli przed straszna magia nekromancji. Aznagarb, kleryk, po schronieniu sie w ukrytym swiatynnym w Lesie Kolców, dostarczyl narzedzi niezbednych do zemsty Benorka, polegajacych glównie na zestawie bosko nasyconych przedmiotów, które mogli uzywac tylko ci, którzy nienawidza magii calym swoim sercem.
+
+Ten boski amulet symbolizuje nadzieje, która ksiaze zachowal, aby osiagnac swoja zemste.
+
+CECHY:
+
+Posiadane umiejetnosci:
+
+- Odpornosc na magie: +5%
+- Rzut obronny przed smiercia: +3
+
+Umiejetnosci:
+
+- Tajne haslo: Raz dziennie.~
+
+
+// Defensa de Aznagarb
+
+@400222 = ~Naramienniki~
+@400223 = ~Obrona Aznagarba~
+@400224 = ~Naramienniki to grube metalowe lub skórzane opaski przypinane paskami do przedramienia postaci. Zazwyczaj magia wkomponowana w naramienniki dziala tylko w trakcie walki, poniewaz wiekszosc z nich sluzy do ochrony noszacego przed obrazeniami i zwiekszenia szansy trafienia przeciwnika. Istnieja jednak wyjatki i kazdego dnia ich liczba wzrasta.~
+
+@400225 = ~Obrona Aznagarba
+
+Benork byl zapomnianym ksieciem z Pólnocy, który walczyl, by pomscic smierc swojej rodziny. Legenda glosi, ze grupa mrocznych czarowników pragnela jego zamku z nieznanych powodów, chociaz plotki wspominaja, ze chcieli dolaczyc do klanu Larlocha, Króla Licha, i ze jako czesc swojego rytualu inicjacyjnego potrzebowali królewskiej krwi.
+Nekromanci uzyli swoich arkanicznych sztuk, aby okrutnie zlikwidowac rodzine szlachcica. Tylko ksiaze Benork przezyl, udajac sie oprzec poteznemu zakleciu oblakania. Pomimo tego oslepl.
+Jego najlepszym przyjacielem byl potezny kleryk Tempusa, który przyszedl mu z pomoca. Obydwaj uciekli przed straszna magia nekromancji. Aznagarb, kleryk, po schronieniu sie w ukrytym swiatynnym w Lesie Kolców, dostarczyl narzedzi niezbednych do zemsty Benorka, polegajacych glównie na zestawie bosko nasyconych przedmiotów, które mogli uzywac tylko ci, którzy nienawidza magii calym swoim sercem.
+
+Te blogoslawione przez kleryka Aznagarba bransoletki symbolizuja obrone, jaka ksiaze mial stawic wobec sil Smierci Magicznej.
+
+CECHY:
+
+Aptitudes poseídas:
+
+- THAC0: +1
+
+Umiejetnosci:
+
+- Skóra Petry: Raz dziennie
+- Leczenie Krytycznych Ran: Dwa razy dziennie
+
+Waga: 4 lbs.~
+
+// Camino de los Ancestros
+
+@400226 = ~Buty~
+@400227 = ~Sciezka Przodków~
+@400228 = ~Buty sa zazwyczaj robione recznie przez szewców. Normalne buty sa formowane z uzyciem formy, ale dobre buty sa zaprojektowane pod ksztalt stopy konkretnej osoby.
+
+CECHY:
+
+Waga: 4 lbs~
+@400229 = ~Sciezka Przodków
+
+Benork byl zapomnianym ksieciem z Pólnocy, który walczyl, aby pomscic smierc swojej rodziny. Legenda opowiada, ze grupa mrocznych czarowników pragnela jego zamku z nieznanych powodów, chociaz plotki wspominaja, ze chcieli dolaczyc do klanu Larlocha, Króla Licha, i ze jako czesc ich rytualu inicjacyjnego potrzebowali królewskiej krwi.
+Nekromanci uzyli swoich sztuk arkanicznych, aby okrutnie zlikwidowac rodzine szlachcica. Tylko ksiaze Benork przezyl, udajac, ze oprzec sie poteznemu zakleciu obledu. Pomimo tego oslepl.
+Jego najlepszym przyjacielem byl potezny kleryk Tempusa, który przyszedl mu z pomoca. Obydwaj uciekli przed straszna magia nekromancji. Aznagarb, kleryk, po schronieniu sie w ukrytym swiatynnym w Lesie Kolców, dostarczyl narzedzi niezbednych do zemsty Benorka, polegajacych glównie na zestawie bosko nasyconych przedmiotów, które mogli uzywac tylko ci, którzy nienawidza magii calym swoim sercem.
+
+Buty reprezentuja nazwe królewskiego rodowodu Benorka. W imie Jego Przodków mial szukac smierci Nekromantów.
+
+CECHY:
+
+Posiadane umiejetnosci:
+
+- Szybkosc: Poprawa ruchu o 50%.
+- Wolnosc Ruchu: Nosiacy nie moze byc spowolniony ani unieruchomiony za pomoca zadnej magii lub mocy boskiej.
+- Odpornosc na Zimno: +15%
+- Odpornosc na Elektrycznosc: +15%
+
+Waga: 4 lbs.~
+@400230 = ~<NO TEXT>~
+ @400231 = ~<NO TEXT>~
+ @400232 = ~<NO TEXT>~
+ @400233 = ~<NO TEXT>~
+ @400234 = ~<NO TEXT>~
+ @400235 = ~<NO TEXT>~
+ @400236 = ~<NO TEXT>~
+ @400237 = ~<NO TEXT>~
+ @400238 = ~<NO TEXT>~
+ @400239 = ~Nieruchomy~
+ @400240 = ~Spowolniony~
+ @400241 = ~Wolny~
+
+// Protección de Aznagarb
+@400242 = ~Peleryna~
+@400243 = ~Ochrona Aznagarba~
+@400244 = ~Peleryna moze miec dowolny ksztalt i byc wykonana z dowolnego rodzaju materialu. Najczestsza forma to okragly kawalek materialu z dziura na srodku na glowe, z materialem przewieszonym od szyi za pomoca lancucha, broszki, sznurka lub agrafki.~
+
+@400245 = ~Ochrona Aznagarba
+
+Benork byl zapomnianym ksieciem z Pólnocy, który walczyl, aby pomscic smierc swojej rodziny. Legenda opowiada, ze grupa mrocznych czarowników pragnela jego zamku z nieznanych powodów, chociaz plotki wspominaja, ze chcieli dolaczyc do klanu Larlocha, Króla Licha, i ze jako czesc ich rytualu inicjacyjnego potrzebowali królewskiej krwi.
+Nekromanci uzyli swoich sztuk arkanicznych, aby okrutnie zlikwidowac rodzine szlachcica. Tylko ksiaze Benork przezyl, udajac, ze oprzec sie poteznemu zakleciu obledu. Pomimo tego oslepl.
+Jego najlepszym przyjacielem byl potezny kleryk Tempusa, który przyszedl mu z pomoca. Obydwaj uciekli przed straszna magia nekromancji. Aznagarb, kleryk, po schronieniu sie w ukrytym swiatynnym w Lesie Kolców, dostarczyl narzedzi niezbednych do zemsty Benorka, polegajacych glównie na zestawie bosko nasyconych przedmiotów, które mogli uzywac tylko ci, którzy nienawidza magii calym swoim sercem.
+
+Nie tylko peleryna zostala poblogoslawiona przez Tempusa, ale zostala równiez recznie zmodyfikowana przez kleryka Aznagarba, który posiadal wielka wiedze na temat unikania obrazen od broni klujacej.
+
+CECHY:
+
+Aptitudes poseídas:
+
+- Charyzma: +1 punkt.
+
+Klasa Pancerza: +1
+Klasa Pancerza przeciwko broni klujacej: +5
+Waga: 3 lbs.~
+
+// Fortaleza de Benork
+
+@400246 = ~Pas ~
+@400247 = ~Forteca Benorka~
+@400248 = ~Pas to podobny do paska. Jednak pasy nie sluza do trzymania spodni, a do noszenia toreb, pochew i podobnych rzeczy.
+
+CECHY:
+
+Waga: 2 lbs~
+@400249 = ~Forteca Benorka
+
+Benork byl zapomnianym ksieciem z Pólnocy, który walczyl, aby pomscic smierc swojej rodziny. Legenda opowiada, ze grupa mrocznych czarowników pragnela jego zamku z nieznanych powodów, chociaz plotki wspominaja, ze chcieli dolaczyc do klanu Larlocha, Króla Licha, i ze jako czesc ich rytualu inicjacyjnego potrzebowali królewskiej krwi.
+Nekromanci uzyli swoich sztuk arkanicznych, aby okrutnie zlikwidowac rodzine szlachcica. Tylko ksiaze Benork przezyl, udajac, ze oprzec sie poteznemu zakleciu obledu. Pomimo tego oslepl.
+Jego najlepszym przyjacielem byl potezny kleryk Tempusa, który przyszedl mu z pomoca. Obydwaj uciekli przed straszna magia nekromancji. Aznagarb, kleryk, po schronieniu sie w ukrytym swiatynnym w Lesie Kolców, dostarczyl narzedzi niezbednych do zemsty Benorka, polegajacych glównie na zestawie bosko nasyconych przedmiotów, które mogli uzywac tylko ci, którzy nienawidza magii calym swoim sercem.
+
+Dziwny pas symbolizuje fizyczna sile ksiecia w wykonaniu jego zemsty.
+
+CECHY:
+
+Aptitudes poseídas:
+
+- Konstytucja: +1 punkt
+- Zrecznosc: +1 punkt
+- Odpornosc na magie: +5%
+- Odpornosc na obrazenia od pocisków: +25%
+
+Waga: 4 lbs.~
+
+
+// Iris de Tempus
+
+@400250 = ~Helm ~
+@400251 = ~Tecza Tempusa~
+@400252 = ~Ten rodzaj helmu o odslonietej twarzy, wykonany z wzmocnionej skóry lub metalu, pokrywa prawie cala glowe, z wyjatkiem twarzy i szyi. Takie helmy zazwyczaj obejmuja ochrone nosa.
+
+CECHY:
+
+Bonus do klasy pancerza: Brak
+Specjalne: Chroni przed trafieniami krytycznymi
+Waga: 2 lbs~
+@400253 = ~Tecza Tempusa
+
+Benork byl zapomnianym ksieciem z Pólnocy, który walczyl, aby pomscic smierc swojej rodziny. Legenda opowiada, ze grupa mrocznych czarowników pragnela jego zamku z nieznanych powodów, chociaz plotki wspominaja, ze chcieli dolaczyc do klanu Larlocha, Króla Licha, i ze jako czesc ich rytualu inicjacyjnego potrzebowali królewskiej krwi.
+Nekromanci uzyli swoich sztuk arkanicznych, aby okrutnie zlikwidowac rodzine szlachcica. Tylko ksiaze Benork przezyl, udajac, ze oprzec sie poteznemu zakleciu obledu. Pomimo tego oslepl.
+Jego najlepszym przyjacielem byl potezny kleryk Tempusa, który przyszedl mu z pomoca. Obydwaj uciekli przed straszna magia nekromancji. Aznagarb, kleryk, po schronieniu sie w ukrytym swiatynnym w Lesie Kolców, dostarczyl narzedzi niezbednych do zemsty Benorka, polegajacych glównie na zestawie bosko nasyconych przedmiotów, które mogli uzywac tylko ci, którzy nienawidza magii calym swoim sercem.
+
+Potezny helm zostal poblogoslawiony przez modlitwy kleryka do swojego boga Tempusa, prowadzone pragnieniem walki i zemsty przez tego, kto mial go nosic: Ksiecia Nathana Benorka. Dzieki modlitwom helm zostal nasycony w taki sposób, ze ten, kto jest w stanie go nosic, ma zdolnosc widzenia dzieki sile ducha i pragnien prowadzonych przez serce. Bedzie w stanie ujawnic magiczne iluzje i widziec rzeczywistosc taka, jaka jest.
+
+CECHY:
+
+Aptitudes poseídas:
+
+- Punkty zycia: +5%
+- Odpornosc na kwas: +15%
+- Immunitet na Zaklecia Uroków.
+- Immunitet na Strach.
+
+Umiejetnosci:
+
+- Wykrywanie Niewidzialnosci: Raz dziennie.
+- Prawdziwe Widzenie: Raz dziennie.
+
+THAC0: +1
+Klasa pancerza: +1
+Waga: 3 lbs.~
+@400254 = ~Okropne zaklecie~
+@400255 = ~Zaczarowany~
+@400256 = ~Opanowany~
+@400257 = ~Panika~
+@400258 = ~Panika~
+
+
+// Respiro del Linaje
+
+@400259 = ~Pierscien~
+@400260 = ~Oddech Rodu~
+@400261 = ~Pierscien to mala obraczka z drogocennego metalu, noszona jako bizuteria. Niektóre niezwykle pierscienie sa zaklete, nadajac im rózne wlasciwosci magiczne. Takie pierscienie sa bardzo poszukiwane, zwlaszcza przez tych, którzy podejmuja sie przygód.~
+@400262 = ~Oddech Rodu
+
+Benork byl zapomnianym ksieciem z Pólnocy, który walczyl, by pomscic smierc swojej rodziny. Legenda mówi, ze grupa mrocznych czarnoksiezników pragnela jego zamku z nieznanych przyczyn, chociaz plotki wspominaja, ze chcieli dolaczyc do klanu Larlocha, Króla Lichów, i ze jako czesc rytualu inicjacyjnego potrzebowali królewskiej krwi.
+Nekromanci uzyli swojej arkanicznej sztuki, by okrutnie wymordowac rodzine szlachcica. Jedynie ksiaze Benork przezyl, udajac mu sie oprzec poteznemu zakleciu oblakania. Pomimo tego, oslepnal.
+Jego najlepszym przyjacielem byl potezny kleryk Tempusa, który przyszedl mu z pomoca. Oboje uciekli przed straszna magia nekromancji. Aznagarb, kleryk, po schronieniu sie w ukrytym swiatynnym w Lesie Kolców, dostarczyl narzedzi niezbednych do zemsty Benorka, które w zasadzie skladaly sie z bozo uswieconego zestawu, którego uzyc mogli tylko ci, którzy nienawidzili magii calym swoim sercem.
+
+Pierscien symbolizuje zycie dzieci ksiecia, które zostaly odebrane podczas ataku na zamek. Benork nadal mu te nazwe, aby móc przypominac sobie o swoim wymarlym potomstwie, gdy zblizal sie moment odebrania zycia tym, którzy ponosili za to odpowiedzialnosc.
+
+CECHY:
+
+Zdolnosci:
+
+- Odpornosc na Magie: +5%
+- Odpornosc na Ogien: +5%
+- Nietwozosc na trucizne
+
+Umiejetnosci:
+
+- Przebijanie Magii: raz dziennie~
+
+// Latido de Calia
+
+@400263 = ~Pierscien~
+@400264 = ~Bicie Calii~
+@400265 = ~Pierscien to mala obraczka z drogocennego metalu, noszona jako bizuteria. Niektóre niezwykle pierscienie sa zaklete, nadajac im rózne wlasciwosci magiczne. Takie pierscienie sa bardzo poszukiwane, zwlaszcza przez tych, którzy podejmuja sie przygód.~
+@400266 = ~Bicie Calii
+
+Benork byl zapomnianym ksieciem z Pólnocy, który walczyl, by pomscic smierc swojej rodziny. Legenda mówi, ze grupa mrocznych czarnoksiezników pragnela jego zamku z nieznanych przyczyn, chociaz plotki wspominaja, ze chcieli dolaczyc do klanu Larlocha, Króla Lichów, i ze jako czesc rytualu inicjacyjnego potrzebowali królewskiej krwi.
+Nekromanci uzyli swojej arkanicznej sztuki, by okrutnie wymordowac rodzine szlachcica. Jedynie ksiaze Benork przezyl, udajac mu sie oprzec poteznemu zakleciu oblakania. Pomimo tego, oslepnal.
+Jego najlepszym przyjacielem byl potezny kleryk Tempusa, który przyszedl mu z pomoca. Oboje uciekli przed straszna magia nekromancji. Aznagarb, kleryk, po schronieniu sie w ukrytym swiatynnym w Lesie Kolców, dostarczyl narzedzi niezbednych do zemsty Benorka, które w zasadzie skladaly sie z bozo uswieconego zestawu, którego uzyc mogli tylko ci, którzy nienawidzili magii calym swoim sercem.
+
+Pierscien symbolizuje zycie Calii, zony ksiecia Benorka. Legenda mówi, ze tej nocy, gdy nekromanci zaatakowali ich zamek, Calia nie znajdowala sie w swoim lozu, poniewaz ksiecia uspily jakies zaklecia uroku. Jednakze, dzieki wielkiej sile woli, Benork sie oprzel i poszedl w poszukiwaniu swojej zony, tylko po to, by znalezc ja zamordowana razem z pieciorgiem dzieci.
+
+CECHY:
+
+Zdolnosci:
+
+- Odpornosc na Magie: +5%
+- Odpornosc na Ogien: +5%
+- Regeneracja: 1 punkt zdrowia co 4 sekundy
+
+Umiejetnosci:
+
+- Przerwa: raz dziennie~
+
+// Vengadora Real
+
+@400267 = ~Kij~
+@400268 = ~Zemsta Królewska~
+@400269 = ~Jest to najprostsza i najskromniejsza forma kija. Belka wykonana jest z drewna o dlugosci od 180 do 275 centymetrów. Dobry kij jest wykonany z debu i zakonczony metalowymi elementami na obu koncach. Kij powinien byc trzymany oburacz.
+
+CECHY:
+
+Obrazenia: 1D6
+Rodzaj obrazen: Obuchowe
+Waga: 4 funty
+Wskaznik szybkosci: 4
+Umiejetnosc bojowa: Kij
+Typ broni: Dwureczna
+Wymagania: 5 sily~
+@400270 = ~Zemsta Królewska
+
+Benork byl zapomnianym ksieciem z Pólnocy, który walczyl, by pomscic smierc swojej rodziny. Legenda mówi, ze grupa mrocznych czarnoksiezników pragnela jego zamku z nieznanych przyczyn, chociaz plotki wspominaja, ze chcieli dolaczyc do klanu Larlocha, Króla Lichów, i ze jako czesc rytualu inicjacyjnego potrzebowali królewskiej krwi.
+Nekromanci uzyli swojej arkanicznej sztuki, by okrutnie wymordowac rodzine szlachcica. Jedynie ksiaze Benork przezyl, udajac mu sie oprzec poteznemu zakleciu oblakania. Pomimo tego, oslepnal.
+Jego najlepszym przyjacielem byl potezny kleryk Tempusa, który przyszedl mu z pomoca. Oboje uciekli przed straszna magia nekromancji. Aznagarb, kleryk, po schronieniu sie w ukrytym swiatynnym w Lesie Kolców, dostarczyl narzedzi niezbednych do zemsty Benorka, które w zasadzie skladaly sie z bozo uswieconego zestawu, którego uzyc mogli tylko ci, którzy nienawidzili magii calym swoim sercem.
+
+Zemsta Królewska: Ostateczna bronia, która uzupelnia zestaw Mistrza Magów, jest kij-wlócznia natchniony boska moca Tempusa i pragnieniem zemsty wojownika Nathana Benorka.
+Boska Moc Tempusa sprawia, ze posiadacz zyskuje kolosalna sile, przeksztalcajac go w smiertelnego wojownika.
+Abjuracje imbued przez kleryka Aznagarba sprawily, ze bron jest zdolna do rozproszenia magicznych ochron przeciwnika, ulatwiajac tym samym walke wojownikowi.
+A furia Benorka pozwolila zatruc bron korozyjna nienawiscia, która miala zarazic kazdego, kto mial nieszczescie otrzymac cios.
+
+Ostatecznie, po pelnym uzbrojeniu sie w swój zestaw Mistrza Magów, ksiaze Nathan Benork skierowal swoje przeznaczenie do walki z nekromantami, gdzie nikt wiecej o nim nie slyszal. Niektórzy mówia, ze udalo mu sie pokonac nekromantów, zadajac im nieoczekiwana i bolesna smierc. Niemniej jednak przywódca Zakonu, Socram, zdolal go pokonac dzieki (ironicznie) zatruconemu nozowi, który wszedl w serce Wojownika.
+Nathan Benork umarl w agonii, ale z usmiechem na ustach. Jego zemsta miala sie spelnic, gdy trucizna Zemsty wkroczyla do duszy jego smiertelnego wroga, Socrama.
+Artefakty Mistrza Magów rozproszyly sie po calym Amn.
+
+CECHY:
+
+Zdolnosci:
+
+- Sila: +2
+
+Zdolnosci bojowe:
+
+- Efekty Rozpraszania: Kazde uderzenie rozprasza magiczne zabezpieczenia ofiary.
+- Trucizna: Ofiara musi przejsc test obronny przeciwko Smierci/Truciznie lub cierpiec 4 punkty obrazen na sekunde przez 3 rundy.
+
+THAC0: +6
+Obrazenia: 1D10+6, +1d4 za obrazenia od Trucizny.
+Rodzaj obrazen: Klujace
+Waga: 7 funtów
+Wskaznik szybkosci: 0
+Umiejetnosc bojowa: Kij
+Typ broni: Dwureczna
+Wymagania: 14 sily~
+@400271 = ~Efekty Rozpraszania~
+
+// Bellfame's Ring
+
+@400272 = ~Pierscien~
+@400273 = ~Pierscien Lasu Mir~
+@400274 = ~Pierscien to mala obraczka z drogocennego metalu, noszona jako bizuteria. Niektóre niezwykle pierscienie sa zaklete, nadajac im rózne wlasciwosci magiczne. Takie pierscienie sa bardzo poszukiwane, zwlaszcza przez tych, którzy podejmuja sie przygód.~
+@400275 = ~Pierscien Lasu Mir
+
+Kilka wieków temu, gleboko w lesie Mir, mieszkala nimfa Bellfame wraz ze swoimi zwierzetami. Przez wiele lat chronila las Tethyr przed klusownikami i ludzmi pragnacymi wladzy. Wiele istot sluzylo jej jako sojusznicy, a sama natura byla jej wdzieczna.
+Los nastradal ja podczas Roku Dzbanki: nieswiadoma byla wojny, która wybuchala miedzy Tethyrem a Mrocznym Tyranem z Mintaru: Teldornem Darkhope'em.
+Zlowieszczy kaplan planowal inwazje na ziemie Tethyru, ukrywajac swoja armie Zentharim w glebiach lasu. Jeden z jego generalów, Rycerz Bezlitosny (tytul opisujacy pragnienie, aby inny cierpial), zwanym Kartlzerem, zauwazyl, ze Las Mir oferuje nie tylko schronienie, ale takze szanse na zdobycie mocy. Jego magowie zidentyfikowali obecnosc tajemniczej nimfy w sercu mokradla.
+Kartlzer byl swiadomy arkanicznych korzysci plynacych z posiadania nymfy, zarówno zywej, jak i martwej, dlatego postanowil ja upolowac, zabierajac ze soba swojego osobistego czarnoksieznika i dwudziestu najlepszych zolnierzy.
+
+Bellfame, majaca wrodzona wiez z korzeniami samego lasu, zostala ostrzezona o niebezpieczenstwie, które jej czyhalo, zarówno dla niej, jak i dla lasu, jesli ludzie Mrocznego Tyraniego pozostana w Mir. Postanowila wiec przygotowac sie do nieuchronnej walki, uzywajac swoich najlepszych zwierzat.
+Baba, Nerwowa Mysz, poinformowala nimfe o zblizajacych sie wrogach. Wówczas Bellfame rzucila chmure dezorientacji na ludzi, co pozwolilo jej zwinym wilkom przeprowadzic atak:
+Sayang, Wilk Worg, zaatakowal pierwsza linie, podczas gdy Jack, Zimowy Wilk, uzyl swojego lodowego oddechu przeciwko tylowi.
+Zdezorientowani ludzie próbowali odpowiedziec. Pierwsi zareagowali lucznicy. Napneli strzaly i skierowali je na Jacka i Sayang. Ale w tym wlasnie momencie, z ziemi i ciemnosci, wylonil sie Uma, Wilk Cieni, który zaatakowal i unieruchomil luczników.
+Zalewany furiia, Kartlzer i jego mag zaczeli atakowac Bellfame, bo wiedzieli, ze jesli ona upadnie, jej bestie beda dezorientowane.
+Na nieszczescie Bellfame, czarnoksieznik Kartlzera byl bardzo zreczny w wymawianiu zaklec, ale nie zauwazyl przerwania zaklecia przez mala myszke, która dziwnym trafem miala moc ogluszenia przeciwników poteznym piskiem. Czarodziej nie zauwazyl, ze mysz wspiela sie mu na tunike. Kiedy byl blisko pozbycia sie Baby, Bellfame zakonczyla swoje zaklecie i zdolala unieruchomic czarnoksieznika.
+Jednakze to pozostawilo ja narazona na nieuchronny atak Kartlzera: Rycerz zaatakowal ja trzymajac swoja szable. Tuz przed ostatecznym uderzeniem, reka Kartlzera zostala pozarta przez ostatnie zwierze Bellfame: Thiago, niedzwiedz brunatny.
+Mimo ze poczatkowo zwyciestwo wydawalo sie byc po stronie nimfy, ludzie szybko sie podniesli i kontratakowali bestie, które nie mialy innego wyboru, jak sie zebrac wokól swojej wezwy.
+Czarodziej Kartlzera, który wczesniej rzucal ochrone na Rycerza, teraz przygotowywal potezne Zaklecie Smierci przeciwko Bellfame.
+Nimfa z kolei zdolala zidentyfikowac czarnoksieskie zaklecie, wiec rozpoczela przeciwstawne zaklecie. Ale to kosztowalo ja wszelkie sily, wiec siegnela po ostatnia desperacka szanse.
+
+Czarodziej zakonczyl swoje zaklecie i rzucil je na Bellfame i jej zwierzeta. Ku swojemu nieszczesciu i przerazeniu, mógl zidentyfikowac, ze nimfa wypowiedziala Potezne Slowo. Bylo to: Strach. W tej chwili wszyscy ludzie zarazili sie zarazliwym strachem w swoich sercach i uciekli przerazeni, na zawsze gubiac sie w gestych zakamarkach lasu.
+Bellfame, podobnie jak jej bestie, zniknely. Nimfa uzyla magicznego pierscienia, który Baba ukradla czarnoksieznikowi, gdy znajdowal sie w jego tunice, i uzyla tego artefaktu jako ochrony przed Zakleciem Smierci. Chociaz wystarczylo to, aby zaklecie ich nie unicestwilo natychmiast, pierscien nie tylko pochlonal zaklecie, ale takze nimfe i jej zwierzeta.
+Zostali przeniesieni na astralna plaszczyzne przywolan, gdzie stworzenia sa niesmiertelne i sluza tym, którzy je przywoluja. Bellfame moze powrócic do Plany Materialnego zawsze, gdy bedzie wymagana, a ona, z kolei, moze zabrac ze soba swoje bestie.
+Jednak wola Bellfame jest tak silna, ze tylko ci o dobrym sercu moga ja wezwac do walki.
+
+Bellfame, nimfa z Lasu Mir:
+
+CECHY:
+
+Atak wrecz: 1d6 obrazen obuchowych
+Szybkosc ataku: 0
+Odpornosc na magie: +50
+Skierowanie: Neutralnie Dobre
+Czas trwania Bellfame na plaszczyznie materialnej: 8 godzin dziennie
+
+UMIEJETNOSCI:
+
+Oprócz posiadania zaklec nimfy, Bellfame ma zdolnosc wrodzona:
+- Wezwanie Sil Lasu Mir
+(Czas trwania wezwan Bellfame: 4 godziny dziennie)
+
+Uzycie: Moze go uzywac tylko ten, kto jest zwiazany z natura
+
+___________________________________
+
+SILY LASU MIRA:
+
+Jack: Wilk Zimy
+
+Jack, Wilk Zimy, wspólzyl ze swoimi wilczymi towarzyszami w Mir. Jest jedynym z sojuszników Bellfame'a, który potrafi atakowac z odleglosci dzieki swoim lodowym wyciem. Podczas bitwy o Mir Jack wykorzystal swoja zrecznosc, aby otoczyc wrogów i zakonczyc walke z tylu, uzywajac swoich lodowych umiejetnosci.
+
+CECHY:
+
+Atak z dystansu: 0d6+2 obrazen magicznych, +3d4 obrazen od zimna (lodowe tchnienie)
+Atak wrecz: 0d6 obrazen klutych, +2d4 obrazen od zimna
+Uderza jak bron +3
+Szybkosc ataku: 3
+Odpornosc na zimno
+Punkty zycia: 51
+Zwiekszona predkosc ruchu
+Wyrównanie: Praworzadne Neutralne
+
+UMIEJETNOSCI:
+
+Strefa mrozu (1 raz dziennie): Jack moze wystrzelic okropne lodowe tchnienie, które zadaje magiczne obrazenia od zimna jego przeciwnikom.
+
+
+**************************
+
+Thiago: Brazowy Niedzwiedz
+
+Thiago, Brazowy Niedzwiedz, spedzil swoje ostatnie lata na materiale w Mir, razem ze swoja ukochana Bellfame. Podczas walki przeciwko Kartlzerowi, Thiago uratowal zycie swej nimfie, unikajac ostatecznego ciosu Rycerza.
+Niedzwiedz cieszy sie dobrym jedzeniem, i zazwyczaj, gdy zostaje wezwany z Plano Astral, przychodzi dobrze nakarmiony i gotowy do walki. Posiada dobra odpornosc na zimno i ogien oraz kilka specjalnych umiejetnosci do walki wrecz.
+
+CECHY:
+
+Atak: 1d12+4, obrazenia obuchowe
+Uderza jak bron +4
+Szybkosc ataku: 0
+Odpornosc na zimno/ogien: +25
+Odpornosc na obrazenia fizyczne: +50
+Punkty zycia: 100
+Wyrównanie: Praworzadne Dobre
+
+UMIEJETNOSCI:
+
+Odwaga Niedzwiedzia (2 razy dziennie): Moze wydac potezne rykniecie, które nadaje mu nadnaturalne pewnosc siebie i uodparnia go na strach, zarówno magiczny, jak i naturalny.
+Swieta Moc Niedzwiedzia (2 razy dziennie): Thiago przygotowuje sie do walki, laczac swiete sily natury. Jego Sila, Zrecznosc i Wytrzymalosc zwiekszaja sie.
+Niedzwiedz Obronny (1 raz dziennie): Jest w stanie oprzec sie atakom fizycznym dzieki swojemu tluszczowi i futrze. Po 5 uderzeniach stanie sie ponownie podatny.
+
+
+**************************
+
+Baba: Nerwowa Mysz
+
+Baba to mala myszka Bellfame'a. Byla odpowiedzialna za kradziez pierscienia maga Kartlzer, który posrednio pozwala go przywolac, poniewaz to Bellfame go przyzywa. 
+Chociaz Baba nie posiada silnego ataku, jest zwinna (choc troche tchórzliwa). Jesli uda ci sie nia dowodzic, bedzie mogla uzyc poteznego ryku, który przerazi zlych wrogów i ochroni sojuszników.
+Ma zdolnosc do kradziezy z kieszeni i dostarczania zdobyczy kazdemu czlonowi grupy, o ile ten potrafi przekonac Babe, aby to zrobila.
+
+CECHY:
+
+Atak: 1d2, obrazenia obuchowe
+Uderza jak zwykla bron
+Szybkosc ataku: 0
+Odpornosc na elementy: +10
+Odpornosc na magie: +50
+Moze unikac ataków fizycznych, co daje mu odpornosc +90 na kazde normalne obrazenia.
+Punkty zycia: 10
+Wyrównanie: Chaotyczne Neutralne
+Zwiadowca
+
+UMIEJETNOSCI:
+
+Wykrywanie Pulapek: 120
+Dezaktywacja Pulapek: 120
+Kradziez: 150
+Ukrywanie sie w cieniach: 150
+Wykrywanie Iluzji: 150
+
+Ryk Szalonej Myszki: ten ryk, który mozna uzyc trzy razy podczas przywolania, zadaje obrazenia i wzbudza strach w zlych wrogach, a takze rozprasza strach i rzuca zaklecie Ochrona przed zlem na czlonków grupy.
+
+
+**************************
+
+Uma: Wilczyca Cieni
+
+Uma, Wilczyca Cieni, zamieszkiwala lasy Mir razem ze swoja pania, Bellfame, nimfa. W swoje ostatnie dni w Mir, walczyla zaciekle przeciwko lucznikom Rycerza Imperceptor, wychodzac z cieni i ratujac swoich lesnych towarzyszy przed smiertelnymi strzalami.
+Posiada wiele odpornosci, ze wzgledu na swoje cieniste pochodzenie.
+
+CECHY:
+
+Atak: 1d8+2, obrazenia klute.
+Uderza jak bron +2
+Szybkosc ataku: 0
+Odpornosc na normalne bronie
+Odpornosc na zimno
+Punkty zycia: 45
+Wyrównanie: Neutralne Dobre
+Zwiadowca
+
+UMIEJETNOSCI:
+
+Leczacy Poliz: przywraca 8 punktów zycia i leczy chorobe, gluchote, slepote i skutki zatrucia.
+Niewidzialnosc: moze zniknac w cieniach 1 raz dziennie
+
+**************************
+
+Sayang: Wilczyca Worg
+
+Sayang, Wilczyca Worg, zyla w lesie Mir w swoje ostatnie lata zycia na Plano Material. Jej duza predkosc pozwala jej zawsze byc pierwsza w ataku, tak jak to zrobila w Mir przeciwko awangardzie Kartlzer.
+Jej zwiekszona predkosc zapewnia jej naturalna odpornosc na obrazenia elektryczne.
+
+CECHY:
+
+Atak: 1d8+1, obrazenia klute
+Uderza jak bron +1
+Szybkosc ataku: 0
+Odpornosc na elektrycznosc: +50
+Punkty zycia: 36
+Zwiekszona predkosc ruchu
+Wyrównanie: Chaotyczne Dobre
+
+UMIEJETNOSCI:
+
+Wielki Atak Wiru (3 razy dziennie): Sayang moze poruszac sie z ogromna predkoscia, co pozwala na wystrzelenie "gradu" super-szybkich ciosów.~
+
+// PRZYZWANE STWORY
+@400276 = ~Bellfame~
+@400277 = ~Baba, Nerwowa Mysz~
+@400278 = ~Jack, Wilk Zimy~
+@400279 = ~Sayang, Wilczyca Worg~
+@400280 = ~Thiago, Brazowy Niedzwiedz~
+@400281 = ~Uma, Wilczyca Cieni~
+
+// Atak Babego
+@400282 = ~Atak~
+@400283 = ~Atak obciosany~
+@400284 = ~Atak~
+@400285 = ~Zazwyczaj gryzonie atakuja swoimi ostrych zebami, ale nie w przypadku Baby, Nerwowej Myszki. 
+Jej problemy neurotyczne wynikajace ze stresu bycia myszka sprawily, ze gryzie i krzyczy caly czas, co powoduje, ze jej zeby traca ostrosc.
+Innymi slowy, malo prawdopodobne jest, ze Baba jest w stanie komus zaszkodzic swoimi atakami, ale przynajmniej jest to jej ostatecznosc.
+
+Atak: 1d2, obrazenia obuchowe
+Szybkosc ataku: 0~
+
+//Descripción del Conjuro
+@400286 = ~Sily Lasu Mir~
+@400287 = ~Sily Lasu Mir (Przywolanie/Przywolanie)
+Poziom: Wrodzony
+Zasieg: 15 metrów
+Czas trwania: 4 godziny
+Czas rzucania: Specjalny
+Obszar efektu: Specjalny
+Rzut obronny: Brak
+
+Nimfa o imieniu Bellfame potrafi dokonywac poteznego przywolania do swiata astralnego. Dzieki jej goracym pragnieniom obrony natury udalo sie jej pokonac bariery dzielace plano materialne od jej lesnych towarzyszy.
+Umiejetnosc wrodzona polega na przywolywaniu zwierzat lesnych, które walczyly razem z nia w Mir.
+Czas trwania przywolan wyniesie 4 godziny.
+
+SILY LASU MIR:
+
+Jack: Wilk Zimy
+
+Jack, Wilk Zimy, wspólzyl ze swoimi towarzyszami wilkami w Mir. Jako jedyny z sojuszników Bellfame'a potrafi atakowac z odleglosci dzieki swoim lodowym wyciem. 
+Podczas bitwy o Mir, Jack wykorzystal swoja zrecznosc do okrazenia wrogów i pokonania tylów, uzywajac swoich umiejetnosci lodowych.
+
+CECHY:
+
+Atak z dystansu: 0d6+2 obrazen magicznych, +3d4 obrazen od zimna (lodowe tchnienie)
+Atak wrecz: 0d6 obrazen klutych, +2d4 obrazen od zimna
+Szybkosc ataku: 3
+Odpornosc na zimno
+Punkty zycia: 51
+Zwiekszona predkosc ruchu
+Wyrównanie: Praworzadne Neutralne
+
+UMIEJETNOSCI:
+
+Konik zimna (1 raz dziennie): Jack moze wystrzelic straszny lodowy oddech, który zadaje magiczne obrazenia od zimna przeciwnikom.
+
+
+**************************
+
+Thiago: Brazowy Niedzwiedz
+
+Thiago, Brazowy Niedzwiedz, spedzil swoje ostatnie lata na materiale w Mir, razem ze swoja ukochana Bellfame, nimfa. Podczas walki przeciwko Kartlzerowi, Thiago uratowal zycie swej nimfie, unikajac ostatecznego ciosu Rycerza.
+Niedzwiedz cieszy sie dobrym jedzeniem, i zazwyczaj, gdy zostaje wezwany z Plano Astral, przychodzi dobrze nakarmiony i gotowy do walki. Posiada dobra odpornosc na zimno i ogien oraz kilka specjalnych umiejetnosci do walki wrecz.
+
+CECHY:
+
+Atak: 1d12, obrazenia obuchowe
+Szybkosc ataku: 0
+Odpornosc na zimno/ogien: +25
+Odpornosc na obrazenia fizyczne: +50
+Punkty zycia: 100
+Wyrównanie: Praworzadne Dobre
+
+UMIEJETNOSCI:
+
+Dzielnosc Niedzwiedzia (2 razy dziennie): Moze wydac potezne rykniecie, które nadaje mu nadnaturalne pewnosc siebie i uodparnia go na strach, zarówno magiczny, jak i naturalny.
+Swieta Moc Niedzwiedzia (2 razy dziennie): Thiago przygotowuje sie do walki, laczac swiete sily natury. Jego Sila, Zrecznosc i Wytrzymalosc zwiekszaja sie.
+Niedzwiedz Obronny (1 raz dziennie): Jest w stanie oprzec sie atakom fizycznym dzieki swojemu tluszczowi i futrze. Po 5 uderzeniach stanie sie ponownie podatny.
+
+
+**************************
+
+Baba: Nerwowa Mysz
+
+Baba to mala myszka Bellfame. Byla odpowiedzialna za kradziez pierscienia maga Kartlzer, który posrednio pozwala go przywolac, poniewaz to Bellfame, która go naprawde wzywa.
+Choc Baba nie ma silnego ataku, jest zwinna (choc troche tchórzliwa). Jesli uda ci sie nia dowodzic, bedzie mogla uzyc poteznego aullido, który przerazi zlych wrogów i ochroni sojuszników.
+Ma zdolnosc kradziezy z kieszeni i dostarczania zdobyczy kazdemu czlonowi grupy, o ile ten moze przekonac Babe, aby to zrobila.
+
+CECHY:
+
+Atak: 1d2, obrazenia obuchowe
+Szybkosc ataku: 0
+Odpornosc na elementy: +10
+Odpornosc na magie: +50
+Moze unikac ataków fizycznych, co daje mu odpornosc +90 na kazde normalne obrazenia.
+Punkty zycia: 10
+Zwiekszona predkosc ruchu
+Wyrównanie: Chaotyczne Neutralne
+Zwiadowca
+
+UMIEJETNOSCI:
+
+Wykrywanie Pulapek: 120
+Dezaktywacja Pulapek: 120
+Kradziez: 150
+Ukrywanie sie w cieniach: 150
+Wykrywanie Iluzji: 150
+
+Ryk Szalonej Myszki: ten ryk, który mozna uzyc trzy razy podczas przywolania, zadaje obrazenia i wzbudza strach w zlych wrogach, a takze rozprasza strach i rzuca zaklecie Ochrona przed zlem na czlonków grupy.
+
+**************************
+
+Uma: Wilczyca Cieni
+
+Uma, Wilczyca Cieni, mieszkala w lasach Mir razem z jej pania, Bellfame, nimfa. W jej ostatnich dniach w Mir walczyla z determinacja przeciwko lucznikom Rycerza Imperceptor, wychodzac z cieni i ratujac swoich towarzyszy z lasu przed smiercionosnymi strzalami.
+Posiada wiele odpornosci, wynikajacych z jej sombrego charakteru.
+
+CECHY:
+
+Atak: 1d8, obrazenia klute.
+Szybkosc ataku: 0
+Odpornosc na normalne bronie
+Odpornosc na zimno
+Punkty zycia: 45
+Wyrównanie: Neutralne Dobre
+Zwiadowca
+
+UMIEJETNOSCI:
+
+Lizanie Leczace: powoduje, ze regeneruja sie 8 punktów zycia i leczy chorobe, gluchote, slepote oraz skutki zatrucia.
+Niewidzialnosc: moze zlewac sie z cieniami 1 raz dziennie
+
+
+**************************
+
+Sayang: Wilczyca Worg
+
+Sayang, Wilczyca Worg, mieszkala w lesie Mir pod koniec swojego zycia na Plano Material. Jej ogromna predkosc pozwalala jej zawsze atakowac pierwsza w walce, tak jak to mialo miejsce w Mir przeciwko awangardzie Kartlzer.
+Jej zwiekszona predkosc daje jej naturalna odpornosc na obrazenia elektryczne.
+
+CECHY:
+
+Atak: 1d8, obrazenia klute
+Szybkosc ataku: 0
+Odpornosc na elektrycznosc: +50
+Punkty zycia: 36
+Zwiekszona predkosc ruchu
+Wyrównanie: Chaotycznie Dobre
+
+UMIEJETNOSCI:
+
+Atak Wielkiego Wiru (3 razy dziennie): Sayang moze poruszac sie z duza predkoscia, co pozwala jej wykonac "ráfage" superrównoczesnych ciosów.~
+
+
+// Czar BABA
+
+@400288 = ~Aullido del ratón loco~
+@400289 = ~Panika~
+@400290 = ~Panika~
+@400291 = ~Baba wydaje przerazajacy ryk, zaskakujac zarówno sojuszników, jak i wrogów.
+Mozna go uzywac trzy razy podczas przywolania, zadaje obrazenia i wzbudza strach w wrogach, a takze rozprasza strach i rzuca czar Ochrona przed zlem na sojuszników Baby.~
+
+// Czar Thiago1
+
+@400292 = ~Odwaga Niedzwiedzia~
+@400293 = ~Odwaga Niedzwiedzia (Wrodzone)
+Poziom: Wrodzone
+Zasieg: Grupa
+Czas rzucania: 0
+Czas trwania: 5 rund
+Obszar efektu: 30 metrów
+Rzut obronny: Brak
+
+OPIS:
+
+Niedzwiedz wydaje potezne warczenie, zwiekszajac swoje zdolnosci w walce. Zapewnia ochrone przed strachem swoim przyjaciolom, zarówno magicznym, jak i naturalnym.
+Ponadto, jesli którys z jego towarzyszy byl dotkniety przerazeniem, Valentía del Oso powinna zlikwidowac ten negatywny efekt.
+THAC0: +1
+Rzuty Obronne: +1~
+@400294 = ~Panika~
+@400295 = ~Panika~
+
+
+// Spell Thiago2
+
+@400296 = ~Swieta Moc Niedzwiedzia~
+@400297 = ~Swieta Moc Niedzwiedzia (Wrodzone)
+Poziom: Wrodzone
+Sfera: Walka
+Zasieg: 0
+Czas trwania: 5 rund
+Czas rzucania: 2 tury
+Obszar efektu: Rzucajacy zaklecie
+Rzut obronny: Brak
+
+OPIS:
+
+Niedzwiedz przygotowuje sie do zacieklej walki, przywolujac swiete sily natury. Podczas tego procesu jego sila, wytrzymalosc i zrecznosc zwiekszaja sie o 3 punkty.~
+@400298 = ~Modyfikacja Sily~
+@400299 = ~Modyfikacja Sily~
+@400300 = ~Modyfikacja Sily~
+
+// Spell Thiago3
+
+@400301 = ~Niedzwiedz Utworzenia~
+@400302 = ~Niedzwiedz Utworzenia (Zmiana)
+Poziom: Wrodzone
+Sfera: Elementalna
+Zasieg: Thiago
+Czas trwania: Specjalne
+Czas rzucania: 0
+Obszar efektu: Thiago
+Rzut obronny: Brak
+Efekt: Skóra kamienna
+
+OPIS:
+
+Thiago hartuje swoja skóre w taki sposób, ze tworzy nieprzeniknione warstwy dla broni fizycznej. Moze przyjac nawet piec uderzen, nie odczuwajac bólu ani nie ponoszac szkód w zdrowiu. Jednak po piatym uderzeniu warstwy znikaja. Moga równiez zostac rozproszone za pomoca srodków magicznych.~
+
+// Michelson, el Leprechaun
+
+@400303 = ~Michelson, skrzat~
+
+// Mathyus Davis
+
+@400304 = ~Mathyus Davis~
+
+
+// Libro de recetas leprechaun
+
+@400305 = ~Ksiazka~
+@400306 = ~Ksiega przepisów leprechauna~
+@400307 = ~Ksiazka jest niezrozumiala na pierwszy rzut oka. Zaklecie identyfikacji lub wiedza barda moga rozwiazac te zagadke.~
+@400308 = ~Ksiega przepisów leprechauna
+
+Witaj, podrózniku. Oto ksiazka z niezbednymi przepisami do kucia poteznych artefaktów, autorstwa dobrego Michelsona. Mysle, ze wszystko jest dosc jasne, wiec mam nadzieje, ze gdy zbierzesz wszystko, co potrzebne do stworzenia artefaktu, przyjdziesz do nas (najpierw porozmawiaj ze mna, Michelson zawsze jest zagubiony w swoich sprawach leprechauna).
+Oto idziemy:
+
+Miecz Cormyrean Disruption
+
+Dusku, jesli to czytasz, ta formula powinna cie zainteresowac. Michelson zauwazyl cos szczególnego w twoim mieczu cormyreanskim: zostal on naprawiony przez elfów ze Shilmista. Na pewno to jest ten miecz, który pekl, gdy przybyles do Lasu Cieni. Chociaz sam miecz jest dosyc potezny, Michelson sadzi, ze z pewnymi skladnikami mozesz go znacznie ulepszyc:
+
+Potrzebujesz:
+- Miecz Duska (oczywiscie)
+- Pergamin ochronny przed zywymi trupami (czesto dostepny w niektórych kosciolach)
+- Klejnot Ksiezyca Barra (dosyc powszechny klejnot)
+- Klejnot Turkusowy (dosyc powszechny klejnot)
+- Lzy Króla (cenny, rzadki klejnot)
+- Ksiega Kaza (zdecydowanie najtrudniejszy do zdobycia skladnik)
+- Zloto: 7500 sztuk
+
+Obrona Cormyr
+
+Dusku, to kolejna wiadomosc dla ciebie. Michelson mówi, ze moze ulepszyc twoja zbroje Shilmista, dodajac do niej plytki dla lepszej obrony. Ale wymaga... czegos szczególnego. Mówi, ze potrzebuje jakiejs plytki z Cormyru. Moze to byc kawalek tarczy, na przyklad. Musi pochodzic od Zakonu Purpurowego Smoka. Maly zanalizowal twój sprzet, Dusku, i nic z tego, co masz obecnie, nie nadaje sie do tego celu. Dlatego potrzebujemy:
+
+- Zbroja Duska (z oczywistych powodów)
+- Metal cormyreanski (moze to byc kawalek tarczy, na przyklad)
+- Klejnot Koralowy (czarny klejnot, dosyc powszechny)
+- Czarny Opal (zwykly klejnot, choc troche cenny)
+- Zloto: 7500
+
+Brazalety Obrony Kamiennego Obroncy
+
+Sama nazwa wskazuje na ich funkcje, zgadzasz sie?
+
+Potrzebujesz:
+- Brazalety Obrony Pancerza C.A. 8 (magiczne brazalety, mozliwe, ze sprzedaja je na Rynku Przygodowca)
+- Pergamin Ochrony przed zeskórowaniem (czesto dostepny w niektórych kosciolach. NOTA: Nie mylic z magicznym pergaminem!)
+- Klejnot z jaspisu (dosc powszechny klejnot)
+- Zloto: 3000 sztuk
+
+Czerwony Grzmot
+
+Michelson twierdzi, ze jest w stanie zreplikowac starozytny artefakt, cos, co zobaczyl na innym planie. Nie do konca rozumiem, o co mu chodzi, ale wyglada na to, ze jest dosc wymagajacy, jesli chodzi o skladniki. Mysle, ze moze warto spróbowac je zdobyc.
+
+Potrzebujesz:
+- Mlot Bojowy +2: Ashideena (Mlot bojowy jest zloty i zadaje obrazenia elektryczne)
+- Laska Grzmotów i Blyskawic (dosc dziwny przedmiot, ale nie sadze, zeby byl niemozliwy do zdobycia)
+- Pergamin Pioruna Blyskawicznego (moze byc w jakims sklepie z magicznymi pergaminami)
+- Rózdzka zaklec paralizujacych (dziwny przedmiot, ale nie sadze, zeby byl niemozliwy do zdobycia)
+- Amulet Hematytu (naszyjnik z czerwonymi klejnotami, dosc powszechny)
+- Rubinowy Pierscien (szkarlatny pierscien, kosztowny, ale dosc powszechny)
+- Zloto: 25000
+
+Dziki Ogien
+
+Leprechaun twierdzi i zapewnia, ze druidzi-zmieniacze form moga uzywac zbroi, nawet gdy przemieniaja sie w wilkolaki. Nie jestem pewien, czy to prawda, wiec maly Michelson powiedzial mi, ze zreplikuje potezna zbroje skórzana, która moga uzywac tylko Zmieniacze Form.
+
+Ogien Dzikiej Formy
+
+Michelson twierdzi i zapewnia, ze druidzi-zmieniacze form moga uzywac zbroi, nawet gdy przemieniaja sie w wilkolaki. Nie jestem pewien, czy to prawda, wiec maly Michelson powiedzial mi, ze zreplikuje potezna zbroje skórzana, która moga uzywac tylko Zmieniacze Formy.
+
+Potrzebujesz:
+- Zbroja z Kory Karajah (dziwny przedmiot, ale slyszalem, ze Ribald ma go w swoim asortymencie)
+- Kamien Agatowy (dosc powszechny klejnot)
+- Pergamin Ochrony przed Ogniem (czesto dostepny w niektórych kosciolach)
+- Kolejny Ksztalt (byc moze najdziwniejszy artefakt, ale skoro Michelson tego wymaga, to pewnie mozna go zdobyc)
+- Zloto: 7000
+
+Uderzenie Jadowite
+
+Nie jestem pewien, o co chodzi z tym artefaktem, ale zakladam, ze musi to byc cos w rodzaju maczugi lub bulawy, moze nawet bulawy. Ze wzgledu na skladniki, wynik musi byc bardzo zadowalajacy.
+
+Potrzebujesz:
+- Ogon Drako (Michelson mówi, ze to Mlot wykonany z ogona draka. Wyjatkowo trujacy)
+- Pergamin Ochrony przed Trucizna (czesto dostepny w niektórych kosciolach)
+- Pergamin Dotyku Wampira (magiczny pergamin, który byc moze jest sprzedawany w niektórych sklepach)
+- Mikstura Regeneracji (dosc powszechna mikstura, przynajmniej dla awanturnika)
+- Klejnot Diopsydowy Gwiazdzisty (dosc powszechny klejnot, choc nie twierdze, ze latwo go zdobyc)
+- Klejnot Tytanitu (to samo co poprzednie)
+- Zloto: 25000
+
+Kiel Larlocha
+
+Michelson twierdzi, ze moze stworzyc topór spelniajacy te same funkcje co Kiel Licha Larlocha. Nie chcialem pytac wiecej, ale zakladam, ze warto spróbowac zdobyc te skladniki.
+
+Potrzebujesz:
+- Topór Bojowy +1 (dosc powszechny magiczny topór, jesli mnie pytasz)
+- Mikstura Odpornosci na Zimno (mikstura dostepna w niektórych sklepach awanturnika)
+- Klejnot Jola (dosc powszechny klejnot)
+- Pergamin Minor Drain od Larlocha (magiczny pergamin, który byc moze jest sprzedawany w niektórych sklepach)
+- Helm Ochrony przed Czarodziejstwem (ochronny helm, mysle, ze Michelson chce wydobyc z niego czesc magii, aby wtopic ja w topór)
+- Zloto: 12500
+
+Mrozny Wicher Averno
+
+Podobno Michelson byl na plaszczyznie piekielnej, gdzie nie ma ognia. Mówi, ze tam nauczyl sie kuje potezna bron, a konkretnie miecz dwureczny. Aby go zreplikowac, potrzebuje:
+
+- Miecz Dwureczny +2 (prawdopodobnie dostaniesz go w jakims sklepie)
+- Pergamin Ochrony przed Mrozem (czesto dostepny w niektórych kosciolach)
+- Klejnot Oka Lutra (dosc powszechny klejnot)
+- Klejnot Akwamarynu (dosc nietypowy klejnot, ale na pewno nie bedziesz mial problemu ze znalezieniem go w swoich podrózach)
+- Diament (cenny klejnot, ale warto go zainwestowac w to)
+- Zloto: 12500
+
+
+
+
+
+
+Nota Secreta:
+Kiedy Michelson poznal Duska, cos go w nim zafascynowalo. Wyglada na to, ze zabójcy magów wzbudzaja w nim gleboki szacunek, byc moze dlatego, ze obawia sie ich jako stworzenie magiczne. Odkrylem, ze posiada on legendarny artefakt o nazwie Królewska Zemsta. Jest to oryginalna bron, która hrabia Benork dzierzyl podczas walki z zakonem nekromantów na Pólnocy. Jak to znalazlo sie w jego posiadaniu? Nie mam pojecia... ale celem tej wiadomosci jest poinformowanie cie, ze jesli znajdziesz reszte Kompleta Asasyna Benorka, byc moze dostaniesz od niego jego ostateczna bron. Podam ci nazwy potrzebnych artefaktów, chociaz wszystko, co o nich wiem, to ich nazwy:
+
+    Bicie Calii
+    Oddech Rodu
+    Iris Tempusa
+    Forteca Benorka
+    Ochrona Aznagarbu
+    Droga Przodków
+    Obrona Aznagarbu
+    Nadzieja Benorka
+
+PS: Jesli zdobedziesz osiem artefaktów, przyprowadz ze soba Duska. Cos mi podpowiada, ze Michelson da ci bron tylko wtedy, gdy on bedzie obecny. Upewnij sie, ze ma przy sobie swoja cormyrenska laske. Nie sadze, zeby maly chcial oddac tak potezna bron za darmo.
+
+Z powazaniem,
+Mathyus Davis.-~
+
+/*   
+- Latido de Calia (anillo)
+- Respiro del Linaje (anillo) P_WSRNG1 - Demonio Abisal
+- Iris de Tempus (casco)
+- Fortaleza de Benork (fajín) P_WSASH - Misión Genios Dao
+- Protección de Aznagarb (capa)
+- Camino de los Ancestros (botas)
+- Defensa de Aznagarb (brazaletes) 
+- Esperanza de Benork (amuleto) P_WSAM - Ziben, la Gnoll
+*/
+
+
+
+
+
+@400309 = ~Zbroja kolcza~
+@400310 = ~Zbroja rodziny Aldant~
+
+@400311 = ~Zbroja kolcza sklada sie z polaczonych ze soba metalowych pierscieni. Zawsze jest noszona na warstwie miekkiej tkaniny lub miekkiej skóry, aby zapobiec otarciom i zmniejszyc sile uderzen.
+
+CECHY:
+
+Klasa pancerza: 5
+Waga: 40 funtów
+Wymagania: 8 sily
+Niedozwolona dla:
+Druida
+Mag
+Zlodziej~
+
+@400312 = ~Zbroja rodziny Aldant
+
+Zbroja kolcza prezentuje sie odwaznym fioletowym kolorem, prawdopodobnie reprezentujac smoki Cormyr. Ale ma takze piekne detale z lisci, wynik mistycznego sztuki elfów. Magia, która promieniuje, zapewnia dodatkowa ochrone dla noszacego. W tym przypadku dla kogos z krwia rodziny Aldant.
+
+CECHY:
+
+Bonus: +10% odpornosci na magie
+Klasa pancerza: 3
+Waga: 10 funtów~
+
+// 	
+
+@400313 = ~Przerobiony miecz kormyrzanski~
+@400314 = ~Przerobiony miecz kormyrzanski
+
+Ten miecz dwureczny zostal pierwotnie kuty w Kormyrze. To typowy miecz zolnierza. Jednak jego rzemioslo jest wyjatkowe, a jego ostrze stanowi niebezpieczenstwo dla wszystkiego, co z nim zetknie.
+Wedlug relacji Duska, zostal on zlamany w walce z gigantycznym trolem. Nastepnie zostal przekuty przez elfickich rzemieslników króla Elberetha, wzmacniajac jego zaklecia i dodajac w nim obrazenia kwasem, aby nie musiec ponosic tych samych konsekwencji w przypadku ponownego starcia z tymi stworzeniami górskimi.
+
+CECHY:
+
+Bonusy: +1 do Sily
+
+Obrazenia: 2D4 + 1, + 1 za obrazenia kwasowe
+GAC0: bonus +1
+Typ obrazen: Klujace
+Waga: 9
+Wspólczynnik predkosci: 7
+Rodzaj umiejetnosci: Miecz dwureczny~
+
+
+// Bastón reforzado shilmista
+
+@400315 = ~Wzmacniany kij Shilmista~
+@400316 = ~Kij ma barwy Zakonu Purpurowego Smoka. Rzemioslo jest wyjatkowe, gdyz zostal stworzony w Kormyrze. 
+Jednak Dusk opowiada, ze zostal wzmocniony w Shilmista przez króla elfów Elberetha i tylko Dusk moze go uzywac.
+
+CECHY:
+
+Bonus: +2 do klasy pancerza
+
+TAC0: +2
+Obrazenia: 1D6 +2
+Typ obrazen: Obuchowe
+Waga: 3
+Wspólczynnik predkosci: 2
+Umiejetnosc bojowa: Kij
+Typ: Dwureczny~
+
+@400317 = ~Zniszczona tarcza Zakonu Purpurowego Smoka~
+@400318 = ~Potluczone fragmenty tarczy znajdowaly sie w posiadaniu grupy humanoidów, którzy twierdzili, ze sa dezerterami z armii Sothillisa. Nadal mozna podziwiac purpurowy kolor metalu, chociaz juz nie pelni funkcji tarczy.~
+
+// OBRONA CORMYRU
+
+@400321 = ~Niszczyciel~
+@400322 = ~Falon, wódz orków~
+@400323 = ~Cufa-Tima, Ettin~
+@400324 = ~Ziben, gnoll~
+@400325 = ~Coco, szaman trasgo~
+
+@400326 = ~Sornhil, Czarownik~
+
+@400327 = ~Tajemnicza szkarlatna kula~
+@400328 = ~Artefakt zostal dostarczony przez tajemnicza postac o imieniu Sornhil, maga specjalizujacego sie w zakleciach. Kula swieci krwistoczerwonym swiatlem. Wydziela tajemnicza moc, ale nie wiesz, do czego móglbys ja wykorzystac. Byc moze Mathyus i Michelson beda w stanie zbadac ja bardziej szczególowo.~
+
+
+
+// ESPADA CARMESÍ
+@400334 = ~Czerwony miecz~
+@400335 = ~Czerwony miecz
+
+Bron zostala stworzona z mrocznej kuli. Dusk zdolal uwolnic jej pelna moc, chociaz za cene, której nie jestesmy w stanie zrozumiec. Miecz swieci intensywnie krwistoczerwonym swiatlem, tak samo jak tajemnicza kula. Pomimo ze ma rozmiar zwyklego miecza bastardowego, jego waga jest ogromna w porównaniu do zwyklego miecza. Jak mozna sie bylo spodziewac, tylko Dusk potrafi nim wymachiwac.
+
+CECHY:
+
+Umiejetnosci posiadane:
+
+- Regeneracja: 1 punkt zycia co 6 sekund
+- Odpornosc na ogien: +5%
+- Dodatkowe punkty zycia: +5
+
+Umiejetnosci bojowe:
+
+- Wysysanie: Kazde zadane uderzenie leczy posiadacza o 1 punkt zycia.
+
+THAC0: +3
+Obrazenia: 2D5+3, +1 obrazenia od ognia, +1 obrazenia magiczne
+Typ obrazen: Klujace
+Waga: 26 lbs
+Wspólczynnik predkosci: 5
+Umiejetnosc bojowa: Miecz Bastardowy
+Typ broni: Jednoreczna
+Wymagania: 19 sily~
+
+@400336 = ~Zwiekszona madrosc o 1 punkt~
+@400337 = ~Zdolnosc naturalna zdobyta: Wojownik stali~
+@400338 = ~Doswiadczenie zdobyte: 100 000 punktów~
+@400339 = ~Zmienione nastawienie: Neutralne Dobre~
+@400340 = ~Bron zdobyta: Szmaragdowy miecz~
+
+// Espada Esmeralda
+@400341 = ~Szmaragdowy miecz~
+@400342 = ~Szmaragdowy miecz
+
+Bron zostala stworzona z mrocznej kuli. Dusk zdecydowal sie udac do badacza z Shilmista, Mathyusa Davisa, aby wraz z tajemniczym leprechaunem Michelsonem zdolali oczyscic zlo z kuli. Chociaz moc kuli zmalala po jej oczyszczeniu, Dusk zdolal uwolnic jej wewnetrzna sile, tworzac ten miecz. Jak mozna sie bylo spodziewac, tylko on potrafi nim wymachiwac.
+
+CECHY:
+
+Umiejetnosci posiadane:
+
+- Klasa pancerza: +1
+- Odpornosc na obrazenia fizyczne: +%5 (klujace, miazdzace, przebijajace i obuchowe)
+
+Umiejetnosci bojowe:
+
+- Ataki na ture: +1
+
+THAC0: +3
+Obrazenia: 2D4+3, +1 obrazenia magiczne
+Typ obrazen: Klujace
+Waga: 13 lbs
+Wspólczynnik predkosci: 4
+Umiejetnosc bojowa: Miecz Bastardowy
+Typ broni: Jednoreczna
+Wymagania: 15 sily~
+
+@400343 = ~Oczyszczona szmaragdowa kula~
+@400344 = ~Artefakt zostal dostarczony przez tajemnicza postac o imieniu Sornhil, maga specjalizujacego sie w zakleciach. Zostal oczyszczony przez leprechauna z Shilmista, Michelsona. Teraz swieci przyjaznym, mchu zielonym kolorem i co jakis czas blyszczy, mieniac sie jak szmaragd.~
+
+
+// EVIL ORB
+@400345 = ~Sila zwiekszona o 2 punkty~
+@400346 = ~Zrecznosc zwiekszona o 6 punktów~
+@400347 = ~Madrosc zmniejszona o 2 punkty~
+@400348 = ~Zdolnosc wrodzona uzyskana: Wojownik ze stali x3~
+@400349 = ~Zdolnosc wrodzona uzyskana: Strach x2~
+@400350 = ~Doswiadczenie uzyskane: 500 000 punktów~
+@400351 = ~Bron uzyskana: Karmazynowy Miecz~
+@400352 = ~Zmiana nastawienia: Neutralne Zle~
+
+// DOBRA KULA
+@400353 = ~Madrosc zwiekszona o 1 punkt~
+@400354 = ~Zdolnosc wrodzona uzyskana: Ostatni Wysilek~
+@400355 = ~Doswiadczenie uzyskane: 100 000 punktów~
+@400356 = ~Zmiana nastawienia: Neutralne Dobre~
+@400357 = ~Bron uzyskana: Szmaragdowy Miecz~
+
+// Stozek mrozu od JACKA
+
+@400358 = ~Stozek Mrozu (Wrodzony)
+Poziom: 5
+Zasieg: 0
+Czas trwania: Natychmiastowy
+Czas rzucania: Natychmiastowy
+Obszar efektu: Specjalny
+Rzut obronny: 1/2
+
+OPIS:
+
+Jack wydala potezny oddech lodowaty, podobny do zaklecia arkanum. Zadawane obrazenia wynosza 10D4 + 10 punktów obrazen, a stozek ma srednice 4 metrów i dlugosc 20 metrów.~
+
+// Clan Orco
+
+@400359 = ~Alabarza, Okaleczyciel~
+@400360 = ~Bob~
+@400361 = ~Kocha, berserker~
+@400362 = ~Komar, ogr~
+@400363 = ~Mike~
+@400364 = ~Serrano, rzeznik~
+@400365 = ~Tongas, czarodziej~
+@400366 = ~Toxsan-Chimi, ettin~
+@400367 = ~Xeb'Tian, oprawca~
+
+// Kula teleportacyjna
+
+@400368 = ~Kula Teleportacyjna~
+@400371 = ~Dziwna, zielona kula nieprzerwanie swieci. Wydaje sie, ze zostala zaprojektowana do teleportacji w inne miejsce tych, którzy posiadaja inne klejnoty teleportacyjne. Artefakt zostal zaprojektowany przez Michelsona, tajemniczego leprechauna ze Shilmista.
+
+Waga: 3 funty.~
+@400372 = ~Dziwna, zielona kula nieprzerwanie swieci. Wydaje sie, ze zostala zaprojektowana do teleportacji w inne miejsce tych, którzy posiadaja inne klejnoty teleportacyjne. Artefakt zostal zaprojektowany przez Michelsona, tajemniczego leprechauna ze Shilmista.
+
+Waga: 3 funty.~
+
+
+
+@400373 = ~Valatar, Zaklinacz~
+
+@400374 = ~Ulepszona Espada Carmesí~
+@400375 = ~Ulepszona Espada Carmesí
+
+To orez zostalo stworzone z mrocznej kuli. Dusk zdolal uwolnic z niej pelnie mocy, choc za cene, której nie jestesmy w stanie zrozumiec. Miecz swieci krwistoczerwonym swiatlem, podobnie jak tajemnicza kula. Pomimo ze ma rozmiar zwyklego miecza dwurecznego, jego waga jest ogromna w porównaniu. Jak sie mozna bylo spodziewac, moze go uzywac tylko Dusk.
+
+Miecz zostal ulepszony, gdy Dusk napoil go krwia serca abisynskiego demona.
+
+CECHY:
+
+Umiejetnosci:
+
+- Regeneracja: 1 punkt zdrowia co 6 sekund
+- Odpornosc na ogien: +10%
+- Dodatkowe punkty zdrowia: +10
+- Wywoluje ogniowa tarcze na 60 sekund, gdy zycie Duska spadnie ponizej polowy.
+
+Umiejetnosci bojowe:
+
+- Odsysanie: Kazde zadane uderzenie leczy posiadacza o 1 punkt zdrowia.
+
+THAC0: +3
+Obrazenia: 2D5+3, +1d2 za obrazenia od ognia, +1 za obrazenia magiczne
+Typ obrazen: Klujace
+Waga: 26 funtów
+Wskaznik predkosci: 5
+Zdolnosc bojowa: Miecz dwureczny
+Typ broni: Jednoreczna
+Wymagania: 19 sily~
+
+@400376 = ~Ulepszona Espada Szmaragdowa~
+@400377 = ~Ulepszona Espada Szmaragdowa
+
+To orez zostalo stworzone z mrocznej kuli. Dusk postanowil poprosic szilmijskiego odkrywce Mathyusa Davisa, aby wraz z tajemniczym leprechaunem Michelsonem pozbyli sie z niej zla. Chociaz moc kuli zmalala po jej oczyszczeniu, Dusk zdolal uwolnic jej wewnetrzna potege, tworzac ten miecz. Jak sie mozna bylo spodziewac, moze go uzywac tylko on.
+
+Miecz zostal lekko ulepszony, gdy Dusk zdecydowal sie zniszczyc serce abisynskiego demona, aby na zawsze go wygnac z tego planu.
+
+CECHY:
+
+Umiejetnosci:
+
+- Klasa pancerza: +1
+- Odpornosc na obrazenia fizyczne: +%7 (klujace, miazdzace, przeszywajace i odlamkowe)
+
+Umiejetnosci bojowe:
+
+- Ataki na ture: +1
+
+THAC0: +3
+Obrazenia: 2D4+3,  +1d2 za obrazenia magiczne
+Typ obrazen: Klujace
+Waga: 13 funtów
+Wskaznik predkosci: 4
+Zdolnosc bojowa: Miecz dwureczny
+Typ broni: Jednoreczna
+Wymagania: 15 sily~
+
+
+// INNATES SPELLS DUSK
+// Infundir Valor
+@400378 = ~Naklanianie Odwagi~
+@400388 = ~Naklanianie Odwagi
+Poziom: Wrodzony
+Sfera: Abluzja
+Zasieg: 10 metrów
+Czas trwania: 10 tur
+Czas rzucania: Natychmiastowy
+Obszar efektu: Promien 12 metrów
+Rzut obronny: Specjalny
+
+OPIS:
+
+Cormyrenski wojownik wydaje bojowy krzyk "Za Cormyr!", który infunduje odwage swoim sojusznikom. Podczas trwania efektu staja sie oni odporni na efekty strachu. Krzyk takze usuwa efekty strachu u tych, którzy byliby nimi dotknieci.~
+
+
+
+// Defensa Heroica
+
+@400380 = ~Heroiczna Obrona~
+@400381 = ~Heroiczna Obrona
+Poziom: Wrodzony
+Sfera: Ochrona
+Zasieg: Cel
+Czas trwania: 10 tur
+Czas rzucania: Natychmiastowy
+Obszar efektu: Rzutnik
+Rzut obronny: Brak
+
+Cormyrenski wojownik szkolony na Pierwsza Miecz jest w stanie zapewnic Heroiczna Obrone wskazanemu celowi, dostarczajac obrony fizycznej i elementarnej o 10% przez czas trwania efektu.~
+
+// Miedo
+
+@400382 = ~Strach~
+@400383 = ~Strach
+Poziom: Wrodzony
+Sfera: Zaklecie
+Zasieg: Dotyk
+Czas trwania: Natychmiastowy
+Czas rzucania: 1
+Obszar efektu: Rzutnik
+Rzut obronny: Neguje efekt
+
+Wojownik otacza sie aura strachu o promieniu do 90 centymetrów. Wszystkie istoty i postacie wchodzace w obszar efektu powloki musza zdawac udany rzut obronny przeciwko zakleciu, w przeciwnym razie uciekna w panice przez 4 tury. Dotkniete stworzenia moga nawet porzucic trzymane przedmioty. Czlonkowie grupy sa odporni na efekty zaklecia.~
+
+// Último Esfuerzo
+
+@400384 = ~Ostatni wysilek~
+@400385 = ~Ostatni wysilek
+Poziom: Wrodzony
+Sfera: Uzdrowienie
+Zasieg: Zasieg widzenia rzucajacego zaklecie
+Czas trwania: Staly
+Czas rzucania: Natychmiastowy
+Obszar efektu: Promien 6 metrów
+Rzut obronny: Brak
+
+OPIS:
+
+Pierwsza Miecznica wywoluje uczucie zyciowego wysilku u swoich towarzyszy, naklaniajac ich do kontynuowania walki pomimo ran. Ostatni Wysilek uleczy 20 punktów zycia dla tych, którzy znajduja sie w promieniu 6 metrów od wojownika.~
+
+
+
+// Juramento de Ira
+
+@400386 = ~Przysiega Gniewu~
+@400387 = ~Przysiega Gniewu
+Poziom: Wrodzony
+Sfera: Walka
+Zasieg: 0
+Czas trwania: 25 rund
+Czas rzucania: Natychmiastowy
+Obszar efektu: Rzucajacy zaklecie
+Rzut obronny: Brak
+
+OPIS:
+
+Doswiadczony wojownik w sztuce Rycerzy Purpurowego Smoka moze wykonywac potezna umiejetnosc Przysiegi Gniewu. Wykonujac te umiejetnosc, wojownik zdobywa:
+Sila: Zwiekszona o 6 punktów
+Dodatkowe punkty zycia: 25
+Szczescie: Maksymalne obrazenia w kazdym ataku~
+
+@400389 = ~Tajemnicza fretka~
+
+
+// BELLFAME RING MEJORADO
+@400390 = ~Pierscien z Lasu Mir
+
+Kilka wieków temu, gleboko w lesie Mir, zamieszkiwala nimfa Bellfame wraz ze swoimi bestiami. Przez wiele lat chronila las Tethyr przed klusownikami i ludzmi pragnacymi wladzy. Wiele istot sluzylo jej jako sojusznicy, a natura byla jej wdzieczna.
+To w Roku Dzbanki mialo dojsc do jej tragicznego konca: Nieswiadoma nadchodzacej wojny miedzy Tethyrem a Ciemnym Tyranem z Mintar, Teldornem Darkhope, Bellfame miala znalezc swoje przeznaczenie. Zly kleryk zaplanowal inwazje na ziemie Tethyru, ukrywajac swoje wojska Zentharim w glebi lasu. Jeden z jego generalów, Kartlzer, znany jako Imperialny Sep (tytul odzwierciedlal zyczenie, by inni cierpieli), zauwazyl, ze Las Miru, oprócz tego, ze stanowil doskonale schronienie, mógl stanowic okazje do zdobycia mocy, poniewaz jego magowie zidentyfikowali obecnosc tajemniczej nimfy w sercu bagien.
+Kartlzer zdawal sobie sprawe z korzysci, jakie plynely z posiadania nimfy, zarówno zywej, jak i martwej, wiec postanowil ja polowac, zabierajac ze soba swojego osobistego czarodzieja i dwudziestu najlepszych zolnierzy.
+
+Bellfame, która miala wrodzona wiez z korzeniami lasu, zostala poinformowana o zblizajacym sie niebezpieczenstwie, zarówno dla niej, jak i dla drzewostanu, jesli ludzie Ciemnego Tyranina pozostana w Mir. Postanowila wiec przygotowac sie do nadchodzacej walki, wykorzystujac swoje najlepsze zwierzeta.
+Baba, Nerwowa Mysz, poinformowala nimfe o zblizaniu sie wrogów. Wtedy Bellfame rzucila chmure dezorientacji na ludzi, co umozliwilo jej zwinne wilki przypuscic atak:
+Sayang, Wilczyca Worg, zaatakowala pierwsza linie, podczas gdy Jack, Zimowy Wilk, uzyl swojego mroznego oddechu przeciwko tylom wrogów.
+Zdezorientowani ludzie próbowali odpowiedziec. Lucznicy byli pierwsi do reakcji. Naciagneli strzaly i skierowali je w Jacka i Sayang. Ale wtedy, z ziemi i ciemnosci, wynurzyla sie Uma, Wilk Cieni, która zaatakowala i unieruchomila luczników.
+Wzburzeni ludzie próbowali zaatakowac Bellfame, bo wiedzieli, ze jesli ona padnie, jej bestie beda dezorientowane.
+Niestety dla Bellfame, czarodziej Kartlzera byl bardzo zreczny w wypowiadaniu zaklec, ale nie zauwazyl zaklócen wprowadzonych przez mala myszke, która dziwnym trafem miala moc ogluszania przeciwników swoim infernalnym piskiem. Czarodziej nie zauwazyl, ze mysz wspiela mu sie na tunike. Gdy byl gotów pozbyc sie Baby, Bellfame zakonczyla zaklecie i zdolala unieruchomic czarodzieja.
+Jednak kosztowalo ja to wszelkie sily, wiec siegnela równiez po ostatni, desperacki plan.
+
+Czarodziej zakonczyl zaklecie i rzucil je na Bellfame i jej zwierzeta. Ku jego rozpaczy i przerazeniu zdolal zidentyfikowac, ze nimfa wypowiedziala Slowo Mocy. Bylo nia: Strach. W tym momencie wszyscy ludzie zarazili sie zarazliwym lekiem w swoich sercach i uciekli w poplochu, na zawsze gubiac sie w gestych zakamarkach lasu.
+Bellfame, podobnie jak jej bestie, zniknely. Nimfa uzyla magicznego pierscienia, który Baba ukradla magowi, kiedy byl w jego tunice, i uzyla tego artefaktu jako ochrony przed Zakleciem Smierci. Choc wystarczylo to, aby zaklecie nie unicestwilo ich natychmiast, pierscien nie tylko pochlonal zaklecie, ale takze nimfe i jej zwierzeta.
+Zostali przeniesieni na astralna plaszczyzne powolan, gdzie istoty sa niesmiertelne i sluza tym, którzy je wzywaja. Bellfame moze wrócic do Planu Materialnego zawsze, gdy jej bedzie to potrzebne, a ona z kolei moze zabrac ze soba swoje bestie.
+Jednak wola Bellfame jest tak silna, ze tylko ci o dobrym sercu moga jej zawolac do walki.
+
+Nimfa ulepszyla pierscien, aby Dusk mógl z niego skorzystac. Wzmocnila go równiez, aby posiadacz mial ulepszona odpornosc na magie.
+
+UMIEJETNOSCI POSIADANE:
+
+Odpornosc magiczna: +10%
+
+Bellfame, nimfa z Lasu Mir:
+
+CECHY:
+
+Atak wrecz: 1d6 obrazen tepych
+Szybkosc ataku: 0
+Odpornosc na magie: +50
+Pochylenie: Neutralne Dobre
+Czas trwania Bellfame na materiale plaszcza: 8 godzin dziennie
+
+UMIEJETNOSCI:
+
+Oprócz posiadania zaklec nimfy, Bellfame ma zdolnosc wrodzona:
+- Wezwanie Sil Lasu Mir
+(Czas trwania wezwan Bellfame: 4 godziny dziennie)
+
+Uwaga: Moga tego uzywac tylko ci, którzy sa zwiazani z natura.
+___________________________________
+
+SILY LASU MIR:
+
+Jack: Wilk Zimy
+
+Jack, Wilk Zimy, zyl razem z towarzyszami wilków w Mir. Jest jedynym z sojuszników Bellfame zdolnym do atakowania na odleglosc dzieki swoim lodowym wyjatkom.
+Podczas bitwy o Mir, Jack wykorzystal swoja zwinnosc, aby otoczyc wrogów i zajac sie tylna straza, uzywajac swoich umiejetnosci lodowych.
+
+CECHY:
+
+Atak na odleglosc: 0d6+2 obrazen magicznych, +3d4 obrazen od zimna (lód tchnienie)
+Atak wrecz: 0d6 obrazen klutych, +2d4 obrazen od zimna
+Uderza jak bron +3
+Szybkosc ataku: 3
+Odpornosc na zimno
+Punkty zycia: 51
+Zwiekszona predkosc poruszania sie
+Pochylenie: Neutralne Praworzadne
+
+UMIEJETNOSCI:
+
+Konik lodowy (1 raz dziennie): Jack moze wystrzelic potezne tchnienie lodowe, zadajac magiczne obrazenia od zimna przeciwnikom.
+
+
+**************************
+
+Thiago: Niedzwiedz brunatny
+
+Thiago, Niedzwiedz brunatny, spedzil swoje ostatnie lata w materiale razem ze swoja ukochana Bellfame. Podczas bitwy z Kartlzerem, Thiago ocalil zycie swojej nimfie, gdy udalo mu sie uniknac ostatecznego ciosu Rycerza.
+Niedzwiedz lubi dobrze zjesc, i zazwyczaj, gdy jest wzywany z Plano Astral, przychodzi dobrze nakarmiony i gotowy do walki. Ma dobra odpornosc na zimno i ogien, a takze kilka specjalnych umiejetnosci do walki wrecz.
+
+CECHY:
+
+Atak: 1d12+4, obrazenia klute
+Uderza jak bron +4
+Szybkosc ataku: 0
+Odpornosc na zimno/ogien: +25
+Odpornosc na obrazenia fizyczne: +50
+Punkty zycia: 100
+Pochylenie: Praworzadne Dobre
+
+UMIEJETNOSCI:
+
+Odwaga Niedzwiedzia (2 razy dziennie): Moze wydac potezny ryk, który nadaje mu nadnaturalne zaufanie i uodparnia go na strach, czy to magiczny, czy naturalny.
+Swieta Moc Niedzwiedzia (2 razy dziennie): Thiago przygotowuje sie do walki, laczac sily swietej natury. Jego Sila, Zrecznosc i Wytrzymalosc zostaja zwiekszone.
+Utrwalony Niedzwiedz (1 raz dziennie): Jest w stanie stawic czola atakom fizycznym dzieki swojej tluszczowej siersci. Po 5 trafieniach stanie sie ponownie podatny.
+
+**************************
+
+Baba: Nerwowa Mysz
+
+Baba to mala mysz nalezaca do Bellfame. To ona odpowiadala za kradziez pierscienia maga Kartlzer, który posrednio pozwala go przywolac, poniewaz to Bellfame go przyzywa.
+Chociaz Baba nie ma silnego ataku, jest zwinna (choc troche tchórzliwa). Jesli uda ci sie nia dowodzic, bedzie mogla uzyc poteznego ryku, który przerazi zlych wrogów i ochroni sojuszników.
+Ma zdolnosc podkradania kieszeni i przekazywania skradzionych przedmiotów dowolnemu czlonowi grupy, pod warunkiem, ze ten potrafi przekonac Babe, aby to zrobila.
+
+CECHY:
+
+Atak: 1d2, obrazenia klute
+Uderza jak normalna bron
+Szybkosc ataku: 0
+Odpornosc na elementy: +10
+Odpornosc na magie: +50
+Moze unikac ataków fizycznych, co daje mu odpornosc +90 na kazde normalne obrazenie.
+Punkty zycia: 10
+Pochylenie: Chaotyczne Neutralne
+Poszukiwacz
+
+UMIEJETNOSCI:
+
+Wykrywanie Pulapek: 120
+Dezaktywacja Pulapek: 120
+Kradziez: 150
+Ukrywanie sie w cieniach: 150
+Wykrywanie Iluzji: 150
+
+Ryk Szalonej Myszy: ten ryk, który mozna uzyc trzy razy podczas przyzwania, zadaje obrazenia, budzi strach w zlych wrogach, a takze rozprasza strach i wykonuje zaklecie Ochrony przed zlem na czlonkach grupy.
+
+**************************
+
+Uma: Wilczyca Cieni
+
+Uma, Wilczyca Cieni, zamieszkiwala lasy Mir razem ze swoja pania, Bellfame, nimfa. W swoich ostatnich dniach w Mir, walczyla z determinacja przeciwko lucznikom Rycerza Zaklócenia, wylaniajac sie z cieni i ratujac swoich lesnych towarzyszy przed smiertelnymi strzalami.
+Posiada wiele odpornosci ze wzgledu na swoja sombryczna nature.
+
+CECHY:
+
+Atak: 1d8+2, obrazenia klute.
+Uderza jak bron +2
+Szybkosc ataku: 0
+Odpornosc na normalne bronie
+Odpornosc na zimno
+Punkty zycia: 45
+Pochylenie: Neutralne Dobre
+Poszukiwacz
+
+UMIEJETNOSCI:
+
+Lizanie Ciosu: leczy 8 punktów zycia i usuwa choroby, gluchote, slepocie oraz efekty trucizny.
+Niewidzialnosc: moze zlewac sie z cieniami 1 raz dziennie.
+
+**************************
+
+Sayang: Wilczyca Worg
+
+Sayang, Wilczyca Worg, mieszkala w lesie Mir pod koniec swojego zycia na Materialowym Planie. Jej ogromna predkosc pozwala jej zawsze byc pierwsza w walce, tak jak to mialo miejsce w Mir przeciwko szyku Kartlzera. Jej zwiekszona predkosc zapewnia jej naturalna odpornosc na obrazenia elektryczne.
+
+CECHY:
+
+Atak: 1d8+1, obrazenia klute
+Uderza jak bron +1
+Szybkosc ataku: 0
+Odpornosc na elektrycznosc: +50
+Punkty zycia: 36
+Zwiekszona predkosc poruszania sie
+Pochylenie: Chaotycznie Dobre
+Poszukiwacz
+
+UMIEJETNOSCI:
+
+Wielki Atak Wiatru (3 razy dziennie): Sayang moze poruszac sie z ogromna predkoscia, co pozwala jej na wykonanie "strazaka" super szybkich ciosów.-~
+
+
+@400391 = ~Sir Ryan Espinel~
+
+@400392 = ~Puki~
+
+// Reka Alabarzy
+@400393 = ~Reka Alabarzy~
+@400394 = ~Wyglada na to, ze reka zostala odcieta jednym precyzyjnym ciosem miecza.~
+@400395 = ~To jest reka Alabarzy, Meczennika. Zostala odcieta przez Duska Aldanta, Morderce Magów z Cormyr, w zemscie za atak orka na oddzial cormyrenski. Dusk moze ja nosic ze soba, bo widzi w niej potencjalne zastosowanie w przyszlosci, albo po prostu jako tropheum swojego zwyciestwa.~
+
+@400396 = ~Sprzet Cormyr~
+
+@400398 = ~To wydaje sie byc zaopatrzeniem oddzialu Duska. Alabarza musial zebrac wszystkie te przedmioty z poleglych rycerzy. Róznia sie one od mieczy, zbroi, pergaminów po mikstury. Chociaz, w wiekszosci, wszystko wydaje sie byc bardzo zaniedbane i zepsute.~
+
+// Przedmiot Yoshi
+@400399 = ~Obuch katan~
+@400400 = ~Obuch katan
+
+Bron zostala wykovana przez Michelsona. Korzystajac z nieuzywalnych metalowych resztek starego oddzialu Duska, skrzatowi udalo sie nadazyc te katane potezna moca. To bylo podarowane Yoshimowi, ale kazdy, kto umie poslugiwac sie katana, moze z niej korzystac.
+
+BONIFIKATORY:
+
+THAC0: +4
+Obrazenia: 1D10+4, +1d10 obrazen kontuzyjnych
+Typ obrazen: Kontuzyjne
+Waga: 3 funty
+Wspólczynnik predkosci: 0
+Zdolnosc bojowa: Katan
+Typ broni: Jednoreczna
+Wymagania: 6 sily~
+
+@400401 = ~Peleryna de'Arnise~
+@400402 = ~Peleryna de'Arnise
+
+Peleryna ma emblemat rodziny de'Arnise. Przeznaczona do noszenia przez przywódce, magiczne zabezpieczenia zapewniaja noszacemu duza odpornosc na zaklecia magiczne, a takze fizyczna ochrone.
+
+BONIFIKATORY:
+
+Klasa pancerza: Bonus +3
+Rzuty obronne: Bonus +1
+Odpornosc na magie: 25%
+Waga: 3 funty~
+
+// MUGENJIN Espada Larga
+
+@400403 = ~Mugenjin
+
+Niemozliwe jest zignorowanie mistrzostwa, z jakim zostal wytworzony ten dlugi miecz. Najbardziej intrygujacy jest plonacy ostrze, które zadaje smiertelne obrazenia ofierze. Drugim elementem jest olej, którym stale jest pokrywany - podobno z cial licznych ofiar, które zostaly przeciete przez Mugenjin. Mówi sie, ze kiedys stoczyl pojedynek ze swoja antagonistyczna bronia: Shin-Ushi, Sercem Miecza. Nie znasz powodu, dla którego miecz zostal tak utkany, poniewaz mimo wszelkich prób nie jestes w stanie usmierzyc ognia na jego stali. Na ostrzu widnieje inskrypcja: "Ogien Gniewu".
+
+Postacie o zdrowym usposobieniu nie moga go uzywac.
+
+BONIFIKATORY:
+
+Atrybuty:
+
+- Charyzma: +2
+- Madrosc i Inteligencja: +1
+- Punkty zycia: +%10
+
+Umiejetnosci bojowe:
+
+- Obrazenia od ognia: +2d4 punktów za kazde zadane uderzenie.
+- Ostrze Vorpalne: 15% szans na skarzenie ofiary. Rzut obronny przed smiercia -1.
+
+THAC0: +5
+Obrazenia: 1D8+5
+Typ obrazen: Klujace
+Waga: 3
+Wspólczynnik predkosci: 0
+Sila wymagana: 6
+Zdolnosc bojowa: Miecz dlugi
+Typ: Jednoreczna~
+
+// MUGENJIN Mandoble
+
+@400404 = ~Mugenjin
+
+Niemozliwe jest zignorowanie mistrzostwa, z jakim zostal wytworzony ten wielki miecz. Najbardziej intrygujacy jest plonacy obustronny ostrze, które zadaje smiertelne obrazenia ofierze. Drugim elementem jest olej, którym stale jest pokrywany - podobno z cial licznych ofiar, które zostaly przeciete przez Mugenjin. Mówi sie, ze kiedys stoczyl pojedynek ze swoja antagonistyczna bronia: Shin-Ushi, Sercem Miecza. Nie znasz powodu, dla którego miecz zostal tak utkany, poniewaz mimo wszelkich prób nie jestes w stanie usmierzyc ognia na jego stali. Na ostrzu widnieje inskrypcja: "Ogien Gniewu".
+
+Postacie o zdrowym usposobieniu nie moga go uzywac.
+
+BONIFIKATORY:
+
+Atrybuty:
+
+- Charyzma: +2
+- Madrosc i Inteligencja: +1
+- Punkty zycia: +%10
+
+Umiejetnosci bojowe:
+
+- Obrazenia od ognia: +2d4 punktów za kazde zadane uderzenie.
+- Ostrze Vorpalne: 15% szans na skarzenie ofiary. Rzut obronny przed smiercia -1.
+
+THAC0: +5
+Obrazenia: 1D12+5
+Typ obrazen: Klujace
+Waga: 15
+Wspólczynnik predkosci: 5
+Sila wymagana: 6
+Zdolnosc bojowa: Miecz dwureczny
+Typ: Dwureczna~
+
+
+// MUGENJIN Cimitarra
+
+@400405 = ~Mugenjin
+
+Niemozliwe jest zignorowanie mistrzostwa, z jakim zostala wytworzona ta szabla. Najbardziej intrygujace jest plonace ostrze, które zadaje smiertelne obrazenia ofierze. Drugim elementem jest olej, którym stale jest pokrywana - podobno z cial licznych ofiar, które zostaly przeciete przez Mugenjin. Mówi sie, ze kiedys stoczyla pojedynek ze swoja antagonistyczna bronia: Shin-Ushi, Sercem Miecza. Nie znasz powodu, dla którego miecz zostal tak utkany, poniewaz mimo wszelkich prób nie jestes w stanie usmierzyc ognia na jego stali. Na ostrzu widnieje inskrypcja: "Ogien Gniewu".
+
+Postacie o zdrowym usposobieniu nie moga go uzywac.
+
+BONIFIKATORY:
+
+Atrybuty:
+
+- Charyzma: +2
+- Madrosc i Inteligencja: +1
+- Punkty zycia: +%10
+
+Umiejetnosci bojowe:
+
+- Obrazenia od ognia: +2d4 punktów za kazde zadane uderzenie.
+- Ostrze Vorpalne: 15% szans na skarzenie ofiary. Rzut obronny przed smiercia -1.
+
+THAC0: +5
+Obrazenia: 1D8+5
+Typ obrazen: Klujace
+Waga: 4
+Wspólczynnik predkosci: 0
+Sila wymagana: 6
+Zdolnosc bojowa: bulat/Wakizashi/Ninja-to
+Typ: Jednoreczna~
+
+
+
+// SHIN-USHI Espada Larga
+
+@400406 = ~Shin-Ushi, Serce Miecza
+
+Nietypowa cecha tej dlugiej szabli jest brak ostrza. Chociaz jest nieco lzejsza niz standardowe miecze i nie ma smiertelnej ostrosci wielu broni, Shin-Ushi to jedno z ostatecznych ostrzy. Mówi sie, ze kiedys stoczyla pojedynek ze swoim antagonista: Mugenjin, Ognisty Gniew. Nie wiesz, dlaczego miecz nie ma ostrza, bo chocbys próbowal, nie bedziesz w stanie go naostrzyc z powodu magii runicznej na ostrzu. Na ostrzu widnieje inskrypcja: "Serce Miecza".
+
+Postacie zle nie moga jej uzywac.
+
+CECHY:
+
+- Odpornosc na pozbawianie poziomów.
+
+Umiejetnosci bojowe:
+
+- Obezwladnienie przeciwnika: Kazdy czlowiek lub pólczlowiek, z wylaczeniem elfów, trafiony przez Shin-Ushi, musi zdac test przeciwko zatruciu z modyfikatorem -1, aby zapasc w sen na 18 sekund.
+- Uderzenie paralizujace: Test przeciwko zakleciom z modyfikatorem -1 lub ofiara zostanie sparalizowana na 5 sekund.
+- Boska Szybkosc: 15% szans na przyspieszenie noszacego ja po trafieniu na 10 sekund.
+
+THAC0: +5, +4 przeciwko stworzeniom zlym
+Obrazenia: 1D5+5, +4 przeciwko stworzeniom zlym, podwójne obrazenia przeciwko nieumarlym
+Rodzaj obrazen: Obuchowe
+Waga: 4
+Wspólczynnik predkosci: 0
+Sila wymagana: 6
+Wymagana madrosc: 10
+Talent bojowy: Dlugi miecz
+Rodzaj: jednoreczny~
+
+// SHIN-USHI Mandoble
+
+@400407 = ~Shin-Ushi
+
+Ciekawa cecha tego wielkiego miecza jest brak ostrego ostrza. Choc jest nieco lzejsza niz standardowe miecze i nie posiada smiertelnie ostrza wielu broni, Shin-Ushi to jedno z ostatecznych ostrzy. Mówi sie, ze kiedys stoczyla pojedynek ze swoim antagonista: Mugenjin, Plonacy Gniew. Nie wiesz, dlaczego miecz nie ma ostrza, bo chocbys próbowal, nie bedziesz w stanie go naostrzyc z powodu magii runicznej na ostrzu. Na ostrzu widnieje inskrypcja: "Serce Miecza".
+
+Postacie zle nie moga jej uzywac.
+
+CECHY:
+
+- Odpornosc na pozbawianie poziomów.
+
+Umiejetnosci bojowe:
+
+- Obezwladnienie przeciwnika: Kazdy czlowiek lub pólczlowiek, z wylaczeniem elfów, trafiony przez Shin-Ushi, musi zdac test przeciwko zatruciu z modyfikatorem -1, aby zapasc w sen na 18 sekund.
+- Uderzenie paralizujace: Test przeciwko zakleciom z modyfikatorem -1 lub ofiara zostanie sparalizowana na 5 sekund.
+- Boska Szybkosc: 15% szans na przyspieszenie noszacego ja po trafieniu na 10 sekund.
+
+THAC0: +5, +4 przeciwko stworzeniom zlym
+Obrazenia: 1D9+5, +4 przeciwko stworzeniom zlym, podwójne obrazenia przeciwko nieumarlym
+Rodzaj obrazen: Obuchowe
+Waga: 7
+Wspólczynnik predkosci: 3
+Sila wymagana: 6
+Wymagana madrosc: 10
+Talent bojowy: Miecz dwureczny
+Rodzaj: dwureczny~
+
+
+// SHIN-USHI Cimitarra
+
+@400408 = ~Shin-Ushi
+
+Niezwykloscia tej sztyletu jest brak ostrza. Mimo ze jest nieco lzejsza niz standardowe bronie, pozbawiona smiertelnego ostrza wielu mieczy, Shin-Ushi jest jednym z ostatecznych orezów. Mówi sie, ze kiedys stoczyla pojedynek ze swoim antagonista, Mugejinem, Ognistym Gniewem. Nie wiesz, dlaczego miecz nie posiada ostrza, gdyz mimo prób nie uda ci sie naostrzyc go z powodu magicznych run na jego ostrzu. Na glowni znajduje sie napis: "Serce Miecza".
+
+Postacie zle nie moga go uzywac.
+
+CECHY:
+
+Zdolnosci:
+
+- Immunitet na pochlanianie poziomów.
+
+Zdolnosci bojowe:
+
+- Wstrzasniecie przeciwnika: Kazdy czlowiek lub pólczlowiek, z wylaczeniem elfów, uderzony przez Shin-Ushi, musi zdac test na trucizne z kara -1 lub zasnac na 18 sekund.
+- Uderzenie paralizujace: Test na zaslone przeciw czarom z kara -1, w przeciwnym razie ofiara zostanie sparalizowana na 5 sekund.
+- Boska predkosc: 15% szansy na przyspieszenie posiadacza po trafieniu przez 10 sekund.
+
+THAC0: +5, +4 przeciwko istotom zlosliwym
+Obrazenia: 1D5+5, +4 przeciwko istotom zlosliwym, podwójne obrazenia przeciwko nieumarlym
+Rodzaj obrazen: Kontuzjujace
+Waga: 4
+Wspólczynnik predkosci: 0
+Wymagana sila: 6
+Wymagana madrosc: 10
+Umiejetnosc bojowa: bulat/wakizashi/ninja-to
+Typ: jednoreczny~
+
+// AMATISTA DRAGON PURPURA
+
+@400409 = ~Ametystowy Smok Fioletowy~
+@400410 = ~Kamien swieci glebokim fioletowym kolorem. Zgodnie z instrukcjami, mozesz go uzyc do ulepszenia Miecza Rozproszenia lub Pancerza Obrony Cormyr. Oba artefakty musza byc wczesniej wykute zgodnie z przepisem zawartym w ksiedze skrzata. W rezultacie, aby ich kowal mógl go uzywac, musisz wczesniej wykowac jeden z wymienionych artefaktów.~
+
+// SALUS
+
+@400411 = ~Salus~
+@400412 = ~Salus
+
+Z moca Ametystowego Smoka Fioletowego zbroja zostala znacznie ulepszona, stajac sie Salusem. Nie tylko wzmocnila swoja odpornosc na magie, ale takze znacznie poprawila obrone przed obrazeniami fizycznymi. Ponadto zbroja wydaje sie byc lzejsza, ale nie mniej skuteczna w obronie.
+Tylko Dusk moze jej uzywac.
+
+CECHY:
+
+Bonusy:
+
++2 do Sily
++25% odpornosci na magie
++10% odpornosci na wszelkie obrazenia fizyczne
+
+Klasa pancerza: -2
+Waga: 40 lbs~
+
+
+// Draconem Salus
+
+// Defensionis Rex
+
+// REX 
+
+@400413 = ~Rex~
+@400414 = ~Rex
+
+Z moca Ametystowego Smoka Fioletowego miecz zostal znacznie ulepszony, stajac sie Rexem. Oprócz utrzymania swoich obecnych umiejetnosci bojowych, Rex jest w stanie spowolnic wrogów, nie dajac im zadnej szansy na ucieczke. Jego obrazenia elementarne równiez sie poprawily.
+Miecz w zasadzie pozostaje taki sam, dlatego tylko Dusk jest w stanie go uzywac.
+
+CECHY:
+
+Umiejetnosci bojowe:
+
+- 2d6+4 obrazen dla zywych trupów, zmuszajac je równiez do obrony przed smiercia magiczna (z kara -4), aby uniknac calkowitego zniszczenia.
+
+- Immunitet na pozeranie poziomów doswiadczenia.
+
+- Spowolnienie: 15% szans na spowolnienie celu na 10 sekund, bez rzutu obronnego.
+
+THAC0: +5
+Obrazenia: 2D4+5
+Obrazenia Elementalne: 1D2 za obrazenia elektryczne + 1D2 za obrazenia kwasowe
+Typ obrazen: Ciete
+Waga: 10 lbs
+Wspólczynnik szybkosci: 3
+Talent bojowy: Miecz Bastardowy
+Typ broni: Jednoreczna~
+
+@400415 = ~Spowolniony~
+
+
+@400416 = ~Danctian~
+
+@400421 = ~Obrona Cormyru~
+@400422 = ~Zbroja Duska zostala ulepszona dzieki przekutej plycie cormyreanckiego tarczy. Zaklecie dodalo jej znaczace wzmocnienie w obronie fizycznej, utrzymujac jednoczesnie arkaniczne wzmocnienia kolczugi, na której zostala wykonana.
+
+CECHY:
+
+Bonusy:
+
++1 do Sily
++20% odpornosci na magie
+
+Klasa pancerza: -1
+Waga: 50 lbs~
+
+@400423 = ~Kalanda, Transmutator~
+@400424 = ~Chory diabelek~
+@400425 = ~Slaby worg~
+
+@400426 = ~Anthagar, Nekromanta~
+@400427 = ~Smierc~
+@400428 = ~Trucizna~
+@400429 = ~Zniszczenie~
+
+@400430 = ~Lux~
+@400431 = ~Lux
+
+
+Miecz szmaragdowy przeksztalcil sie w epicka bron o nazwie Lux. Magia, która promieniuje, jest niemal czysta i dobroczynna, chroniac nosiciela przed obrazeniami fizycznymi i magicznymi, jednoczesnie wzmacniajac ostrze tajemnicza moca arkaniczna. Mimo ze ma wage miecza dwurecznego, nadal posiada zdolnosc szybkiego ataku. Moze nia wymachiwac tylko Dusk.
+
+CECHY:
+
+Zdolnosci posiadane:
+
+- Klasa pancerza: +2
+- Odpornosc na obrazenia fizyczne: +%10 (ciecze, obuchowe, klujace i odlamkowe)
+- Tarcza przeciwko zakleciom: Dusk moze rzucic te ochrone jakby byl czarodziejem na poziomie 10. Czas trwania: 3 tury.
+
+Zdolnosci bojowe:
+
+- Ataki na ture: +1
+
+THAC0: +4
+Obrazenia: 2D4+4,  +1d5 za obrazenia magiczne
+Typ obrazen: Ciete
+Waga: 13 lbs
+Wspólczynnik szybkosci: 3
+Talent bojowy: Miecz dwureczny
+Typ broni: Jednoreczna
+Wymagania: 15 sily~
+
+@400432 = ~Ira~
+@400433 = ~Ira
+
+Ira to epicka bron kuta w cieniach Pandemonium. To ostateczne ulepszenie szkarlatnej broni, które nie tylko utrzymalo jej obecne zdolnosci, ale je udoskonalilo i dodalo potezne zaklecie Ciszy przeciwko wrogim czarownikom. Cieplo ostrza jest jeszcze bardziej smiercionosne, a plomienie wydaja sie nie wplywac na posiadacza.
+Tylko Dusk moze nia wymachiwac.
+
+CECHY:
+
+Zdolnosci posiadane:
+
+- Regeneracja: 1 punkt zdrowia co 6 sekund
+- Odpornosc na Ogien: +15%
+- Dodatkowe punkty zdrowia: +20
+- Wywoluje ogniowa tarcze na 60 sekund, jesli zycie Duska spadnie ponizej polowy.
+
+Zdolnosci bojowe:
+
+- Odsysanie: Kazde zadane uderzenie uleczy nosiciela o 3 punkty zycia.
+- Cisza: Moze rzucic Cisze w promieniu 5 metrów. Zaklecie uznawane jest tak, jakby rzucil je czarodziej na poziomie 10. Czas trwania: 2 tury.
+
+THAC0: +4
+Obrazenia: 2D5+4, +1d4 za obrazenia ognia, +1d2 za obrazenia magiczne
+Typ obrazen: Ciete
+Waga: 26 lbs
+Wspólczynnik szybkosci: 4
+Talent bojowy: Miecz dwureczny
+Typ broni: Jednoreczna
+Wymagania: 19 sily~
+
+@400434 = ~Duch~
+@400435 = ~Glabrezu z Valatar~
+@400436 = ~Tanar'ri z Valatar~
+
+@400437 = ~Symbol Velsharúna~
+@400438 = ~Ten dziwny amulet nosi w sobie tajemnicza energie, a wyraznie widzisz usmiechnieta czaszke Velsharúna. Twoje rece lekko drza, gdy go trzymasz. Zdobyles go z ciala Anthagara, przywódcy Zapomnianej Krypty.~
+
+@400439 = ~Cialo Mathyusa Davisa~
+@400440 = ~To jest cialo elfa shilmista Mathyusa Davisa. Padl w walce, ulegajac zakleciom czarnoksieznika Zapomnianej Krypty, Sornhila.~
+
+@400441 = ~Celine~
+
+@400442 = ~Lux Triumphans~
+@400443 = ~Lux Triumphans
+
+Swietliste Zwyciestwo to bez watpienia doskonaly miecz dwureczny. Jego magia promieniuje czysta i dobroczynna energia, chroniac nosiciela przed obrazeniami fizycznymi i magicznymi. Ostrze arkaniczne potrafi aktywowac potezne swiatlo, które ukaze wojownikowi droge prawdy w obliczu klamstw iluzji.
+Moze nia wymachiwac tylko Dusk.
+
+CECHY:
+
+Zdolnosci posiadane:
+
+- Klasa pancerza: +2
+- Odpornosc na obrazenia fizyczne: +%15 (ciecze, obuchowe, klujace i odlamkowe)
+- Tarcza przeciwko zakleciom: Dusk moze rzucic te ochrone jakby byl czarodziejem na poziomie 10. Czas trwania: 3 tury.
+- Prawdziwe Widzenie: Moze uzywac zaklecia Prawdziwe Widzenie. Czas trwania: 1 tura.
+
+Zdolnosci bojowe:
+
+- Ataki na ture: +1
+
+THAC0: +5
+Obrazenia: 2D4+5,  +2d4 za obrazenia magiczne
+Typ obrazen: Ciete
+Waga: 13 lbs
+Wspólczynnik szybkosci: 2
+Talent bojowy: Miecz dwureczny
+Typ broni: Jednoreczna
+Wymagania: 15 sily~
+
+@400444 = ~Ira Tenax~
+@400445 = ~Ira Tenax
+
+
+Ira Niewzruszona to z pewnoscia doskonaly miecz dwureczny. Kuta w cieniach Pandemonium, Ira Niewzruszona zachowuje wszystkie swoje zdolnosci, a niektóre z nich zostaly nawet ulepszone. Oprócz zaklecia Cisza, wojownik moze teraz rzucic potezny Ognisty Cios na swoich wrogów. Cieplo ostrza jest jeszcze wieksze. Na szczescie nie wydaje sie wplywac na nosiciela.
+Moze nia wymachiwac tylko Dusk.
+
+CECHY:
+
+Zdolnosci posiadane:
+
+- Regeneracja: 1 punkt zdrowia co 3 sekundy
+- Odpornosc na Ogien: +25%
+- Dodatkowe punkty zdrowia: +30
+- Wywoluje ogniowa tarcze na 60 sekund, jesli zycie Duska spadnie ponizej polowy.
+
+Zdolnosci bojowe:
+
+- Odsysanie: Kazde zadane uderzenie uleczy nosiciela o 5 punktów zycia.
+- Cisza: Moze rzucic Cisze w promieniu 5 metrów. Zaklecie uznawane jest tak, jakby rzucil je czarodziej na poziomie 10. Czas trwania: 2 tury.
+- Ognisty Cios: Moze rzucic kolumne ognia na cel, który znajduje sie w zasiegu wzroku wojownika. Zaklecie uznawane jest tak, jakby rzucil je czarodziej na poziomie 15.
+
+THAC0: +5
+Obrazenia: 2D5+5, +1d8 za obrazenia ognia, +1d3 za obrazenia magiczne
+Typ obrazen: Ciete
+Waga: 26 lbs
+Wspólczynnik szybkosci: 3
+Talent bojowy: Miecz dwureczny
+Typ broni: Jednoreczna
+Wymagania: 19 sily~
+
+@400446 = ~Zdolnosc naturalna uzyskana: Przysiega Gniewu~
+
+
+// Items personalizados EE Characters
+// Wilson
+
+@403490  = ~Poolster~
+@403491  = ~Poolster (Wrodzony)
+Poziom: Wrodzony
+Zasieg: Niedzwiedz
+Czas trwania: Specjalny
+Czas rzutu: 3
+Obszar efektu: Niedzwiedz
+Rzut obronny: Brak
+
+OPIS:
+
+To zaklecie tworzy kilka kul lodu malego rozmiaru, jedna na poziom niedzwiedzia, które zastepuja zwykle pazury. Niedzwiedz moze rzucac tymi kulami w celach znajdujacych sie w odleglosci do 15 metrów, traktowane sa one jako pociski z bonusem +5 do rzutów ataku. Uderzajac w kogos, zadaja 1D4 +3 obrazen oraz dodatkowe +3 obrazen mroznych. Niedzwiedz moze rzucac do pieciu pocisków na ture.~
+@403492  = ~Ten blyszczacy orzel zostal stworzony przez zaklecie wrodzone: Poolster.
+
+CECHY:
+
+Obrazenia: 1d4+3, +3 obrazen mroznych
+GAC0: bonus +5
+Zdolnosci bojowe: Liczba ataków na ture ustawiona na 5
+Typ obrazen: Pocisk
+Waga: 0 lbs
+Wspólczynnik szybkosci: 3~
+@403493  = ~Kula Poolster~
+
+@403494  = ~Rekawice Nocnych Sztyletów~
+@403495  = ~Rekawice Nocnych Sztyletów
+
+Te ciezkie rekawice emanuja nieopisana aura zla. Wydaje sie nawet, ze sa nasaczone starozytnymi plamami wyschnietej krwi, byc moze z powodu szpilków, które od czasu do czasu wydaja sie wystawac. Wydaje sie, ze tylko Straznik Ciemnosci moze je nosic.
+
+CECHY:
+
+Zdolnosci posiadane:
+- Bariera Sztyletów: Raz dziennie.
+Czas trwania: 1 tura.
+
+Waga: 6~
+@403496  = ~Mikstura Dzikiej Magii~
+@403497  = ~Zawartosc tej duzej butelki jest tajemnica. Jednak zapewnili cie, ze kazdy, kto jest zdolny do jej wypicia, zdobedzie korzysci zarówno dla swojej kondycji, jak i umyslu. Wydaje sie byc akceptowalna tylko dla tych, którzy znaja magie dzika.
+
+CECHY:
+
+Bonusy trwale:
+
+- Punkty zycia: +20
+- Inteligencja: Zwiekszona o 1 punkt.
+- Kondycja: Zwiekszona o 1 punkt.
+
+Waga: 10 lbs.~
+@403498  = ~Punkty zycia: +20~
+@403499  = ~Inteligencja: Zwiekszona o 1 punkt~
+@403500  = ~Kondycja: Zwiekszona o 1 punkt~
+
+@403501  = ~Mikstura Bialego Swiatla~
+@403502  = ~Mikstura Bialego Swiatla
+
+Mikstura promieniuje jasnym swiatlem, jakby same promienie slonca byly w niej zawarte. Tylko mnich z Dusza Sloneczna moze skorzystac z jej korzysci.
+
+CECHY:
+
+Bonusy trwale:
+
+- Punkty zycia: +20
+- Kondycja: Zwiekszona o 2 punkty.
+- Odpornosc na Obrazenia Magiczne: +%25
+
+Waga: 10 lbs.~
+@403503  = ~Kondycja: Zwiekszona o 2 punkty~
+@403504  = ~Odpornosc na Obrazenia Magiczne: +%25~
+
+@403505  = ~Mikstura Rubidlowego Plynu~
+@403506  = ~Mikstura Rubidlowego Plynu
+
+Zawartosc butelki brzmi dla ciebie tajemniczo znajomo. Czy to moze byc krew? W kazdym razie wydaje sie byc przeznaczona wylacznie dla Hexxat.
+
+CECHY:
+
+Bonusy trwale:
+
+- Punkty zycia: +35
+
+Waga: 10 lbs.~
+@403507  = ~Punkty zycia: +35~
+
+@403508  = ~Zimowe Kwiaty i Owoce~
+@403509  = ~Zimowe Kwiaty i Owoce
+
+Galezie i liscie maja lodowy kolor, a ty odczuwasz dreszcze, gdy tylko je dotkniesz. Owoce sa fioletowe i wydzielaja slodki aromat. Wyraznie jest to jedzenie dla niedzwiedzi, bo spojrzenie Wilsona na ciebie, gdy je trzymasz, sugeruje, ze powinienes mu je dac, aby mógl je zjesc raz na zawsze.
+
+CECHY:
+
+Bonusy trwale:
+
+- Zdolnosc wrodzona: Poolster.
+
+Waga: 1 lbs.~
+
+@403510  = ~Zdolnosc naturalna uzyskana: Poolster~
+
+@403511 = ~Zdolnosc naturalna uzyskana: Dzielnosc Niedzwiedzia~
+@403512 = ~Zdolnosc naturalna uzyskana: Swieta Moc Niedzwiedzia~
+@403513 = ~Zdolnosc naturalna uzyskana: Wytrzymalosc Niedzwiedzia~
+
+
+
+@400447 = ~Jaheira! Nie... Niee!!!~
+@400448 = ~Minsc... Bubu... Nie... Zaplaca za to!~
+@400449 = ~Aerie! Dranstwo... Niech gina!~
+@400450 = ~Imoen! IMOEN! Nie... NieeeEEee!!!~
+@400451 = ~Korgan... Przeklenstwo... Zemsce sie na tobie, krasnoludzie.~
+@400452 = ~Nalia... W imieniu twojej rodziny pomsce twoje upadlosc!~
+@400453 = ~Valygar, nie... nie... NieeEEeEe!!!~
+@400454 = ~Oszalales? Nie moge pozwolic, abys to zrobil!~
+@400455 = ~Kryjówka Mathyusa~
+
+
+
+////////////////////////////////
+// Pruebas de DIARIO ENTRIES
+
+// MISIÓN 1
+
+@210001 = ~Dusk Aldant: Zbroja Shilmista
+
+Po krótkiej rozmowie z Duskiem, ten wspomnial, ze ma szanse odzyskac swój pancerz bojowy, kolczuge, która przekazal elfowi o imieniu Mathyus do naprawy. Znajdziemy go na zachód od portu, niedaleko kryjówki Zlodziei.~
+
+@210003 = ~Dusk Aldant: Zbroja Shilmista
+
+Spotkalismy Mathyusa Davisa, dziwnego elfa o zielonych wlosach. To spotkanie przeksztalcilo sie w kolejne zadanie: znalezienie Leprechauna o imieniu Michelson.
+Wedlug Mathyusa, maly jegomosc powinien krecic sie po ulicach portu. Mozemy go poznac po rudych wlosach i zielonych ubraniach.
+Na koniec przekonanie go, aby wrócil, nie bedzie latwe. Bedziemy musieli uzyc zlota, piwa... lub rozbawic go dowcipem.
+Zobaczymy, jak zakonczy sie to poszukiwanie.~
+
+@210004 = ~Dusk Aldant: Zbroja Shilmista
+
+W koncu odnalezlismy Michelsona i udalo nam sie przekonac go, aby wrócil do Mathyusa. Powinnismy wrócic i odebrac nasza nagrode.~
+
+@210005 = ~Dusk Aldant: Zbroja Shilmista
+
+Powrócilismy do kryjówki Mathyusa Davisa i znalezlismy Michelsona obok niego. Po krótkiej rozmowie, w której opowiedzial nam o swoim pierwszym spotkaniu z Michelsonem i jego pózniejszej zmianie koloru wlosów, Mathyus wreczyl Duskowi Zbroje Shilmista.
+Przekazal nam równiez ksiege receptur do kucia poteznych artefaktów, za posrednictwem Michelsona. Jesli zdobedziemy odpowiednie skladniki, powinnismy porozmawiac z Mathyusem, abysmy mogli skuc artefakt opisany w ksiedze.~
+
+
+// MISIÓN 2
+
+@210006 = ~Dusk Aldant: Renegaci z Sothillis
+
+Spotkalismy ciekawego psa o imieniu Rozpruwacz. Okazal sie byc zwierzecym towarzyszem Mathyusa Davisa. Przyniósl wiadomosc dla Duska, wskazujac na oczekiwana nowosc dotyczaca oddzialu Cormyr. Prawdopodobnie zwiazane jest to z dawnymi towarzyszami Duska, ale musimy udac sie do Dzielnicy Portowej, do kryjówki Mathyusa, aby sie dowiedziec.~
+
+@210007 = ~Dusk Aldant: Renegaci z Sothillis
+
+Powrócilismy do kryjówki Mathyusa Davisa, zgodnie z wskazówkami Rozpruwacza. Byla to lokalizacja grupy, która zaatakowala oddzial Duska, gdy ten przemierzal wzgórze trolli. Wedlug elfa, grupa to humanoidy w Wietrznych Wzgórzach, na poludniowy wschód od regionu, niedaleko wielkiego jeziora. Michelson jednak ostrzegl, ze moga to nie byc pierwotni napastnicy Duska. Zobaczymy, kiedy znajdziemy te grupe.~
+
+@210008 = ~Dusk Aldant: Renegaci z Sothillis
+
+Znalezlismy grupe humanoidów, którzy prawdopodobnie byli odpowiedzialni za atak na oddzial Duska. Z jakiegos powodu twierdzili, ze sa niewinni, ale znalezlismy u nich fioletowa tarcze z herbem Purpurowych Smoków z Cormyr. Dusk nie wahal sie i zaatakowal ich.~
+
+@210009 = ~Dusk Aldant: Renegaci z Sothillis
+
+Dusk zdolal rozwiazac konflikt bez rozlewu krwi. Choc nie mógl rozwiklac tajemnicy tarczy Cormyru, odzyskal ja i postanowil znalezc dom dla renegatów z Sothillis. Musimy udac sie do Szlachetnego Zakonu Promiennego Serca w Dzielnicy Swiatynnej w Athkatli i porozmawiac z Sir Ryanem Espinelem. Dusk wierzy, ze on moze zaproponowac rozwiazanie tej sprawy.~
+
+@210010 = ~Dusk Aldant: Renegaci z Sothillis
+
+Dusk i ja zakonczylismy sprawe z renegatami z Sothillis. Jednakze okazalo sie, ze to byla pulapka zorganizowana przez czarodzieja o imieniu Sornhil. Wydawal sie znac tozsamosc Duska, tak samo jak moje boskie pochodzenie. Powiedzial, ze Dusk przeszedl pewne wyzwanie i wreczyl mu kule, która powinnismy zaniesc do Mathyusa celem analizy.~
+
+@210011 = ~Dusk Aldant: Renegaci z Sothillis
+
+Dusk porozmawial z Sir Ryanem Espinelem na temat sprawy renegatów z Sothillis. Jednak zanim mu pomoze, zamierza rozwiazac konflikt z upadlymi paladynami i handlem niewolnikami w Athkatli. Po rozwiazaniu tej kwestii powinnismy wrócic do Espinela, aby dokonczyc sprawe humanoidów.~
+
+@210012 = ~Dusk Aldant: Renegaci z Sothillis
+
+Sir Ryan Espinel obiecal interweniowac u praelata w sprawie renegatów z Sothillis. Pozostaje tylko przekazac dobre wiesci humanoidom w Wietrznych Wzgórzach.~
+
+@210013 = ~Dusk Aldant: Renegaci z Sothillis
+
+Przekazalismy dobre wiesci Falonowi i jego plemieniu. Byli bardzo zadowoleni z rezultatu, i mysle, ze Dusk równiez. Gdyby sprawy potoczyly sie inaczej, nasz Morderca Magów bylby prawdopodobnie zupelnie inna osoba.~
+
+@210014 = ~Dusk Aldant: Renegaci z Sothillis
+
+Nagle pojawil sie tajemniczy czarodziej, Sornhil. Wydawalo sie, ze zna tozsamosc Duska, podobnie jak moje boskie pochodzenie. Powiedzial, ze Dusk go zawiodl, przebaczajac renegatom z Sothillis, i ze prowadzi to do nieuchronnego konfliktu. Wreczyl mu kule, która powinnismy zaniesc do Mathyusa celem analizy.~
+
+@210015 = ~Dusk Aldant: Renegaci z Sothillis
+
+Dusk zanioslo kule do Mathyusa i Michelsona. Z ich pomoca udalo mu sie odkryc, jak uwolnic jej wewnetrzna moc. Pomimo ostrzezen od przyjaciól, Dusk uzyl kuli, a w rezultacie zmienil sie drastycznie. Czy to cos dobrego, tylko czas pokaze.~
+
+@210016 = ~Dusk Aldant: Renegaci z Sothillis
+
+Dusk zanioslo kule do Mathyusa i Michelsona. Z ich pomoca udalo mu sie odkryc, jak uwolnic jej wewnetrzna moc. Jednak poszedl za rada przyjaciól i zdecydowal sie ja oczyscic przed uzyciem. Chociaz wersja kuli oslabla, skutki, jakie miala na naszego towarzysza, zdaja sie go wplynely, zarówno na jego postawe, jak i osad. Byc moze to jest drastyczna zmiana i moze cos dobrego. Tylko czas pokaze.~
+
+
+// MISSION 3
+
+@210017 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Demolisher pojawil sie z notatka od Mathyusa Davisa. Najwyrazniej odkryl miejsce, gdzie grupa humanoidów zniszczyla oddzial Duska. Nasz wojownik z Cormyr tym razem ma pewnosc, ze to wlasciwy cel. Dowiemy sie wiecej, gdy udzielimy sie w Dystrykcie Portowym, w kierunku kryjówki elfa z zielonym wlosami.~
+
+@210019 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Dotarlismy do kryjówki Mathyusa, który poinformowal nas, ze grupa odpowiedzialna za atak na oddzial Duska znajduje sie w poblizu Lesnego Zakatka w regionie. Wedlug informacji dostarczonych przez zwiadowce, odpowiedzialnym jest ork o imieniu Alabarza. Znajdziemy go w grobie trolli na zachód od regionu. Poinformowal nas równiez, ze ork dysponuje róznorodnym repertuarem potworów gotowych do obrony.~
+
+@210020 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Podczas podrózy do Tumulu Trolli, inny czarodziej nas przechwycil. Tym razem byl to Valatar, Zaklinacz. Poczatkowo zamierzal uzyskac podziekowania od Duska za zwiekszenie swojej mocy dzieki szkarlatnej kuli. Jednak Dusk grozil mu smiercia, wiec Zaklinacz wezwal poteznego demona otchlannego, aby nas zgladzic.~
+
+@210021 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Udalo nam sie zabic demona otchlannego przywolanego przez Valatara. Dusk poczul dziwne wezwanie ze strony swojej czerwonej szpady. Ostatecznie dokonczyl serce bestii, a bron ulegla poprawie, zdobywajac nowe moce.~
+
+@210022 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Podczas podrózy do Tumulu Trolli, inny magik nas przechwycil. Tym razem byl to Valatar, Zaklinacz. Po krótkiej wymianie zdan, w której Valatar oglosil moc, która Dusk marnowal, odrzucajac szkarlatna kule, zdecydowal sie wyslac demona otchlannego, aby nas zgladzil.~
+
+@210023 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Udalo nam sie zabic demona otchlannego przywolanego przez Valatara. Dusk poczul dziwne wezwanie ze strony swojej szmaragdowej szpady. Ostatecznie dokonczyl serce bestii, wypedzajac ja na zawsze z tego planu. Bron, zdaje sie, nieco sie poprawila.~
+
+@210024 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Znalezlismy kryjówke Alabarzy, Meczyciela. Jednak wpadlismy w zasadzke, w której pojawilo sie kilka esbeków szefa orków. Jego yuan-ti wspomnial o tajemniczym elfie czarodzieju, który dostarczyl mu zaklecie transmutacji dla jego wodza, dzieki któremu udalo mu sie nas przyciagnac. Jesli przetrwamy walke, Dusk bedzie prawdopodobnie zainteresowany ta informacja.~
+
+@210025 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Wreszcie pokonalismy Alabarze Meczyciela wraz z jego poteznymi esbekami. Powinnismy poinformowac Mathyusa, wracajac do Dystryktu Portowego w Athkatli.~
+
+
+@210026 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Dotarlismy do kryjówki Mathyusa, który poinformowal nas, ze grupa odpowiedzialna za atak na oddzial Duska znajduje sie w poblizu Lesnego Zakatka w regionie. Wedlug informacji dostarczonych przez zwiadowce, odpowiedzialnym jest ork o imieniu Alabarza. Znajdziemy go w grobie trolli na zachód od regionu. Poinformowal nas równiez, ze ork dysponuje róznorodnym repertuarem potworów gotowych do obrony. Na szczescie Dusk bedzie mial pomoc Sir Ryana Espinela, Falona i jego plemienia. W odpowiednim momencie, klejnot aktywacyjny dostarczony przez Michelsona przyprowadzi ich na pole walki.~
+
+@210027 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Pokonalismy Alabarze i jego klan przy wsparciu Zakonu Najjasniejszego Serca. Michelson pojawil sie, aby przeprowadzic rytual oczyszczenia w Tumule Trolli. Rytual obejmuje wskrzeszenie poleglych w bitwie, którzy zostali przywolani przez Orba Teleportacyjnego. Po rozmowie z krasnoludem zostalismy przeniesieni z powrotem do Athkatli.~
+
+@210028 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Pokonalismy Alabarze i jego klan przy wsparciu Zakonu Najjasniejszego Serca. Michelson pojawil sie, aby przeprowadzic rytual oczyszczenia w Tumule Trolli. Rytual obejmuje wskrzeszenie poleglych w bitwie, którzy zostali przywolani przez Orba Teleportacyjnego. Po rozmowie z krasnoludem zostalismy przeniesieni z powrotem do Athkatli.~
+
+
+//RESOLUCION M3
+
+@210029 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Poinformowalismy o zwyciestwie nad klanem Alabarza, ale równiez o smierci Duska w walce. Mathyus i Michelson byli smutni, choc i pocieszeni. Wierzyli, ze Dusk skierowal sie na ciemna droge, z której nie móglby wrócic. Przypuszczam, ze to teraz pozostanie w przeszlosci, poniewaz przynajmniej zemsta Duska zostala spelniona, chociaz oznaczalo to jego smierc.~
+
+@210030 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Poinformowalismy o zwyciestwie nad klanem Alabarza, ale równiez o smierci Duska w walce. Mathyus i Michelson byli smutni. Starali sie przekonac, ze bitwa przynajmniej przyniosla sprawiedliwosc poleglym z Cormyr, ale wiem, ze to tylko slabe pocieszenie. Mathyus i jego towarzysze wróca do Shilmista, nie zapominajac jednak zyczyc nam szczescia i zdrowia w podrózach.~
+
+@210031 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Poinformowalismy o zwyciestwie nad klanem Alabarza. Dusk zauwazyl, ze czuje, ze za atakiem Alabarzy na jego oddzial kryje sie cos wiecej. Mathyus i jego towarzysze zapewnili go, ze jesli tak jest, to niedlugo to odkryja. Tymczasem dostalismy solidna sume zlota jako nagrode, co przyda sie nam w nadchodzacych bitwach...~
+
+@210032 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Poinformowalismy o zwyciestwie nad klanem Alabarza. Otrzymalismy sowita nagrode od sojuszników Shilmistów Duska. Ten ostatni wspomnial, ze Alabarza i jego klan zostali uzyci w ataku na oddzial Cormyru przez tajemniczy Zakon Magów, skladajacy sie z Sornhila i Valatara, których spotkalismy. Szef orków wspomnial równiez o elfie o imieniu Kalanda i przywódcy Zakonu, nekromancie, o którym nic nie wiemy. Cos mi mówi, ze nie bedzie to ostatni raz, kiedy o nich uslyszymy.~
+
+@210033 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Powrócilismy do kryjówki Mathyusa w Dystrykcie Portowym w Athkatli. Oddalem glos Duskowi, aby przekazal wiadomosc o naszym zwyciestwie nad klanem Alabarza, ale ku mojemu zdziwieniu, zabil Mathyusa, Demolishera i Michelsona, uzywajac mocy, której domyslam sie, ze pochodzila z tajemniczego szkarlatnego orba, który wczesniej pochlonal.~
+
+@210034 = ~Dusk Aldant: Zemsta Pierwszej Szpady
+
+Po zaskakujacym zabójstwie mieszkanców Shilmista, w sali pojawil sie mroczny demon: Danctian Shadow. Istota wskazala, ze pochodzi z Pandemonium, a jej pochodzenie wynika z Orba Szkarlatego, który Sornhil dostarczyl Duskowi. Przez pewien czas szeptala do ucha Cormyreana plan, który niedawno nam ujawnila. Wyzwolenie demona i zabójstwo Shilmistów. Teraz mamy sojusz z Danctianem na przyszla konfrontacje z tajemniczym Zakonem Magów, który sciga Duska. Czas pokaze, czy decyzja naszego Mistrza Magów byla wlasciwa.~
+
+@210035 = ~Dusk Aldant: Zakon Magów
+
+Dusk opowiedzial wydarzenia, które doprowadzily go do zostania Mistrzem Magów. Najwyrazniej nekromanta o imieniu Anthagar byl odpowiedzialny za rzucenie klatwy, która ostatecznie pochlonela zycie jego zony, Celine. Mimo ze Dusk zrobil, co w jego mocy, aby ratowac zone, nie udalo mu sie. Teraz pozostala mu jedynie nadzieja odnalezienia kiedys Anthagara i jego Zakonu.~
+
+@210036 = ~Dusk Aldant: Zakon Magów
+
+Spotkalismy Kalande, Transmutatora, w Brynn Ley. Najwyrazniej czekal na nas, aby nas przetestowac, wiec przywolal kilka slabych istot, a nastepnie zamienil je w krwiozercze potwory. Co ci czarodzieje Duska i mnie chca osiagnac? Jeszcze nie wiemy. Ale mam przeczucie, ze to nie bedzie ostatni raz, kiedy o nich uslyszymy.~
+
+@210037 = ~Dusk Aldant: Zakon Magów
+
+Wreszcie poznalismy tozsamosc osoby, która stala za wszystkimi atakami arkanów na Duska i nasza grupe: Anthagar, Nekromanta. Twierdzi, ze jest liderem Zakonu Magów zwanego Zapomniana Krypta, mrocznym kultem poswieconym pólbogowi Velsharúnowi, Panu Nieumarlych. Wciaz nie wiemy, jaki jest jego ostateczny cel wobec nas. Na razie musimy pokonac przeszkody, które ponownie postawil przed nami.~
+
+@210038 = ~Dusk Aldant: Zakon Magów
+
+Wreszcie poznalismy tozsamosc osoby, która stala za wszystkimi atakami arkanów na Duska i nasza grupe: Anthagar, Nekromanta. Twierdzi, ze jest liderem Zakonu Magów zwanego Zapomniana Krypta, mrocznym kultem poswieconym pólbogowi Velsharúnowi, Panu Nieumarlych. Wciaz nie wiemy, jaki jest jego ostateczny cel. Na razie musimy przezyc tragiczne spotkanie, które dla nas przygotowal, uwazajac nas za zagrozenie dla jego przyszlych planów.~
+
+@210039 = ~Dusk Aldant: Zakon Magów
+
+Danctian pojawil sie z cieni, aby sie z nami skontaktowac. Mówi, ze ma cos do zaoferowania, co bedzie korzystne dla grupy i zwiazane z Zakonem Magów Zapomnianej Krypty. Bez watpienia jest to bezposrednio zwiazane z pojawieniem sie Anthagara i reszty czarodziejów. Aby uzyskac wiecej informacji, musimy udac sie do opuszczonego domu na pólnocny zachód od Dystryktu Portowego w Athkatli.~
+
+@210040 = ~Dusk Aldant: Zakon Magów
+
+Demoledor pojawil sie, aby sie z nami skontaktowac, przynoszac ze soba notatke napisana przez Mathyusa Davisa. Dusk ja przeczytal, informujac nas o pojawieniu sie Anthagara w Athkatli. Wydaje sie, ze przekazal tajemniczy kamien, mozliwe ze teleportacyjny, naszym przyjaciolom shilmistom. Musimy udac sie do Dystryktu Portowego do kryjówki Mathyusa i Michelsona, aby uzyskac wiecej informacji.~
+
+@210041 = ~Dusk Aldant: Zakon Magów
+
+Dotarlismy do kryjówki Mathyusa, który podzielil sie z nami aktualna sytuacja. Faktycznie, orzech dostarczony przez Anthagara Mathyusowi i Michelsonowi jest teraz w rekach Shilmistów i stanowi jedynie most do miejsca ostatecznej konfrontacji. Bedziemy miec wsparcie Mathyusa i Demoledora. Musimy jedynie porozmawiac z elfem, gdy bedziemy gotowi do wyjscia.~
+
+@210045 = ~Dusk Aldant: Zakon Magów
+
+Przekleta kula Anthagara przeniosla nas do dziwnego miejsca. Nie wydaje sie, ze jestesmy gdzies znanym z plaszczyzny materialnej, ale raczej w rodzaju magicznej kieszeni, z której nie bedziemy mogli uciec, zanim nie stawiemy czola Zapomnianej Krypcie. Nie mamy sladów Mathyusa ani Demoledora. Mam nadzieje, ze dotra na czas do walki.~
+
+@210043 = ~Dusk Aldant: Zakon Magów
+
+Dotarlismy do kryjówki Danctiana. Poinformowal nas, ze Anthagar, Nekromanta, skontaktowal sie z nim. Dziwne jest to, ze Dusk wydawal sie o tym wiedziec. Byc moze Danctian i on rozmawiaja na odleglosc, poniewaz wydaja sie byc w jakis sposób polaczeni. W kazdym razie poinformowal, ze Zapomniana Krypta planuje rzez w Faerûn w celu zdobycia niesmiertelnosci. Ale do tego potrzebuja mnie i Duska. Kiedy bedziemy gotowi na takie spotkanie, wystarczy porozmawiac z Danctianem i poprosic go, aby nas "zabral".~
+
+@210044 = ~Dusk Aldant: Zakon Magów
+
+Przekleta kula Anthagara przeniosla nas do dziwnego miejsca. Nie wydaje sie, ze jestesmy gdzies znanym z plaszczyzny materialnej, ale raczej w rodzaju magicznej kieszeni, z której nie bedziemy mogli uciec, zanim nie spotkamy sie z Zapomniana Krypta. Powinnismy troche poeksplorowac, ale nie bez wczesniejszego przygotowania na wszelki wypadek...~
+
+@210045 = ~Dusk Aldant: Zakon Magów
+
+Przekleta kula Anthagara przeniosla nas w dziwne miejsce. Nie wydaje sie, ze jestesmy gdzies znanym z plaszczyzny materialnej, ale raczej w rodzaju magicznej kieszeni, z której nie bedziemy mogli uciec, dopóki nie stawimy czola Zapomnianej Krypcie. Nie mamy zadnych znaków od Mathyusa ani Demoledora. Mam nadzieje, ze dotra na czas do walki.~
+
+
+// FINAL MISSION GOOD PATH
+@210046 = ~Dusk Aldant: Zakon Magów
+
+Zapomniana Krypta zostala pokonana. W procesie musielismy zmierzyc sie z Mathyusem, który zostal zaczarowany przez Zakon Magów Anthagara. Nie mielismy innego wyboru, jak zabic go, razem z reszta Zakonu. Jednak po zakonczeniu walki i zebraniu Symbolu Velsharúna i ciala elfa shilmisty, pojawil sie Michelson. Leprechaun wskrzesil swojego przyjaciela i przywrócil nas do Athkatli. Z Mathyusem ozywionym i reszta w bezpieczenstwie zostalismy przeteleportowani do pewnego lasu, gdzie Dusk mógl ostatni raz zobaczyc swoja zone Celine.
+Wreszcie, po powrocie do kryjówki Mathyusa, zostalismy nagrodzeni zlotem i powierzeni misja pokonania Irenicusa i ocalenia elfów z Suldanessellaru. Ponadto zawsze mozemy liczyc na strazników Shilmisty, jesli zechcemy stworzyc jakikolwiek artefakt z listy Michelsona.~
+
+@210047 = ~Dusk Aldant: Zakon Magów
+
+Zapomniana Krypta zostala pokonana. W procesie musielismy zmierzyc sie z Mathyusem, który zostal zaczarowany przez Zakon Magów Anthagara. Nie mielismy innego wyboru, jak zabic go, razem z reszta Zakonu. Jednak po zakonczeniu walki i zebraniu Symbolu Velsharúna i ciala elfa shilmisty, pojawil sie Michelson. Leprechaun wskrzesil swojego pana i przywrócil nas do Athkatli. Chociaz Mathyus ozyl, zdal sobie sprawe, ze Dusk polegl w walce. Shilmici zalowali utraty, ale pocieszyli sie, wiedzac, ze sojusznicy Velsharúna popadli w Zapomnienie, a ich plany zostaly udaremnione, co bylo dla Duska wazniejsze niz jego wlasne zycie. Mówil, ze Celine zostala wreszcie pomsciona, a my zostalismy nagrodzeni zlotem i powierzeni misja pokonania Irenicusa i ocalenia elfów z Suldanessellaru. Ponadto zawsze mozemy liczyc na strazników Shilmisty, jesli zechcemy stworzyc jakikolwiek artefakt z listy Michelsona.~
+
+@210048 = ~Dusk Aldant: Zakon Magów
+
+Zapomniana Krypta zostala pokonana. Dusk oszukal Anthagara, sprawiajac mu wrazenie, ze sojuszuje sie z nim, aby wskrzesic Velsharúna, Boga Zywego Smierci, znanego równiez jako Mellifleur. Zakon Magów zaatakowal z duza sila, i mimo ze udalo nam sie zwyciezyc, Dusk polegl w walce.
+Danctian, demon z Pandemonium, przywrócil nas do Athkatli i zostawil nam spora sume zlota. Po tym pozegnal sie z nasza plaszczyzna. Zakladam, ze wrócil do cieni, gdzie jego miejsce.~
+
+@210049 = ~Dusk Aldant: Zakon Magów
+
+Zapomniana Krypta zostala pokonana. Dusk oszukal Anthagara, sprawiajac mu wrazenie, ze sojuszuje sie z nim, aby wskrzesic Velsharúna, Boga Zywego Smierci, znanego równiez jako Mellifleur. Zakon Magów zaatakowal z duza sila, i mimo tego, ze udalo nam sie zwyciezyc.
+Danctian, demon z Pandemonium, po zwyciestwie zabral nas na dziwna równine, gdzie mógl przywolac ducha zony Duska, Celine. Tam miala miejsce ich ostatnia rozmowa, w której elfka ubolewala nad sciezka, która jej maz obral. Dusk, mimo ze próbuje to ukryc, byl dosc wstrzasniety jej slowami. Jestem pewien, ze to wplynie na jego przyszlosc, nawet jesli sam tego nie zdaje sobie sprawy.~
+
+
+// Epílogo 1 -> Neutral Dusk - Mercader
+
+@330006 = ~Po wydarzeniach zwiazanych z Tronem Bhaala, Dusk skierowal sie do Athkatli. Próbowal zalozyc sklep do kupna i sprzedazy dziwnych artefaktów, otrzymujac nawet kilka rad od Ribalda Handlarza. Jednak jego przedsiewziecie zawiódl, poniewaz wiekszosc czasu spedzal jako posrednik miedzy Cieniami Zlodziei a Szlachetnym Zakonem Promiennego Serca. Mozna powiedziec, ze unikal wielu konfliktów, a to, w polaczeniu z wyczynami dokonanymi razem z <CHARNAME>, przynioslo mu liczne propozycje pracy o charakterze wojskowym.
+
+Ostatecznie odpowiedzial na wezwanie Thethyra, by sluzyc jako general armii Zarandy Gwiazdy. Mówi sie, ze poprosil tylko o przysluge Królowej, by zlikwidowac wszelkie sily nigromantyczne w regionie.
+
+Z odwaga prowadzil armie Ternana Grannoxa i utrzymywal pokój przez wiele lat, az do swojej emerytury, kiedy juz nie mógl dzierzyc miecza, a jego laska nie miala juz innego celu niz sluzyc mu jako trzecia noga.
+
+Mówi sie, ze spedzil swoje ostatnie dni w spokoju pod lagodnym zmierzchem odbudowanego Darromaru.~
+
+// Epílogo 2 -> Neutral Dusk - Dragon Purple Knight
+
+@330007 = ~Po rozstaniu z <CHARNAME>, Dusk udal sie do Cormyru.
+
+Tam opowiedzial o wszystkim, co wydarzylo sie od jego odejscia, liczac na zasluzona kare za swoja dluga nieobecnosc. Zamiast tego, Wielka Miecz Zakonu przywrócila go do roli Pierwszej Miecze i przydzielila nowy oddzial do odzyskania cial poleglych zolnierzy, teraz odnalezionych w Shilmista.
+
+Nie tylko udalo mu sie osiagnac ten cel, ale takze polowal na orków odpowiedzialnych za atak. Bitwa ta miala miejsce w grobowcu opanowanym przez trolle, gdzie zwyciezyli Rycerze Zakonu Purpurowego Smoka. Pokonal w pojedynku wodza orków, Alabarze, zabijajac takze dziesiatki jego popleczników.
+Zaden z jego zolnierzy nie zginal w tej bitwie, a ta wyczyn przyniósl mu awans na kapitana Miecza.
+
+Znany byl jako nieugiety tropiciel nigromantów i lichów, eliminujac wiele potencjalnych zagrozen dla swojego kraju. Po wielu latach sluzby zdecydowal sie na odejscie.
+
+Plotki glosza, ze ozenil sie z piekna kobieta z Suzail i odnowil zamek rodziny Aldant na skraju Arabel. W spokojnych latach mial jedna córke, która nazwal Celine.~
+
+
+// Epílogo 3 -> Good Dusk - Mielikki's Church
+
+@330008 = ~Po rozstaniu z <CHARNAME>, Dusk udal sie do Shilmista.
+
+Tam, za zgoda elfiego króla Elberetha, odzyskal ciala poleglych zolnierzy z Cormyru. Nastepnie, eskortowany przez grupe zwiadowców, udal sie do Cormyru.
+
+Po ogloszeniu sie, udalo mu sie przedstawic wszystko, co sie wydarzylo, wyzszym dowódcom armii, oferujac sie do przyjecia kary, jaka uznaja za stosowna. General Purpurowych Smoków, widzac, ze jeden z jego Pierwszych Mieczy nawiazal dobre relacje z elfami z Shilmista, postanowil go ulaskawic w imieniu króla.
+
+Uroczystosci pogrzebowe byly pieknym widowiskiem, pelnym uroczystosci i nostalgii. Na zakonczenie elfowie wskazali, ze handlowe sojusze miedzy Cormyrem a Shilmista bylyby korzystne dla wszystkich.
+
+To bardzo ucieszylo szlachte, która chciala hojnie wynagrodzic Arduska Aldanta. Ale ten sie z tego wylamal. Zamiast tego zgodzil sie zbudowac kosciól ku czci Mielikki, by tam nauczac o jej dogmatach.
+
+Cormyr zgodzil sie, i tak rozpoczela sie sojusz miedzy ludzmi z pólnocy a elfami z poludnia.
+
+Plotki glosza, ze Dusk spedzil reszte swojego zycia w Lasach Króla w Cormyrze, kochajac przyrode tak, jak nauczyla go jego zona. Byc moze, gdy nadejdzie jego czas, bedzie mógl sie z nia ponownie spotkac na Lakach Jednorozca w Lesie Pani i tam, zlewac sie w wieczny uscisk milosci.~
+
+// Epílogo 4 -> Good Dusk - Alabarza's Death
+
+@330009 = ~Po rozstaniu z <CHARNAME>, Dusk skierowal swoje kroki do Shilmista. Mówi sie, ze studiowal z wieloma elfimi czarownikami i przez dlugi czas szukal odpowiedzi na wewnetrzne niepokoje.
+
+Lata pózniej udal sie do Athkatli, gdzie szukal Falona i jego plemienia. Tam porozmawial z Sir Ryanem Espinelem i wyjasnil, co próbuje osiagnac. Choc paladyn nie zgadzal sie z planami Duska, ostatecznie pozwolil, by Falon i inni towarzyszyli mu w 'krótkiej' podrózy.
+
+Razem podrózowali przez ziemie Amn i Tethyr, noszac emblematy Promiennego Serca Tyra, aby uniknac ataków lokalnych sil. Ich celem bylo Tumulus Trolli na skraju Lasu Druidów.
+
+Dusk przeprowadzil skomplikowany rytual ku czci bogów natury, wykorzystujac wiele mocy, jaka zdobyl dzieki Orzechowi Szmaragdowemu. Po zakonczeniu Alabarza i jego poplecznicy zostali wskrzeszeni.
+
+Alabarza, zaskoczony powrotem do zycia (a tym bardziej widzac, ze to jego wielki wróg go wskrzesil), zapytal: "Dlaczego to zrobiles, zolnierzu?". Mówi sie, ze Dusk tylko sie usmiechnal i powiedzial, ze wieczna kara Gruumsha wydawala mu sie zbyt surowa.
+
+Po kilku godzinach rozmów miedzy humanoidami, Dusk przekonal Alabarze i jego plemie do zadoscuczynienia za swoje czyny, dzialajac jako pierwsza linia obrony Amnu obok plemienia Falona.
+
+Alabarza w koncu przystal, a reszta jego plemienia poszla za nim. Mówi sie, ze po kilku miesiacach zakochal sie w Falon i oswiadczyl jej sie pod swiatlem swojego nowego boga: Tyra.
+
+Jesli chodzi o Duska, mówi sie, ze podrózowal po wielu miejscach, chroniac slabych przy pierwszej okazji. Udalo mu sie uzyskac przebaczenie w Cormyrze, przywrócic klatwe w Zamku Trójcy dzieki pomocy Elberetha i Mathyusa oraz odwiedzic Michelsona i Demoledora w Shilmista.
+
+Lata mijaly, a gdy nadszedl jego czas, gdzies w Lesie Króla w Cormyrze, boskie swiatlo wylonilo sie z dziupli debu. Z niego wyszla Mielikki, Pani Lasu, i wziela w ramiona starca i wyczerpanego Arduska Aldanta.
+
+Mówi sie, ze przeszli przez swiatlo debu i podrózowali przez oceany gwiazd, az dotarli do Laki Jednorozca. Tam lsniacy posag sie im ukazal: On juz nie byl stary, zmarszczenia i bóle ciala zniknely; a przed nim usmiechala sie piekna elfka o zlotych jak slonce wlosach.
+
+"Celine..." szepnal. I poszedl ku niej, obejmujac ja, podczas gdy dzikie harmonie tanczyly wokól niego w jesiennym wietrze. Teraz Dusk i Celine beda razem na zawsze.~
+
+// Epílogo 5 -> Good Dusk - Bellfame's War
+
+@330010 = ~Rok Kufelka przemijal na swiecie, gdy Kartlzer, Rycerz Imperialny Zentharim, najechal Las Mir. Przekroczyl granice lasu i wkroczyl, by schronic sie przed wojskami Thethyra, z którym wkrótce mieli wojowac.
+
+Jego magik dostrzegl obecnosc poteznej nimfy, która mogliby wykorzystac, zywa czy martwa, do swoich okrutnych celów. Wtedy Kartlzer ruszyl do serca lasu z magikiem i dwudziestoma wojownikami.
+
+Gdy dotarli do gliniastego bagna, lotrzy spotkali sie z nietypowa postacia: nimfa Bellfame, która czekala na nich w otoczeniu niedzwiedzia, trzech wilków i malego myszka na swoim ramieniu.
+
+Kartlzer wszedl naprzód i zazadal poddania sie nimfy w zamian za oszczedzenie jej bestii. Jednak nimfa, milczaca, tylko go obserwowala z pewnym nieufnoscia. Wtedy Kartlzer zorientowal sie, ze ktos jeszcze jest obecny.
+
+Z cienia wylonil sie rycerz w zielono-fioletowej zbroi, z symbolem Purpurowego Smoka na piersi.
+
+"Jestem Ardusk Aldant, Pierwsza Miecz Cormyru, Rycerz Zakonu Purpurowych Smoków i Straznik Shilmista. Jesli chcesz opuscic to miejsce zywy, odwróc sie... w przeciwnym razie ty i wszyscy twoi ludzie umra tu dzisiaj."
+
+Kartlzer slyszal o nim i o jego czynach z <CHARNAME>. To moglo byc podstepem, ale cos w postaci Duska przekonalo go, ze tak nie jest.
+
+Wreszcie Rycerz Imperceptor odwrócil sie i odszedl, szybko wracajac ta droga, która przyszedl.
+
+Dusk spojrzal ze zdziwieniem na swoja zacisnieta dlon. Otworzyl ja, ale nie bylo niczego: zniklo Pierscien Lasu Mir.
+
+Bellfame pierwszy raz usmiechnela sie: "Udalo ci sie, Ardusk. Uratowales nas... zmieniles mój los."
+
+Obydwaj polaczyli sie w uscisku i tam, Bellfame pierwszy raz pokochala smiertelnika.
+
+Dusk spedzil reszte swoich dni w Mir wsród zwierzat i roslin lasu, które tak bardzo kochal.~
+
+// Epílogo 6 -> Evil Dusk - NO tiene espada escarlata (Mata a Sothillis)
+
+@330011 = ~Po rozstaniu z <CHARNAME>, Dusk skierowal swoje kroki ku Tethyr. Tam zalozyl firme najemników o nazwie Szkarlatna Straz. Poddal sie rozkazom Zarandy Estrella i chronil region przed potencjalnymi wrogami. Jednak plotki sugeruja, ze Dusk kilka lat pózniej zainicjowal rozpoczecie wojny przeciwko Imperium Sothillis. Konflikt spowodowal strate tysiecy zolnierzy z obu stron. Mówi sie, ze zakonczyl sie on krwawa bitwa miedzy humanoidami a Szkarlatna Straza. Twierdzi sie, ze Sothillis padl w boju przeciwko wojownikowi wymachujacemu mieczem czerwonym jak krew.
+Plotki zyskaly na sile, gdy w czasach pokoju Dusk odwiedzil Baldur's Gate i zostawil tam wielki dwureczny miecz zakrwawiony. Bron ta nalezala do ogromnego humanoida; lata pózniej eksperci stwierdzili, ze to byla osobista bron maga-ogra Sothillisa.
+
+Lata mijaly, a czyny Duska stawaly sie coraz bardziej bledne i tajemnicze. Nigdy nie oddzielal sie od swojego miecza, który zdawal sie umacniac przy kazdej smierci, jaka spowodowal.
+W koncu szkarlatne swiatlo jego miecza zgaslo, sygnalizujac koniec zycia cormyrenskiego wojownika. Mówi sie, ze wielka cien, który nazywal sie Danctian, przyszedl po niego w ostatnich chwilach zycia.
+
+Ostatnie slady Duska byly tylko cieniem i kurzem, ale niektórzy arcani twierdza, ze moga dostrzec znajoma i mroczna obecnosc w plaszczyznie Pandemonium.~
+
+
+// Epílogo 7 -> Evil Dusk - Tiene espada escarlata (Redención)
+
+@330012 = ~Po wydarzeniach zwiazanych z Tronem Bhaala, Dusk powrócil do Athkatli, a konkretnie do opuszczonego domu w Dystrykcie Portowym.
+
+Tam, razem z Danctianem, przeprowadzil rytual, w trakcie którego oddal znaczna czesc swojej mocy, by przywrócic do zycia trzy stworzenia shilmista. Mathyus, Michelson i Demoledor byli z powrotem, zdezorientowani decyzja Duska (który ich wczesniej unicestwil). Nie otrzymali jednak zadnych odpowiedzi, a Dusk wraz ze swoja demoniczna cienia na zawsze znikneli z Amnu.
+
+Mówi sie, ze postac w szkarlatnej z Cormyr pomogla Tethyrowi w walce z zagrozeniem ze strony Maga Ogra Sothillisa. Nastepnie udala sie do Shilmista, by odwiedzic grób elfiej odkrywczyni, a w koncu odwiedzila przeklete miejsce zwanym Zamek Trinidad.
+
+Tam przeprowadzil zakazany rytual, otwierajac portal do lesnej plaszczyzny. Nawiazal pakt z sama Dama Lesna. Niektórzy elfi straznicy byli swiadkami, jak czlowiek wyciagnal swój miecz, który byl szkarlatny jak krew, ale stopniowo zmienial sie w szarawe jak cedrowe liscie. Potezna wichura ogarnela miejsce, a blask miecza zniknal, tak samo jak zycie w Dusku.
+
+Kiedy elfowie powrócili do Shilmista, by poinformowac Elberetha, ten juz radzil sobie z nadprzyrodzonym zjawiskiem. Otóz Celine, elfia odkrywczyni, zostala wskrzeszona.
+
+Celine, wciaz zszokowana tym, co sie wydarzylo, natychmiast ruszyla do Trinidad. Tam jednak nie znalazla ciala Duska. Znalazla tylko laske z emblematem Shilmista i zbroje z emblematem Cormyr. Te artefakty sa pilnie strzezone po dzis dzien, w samym sercu Shilmista.~
+

@@ -1,0 +1,55 @@
+//EVIL
+@0 = ~Well, well... Captain, I was expecting a warmer welcome... after all, you have become more powerful through us...~
+
+@2 = ~I suppose you're referring to the Scarlet Orb of Sornhil.~
+@3 = ~Perhaps I should thank you, mage. How about your heart impaled on my sword as a symbol of gratitude?~
+@4 = ~*laughs* I'm not sure if that attitude is due to the orb or your lengthy companionship with a spawn of Bhaal.~
+@5 = ~You do not deserve my patience, circus freak... However, today I am feeling generous: I am Valatar, the Conjurer.~
+@6 = ~Let's move on to more interesting matters: I know very well what you're doing here, captain. I must say, I share your love for revenge. It's... a unique feeling when you finally achieve it.~
+@7 = ~Your opinion matters very little to me, Conjurer. Tell me, what is it that you want? Your life depends on the answer you give.~
+@8 = ~I was sent by my Order. We have plans for you and your... leader.~
+@9 = ~We are very interested in the outcome of the upcoming battle between your alliance and Alabarza's.~
+@10 = ~How do you know so much about our movements? I don't think you're any different from your companion Sornhil. It seems like you enjoy hearing your own voice, even when it's emptier than a dry sponge.~
+
+
+
+@11 = ~I assure you, captain... my voice is to be feared...~
+@12 = ~But that's enough! I was sent to give you something. I was specifically told not to try... to kill you.~
+@13 = ~However, I am very curious to see what the limit of the scarlet orb is. That's why... I have prepared a... diabolical confrontation.~
+@14 = ~Captain Aldant... we will surely meet again... if you survive, of course. Ha ha ha!~
+@15 = ~I am not going to kill you... in that, I am fulfilling with my Order... However, they did not say anything about my... summonings.~
+@16 = ~I knew it! Be careful, <CHARNAME>. I believe we are facing an arcane contingency.~
+
+//GOOD
+@17 = ~Well, well... if it isn't Captain Aldant and his inseparable companion, <CHARNAME>...~
+@18 = ~What do you seek, wizard? I have rejected the power that your friend has tried to offer me.~
+@19 = ~Your dirty tricks won't work on me... and I warn you... if you try anything, I won't hesitate to separate your head from your body with my sword.~
+@20 = ~*laughs* Although you don't impress me, your attitude does. Perhaps it's due to your extensive companionship with a Bhaalspawn?~
+@21 = ~Since I don't consider you a real threat, I'll tell you: I am Valatar, the Conjurer.~
+@22 = ~And what are you doing here, Valatar? Clearly, you are following us. Come on, speak up!~
+@23 = ~Hmpf... this is no longer fun...~
+@24 = ~You see, my Order is very interested in your imminent confrontation against Alabarza and his clan.~
+@25 = ~If you manage to defeat them, you could still regain your honor as First Sword in the Army of Cormyr, don't you think?~
+@26 = ~W-what...?~
+@27 = ~If you had accepted the power of the Scarlet Orb, that wouldn't be a concern for you.~
+@28 = ~The orb would have awakened an immense power within you. You would have felt as powerful as a dragon.~
+@29 = ~But... instead, you move forward like a wolf, depending on the impulse of your pack.~
+@30 = ~When the time comes, captain... you will see how little a pack of wild animals can do against a true force of power.~
+@31 = ~You're trying to intimidate me, Valatar... perhaps in my ignorance about your Order, I could feel doubtful.~
+@32 = ~But I rely on the loyalty of my friends; Mathyus, Michelson, <CHARNAME>.~
+@33 = ~Fear is not a weapon you can use against me.~
+@34 = ~Ha! That remains to be seen, Cormyrian.~
+@35 = ~I was sent only to observe... I am not supposed to kill you.~
+@36 = ~But they said nothing about my summonings!~
+
+
+
+
+
+@210020 = ~Dusk Aldant: The Revenge of the First Sword
+
+During the journey to the Troll Mound, another mage intercepted us. This time, it was Valatar, the Conjurer. At first, he pretended to seek gratitude from Dusk for increasing his power through the scarlet orb. However, Dusk threatened him with death, so the Conjurer called upon a powerful abyssal demon to eliminate us.~
+
+@210022 = ~Dusk Aldant: The Revenge of the First Sword
+
+During the journey to the Trolls' Mound, another wizard intercepted us. This time, it was Valatar, the Conjurer. After a brief exchange of words in which Valatar declared the power that Dusk wasted by rejecting the scarlet orb, he decided to summon an abyssal demon to destroy us.~

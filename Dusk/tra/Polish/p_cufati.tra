@@ -1,0 +1,41 @@
+@0    = ~Cufa: Hm, Cufa ma glód. Widziec, jak ty zwiekszasz glód Cufy.
+Tima: Cufa, pamietaj, ze jestesmy na diecie. Hej, przybyszko, lepiej porozmawiaj z naszym przywódca, podczas gdy ja przekonam mojego przyjaciela, zeby cie nie zjadl, tak?~
+@1    = ~Cufa: Hm, Cufa ma glód. Widziec, jak ty zwiekszasz glód Cufy.
+Tima: Cufa, pamietaj, ze jestesmy na diecie. Hej, przybyszko, lepiej porozmawiaj z naszym przywódca, podczas gdy ja przekonam mojego przyjaciela, zeby cie nie zjadl, tak?~
+@2    = ~Cufa: Ah, wreszcie Cufa moze jesc! Bedzie zabawnie, prawda, Tima?~
+@3    = ~Tima: Cufa, nie jestem tego taki pewien... pamietaj, ze nasza chec do walki przeminela... Ponowna walka z tymi swiadomymi istotami... moze oznaczac nasz koniec...~
+@4    = ~Tima: Ale nie mamy innego wyboru. Nasza przywódczyni próbowala negocjowac... ale skoro nie doszlo do porozumienia... przed nami walka. Chodz, bracie! Mamy wrogów do przygniatania.~
+@5    = ~Cufa: Przygniesc ludzi... to zawsze bedzie zabawne!~
+@6    = ~Cufa: Cufa myslec, ze Coco powinien przestac jesc grzyby. Mówic rzeczy, które nie maja sensu.~
+@7    = ~Tima: Coco ma racje. W takim stopniu, ze udalo mu sie przekonac mojego brata, aby przestal sie zywic ludzmi. Staramy sie zyc w pokoju. Szukamy miejsca, które nazwiemy domem.~
+@8    = ~Cufa: *wzdycha* Cufa bedzie tesknic za jedzeniem ludzi...~
+@9    = ~Tima: Wyglada na to, ze stanelismy przed trudnym wyborem. Nie mamy sposobu na udowodnienie naszej niewinnosci...~
+@10   = ~Tima: Ale ty tez nie masz sposobu na udowodnienie naszej winy, Cormyrejczyku.~
+
+
+
+@11   = ~Cufa: Hmmm... cormyrejczyk. To jedzenie?~
+@12   = ~Tima: *szept* To zalezy, bracie. To zalezy od tego, co ten czlowiek odpowie...~
+@13   = ~Tima: Och, Coco... prosze, powiedz mi, ze to nie jest zaklety przedmiot...~
+@14   = ~Cufa: Fioletowy tarcza zaklety? Szkoda, Cufa chcial zobaczyc lsniaca tarcze.~
+@15   = ~Cufa: Dusk? Cufa lubic to imie. Latwe do zapamietania.~
+@16   = ~Tima: Czy slyszales to, Cufa? Wkrótce bedziemy mieli nowy dom. Nie wierze w to.~
+@17   = ~Cufa: Cufa slyszec dobrze, Tima. Cufa byc szczesliwy z nowego domu. Cufa plakac z wzruszenia.~
+@18   = ~Tima: Cufa i ja jestesmy bardzo wdzieczni, obcokrajowcu. Prawda, Cufa?~
+@19   = ~Cufa: Tima miec racje. Cufa miec nadzieje zyc teraz z zdrowym jedzeniem.~
+@20   = ~Tima: To duzo od ciebie, bracie.~
+@21   = ~Cufa: Cufa pomagac przygniatac maga ogrów. Cufa walczyc u boku ludzi.~
+@22   = ~Tima: Chyba nie mam innego wyboru, niz isc za toba, Cufa.~
+@23   = ~Tima: O rany, ale jesli to nie nasi przyjaciele! Spójrz, Cufa, przyszedl <CHARNAME>.~
+@24   = ~Cufa: Uh? Przepraszam, Maly Spioch jest znowu glodny. Cufa szukac siana dla Malego Spiocha.~
+@25   = ~Tima: Cufa! Karmiles Malego Spiocha kilka godzin temu, pozwól mu odpoczac chwile. Mozesz zajac sie Malym Skaczacym, on wydaje sie byc glodny.~
+@26   = ~Cufa: Maly Skaczacy na diecie. Widziec, jak jest gruby? Tima chciec, zeby wszyscy przytyli.~
+@27   = ~Tima: Bracie, pleciesz bzdury. To ja zaczalem cie odchudzac, pamietasz? Juz od dawna jesz tylko owoce i warzywa.~
+@28   = ~Tima: Erhm... Przepraszam, <CHARNAME>. Jak widzisz, zajmujemy sie stajniami. W rzeczywistosci to zadanie sprawia nam sporo przyjemnosci. Szczególnie Cufie. Mój starszy brat polubil sie dosc z konmi.~
+@29   = ~Cufa: Cufa byc szczesliwy z nowego domu. Byc wdzieczny Dusk i <CHARNAME>. Cufa kochac przyjaciól i konie.~
+
+
+
+@210008 = ~Dusk Aldant: Renegaci ze Sothillis
+
+Znalezlismy grupe humanoidów, którzy rzekomo byli odpowiedzialni za atak na oddzial Duska. Z jakiegos powodu upierali sie, ze sa niewinni, ale zauwazylismy, ze niosa zniszczony fioletowy tarcze z insygniami Purpurowych Smoków Cormyru. Dusk nie wahajac sie zaatakowal ich.~

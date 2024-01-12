@@ -1,0 +1,25 @@
+//@0    = ~~
+@1    = ~Przypuszczam, ze nasze drogi rozchodza sie, co nie? Jesli zmienisz zdanie, znajdziesz mnie tam, gdzie sie poznalismy: na Paseo de Waukin, niedaleko ruin, które spowodowal nasz wróg.~
+@2    = ~Poczekaj, Dusku. Nie odchodz, nasza podróz musi trwac.~
+@3    = ~Oczywiscie, zobaczymy sie tam, na Paseo de Waukin.~
+@4    = ~Najlepiej poczekaj tu na mnie, Dusku.~
+@5    = ~<CHARNAME>! Wróciles. Mam nadzieje, ze bedziemy mogli kontynuowac nasza podróz. Musimy wymierzyc sprawiedliwosc poleglym.~
+@6    = ~Masz racje, przyjacielu. Chodz, dolacz do mnie.~
+@7    = ~Nie jeszcze, Dusku, musze zalatwic kilka spraw przedtem.~
+@8    = ~Swietnie! <CHARNAME>, chodzmy.~
+@9    = ~Poczekam tu, wiec.~
+
+@10    = ~No cóz... przynajmniej sie zastanowiles... Dobrze... pójde za toba... na razie...~
+@11    = ~Ale... Cóz za... Moment, czyzbym stracil przytomnosc?~
+@12    = ~Tak wlasnie bylo, Dusku. Michelson przywrócil cie do zycia, uzywajac Symbolu Velsharúna Anthagara.~
+@13    = ~Tak wlasnie bylo, Dusku. Danctian przywrócil cie do zycia, uzywajac Symbolu Velsharúna Anthagara.~
+@14    = ~Juz... rozumiem...~
+@15    = ~(Michelson, z usmiechem od ucha do ucha, wita Duska)~ [P_Mich01]
+@16    = ~Michelson... nie mam slów, by wyrazic ci moja wdziecznosc za to, co zrobiles...~
+@17    = ~Widze... widze, ze Mathyus upadl... Gromy... to byla ciezka walka, <CHARNAME>...~
+@18    = ~Mysle, ze Michelson bedzie w stanie nas stad zabrac, kiedy bedziemy gotowi... kiedy uzna to za stosowne, <CHARNAME>, porozmawiaj z nim, abysmy opuscili to cholernie przeklete miejsce.~
+@19    = ~Wróciles, <CHARNAME>. Czyzbys sie zastanowil i potrzebowal moich uslug?~
+@20    = ~Masz racje, Dusku. Chodz, dolacz do mnie.~
+@21    = ~Niech tak bedzie, <CHARNAME>. Idzmy.~
+
+@3501  = ~Planujesz zaatakowac Zakon? Nie moge na to pozwolic... To moi sojusznicy! <CHARNAME>, przygotuj sie!~

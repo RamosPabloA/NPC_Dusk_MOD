@@ -1,0 +1,55 @@
+//EVIL
+@0 = ~Oho, oho... Kapitanie, spodziewalem sie cieplejszego powitania... w koncu stales sie potezniejszy dzieki nam...~
+@1 = ~~
+@2 = ~Przypuszczam, ze chodzi ci o szkarlatna kule Sornhila.~
+@3 = ~Moze powinienem im podziekowac, magu. Co powiesz na to, zeby twoje serce znalazlo sie na moim ostrzu jako symbol wdziecznosci?~
+@4 = ~(smiech) Nie wiem, czy ta postawa wynika z kuli czy z twojego towarzystwa z potomkiem Bhaala.~
+@5 = ~Nie zaslugujesz na moje cierpliwosci, fenomenie cyrku... Niemniej jednak dzisiaj jestem laskawy: Jestem Valatar, Zaklinacz.~
+@6 = ~Przejdzmy do bardziej interesujacych spraw: Doskonale wiem, co tutaj robisz, kapitanie. Musze powiedziec, ze podzielam twa milosc do zemsty. To... wyjatkowe uczucie, gdy w koncu ja osiagniesz.~
+@7 = ~Twoje zdanie ma dla mnie znaczenie niewielkie, zaklinaczu. Powiedz, czego chcesz? Twoje zycie zalezy od odpowiedzi, która wydasz.~
+@8 = ~Zostalem wyslany przez moje Zakon. Mamy plany dotyczace ciebie i twojego... przywódcy.~
+@9 = ~Jestesmy bardzo zainteresowani wynikiem nadchodzacej potyczki miedzy twoja grupa a ta Alabarzy.~
+@10 = ~Skad macie takie informacje o naszych ruchach? Wydaje sie, ze nie róznisz sie od swojego towarzysza Sornhila. Wydaje sie, ze oboje lubicie sluchac wlasnego glosu, nawet jesli jest pusty jak wysuszona gabka.~
+@11 = ~Moge cie zapewnic, kapitanie... mój glos jest godny obaw...~
+@12 = ~Ale dosyc tego! Zostalem wyslany, by ci cos dac. Konkretnie powiedzieli mi, abym nie próbowal... cie zabic.~
+@13 = ~Mimo to, bardzo jestem ciekaw, jak daleko mozna posunac szkarlatna kule. Dlatego... przygotowalem diabelskie starcie.~
+@14 = ~Kapitanie Aldancie... na pewno jeszcze sie spotkamy... o ile przetrwasz, oczywiscie. Ha, ha, ha!~
+@15 = ~JA nie mam zamiaru cie zabic... w tym wzgledzie przestrzegam zalecen mojego Zakonu... Ale nie wspomnieli nic o moich... przywolywaniach.~
+@16 = ~To wiedzialem! Uwazaj, <CHARNAME>. Mysle, ze mamy do czynienia z arcydemonicznym planem.~
+
+
+//GOOD
+@17 = ~Oho, oho... Kapitan Aldant i jego nieodlaczny towarzysz, <CHARNAME>...~
+@18 = ~Czego szukasz, magu? Odrzucilem moc, która twój przyjaciel próbowal mi zaoferowac.~
+@19 = ~Twoje brudne sztuczki nie zadzialaja na mnie... i ostrzegam cie... jesli spróbujesz czegos, nie waham sie odciac twojej glowy od ciala moim mieczem.~
+@20 = ~(smiech) Choc nie imponujesz mi, to twoje podejscie tak. Moze to przez towarzystwo Bhaalskiego potomka?~
+@21 = ~Poniewaz nie uwazam was za prawdziwe zagrozenie, powiem wam: Jestem Valatar, Zaklinacz.~
+@22 = ~A co ty tutaj robisz, Valatarze? Wyraznie nas sledzisz. No dalej, mów!~
+@23 = ~Hmpf... to juz nie jest zabawne...~
+@24 = ~Zobaczysz, moje Zakon z wielkim zainteresowaniem sledzi twój nadchodzacy pojedynek z Alabarza i jego klanem.~
+@25 = ~Jesli ich pokonasz, nadal mozesz odzyskac swa czesc jako Pierwszy Miecz w Armii Cormyru, nie sadzisz?~
+@26 = ~C-cóz...?~
+@27 = ~Gdybys przyjal moc szkarlatnego orbu, to nie bylbys teraz zmartwieniem.~
+@28 = ~Orb obudzilby w tobie potezna sile. Czulbys sie tak potezny jak smok.~
+@29 = ~Ale... zamiast tego poruszasz sie jak wilk, zalezny od impulsów swojego stada.~
+@30 = ~Gdy nadejdzie odpowiedni moment, kapitanie... zobaczysz, jak niewiele moze zdzialac stado dzikich zwierzat przeciwko prawdziwej sile.~
+@31 = ~Próbujesz mnie zastraszyc, Valatarze... moze nawet w mojej nieswiadomosci dotyczacej twojego Zakonu moglbym sie zastanawiac.~
+@32 = ~Ale polegam na lojalnosci moich przyjaciól: Mathyusa, Michelsona, <CHARNAME>.~
+@33 = ~Strach nie jest bronia, jakiej mozesz uzyc przeciwko mnie.~
+@34 = ~Ha! To sie jeszcze okaze, cormyrzanczyku.~
+@35 = ~Wyslano mnie tylko, by obserwowac... nie wolno mi was zabijac.~
+@36 = ~Ale nic nie powiedzieli o moich przywolaniach.~
+@37 = ~~
+@38 = ~~
+@39 = ~~
+
+
+
+
+@210020 = ~Dusk Aldant: Zemsta Pierwszego Miecza
+
+Podczas podrózy do Kurhanu Trolli, kolejny czarodziej nas przechwycil. Tym razem byl to Valatar, Czarownik. Poczatkowo udawal, ze oczekuje podziekowan od Duska za zwiekszenie jego mocy dzieki szkarlatnej kuli. Dusk jednak zagrozil mu smiercia, wiec Czarownik wezwal poteznego demona otchlannego, by nas zniszczyl.~
+
+@210022 = ~Dusk Aldant: Zemsta Pierwszego Miecza
+
+Podczas podrózy do Kurhanu Trolli, kolejny czarodziej nas przechwycil. Tym razem byl to Valatar, Czarownik. Po krótkiej wymianie zdan, w której Valatar oznajmil, jaka moc zmarnowal Dusk, odrzucajac szkarlatna kule, postanowil wyslac demona otchlannego, by nas zniszczyl.~

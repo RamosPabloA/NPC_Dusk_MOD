@@ -1,0 +1,112 @@
+@0 = ~Ardusk, <CHARNAME>, przybyli.~
+@1 = ~Brakuje niewiele czasu... oni nadchodza...~
+@2 = ~Bede tutaj czekac... w cieniach...~
+@3 = ~"Oni", Danctian? Mówisz o magach z Zapomnianej Krypty...~
+@4 = ~Tak... lepiej, zebyscie byli przygotowani.~
+@5 = ~Witajcie.~
+@6 = ~Grupa <CHARNAME> i Zapomnianej Krypty wreszcie sie spotkaly...~
+@7 = ~Co to oznacza?~
+@8 = ~Czyzbys nie chcial poznac przedstawiciela Pandemonium, nekromancie? Pozwól, ze przedstawie Danctiana Cienia.~
+@9 = ~Jestem gotów, kiedy tylko rozkazesz, Ardusk.~
+@10 = ~Czy smiesz zdradzic Zapomniana Krypte, chlopcze?!~
+@11 = ~Wiedzialem, Antaghar. Zaufanie tym glupkom to blad.~
+@12 = ~<CHARNAME>, wydajesz sie lekko zdezorientowany.~
+@13 = ~Rzeczywiscie, Danctian. Jednak wole zdradzic tych przekletych magów niz zawierac z nimi sojusz. Choc wolalbym znac pelny obraz tego, co sie dzieje.~
+@14 = ~Moze lepiej, zeby Ardusk ci to wyjasnil...~
+@15 = ~Jedyne, co mielibysmy od tego robaka, <CHARNAME>, to pewna smierc z jego rak.~
+@16 = ~Jestesmy tylko pionkami w jego grze. Powinienes to juz wiedziec... jak latwo jest poswiecac pionki...~
+@17 = ~Nie jestesmy niczym wiecej niz pionkami w jego grze, <CHARNAME>.~
+@18 = ~Nie mamy znaczenia, poza tym, jakie mamy dla niego znaczenie.~
+
+
+
+@19 = ~Nie pozwole, by to sie stalo!~
+@20 = ~Nekromanto! Naprawde myslales, ze zgodzimy sie na sojusz z toba?~
+@21 = ~Wszystkie twoje próby... wszystkie twoje pacholki... wszystkie twoje zaklecia... przywiodly nas tu.~
+@22 = ~Tutaj: do twojego ostatecznego przeznaczenia. Do zniszczenia wszystkiego, co czcisz.~
+@23 = ~Glupi chlopcze... czy naprawde sadzisz, ze jestes naszym równym? Nawet pólbóg, który ci towarzyszy, nie zrobi róznicy!~
+@24 = ~Nawet ten... sluga ciemnosci nie powstrzyma nas.~
+@25 = ~Przyszlismy przygotowani! My--~
+@26 = ~Nie obawiaj sie, <CHARNAME>. Anthagar planowal nas zabic, aby przywrócic Velsharúna na ten plan.~
+@27 = ~Wiem, Anthagar, slugo Mellifleur. Dlatego... my... takze przyszlismy przygotowani...~
+@28 = ~Repliki sa gotowe do walki, Ardusk.~
+@29 = ~Beda swiadkami potegi cieni z Pandemonium...~
+@30 = ~Oho, oho... w koncu przyjdzie nam sie rozliczyc, co nie?~
+@31 = ~Tak, <CHARNAME>. Nie ma innej opcji...~
+@32 = ~Dobra robota, Danctian. Rozcinajmy serca tych nieszczesników.~
+@33 = ~Nie tak szybko, kapitanie. Jest cos, co uwazam, ze twój przywódca powinien wiedziec.~
+@34 = ~*zlosliwy smiech* Co jest? Wydajesz sie zdziwiony.~
+
+
+
+@35 = ~Nie sluchaj go, <CHARNAME>. Spróbuje nas podzielic przed walka.~
+@36 = ~Ach, tak?~
+@37 = ~Abyssalna sila jest na skraju pojawienia sie, musimy byc ostrozni!~
+@38 = ~*Abyssalny demon pokazuje straszliwe szczeki, atakujac grupe*~
+@39 = ~Ludzie nie sa godni zaufania, Anthagar... a ten cormyreanin nie jest wyjatkiem.~
+// Pojawia sie dempit
+@40 = ~Ah... stworzenie z Otchlani...~
+@41 = ~Jego krew umozliwila ulepszenie Miecz Karmazynowego... a co za tym idzie, kucie Gniewu.~
+@42 = ~Co diabla? Dusk, mówiles, ze demon zostal calkowicie zniszczony...~
+@43 = ~Dusku! Oklamales mnie... Co oznacza ta zdrada?~
+@44 = ~*Orby Danctiana swieca nietypowo, a widzisz, ze jego pazury i pazury jego replik rosna niebezpiecznie w obliczu twojego groznego tonu*~
+@45 = ~Zatrzymaj sie, Danctian!~
+@46 = ~<CHARNAME>! Tak... to prawda... zdradzilem cie... Ale zrobilem to dla wiekszego celu.~
+@47 = ~Chciales potegi? Wymierzylem Miecz Karmazynowy dla ciebie... zabilem i rozszarpalem naszych wrogów, dla ciebie.~
+@48 = ~Tak... demon znów sie pojawia (musze przyznac, ze sie tego nie spodziewalem).~
+@49 = ~Ale... rozbilismy go wczesniej... I teraz nie bedzie inaczej!~
+@50 = ~Tak myslisz, kapitanie...~
+@51 = ~Ale teraz mój Puki nie jest sam. Nie jest jedynym demonem, którym wlada, jak wkrótce zobaczysz...~
+@52 = ~Milcz, lajdaku! <CHARNAME>, mój miecz nadal jest twój. Walcz u mojego boku... pomóz mi pomscic moja zone... i zawsze bede tobie wierny, az do mojego ostatniego oddechu.~
+
+
+
+@53 = ~Przez mroki Pandemonium, tak przysiegam!~
+@54 = ~*Danctian wraca do normy, ale nadal pozostaje w napieciu, jego spojrzenie teraz skierowane ku czarodziejom z Zapomnianej Krypty*~
+@55 = ~*Wokól demona sombrego rosnie grozna aura. Wiesz, ze bitwa zaraz sie rozpocznie...*~
+// Przed walka
+@56 = ~Te nikczemne magowie musza zostac pokonani! Bubu nie chce byc niczyim pionkiem, a tym bardziej tych nikczemnych nekromantów... Czas popykac w magiczne tylki! Prosto w oczy, Bubu, prosto w oczy!~
+@57 = ~Za Baervana, wy nekromanci nie zajdziecie daleko. Tak by chcial Quayle. Jestem gotowa!~
+@58 = ~Dusku, choc nie zgadzam sie z twoimi motywacjami, uwazam, ze musimy zakonczyc te korupcje arkaniczna. Velsharun nie powinien powstac! W imie Torma, mój miecz sluzyc bedzie twojej sprawie.~
+@59 = ~Rozumiem twoje pragnienie zemsty na swojej ukochanej, Dusku. Zrobilbym to samo dla Patricka... Mozesz na mnie liczyc!~
+@60 = ~Wreszcie bedziemy mogli rozszarpac tych nikczemnych czarodziejów. Dusku, pozwól mi zajac sie tym zuchwalcem Zaklinaczem!~
+@61 = ~Ilu niewinnych padlo z rak tych nekromantów? Czas rozliczyc sie. Magia nie powinna byc z góry zla, to wam udowodnie!~
+@62 = ~Nieumarli sa zniewaga wobec natury, Anthagar... dlatego w imie Silvanusa twój los konczy sie tutaj. Za poleglych!~
+@63 = ~Wasza plugawosc konczy sie tutaj, czarodzieju! Zagrzmimy jak wiosenny wiatr, a nasze czyny odbija sie nawet w mroku tego nienaturalnego miejsca. Do boju!~
+
+
+
+@64 = ~Nie pozwole, by w Amn pojawil sie kolejny Lavok! Dusku, mozesz na mnie liczyc. Do boju!~
+@65 = ~Ci "faern" sa szaleni. Pokonanie ich dla ciebie, Dusku, bedzie przyjemnoscia. I beda piekna ofiara dla Shar.~
+@66 = ~Wreszcie, czlowieku ze sztywnym palcem. Mój czas blyszczenia nadszedl! Ci marne magiki niech wiedza, ze nie powinni wpadac w konflikt z Edwinem Odesseironem (Wam to udowodnie...).~
+@67 = ~Dosc gadania! Czas rozszarpac glowy moja topora. Dlugonogie, zostaw mi tego elfiego magika. Jego glowa bedzie pieknym tropem.~
+@68 = ~Cóz, przypuszczam, ze nie chcialbys, zebym opowiedzial ci opowiesc przed bitwa, co nie?~
+@69 = ~To nie jest dobry moment, gnomo. Nie prowokuj mnie...~
+@70 = ~To mi sie podoba, Dusku. To mi sie podoba. No to zaczynajmy: sa ludzie, którzy musza przetestowac skutecznosc mojego kusza.~
+@71 = ~Oho, oho! Walki takie to ja toczylem na innych plaszczyznach, mój drogi Dusku. Ale nie tej skali. To bedzie warte skomponowania jednej czy dwóch piosenek!~
+@72 = ~Nie jestem pewna, czy droga zemsty jest wlasciwa, Dusku. Ale jesli moglam towarzyszyc <CHARNAME> po podobnych sciezkach, to przypuszczam, ze moge zrobic to samo dla ciebie.~
+@73 = ~Nadeszla godzina, zolnierzu... a skoro o zolnierzach mowa... Udalo mi sie oczarowac kilku strazników Amn i Kapucyna... Sa z elity, jak zobaczysz za kilka sekund...~
+@74 = ~Kapitanie, Puki pragnie twojej glowy. Zobaczysz równiez, jak mam pod moja opieka wiernych slug... sa... za toba... Ha, ha, ha!~
+@75 = ~Wreszcie... na te okazje acudze do specjalnej transformacji... bedzie to cos wyjatkowego...~
+@76 = ~Robisz to z zemsty? Nie rozsmieszaj mnie... jedynym winowajca smierci twojej zony jestes ty... w glebi duszy to wiesz.~
+@77 = ~To nie tylko zemsta, Anthagar... To równiez przyjemnosc... Czas na oderwanie twojej glowy nadszedl. ¡Przygotuj sie!~
+
+
+
+@78 = ~Repliki... Do ataku!~
+@79 = ~Wreszcie... odniesliscie sukces.~
+@80 = ~*Jego szkarlatne orby zdaja sie badac pole bitwy w poszukiwaniu zagrozen*~
+@81 = ~Tak, Danctian... Zwyciezylismy!~
+@82 = ~Wyczuwam, ze Ardusk polegl... niestety nie mam mocy, by go przywrócic do zycia. Jesli potrafisz to zrobic, niech tak sie stanie.~
+@83 = ~W przeciwnym razie... po prostu porozmawiaj ze mna, a ja cie przeniose z powrotem na twój plan. Wrócimy do Athkatli. Ten... talizman... Wezme go. Wykorzystam jego moc, aby nagrodzic was za to, co tu osiagneliscie.~
+@84 = ~Wreszcie, Ardusk... twoja zemsta jest kompletna...~
+@85 = ~Na razie wróccie, abym was przeniósl z powrotem do Athkatli.~
+@86 = ~Ukonczylem rytual powrotu do Athkatli, <CHARNAME>. Mam nadzieje, ze zakonczyliscie swoje sprawy tutaj. Przygotujcie sie, bo wracamy od razu.~
+@87 = ~Nie móglbym tego osiagnac bez was, ani bez <CHARNAME>.~
+@88 = ~(Hmpf. Tak, jakby Edwin Odesseiron stal bezczynnie, nic nie robiac. Ten czlowiek z rózdzka zasluguje na jedno czy dwa pouczenia, moim zdaniem)~
+@89 = ~Ani Edwin. Czerwony mag udowodnil, ze jest jednym z najlepszych czarodziejów w calym Faerûn. Jego talenty magiczne nie ustepuja niczemu wobec slug Mellifleura.~
+@90 = ~Erhm. *chrzakniecie* No cóz, to oczywiste, Dusku. Edwin musial ukarac tych magów pierwotnych. (O rany, po wszystkim, ten czlowiek ma cos... przyzwoitego)~
+@91 = ~Mam nadzieje, ze sily z Pandemonium spelnily swoje zadanie. Teraz... potrzebuje talizmanu, Ardusk.~
+@92 = ~To prawda. Prosze bardzo, Danctian.~
+@93 = ~Doskonale. Bede mógl wchlonac jego moc... Oboje skorzystamy z tego. Ty równiez, <CHARNAME>.~
+@94 = ~Niech tak sie stanie...~

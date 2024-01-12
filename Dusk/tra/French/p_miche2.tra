@@ -1,0 +1,35 @@
+
+@0 = ~*From nowhere, a laughter echoes even in the darkest corners of the area*~ [P_Mich04]
+
+@1 = ~*Finally, Michelson appears from the shadows, dancing and laughing as if it were a festival*~ [P_Mich01]
+
+@2 = ~Michelson?! You arrived... a bit too late I'm afraid...~
+
+@3 = ~*Michelson stops his dance and looks around. After a few seconds, with sadness, he realizes what happened*~
+@4 = ~*However, he sees that you carry Mathyus' body with you and his hopes seem to return, as he starts dancing wildly, as it's something usual for him*~ [P_Mich03]
+@5 = ~*With surprising strength, he takes Mathyus' body and delicately throws a shining powder over him that you assume must belong to his strange magical gems*~
+@6 = ~*He also sees that you carry the Velsharoon symbol of Anthagar with you. With some hesitation, he extends his hand to you to hand it over. As you don't see any use for it, you give it to him without further ado*~
+@7 = ~*The leprechaun looks around and sees that Dusk and Demolisher, unfortunately, have fallen in battle. However, you suppose that the little one knew that was a possibility*~
+@8 = ~*He squints his eyes and takes the Velsharoon symbol of Anthagar with both hands, raising it above his head... You understand that he will open a portal to return to Athkatla. We just have to talk to him again when we're ready to go back*~
+@9 = ~Michelson! You've arrived... I'm sorry... I'm sorry about what happened with Mathyus and Demoli... really... I'm sorry...~
+@10 = ~*Unexpectedly, Michelson starts dancing wildly*~ [P_Mich03]
+@11 = ~But, what...?~
+@12 = ~*With surprising strength, he takes Mathyus' body and delicately throws a shining powder over him that you assume must belong to his strange magical gems*~
+
+@13 = ~I see... you will try to revive him... and also Demoli, won't you?~
+@14 = ~*Michelson nods quickly*~ [P_Mich04]
+@15 = ~*He notices that we also carry the Velsharoon symbol of Anthagar with us. With some hesitation, he extends his hand towards us to ask for it.*~
+@16 = ~The symbol of Velsharoon... if you find any use for it, my friend... then it's all yours.~
+@17 = ~*The leprechaun takes the symbol in his hands. He looks around and then observes the party*~
+@18 = ~Hm... I think he's ready to take us home, <CHARNAME>. That is, to our plane. It's better if we talk to him when we're ready...~
+@19 = ~*He nods at Dusk's statement. Once we're ready, we just need to talk to Michelson to return to Athkatla*~
+@20 = ~*The leprechaun looks around and sees that Dusk, unfortunately, has fallen in battle. However, you suppose that the little one knew that this was a possibility*~
+@21 = ~*Demolisher shows himself anxious before Michelson, as if demanding that he execute his spells right away*~ [P_Demo01]
+@22 = ~Michelson! You have arrived... I'm sorry... I'm sorry about what happened to Mathyus... really... I'm sorry...~
+@23 = ~I see... you'll try to revive him... won't you?~
+@24 = ~*Michelson's ritual has ended. Soon you see a flash appear in front of you, opening a portal to a familiar place...*~
+@25 = ~~
+@26 = ~~
+@27 = ~~
+@28 = ~~
+@29 = ~~

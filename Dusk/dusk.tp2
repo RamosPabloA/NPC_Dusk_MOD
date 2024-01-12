@@ -2,7 +2,7 @@ BACKUP ~Dusk/Backup~
 
 AUTHOR ~Pol Rupes - pablo.alejandro.ramos@gmail.com~ 
 
-VERSION ~v1.0.0~
+VERSION ~v1.6.0~
 
 README ~Dusk/Readme-Dusk.txt~
 
@@ -43,6 +43,8 @@ LANGUAGE ~Spanish~ ~Spanish~ ~Dusk/tra/Spanish/setup.tra~
 LANGUAGE ~English~ ~English~ ~Dusk/tra/English/setup.tra~ 
 
 LANGUAGE ~Italian~ ~Italian~ ~Dusk/tra/Italian/setup.tra~ 
+
+LANGUAGE ~Polish~ ~Polish~ ~Dusk/tra/Polish/setup.tra~ 
 
 BEGIN @1 /* Dusk MOD */ 
 

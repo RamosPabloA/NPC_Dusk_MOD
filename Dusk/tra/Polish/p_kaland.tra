@@ -1,0 +1,66 @@
+//EVIL
+@0 = ~...~
+@1 = ~<CHARNAME>... tak, opisujesz sie zgodnie z opisem.~
+@2 = ~Co tu sie...? Elfie! Skad znasz moje imie?~ 
+@3 = ~Znasz moja tozsamosc... a jednoczesnie wydzielasz energie arkaniczna, elfie. Dusku, ta istota musi byc czescia Zakonu, który nas sciga!~
+@4 = ~*chrzakanie* Och, to dlatego jestes tak slawny. Twoje czyny dotarly nawet tutaj, na wyspe Brynn Ley.~ ~*chrzakanie* Och, to dlatego jestes tak slawna. Twoje czyny dotarly nawet tutaj, na wyspe Brynn Ley.~
+@5 = ~<CHARNAME>, mamy do czynienia z Transmutatorem.~
+@6 = ~Co?! (Hmpf... wiedzialem, ze nie uda mi sie ich przekonac... cholerna chwila, kiedy posluchalem rad Sornhila)~
+@7 = ~Wiec rozpoznales moja specjalizacje szkolna, czlowieku. Tylko patrzac na mnie... imponujace.~
+@8 = ~Chyba nie mam innego wyjscia niz sie przedstawic. Mam na imie Kalanda, Transmutator.~
+@9 = ~A ty, <CHARNAME>, nie jestes niczym innym niz synem Bhaala, towarzysz Asasyna Magów.~ ~A ty, <CHARNAME>, nie jestes niczym innym niz córka Bhaala, towarzysz Asasyna Magów.~
+@10 = ~*westchnienie* Widze, ze tez znasz mój rodowód. To musi byc najgorzej skrywany sekret na Wybrzezu Miecza...~
+@11 = ~A gdyby tak bylo, co bys zrobil? Czuje, ze mimo twojej rasy nie jestes stworzeniem przyjaznym, elfie.~
+@12 = ~Co to za nazwa, Kalanda? Smieszne...~
+@13 = ~Jestes ofiara swoich wlasnych czynów, <LADYLORD> <CHARNAME>. Nie mozna oczekiwac, ze wiele stworzen o sile bedzie swiadomych twojego pochodzenia.~
+@14 = ~Moja natura jest znacznie bardziej metodyczna niz moich... towarzyszy. Ale to nie znaczy, ze powinienes mnie lekcewazyc...~
+@15 = ~Mozesz sie smiac ile chcesz, <PRO_RACE>. Twoje próby wywolania we mnie dzikiego zachowania nie przyniosa rezultatu. Choc... to nie znaczy, ze nie moge byc... nieprzewidywalny dla ciebie.~
+@16 = ~Mimo wszystko nie jestem tutaj, aby rozmawiac o tym. Zostalem wyslany na te smierdzaca wyspe, pelna plugawych piratów, tylko po to, aby was przetestowac.~
+
+
+
+@17 = ~Na próbe? Ha! Jakie wyzwanie moze postawic przed nami taki zalosny mag, jak ty, elfie?~
+@18 = ~Czy naprawde musisz prowokowac starcie, Dusku? Mamy tu wazniejsze sprawy do zalatwienia.~
+@19 = ~Musisz byc ostrozny, Dusku. Podobnie jak nietoperz nie moze znalezc pozywienia, gdy wiatr wieje zbyt mocno, ja nie bylem w stanie znalezc w tej elfiej istocie ani grama natury.~
+@20 = ~*smiech* Kto by pomyslal, abbil? Masz w sobie troche rasowej przemocy. Mysle, ze elfy powierzchniowe zasluguja na to...~
+@21 = ~Hm... ten elf ma wokól siebie dziwna energie, czlowieku z patykiem. Jednak nie sadze, by mógl konkurowac z moimi zakleciami. (Nie, nie sadze, ze móglby...)~
+@22 = ~Pluje na twoje grozby, elfie smieciu. Szczuple nogi, powiedz tylko slowo, a rozedrgam go dla ciebie.~
+@23 = ~Bialy kruku, musze ci powiedziec, ze ten Kalanda ma w sobie tajemnicza sile. Nie powinnismy lekcewazyc jego grozb.~
+@24 = ~Moje Zakon jest potezny, Asasynie Magów. Moze i trenowales z Oczami Weza, aby wzmocnic swoja odpornosc na magie... ale to nie wystarczy.~
+@25 = ~Co?! Jak to wiesz, elfie? Mów, czy zginiesz teraz!~
+@26 = ~Czy to ma byc zart? Nie rozumiem humoru ludzi... wydaje mi sie to zalosne.~
+@27 = ~Nie, nie zamierzam mówic, Asasynie Magów. I nie, to tez nie jest moja godzina smierci.~
+
+
+
+@28 = ~Ale bedzie wasza, jesli nie zdasz tego sprawdzianu.~
+@29 = ~Patrzcie uwaznie na to!~
+@30 = ~Wygladasz na zdziwionego, Asasynie Magów.~
+@31 = ~Masz duzo pewnosci siebie, czlowieku. Zastanawiam sie, co mysli na ten temat syn Bhaala.~ ~Masz duzo pewnosci siebie, czlowieku. Zastanawiam sie, co mysli na ten temat córka Bhaala.~
+@32 = ~Na serio? Ja sniadam diabelki i worgi. Ten sprawdzian to bulka z maslem.~
+@33 = ~Uwazam, ze Dusk ma racje. Musi byc jakis haczyk w tym, czarodzieju... co to jest?~
+@34 = ~Mówisz powaznie? Te stworzenia nie sa dla nas wyzwaniem, Kalando.~
+@35 = ~Co naprawde knujesz?~
+@36 = ~Wyglada na to, ze <CHARNAME> ma racje. Musi byc jakis podstep za tym, czarodzieju... co to jest?~
+@37 = ~Wyglad moze wprowadzic w blad, <CHARNAME>. Powinienes to wiedziec... i przekonasz sie...~
+@38 = ~Bardzo spostrzegawczy, <CHARNAME>. Obydwoje tworzycie dobra druzyne. Ale to was nie ocali.~
+@39 = ~Niezdanie tego sprawdzianu oznacza smierc, <CHARNAME> i Dusku. A badzcie pewni: to nie ostatni raz, kiedy nasze drogi sie skrzyzuja!~
+
+// GOOD
+
+@40 = ~<CHARNAME>, uwaga! Wyczuwam w nim szczególna energie... to Transmutator.~
+@41 = ~D-dusk! Uspokój sie. Nie jestes jedyny, który uzyje wszystkich sil, by obronic <CHARNAME>. Masz wiecej niz jednego przyjaciela u swojego boku.~
+@42 = ~Ah, tak, typowa intryga elfiego transmutatora. Pamietam, ze Golodon uzywal wielu zaklec tej szkoly. Raz przywolal zólwia, który mial wielkosc mojego kolana. Golodon rzucil na niego zaklecie transmutacji, a stworzenie wyroslo na tyle, ze postanowilismy zbudowac chatke na jego pancerzu i mieszkac tam przez pewien czas. To byly dobre czasy. Chce powiedziec, Dusku, zebys uwazal na tego elfiego transmutatora. Moze miec zamiar cos zlego zrobic za pomoca swoich transmutacji.~
+@43 = ~Co?! Jak to wiesz? Mów! Nie zmuszaj mnie do zabicie cie, Kalando.~
+@44 = ~O co ci chodzi? Jesli próbujesz zaszkodzic <CHARNAME>, to twój leb poleci, Kalando!~
+@45 = ~~
+@46 = ~~
+@47 = ~~
+@48 = ~~
+@49 = ~~
+
+
+
+@210036 = ~Dusk Aldant: Zakon Magów
+
+Spotkalismy Kalande, Transmutatora, na Brynn Ley. Wydaje sie, ze na nas czekal, aby nas przetestowac, przywolujac kilka slabych istot, a nastepnie zamieniajac je w krwiozercze potwory. Co ci czarodzieje chca od Duska i mnie? Jeszcze nie wiemy. Ale mam przeczucie, ze to nie bedzie ostatni raz, kiedy o nich uslyszymy.~

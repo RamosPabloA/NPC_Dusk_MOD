@@ -1,0 +1,133 @@
+@0    = ~*warczenie* Zadzialalo...~
+@1   = ~Era to, czego sie spodziewalem.~
+@2   = ~Czlowieku! Przyszedles, jak powiedzial mag. Prosto... do moich szczek...~
+
+@3   = ~Czarodziej? Wiedzialem, ze Valatar albo Sornhil sa zaangazowani...~
+@4   = ~Nie mam pojecia, jak nazywa sie ten elf mag, i tak naprawde mnie to nie obchodzi.~
+@5   = ~Kalanda bylo jego imie, mój panie. Jego zaklecie transmutacji jest niesamowite. Nie sadzilem, ze przetrwal tak dlugo.~
+@6   = ~Chimi: Juz sie przyzwyczailem, by widziec go jako wiewiórke, szefie.~
+@7   = ~Toxsan: To nie byla wiewiórka, Chimi. To byl fretka.~
+@8   = ~Nadal uwazam, ze borsuk bylby lepszym wyborem.~
+@9   = ~To dlatego, ze masz obsesje na punkcie borsuków, Kocha.~
+@10   = ~Sadze, ze sa wazniejsze sprawy do omówienia, towarzysze.~
+@11   = ~Cicho, idioci! Zolnierz i ja próbujemy rozmawiac. Nie sadze, zeby to skonczylo sie czyms innym niz rzezia...~
+@12   = ~Dusku, nie chce cie niepokoic, ale jestesmy otoczeni.~
+
+// EVIL (part1)
+
+@13   = ~¡Ha! Wiec ty musisz byc synem Bhaala: <CHARNAME>. Zabijanie ciebie bedzie dodatkowa korzyscia dla mojego klanu.~ ~¡Ha! Wiec ty musisz byc córka Bhaala, <CHARNAME>. Zabijanie ciebie bedzie dodatkowa korzyscia dla mojego klanu.~
+@14   = ~¡Scierwo! Nie zwracaj sie do niego. Twoje brudne usta nie sa godne wymawiania jego imienia.~ ~¡Scierwo! Nie zwracaj sie do niej. Twoje brudne usta nie sa godne wymawiania jej imienia.~
+@15   = ~*warkniecie* Wciaz masz te zlosc, zolnierzu. Ale nie bedzie jak ostatnim razem... Nie... Alabarza Mutilator skonczy z toba... raz na zawsze.~
+@16   = ~Wyglada na to, ze zapomniales, kto wyrwal ci oko, potworze. Chcesz, zebym dokonczyl dziela i wyrwal drugie? Zrobie to z przyjemnoscia.~
+@17   = ~*gardlowy smiech* Wydaje sie, ze nie zdajesz sobie sprawy z sytuacji, zolnierzu.~
+@18   = ~Moji wojownicy skoncza z twoimi... a ja z toba...~
+
+// NPCs
+
+@19   = ~Dusk, <CHARNAME>, Minsc i Boo sa gotowi, by przylozyc orkom i trollom!~
+@20   = ~Lysy! Te szczurza bestie zabiore sobie. Komar tego wymaga! Komar zlamie twoje kosci i zabierze malego futrzaka dla swojej rozrywki!~
+@21   = ~Lysy? To ty bedziesz lysy, nikczemny ogrze! A Boo nie bedzie niewolnikiem nikogo. Furia chomika jest wolna i sprawi, ze zobaczysz gwiazdy!~
+@22   = ~O nie podoba mi sie to... Ale zrobie, co w mojej mocy, by bronic moich przyjaciól!~
+@23   = ~To moze byc nasza ostatnia bitwa, moi przyjaciele. Ale na Torma dam z siebie wszystko!~
+@24   = ~Paladynie! Szefie, pozwól mi sie nim zajac. Upewnie sie, ze spotka sie z swoim bogiem tak szybko, jak to mozliwe.~
+@25   = ~Spróbuj, istoto! Zobaczysz, jak szybko upadniesz przed ostrzem Sprawiedliwosci.~
+@26   = ~Cóz, pora przetestowac moje umiejetnosci wojenne (choc nie sa imponujace, moze przestrasze pare potworów).~
+@27   = ~Arvorinie, daj mi sile do zwyciestwa w tej walce!~
+@28   = ~Chimi: Wiec chcesz pozrec te pólelfke, Bob? Smialo, zrób to. Zostaw troche kosci dla swojego brata Mike'a, co?~
+@29   = ~(Stworzenie skupia swoje oczy na Mazzie. Prawie wydaje sie, ze oblizuje sie)~
+@30   = ~Nienawidze to mówic, ale to nie pierwszy raz, kiedy potwór próbuje mnie pozrec... Niemniej jednak, obawiam sie, ze bedziesz musial pozostac z tym pragnieniem, stworze.~
+@31   = ~Dzis przynosisz troche akcji, Dusku! Helmie, daj mi sile. Dzis bede walczyl w twoim imieniu i zwycieze!~
+@32   = ~Szefie, pozwól mi zajac sie tym mlodym mnichem. Zawsze milo jest pobic zarozumialych ludzi.~
+@33   = ~Za pamiec o moim ojcu, nie pozwole, by nedzne trolle grasowaly na tych ziemiach!~
+@34   = ~Mam wrazenie, ze do mnie mówisz, dziewczyno.~
+@35   = ~Za de'Arnise! Dzis bedzie ostatni dzien, w którym oddychasz, potwore.~
+@36   = ~*fnukniecie* Mam dosc tych zarozumialych ludzi...~
+@37   = ~Dusku, twa chec zemsty jest zrozumiala i mile widziana. I bedzie zaszczytem walczyc u twojego boku, by ja spelnic!~
+@38   = ~Czas zakonczyc ten Tumult. Legowisko tak blisko Zagajnika to obraza dla natury.~
+@39   = ~Toxsan: Co ty na to, Mike? Chcesz pozrec tego ludzkiego druida? Dla mnie ok, witaj w klubie. Nie zapomnij o swoim bracie Bobie, ok?~
+@40   = ~(Mroczna masa skierowuje swoje cztery oczy na Cernda, niecierpliwa, by jej pan puscil wodze i mogla rozpoczac atak)~
+@41   = ~Istoto, dzis staniesz sie pozywieniem dla robaków i przyczynisz sie do cyklu zycia poprzez swoja smierc.~
+
+
+
+@42   = ~Dusk, nadszedl czas. Bedziemy wymierzac sprawiedliwosc twoim poleglym towarzyszom!~
+@43   = ~No cóz, rivvilu, przeszlismy dluga droge, by tu dotrzec. Wykorzystam bozestwo Shar dla twojego dobra, nie zapominaj o tym. Nasi wrogowie upadna w Wieczne Mroczki.~
+@44   = ~*syczenie* Drow! Panie, pozwól mi sie nia zajac, prosze. Obiecuje, ze bede... bardzo skrupulatny.~
+@45   = ~Chociaz obojetnie podchodze do twojej przeszlosci, czlowieku z patykiem, przyznaje, ze to dobra okazja, by przetestowac moje zaklecia. Szczególnie przeciwko tej jaszczurce.~
+@46   = ~Mówisz do mnie, czerwony czarodzieju?~
+@47   = ~Dokladnie tak, zabciu! Bedziesz mial zaszczyt umrzec z rak Edwina Odesseirona.~
+@48   = ~Jestes szalony, magu. Choc to mnie nie dziwi u czlowieka. Panie, pozwól mi skonczyc z tym czlowieczkiem.~
+@49   = ~Dobrze, chudzielcu! Wprowadziles nas w 'pulapke'. Co ci ci nieszczesnicy nie wiedza, to ze masz do czynienia z toporem Korgana.~
+@50   = ~Chimi: Patrz, Toxsan! Krasnolud. Przypomina mi stare czasy.~
+@51   = ~Toxsan: Tak, Chimi. Ich miazdzenie bylo naszym hobby. Teraz mozemy sobie to przypomniec, prawda?~
+@52   = ~Oto jestes, przeklety ettinie. Chodz, przetestuj moja topór! Zobaczysz, jak szybko cie rozszarpuje.~
+@53   = ~Wiec wpadlismy w pulapke, co? To mi przypomina pewien czas--~
+@54   = ~Nie sadze, ze to najlepszy moment na jedna z twoich opowiesci, Janie.~
+@55   = ~No cóz, no cóz. Ale opowiem ci ja, gdy juz tutaj zwyciezymy. Co powiesz, dobry Dusku?~
+@56   = ~Umowa stoi.~
+@57   = ~Ahhhh, bialy kruku. Wpadles w pulapke. Ale, kim jestem ja, zeby cie osadzac? Sam bylem w podobnych sytuacjach. No, chodzmy, pokonajmy tych glupców, aby móc skomponowac jedna czy dwie piesni o naszych wyczynach.~
+
+
+// EVIL (part2)
+
+@58   = ~Chodzcie, wojownicy! Jestesmy Zabójcami Smoków... i pozostal nam tylko jeden smok do zabicia.~
+@59   = ~Panu, nie zawiode!~
+@60   = ~Khjjjiii! Zbuduje oltarz z ich kosci.~
+@61   = ~Szefie, udowodnie moja sile. Za nasz klan!~
+@62   = ~Zrobie uczte z miesa naszych wrogów. Bedzie to pyszne uczta...~
+@63   = ~*syczenie* Wreszcie... zostawmy kogos przy zyciu... Chce eksperymentowac na ich cialach!~
+@64   = ~Chimi: No dalej, Bob... Rywalizuj z bratem, zobaczmy, kto lepiej rozgromi tych mizernych!~
+@65   = ~(Na slowa Chimiego, Masa przygotowuje swoje straszliwe pazury, by ruszyc do ataku)~
+@66   = ~Toxsan: Slyszales, Mike? Chimi rzucil wyzwanie. Nie zawiedz mnie!~
+@67   = ~(Mike uderza swoje piesci o siebie i rusza do ataku po slowach Toxsana)~
+
+
+// GOOD ORBET RING BELLFAME
+@68   = ~Pokonalem cie juz raz, Alabarzo. Moge to zrobic ponownie.~
+@69   = ~Nie jestem sam w tym, potworze.~
+@70   = ~Myslales, ze jestesmy w mniejszosci, Alabarzo? W tym sie mylisz. Orbe, przywolaj moich przyjaciól!~
+@71   = ~(Dusk unosi orba teleporacyjnego, który swieci sie. Wokól niego otwieraja sie rózne portale)~
+
+@73   = ~Ale co--?!~
+@74   = ~W imie Szlachetnego Zakonu Promiennego Serca: staniemy do walki!~
+@75   = ~No sadzilem, ze zaklecie malego zielonego faceta zadziala.~
+@76   = ~Wow, co za zawroty glowy!~
+@77   = ~Uwazaj, Coco! Nie okazuj slabosci wobec wroga.~
+@78   = ~Cufa: Hurra! Ta podróz moze byc naprawde zabawna. Mozemy to zrobic jeszcze raz, Tima?~
+@79   = ~Tima: Latwo powiedziec, Cufa. Wydaje mi sie, ze to ja cierpialem na skutek tego zawrotu glowy.~
+
+
+
+@80   = ~*warkot* Wiec masz swoja wlasna armie, zolnierzu...~
+@81   = ~Byl to swietny pomysl, Dusk. Wyglada na to, ze teraz gra jest wyrównana.~
+@82   = ~¡Dusk! Bedziemy pod twoim dowództwem i pod dowództwem <CHARNAME>. Maly zielony facet powiedzial, zebys sie nie martwil, jesli ktos z nas polegnie w walce. On zajmie sie wskrzeszeniem zmarlych, bez wzgledu na powage rany.~
+@83   = ~Ale aby to dzialalo, Dusk, musimy wygrac te bitwe. Musze przyznac, ze przyjaciel elfa o zielonych wlosach jest dosc potezny.~
+@84   = ~Interesujace, mój panie. Nigdy wczesniej nie bylem swiadkiem takiej potegi, jak w tych ostatnich dniach. Miedzy transmutatorem a magiczna kula, która wyciagnal ze swojej rekawa zolnierz, jestem zaszokowany.~
+@85   = ~Prawda jest taka, ze Ty dziwisz sie wszystkiemu, Tongas.~
+@86   = ~*syczenie* Zielony facet? Jesli sie pojawi, chce go torturowac.~
+@87   = ~Rób co chcesz, jaszczurko. Ja mysle, ze zadowole sie ta gnoll. *Obmysla sie*~
+
+
+
+@88   = ~*warkot* To sie jeszcze okaze, obrzydliwy orogu.~
+@89   = ~Czy to konieczne, zeby to skonczylo sie na bójce? Moglibysmy wszyscy byc przyjaciólmi i zyc szczesliwie!~
+@90   = ~Szefie, trasg z glosikiem dziecinnym! Trasgu, bedziesz moim zwierzakiem.~
+@91   = ~Ugh... jestes bardzo niegrzeczny, ogrze. Nawet we snie.~
+@92   = ~Cufa: Tima, widziec to? Kolejny ettin!~
+@93   = ~Tima: Tak, widze, Cufa. Widze tez jego... zwierzatka...~
+@94   = ~Toxsan: Nie moge uwierzyc wlasnym oczom. Ettin walczacy u boku ludzi i paladynów...~
+@95   = ~Chimi: Jak to mozliwe, ze nie mozesz uwierzyc? Widzisz to naszymi oczami, Toxsan!~
+@96   = ~Toxsan: *wzdycha* Wiem, Chimi. To tylko wyrazenie.~
+@97   = ~Toxsan: Nie sadze, ze mozemy byc przyjaciólmi z tymi dzikusami, Chimi. Mysle, ze musielibysmy przedstawic im nasze zwierzatka, co nie?~
+@98   = ~(Bob przygotowuje swoje rece, niecierpliwie oczekujac na rozkazy swojego pana, by rzucic sie do ataku)~
+@99   = ~(Mike robi to samo, skupiajac swoje oczy na ofiarach przed soba)~
+@100  = ~Cufa: Tima, zdobywanie zwierzaków w ten sposób, nieprawdaz?~
+@101  = ~Tima: Cufa, juz masz zwierzaki. I watpie, ze te olbrzymy dogadaja sie z konmi Zakonu.~
+@102  = ~Dobrze... Zolnierze, do formacji! Czeka nas trudna bitwa...~
+@103  = ~Chodzcie, wojownicy! Jestesmy Zabójcami Smoków... ale tym razem... Przypuszczam, ze bedziemy musieli zadowolic sie zabiciem tego... psa.~
+@104   = ~Lepiej sie rozbudz, zolnierzu... Nadal jestes otoczony i przewyzszony liczebnie. Moi wojownicy zaczna uczte z twoich kosci.~
+@105  = ~Kapitanie... przygotuj sie... ¡Pójde po ciebie!~
+@106  = ~Och, Dusk... ty to umiesz nawiazywac przyjaznie, co nie? No, przylacze sie, pomoge wam stawic czola tym potworom.~
+@107  = ~~
+@108  = ~~
+@109  = ~~

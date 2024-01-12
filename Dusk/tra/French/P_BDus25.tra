@@ -1,0 +1,59 @@
+// AERIE - EVIL
+
+@0    = ~...~
+@1    = ~You still haven't gotten used to my presence, have you, Aerie?~
+@2    = ~I, I...~
+@3    = ~Don't worry about it. It doesn't matter to me whether you get used to it or not. I am what I am.~
+@4    = ~But, Dusk... you weren't like this before... you've changed.~
+@5    = ~We all do. Even you, little one.~
+@6    = ~Yes, b-but... you changed because of an external factor.~
+@7    = ~Yes... the scarlet orb. Perhaps, it simply brought out my true personality. My true self.~
+@8    = ~No, I don't think that's the case, Dusk. I think you can go back to who you were. It's not too late.~
+@9    = ~For some things... it's already too late, my friend... too late...~
+
+// ANOMEN - NEUTRAL/GOOD
+
+@10   = ~If there's something you want to say, go ahead and say it, good Dusk. I've noticed you've been trying to strike up a conversation about something for quite some time now.~
+@11   = ~*coughs* Apologies, Anomen. It's true, I wanted to ask you something about the army, if you don't mind.~
+@12   = ~I understand. Go ahead and ask, my friend.~
+@13   = ~What does the Amn army do with... deserters?~
+@14   = ~Hmm... when I was a squire, I didn't see too many situations like that. But from what I have seen, immediate expulsion from the army. In some cases, imprisonment.~
+@15   = ~Why do you ask?~
+@16   = ~Oh, it's nothing... basically... I never returned to Cormyr after my encounter with the orcs.~
+@17   = ~I suppose that counts as... desertion.~
+@18   = ~Oh, I see...~
+@19   = ~Yes... well, thank you for your time, Anomen.~
+@20   = ~But, along with <CHARNAME>, you have forged an impeccable reputation. Undoubtedly, it is something a superior would take into account.~
+@21   = ~Do you think so? Gratitude, Anomen. It has been a pleasure talking with you.~
+
+
+// SAREVOK - NEUTRAL/GOOD
+
+@124  = ~Why are you staring at me so intently, little man?~
+@125  = ~Little man? Watch it, cretin. My name is Ardusk Aldant, First Sword of--~
+@126  = ~Yes, yes. I'm not interested.~
+@127  = ~*clears throat* Anyway... there's something about you I can't quite grasp.~
+@128  = ~There are surely many things you don't understand, boy.~
+@129  = ~Your alliance with <CHARNAME>, for starters. He is your brother.~ ~Your alliance with <CHARNAME>, for starters. She is your sister.~
+@130  = ~How were you able to attempt to kill him? I don't have siblings... but if I did, murder would be the last thing on my mind.~ ~How were you able to attempt to kill her? I don't have siblings... but if I did, murder would be the last thing on my mind.~
+@131  = ~I don't expect a simple Cormyrean to understand the purpose of a Bhaalspawn.~
+@132  = ~I may be a simple soldier, Sarevok. But I know what loyalty is. And here you are, being loyal to <CHARNAME>. Why?~
+@133  = ~Look around us, boy. We're living in miraculous times. Power is there for the taking. I... just want to bear witness to what my brother does.~ ~Look around us, boy. We're living in miraculous times. Power is there for the taking. I... just want to bear witness to what my sister does.~
+@134  = ~Perhaps... Perhaps you might even find the answer.~
+@135  = ~Answer?~
+@136  = ~You're a man of few words, Sarevok. But I can tell when a man is searching for something. Maybe, by accompanying <CHARNAME>, you'll find it.~
+
+// SAREVOK - EVIL
+
+@137  = ~Your aura... It does not originate from this plane. What are you?~
+@138  = ~I have gained power through Pandemonium, Sarevok. Do you know of such a place?~
+@139  = ~Yes, I am aware of it, but I have not had the pleasure of being there. How did you obtain it?~
+@140  = ~I betrayed my allies. I used their life force to release a Shadow Fiend. Currently, my soul is bound to it.~
+@141  = ~I see. A understandable path. Those who are not born with inherent power are often driven to seek it out through their actions.~
+@142  = ~I don't know if obligation was what I felt... but yes, I understand what you mean.~
+@143  = ~I know. I've seen what you can do on the battlefield. Without a doubt, <CHARNAME> has gained powerful allies.~
+@144  = ~What about you? Despite no longer being a spawn of Bhaal, the power within you is notable. Chaos practically emanates from your fingertips.~
+@145  = ~I've dedicated my whole life to taking the Throne of Bhaal. The arts of war and deception were an everyday occurrence.~
+@146  = ~*sigh* That's all in the past now. I just want to bear witness to these times. <CHARNAME> will be the protagonist, and I'll be by his side to see how this story ends.~ ~*sigh* That's all in the past now. I just want to bear witness to these times. <CHARNAME> will be the protagonist, and I'll be by her side to see how this story ends.~
+@147  = ~A feeling that I will accompany, if possible. Our enemies will have no chance.~
+@148  = ~You said it...~
