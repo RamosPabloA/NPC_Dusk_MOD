@@ -101,6 +101,7 @@ For older releases and release notes, check the *Releases* page, [here](https://
 
 - Pablo Ramos: *Writer and Programmer*
 - Eduardo Van Cauteren: *Contributor*
+- Matías Romero: *Contributor*
 
 **Literature:**  
 "Tierras de la Intriga: Tethyr" by Steven E. Schend, 1997.  
