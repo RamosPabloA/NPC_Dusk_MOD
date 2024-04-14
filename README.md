@@ -133,8 +133,24 @@ Exclusively licensed and distributed by Interplay Entertainment Corp. All other
 trademarks and copyrights are property of their respective owners.
 
 Dusk NPC MOD for Baldur's Gate II © 2024. Dusk is not
+Dusk NPC MOD for Baldur's Gate II © 2024. Dusk is not
 developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay
 Entertainment Corp., or the Wizards of the Coast. All other trademarks and
 copyrights are property of their respective owners.
 
-Dusk NPC MOD mod is released under [MIT License](https://github.com/RamosPabloA/NPC_Dusk_MOD/blob/fa04cc9cdf97afcbefd68eaad60f325d4709f5aa/LICENSE.md "MIT License")
+Dusk NPC MOD Copyright (c) 2024 Pablo Alejandro Ramos
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
