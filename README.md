@@ -67,6 +67,9 @@ Is Dusk compatible Enhanced Edition (Trilogy)/EET?
 Is Dusk compatible Classic Edition?
 - So far, Dusk Mod is not compatible with this version.
 
+Can I crossmod NPC_Dusk_MOD with my project?
+- Yes, feel free to crossmod your mod with ours. It's not mandatory to credit us, but It'd be nice.
+
 ## Contacts
 
 - Follow us on social networks: [Facebook](https://www.facebook.com/bg2duskmod "Facebook")
