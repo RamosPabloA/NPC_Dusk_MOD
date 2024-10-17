@@ -1,4 +1,7 @@
-# Dusk NPC Mod for Baldur's Gate II
+# This mod development has been moved [here](https://github.com/evancauteren/bg2-autumns-twilight-mod "here")
+
+
+## Dusk NPC Mod for Baldur's Gate II
 
 **Dusk NPC Mod** features a new NPC joining to the party: Dusk, the Wizard Slayer.
 Ardusk Aldant, also know as Dusk, is a warrior from Cormyr, trained in the Order of the Purple Dragons. After a long journey to Athkatla, Dusk now becomes a notable Wizard Slayer who just wants to live in peace. But a dark figure attacks in the peaceful Waukeen's Promenade.
@@ -72,10 +75,10 @@ Can I crossmod NPC_Dusk_MOD with my project?
 
 ## Contacts
 
-- Follow us on social networks: [Facebook](https://www.facebook.com/bg2duskmod "Facebook")
+- Follow us on social networks: [Facebook](https://www.facebook.com/bg2atmod "Facebook")
 - Write me an email: pablo.alejandro.ramos@gmail.com 
 
-[![Facebook](https://img.shields.io/badge/Facebook-blue.svg)](https://www.facebook.com/bg2duskmod)
+[![Facebook](https://img.shields.io/badge/Facebook-blue.svg)](https://www.facebook.com/bg2atmod)
 
 ## Current Release
 
